@@ -1,0 +1,28 @@
+2021/08/02-08:43:48.974 28c2dd Reusing MANIFEST /home/traveler/.config/Atom/Local Storage/leveldb/MANIFEST-000001
+2021/08/02-10:05:34.803 2b66bb Level-0 table #5: started
+2021/08/02-10:05:34.807 2b66bb Level-0 table #5: 186036 bytes OK
+2021/08/02-10:05:34.809 2b66bb Delete type=0 #3
+2021/08/02-10:06:31.963 2b66bb Level-0 table #7: started
+2021/08/02-10:06:31.966 2b66bb Level-0 table #7: 55291 bytes OK
+2021/08/02-10:06:31.968 2b66bb Delete type=0 #4
+2021/08/02-10:23:42.143 2b66bb Level-0 table #9: started
+2021/08/02-10:23:42.145 2b66bb Level-0 table #9: 35882 bytes OK
+2021/08/02-10:23:42.146 2b66bb Delete type=0 #6
+2021/08/02-10:37:03.185 2b66bb Level-0 table #11: started
+2021/08/02-10:37:03.187 2b66bb Level-0 table #11: 98103 bytes OK
+2021/08/02-10:37:03.188 2b66bb Delete type=0 #8
+2021/08/02-10:38:04.701 2b66bb Level-0 table #13: started
+2021/08/02-10:38:04.703 2b66bb Level-0 table #13: 39319 bytes OK
+2021/08/02-10:38:04.704 2b66bb Delete type=0 #10
+2021/08/02-14:44:17.621 2b66bb Level-0 table #15: started
+2021/08/02-14:44:17.623 2b66bb Level-0 table #15: 76332 bytes OK
+2021/08/02-14:44:17.624 2b66bb Delete type=0 #12
+2021/08/02-14:44:17.624 2b66bb Compacting 4@0 + 1@1 files
+2021/08/02-14:44:17.630 2b66bb Generated table #16@0: 324 keys, 308824 bytes
+2021/08/02-14:44:17.630 2b66bb Compacted 4@0 + 1@1 files => 308824 bytes
+2021/08/02-14:44:17.632 2b66bb compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/02-14:44:17.632 2b66bb Delete type=2 #15
+2021/08/02-14:44:17.632 2b66bb Delete type=2 #7
+2021/08/02-14:44:17.632 2b66bb Delete type=2 #11
+2021/08/02-14:44:17.632 2b66bb Delete type=2 #9
+2021/08/02-14:44:17.632 2b66bb Delete type=2 #13

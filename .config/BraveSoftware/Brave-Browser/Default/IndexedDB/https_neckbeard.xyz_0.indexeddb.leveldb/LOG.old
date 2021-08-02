@@ -1,0 +1,6 @@
+2021/07/28-05:56:58.206 18413 Creating DB /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neckbeard.xyz_0.indexeddb.leveldb since it was missing.
+2021/07/28-05:56:58.209 18413 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neckbeard.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/28-06:59:31.749 31272 Level-0 table #5: started
+2021/07/28-06:59:31.750 31272 Level-0 table #5: 49548 bytes OK
+2021/07/28-06:59:31.751 31272 Delete type=0 #3
+2021/07/28-06:59:31.752 31272 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

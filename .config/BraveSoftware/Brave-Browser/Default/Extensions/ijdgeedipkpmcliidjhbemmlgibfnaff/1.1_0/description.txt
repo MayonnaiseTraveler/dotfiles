@@ -1,0 +1,15 @@
+An extension that scrapes each page that you visit in turn for any active RSS or Atom urls and presents them as a list for you to copy for use with news readers and aggregators.
+
+Current behaviours:
+- Standard page scraping for meta tags pointing to application/rss+xml or application/atom+xml
+- Scraping of YouTube pages to obtain the link to the lesser known feeds behind each channel
+
+More features to come.
+
+Free.
+
+License: GPLv3
+
+Source code: https://github.com/alshort/RSS-Finder
+
+For any issues or assistance, contact support@andyls.co.uk

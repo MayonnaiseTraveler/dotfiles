@@ -1,0 +1,682 @@
+{
+   "0": {
+      "message": "Anslutningsfel. Se över din internetanslutning. Om du kan komma åt internet så är servern förmodligen överbelastad eller nere."
+   },
+   "400": {
+      "message": "Felaktigt anrop enligt servern"
+   },
+   "409": {
+      "message": "Den här har redan blivit rapporterad"
+   },
+   "429": {
+      "message": "Du har rapporterat för många sponsormeddelanden för den här videon, är du säker att det finns så många?"
+   },
+   "502": {
+      "message": "Servern verkar vara överbelastad. Försök igen om några sekunder."
+   },
+   "Description": {
+      "description": "Description of the extension.",
+      "message": "Hoppa över sponsring, prenumerationstiggande och mer på YouTube-videor. Rapportera sponsorer på videor du tittar på för att spara andras tid."
+   },
+   "Dismiss": {
+      "message": "Avfärda"
+   },
+   "Hide": {
+      "message": "Visa aldrig"
+   },
+   "Loading": {
+      "message": "Laddar..."
+   },
+   "Options": {
+      "message": "Alternativ"
+   },
+   "Segment": {
+      "message": "segment"
+   },
+   "Segments": {
+      "message": "segment"
+   },
+   "Submissions": {
+      "message": "Inskickade"
+   },
+   "SubmitTimes": {
+      "message": "Skicka in segment"
+   },
+   "Unknown": {
+      "message": "Ett fel uppstod vid rapportering av sponsorsegment, försök igen senare."
+   },
+   "Username": {
+      "message": "Användarnamn"
+   },
+   "acceptPermission": {
+      "message": "Godkänn behörighet"
+   },
+   "adblockerIssueWhitelist": {
+      "message": "Om du inte kan lösa detta kan du inaktivera 'Tvinga kontroll av kanalen innan hoppa över' i inställningarna, eftersom SponsorBlock inte kan hämta kanalinformationen för den här videon"
+   },
+   "add": {
+      "message": "Lägg till"
+   },
+   "addInvidiousInstance": {
+      "message": "Lägg till tredjepartsklientinstans"
+   },
+   "addInvidiousInstanceDescription": {
+      "message": "Lägg till en anpassad instans. Denna måste vara formaterad med ENDAST domänen. Exempelvis: invidious.ajay.app"
+   },
+   "addInvidiousInstanceError": {
+      "message": "Detta är en individuell domän. Den måste ENBART inkludera domändelen. Exempelvis: invidious.ajay.app"
+   },
+   "areYouSureReset": {
+      "message": "Är du säker på att du vill rensa?"
+   },
+   "audioNotification": {
+      "message": "Ljudeffekt vid hopp"
+   },
+   "audioNotificationDescription": {
+      "message": "Ljudavisering vid hoppa över kommer att spela upp ett ljud när ett segment hoppas över. Om inaktiverad (eller om hoppa över automatiskt är inaktiverat), kommer inget ljud att spelas upp."
+   },
+   "autoHideInfoButton": {
+      "message": "Dölj informationsknappen automatiskt"
+   },
+   "autoSkip": {
+      "message": "Hoppa Över Automatiskt"
+   },
+   "bracketEnd": {
+      "message": "(Slut)"
+   },
+   "bracketNow": {
+      "message": "(Nu)"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "category": {
+      "message": "Kategori"
+   },
+   "categoryUpdate1": {
+      "message": "Kategorier finns här!"
+   },
+   "categoryUpdate2": {
+      "message": "Öppna alternativen för att hoppa över intros, outros, merch, osv."
+   },
+   "category_interaction": {
+      "message": "Interaktionspåminnelse (Prenumerera)"
+   },
+   "category_interaction_description": {
+      "message": "När där är en kort påminnelse att gilla, prenumerera eller följa dem. Om det är långt eller om det gäller något specifikt bör det istället vara under självbefodran."
+   },
+   "category_interaction_short": {
+      "message": "Interaktionspåminnelse"
+   },
+   "category_intro": {
+      "message": "Paus/Introduktion"
+   },
+   "category_intro_description": {
+      "message": "Ett intervall utan faktiskt innehåll. Kan vara en paus, statisk ram, upprepande animation. Denna bör inte användas för övergångar som innehåller information."
+   },
+   "category_intro_short": {
+      "message": "Uppehåll"
+   },
+   "category_livestream_messages": {
+      "message": "Liveström: Donations-/meddelandeavläsningar"
+   },
+   "category_livestream_messages_short": {
+      "message": "Meddelandeläsning"
+   },
+   "category_music_offtopic": {
+      "message": "Musik: Icke-musikavsnitt"
+   },
+   "category_music_offtopic_description": {
+      "message": "Ska endast användas i musikvideor. Denna ska endast användas för delar av musikvideor som inte redan omfattas av en annan kategori."
+   },
+   "category_music_offtopic_short": {
+      "message": "Icke-musik"
+   },
+   "category_outro": {
+      "message": "Slutkort/Credits"
+   },
+   "category_outro_description": {
+      "message": "Credits eller när YouTube-slutkort visas. Inte för slut med information."
+   },
+   "category_preview": {
+      "message": "Förhandsgranska/sammanfatta"
+   },
+   "category_preview_description": {
+      "message": "Snabb sammanfattning av tidigare avsnitt eller en förhandsvisning av vad som kommer upp senare i den aktuella videon. Avsett för redigerade klipp, inte för sammanfattningar."
+   },
+   "category_selfpromo": {
+      "message": "Obetald/självbefodran"
+   },
+   "category_selfpromo_description": {
+      "message": "Som \"sponsormeddelande\" men med undantag för obetald eller självkampanj. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
+   },
+   "category_sponsor": {
+      "message": "Sponsormeddelande"
+   },
+   "category_sponsor_description": {
+      "message": "Betald marknadsföring, betalda hänvisningar och direktannonser, men inte till egen marknadsföring eller gratis shoutouts till skapare/webbplatser/produkter de gillar."
+   },
+   "changeUserID": {
+      "message": "Importera/Exportera Ditt AnvändarID"
+   },
+   "channelDataNotFound": {
+      "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+      "message": "Kanal-ID:t är inte laddat ännu. Om du använder en inbäddad video, prova att använda YouTube-hemsidan istället. Detta kan också bero på förändringar i layouten hos YouTube och om du tror så är fallet kommentera det här:"
+   },
+   "channelWhitelisted": {
+      "message": "Kanalen är vitlistad!"
+   },
+   "chooseACategory": {
+      "message": "Välj en kategori"
+   },
+   "clearThis": {
+      "message": "Är du säker på att du vill rensa detta?\n\n"
+   },
+   "clearTimes": {
+      "message": "Rensa segmenten"
+   },
+   "clearTimesButton": {
+      "message": "Rensa tider"
+   },
+   "closePopup": {
+      "message": "Stäng popup"
+   },
+   "colorFormatIncorrect": {
+      "message": "Din färg är felaktigt formaterad. Det ska vara en 3- eller 6-siffrig hex-kod med en siffra i början."
+   },
+   "confirmMSG": {
+      "message": "Klicka på infoknappen eller öppna popup-rutan genom att klicka på tilläggets ikon i hörnet uppe till höger för att redigera eller ta bort inviduella värden."
+   },
+   "confirmNoticeTitle": {
+      "message": "Rapportera Segment"
+   },
+   "connectionError": {
+      "message": "Anslutningsfel. Felkod: "
+   },
+   "copyDebugInformation": {
+      "message": "Kopiera felsökningsinformation till urklippet"
+   },
+   "copyDebugInformationComplete": {
+      "message": "Debuginformationen har kopierats till urklipp. Ta bort eventuell information du inte vill dela med dig av. Spara informationen i en textfil eller klistra in den i en buggrapport."
+   },
+   "copyDebugInformationFailed": {
+      "message": "Misslyckades med att kopiera debuginformation till urklipp"
+   },
+   "copyDebugInformationOptions": {
+      "message": "Kopierar information till urklipp för att dela med en utvecklare vid rapportering av en bugg / när en utvecklare ber om det. Känslig data som användar-ID, vitlistade kanaler, och anpassad serveradress följer inte med. Däremot innehåller det information om useragent, webbläsare, operativsystem, och tilläggsversion. "
+   },
+   "createdBy": {
+      "message": "Skapad av"
+   },
+   "currentInstances": {
+      "message": "Nuvarande Instanser:"
+   },
+   "customAddressError": {
+      "message": "Denna adressen är inte korrekt formaterad. Se till att du har http:// eller https:// i början och inga snedstreck i slutet."
+   },
+   "customServerAddress": {
+      "message": "SponsorBlock Serveradress"
+   },
+   "customServerAddressDescription": {
+      "message": "Adressen SponsorBlock använder för att prata med servern.\nOm du inte har din egen serverinstans ska den här inställningen inte ändras."
+   },
+   "delete": {
+      "message": "Ta bort"
+   },
+   "disable": {
+      "message": "Inaktivera"
+   },
+   "disableAutoSkip": {
+      "message": "Inaktivera hoppa över automatiskt"
+   },
+   "disableSkipping": {
+      "message": "Hoppa över är aktiverat"
+   },
+   "discordAdvert": {
+      "message": "Gå med i den officiella discordservern för att ge förslag och feedback!"
+   },
+   "downvoteDescription": {
+      "message": "Fel timing"
+   },
+   "edit": {
+      "message": "Redigera"
+   },
+   "enableAutoSkip": {
+      "message": "Aktivera Hoppa Över Automatiskt"
+   },
+   "enableQueryByHashPrefix": {
+      "message": "Fråga efter hash-prefix"
+   },
+   "enableRefetchWhenNotFound": {
+      "message": "Uppdatera segment på nya videor"
+   },
+   "enableSkipping": {
+      "message": "Hoppa över är inaktiverat"
+   },
+   "enableTestingServer": {
+      "message": "Aktivera Server För Betatestning"
+   },
+   "enableThisCategoryFirst": {
+      "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options.",
+      "message": "För att skicka segment med kategorin \"{0}\" måste du först aktivera det i alternativen. Du kommer nu att bli omdirigerad till alternativen."
+   },
+   "enableViewTracking": {
+      "message": "Aktivera spåra antalet hoppa över"
+   },
+   "enableViewTrackingInPrivate": {
+      "message": "Aktivera spåra antalet hoppa över i privata/inkognitoflikar"
+   },
+   "errorCode": {
+      "message": "Felkod: "
+   },
+   "experiementOptOut": {
+      "description": "This is used in a popup about a new experiment to get a list of unlisted videos to back up since all unlisted videos uploaded before 2017 will be set to private.",
+      "message": "Hoppa av alla framtida experiment"
+   },
+   "experimentUnlistedText": {
+      "message": "Detta är en olistad videon som laddades upp före 2017.\nGamla olistade videor kommer att bli ändrade till privata nästa månad.\nVi samlar in *offentliga* videor för att säkerhetskopiera.\nVill du anonymt skicka den här videon till oss?\nhttps://support.google.com/youtube/answer/9230970"
+   },
+   "experimentUnlistedTitle": {
+      "message": "Hjälp till att förhindra att detta försvinner"
+   },
+   "exportOptions": {
+      "message": "Importera/Exportera alla alternativen"
+   },
+   "exportOptionsWarning": {
+      "message": "Varning: Att ändra alternativen är permanent och kan förstöra din installation. Är du säker på att du vill göra detta? Se till och gör en säkerhetskopia för säkerhets skull."
+   },
+   "forceChannelCheck": {
+      "message": "Tvinga kontroll av kanalen innan hoppa över"
+   },
+   "forceChannelCheckPopup": {
+      "message": "Överväg att aktivera \"Tvinga kontroll av kanalen innan hoppa över\""
+   },
+   "fullName": {
+      "description": "Name of the extension.",
+      "message": "SponsorBlock for YouTube - Skip Sponsorships"
+   },
+   "guidelines": {
+      "message": "Riktlinjer"
+   },
+   "help": {
+      "message": "Hjälp"
+   },
+   "hiddenDueToDownvote": {
+      "message": "dold: rösta ner"
+   },
+   "hiddenDueToDuration": {
+      "message": "dold: för kort"
+   },
+   "hideButtons": {
+      "message": "Dölj Knappar På YouTube-spelaren"
+   },
+   "hideButtonsDescription": {
+      "message": "Detta döljer knapparna på YouTube-spelaren som du kan rapportera sponsormeddelanden med. Jag förstår att det kan se störande ut för en del. Istället för att ha knappen där kan den här popup-rutan användas för att rapportera sponsormeddelanden. För att dölja notisen som dyker upp, tryck på knappen som syns på notisen som säger \"Visa inte det här igen\". Du kan alltid slå på dessa inställningar igen senare."
+   },
+   "hideDeleteButton": {
+      "message": "Dölj \"Ta Bort\"-knappen På YouTube-spelaren"
+   },
+   "hideForever": {
+      "message": "Dölj för alltid"
+   },
+   "hideInfoButton": {
+      "message": "Dölj Infoknapp På YouTube-spelaren"
+   },
+   "hideThis": {
+      "message": "Dölj detta"
+   },
+   "hitGoBack": {
+      "message": "Tryck på Tillbaka för att ångra åtgärden."
+   },
+   "hourLower": {
+      "message": "timma"
+   },
+   "hoursLower": {
+      "message": "timmar"
+   },
+   "incorrectCategory": {
+      "message": "Fel kategori"
+   },
+   "incorrectlyFormattedOptions": {
+      "message": "Denna JSON är inte korrekt formaterad. Dina alternativ har inte ändrats."
+   },
+   "inspect": {
+      "message": "Granska"
+   },
+   "keyAlreadyUsed": {
+      "message": "är kopplad till en annan funktion. Välj en annan knapp."
+   },
+   "keybindCurrentlySet": {
+      "message": ". Nuvarande snabbtangent är:"
+   },
+   "keybindDescription": {
+      "message": "Ange tangent genom att trycka på den"
+   },
+   "keybindDescriptionComplete": {
+      "message": "Kopplad till: "
+   },
+   "longDescription": {
+      "description": "Full description of the extension on the store pages.",
+      "message": "SponsorBlock låter dig hoppa över sponsormeddelanden, introduktioner, eftertexter, prenumerationspåminnelser och andra irriterande delar av YouTube-videor. SponsorBlock är ett crowdsourced webbläsartillägg som låter vem som helst att skicka in start- och sluttid på sponsorsegment och andra segment av YouTube-videor. När en person skickar in denna information kommer alla andra som har detta tillägg installerat att hoppa över det sponsrade segmentet. Du kan även hoppa över icke-musikavsnitt i musikvideor."
+   },
+   "manualPaused": {
+      "message": "Timern stoppad"
+   },
+   "manualSkip": {
+      "message": "Hoppa Över Manuellt"
+   },
+   "minDuration": {
+      "message": "Minsta varaktighet (sekunder):"
+   },
+   "minDurationDescription": {
+      "message": "Segment som är kortare än det angivna värdet kommer inte att hoppas över eller visas i spelaren."
+   },
+   "minLower": {
+      "message": "minuter"
+   },
+   "minsLower": {
+      "message": "minuter"
+   },
+   "mobileUpdateInfo": {
+      "message": "m.youtube.com stöds nu"
+   },
+   "moreCategories": {
+      "message": "Fler Kategorier"
+   },
+   "multipleSegments": {
+      "message": "Flera segment"
+   },
+   "noVideoID": {
+      "message": "Hittade ingen YouTube-video.\nUppdatera fliken om detta är felaktigt."
+   },
+   "nonMusicCategoryOnMusic": {
+      "message": "Den här videon kategoriseras som musik. Är du säker på att denna har en sponsor? Om detta faktiskt är ett \"icke-musiksegment\", öppna tilläggsalternativen och aktivera denna kategori. Då kan du skicka in detta segment som \"icke-musik\" i stället för sponsor. Läs riktlinjerna om något är oklart."
+   },
+   "noticeUpdate": {
+      "description": "The first line of the message displayed after the notice was upgraded.",
+      "message": "Den här notisen har förbättrats!"
+   },
+   "noticeUpdate2": {
+      "description": "The second line of the message displayed after the notice was upgraded.",
+      "message": "Om du ändå inte gillar det, tryck på \"Visa aldrig\"-knappen."
+   },
+   "openPopup": {
+      "message": "Öppna SponsorBlock-popup"
+   },
+   "optionsInfo": {
+      "message": "Aktivera Invidious stöd, inaktivera hoppa över automatiskt, dölj knappar och mer."
+   },
+   "paused": {
+      "message": "Pausad"
+   },
+   "permissionRequestFailed": {
+      "message": "Behörighetsbegäran misslyckades, tryckte du på förneka?"
+   },
+   "permissionRequestSuccess": {
+      "message": "Behörighet godkänd!"
+   },
+   "popupHint": {
+      "message": "Tips: Du kan ställa in snabbtangenter för att skicka in i alternativen"
+   },
+   "preview": {
+      "message": "Förhandsgranska"
+   },
+   "previewColor": {
+      "description": "Referring to submissions that have not been sent to the server yet.",
+      "message": "Färg på ej inskickade"
+   },
+   "publicStats": {
+      "message": "Detta kommer att användas på den publika statistiksidan för att visa hur mycket du har bidragit. Spana in den"
+   },
+   "readTheGuidelines": {
+      "description": "Show the first time they submit or if they are \"high risk\"",
+      "message": "Läs riktlinjerna!!"
+   },
+   "recordTimesDescription": {
+      "message": "Skicka"
+   },
+   "removeFromWhitelist": {
+      "message": "Ta bort kanal från vitlistan"
+   },
+   "reportButtonInfo": {
+      "message": "Rapportera det här segmentet som inkorrekt."
+   },
+   "reportButtonTitle": {
+      "message": "Rapportera"
+   },
+   "reset": {
+      "message": "Rensa"
+   },
+   "resetInvidiousInstance": {
+      "message": "Rensa Invidious instanslista"
+   },
+   "resetInvidiousInstanceAlert": {
+      "message": "Du kommer nu att rensa Invidious instanslista"
+   },
+   "reskip": {
+      "message": "Hoppa över igen"
+   },
+   "save": {
+      "message": "Spara"
+   },
+   "savedPeopleFrom": {
+      "message": "Du har sparat andra från "
+   },
+   "seekBarColor": {
+      "message": "Sökfältsfärg"
+   },
+   "serverDown": {
+      "message": "Det verkar som att servern är nere. Kontakta utvecklaren omedelbart."
+   },
+   "setOptions": {
+      "message": "Ange alternativ"
+   },
+   "setSkipShortcut": {
+      "message": "Ställ in knapp för att hoppa över ett segment"
+   },
+   "setStartSponsorShortcut": {
+      "message": "Ange den genväg som ska fungera som start-/stopptangent för ett segment"
+   },
+   "setSubmitKeybind": {
+      "message": "Välj knapp att koppla till rapportering av sponsormeddelande"
+   },
+   "setUserID": {
+      "message": "Ange AnvändarID"
+   },
+   "setUsername": {
+      "message": "Ange användarnamn"
+   },
+   "shortCheck": {
+      "message": "Följande rapport är kortare än ditt minstavärde i inställningarna. Det skulle kunna betyda att det redan är rapporterat och bara ignorerat på grund av denna inställning. Är du säker på att du vill rapportera?"
+   },
+   "showButtons": {
+      "message": "Visa Knappar På YouTube-spelaren"
+   },
+   "showDeleteButton": {
+      "message": "Visa \"Ta Bort\"-knappen På YouTube-spelaren"
+   },
+   "showInfoButton": {
+      "message": "Visa Infoknapp På YouTube-spelaren"
+   },
+   "showNotice": {
+      "message": "Visa Notisen Igen"
+   },
+   "showOverlay": {
+      "message": "Visa Lager Ovanpå Spelare"
+   },
+   "showSkipNotice": {
+      "message": "Visa ett meddelande efter att ett segment har hoppats över"
+   },
+   "showTimeWithSkips": {
+      "message": "Visa tiden med det överhoppade borttaget"
+   },
+   "showTimeWithSkipsDescription": {
+      "message": "Denna tid visas inom parentes bredvid den aktuella tiden nedanför sökfältet. Detta visar den totala videons varaktighet minus alla segment. Detta inkluderar segment markerade som endast \"Visa i sökfältet\"."
+   },
+   "showUploadButton": {
+      "message": "Visa Uppladdningsknapp"
+   },
+   "skip": {
+      "message": "Hoppa över"
+   },
+   "skipNoticeDuration": {
+      "message": "Hoppa över varaktighet (sekunder):"
+   },
+   "skipNoticeDurationDescription": {
+      "message": "Meddelandet om att hoppa över kommer att visas på skärmen åtminstone så här länge. För manuell överhoppning kan det visas längre."
+   },
+   "skipOption": {
+      "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)",
+      "message": "Alternativ för hoppa över"
+   },
+   "skip_category": {
+      "message": "Hoppa över {0}?"
+   },
+   "skipped": {
+      "message": "Skippat"
+   },
+   "sourceCode": {
+      "description": "Used on Firefox Store Page",
+      "message": "Källkod"
+   },
+   "sponsor404": {
+      "message": "Hittade inga segment"
+   },
+   "sponsorCancel": {
+      "message": "Avbryt skapandet av segmentet"
+   },
+   "sponsorEnd": {
+      "message": "Segmentet slutar nu"
+   },
+   "sponsorFound": {
+      "message": "Denna video har segment i databasen!"
+   },
+   "sponsorStart": {
+      "message": "Segmentet startar nu"
+   },
+   "statusReminder": {
+      "message": "Gå till status.sponsor.ajay.app för serverstatus."
+   },
+   "submissionEditHint": {
+      "description": "Appears in the popup to inform them that editing has been moved to the video player.",
+      "message": "Sektionsredigering kommer att visas efter du har klickat på skicka"
+   },
+   "submit": {
+      "message": "Skicka"
+   },
+   "submitCheck": {
+      "message": "Är du säker på att du vill rapportera detta?"
+   },
+   "submitTimesButton": {
+      "message": "Skicka tider"
+   },
+   "success": {
+      "message": "Klart!"
+   },
+   "supportOtherSites": {
+      "message": "Stöd för tredjeparts YouTube-webbplatser"
+   },
+   "supportOtherSitesDescription": {
+      "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube",
+      "message": "Stöd tredje parts YouTube-klienter. För att aktivera support måste du acceptera de extra behörigheterna. Detta fungerar INTE i inkognito på Chrome och andra Chromium-varianter."
+   },
+   "supportedSites": {
+      "message": "Webbplatser som stöds: "
+   },
+   "testingServerWarning": {
+      "message": "Alla rapporter och röster KOMMER INTE RÄKNAS mot huvudservern så länge du är ansluten mot testservern. Se till att avaktivera detta när du vill rapportera ett riktigt sponsormeddelande."
+   },
+   "theKey": {
+      "message": "Nyckeln"
+   },
+   "to": {
+      "description": "Used between segments. Example: 1:20 to 1:30",
+      "message": "till"
+   },
+   "unskip": {
+      "message": "Hoppa inte över"
+   },
+   "unsubmitted": {
+      "message": "Ej inskickade"
+   },
+   "upvoteButtonInfo": {
+      "message": "Rösta på detta inlägg"
+   },
+   "userIDChangeWarning": {
+      "message": "Varning: Ändring av AnvändarID är permanent. Är du säker att du vill göra det? Se till att ta en backup av ditt gamla för säkerhets skull."
+   },
+   "videoInfoFetchFailed": {
+      "message": "Det verkar som om något blockerar SponsorBlock från att hämta videodata. Gå till https://github.com/ajayyy/SponsorBlock/issues/741 för mer info."
+   },
+   "viewLeaderboard": {
+      "message": "Topplista"
+   },
+   "voteOnTime": {
+      "message": "Rösta på ett segment"
+   },
+   "voted": {
+      "message": "Röstat!"
+   },
+   "wantToSubmit": {
+      "message": "Vill du skicka in för video-ID"
+   },
+   "website": {
+      "description": "Used on Firefox Store Page",
+      "message": "Hemsida"
+   },
+   "whatChangeUserID": {
+      "message": "Detta bör hållas hemligt. Det fungerar som ett lösenord och borde inte delas vidare med någon. Om någon kommer över detta kan den personen utge sig för att vara dig."
+   },
+   "whatDeleteButton": {
+      "message": "Denna knappen tar bort alla sponsormeddelanden på YouTube-spelaren."
+   },
+   "whatEnableTestingServer": {
+      "message": "Dina rapporter och röster KOMMER INTE RÄKNAS mot huvudservern. Använd endast detta för testning."
+   },
+   "whatExportOptions": {
+      "message": "Detta är alla dina alternativ i JSON-format. Det inkluderar ditt användar-ID, så var noga med hur du hanterar datan."
+   },
+   "whatForceChannelCheck": {
+      "message": "Som standard kommer segment att hoppas över direkt innan ens den vet vad det är för kanal. Som standard kan vissa segment i början av videon hoppas över på vitlistade kanaler. Aktiverar du detta alternativet kommer du att förhindra detta, men det göra att alla överhoppningar har en liten fördröjning eftersom det tar lite tid att få kanal-ID. Denna fördröjning kan vara obetydlig om du har en snabb internetuppkoppling."
+   },
+   "whatInfoButton": {
+      "message": "Detta är knappen som öppnar popup-rutan på YouTube-sidan."
+   },
+   "whatQueryByHashPrefix": {
+      "message": "I stället för att begära segment från servern med hjälp av video-ID skickas de första 4 tecknen i hashen av video-ID:et. Servern kommer då att skicka tillbaka data för alla videor med liknande hashar."
+   },
+   "whatRefetchWhenNotFound": {
+      "message": "Om videon är ny och inga segment hittades då kommer den att uppdatera med några minuter mellanrum medan du tittar på videon."
+   },
+   "whatUploadButton": {
+      "message": "Denna knapp visas på YouTube-spelaren efter att du har valt en tidpunkt och är redo att rapportera."
+   },
+   "whatViewTracking": {
+      "message": "Den här funktionen spårar vilka segment du har hoppat över för att låta användarna veta hur mycket tid en användare har sparat andra och tillsammans med användarnas röster säkerställa att spam inte kommer in i databasen. Detta tillägg skickar ett meddelande till servern varje gång du hoppar över ett segment. Förhoppningsvis ändrar inte folk den här inställningen så statistiken hålls tillförlitlig. :)"
+   },
+   "whitelistChannel": {
+      "message": "Vitlistkanal"
+   },
+   "youHaveSaved": {
+      "message": "Du har sparat "
+   },
+   "youHaveSavedTime": {
+      "message": "Du har sparat andra"
+   },
+   "youHaveSavedTimeEnd": {
+      "message": " av deras liv"
+   },
+   "youHaveSkipped": {
+      "message": "Du har hoppat över "
+   },
+   "youMustSelectACategory": {
+      "message": "Du måste välja en kategori för alla segment du skickar in!"
+   },
+   "yourWork": {
+      "description": "Used to describe the section that will show you the statistics from your submissions.",
+      "message": "Ditt Bidrag"
+   },
+   "youtubePermissionRequest": {
+      "message": "Det verkar som att SponsorBlock inte kan nå YouTube-API:t. För att åtgärda problemet ska du acceptera behörighetsfrågan som visas härnäst och vänta några sekunder och sedan ladda om sidan."
+   }
+}

@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "48": "img/rss_48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Lists RSS and Atom feeds available on the current web page.",
+   "icons": {
+      "128": "img/rss_128.png",
+      "16": "img/rss_16.png",
+      "48": "img/rss_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAic/kLG/nQ05JaVh1k16qQYzclNF5PmXOjfZrG5vh6+pgeHlkorcJy4gSYiSH7i0E7zGaYuPPTGd83I2yp0CL+1CoL0LlqkaZ/QecgJ0+cHOLg7EMZZ2zEw0Ja84D2hcGyJ6tLXg95X3mmh8YGIMyecsTe4WNa7X1Wa2Otnba7uieOYzUaohBlgH+upO7bd6nONEFRyU2S53yZ15Uw7bIsgbU0+LltrZb5Vny66CMI10XhKasmOm2dVVDxsggD5oykwktMrhrtdS8uLVUsFzs31J4odQD7IKr7sLAdiVPEjl/XW0a7zAs6RFP4+d+AbmNMYWCsCRviNxRmf4jR173jQIDAQAB",
+   "manifest_version": 2,
+   "name": "RSS Finder",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "\u003Call_urls>", "activeTab", "storage", "tabs" ],
+   "short_name": "RSS Finder",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

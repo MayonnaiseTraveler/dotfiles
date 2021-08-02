@@ -1,0 +1,63 @@
+2021/07/30-09:55:46.502 2b686 Reusing MANIFEST /home/traveler/.config/Lightcord/Local Storage/leveldb/MANIFEST-000001
+2021/07/30-09:55:46.502 2b686 Recovering log #186
+2021/07/30-09:55:46.503 2b686 Reusing old log /home/traveler/.config/Lightcord/Local Storage/leveldb/000186.log 
+2021/07/30-09:56:56.764 2beed Level-0 table #190: started
+2021/07/30-09:56:56.766 2beed Level-0 table #190: 17736 bytes OK
+2021/07/30-09:56:56.768 2beed Delete type=0 #186
+2021/07/30-14:03:15.307 2beed Level-0 table #192: started
+2021/07/30-14:03:15.309 2beed Level-0 table #192: 15998 bytes OK
+2021/07/30-14:03:15.311 2beed Delete type=0 #189
+2021/07/30-14:03:15.311 2beed Compacting 4@0 + 1@1 files
+2021/07/30-14:03:15.313 2beed Generated table #193@0: 54 keys, 16771 bytes
+2021/07/30-14:03:15.313 2beed Compacted 4@0 + 1@1 files => 16771 bytes
+2021/07/30-14:03:15.313 2beed compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/07/30-14:03:15.314 2beed Delete type=2 #190
+2021/07/30-14:03:15.314 2beed Delete type=2 #192
+2021/07/30-14:03:15.314 2beed Delete type=2 #184
+2021/07/30-14:03:15.314 2beed Delete type=2 #182
+2021/07/30-14:03:15.314 2beed Delete type=2 #187
+2021/07/30-14:34:09.494 2beed Level-0 table #195: started
+2021/07/30-14:34:09.496 2beed Level-0 table #195: 14094 bytes OK
+2021/07/30-14:34:09.498 2beed Delete type=0 #191
+2021/07/30-14:45:40.564 2beed Level-0 table #197: started
+2021/07/30-14:45:40.566 2beed Level-0 table #197: 17276 bytes OK
+2021/07/30-14:45:40.568 2beed Delete type=0 #194
+2021/07/30-15:10:15.307 2beed Level-0 table #199: started
+2021/07/30-15:10:15.309 2beed Level-0 table #199: 14644 bytes OK
+2021/07/30-15:10:15.310 2beed Delete type=0 #196
+2021/07/31-09:30:32.546 2beed Level-0 table #201: started
+2021/07/31-09:30:32.547 2beed Level-0 table #201: 15916 bytes OK
+2021/07/31-09:30:32.548 2beed Delete type=0 #198
+2021/07/31-09:30:32.548 2beed Compacting 4@0 + 1@1 files
+2021/07/31-09:30:32.550 2beed Generated table #202@0: 55 keys, 17796 bytes
+2021/07/31-09:30:32.550 2beed Compacted 4@0 + 1@1 files => 17796 bytes
+2021/07/31-09:30:32.552 2beed compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/07/31-09:30:32.552 2beed Delete type=2 #197
+2021/07/31-09:30:32.552 2beed Delete type=2 #195
+2021/07/31-09:30:32.552 2beed Delete type=2 #193
+2021/07/31-09:30:32.552 2beed Delete type=2 #199
+2021/07/31-09:30:32.552 2beed Delete type=2 #201
+2021/07/31-13:10:30.614 2beed Level-0 table #204: started
+2021/07/31-13:10:30.616 2beed Level-0 table #204: 16354 bytes OK
+2021/07/31-13:10:30.617 2beed Delete type=0 #200
+2021/07/31-15:06:50.869 2beed Level-0 table #206: started
+2021/07/31-15:06:50.870 2beed Level-0 table #206: 15735 bytes OK
+2021/07/31-15:06:50.873 2beed Delete type=0 #203
+2021/07/31-15:42:00.629 2beed Level-0 table #208: started
+2021/07/31-15:42:00.631 2beed Level-0 table #208: 14386 bytes OK
+2021/07/31-15:42:00.632 2beed Delete type=0 #205
+2021/07/31-16:04:17.451 2beed Level-0 table #210: started
+2021/07/31-16:04:17.452 2beed Level-0 table #210: 16003 bytes OK
+2021/07/31-16:04:17.454 2beed Delete type=0 #207
+2021/07/31-16:04:17.454 2beed Compacting 4@0 + 1@1 files
+2021/07/31-16:04:17.456 2beed Generated table #211@0: 55 keys, 17889 bytes
+2021/07/31-16:04:17.456 2beed Compacted 4@0 + 1@1 files => 17889 bytes
+2021/07/31-16:04:17.457 2beed compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/07/31-16:04:17.457 2beed Delete type=2 #208
+2021/07/31-16:04:17.457 2beed Delete type=2 #210
+2021/07/31-16:04:17.457 2beed Delete type=2 #204
+2021/07/31-16:04:17.457 2beed Delete type=2 #202
+2021/07/31-16:04:17.457 2beed Delete type=2 #206
+2021/07/31-16:32:31.744 2beed Level-0 table #213: started
+2021/07/31-16:32:31.745 2beed Level-0 table #213: 15779 bytes OK
+2021/07/31-16:32:31.746 2beed Delete type=0 #209

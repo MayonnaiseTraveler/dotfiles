@@ -1,0 +1,155 @@
+{
+   "400": {
+      "message": "Сървърът каза, че тази заявка е невалидна"
+   },
+   "409": {
+      "message": "Това спонсорство вече е подадено"
+   },
+   "429": {
+      "message": "Подали сте прекалено много спонсорства за едно видео, сигурни ли сте, че има толкова много?"
+   },
+   "Description": {
+      "description": "Description of the extension.",
+      "message": "Прескачайте спонсорства, напомняния за абониране, и други неща в YouTube клипове. Докладвайте спонсорства на клиповете които гледате, за да спестите време на други потребители."
+   },
+   "Dismiss": {
+      "message": "Отхвърли"
+   },
+   "Hide": {
+      "message": "Никога не показвай"
+   },
+   "Loading": {
+      "message": "Зареждане..."
+   },
+   "Options": {
+      "message": "Настройки"
+   },
+   "Segment": {
+      "message": "сегмент"
+   },
+   "Segments": {
+      "message": "сегменти"
+   },
+   "Unknown": {
+      "message": "Възникна грешка при подаването на Вашите спонсорски времена, моля опитайте отново по-късно."
+   },
+   "category": {
+      "message": "Категория"
+   },
+   "categoryUpdate1": {
+      "message": "Категориите са тук!"
+   },
+   "category_interaction_description": {
+      "message": "Когато има кратко напомняне да харесате, да се абонирате или да последвате канала по средата на съдържанието. Ако е дълго или заради нещо специфично, трябва да е под \"само-реклама\"."
+   },
+   "category_livestream_messages": {
+      "message": "Поточно предаване: Четене на съобщения/дарения"
+   },
+   "category_livestream_messages_short": {
+      "message": "Четене на съобщения"
+   },
+   "category_music_offtopic": {
+      "message": "Музика: Част без музика"
+   },
+   "category_selfpromo": {
+      "message": "Неплатена/Само-реклама"
+   },
+   "category_selfpromo_description": {
+      "message": "Подобно на \"спонсорство\", но е неплатено. Това включва merchandise, дарения или информация с кого каналът има сътрудничество."
+   },
+   "category_sponsor": {
+      "message": "Спонсорство"
+   },
+   "channelWhitelisted": {
+      "message": "Каналът е добавен към Whitelist!"
+   },
+   "clearThis": {
+      "message": "Сигурни ли сте, че искате да изчистите това?\n\n"
+   },
+   "colorFormatIncorrect": {
+      "message": "Вашият цвят не е форматиран правилно. Трябва да бъде 3- или 6-цифрен hex код с \"#\" в началото."
+   },
+   "confirmMSG": {
+      "message": "За да редактирате или изтриете някои стойности, натиснете на \"инфо\" бутона или отворете изкачащият прозорец на добавката чрез кликване на иконата на добавката в горният ляв ъгъл."
+   },
+   "connectionError": {
+      "message": "Възникна грешка с връзката. Код на грешката: "
+   },
+   "disable": {
+      "message": "Забрани"
+   },
+   "discordAdvert": {
+      "message": "Елате в официалния Discord сървър за да давате предложения!"
+   },
+   "downvoteDescription": {
+      "message": "Грешно/Неправилно Време"
+   },
+   "fullName": {
+      "description": "Name of the extension.",
+      "message": "SponsorBlock за YouTube - пропускай спонсорства"
+   },
+   "guidelines": {
+      "message": "Правила"
+   },
+   "hideButtons": {
+      "message": "Скриване на бутоните в YouTube Player-а"
+   },
+   "hideThis": {
+      "message": "Скрий това"
+   },
+   "hitGoBack": {
+      "message": "Натиснете \"върни\" за да се върнете където бяхте."
+   },
+   "incorrectCategory": {
+      "message": "Грешна Категория"
+   },
+   "manualSkip": {
+      "message": "Ръчно Прескачане"
+   },
+   "multipleSegments": {
+      "message": "Няколко Сегмента"
+   },
+   "openPopup": {
+      "message": "Отворете изскачащия прозорец на SponsorBlock"
+   },
+   "paused": {
+      "message": "На пауза"
+   },
+   "reportButtonTitle": {
+      "message": "Докладвай"
+   },
+   "reskip": {
+      "message": "Пропусни отново"
+   },
+   "serverDown": {
+      "message": "Изглежда, че сървърът не работи. Свържете се с програмиста незабавно."
+   },
+   "showButtons": {
+      "message": "Показване на бутоните в YouTube Player-а"
+   },
+   "showOverlay": {
+      "message": "Показване в seek лентата"
+   },
+   "sponsorEnd": {
+      "message": "Сегментът Свършва Сега"
+   },
+   "sponsorStart": {
+      "message": "Сегментът Започва Сега"
+   },
+   "submitCheck": {
+      "message": "Сигурни ли сте, че искате да подадете това?"
+   },
+   "success": {
+      "message": "Успешно!"
+   },
+   "to": {
+      "description": "Used between segments. Example: 1:20 to 1:30",
+      "message": "до"
+   },
+   "unskip": {
+      "message": "Върни"
+   },
+   "voted": {
+      "message": "Гласувано!"
+   }
+}

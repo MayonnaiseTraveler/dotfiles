@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="panels" type="array">
+    <value type="int" value="0"/>
+    <property name="panel-0" type="empty">
+      <property name="position" type="string" value="p=6;x=960;y=18"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="4"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
+        <value type="int" value="9"/>
+        <value type="int" value="5"/>
+      </property>
+      <property name="role" type="string" value="xfce4-panel-12965750720"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="icon-size" type="uint" value="32"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="output-name" type="string" value="HDMI-0"/>
+      <property name="span-monitors" type="bool" value="true"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="pnmixer"/>
+        <value type="string" value="manjaro-settings-manager-daemon"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="orage"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="xnoise"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="orage"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="unityhub-bin"/>
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="droidcam"/>
+        <value type="string" value="terminal drop-down"/>
+        <value type="string" value="gameguide"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="lightcord"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="megasync"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="msm notifier"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="miniaplicativo gerenciador de redes"/>
+        <value type="string" value="clipman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="lightcord"/>
+        <value type="string" value="megasync"/>
+        <value type="string" value="gerenciador de tarefas"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="terminal drop-down"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="miniaplicativo gerenciador de redes"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="MSM Notifier"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="hp-systray"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="GameGuide"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="lightcord1"/>
+        <value type="string" value="MEGAsync"/>
+      </property>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="26"/>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+      <property name="symbolic-icons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance11580;chromium.instance11722;chromium.instance11815;chromium.instance1243;chromium.instance129669;chromium.instance12971;chromium.instance13136;chromium.instance132087;chromium.instance13806;chromium.instance1390;chromium.instance13901;chromium.instance141199;chromium.instance1422;chromium.instance1430;chromium.instance145467;chromium.instance1461;chromium.instance1506;chromium.instance15064;chromium.instance1543;chromium.instance1545;chromium.instance1548;chromium.instance1553;chromium.instance156687;chromium.instance1567;chromium.instance1584;chromium.instance1585;chromium.instance1588;chromium.instance15890;chromium.instance1629;chromium.instance1637;chromium.instance1640;chromium.instance164557;chromium.instance1656;chromium.instance1657;chromium.instance1665;chromium.instance1693;chromium.instance1697;chromium.instance17066;chromium.instance1741;chromium.instance175818;chromium.instance17626;chromium.instance1797;chromium.instance1800;chromium.instance18014;chromium.instance1821;chromium.instance1831;chromium.instance18377;chromium.instance184125;chromium.instance1862;chromium.instance1873;chromium.instance19299;chromium.instance19326;chromium.instance1933;chromium.instance1941;chromium.instance1959;chromium.instance1973;chromium.instance1977;chromium.instance1992;chromium.instance1993;chromium.instance1997;chromium.instance20137;chromium.instance2030;chromium.instance2066;chromium.instance2075;chromium.instance2099;chromium.instance2102;chromium.instance2131;chromium.instance2190;chromium.instance2293;chromium.instance2298;chromium.instance2309;chromium.instance2338;chromium.instance2397;chromium.instance2401;chromium.instance2424;chromium.instance2450;chromium.instance2467;chromium.instance25274;chromium.instance25364;chromium.instance2538;chromium.instance2544;chromium.instance2576;chromium.instance2591;chromium.instance2611;chromium.instance2614;chromium.instance2638;chromium.instance2646;chromium.instance2681;chromium.instance27400;chromium.instance2745;chromium.instance2941;chromium.instance2957;chromium.instance2972;chromium.instance3030;chromium.instance3073;chromium.instance3094;chromium.instance3197;chromium.instance3221;chromium.instance32647;chromium.instance33174;chromium.instance33408;chromium.instance3479;chromium.instance34891;chromium.instance35683;chromium.instance35997;chromium.instance3615;chromium.instance3660;chromium.instance3740;chromium.instance3749;chromium.instance3944;chromium.instance3974;chromium.instance3993;chromium.instance41376;chromium.instance44203;chromium.instance44451;chromium.instance45079;chromium.instance46683;chromium.instance4939;chromium.instance49958;chromium.instance50575;chromium.instance53066;chromium.instance54126;chromium.instance5544;chromium.instance57540;chromium.instance5891;chromium.instance6323;chromium.instance64915;chromium.instance7042;chromium.instance7367;chromium.instance7368;chromium.instance74172;chromium.instance8644;chromium.instance86782;chromium.instance9866;firefox.instance1002652;firefox.instance107499;firefox.instance109077;firefox.instance1105709;firefox.instance11617;firefox.instance122123;firefox.instance12471;firefox.instance12619;firefox.instance128941;firefox.instance1300;firefox.instance130037;firefox.instance1335;firefox.instance1341;firefox.instance1354;firefox.instance1362;firefox.instance1366;firefox.instance1374;firefox.instance1381;firefox.instance14598;firefox.instance14752;firefox.instance148467;firefox.instance15059;firefox.instance1529;firefox.instance1540;firefox.instance1547;firefox.instance1548;firefox.instance1550;firefox.instance1555;firefox.instance1560;firefox.instance1561;firefox.instance1563;firefox.instance1566;firefox.instance1570;firefox.instance1571;firefox.instance1581;firefox.instance1585;firefox.instance16041;firefox.instance1607;firefox.instance1612;firefox.instance1620;firefox.instance1642;firefox.instance1643;firefox.instance1646;firefox.instance1647;firefox.instance1650;firefox.instance1661;firefox.instance1664;firefox.instance1674;firefox.instance1675;firefox.instance1680;firefox.instance17045;firefox.instance1705166;firefox.instance1724;firefox.instance1729;firefox.instance1732;firefox.instance17391;firefox.instance1743;firefox.instance1744;firefox.instance1756;firefox.instance1763;firefox.instance1791;firefox.instance1798;firefox.instance1803;firefox.instance1818;firefox.instance18289;firefox.instance1836;firefox.instance184671;firefox.instance1849;firefox.instance1864;firefox.instance18652;firefox.instance1892546;firefox.instance1893;firefox.instance1900;firefox.instance1916;firefox.instance1949;firefox.instance1952;firefox.instance1977;firefox.instance1988;firefox.instance1990206;firefox.instance1999;firefox.instance200171;firefox.instance2010;firefox.instance2022;firefox.instance2026;firefox.instance2031;firefox.instance209377;firefox.instance2094;firefox.instance210373;firefox.instance2115;firefox.instance218558;firefox.instance2190;firefox.instance2241;firefox.instance2250;firefox.instance23161;firefox.instance2353;firefox.instance2379;firefox.instance2399;firefox.instance2459;firefox.instance255849;firefox.instance25759;firefox.instance2633;firefox.instance27434;firefox.instance2808;firefox.instance2866;firefox.instance2977;firefox.instance3024526;firefox.instance3041;firefox.instance3050;firefox.instance3063;firefox.instance325571;firefox.instance3355;firefox.instance3541;firefox.instance3562;firefox.instance36063;firefox.instance3646;firefox.instance3649;firefox.instance3684;firefox.instance37278;firefox.instance3761;firefox.instance38702;firefox.instance3885345;firefox.instance39753;firefox.instance4387;firefox.instance4522;firefox.instance4940;firefox.instance5349;firefox.instance55042;firefox.instance5694;firefox.instance5862;firefox.instance63587;firefox.instance6990;firefox.instance700494;firefox.instance7167;firefox.instance7610;firefox.instance76236;firefox.instance77708;firefox.instance8417;firefox.instance85482;firefox.instance87412;firefox.instance88765;firefox.instance89584;firefox.instance9979;musikcube.instance110853;musikcube.instance111731;musikcube.instance116147;musikcube.instance120043;musikcube.instance128178;musikcube.instance138538;musikcube.instance1392637;musikcube.instance1393024;musikcube.instance147642;musikcube.instance155270;musikcube.instance158443;musikcube.instance1654;musikcube.instance1677;musikcube.instance1745;musikcube.instance1764;musikcube.instance18374;musikcube.instance19042;musikcube.instance191144;musikcube.instance194999;musikcube.instance1986;musikcube.instance202313;musikcube.instance2029;musikcube.instance203186;musikcube.instance2084;musikcube.instance21771;musikcube.instance21786;musikcube.instance22507;musikcube.instance23195;musikcube.instance25210;musikcube.instance2675;musikcube.instance271218;musikcube.instance2745;musikcube.instance2924;musikcube.instance2940;musikcube.instance3065;musikcube.instance309570;musikcube.instance3149;musikcube.instance315515;musikcube.instance325088;musikcube.instance3351;musikcube.instance33591;musikcube.instance3446;musikcube.instance3884780;musikcube.instance4320;musikcube.instance4526;musikcube.instance461878;musikcube.instance465943;musikcube.instance478709;musikcube.instance480274;musikcube.instance480404;musikcube.instance484074;musikcube.instance490506;musikcube.instance491435;musikcube.instance500670;musikcube.instance516165;musikcube.instance526407;musikcube.instance542902;musikcube.instance547098;musikcube.instance547235;musikcube.instance547389;musikcube.instance548095;musikcube.instance548395;musikcube.instance549566;musikcube.instance550375;musikcube.instance550967;musikcube.instance552923;musikcube.instance56851;musikcube.instance571305;musikcube.instance576922;musikcube.instance5938;musikcube.instance628568;musikcube.instance7606;musikcube.instance9399;vlc;vlc.instance82098"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="clock">
+      <property name="timezone" type="string" value="Brazil/East"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+  </property>
+  <property name="configver" type="int" value="2"/>
+</channel>

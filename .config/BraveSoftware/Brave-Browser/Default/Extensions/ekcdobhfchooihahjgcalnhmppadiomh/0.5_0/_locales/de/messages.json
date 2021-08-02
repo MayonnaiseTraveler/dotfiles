@@ -1,0 +1,10 @@
+{
+   "addonDescription": {
+      "description": "Beschreibung des Add-on.",
+      "message": "Eine minimale, weniger Aufmerksamkeit vereinnahmende Interneterfahrung."
+   },
+   "pageActionDefaultTitle": {
+      "description": "Wird angezeigt, wenn Sie mit der Maus über das Seitenaktions-Emblem fahren.",
+      "message": "Website wird von minimal unterstützt."
+   }
+}

@@ -1,0 +1,77 @@
+07:44:58 [info] [LOG SESSION] ---------- START ----------
+07:44:58 [info] [PluginFactory] loading plugins
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+07:44:58 [info] [Indexer] indexer source -1303229654 running...
+07:44:58 [info] [Indexer] indexer source -1303229654 finished
+07:44:58 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+07:44:58 [info] [Indexer] scan completed successfully
+07:44:58 [info] [Indexer] cleanup 1/2
+07:44:58 [info] [Indexer] cleanup 2/2
+07:44:58 [info] [Indexer] optimizing
+07:44:58 [info] [Indexer] done!
+07:44:58 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+07:44:58 [info] [Player] new instance created
+07:44:58 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+07:44:58 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+07:44:58 [info] [ffmpegdecoder] parsing data stream...
+07:44:58 [info] [ffmpegdecoder] found audio stream!
+07:44:58 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:44:58 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+07:45:15 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+07:45:15 [info] [Player] new instance created
+07:45:15 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+07:45:15 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+07:45:15 [info] [ffmpegdecoder] parsing data stream...
+07:45:15 [info] [ffmpegdecoder] found audio stream!
+07:45:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:45:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+09:23:16 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+09:23:16 [info] [Player] new instance created
+09:23:16 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+09:23:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+09:23:16 [info] [ffmpegdecoder] parsing data stream...
+09:23:16 [info] [ffmpegdecoder] found audio stream!
+09:23:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+09:23:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+09:23:16 [info] [Player] new instance created
+09:23:16 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+09:23:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+09:23:16 [info] [ffmpegdecoder] parsing data stream...
+09:23:16 [info] [ffmpegdecoder] found audio stream!
+09:23:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+09:23:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+09:23:23 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+09:23:23 [info] [Player] new instance created
+09:23:23 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+09:23:23 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+09:23:23 [info] [ffmpegdecoder] parsing data stream...
+09:23:23 [info] [ffmpegdecoder] found audio stream!
+09:23:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+09:23:23 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+10:42:28 [info] [ffmpegdecoder] finished decoding.
+11:23:13 [info] [ffmpegdecoder] finished decoding.
+14:17:43 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:17:43 [info] [Player] new instance created
+14:17:43 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:17:43 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:17:43 [info] [ffmpegdecoder] parsing data stream...
+14:17:43 [info] [ffmpegdecoder] found audio stream!
+14:17:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:17:43 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:17:43 [info] [Player] new instance created
+14:17:43 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
+14:17:43 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
+14:17:43 [info] [ffmpegdecoder] parsing data stream...
+14:17:43 [info] [ffmpegdecoder] found audio stream!
+14:17:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:17:43 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
