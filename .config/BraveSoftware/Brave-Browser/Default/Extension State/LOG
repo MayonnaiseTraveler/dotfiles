@@ -1,18 +1,24 @@
-2021/07/31-16:36:19.184 103c Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2021/07/31-16:36:19.184 103c Recovering log #14
-2021/07/31-16:36:19.195 103c Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/000014.log 
-2021/08/01-10:26:23.931 1a5fd5 Level-0 table #18: started
-2021/08/01-10:26:23.943 1a5fd5 Level-0 table #18: 1727926 bytes OK
-2021/08/01-10:26:23.946 1a5fd5 Delete type=0 #14
-2021/08/01-10:26:23.947 1a5fd5 Compacting 4@0 + 1@1 files
-2021/08/01-10:26:23.979 1a5fd5 Generated table #19@0: 6 keys, 28036 bytes
-2021/08/01-10:26:23.979 1a5fd5 Compacted 4@0 + 1@1 files => 28036 bytes
-2021/08/01-10:26:23.980 1a5fd5 compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/08/01-10:26:23.980 1a5fd5 Delete type=2 #10
-2021/08/01-10:26:23.980 1a5fd5 Delete type=2 #8
-2021/08/01-10:26:23.980 1a5fd5 Delete type=2 #18
-2021/08/01-10:26:23.980 1a5fd5 Delete type=2 #15
-2021/08/01-10:26:23.980 1a5fd5 Delete type=2 #13
-2021/08/02-10:14:31.848 2b7dda Level-0 table #21: started
-2021/08/02-10:14:31.859 2b7dda Level-0 table #21: 1667241 bytes OK
-2021/08/02-10:14:31.862 2b7dda Delete type=0 #17
+2021/08/07-22:59:19.335 3c5 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2021/08/07-22:59:19.336 3c5 Recovering log #40
+2021/08/07-22:59:19.354 3c5 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/000040.log 
+2021/08/08-17:03:34.807 88b39 Level-0 table #44: started
+2021/08/08-17:03:34.817 88b39 Level-0 table #44: 1513761 bytes OK
+2021/08/08-17:03:34.820 88b39 Delete type=0 #40
+2021/08/09-11:48:01.365 22b476 Level-0 table #46: started
+2021/08/09-11:48:01.376 22b476 Level-0 table #46: 1562782 bytes OK
+2021/08/09-11:48:01.379 22b476 Delete type=0 #43
+2021/08/09-11:48:01.380 22b476 Compacting 4@0 + 1@1 files
+2021/08/09-11:48:01.401 22b476 Generated table #47@0: 6 keys, 28852 bytes
+2021/08/09-11:48:01.401 22b476 Compacted 4@0 + 1@1 files => 28852 bytes
+2021/08/09-11:48:01.402 22b476 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/09-11:48:01.402 22b476 Delete type=2 #38
+2021/08/09-11:48:01.402 22b476 Delete type=2 #44
+2021/08/09-11:48:01.402 22b476 Delete type=2 #46
+2021/08/09-11:48:01.402 22b476 Delete type=2 #36
+2021/08/09-11:48:01.402 22b476 Delete type=2 #41
+2021/08/10-11:27:48.495 4e538 Level-0 table #49: started
+2021/08/10-11:27:48.506 4e538 Level-0 table #49: 1580416 bytes OK
+2021/08/10-11:27:48.508 4e538 Delete type=0 #45
+2021/08/10-19:49:46.574 1075ce Level-0 table #51: started
+2021/08/10-19:49:46.587 1075ce Level-0 table #51: 1541507 bytes OK
+2021/08/10-19:49:46.592 1075ce Delete type=0 #48

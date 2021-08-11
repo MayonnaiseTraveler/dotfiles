@@ -1,23 +1,33 @@
-# Tor state file last generated on 2021-08-01 10:26:16 local time
+# Tor state file last generated on 2021-08-10 16:53:20 local time
 # Other times below are in UTC
 # You *do not* need to edit this file.
 
 CircuitBuildTimeBin 725 4
-CircuitBuildTimeBin 775 2
+CircuitBuildTimeBin 775 3
+CircuitBuildTimeBin 825 1
 CircuitBuildTimeBin 925 2
 CircuitBuildTimeBin 1025 1
 CircuitBuildTimeBin 1175 1
-CircuitBuildTimeBin 1225 2
+CircuitBuildTimeBin 1225 3
 CircuitBuildTimeBin 1275 2
-CircuitBuildTimeBin 1425 1
+CircuitBuildTimeBin 1325 2
+CircuitBuildTimeBin 1425 2
+CircuitBuildTimeBin 1525 2
+CircuitBuildTimeBin 1575 2
+CircuitBuildTimeBin 1625 2
+CircuitBuildTimeBin 1675 1
+CircuitBuildTimeBin 1725 1
 CircuitBuildTimeBin 1775 2
 CircuitBuildTimeBin 1825 1
+CircuitBuildTimeBin 1875 2
+CircuitBuildTimeBin 2225 1
+CircuitBuildTimeBin 2625 1
 Dormant 0
-Guard in=default rsa_id=B32B93C90DCAF0012328A8D55D621D26B186E11A nickname=OnionOnion123 sampled_on=2021-07-28T03:28:55 sampled_idx=0 sampled_by=0.4.5.9 listed=1 confirmed_on=2021-07-23T07:30:40 confirmed_idx=0 pb_use_attempts=3.000000 pb_use_successes=3.000000 pb_circ_attempts=18.000000 pb_circ_successes=18.000000 pb_successful_circuits_closed=18.000000
+Guard in=default rsa_id=B32B93C90DCAF0012328A8D55D621D26B186E11A nickname=OnionOnion123 sampled_on=2021-07-28T03:28:55 sampled_idx=0 sampled_by=0.4.5.9 listed=1 confirmed_on=2021-07-23T07:30:40 confirmed_idx=0 pb_use_attempts=6.000000 pb_use_successes=6.000000 pb_circ_attempts=36.000000 pb_circ_successes=36.000000 pb_successful_circuits_closed=36.000000 pb_timeouts=1.000000
 Guard in=default rsa_id=C92F69EE5756200F160CCFAFE9C3C984D3E6D561 nickname=netzhub sampled_on=2021-07-21T23:50:34 sampled_idx=1 sampled_by=0.4.5.9 listed=1 confirmed_on=2021-07-29T06:59:53 confirmed_idx=2
-Guard in=default rsa_id=E73F1C1B77DC9800E4E7F8F5A2FB6533A1193B5E nickname=SdzSyltUnterDampf sampled_on=2021-07-21T10:40:48 sampled_idx=2 sampled_by=0.4.5.9 listed=1 confirmed_on=2021-07-28T23:49:35 confirmed_idx=1
-Guard in=default rsa_id=31DDF87B0464C8AA3715F9AC93E8A619E60E5031 nickname=torcow2 sampled_on=2021-07-27T13:17:36 sampled_idx=3 sampled_by=0.4.5.9 listed=1
-Guard in=default rsa_id=DCC6C70E8F4340CBD633F506BC9E7D99818601D9 nickname=eludemailrelay sampled_on=2021-07-27T06:40:51 sampled_idx=4 sampled_by=0.4.5.9 listed=1
+Guard in=default rsa_id=E73F1C1B77DC9800E4E7F8F5A2FB6533A1193B5E nickname=SdzSyltUnterDampf sampled_on=2021-07-21T10:40:48 sampled_idx=2 sampled_by=0.4.5.9 unlisted_since=2021-08-08T09:46:40 listed=0 confirmed_on=2021-07-28T23:49:35 confirmed_idx=1
+Guard in=default rsa_id=31DDF87B0464C8AA3715F9AC93E8A619E60E5031 nickname=torcow2 sampled_on=2021-07-27T13:17:36 sampled_idx=3 sampled_by=0.4.5.9 unlisted_since=2021-08-09T08:24:39 listed=0
+Guard in=default rsa_id=DCC6C70E8F4340CBD633F506BC9E7D99818601D9 nickname=eludemailrelay sampled_on=2021-07-27T06:40:51 sampled_idx=4 sampled_by=0.4.5.9 listed=1 confirmed_on=2021-08-05T17:02:43 confirmed_idx=3
 Guard in=default rsa_id=A5E42F1A3AFA948A7F2FDB1954A4CF6C6489D418 nickname=bauruine sampled_on=2021-07-24T13:23:06 sampled_idx=5 sampled_by=0.4.5.9 listed=1
 Guard in=default rsa_id=8107EC77D62429664F20C81ECE8EE0C60A74945B nickname=x23tor88 sampled_on=2021-07-22T22:19:17 sampled_idx=6 sampled_by=0.4.5.9 listed=1
 Guard in=default rsa_id=20CD933EDC7260B19040475B24FD6B01B73E94BB nickname=FissionEx6 sampled_on=2021-07-29T12:03:23 sampled_idx=7 sampled_by=0.4.5.9 listed=1
@@ -33,6 +43,9 @@ Guard in=default rsa_id=78E42C5EA3FC4C5606B3ACF5623DE25FE6B5F167 nickname=Polish
 Guard in=default rsa_id=E962657DCA041F30D3E333FC5CFBE7E4416DD6B4 nickname=lstorfin1 sampled_on=2021-07-26T16:11:17 sampled_idx=17 sampled_by=0.4.5.9 listed=1
 Guard in=default rsa_id=ADBED8B751D7D63397FF3300BB3DE76141AA168F nickname=Unnamed sampled_on=2021-07-22T04:13:12 sampled_idx=18 sampled_by=0.4.5.9 listed=1
 Guard in=default rsa_id=DB16F1A69EDEFED20A2B341CC8E59241F62A399E nickname=Unnamed sampled_on=2021-07-24T10:04:38 sampled_idx=19 sampled_by=0.4.5.9 listed=1
-LastWritten 2021-08-01 13:26:16
+Guard in=default rsa_id=C7106F0C6A7CF0F592CBAFF7C79BD81153B1B5F5 nickname=TorOrDie4privacyNET sampled_on=2021-08-04T01:36:55 sampled_idx=20 sampled_by=0.4.5.9 listed=1
+Guard in=default rsa_id=BFBD954BE6225FFF1464E66AE647AAD6042936DD nickname=Unnamed sampled_on=2021-08-09T18:57:38 sampled_idx=21 sampled_by=0.4.5.9 listed=1
+LastWritten 2021-08-10 19:53:20
+MinutesSinceUserActivity 1
 TorVersion Tor 0.4.5.9
-TotalBuildTimes 18
+TotalBuildTimes 36

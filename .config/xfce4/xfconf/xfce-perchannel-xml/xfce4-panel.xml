@@ -4,19 +4,18 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
-    <property name="dark-mode" type="bool" value="true"/>
+    <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="icon-size" type="uint" value="20"/>
+      <property name="icon-size" type="uint" value="16"/>
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
-        <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
@@ -30,12 +29,16 @@
         <value type="double" value="0.280000"/>
         <value type="double" value="0.608108"/>
       </property>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="disable-struts" type="bool" value="false"/>
     </property>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-4" type="string" value="pager">
       <property name="rows" type="uint" value="1"/>
       <property name="miniature-view" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
     </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -44,12 +47,16 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="electron"/>
+        <value type="string" value="electron7"/>
         <value type="string" value="miniaplicativo gerenciador de redes"/>
         <value type="string" value="droidcam"/>
         <value type="string" value="lightcord"/>
         <value type="string" value="megasync"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="Element1"/>
+        <value type="string" value="postybirb1"/>
         <value type="string" value="TelegramDesktop"/>
         <value type="string" value="lightcord1"/>
         <value type="string" value="droidcam"/>
@@ -60,9 +67,8 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1138;chromium.instance1141;chromium.instance1160824;chromium.instance1237207;chromium.instance1450;chromium.instance177777;chromium.instance19223;chromium.instance2073;chromium.instance226638;chromium.instance233479;chromium.instance2377;chromium.instance2468526;chromium.instance2475526;chromium.instance3195;chromium.instance3309456;chromium.instance3443;chromium.instance3511;chromium.instance4099017;chromium.instance4111;chromium.instance680324;chromium.instance7076;firefox.instance1321;firefox.instance19569;firefox.instance242941;firefox.instance3307478;firefox.instance71562;firefox.instance75162;firefox.instance8889;musikcube.instance1032;musikcube.instance1052119;musikcube.instance1053190;musikcube.instance1091051;musikcube.instance1110023;musikcube.instance1288435;musikcube.instance1438;musikcube.instance14857;musikcube.instance1714;musikcube.instance2067;musikcube.instance233048;musikcube.instance2486088;musikcube.instance2515434;musikcube.instance2565556;musikcube.instance31113;musikcube.instance33690;musikcube.instance35925;musikcube.instance6639;musikcube.instance713;musikcube.instance721;musikcube.instance7221;musikcube.instance755;musikcube.instance876;musikcube.instance976;musikcube.instance996977"/>
+      <property name="mpris-players" type="string" value="chromium.instance1138;chromium.instance1141;chromium.instance1160824;chromium.instance1237207;chromium.instance1305663;chromium.instance1450;chromium.instance177777;chromium.instance19223;chromium.instance2009702;chromium.instance2073;chromium.instance226638;chromium.instance233479;chromium.instance2377;chromium.instance2468526;chromium.instance2475526;chromium.instance314481;chromium.instance3195;chromium.instance3309456;chromium.instance3443;chromium.instance3511;chromium.instance383911;chromium.instance4099017;chromium.instance4111;chromium.instance495777;chromium.instance5569;chromium.instance680324;chromium.instance7076;chromium.instance739;chromium.instance8102;chromium.instance863;chromium.instance967;firefox.instance1321;firefox.instance19569;firefox.instance242941;firefox.instance3307478;firefox.instance71562;firefox.instance75162;firefox.instance8889;musikcube.instance1032;musikcube.instance1052119;musikcube.instance1053190;musikcube.instance1091051;musikcube.instance1110023;musikcube.instance12514;musikcube.instance1288435;musikcube.instance1438;musikcube.instance14857;musikcube.instance1714;musikcube.instance1722;musikcube.instance1919307;musikcube.instance2067;musikcube.instance233048;musikcube.instance2486088;musikcube.instance2515434;musikcube.instance2565556;musikcube.instance31103;musikcube.instance31113;musikcube.instance318378;musikcube.instance33690;musikcube.instance35925;musikcube.instance523102;musikcube.instance6639;musikcube.instance713;musikcube.instance721;musikcube.instance7221;musikcube.instance755;musikcube.instance876;musikcube.instance976;musikcube.instance996977"/>
     </property>
-    <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -70,6 +76,21 @@
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-1" type="string" value="actions"/>
+    <property name="plugin-1" type="string" value="actions">
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="+hibernate"/>
+        <value type="string" value="+hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
   </property>
 </channel>

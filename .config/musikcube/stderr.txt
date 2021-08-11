@@ -1,6 +1,6 @@
-[2021-08-02 07:44:58] [info] asio async_connect error: system:111 (Conexão recusada)
-[2021-08-02 07:44:58] [info] Error getting remote endpoint: system:107 (Ponto final de transporte não está conectado)
-[2021-08-02 07:44:58] [error] handle_connect error: Underlying Transport Error
+[2021-08-08 10:52:34] [info] asio async_connect error: system:111 (Conexão recusada)
+[2021-08-08 10:52:34] [info] Error getting remote endpoint: system:107 (Ponto final de transporte não está conectado)
+[2021-08-08 10:52:34] [error] handle_connect error: Underlying Transport Error
 AlsaOut::AlsaOut() called
 PulseOut::PulseOut() called
 AlsaOut: destructor
@@ -8,7 +8,215 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
-[mp3float @ 0x7f8804007300] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f2a3c015ec0] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c012ac0] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f2a3c015ec0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f4012d00] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a0c012ac0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a34010080] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29f4012d00] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a08013ac0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a34010080] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c056800] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a08013ac0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c004140] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3c056800] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f401e940] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a0c004140] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29f401e940] Could not update timestamps for discarded samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f4013700] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c010c40] Could not update timestamps for skipped samples.
 AlsaOut::AlsaOut() called
 PulseOut::PulseOut() called
 AlsaOut: destructor
@@ -18,7 +226,7 @@ AlsaOut: closing device...
 AlsaOut: destroyed.
 PulseOut: destroy
 PulseOut: destructor
-[mp3float @ 0x7f8804004e00] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f2a08004700] Could not update timestamps for skipped samples.
 PulseOut: opening device 
 pulse_blocking_stream: CHECK_VALIDITY server
 pulse_blocking_stream: CHECK_VALIDITY dir
@@ -34,7 +242,15 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
-[mp3float @ 0x7f87ec013940] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f2a340124c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a08004700] Could not update timestamps for discarded samples.
 PulseOut: opening device 
 pulse_blocking_stream: CHECK_VALIDITY server
 pulse_blocking_stream: CHECK_VALIDITY dir
@@ -50,7 +266,55 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
-[mp3float @ 0x7f87d4015100] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f2a3c009bc0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a340124c0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c001fc0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3c009bc0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f8013240] Could not update timestamps for skipped samples.
 draining...
 drained...
 draining...
@@ -73,46 +337,13 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
-[mp3float @ 0x7f88200b8b80] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7f87d4015100] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-draining...
-drained...
+[mp3float @ 0x7f2a08007200] Could not update timestamps for skipped samples.
 draining...
 drained...
 PulseOut: destroy
 PulseOut: destructor
 PulseOut: closing device
-[mp3float @ 0x7f88200b8b80] Could not update timestamps for discarded samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7f8820036100] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f29f8013240] Could not update timestamps for discarded samples.
 PulseOut: opening device 
 pulse_blocking_stream: CHECK_VALIDITY server
 pulse_blocking_stream: CHECK_VALIDITY dir
@@ -128,3 +359,1290 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
+[mp3float @ 0x7f2a3400e940] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a08007200] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c055640] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3400e940] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3c055640] Could not update timestamps for discarded samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c00a380] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a34019800] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f2a3c00a380] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c0102c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a34019800] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a080104c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a0c0102c0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f801d1c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a080104c0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c021400] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29f801d1c0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a340173c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3c021400] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c00bc00] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a340173c0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0800e200] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a0c00bc00] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f801bb40] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a0800e200] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c056100] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29f801bb40] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3400a8c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3c056100] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c002400] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3400a8c0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a08004e00] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a0c002400] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f8012180] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a08004e00] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c017680] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29f8012180] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a34015f40] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29f8002e00] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c00d200] Could not update timestamps for skipped samples.
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f2a3c0200c0] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0811d2c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29f8010140] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3402ae00] Could not update timestamps for skipped samples.
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: destroy
+PulseOut: destructor
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f2a3c01c780] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c008f40] Could not update timestamps for skipped samples.
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29f8014140] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a08121100] Could not update timestamps for skipped samples.
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29f4005800] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29dc013c80] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29d4012680] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0c002840] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29f8006d00] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a08001e00] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29f8006d00] overread, skip -5 enddists: -4 -4
+[mp3float @ 0x7f29f8006d00] overread, skip -7 enddists: -2 -2
+[mp3float @ 0x7f29f8006d00] overread, skip -8 enddists: -7 -7
+[mp3float @ 0x7f29f8006d00] overread, skip -9 enddists: -2 -2
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29d401ab80] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f4031080] Could not update timestamps for skipped samples.
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f2a34034240] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29dc004140] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f2a3c052100] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a08015e80] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3c052100] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f4013e40] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a08015e80] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29dc00d640] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29d4011200] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29dc00d640] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c052540] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29d4011200] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0811f600] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3c052540] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3400ddc0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a0811f600] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29dc00c240] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a3400ddc0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29d4001200] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29dc00c240] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c006940] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29d4001200] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29d401cb40] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a0800c180] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29d401cb40] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29dc000d40] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29d4028bc0] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a34017800] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29d4028bc0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29f4005ec0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f2a34017800] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29dc01cb80] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[mp3float @ 0x7f29f4005ec0] Could not update timestamps for discarded samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a3c01b1c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f29d4002440] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f2a08002280] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+[mp3float @ 0x7f2a340132c0] Could not update timestamps for skipped samples.
+draining...
+drained...
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[mp3float @ 0x7f29dc00a740] Could not update timestamps for skipped samples.
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+draining...
+drained...
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device

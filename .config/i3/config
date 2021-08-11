@@ -249,7 +249,7 @@ bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primar
 #exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/refuge3d.png
 #exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/glitchart.jpg
 #exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/godofhighschool.jpg
-exec_always --no-startup-id feh --bg-fill /home/traveler/Imagens/pinkguy.jpg
+exec_always --no-startup-id feh --bg-fill /home/traveler/Imagens/wallpaperNiii.jpg
 #exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/Lapfox1.jpeg
 
 

@@ -1,5 +1,5 @@
 {
-   "checksum": "5a680d765dc2411ffe11eeb7c2d4342b",
+   "checksum": "6ac9ff803aec4f125e0707764e6ce034",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -117,9 +117,23 @@
                "name": "How To Build A Chrome Extension | NEW Manifest Version 3 | (2021 Web Development) - YouTube",
                "type": "url",
                "url": "https://www.youtube.com/watch?v=5E94S1J2vBI"
+            }, {
+               "date_added": "13273107367664413",
+               "guid": "6c4d776b-3faa-4248-b73a-3614a70c7b4f",
+               "id": "69",
+               "name": "Expanded Main Page - OSDev Wiki",
+               "type": "url",
+               "url": "https://wiki.osdev.org/Expanded_Main_Page"
+            }, {
+               "date_added": "13273108184305177",
+               "guid": "318417e5-2fb5-4aa8-ba6d-a0229e58bed5",
+               "id": "71",
+               "name": "Tutorials - OSDev Wiki",
+               "type": "url",
+               "url": "https://wiki.osdev.org/Tutorials"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13272297952231041",
+            "date_modified": "13273110248378935",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -161,9 +175,58 @@
                "name": "TryHackMe | Hacktivities",
                "type": "url",
                "url": "https://tryhackme.com/hacktivities"
+            }, {
+               "date_added": "13272635401135240",
+               "guid": "28d43f9c-9520-4092-ad63-044a5a01d9b1",
+               "id": "59",
+               "name": "sc0tfree/updog: Updog is a replacement for Python's SimpleHTTPServer. It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use http basic auth.",
+               "type": "url",
+               "url": "https://github.com/sc0tfree/updog"
+            }, {
+               "date_added": "13273087344709411",
+               "guid": "24e93f14-181a-4471-b932-abee66cac564",
+               "id": "67",
+               "name": "/sec/ - Security",
+               "type": "url",
+               "url": "https://lainchan.org/sec/index.html"
+            }, {
+               "date_added": "13273088059587919",
+               "guid": "bd9545ab-9275-4d66-904e-99edc87dd81e",
+               "id": "68",
+               "name": "hckpls/pandora: Hack+",
+               "type": "url",
+               "url": "https://github.com/hckpls/pandora"
+            }, {
+               "date_added": "13273107560070522",
+               "guid": "d5451861-13e1-4034-8efd-41d8dc0379ed",
+               "id": "70",
+               "name": "/r/HowToHack FAQ (starting tips, resources, books, and more) : HowToHack",
+               "type": "url",
+               "url": "https://www.reddit.com/r/HowToHack/comments/17tipp/rhowtohack_faq_starting_tips_resources_books_and/"
+            }, {
+               "date_added": "13273110248378935",
+               "guid": "c8db579d-a881-480f-8fba-12ea6a4c36c8",
+               "id": "72",
+               "name": "Hacker Bookshelf - A curated collection of books",
+               "type": "url",
+               "url": "https://hackerbookshelf.com/#networking"
+            }, {
+               "date_added": "13273110692040241",
+               "guid": "c2e32f96-1924-4ce7-9e40-8072067d82d4",
+               "id": "73",
+               "name": "Kata | Codewars",
+               "type": "url",
+               "url": "https://www.codewars.com/kata/search/c?beta=false&order_by=rank_id%20asc&q=&tags=Fundamentals"
+            }, {
+               "date_added": "13273114786088063",
+               "guid": "f42f32e4-8ca3-40d5-87d4-541f9566e2cf",
+               "id": "74",
+               "name": "HackTricks - HackTricks",
+               "type": "url",
+               "url": "https://book.hacktricks.xyz/"
             } ],
             "date_added": "13272217994009367",
-            "date_modified": "13272288888532002",
+            "date_modified": "13273114786088063",
             "guid": "a1cd0055-c1d2-478c-bf11-61da6bbae143",
             "id": "31",
             "name": "Hak",
@@ -311,12 +374,48 @@
                "name": "Help Pro",
                "type": "url",
                "url": "https://intranet.helppro.com.br/login"
+            }, {
+               "date_added": "13272649707478202",
+               "guid": "22599b4b-acd7-4477-aca4-1a9a74cf5e11",
+               "id": "60",
+               "name": "Angular - Getting started with Angular",
+               "type": "url",
+               "url": "https://angular.io/start"
+            }, {
+               "date_added": "13272759652877485",
+               "guid": "5bb9cdf3-e22a-44da-a8f6-8be75d0b3191",
+               "id": "61",
+               "name": "Pontomais",
+               "type": "url",
+               "url": "https://app.pontomaisweb.com.br/#/meu_ponto"
             } ],
             "date_added": "13272403599883581",
-            "date_modified": "13272403599883863",
+            "date_modified": "13272824154645419",
             "guid": "b38b96e8-5861-4d54-a9db-02c2b7d2fab6",
             "id": "57",
             "name": "trampo",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13272824154645419",
+               "guid": "b3e544a1-ffff-4806-95c2-4b689e8bba80",
+               "id": "63",
+               "name": "Game Maker Handbook: Resources for Beginners - An ever growing repository of useful and helpful tutorials, guides, assets, and much more. : gamemaker",
+               "type": "url",
+               "url": "https://www.reddit.com/r/gamemaker/comments/3lyoik/game_maker_handbook_resources_for_beginners_an/"
+            }, {
+               "date_added": "13272942106458716",
+               "guid": "aaaa2408-d0d3-4c42-82ce-342eee016498",
+               "id": "66",
+               "name": "Coding Math: Episode 36 - Verlet Integration Part I - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=3HjO_RGIjCU"
+            } ],
+            "date_added": "13272824168930447",
+            "date_modified": "13273087344709411",
+            "guid": "5ef8bdce-eb35-437c-823b-0145edd9fa14",
+            "id": "64",
+            "name": "gamedev",
             "type": "folder"
          } ],
          "date_added": "13271379845321611",

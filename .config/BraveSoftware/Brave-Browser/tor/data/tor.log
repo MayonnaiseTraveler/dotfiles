@@ -1,41 +1,33 @@
-Aug 01 10:22:06.000 [notice] Tor 0.4.5.9 opening new log file.
-Aug 01 10:22:06.842 [notice] We compiled with OpenSSL 101010bf: OpenSSL 1.1.1k  25 Mar 2021 and we are running with OpenSSL 101010bf: 1.1.1k. These two versions should be binary compatible.
-Aug 01 10:22:06.843 [notice] Tor 0.4.5.9 running on Linux with Libevent 2.1.11-stable, OpenSSL 1.1.1k, Zlib 1.2.11, Liblzma N/A, Libzstd N/A and Glibc 2.31 as libc.
-Aug 01 10:22:06.843 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
-Aug 01 10:22:06.843 [notice] Configuration file "/nonexistent" not present, using reasonable defaults.
-Aug 01 10:22:06.844 [notice] Opening Socks listener on 127.0.0.1:0
-Aug 01 10:22:06.844 [notice] Socks listener listening on port 44365.
-Aug 01 10:22:06.844 [notice] Opened Socks listener connection (ready) on 127.0.0.1:44365
-Aug 01 10:22:06.844 [notice] Opening Control listener on 127.0.0.1:0
-Aug 01 10:22:06.844 [notice] Control listener listening on port 43753.
-Aug 01 10:22:06.844 [notice] Opened Control listener connection (ready) on 127.0.0.1:43753
-Aug 01 10:22:06.000 [notice] Bootstrapped 0% (starting): Starting
-Aug 01 10:22:06.000 [notice] Starting with guard context "default"
-Aug 01 10:22:06.000 [notice] New control connection opened from 127.0.0.1.
-Aug 01 10:22:06.000 [notice] Tor 0.4.5.9 opening log file.
-Aug 01 10:22:06.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
-Aug 01 10:22:07.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
-Aug 01 10:22:07.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
-Aug 01 10:22:08.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
-Aug 01 10:22:08.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
-Aug 01 10:22:08.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
-Aug 01 10:22:08.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
-Aug 01 10:22:11.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
-Aug 01 10:22:12.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
-Aug 01 10:22:12.000 [notice] The current consensus has no exit nodes. Tor can only build internal paths, such as paths to onion services.
-Aug 01 10:22:12.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
-Aug 01 10:22:12.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/6903, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
-Aug 01 10:22:13.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
-Aug 01 10:22:15.000 [notice] The current consensus contains exit nodes. Tor can build exit and internal paths.
-Aug 01 10:22:15.000 [notice] Bootstrapped 57% (loading_descriptors): Loading relay descriptors
-Aug 01 10:22:15.000 [notice] Bootstrapped 64% (loading_descriptors): Loading relay descriptors
-Aug 01 10:22:15.000 [notice] Bootstrapped 69% (loading_descriptors): Loading relay descriptors
-Aug 01 10:22:15.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
-Aug 01 10:22:15.000 [notice] Bootstrapped 80% (ap_conn): Connecting to a relay to build circuits
-Aug 01 10:22:16.000 [notice] Bootstrapped 85% (ap_conn_done): Connected to a relay to build circuits
-Aug 01 10:22:16.000 [notice] Bootstrapped 89% (ap_handshake): Finishing handshake with a relay to build circuits
-Aug 01 10:22:16.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
-Aug 01 10:22:16.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
-Aug 01 10:22:17.000 [notice] Bootstrapped 100% (done): Done
-Aug 01 10:26:16.000 [notice] Owning controller connection has closed -- exiting now.
-Aug 01 10:26:16.000 [notice] Catching signal TERM, exiting cleanly.
+Aug 10 16:51:11.000 [notice] Tor 0.4.5.9 opening new log file.
+Aug 10 16:51:11.556 [notice] We compiled with OpenSSL 101010bf: OpenSSL 1.1.1k  25 Mar 2021 and we are running with OpenSSL 101010bf: 1.1.1k. These two versions should be binary compatible.
+Aug 10 16:51:11.562 [notice] Tor 0.4.5.9 running on Linux with Libevent 2.1.11-stable, OpenSSL 1.1.1k, Zlib 1.2.11, Liblzma N/A, Libzstd N/A and Glibc 2.31 as libc.
+Aug 10 16:51:11.562 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Aug 10 16:51:11.562 [notice] Configuration file "/nonexistent" not present, using reasonable defaults.
+Aug 10 16:51:11.564 [notice] Opening Socks listener on 127.0.0.1:0
+Aug 10 16:51:11.564 [notice] Socks listener listening on port 35797.
+Aug 10 16:51:11.564 [notice] Opened Socks listener connection (ready) on 127.0.0.1:35797
+Aug 10 16:51:11.564 [notice] Opening Control listener on 127.0.0.1:0
+Aug 10 16:51:11.564 [notice] Control listener listening on port 32779.
+Aug 10 16:51:11.564 [notice] Opened Control listener connection (ready) on 127.0.0.1:32779
+Aug 10 16:51:11.000 [notice] Bootstrapped 0% (starting): Starting
+Aug 10 16:51:11.000 [notice] Starting with guard context "default"
+Aug 10 16:51:11.000 [notice] New control connection opened from 127.0.0.1.
+Aug 10 16:51:11.000 [notice] Tor 0.4.5.9 opening log file.
+Aug 10 16:51:11.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Aug 10 16:51:12.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+Aug 10 16:51:13.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Aug 10 16:51:13.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 10 16:51:13.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+Aug 10 16:51:13.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+Aug 10 16:51:14.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+Aug 10 16:51:15.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 10 16:51:15.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 4250/6887, and can only build 22% of likely paths. (We have 64% of guards bw, 63% of midpoint bw, and 55% of exit bw = 22% of path bw.)
+Aug 10 16:51:16.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 4250/6887, and can only build 22% of likely paths. (We have 64% of guards bw, 63% of midpoint bw, and 55% of exit bw = 22% of path bw.)
+Aug 10 16:51:17.000 [notice] Bootstrapped 59% (loading_descriptors): Loading relay descriptors
+Aug 10 16:51:18.000 [notice] Bootstrapped 69% (loading_descriptors): Loading relay descriptors
+Aug 10 16:51:19.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+Aug 10 16:51:19.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 10 16:51:19.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+Aug 10 16:51:20.000 [notice] Bootstrapped 100% (done): Done
+Aug 10 16:53:20.000 [notice] Owning controller connection has closed -- exiting now.
+Aug 10 16:53:20.000 [notice] Catching signal TERM, exiting cleanly.

@@ -1,77 +1,648 @@
-07:44:58 [info] [LOG SESSION] ---------- START ----------
-07:44:58 [info] [PluginFactory] loading plugins
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-07:44:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-07:44:58 [info] [Indexer] indexer source -1303229654 running...
-07:44:58 [info] [Indexer] indexer source -1303229654 finished
-07:44:58 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
-07:44:58 [info] [Indexer] scan completed successfully
-07:44:58 [info] [Indexer] cleanup 1/2
-07:44:58 [info] [Indexer] cleanup 2/2
-07:44:58 [info] [Indexer] optimizing
-07:44:58 [info] [Indexer] done!
-07:44:58 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-07:44:58 [info] [Player] new instance created
-07:44:58 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-07:44:58 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-07:44:58 [info] [ffmpegdecoder] parsing data stream...
-07:44:58 [info] [ffmpegdecoder] found audio stream!
-07:44:58 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-07:44:58 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-07:45:15 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-07:45:15 [info] [Player] new instance created
-07:45:15 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-07:45:15 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-07:45:15 [info] [ffmpegdecoder] parsing data stream...
-07:45:15 [info] [ffmpegdecoder] found audio stream!
-07:45:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-07:45:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-09:23:16 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-09:23:16 [info] [Player] new instance created
-09:23:16 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-09:23:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-09:23:16 [info] [ffmpegdecoder] parsing data stream...
-09:23:16 [info] [ffmpegdecoder] found audio stream!
-09:23:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-09:23:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-09:23:16 [info] [Player] new instance created
-09:23:16 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
-09:23:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
-09:23:16 [info] [ffmpegdecoder] parsing data stream...
-09:23:16 [info] [ffmpegdecoder] found audio stream!
-09:23:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-09:23:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
-09:23:23 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
-09:23:23 [info] [Player] new instance created
-09:23:23 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-09:23:23 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-09:23:23 [info] [ffmpegdecoder] parsing data stream...
-09:23:23 [info] [ffmpegdecoder] found audio stream!
-09:23:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-09:23:23 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
-10:42:28 [info] [ffmpegdecoder] finished decoding.
-11:23:13 [info] [ffmpegdecoder] finished decoding.
-14:17:43 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
-14:17:43 [info] [Player] new instance created
-14:17:43 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
-14:17:43 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
-14:17:43 [info] [ffmpegdecoder] parsing data stream...
-14:17:43 [info] [ffmpegdecoder] found audio stream!
-14:17:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-14:17:43 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
-14:17:43 [info] [Player] new instance created
-14:17:43 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
-14:17:43 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
-14:17:43 [info] [ffmpegdecoder] parsing data stream...
-14:17:43 [info] [ffmpegdecoder] found audio stream!
-14:17:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-14:17:43 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
+10:52:34 [info] [LOG SESSION] ---------- START ----------
+10:52:34 [info] [PluginFactory] loading plugins
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+10:52:34 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+10:52:34 [info] [Indexer] indexer source -1303229654 running...
+10:52:34 [info] [Indexer] indexer source -1303229654 finished
+10:52:34 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+10:52:34 [info] [Indexer] scan completed successfully
+10:52:34 [info] [Indexer] cleanup 1/2
+10:52:34 [info] [Indexer] cleanup 2/2
+10:52:34 [info] [Indexer] optimizing
+10:52:34 [info] [Indexer] done!
+10:53:16 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+10:53:16 [info] [Player] new instance created
+10:53:16 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+10:53:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+10:53:16 [info] [ffmpegdecoder] parsing data stream...
+10:53:16 [info] [ffmpegdecoder] found audio stream!
+10:53:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:53:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+10:53:17 [info] [Player] new instance created
+10:53:17 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+10:53:17 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+10:53:17 [info] [ffmpegdecoder] parsing data stream...
+10:53:17 [info] [ffmpegdecoder] found audio stream!
+10:53:17 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:53:17 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+10:56:21 [info] [ffmpegdecoder] finished decoding.
+10:56:22 [info] [Player] new instance created
+10:56:22 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+10:56:22 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+10:56:22 [info] [ffmpegdecoder] parsing data stream...
+10:56:22 [info] [ffmpegdecoder] found audio stream!
+10:56:22 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:56:22 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+10:59:55 [info] [ffmpegdecoder] finished decoding.
+10:59:56 [info] [Player] new instance created
+10:59:56 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+10:59:56 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+10:59:56 [info] [ffmpegdecoder] parsing data stream...
+10:59:56 [info] [ffmpegdecoder] found audio stream!
+10:59:56 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:59:56 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+11:01:23 [info] [ffmpegdecoder] finished decoding.
+11:01:24 [info] [Player] new instance created
+11:01:24 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+11:01:24 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+11:01:24 [info] [ffmpegdecoder] parsing data stream...
+11:01:24 [info] [ffmpegdecoder] found audio stream!
+11:01:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+11:01:24 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+11:05:23 [info] [ffmpegdecoder] finished decoding.
+11:05:25 [info] [Player] new instance created
+11:05:25 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+11:05:25 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+11:05:25 [info] [ffmpegdecoder] parsing data stream...
+11:05:25 [info] [ffmpegdecoder] found audio stream!
+11:05:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+11:05:25 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+11:08:17 [info] [ffmpegdecoder] finished decoding.
+11:08:17 [info] [Player] new instance created
+11:08:17 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+11:08:17 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+11:08:17 [info] [ffmpegdecoder] parsing data stream...
+11:08:17 [info] [ffmpegdecoder] found audio stream!
+11:08:17 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+11:08:17 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+11:11:34 [info] [ffmpegdecoder] finished decoding.
+11:11:35 [info] [Player] new instance created
+11:11:35 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+11:11:35 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+11:11:35 [info] [ffmpegdecoder] parsing data stream...
+11:11:35 [info] [ffmpegdecoder] found audio stream!
+11:11:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+11:11:35 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+11:14:23 [info] [ffmpegdecoder] finished decoding.
+11:18:46 [info] [ffmpegdecoder] finished decoding.
+12:32:35 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+12:32:35 [info] [Player] new instance created
+12:32:35 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+12:32:35 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+12:32:35 [info] [ffmpegdecoder] parsing data stream...
+12:32:35 [info] [ffmpegdecoder] found audio stream!
+12:32:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+12:32:35 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+12:32:35 [info] [Player] new instance created
+12:32:35 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+12:32:35 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+12:32:35 [info] [ffmpegdecoder] parsing data stream...
+12:32:35 [info] [ffmpegdecoder] found audio stream!
+12:32:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+12:32:35 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+15:15:17 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+15:15:17 [info] [Player] new instance created
+15:15:17 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+15:15:17 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+15:15:17 [info] [ffmpegdecoder] parsing data stream...
+15:15:17 [info] [ffmpegdecoder] found audio stream!
+15:15:17 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:15:17 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+15:15:18 [info] [Player] new instance created
+15:15:18 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+15:15:18 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+15:15:18 [info] [ffmpegdecoder] parsing data stream...
+15:15:18 [info] [ffmpegdecoder] found audio stream!
+15:15:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:15:18 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+15:48:02 [info] [ffmpegdecoder] finished decoding.
+15:48:03 [info] [Player] new instance created
+15:48:03 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+15:48:03 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+15:48:03 [info] [ffmpegdecoder] parsing data stream...
+15:48:03 [info] [ffmpegdecoder] found audio stream!
+15:48:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:48:03 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+15:51:36 [info] [ffmpegdecoder] finished decoding.
+15:51:37 [info] [Player] new instance created
+15:51:37 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+15:51:37 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+15:51:37 [info] [ffmpegdecoder] parsing data stream...
+15:51:37 [info] [ffmpegdecoder] found audio stream!
+15:51:37 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:51:37 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+15:53:04 [info] [ffmpegdecoder] finished decoding.
+15:53:05 [info] [Player] new instance created
+15:53:05 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+15:53:05 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+15:53:05 [info] [ffmpegdecoder] parsing data stream...
+15:53:05 [info] [ffmpegdecoder] found audio stream!
+15:53:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:53:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+15:56:38 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+15:56:38 [info] [Player] new instance created
+15:56:38 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+15:56:38 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+15:56:38 [info] [ffmpegdecoder] parsing data stream...
+15:56:38 [info] [ffmpegdecoder] found audio stream!
+15:56:38 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:56:38 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+15:59:30 [info] [ffmpegdecoder] finished decoding.
+15:59:31 [info] [Player] new instance created
+15:59:31 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+15:59:31 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+15:59:31 [info] [ffmpegdecoder] parsing data stream...
+15:59:31 [info] [ffmpegdecoder] found audio stream!
+15:59:31 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:59:31 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+16:02:47 [info] [ffmpegdecoder] finished decoding.
+16:02:49 [info] [Player] new instance created
+16:02:49 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+16:02:49 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+16:02:49 [info] [ffmpegdecoder] parsing data stream...
+16:02:49 [info] [ffmpegdecoder] found audio stream!
+16:02:49 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:02:49 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+16:05:37 [info] [ffmpegdecoder] finished decoding.
+16:10:00 [info] [ffmpegdecoder] finished decoding.
+16:36:33 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+16:36:33 [info] [Player] new instance created
+16:36:33 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+16:36:33 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+16:36:33 [info] [ffmpegdecoder] parsing data stream...
+16:36:33 [info] [ffmpegdecoder] found audio stream!
+16:36:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:36:33 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+16:36:34 [info] [Player] new instance created
+16:36:34 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+16:36:34 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+16:36:34 [info] [ffmpegdecoder] parsing data stream...
+16:36:34 [info] [ffmpegdecoder] found audio stream!
+16:36:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:36:34 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+16:39:51 [info] [ffmpegdecoder] finished decoding.
+16:39:52 [info] [Player] new instance created
+16:39:52 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
+16:39:52 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
+16:39:52 [info] [ffmpegdecoder] parsing data stream...
+16:39:52 [info] [ffmpegdecoder] found audio stream!
+16:39:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:39:52 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
+16:42:16 [info] [ffmpegdecoder] finished decoding.
+16:42:18 [info] [Player] new instance created
+16:42:18 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
+16:42:18 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
+16:42:18 [info] [ffmpegdecoder] parsing data stream...
+16:42:18 [info] [ffmpegdecoder] found audio stream!
+16:42:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:42:18 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
+16:45:29 [info] [ffmpegdecoder] finished decoding.
+16:45:30 [info] [Player] new instance created
+16:45:30 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
+16:45:30 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
+16:45:30 [info] [ffmpegdecoder] parsing data stream...
+16:45:30 [info] [ffmpegdecoder] found audio stream!
+16:45:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:45:30 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
+16:48:28 [info] [ffmpegdecoder] finished decoding.
+16:48:29 [info] [Player] new instance created
+16:48:29 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
+16:48:29 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
+16:48:29 [info] [ffmpegdecoder] parsing data stream...
+16:48:29 [info] [ffmpegdecoder] found audio stream!
+16:48:29 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:48:29 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
+16:51:04 [info] [ffmpegdecoder] finished decoding.
+16:51:05 [info] [Player] new instance created
+16:51:05 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
+16:51:05 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
+16:51:05 [info] [ffmpegdecoder] parsing data stream...
+16:51:05 [info] [ffmpegdecoder] found audio stream!
+16:51:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:51:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
+16:53:39 [info] [ffmpegdecoder] finished decoding.
+16:53:40 [info] [Player] new instance created
+16:53:40 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+16:53:40 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+16:53:40 [info] [ffmpegdecoder] parsing data stream...
+16:53:40 [info] [ffmpegdecoder] found audio stream!
+16:53:40 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:53:40 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+16:56:13 [info] [ffmpegdecoder] finished decoding.
+16:56:15 [info] [Player] new instance created
+16:56:15 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+16:56:15 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+16:56:15 [info] [ffmpegdecoder] parsing data stream...
+16:56:15 [info] [ffmpegdecoder] found audio stream!
+16:56:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:56:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+16:59:19 [info] [ffmpegdecoder] finished decoding.
+16:59:20 [info] [Player] new instance created
+16:59:20 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
+16:59:20 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
+16:59:20 [info] [ffmpegdecoder] parsing data stream...
+16:59:20 [info] [ffmpegdecoder] found audio stream!
+16:59:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:59:20 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
+17:02:39 [info] [ffmpegdecoder] finished decoding.
+17:02:40 [info] [Player] new instance created
+17:02:40 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
+17:02:40 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
+17:02:40 [info] [ffmpegdecoder] parsing data stream...
+17:02:40 [info] [ffmpegdecoder] found audio stream!
+17:02:40 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:02:40 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
+17:05:47 [info] [ffmpegdecoder] finished decoding.
+17:05:48 [info] [Player] new instance created
+17:05:48 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
+17:05:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
+17:05:48 [info] [ffmpegdecoder] parsing data stream...
+17:05:48 [info] [ffmpegdecoder] found audio stream!
+17:05:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:05:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
+17:08:23 [info] [ffmpegdecoder] finished decoding.
+17:08:24 [info] [Player] new instance created
+17:08:24 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
+17:08:24 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
+17:08:24 [info] [ffmpegdecoder] parsing data stream...
+17:08:24 [info] [ffmpegdecoder] found audio stream!
+17:08:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:08:24 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
+17:11:10 [info] [ffmpegdecoder] finished decoding.
+17:11:11 [info] [Player] new instance created
+17:11:11 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
+17:11:11 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
+17:11:11 [info] [ffmpegdecoder] parsing data stream...
+17:11:11 [info] [ffmpegdecoder] found audio stream!
+17:11:11 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:11:11 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
+17:13:50 [info] [ffmpegdecoder] finished decoding.
+17:13:51 [info] [Player] new instance created
+17:13:51 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Folding Socks-D42lkd7_bNk.mp3
+17:13:51 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Folding Socks-D42lkd7_bNk.mp3
+17:13:51 [info] [ffmpegdecoder] parsing data stream...
+17:13:51 [info] [ffmpegdecoder] found audio stream!
+17:13:51 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:13:51 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Folding Socks-D42lkd7_bNk.mp3
+17:16:37 [info] [ffmpegdecoder] finished decoding.
+17:16:38 [info] [Player] new instance created
+17:16:38 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I Don’t Know What To Think-ektLW_kAlQQ.mp3
+17:16:38 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I Don’t Know What To Think-ektLW_kAlQQ.mp3
+17:16:38 [info] [ffmpegdecoder] parsing data stream...
+17:16:38 [info] [ffmpegdecoder] found audio stream!
+17:16:38 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:16:38 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I Don’t Know What To Think-ektLW_kAlQQ.mp3
+17:19:48 [info] [ffmpegdecoder] finished decoding.
+17:19:49 [info] [Player] new instance created
+17:19:49 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/More Action--GIbcFhTfbY.mp3
+17:19:49 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/More Action--GIbcFhTfbY.mp3
+17:19:49 [info] [ffmpegdecoder] parsing data stream...
+17:19:49 [info] [ffmpegdecoder] found audio stream!
+17:19:49 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:19:49 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/More Action--GIbcFhTfbY.mp3
+17:20:47 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+17:20:47 [info] [Player] new instance created
+17:20:47 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+17:20:47 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+17:20:47 [info] [ffmpegdecoder] parsing data stream...
+17:20:47 [info] [ffmpegdecoder] found audio stream!
+17:20:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:20:47 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+17:20:48 [info] [Player] new instance created
+17:20:48 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+17:20:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+17:20:48 [info] [ffmpegdecoder] parsing data stream...
+17:20:48 [info] [ffmpegdecoder] found audio stream!
+17:20:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:20:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+17:21:02 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+17:21:02 [info] [Player] new instance created
+17:21:02 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+17:21:02 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+17:21:02 [info] [ffmpegdecoder] parsing data stream...
+17:21:02 [info] [ffmpegdecoder] found audio stream!
+17:21:02 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:21:02 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+17:21:03 [info] [Player] new instance created
+17:21:03 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+17:21:03 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+17:21:03 [info] [ffmpegdecoder] parsing data stream...
+17:21:03 [info] [ffmpegdecoder] found audio stream!
+17:21:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:21:03 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+17:22:16 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/nanahira/ゲーミング☆Everything - かめりあ feat. ななひら-xXLpIhFT1sM.mp3
+17:22:16 [info] [Player] new instance created
+17:22:16 [info] [Stream] opening /home/traveler/MEGA/playlist/nanahira/ゲーミング☆Everything - かめりあ feat. ななひら-xXLpIhFT1sM.mp3
+17:22:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/nanahira/ゲーミング☆Everything - かめりあ feat. ななひら-xXLpIhFT1sM.mp3
+17:22:16 [info] [ffmpegdecoder] parsing data stream...
+17:22:16 [info] [ffmpegdecoder] found audio stream!
+17:22:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:22:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/nanahira/ゲーミング☆Everything - かめりあ feat. ななひら-xXLpIhFT1sM.mp3
+17:22:16 [info] [Player] new instance created
+17:22:16 [info] [Stream] opening /home/traveler/MEGA/playlist/nanahira/レンジで好吃☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆ - かめりあ feat. ななひら-di2E67Ufweo.mp3
+17:22:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/nanahira/レンジで好吃☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆ - かめりあ feat. ななひら-di2E67Ufweo.mp3
+17:22:16 [info] [ffmpegdecoder] parsing data stream...
+17:22:16 [info] [ffmpegdecoder] found audio stream!
+17:22:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:22:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/nanahira/レンジで好吃☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆ - かめりあ feat. ななひら-di2E67Ufweo.mp3
+17:23:15 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+17:23:15 [info] [Player] new instance created
+17:23:15 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+17:23:15 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+17:23:15 [info] [ffmpegdecoder] parsing data stream...
+17:23:15 [info] [ffmpegdecoder] found audio stream!
+17:23:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:23:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+17:23:15 [info] [Player] new instance created
+17:23:15 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+17:23:15 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+17:23:15 [info] [ffmpegdecoder] parsing data stream...
+17:23:15 [info] [ffmpegdecoder] found audio stream!
+17:23:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:23:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+20:25:13 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+20:25:13 [info] [Player] new instance created
+20:25:13 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+20:25:13 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+20:25:13 [info] [ffmpegdecoder] parsing data stream...
+20:25:14 [info] [ffmpegdecoder] found audio stream!
+20:25:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:25:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+20:25:14 [info] [Player] new instance created
+20:25:14 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+20:25:14 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+20:25:14 [info] [ffmpegdecoder] parsing data stream...
+20:25:14 [info] [ffmpegdecoder] found audio stream!
+20:25:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:25:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+20:25:14 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+20:25:14 [info] [Player] new instance created
+20:25:14 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+20:25:14 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+20:25:14 [info] [ffmpegdecoder] parsing data stream...
+20:25:14 [info] [ffmpegdecoder] found audio stream!
+20:25:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:25:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+20:25:14 [info] [Player] new instance created
+20:25:14 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+20:25:14 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+20:25:14 [info] [ffmpegdecoder] parsing data stream...
+20:25:14 [info] [ffmpegdecoder] found audio stream!
+20:25:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:25:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+07:25:35 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:35 [info] [Player] new instance created
+07:25:35 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:35 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:35 [info] [ffmpegdecoder] parsing data stream...
+07:25:35 [info] [ffmpegdecoder] found audio stream!
+07:25:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:25:35 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:36 [info] [Player] new instance created
+07:25:36 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:25:36 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:25:36 [info] [ffmpegdecoder] parsing data stream...
+07:25:36 [info] [ffmpegdecoder] found audio stream!
+07:25:36 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:25:36 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:25:48 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:48 [info] [Player] new instance created
+07:25:48 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:48 [info] [ffmpegdecoder] parsing data stream...
+07:25:48 [info] [ffmpegdecoder] found audio stream!
+07:25:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:25:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:25:48 [info] [Player] new instance created
+07:25:48 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights & Zac Carper - The Making of 'You Are Going To Hate This'-BXVEspa6loU.mp3
+07:25:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights & Zac Carper - The Making of 'You Are Going To Hate This'-BXVEspa6loU.mp3
+07:25:48 [info] [ffmpegdecoder] parsing data stream...
+07:25:48 [info] [ffmpegdecoder] found audio stream!
+07:25:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:25:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights & Zac Carper - The Making of 'You Are Going To Hate This'-BXVEspa6loU.mp3
+07:26:27 [info] [Indexer] indexer source -1303229654 running...
+07:26:27 [info] [Indexer] indexer source -1303229654 finished
+07:26:27 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+07:26:27 [info] [Indexer] scan completed successfully
+07:26:27 [info] [Indexer] cleanup 1/2
+07:26:27 [info] [Indexer] cleanup 2/2
+07:26:27 [info] [Indexer] optimizing
+07:26:27 [info] [Indexer] done!
+07:26:28 [info] [Indexer] indexer source -1303229654 running...
+07:26:28 [info] [Indexer] indexer source -1303229654 finished
+07:26:28 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+07:26:29 [info] [Indexer] scan completed successfully
+07:26:29 [info] [Indexer] cleanup 1/2
+07:26:29 [info] [Indexer] cleanup 2/2
+07:26:29 [info] [Indexer] optimizing
+07:26:29 [info] [Indexer] done!
+07:26:45 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - Kids (Official Audio)-v_2xFHNfFXE.mp3
+07:26:45 [info] [Player] new instance created
+07:26:45 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Kids (Official Audio)-v_2xFHNfFXE.mp3
+07:26:45 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Kids (Official Audio)-v_2xFHNfFXE.mp3
+07:26:45 [info] [ffmpegdecoder] parsing data stream...
+07:26:45 [info] [ffmpegdecoder] found audio stream!
+07:26:45 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:26:45 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Kids (Official Audio)-v_2xFHNfFXE.mp3
+07:26:45 [info] [Player] new instance created
+07:26:45 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Haunted (Official Audio)-WTMcRpJ_f2w.mp3
+07:26:45 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Haunted (Official Audio)-WTMcRpJ_f2w.mp3
+07:26:45 [info] [ffmpegdecoder] parsing data stream...
+07:26:45 [info] [ffmpegdecoder] found audio stream!
+07:26:45 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:26:45 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Haunted (Official Audio)-WTMcRpJ_f2w.mp3
+07:26:47 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:47 [info] [Player] new instance created
+07:26:47 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:47 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:47 [info] [ffmpegdecoder] parsing data stream...
+07:26:47 [info] [ffmpegdecoder] found audio stream!
+07:26:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:26:47 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:47 [info] [Player] new instance created
+07:26:47 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:26:47 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:26:47 [info] [ffmpegdecoder] parsing data stream...
+07:26:47 [info] [ffmpegdecoder] found audio stream!
+07:26:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:26:47 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:26:58 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:58 [info] [Player] new instance created
+07:26:58 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:58 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:58 [info] [ffmpegdecoder] parsing data stream...
+07:26:58 [info] [ffmpegdecoder] found audio stream!
+07:26:58 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:26:58 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:26:59 [info] [Player] new instance created
+07:26:59 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Kids (Official Audio)-v_2xFHNfFXE.mp3
+07:26:59 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Kids (Official Audio)-v_2xFHNfFXE.mp3
+07:26:59 [info] [ffmpegdecoder] parsing data stream...
+07:26:59 [info] [ffmpegdecoder] found audio stream!
+07:26:59 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:26:59 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Kids (Official Audio)-v_2xFHNfFXE.mp3
+07:29:46 [info] [ffmpegdecoder] finished decoding.
+07:29:48 [info] [Player] new instance created
+07:29:48 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Haunted (Official Audio)-WTMcRpJ_f2w.mp3
+07:29:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Haunted (Official Audio)-WTMcRpJ_f2w.mp3
+07:29:48 [info] [ffmpegdecoder] parsing data stream...
+07:29:48 [info] [ffmpegdecoder] found audio stream!
+07:29:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:29:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Haunted (Official Audio)-WTMcRpJ_f2w.mp3
+07:32:40 [info] [ffmpegdecoder] finished decoding.
+07:32:42 [info] [Player] new instance created
+07:32:42 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+07:32:42 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+07:32:42 [info] [ffmpegdecoder] parsing data stream...
+07:32:42 [info] [ffmpegdecoder] found audio stream!
+07:32:42 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:32:42 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+07:34:05 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+07:34:05 [info] [Player] new instance created
+07:34:05 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+07:34:05 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+07:34:05 [info] [ffmpegdecoder] parsing data stream...
+07:34:05 [info] [ffmpegdecoder] found audio stream!
+07:34:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:34:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+07:37:09 [info] [ffmpegdecoder] finished decoding.
+07:37:11 [info] [Player] new instance created
+07:37:11 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+07:37:11 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+07:37:11 [info] [ffmpegdecoder] parsing data stream...
+07:37:11 [info] [ffmpegdecoder] found audio stream!
+07:37:11 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:37:11 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+07:40:43 [info] [ffmpegdecoder] finished decoding.
+07:40:44 [info] [Player] new instance created
+07:40:44 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+07:40:44 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+07:40:44 [info] [ffmpegdecoder] parsing data stream...
+07:40:44 [info] [ffmpegdecoder] found audio stream!
+07:40:44 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:40:44 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+07:42:11 [info] [ffmpegdecoder] finished decoding.
+07:42:13 [info] [Player] new instance created
+07:42:13 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+07:42:13 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+07:42:13 [info] [ffmpegdecoder] parsing data stream...
+07:42:13 [info] [ffmpegdecoder] found audio stream!
+07:42:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:42:13 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+07:46:12 [info] [ffmpegdecoder] finished decoding.
+07:46:13 [info] [Player] new instance created
+07:46:13 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+07:46:13 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+07:46:13 [info] [ffmpegdecoder] parsing data stream...
+07:46:13 [info] [ffmpegdecoder] found audio stream!
+07:46:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:46:13 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+07:49:05 [info] [ffmpegdecoder] finished decoding.
+07:49:06 [info] [Player] new instance created
+07:49:06 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:49:06 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:49:06 [info] [ffmpegdecoder] parsing data stream...
+07:49:06 [info] [ffmpegdecoder] found audio stream!
+07:49:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:49:06 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Tungs (Official Audio)-bn3ZUKqXW5I.mp3
+07:52:22 [info] [ffmpegdecoder] finished decoding.
+07:52:23 [info] [Player] new instance created
+07:52:23 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:52:23 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:52:23 [info] [ffmpegdecoder] parsing data stream...
+07:52:23 [info] [ffmpegdecoder] found audio stream!
+07:52:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:52:23 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Of Age (Official Audio)-n6CwbWb8nUQ.mp3
+07:55:11 [info] [ffmpegdecoder] finished decoding.
+07:56:07 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+07:56:07 [info] [Player] new instance created
+07:56:07 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+07:56:07 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+07:56:07 [info] [ffmpegdecoder] parsing data stream...
+07:56:07 [info] [ffmpegdecoder] found audio stream!
+07:56:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:56:07 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/No means no- All lies-_xNKA8S8CG4.mp3
+07:56:07 [info] [Player] new instance created
+07:56:07 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+07:56:07 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+07:56:07 [info] [ffmpegdecoder] parsing data stream...
+07:56:07 [info] [ffmpegdecoder] found audio stream!
+07:56:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:56:07 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - All The Little Bourgeois Dreams-4C8zXxRkUxc.mp3
+08:02:32 [info] [ffmpegdecoder] finished decoding.
+08:02:34 [info] [Player] new instance created
+08:02:34 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+08:02:34 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+08:02:34 [info] [ffmpegdecoder] parsing data stream...
+08:02:34 [info] [ffmpegdecoder] found audio stream!
+08:02:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:02:34 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+08:13:12 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+08:13:12 [info] [Player] new instance created
+08:13:12 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+08:13:12 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+08:13:12 [info] [ffmpegdecoder] parsing data stream...
+08:13:12 [info] [ffmpegdecoder] found audio stream!
+08:13:12 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:13:12 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You Are Going to Hate This (Official Audio)-eLa1S_gj9lM.mp3
+08:13:13 [info] [Player] new instance created
+08:13:13 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+08:13:13 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+08:13:13 [info] [ffmpegdecoder] parsing data stream...
+08:13:13 [info] [ffmpegdecoder] found audio stream!
+08:13:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:13:13 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Puppy Knuckles (Official Audio)-FQj1BiE3BiA.mp3
+08:16:17 [info] [ffmpegdecoder] finished decoding.
+08:16:18 [info] [Player] new instance created
+08:16:18 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+08:16:18 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+08:16:18 [info] [ffmpegdecoder] parsing data stream...
+08:16:18 [info] [ffmpegdecoder] found audio stream!
+08:16:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:16:18 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - You or Me (Official Audio)-6UO3-kb9nGI.mp3
+08:19:50 [info] [ffmpegdecoder] finished decoding.
+08:19:52 [info] [Player] new instance created
+08:19:52 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+08:19:52 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+08:19:52 [info] [ffmpegdecoder] parsing data stream...
+08:19:52 [info] [ffmpegdecoder] found audio stream!
+08:19:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:19:52 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - Growing Up (Official Audio)-VdBc9wvwvh0.mp3
+08:21:19 [info] [ffmpegdecoder] finished decoding.
+08:21:20 [info] [Player] new instance created
+08:21:20 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+08:21:20 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+08:21:20 [info] [ffmpegdecoder] parsing data stream...
+08:21:20 [info] [ffmpegdecoder] found audio stream!
+08:21:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:21:20 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+08:22:58 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/TheFrights/The Frights - All I Need (Official Audio)-8V_uJiTIXs0.mp3
+08:22:59 [info] [Player] new instance created
+08:22:59 [info] [Stream] opening /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+08:22:59 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+08:22:59 [info] [ffmpegdecoder] parsing data stream...
+08:22:59 [info] [ffmpegdecoder] found audio stream!
+08:22:59 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:22:59 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/TheFrights/The Frights - 'Afraid of The Dark' Official Video-2iShGjBNu30.mp3
+08:23:13 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Exotic Aisles (Mallsoft -Vaporwave Mix)-8aFqvdOswSk.mp3
+08:23:13 [info] [Player] new instance created
+08:23:13 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Exotic Aisles (Mallsoft -Vaporwave Mix)-8aFqvdOswSk.mp3
+08:23:13 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Exotic Aisles (Mallsoft -Vaporwave Mix)-8aFqvdOswSk.mp3
+08:23:13 [info] [ffmpegdecoder] parsing data stream...
+08:23:13 [info] [ffmpegdecoder] found audio stream!
+08:23:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:23:13 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Exotic Aisles (Mallsoft -Vaporwave Mix)-8aFqvdOswSk.mp3
+08:23:14 [info] [Player] new instance created
+08:23:14 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:23:14 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:23:14 [info] [ffmpegdecoder] parsing data stream...
+08:23:14 [info] [ffmpegdecoder] found audio stream!
+08:23:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:23:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:53:08 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+08:53:08 [info] [Player] new instance created
+08:53:08 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+08:53:08 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3
+08:53:08 [info] [ffmpegdecoder] parsing data stream...
+08:53:08 [info] [ffmpegdecoder] found audio stream!
+08:53:08 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:53:08 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Taiyou ni Hoero - Adventure Theme PERFECT loop-fGpOnb_AmIY.mp3

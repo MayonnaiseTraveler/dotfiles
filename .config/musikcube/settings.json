@@ -40,5 +40,6 @@
   "SaveSessionOnExit": true,
   "StartMinimized": false,
   "SyncOnStartup": true,
+  "TrackSearchSortOrder": 0,
   "UsePaletteColors": false
 }
