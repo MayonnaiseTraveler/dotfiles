@@ -238,6 +238,7 @@ exec_aways pulseaudio --start
 
 bindsym $mod+shift+x exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside-color=$inactive-bg-color --separator-color=$bg-color --keyhl-color=$text-color --bshl-color=$text-color --wrong-color=$urgent-bg-color --verif-color=$urgent-bg-color --time-color=$text-color --date-color=$text-color --layout-color=$text-color --clock --time-str="%H:%M:%S"
 
+bindsym $mod+shift+s exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside-color=$inactive-bg-color --separator-color=$bg-color --keyhl-color=$text-color --bshl-color=$text-color --wrong-color=$urgent-bg-color --verif-color=$urgent-bg-color --time-color=$text-color --date-color=$text-color --layout-color=$text-color --clock --time-str="%H:%M:%S" && sudo pm-suspend
 #monitor switch until i find a way to use the tablet without the area glitching out
 
 bindsym $mod+shift+n exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 2005x1058 --rotate normal --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+2005+1058
