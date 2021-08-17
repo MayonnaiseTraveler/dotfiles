@@ -1,3 +1,15 @@
-2021/07/28-07:21:50.001 3a806 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neckbeard.xyz_0.indexeddb.leveldb/MANIFEST-000001
-2021/07/28-07:21:50.001 3a806 Recovering log #4
-2021/07/28-07:21:50.001 3a806 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neckbeard.xyz_0.indexeddb.leveldb/000004.log 
+2021/08/10-20:54:38.800 122d6d Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neckbeard.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/10-20:54:38.800 122d6d Recovering log #4
+2021/08/10-20:54:38.806 122d6d Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neckbeard.xyz_0.indexeddb.leveldb/000004.log 
+2021/08/10-20:59:35.426 125690 Level-0 table #8: started
+2021/08/10-20:59:35.428 125690 Level-0 table #8: 150758 bytes OK
+2021/08/10-20:59:35.430 125690 Delete type=0 #4
+2021/08/10-20:59:35.430 125690 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/08/10-20:59:35.430 125690 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x07\x00v\x00u\x00e\x00x\x00-\x00l\x00z' @ 322 : 1
+2021/08/10-20:59:35.430 125690 Compacting 1@1 + 1@2 files
+2021/08/10-20:59:35.433 125690 Generated table #9@1: 30 keys, 3865 bytes
+2021/08/10-20:59:35.433 125690 Compacted 1@1 + 1@2 files => 3865 bytes
+2021/08/10-20:59:35.435 125690 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/08/10-20:59:35.435 125690 Delete type=2 #5
+2021/08/10-20:59:35.435 125690 Delete type=2 #8
+2021/08/10-20:59:35.435 125690 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x07\x00v\x00u\x00e\x00x\x00-\x00l\x00z' @ 322 : 1 .. (end); will stop at (end)

@@ -1,6 +1,9 @@
-2021/08/07-16:01:53.848 5 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/08/07-16:01:53.849 5 Recovering log #134
-2021/08/07-16:01:53.849 5 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000134.log 
-2021/08/07-21:01:52.348 2e Level-0 table #138: started
-2021/08/07-21:01:52.349 2e Level-0 table #138: 15502 bytes OK
-2021/08/07-21:01:52.351 2e Delete type=0 #134
+2021/08/15-21:40:09.894 4 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/08/15-21:40:09.894 4 Recovering log #243
+2021/08/15-21:40:09.895 4 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000243.log 
+2021/08/15-22:50:31.997 12 Level-0 table #248: started
+2021/08/15-22:50:31.998 12 Level-0 table #248: 15819 bytes OK
+2021/08/15-22:50:31.999 12 Delete type=0 #243
+2021/08/16-19:10:04.763 d7 Level-0 table #250: started
+2021/08/16-19:10:04.765 d7 Level-0 table #250: 20907 bytes OK
+2021/08/16-19:10:04.766 d7 Delete type=0 #247

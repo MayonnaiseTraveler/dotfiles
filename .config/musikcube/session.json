@@ -2,11 +2,11 @@
   "LastBrowseCategoryId": 10.0,
   "LastBrowseCategoryType": "artist",
   "LastBrowseDirectoryRoot": "/home/traveler/MEGA/playlist/",
-  "LastCategoryFilter": "vb",
+  "LastCategoryFilter": "",
   "LastCategoryFilterMatchType": 1,
-  "LastLibraryView": "Directory",
-  "LastPlayQueueIndex": -1,
-  "LastPlayQueueTime": 0.0,
-  "LastTrackFilter": "b",
+  "LastLibraryView": "NowPlaying",
+  "LastPlayQueueIndex": 9,
+  "LastPlayQueueTime": 150.0,
+  "LastTrackFilter": "",
   "LastTrackFilterMatchType": 1
 }

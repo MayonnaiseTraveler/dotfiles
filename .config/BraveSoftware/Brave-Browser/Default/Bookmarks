@@ -1,5 +1,5 @@
 {
-   "checksum": "6ac9ff803aec4f125e0707764e6ce034",
+   "checksum": "8869d0e34b9d2e5d50673ba8bbf8d1cd",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -131,9 +131,23 @@
                "name": "Tutorials - OSDev Wiki",
                "type": "url",
                "url": "https://wiki.osdev.org/Tutorials"
+            }, {
+               "date_added": "13273283190704069",
+               "guid": "9f00731c-fae1-4a00-bf45-01f8633d94e3",
+               "id": "90",
+               "name": "Configuring the Apache Server - Networking Tutorial",
+               "type": "url",
+               "url": "https://sourcedaddy.com/networking/configuring-the-apache-server.html"
+            }, {
+               "date_added": "13273626667043852",
+               "guid": "593f69fb-d26f-4b7b-b8de-f9f9300070f6",
+               "id": "92",
+               "name": "Python Program to Compare Two Strings",
+               "type": "url",
+               "url": "https://codescracker.com/python/program/python-program-compare-two-strings.htm"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13273110248378935",
+            "date_modified": "13273626667043852",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -224,9 +238,80 @@
                "name": "HackTricks - HackTricks",
                "type": "url",
                "url": "https://book.hacktricks.xyz/"
+            }, {
+               "date_added": "13273167643245567",
+               "guid": "1a310068-cc59-4239-bfae-9348130c4f7f",
+               "id": "75",
+               "name": "You Can Say \"Reset the Room\" - Lauren Lee McCarthy",
+               "type": "url",
+               "url": "https://lauren-mccarthy.com/You-Can-Say-Reset-the-Room"
+            }, {
+               "date_added": "13273167647459054",
+               "guid": "4550efb2-7e4b-41f7-81f6-0be8ec718ff1",
+               "id": "76",
+               "name": "⌈Ｗｉｒｅｄ　Ｓｏｕｎｄ　ｆｏｒ　Ｗｉｒｅｄ　Ｐｅｏｐｌｅ⌋",
+               "type": "url",
+               "url": "https://fauux.neocities.org/"
+            }, {
+               "date_added": "13273168274424102",
+               "guid": "7a9502c1-6d67-4e73-879e-9fa4b66948fa",
+               "id": "77",
+               "name": "Sapiens Anonym",
+               "type": "url",
+               "url": "https://sapiensanonym.blogspot.com/"
+            }, {
+               "children": [  ],
+               "date_added": "13273192842923843",
+               "date_modified": "13273192842923844",
+               "guid": "d1cb9a46-6868-43cc-bacd-f3328e4a933a",
+               "id": "79",
+               "name": "Nova pasta",
+               "type": "folder"
+            }, {
+               "date_added": "13273202230342990",
+               "guid": "5016adbb-f4c0-4faa-a97a-02d6d1d42c84",
+               "id": "82",
+               "name": "Where Wizards Stay Up Late: The Origins Of The Internet: Hafner, Katie: 8601300369693: Amazon.com: Books",
+               "type": "url",
+               "url": "https://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674"
+            }, {
+               "date_added": "13273204237352646",
+               "guid": "8cd85166-2626-4af8-ac19-31283333d602",
+               "id": "83",
+               "name": "Set up Raspberry Pi FTP Server {Step-by-Step} | phoenixNAP KB",
+               "type": "url",
+               "url": "https://phoenixnap.com/kb/raspberry-pi-ftp-server"
+            }, {
+               "date_added": "13273206764088755",
+               "guid": "2bd43326-2d8f-4102-a1d9-95b12222c18b",
+               "id": "84",
+               "name": "Introduction · Total OSCP Guide",
+               "type": "url",
+               "url": "https://sushant747.gitbooks.io/total-oscp-guide/content/"
+            }, {
+               "date_added": "13273206850277209",
+               "guid": "4d1e3724-ba90-45c6-ae20-f7e06f6dcdfd",
+               "id": "85",
+               "name": "ReversingID/Awesome-Reversing: A curated list of awesome reverse engineering resources for various topics",
+               "type": "url",
+               "url": "https://github.com/ReversingID/Awesome-Reversing#software-reverse-engineering"
+            }, {
+               "date_added": "13273242320547585",
+               "guid": "ce4157c8-d861-438e-b3d8-9a57587ff61d",
+               "id": "87",
+               "name": "Red Team Village and Hacking is NOT a Crime HackerCON Event Update - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=3YH9yf8valI&list=PLruly0ngXhPGn9O0-dYxvjWUurwuS-snW"
+            }, {
+               "date_added": "13273279662165258",
+               "guid": "a2e41f66-a9e3-4427-9e07-c3171f0205ac",
+               "id": "89",
+               "name": "Pentesting Network - HackTricks",
+               "type": "url",
+               "url": "https://book.hacktricks.xyz/pentesting/pentesting-network"
             } ],
             "date_added": "13272217994009367",
-            "date_modified": "13273114786088063",
+            "date_modified": "13273283190704069",
             "guid": "a1cd0055-c1d2-478c-bf11-61da6bbae143",
             "id": "31",
             "name": "Hak",
@@ -416,6 +501,21 @@
             "guid": "5ef8bdce-eb35-437c-823b-0145edd9fa14",
             "id": "64",
             "name": "gamedev",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13273192831731917",
+               "guid": "b8172224-a082-4542-87e8-d16dc954fe2e",
+               "id": "78",
+               "name": "Building the cheapest possible Prusa i3 MK2 – Tom's 3D printing guides and reviews",
+               "type": "url",
+               "url": "https://toms3d.org/2017/02/23/building-cheapest-possible-prusa-i3-mk2/"
+            } ],
+            "date_added": "13273192842923942",
+            "date_modified": "13273202230342990",
+            "guid": "d02d61e1-a54a-4a9c-9f80-764e802e1e43",
+            "id": "80",
+            "name": "eletronics",
             "type": "folder"
          } ],
          "date_added": "13271379845321611",

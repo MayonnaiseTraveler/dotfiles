@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias vim='nvim'
+alias vi='nvim'
 alias newsboat='newsboat -C ~/.newsboat/.config'
 PS1='[\u@\h \W]\$ '
 

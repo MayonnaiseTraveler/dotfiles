@@ -1,7 +1,7 @@
 [Default Applications]
 text/html=brave-browser.desktop
-x-scheme-handler/http=brave-browser.desktop
-x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
 x-scheme-handler/about=brave-browser.desktop
 x-scheme-handler/unknown=brave-browser.desktop
 x-scheme-handler/discord-378347429537251328=discord-378347429537251328.desktop
@@ -15,10 +15,10 @@ application/x-extension-xht=librewolf.desktop
 x-scheme-handler/tg=userapp-Telegram Desktop-WP7260.desktop
 
 [Added Associations]
-x-scheme-handler/http=librewolf.desktop;
-x-scheme-handler/https=librewolf.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
 x-scheme-handler/chrome=librewolf.desktop;
-text/html=librewolf.desktop;
+text/html=wine-extension-txt.desktop;librewolf.desktop;
 application/x-extension-htm=librewolf.desktop;
 application/x-extension-html=librewolf.desktop;
 application/x-extension-shtml=librewolf.desktop;
@@ -26,3 +26,4 @@ application/xhtml+xml=librewolf.desktop;
 application/x-extension-xhtml=librewolf.desktop;
 application/x-extension-xht=librewolf.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-WP7260.desktop;
+

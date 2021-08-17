@@ -1,5 +1,5 @@
 {
-   "checksum": "8c982703677738ab7dd85852858354d4",
+   "checksum": "cb632bdc7d1b862d9e12cac6e6f03146",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -117,9 +117,30 @@
                "name": "How To Build A Chrome Extension | NEW Manifest Version 3 | (2021 Web Development) - YouTube",
                "type": "url",
                "url": "https://www.youtube.com/watch?v=5E94S1J2vBI"
+            }, {
+               "date_added": "13273107367664413",
+               "guid": "6c4d776b-3faa-4248-b73a-3614a70c7b4f",
+               "id": "69",
+               "name": "Expanded Main Page - OSDev Wiki",
+               "type": "url",
+               "url": "https://wiki.osdev.org/Expanded_Main_Page"
+            }, {
+               "date_added": "13273108184305177",
+               "guid": "318417e5-2fb5-4aa8-ba6d-a0229e58bed5",
+               "id": "71",
+               "name": "Tutorials - OSDev Wiki",
+               "type": "url",
+               "url": "https://wiki.osdev.org/Tutorials"
+            }, {
+               "date_added": "13273283190704069",
+               "guid": "9f00731c-fae1-4a00-bf45-01f8633d94e3",
+               "id": "90",
+               "name": "Configuring the Apache Server - Networking Tutorial",
+               "type": "url",
+               "url": "https://sourcedaddy.com/networking/configuring-the-apache-server.html"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13272297952231041",
+            "date_modified": "13273283194820193",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -168,9 +189,122 @@
                "name": "sc0tfree/updog: Updog is a replacement for Python's SimpleHTTPServer. It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use http basic auth.",
                "type": "url",
                "url": "https://github.com/sc0tfree/updog"
+            }, {
+               "date_added": "13273087344709411",
+               "guid": "24e93f14-181a-4471-b932-abee66cac564",
+               "id": "67",
+               "name": "/sec/ - Security",
+               "type": "url",
+               "url": "https://lainchan.org/sec/index.html"
+            }, {
+               "date_added": "13273088059587919",
+               "guid": "bd9545ab-9275-4d66-904e-99edc87dd81e",
+               "id": "68",
+               "name": "hckpls/pandora: Hack+",
+               "type": "url",
+               "url": "https://github.com/hckpls/pandora"
+            }, {
+               "date_added": "13273107560070522",
+               "guid": "d5451861-13e1-4034-8efd-41d8dc0379ed",
+               "id": "70",
+               "name": "/r/HowToHack FAQ (starting tips, resources, books, and more) : HowToHack",
+               "type": "url",
+               "url": "https://www.reddit.com/r/HowToHack/comments/17tipp/rhowtohack_faq_starting_tips_resources_books_and/"
+            }, {
+               "date_added": "13273110248378935",
+               "guid": "c8db579d-a881-480f-8fba-12ea6a4c36c8",
+               "id": "72",
+               "name": "Hacker Bookshelf - A curated collection of books",
+               "type": "url",
+               "url": "https://hackerbookshelf.com/#networking"
+            }, {
+               "date_added": "13273110692040241",
+               "guid": "c2e32f96-1924-4ce7-9e40-8072067d82d4",
+               "id": "73",
+               "name": "Kata | Codewars",
+               "type": "url",
+               "url": "https://www.codewars.com/kata/search/c?beta=false&order_by=rank_id%20asc&q=&tags=Fundamentals"
+            }, {
+               "date_added": "13273114786088063",
+               "guid": "f42f32e4-8ca3-40d5-87d4-541f9566e2cf",
+               "id": "74",
+               "name": "HackTricks - HackTricks",
+               "type": "url",
+               "url": "https://book.hacktricks.xyz/"
+            }, {
+               "date_added": "13273167643245567",
+               "guid": "1a310068-cc59-4239-bfae-9348130c4f7f",
+               "id": "75",
+               "name": "You Can Say \"Reset the Room\" - Lauren Lee McCarthy",
+               "type": "url",
+               "url": "https://lauren-mccarthy.com/You-Can-Say-Reset-the-Room"
+            }, {
+               "date_added": "13273167647459054",
+               "guid": "4550efb2-7e4b-41f7-81f6-0be8ec718ff1",
+               "id": "76",
+               "name": "⌈Ｗｉｒｅｄ　Ｓｏｕｎｄ　ｆｏｒ　Ｗｉｒｅｄ　Ｐｅｏｐｌｅ⌋",
+               "type": "url",
+               "url": "https://fauux.neocities.org/"
+            }, {
+               "date_added": "13273168274424102",
+               "guid": "7a9502c1-6d67-4e73-879e-9fa4b66948fa",
+               "id": "77",
+               "name": "Sapiens Anonym",
+               "type": "url",
+               "url": "https://sapiensanonym.blogspot.com/"
+            }, {
+               "children": [  ],
+               "date_added": "13273192842923843",
+               "date_modified": "13273192842923844",
+               "guid": "d1cb9a46-6868-43cc-bacd-f3328e4a933a",
+               "id": "79",
+               "name": "Nova pasta",
+               "type": "folder"
+            }, {
+               "date_added": "13273202230342990",
+               "guid": "5016adbb-f4c0-4faa-a97a-02d6d1d42c84",
+               "id": "82",
+               "name": "Where Wizards Stay Up Late: The Origins Of The Internet: Hafner, Katie: 8601300369693: Amazon.com: Books",
+               "type": "url",
+               "url": "https://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674"
+            }, {
+               "date_added": "13273204237352646",
+               "guid": "8cd85166-2626-4af8-ac19-31283333d602",
+               "id": "83",
+               "name": "Set up Raspberry Pi FTP Server {Step-by-Step} | phoenixNAP KB",
+               "type": "url",
+               "url": "https://phoenixnap.com/kb/raspberry-pi-ftp-server"
+            }, {
+               "date_added": "13273206764088755",
+               "guid": "2bd43326-2d8f-4102-a1d9-95b12222c18b",
+               "id": "84",
+               "name": "Introduction · Total OSCP Guide",
+               "type": "url",
+               "url": "https://sushant747.gitbooks.io/total-oscp-guide/content/"
+            }, {
+               "date_added": "13273206850277209",
+               "guid": "4d1e3724-ba90-45c6-ae20-f7e06f6dcdfd",
+               "id": "85",
+               "name": "ReversingID/Awesome-Reversing: A curated list of awesome reverse engineering resources for various topics",
+               "type": "url",
+               "url": "https://github.com/ReversingID/Awesome-Reversing#software-reverse-engineering"
+            }, {
+               "date_added": "13273242320547585",
+               "guid": "ce4157c8-d861-438e-b3d8-9a57587ff61d",
+               "id": "87",
+               "name": "Red Team Village and Hacking is NOT a Crime HackerCON Event Update - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=3YH9yf8valI&list=PLruly0ngXhPGn9O0-dYxvjWUurwuS-snW"
+            }, {
+               "date_added": "13273279662165258",
+               "guid": "a2e41f66-a9e3-4427-9e07-c3171f0205ac",
+               "id": "89",
+               "name": "Pentesting Network - HackTricks",
+               "type": "url",
+               "url": "https://book.hacktricks.xyz/pentesting/pentesting-network"
             } ],
             "date_added": "13272217994009367",
-            "date_modified": "13272649707478202",
+            "date_modified": "13273283190704069",
             "guid": "a1cd0055-c1d2-478c-bf11-61da6bbae143",
             "id": "31",
             "name": "Hak",
@@ -347,12 +481,34 @@
                "name": "Game Maker Handbook: Resources for Beginners - An ever growing repository of useful and helpful tutorials, guides, assets, and much more. : gamemaker",
                "type": "url",
                "url": "https://www.reddit.com/r/gamemaker/comments/3lyoik/game_maker_handbook_resources_for_beginners_an/"
+            }, {
+               "date_added": "13272942106458716",
+               "guid": "aaaa2408-d0d3-4c42-82ce-342eee016498",
+               "id": "66",
+               "name": "Coding Math: Episode 36 - Verlet Integration Part I - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=3HjO_RGIjCU"
             } ],
             "date_added": "13272824168930447",
-            "date_modified": "13272824168930850",
+            "date_modified": "13273087344709411",
             "guid": "5ef8bdce-eb35-437c-823b-0145edd9fa14",
             "id": "64",
             "name": "gamedev",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13273192831731917",
+               "guid": "b8172224-a082-4542-87e8-d16dc954fe2e",
+               "id": "78",
+               "name": "Building the cheapest possible Prusa i3 MK2 – Tom's 3D printing guides and reviews",
+               "type": "url",
+               "url": "https://toms3d.org/2017/02/23/building-cheapest-possible-prusa-i3-mk2/"
+            } ],
+            "date_added": "13273192842923942",
+            "date_modified": "13273202230342990",
+            "guid": "d02d61e1-a54a-4a9c-9f80-764e802e1e43",
+            "id": "80",
+            "name": "eletronics",
             "type": "folder"
          } ],
          "date_added": "13271379845321611",
