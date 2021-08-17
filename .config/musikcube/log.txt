@@ -105,3 +105,116 @@
 22:04:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 22:04:24 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/Rag 'N Bones-PAqw9i_OHs4.mp3
 22:07:51 [info] [ffmpegdecoder] finished decoding.
+14:36:25 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+14:36:25 [info] [Player] new instance created
+14:36:25 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+14:36:25 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+14:36:25 [info] [ffmpegdecoder] parsing data stream...
+14:36:25 [info] [ffmpegdecoder] found audio stream!
+14:36:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:36:25 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Small Parts Isolated And Destroyed-9YJmuPSLrbk.mp3
+14:36:26 [info] [Player] new instance created
+14:36:26 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - This Story Must Be Told-zrJJgcJA4N8.mp3
+14:36:26 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - This Story Must Be Told-zrJJgcJA4N8.mp3
+14:36:26 [info] [ffmpegdecoder] parsing data stream...
+14:36:26 [info] [ffmpegdecoder] found audio stream!
+14:36:26 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:36:26 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - This Story Must Be Told-zrJJgcJA4N8.mp3
+14:36:44 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Disappear-TPHZXESOZHc.mp3
+14:36:44 [info] [Player] new instance created
+14:36:44 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Disappear-TPHZXESOZHc.mp3
+14:36:44 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Disappear-TPHZXESOZHc.mp3
+14:36:44 [info] [ffmpegdecoder] parsing data stream...
+14:36:44 [info] [ffmpegdecoder] found audio stream!
+14:36:44 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:36:44 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Disappear-TPHZXESOZHc.mp3
+14:36:44 [info] [Player] new instance created
+14:36:44 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - I'm An Asshole-c2LK9nNlRL8.mp3
+14:36:44 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - I'm An Asshole-c2LK9nNlRL8.mp3
+14:36:44 [info] [ffmpegdecoder] parsing data stream...
+14:36:44 [info] [ffmpegdecoder] found audio stream!
+14:36:44 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:36:44 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - I'm An Asshole-c2LK9nNlRL8.mp3
+14:43:22 [info] [ffmpegdecoder] finished decoding.
+14:43:22 [info] [Player] new instance created
+14:43:22 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - This Wound Will Never Heal-knyfhpCWM5U.mp3
+14:43:22 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - This Wound Will Never Heal-knyfhpCWM5U.mp3
+14:43:22 [info] [ffmpegdecoder] parsing data stream...
+14:43:22 [info] [ffmpegdecoder] found audio stream!
+14:43:22 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:43:22 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - This Wound Will Never Heal-knyfhpCWM5U.mp3
+14:48:05 [info] [ffmpegdecoder] finished decoding.
+14:48:06 [info] [Player] new instance created
+14:48:06 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - The River-y2IvtoPrjY8.mp3
+14:48:06 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - The River-y2IvtoPrjY8.mp3
+14:48:06 [info] [ffmpegdecoder] parsing data stream...
+14:48:06 [info] [ffmpegdecoder] found audio stream!
+14:48:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:48:06 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - The River-y2IvtoPrjY8.mp3
+14:51:33 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:51:33 [info] [Player] new instance created
+14:51:33 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:51:33 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:51:33 [info] [ffmpegdecoder] parsing data stream...
+14:51:33 [info] [ffmpegdecoder] found audio stream!
+14:51:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:51:33 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Cats, Sex And Nazis [Why Do They Call Me Mr Happy]-xbNthA7Uplc.mp3
+14:51:33 [info] [Player] new instance created
+14:51:33 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
+14:51:33 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
+14:51:33 [info] [ffmpegdecoder] parsing data stream...
+14:51:33 [info] [ffmpegdecoder] found audio stream!
+14:51:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:51:33 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/Nomeansno - Two Lips_Rags & Bones Live and Cuddly 1990-7gtK_4gyf0M.mp3
+14:59:22 [info] [ffmpegdecoder] finished decoding.
+14:59:23 [info] [Player] new instance created
+14:59:23 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/It's Catching Up-Iku1FvlLAWs.mp3
+14:59:23 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/It's Catching Up-Iku1FvlLAWs.mp3
+14:59:23 [info] [ffmpegdecoder] parsing data stream...
+14:59:23 [info] [ffmpegdecoder] found audio stream!
+14:59:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:59:23 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/It's Catching Up-Iku1FvlLAWs.mp3
+15:07:33 [info] [ffmpegdecoder] finished decoding.
+15:07:34 [info] [Player] new instance created
+15:07:34 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/Rag 'N Bones-PAqw9i_OHs4.mp3
+15:07:34 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/Rag 'N Bones-PAqw9i_OHs4.mp3
+15:07:34 [info] [ffmpegdecoder] parsing data stream...
+15:07:34 [info] [ffmpegdecoder] found audio stream!
+15:07:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:07:34 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/Rag 'N Bones-PAqw9i_OHs4.mp3
+15:11:01 [info] [ffmpegdecoder] finished decoding.
+15:16:06 [info] [ffmpegdecoder] finished decoding.
+15:26:11 [info] [Indexer] indexer source -1303229654 running...
+15:26:11 [info] [Indexer] indexer source -1303229654 finished
+15:26:11 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+15:26:11 [info] [Indexer] scan completed successfully
+15:26:11 [info] [Indexer] cleanup 1/2
+15:26:11 [info] [Indexer] cleanup 2/2
+15:26:11 [info] [Indexer] optimizing
+15:26:11 [info] [Indexer] done!
+15:26:12 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:26:12 [info] [Player] new instance created
+15:26:12 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:26:12 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:26:12 [info] [ffmpegdecoder] parsing data stream...
+15:26:12 [info] [ffmpegdecoder] found audio stream!
+15:26:12 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:26:12 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:30:40 [info] [ffmpegdecoder] finished decoding.
+18:14:20 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:14:20 [info] [Player] new instance created
+18:14:20 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:14:20 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:14:20 [info] [ffmpegdecoder] parsing data stream...
+18:14:20 [info] [ffmpegdecoder] found audio stream!
+18:14:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+18:14:20 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:15:48 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:15:48 [info] [Player] new instance created
+18:15:48 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:15:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:15:48 [info] [ffmpegdecoder] parsing data stream...
+18:15:48 [info] [ffmpegdecoder] found audio stream!
+18:15:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+18:15:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:20:16 [info] [ffmpegdecoder] finished decoding.

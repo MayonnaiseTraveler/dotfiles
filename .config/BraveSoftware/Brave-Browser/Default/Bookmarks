@@ -1,5 +1,5 @@
 {
-   "checksum": "8869d0e34b9d2e5d50673ba8bbf8d1cd",
+   "checksum": "c8e11a970bbcea42b02b4d5b15046895",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -147,7 +147,7 @@
                "url": "https://codescracker.com/python/program/python-program-compare-two-strings.htm"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13273626667043852",
+            "date_modified": "13273679214726264",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -309,9 +309,16 @@
                "name": "Pentesting Network - HackTricks",
                "type": "url",
                "url": "https://book.hacktricks.xyz/pentesting/pentesting-network"
+            }, {
+               "date_added": "13273694402144368",
+               "guid": "2e8c2e6e-e18d-478c-8af3-d7d3c6450bf2",
+               "id": "96",
+               "name": "Nightmare - Nightmare",
+               "type": "url",
+               "url": "https://guyinatuxedo.github.io/"
             } ],
             "date_added": "13272217994009367",
-            "date_modified": "13273283190704069",
+            "date_modified": "13273694404066503",
             "guid": "a1cd0055-c1d2-478c-bf11-61da6bbae143",
             "id": "31",
             "name": "Hak",
@@ -526,9 +533,23 @@
          "type": "folder"
       },
       "other": {
-         "children": [  ],
+         "children": [ {
+            "date_added": "13273679214726264",
+            "guid": "7ca14d9c-2aa5-4e33-abb7-0e36f6991ec2",
+            "id": "94",
+            "name": "† 𝔗𝔥𝔢𝔪𝔞𝔱𝔬𝔫",
+            "type": "url",
+            "url": "https://thematon.neocities.org/"
+         }, {
+            "date_added": "13273679418139730",
+            "guid": "06ce2bbf-8cb5-4d8e-9c56-845caf3e71d9",
+            "id": "95",
+            "name": "「ｒｅ：Ｌｉｖｅ」",
+            "type": "url",
+            "url": "https://relivesight.com/blog/"
+         } ],
          "date_added": "13271379845321613",
-         "date_modified": "0",
+         "date_modified": "13273694402144368",
          "guid": "00000000-0000-4000-a000-000000000003",
          "id": "2",
          "name": "Outros favoritos",

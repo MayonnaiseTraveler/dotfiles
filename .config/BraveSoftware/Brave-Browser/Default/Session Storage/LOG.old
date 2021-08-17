@@ -1,9 +1,18 @@
-2021/08/15-21:40:09.894 4 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/08/15-21:40:09.894 4 Recovering log #243
-2021/08/15-21:40:09.895 4 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000243.log 
-2021/08/15-22:50:31.997 12 Level-0 table #248: started
-2021/08/15-22:50:31.998 12 Level-0 table #248: 15819 bytes OK
-2021/08/15-22:50:31.999 12 Delete type=0 #243
-2021/08/16-19:10:04.763 d7 Level-0 table #250: started
-2021/08/16-19:10:04.765 d7 Level-0 table #250: 20907 bytes OK
-2021/08/16-19:10:04.766 d7 Delete type=0 #247
+2021/08/16-21:04:39.901 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/08/16-21:04:39.901 3 Recovering log #249
+2021/08/16-21:04:39.901 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000249.log 
+2021/08/17-09:52:20.389 95 Level-0 table #253: started
+2021/08/17-09:52:20.391 95 Level-0 table #253: 25710 bytes OK
+2021/08/17-09:52:20.393 95 Delete type=0 #249
+2021/08/17-14:34:28.590 dc Level-0 table #255: started
+2021/08/17-14:34:28.593 dc Level-0 table #255: 17529 bytes OK
+2021/08/17-14:34:28.597 dc Delete type=0 #252
+2021/08/17-14:34:28.597 dc Compacting 4@0 + 1@1 files
+2021/08/17-14:34:28.603 dc Generated table #256@0: 6983 keys, 161845 bytes
+2021/08/17-14:34:28.603 dc Compacted 4@0 + 1@1 files => 161845 bytes
+2021/08/17-14:34:28.604 dc compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/17-14:34:28.605 dc Delete type=2 #255
+2021/08/17-14:34:28.605 dc Delete type=2 #250
+2021/08/17-14:34:28.605 dc Delete type=2 #248
+2021/08/17-14:34:28.605 dc Delete type=2 #245
+2021/08/17-14:34:28.605 dc Delete type=2 #253

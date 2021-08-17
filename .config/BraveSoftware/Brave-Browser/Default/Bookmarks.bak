@@ -1,5 +1,5 @@
 {
-   "checksum": "cb632bdc7d1b862d9e12cac6e6f03146",
+   "checksum": "8869d0e34b9d2e5d50673ba8bbf8d1cd",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -138,9 +138,16 @@
                "name": "Configuring the Apache Server - Networking Tutorial",
                "type": "url",
                "url": "https://sourcedaddy.com/networking/configuring-the-apache-server.html"
+            }, {
+               "date_added": "13273626667043852",
+               "guid": "593f69fb-d26f-4b7b-b8de-f9f9300070f6",
+               "id": "92",
+               "name": "Python Program to Compare Two Strings",
+               "type": "url",
+               "url": "https://codescracker.com/python/program/python-program-compare-two-strings.htm"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13273283194820193",
+            "date_modified": "13273626667043852",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",

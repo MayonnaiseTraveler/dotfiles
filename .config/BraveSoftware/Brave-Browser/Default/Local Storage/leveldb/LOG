@@ -1,29 +1,20 @@
-2021/08/16-21:04:39.680 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2021/08/16-21:04:39.680 3 Recovering log #796
-2021/08/16-21:04:39.681 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000796.log 
-2021/08/16-21:04:56.755 3 Level-0 table #800: started
-2021/08/16-21:04:56.760 3 Level-0 table #800: 49396 bytes OK
-2021/08/16-21:04:56.761 3 Delete type=0 #796
-2021/08/16-21:06:53.011 5 Level-0 table #802: started
-2021/08/16-21:06:53.013 5 Level-0 table #802: 40372 bytes OK
-2021/08/16-21:06:53.014 5 Delete type=0 #799
-2021/08/16-22:05:24.902 1e Level-0 table #804: started
-2021/08/16-22:05:24.903 1e Level-0 table #804: 24860 bytes OK
-2021/08/16-22:05:24.905 1e Delete type=0 #801
-2021/08/16-22:05:24.905 1e Compacting 4@0 + 2@1 files
-2021/08/16-22:05:24.948 1e Generated table #805@0: 1689 keys, 2368007 bytes
-2021/08/16-22:05:24.959 1e Generated table #806@0: 632 keys, 741915 bytes
-2021/08/16-22:05:24.959 1e Compacted 4@0 + 2@1 files => 3109922 bytes
-2021/08/16-22:05:24.960 1e compacted to: files[ 0 2 1 0 0 0 0 ]
-2021/08/16-22:05:24.961 1e Delete type=2 #797
-2021/08/16-22:05:24.961 1e Delete type=2 #800
-2021/08/16-22:05:24.961 1e Delete type=2 #804
-2021/08/16-22:05:24.961 1e Delete type=2 #795
-2021/08/16-22:05:24.961 1e Delete type=2 #794
-2021/08/16-22:05:24.961 1e Delete type=2 #802
-2021/08/16-22:58:53.011 43 Level-0 table #808: started
-2021/08/16-22:58:53.017 43 Level-0 table #808: 345127 bytes OK
-2021/08/16-22:58:53.019 43 Delete type=0 #803
-2021/08/16-23:04:46.495 43 Level-0 table #810: started
-2021/08/16-23:04:46.502 43 Level-0 table #810: 341550 bytes OK
-2021/08/16-23:04:46.504 43 Delete type=0 #807
+2021/08/17-17:54:45.921 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2021/08/17-17:54:45.922 3 Recovering log #831
+2021/08/17-17:54:45.922 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000831.log 
+2021/08/17-17:56:19.042 3 Level-0 table #835: started
+2021/08/17-17:56:19.047 3 Level-0 table #835: 45782 bytes OK
+2021/08/17-17:56:19.052 3 Delete type=0 #831
+2021/08/17-17:56:19.055 3 Compacting 4@0 + 2@1 files
+2021/08/17-17:56:19.101 3 Generated table #836@0: 1667 keys, 2401450 bytes
+2021/08/17-17:56:19.116 3 Generated table #837@0: 781 keys, 1071292 bytes
+2021/08/17-17:56:19.116 3 Compacted 4@0 + 2@1 files => 3472742 bytes
+2021/08/17-17:56:19.119 3 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/08/17-17:56:19.119 3 Delete type=2 #832
+2021/08/17-17:56:19.120 3 Delete type=2 #826
+2021/08/17-17:56:19.120 3 Delete type=2 #835
+2021/08/17-17:56:19.120 3 Delete type=2 #830
+2021/08/17-17:56:19.120 3 Delete type=2 #825
+2021/08/17-17:56:19.120 3 Delete type=2 #828
+2021/08/17-17:56:40.476 7 Level-0 table #839: started
+2021/08/17-17:56:40.479 7 Level-0 table #839: 47087 bytes OK
+2021/08/17-17:56:40.481 7 Delete type=0 #834
