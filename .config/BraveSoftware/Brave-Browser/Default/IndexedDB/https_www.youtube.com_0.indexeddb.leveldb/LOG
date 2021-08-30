@@ -1,26 +1,21 @@
-2021/08/17-17:56:17.993 b211e Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/08/17-17:56:17.993 b211e Recovering log #836
-2021/08/17-17:56:18.003 b211e Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000836.log 
-2021/08/17-17:56:26.209 b155b Level-0 table #841: started
-2021/08/17-17:56:26.217 b155b Level-0 table #841: 792664 bytes OK
-2021/08/17-17:56:26.218 b155b Delete type=0 #836
-2021/08/17-17:56:26.219 b155b Manual compaction at level-0 from '\x00\xe7\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xe8\x00\x00\x00' @ 0 : 0; will stop at (end)
-2021/08/17-17:56:26.219 b155b Manual compaction at level-1 from '\x00\xe7\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xe8\x00\x00\x00' @ 0 : 0; will stop at '\x00\xe8\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 733615 : 1
-2021/08/17-17:56:26.219 b155b Compacting 1@1 + 1@2 files
-2021/08/17-17:56:26.233 b155b Generated table #842@1: 6333 keys, 1342963 bytes
-2021/08/17-17:56:26.233 b155b Compacted 1@1 + 1@2 files => 1342963 bytes
-2021/08/17-17:56:26.235 b155b compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/08/17-17:56:26.235 b155b Delete type=2 #841
-2021/08/17-17:56:26.235 b155b Manual compaction at level-1 from '\x00\xe8\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 733615 : 1 .. '\x00\xe8\x00\x00\x00' @ 0 : 0; will stop at (end)
-2021/08/17-17:56:26.236 b2007 Level-0 table #844: started
-2021/08/17-17:56:26.237 b2007 Level-0 table #844: 6291 bytes OK
-2021/08/17-17:56:26.238 b2007 Delete type=2 #838
-2021/08/17-17:56:26.238 b2007 Delete type=0 #840
-2021/08/17-17:56:26.239 b2007 Manual compaction at level-0 from '\x00\xe8\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xe9\x00\x00\x00' @ 0 : 0; will stop at (end)
-2021/08/17-17:56:26.239 b2007 Manual compaction at level-1 from '\x00\xe8\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xe9\x00\x00\x00' @ 0 : 0; will stop at '\x00\xe8\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 734287 : 0
-2021/08/17-17:56:26.239 b2007 Compacting 1@1 + 1@2 files
-2021/08/17-17:56:26.261 b2007 Generated table #845@1: 6304 keys, 1345530 bytes
-2021/08/17-17:56:26.261 b2007 Compacted 1@1 + 1@2 files => 1345530 bytes
-2021/08/17-17:56:26.263 b2007 compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/08/17-17:56:26.263 b2007 Delete type=2 #844
-2021/08/17-17:56:26.263 b2007 Manual compaction at level-1 from '\x00\xe8\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 734287 : 0 .. '\x00\xe9\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/08/29-19:18:22.373 a4a0a Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/29-19:18:22.373 a4a0a Recovering log #1384
+2021/08/29-19:18:22.380 a4a0a Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001384.log 
+2021/08/29-19:18:30.864 a4d50 Level-0 table #1389: started
+2021/08/29-19:18:30.874 a4d50 Level-0 table #1389: 1012547 bytes OK
+2021/08/29-19:18:30.875 a4d50 Delete type=0 #1384
+2021/08/29-19:18:36.887 a4d50 Compacting 1@1 + 1@2 files
+2021/08/29-19:18:36.893 a4d50 Generated table #1390@1: 652 keys, 38595 bytes
+2021/08/29-19:18:36.893 a4d50 Compacted 1@1 + 1@2 files => 38595 bytes
+2021/08/29-19:18:36.894 a4d50 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/08/29-19:18:36.894 a4d50 Delete type=2 #1389
+2021/08/29-19:18:36.894 a4d50 Delete type=2 #1386
+2021/08/30-04:14:57.220 f1f89 Level-0 table #1392: started
+2021/08/30-04:14:57.237 f1f89 Level-0 table #1392: 1243678 bytes OK
+2021/08/30-04:14:57.239 f1f89 Delete type=0 #1388
+2021/08/30-04:25:58.244 f5603 Compacting 1@1 + 1@2 files
+2021/08/30-04:25:58.250 f5603 Generated table #1393@1: 676 keys, 25801 bytes
+2021/08/30-04:25:58.250 f5603 Compacted 1@1 + 1@2 files => 25801 bytes
+2021/08/30-04:25:58.251 f5603 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/08/30-04:25:58.252 f5603 Delete type=2 #1390
+2021/08/30-04:25:58.252 f5603 Delete type=2 #1392

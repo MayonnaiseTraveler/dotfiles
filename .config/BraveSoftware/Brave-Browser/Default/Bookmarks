@@ -1,5 +1,5 @@
 {
-   "checksum": "c8e11a970bbcea42b02b4d5b15046895",
+   "checksum": "ded74ce911ec931938424f4b8ad3c753",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -145,9 +145,51 @@
                "name": "Python Program to Compare Two Strings",
                "type": "url",
                "url": "https://codescracker.com/python/program/python-program-compare-two-strings.htm"
+            }, {
+               "date_added": "13273717164256181",
+               "guid": "6098b464-eb34-4469-86a2-1cb144cbf760",
+               "id": "98",
+               "name": "NCURSES Programming HOWTO",
+               "type": "url",
+               "url": "https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/"
+            }, {
+               "date_added": "13273729166747419",
+               "guid": "f778adb8-6071-4e36-ba69-910570ce746d",
+               "id": "99",
+               "name": "Segurança no Desenvolvimento de Software - Ricardo Albuquerque Pinto | Hotmart",
+               "type": "url",
+               "url": "https://www.hotmart.com/product/en/segdessoftware/P44444985I"
+            }, {
+               "date_added": "13273731647305286",
+               "guid": "5c5b99d5-e558-4532-b6f2-c28a495b4632",
+               "id": "100",
+               "name": "Desvendando o CSS Grid na prática | Mayk Brito - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=HN1UjzRSdBk"
+            }, {
+               "date_added": "13273805018984149",
+               "guid": "18be14d3-3462-4bef-a50c-d077a6f0f0c8",
+               "id": "114",
+               "name": "Hop-by-hop routing | Networking tutorial (11 of 13) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=VWJ8GmYnjTs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=11"
+            }, {
+               "date_added": "13273807655405094",
+               "guid": "b50fa4d7-fca5-46fc-aa38-21ec6578ace4",
+               "id": "115",
+               "name": "Curses Programming with Python — Python 3.9.6 documentation",
+               "type": "url",
+               "url": "https://docs.python.org/3/howto/curses.html"
+            }, {
+               "date_added": "13273844994595022",
+               "guid": "bbddf232-06aa-4f47-8755-f033ad18e37d",
+               "id": "116",
+               "name": "Introduction",
+               "type": "url",
+               "url": "https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html#WHATCANWEDO"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13273679214726264",
+            "date_modified": "13273874534640519",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -316,9 +358,30 @@
                "name": "Nightmare - Nightmare",
                "type": "url",
                "url": "https://guyinatuxedo.github.io/"
+            }, {
+               "date_added": "13273789599794682",
+               "guid": "c8ca7dcb-965b-4fb3-80a3-716d69217e60",
+               "id": "102",
+               "name": "Firewall/IDS Evasion and Spoofing | Nmap Network Scanning",
+               "type": "url",
+               "url": "https://nmap.org/book/man-bypass-firewalls-ids.html"
+            }, {
+               "date_added": "13273874534640519",
+               "guid": "7944817f-8457-4052-abb7-28979e061149",
+               "id": "118",
+               "name": "Nmap Network Scanning—The Official Nmap Project Guide to Network Discovery and Security Scanning",
+               "type": "url",
+               "url": "https://nmap.org/book/"
+            }, {
+               "date_added": "13274566403337098",
+               "guid": "6afe3a90-ebc1-4ce6-8747-53f524722f71",
+               "id": "121",
+               "name": "PayloadsAllTheThings/Reverse Shell Cheatsheet.md at master · swisskyrepo/PayloadsAllTheThings",
+               "type": "url",
+               "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md"
             } ],
             "date_added": "13272217994009367",
-            "date_modified": "13273694404066503",
+            "date_modified": "13274741157143317",
             "guid": "a1cd0055-c1d2-478c-bf11-61da6bbae143",
             "id": "31",
             "name": "Hak",
@@ -480,9 +543,16 @@
                "name": "Pontomais",
                "type": "url",
                "url": "https://app.pontomaisweb.com.br/#/meu_ponto"
+            }, {
+               "date_added": "13273758679568228",
+               "guid": "6300a8d3-88c1-4f02-9695-1eb9ed7094cd",
+               "id": "101",
+               "name": "[TRADUÇÃO WEB] Instruções para Desenvolvimento · Issue #3542 · eloverde-sistemas/web-eloverde",
+               "type": "url",
+               "url": "https://github.com/eloverde-sistemas/web-eloverde/issues/3542"
             } ],
             "date_added": "13272403599883581",
-            "date_modified": "13272824154645419",
+            "date_modified": "13273789599794682",
             "guid": "b38b96e8-5861-4d54-a9db-02c2b7d2fab6",
             "id": "57",
             "name": "trampo",
@@ -502,9 +572,16 @@
                "name": "Coding Math: Episode 36 - Verlet Integration Part I - YouTube",
                "type": "url",
                "url": "https://www.youtube.com/watch?v=3HjO_RGIjCU"
+            }, {
+               "date_added": "13274741157143317",
+               "guid": "2ff843a6-615a-45a9-b72f-34e4d9a52f2e",
+               "id": "123",
+               "name": "Setting Up Git with GameMaker - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=aud4GaekqYk"
             } ],
             "date_added": "13272824168930447",
-            "date_modified": "13273087344709411",
+            "date_modified": "13274741167464896",
             "guid": "5ef8bdce-eb35-437c-823b-0145edd9fa14",
             "id": "64",
             "name": "gamedev",
@@ -517,12 +594,90 @@
                "name": "Building the cheapest possible Prusa i3 MK2 – Tom's 3D printing guides and reviews",
                "type": "url",
                "url": "https://toms3d.org/2017/02/23/building-cheapest-possible-prusa-i3-mk2/"
+            }, {
+               "date_added": "13273803804087999",
+               "guid": "0204def0-c819-41ad-9ade-40311672bf24",
+               "id": "106",
+               "name": "Basic Electronics Tutorials and Revision",
+               "type": "url",
+               "url": "https://www.electronics-tutorials.ws/"
+            }, {
+               "date_added": "13273803891041794",
+               "guid": "05f7ed64-85a4-484c-af98-c2c10ebb2185",
+               "id": "107",
+               "name": "faq - AskElectronics",
+               "type": "url",
+               "url": "https://www.reddit.com/r/AskElectronics/wiki/faq#wiki_how_do_i_learn_electronics.3F"
+            }, {
+               "date_added": "13273804514482125",
+               "guid": "90a8b0ba-28b8-49c2-9492-904da62d267f",
+               "id": "110",
+               "name": "Resources - learn.sparkfun.com",
+               "type": "url",
+               "url": "https://learn.sparkfun.com/resources/96"
+            }, {
+               "date_added": "13273804705149938",
+               "guid": "facfd6b6-1481-4245-94ec-991248a1e79e",
+               "id": "111",
+               "name": "Intro to Arduino",
+               "type": "url",
+               "url": "https://cdn.sparkfun.com/assets/3/9/d/9/e/Intro_to_Arduino_-_v30_1.pdf"
+            }, {
+               "date_added": "13273804767818264",
+               "guid": "94a6f8cc-0ecf-4bae-8414-b342bd1591f9",
+               "id": "112",
+               "name": "Microsoft Word - Apostila_Eletronica_Digital_Engenharia__Aluno__Final.doc",
+               "type": "url",
+               "url": "https://ava.unesc.net/pluginfile.php/628156/mod_resource/content/1/Eletr%C3%B4nica%20Digital.pdf"
+            }, {
+               "date_added": "13273804975708055",
+               "guid": "06d113a2-9033-4a3c-b662-92db0751456a",
+               "id": "113",
+               "name": "Experimenting with LEDs | Digital electronics (1 of 10) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=poWJTSV4Yio&list=PLowKtXNTBypETld5oX1ZMI-LYoA2LWi8D"
             } ],
             "date_added": "13273192842923942",
-            "date_modified": "13273202230342990",
+            "date_modified": "13273805018984149",
             "guid": "d02d61e1-a54a-4a9c-9f80-764e802e1e43",
             "id": "80",
             "name": "eletronics",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13273802607131181",
+               "guid": "cceaea5f-877c-4d26-9c43-0449a965a89c",
+               "id": "103",
+               "name": "Trigonometry | Khan Academy",
+               "type": "url",
+               "url": "https://www.khanacademy.org/math/trigonometry"
+            }, {
+               "date_added": "13273802617931058",
+               "guid": "f92ff2d2-f984-418f-afcb-85deadf33e33",
+               "id": "105",
+               "name": "What are some good websites to learn calculus? - Robert Fritz | Brilliant",
+               "type": "url",
+               "url": "https://brilliant.org/discussions/thread/what-are-some-good-websites-to-learn-calculus/"
+            }, {
+               "date_added": "13273804350752208",
+               "guid": "256b8f4e-2684-4d88-82c3-94bc710f266c",
+               "id": "109",
+               "name": "Pauls Online Math Notes",
+               "type": "url",
+               "url": "https://tutorial.math.lamar.edu/"
+            }, {
+               "date_added": "13273892056924150",
+               "guid": "2fc219d3-105e-4077-9a80-1283ea8b7e55",
+               "id": "119",
+               "name": "Math Has a Fatal Flaw - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=HeQX2HjkcNo"
+            } ],
+            "date_added": "13273802615364896",
+            "date_modified": "13274566403337098",
+            "guid": "87038d3e-bafd-4058-bc7c-6d6c7e29f5ca",
+            "id": "104",
+            "name": "math",
             "type": "folder"
          } ],
          "date_added": "13271379845321611",

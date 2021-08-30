@@ -1,20 +1,19 @@
-2021/08/17-17:54:45.921 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2021/08/17-17:54:45.922 3 Recovering log #831
-2021/08/17-17:54:45.922 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000831.log 
-2021/08/17-17:56:19.042 3 Level-0 table #835: started
-2021/08/17-17:56:19.047 3 Level-0 table #835: 45782 bytes OK
-2021/08/17-17:56:19.052 3 Delete type=0 #831
-2021/08/17-17:56:19.055 3 Compacting 4@0 + 2@1 files
-2021/08/17-17:56:19.101 3 Generated table #836@0: 1667 keys, 2401450 bytes
-2021/08/17-17:56:19.116 3 Generated table #837@0: 781 keys, 1071292 bytes
-2021/08/17-17:56:19.116 3 Compacted 4@0 + 2@1 files => 3472742 bytes
-2021/08/17-17:56:19.119 3 compacted to: files[ 0 2 1 0 0 0 0 ]
-2021/08/17-17:56:19.119 3 Delete type=2 #832
-2021/08/17-17:56:19.120 3 Delete type=2 #826
-2021/08/17-17:56:19.120 3 Delete type=2 #835
-2021/08/17-17:56:19.120 3 Delete type=2 #830
-2021/08/17-17:56:19.120 3 Delete type=2 #825
-2021/08/17-17:56:19.120 3 Delete type=2 #828
-2021/08/17-17:56:40.476 7 Level-0 table #839: started
-2021/08/17-17:56:40.479 7 Level-0 table #839: 47087 bytes OK
-2021/08/17-17:56:40.481 7 Delete type=0 #834
+2021/08/30-04:46:01.960 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2021/08/30-04:46:01.973 3 Recovering log #1310
+2021/08/30-04:46:01.982 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001310.log 
+2021/08/30-04:49:43.448 3 Level-0 table #1314: started
+2021/08/30-04:49:43.452 3 Level-0 table #1314: 84466 bytes OK
+2021/08/30-04:49:43.454 3 Delete type=0 #1310
+2021/08/30-04:49:43.455 3 Compacting 4@0 + 3@1 files
+2021/08/30-04:49:43.483 3 Generated table #1315@0: 1395 keys, 2477870 bytes
+2021/08/30-04:49:43.508 3 Generated table #1316@0: 1507 keys, 2408085 bytes
+2021/08/30-04:49:43.533 3 Generated table #1317@0: 1179 keys, 1993646 bytes
+2021/08/30-04:49:43.533 3 Compacted 4@0 + 3@1 files => 6879601 bytes
+2021/08/30-04:49:43.535 3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2021/08/30-04:49:43.535 3 Delete type=2 #1311
+2021/08/30-04:49:43.535 3 Delete type=2 #1309
+2021/08/30-04:49:43.535 3 Delete type=2 #1304
+2021/08/30-04:49:43.535 3 Delete type=2 #1305
+2021/08/30-04:49:43.535 3 Delete type=2 #1307
+2021/08/30-04:49:43.535 3 Delete type=2 #1314
+2021/08/30-04:49:43.535 3 Delete type=2 #1303

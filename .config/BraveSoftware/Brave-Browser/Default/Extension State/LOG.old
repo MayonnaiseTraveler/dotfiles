@@ -1,6 +1,15 @@
-2021/08/16-21:04:40.195 3cfbbf Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2021/08/16-21:04:40.195 3cfbbf Recovering log #83
-2021/08/16-21:04:40.197 3cfbbf Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/000083.log 
-2021/08/17-10:58:29.068 4926e Level-0 table #87: started
-2021/08/17-10:58:29.083 4926e Level-0 table #87: 1640616 bytes OK
-2021/08/17-10:58:29.085 4926e Delete type=0 #83
+2021/08/29-16:44:19.907 69e2e Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2021/08/29-16:44:19.907 69e2e Recovering log #130
+2021/08/29-16:44:19.910 69e2e Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/000130.log 
+2021/08/30-04:23:26.732 f1d32 Level-0 table #134: started
+2021/08/30-04:23:26.745 f1d32 Level-0 table #134: 2065391 bytes OK
+2021/08/30-04:23:26.747 f1d32 Delete type=0 #130
+2021/08/30-04:23:26.749 f1d32 Compacting 4@0 + 1@1 files
+2021/08/30-04:23:26.774 f1d32 Generated table #135@0: 8 keys, 36173 bytes
+2021/08/30-04:23:26.774 f1d32 Compacted 4@0 + 1@1 files => 36173 bytes
+2021/08/30-04:23:26.774 f1d32 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/30-04:23:26.774 f1d32 Delete type=2 #125
+2021/08/30-04:23:26.774 f1d32 Delete type=2 #123
+2021/08/30-04:23:26.774 f1d32 Delete type=2 #131
+2021/08/30-04:23:26.775 f1d32 Delete type=2 #134
+2021/08/30-04:23:26.775 f1d32 Delete type=2 #128

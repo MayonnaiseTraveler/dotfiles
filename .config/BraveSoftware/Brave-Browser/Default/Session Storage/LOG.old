@@ -1,18 +1,18 @@
-2021/08/16-21:04:39.901 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/08/16-21:04:39.901 3 Recovering log #249
-2021/08/16-21:04:39.901 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000249.log 
-2021/08/17-09:52:20.389 95 Level-0 table #253: started
-2021/08/17-09:52:20.391 95 Level-0 table #253: 25710 bytes OK
-2021/08/17-09:52:20.393 95 Delete type=0 #249
-2021/08/17-14:34:28.590 dc Level-0 table #255: started
-2021/08/17-14:34:28.593 dc Level-0 table #255: 17529 bytes OK
-2021/08/17-14:34:28.597 dc Delete type=0 #252
-2021/08/17-14:34:28.597 dc Compacting 4@0 + 1@1 files
-2021/08/17-14:34:28.603 dc Generated table #256@0: 6983 keys, 161845 bytes
-2021/08/17-14:34:28.603 dc Compacted 4@0 + 1@1 files => 161845 bytes
-2021/08/17-14:34:28.604 dc compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/08/17-14:34:28.605 dc Delete type=2 #255
-2021/08/17-14:34:28.605 dc Delete type=2 #250
-2021/08/17-14:34:28.605 dc Delete type=2 #248
-2021/08/17-14:34:28.605 dc Delete type=2 #245
-2021/08/17-14:34:28.605 dc Delete type=2 #253
+2021/08/29-16:44:19.630 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/08/29-16:44:19.630 3 Recovering log #422
+2021/08/29-16:44:19.631 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000422.log 
+2021/08/29-19:18:30.753 5f Level-0 table #426: started
+2021/08/29-19:18:30.755 5f Level-0 table #426: 16005 bytes OK
+2021/08/29-19:18:30.758 5f Delete type=0 #422
+2021/08/29-19:18:30.759 5f Compacting 4@0 + 1@1 files
+2021/08/29-19:18:30.768 5f Generated table #427@0: 10891 keys, 240336 bytes
+2021/08/29-19:18:30.768 5f Compacted 4@0 + 1@1 files => 240336 bytes
+2021/08/29-19:18:30.770 5f compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/29-19:18:30.770 5f Delete type=2 #423
+2021/08/29-19:18:30.770 5f Delete type=2 #420
+2021/08/29-19:18:30.770 5f Delete type=2 #416
+2021/08/29-19:18:30.770 5f Delete type=2 #418
+2021/08/29-19:18:30.771 5f Delete type=2 #426
+2021/08/30-04:23:25.540 b1 Level-0 table #429: started
+2021/08/30-04:23:25.542 b1 Level-0 table #429: 11728 bytes OK
+2021/08/30-04:23:25.544 b1 Delete type=0 #425

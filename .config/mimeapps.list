@@ -26,4 +26,4 @@ application/xhtml+xml=librewolf.desktop;
 application/x-extension-xhtml=librewolf.desktop;
 application/x-extension-xht=librewolf.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-WP7260.desktop;
-
+image/png=feh.desktop;
