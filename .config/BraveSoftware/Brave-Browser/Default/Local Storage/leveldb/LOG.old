@@ -1,38 +1,19 @@
-2021/08/29-16:44:19.410 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2021/08/29-16:44:19.410 3 Recovering log #1290
-2021/08/29-16:44:19.411 3 Level-0 table #1296: started
-2021/08/29-16:44:19.414 3 Level-0 table #1296: 64792 bytes OK
-2021/08/29-16:44:19.414 3 Recovering log #1295
-2021/08/29-16:44:19.414 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001295.log 
-2021/08/29-16:44:19.417 3 Delete type=0 #1290
-2021/08/29-16:44:27.987 5 Level-0 table #1298: started
-2021/08/29-16:44:27.989 5 Level-0 table #1298: 65607 bytes OK
-2021/08/29-16:44:27.991 5 Delete type=0 #1295
-2021/08/29-16:47:22.981 7 Level-0 table #1300: started
-2021/08/29-16:47:22.984 7 Level-0 table #1300: 66905 bytes OK
-2021/08/29-16:47:22.986 7 Delete type=0 #1297
-2021/08/29-19:18:08.179 5f Level-0 table #1302: started
-2021/08/29-19:18:08.181 5f Level-0 table #1302: 15772 bytes OK
-2021/08/29-19:18:08.184 5f Delete type=0 #1299
-2021/08/29-19:18:08.184 5f Compacting 4@0 + 3@1 files
-2021/08/29-19:18:08.226 5f Generated table #1303@0: 1389 keys, 2475992 bytes
-2021/08/29-19:18:08.250 5f Generated table #1304@0: 2218 keys, 2148567 bytes
-2021/08/29-19:18:08.268 5f Generated table #1305@0: 451 keys, 1398167 bytes
-2021/08/29-19:18:08.268 5f Compacted 4@0 + 3@1 files => 6022726 bytes
-2021/08/29-19:18:08.270 5f compacted to: files[ 0 3 1 0 0 0 0 ]
-2021/08/29-19:18:08.271 5f Delete type=2 #1300
-2021/08/29-19:18:08.271 5f Delete type=2 #1293
-2021/08/29-19:18:08.271 5f Delete type=2 #1302
-2021/08/29-19:18:08.271 5f Delete type=2 #1298
-2021/08/29-19:18:08.271 5f Delete type=2 #1296
-2021/08/29-19:18:08.271 5f Delete type=2 #1292
-2021/08/29-19:18:08.271 5f Delete type=2 #1294
-2021/08/29-19:18:29.364 60 Level-0 table #1307: started
-2021/08/29-19:18:29.367 60 Level-0 table #1307: 68486 bytes OK
-2021/08/29-19:18:29.368 60 Delete type=0 #1301
-2021/08/29-19:25:31.356 5f Level-0 table #1309: started
-2021/08/29-19:25:31.363 5f Level-0 table #1309: 859696 bytes OK
-2021/08/29-19:25:31.365 5f Delete type=0 #1306
-2021/08/29-19:42:14.869 5f Level-0 table #1311: started
-2021/08/29-19:42:14.873 5f Level-0 table #1311: 388881 bytes OK
-2021/08/29-19:42:14.874 5f Delete type=0 #1308
+2021/08/30-04:46:01.960 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2021/08/30-04:46:01.973 3 Recovering log #1310
+2021/08/30-04:46:01.982 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001310.log 
+2021/08/30-04:49:43.448 3 Level-0 table #1314: started
+2021/08/30-04:49:43.452 3 Level-0 table #1314: 84466 bytes OK
+2021/08/30-04:49:43.454 3 Delete type=0 #1310
+2021/08/30-04:49:43.455 3 Compacting 4@0 + 3@1 files
+2021/08/30-04:49:43.483 3 Generated table #1315@0: 1395 keys, 2477870 bytes
+2021/08/30-04:49:43.508 3 Generated table #1316@0: 1507 keys, 2408085 bytes
+2021/08/30-04:49:43.533 3 Generated table #1317@0: 1179 keys, 1993646 bytes
+2021/08/30-04:49:43.533 3 Compacted 4@0 + 3@1 files => 6879601 bytes
+2021/08/30-04:49:43.535 3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2021/08/30-04:49:43.535 3 Delete type=2 #1311
+2021/08/30-04:49:43.535 3 Delete type=2 #1309
+2021/08/30-04:49:43.535 3 Delete type=2 #1304
+2021/08/30-04:49:43.535 3 Delete type=2 #1305
+2021/08/30-04:49:43.535 3 Delete type=2 #1307
+2021/08/30-04:49:43.535 3 Delete type=2 #1314
+2021/08/30-04:49:43.535 3 Delete type=2 #1303

@@ -1,5 +1,5 @@
 {
-   "checksum": "ded74ce911ec931938424f4b8ad3c753",
+   "checksum": "9a2427815519a8f28d304c38c1c0777e",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -187,9 +187,16 @@
                "name": "Introduction",
                "type": "url",
                "url": "https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html#WHATCANWEDO"
+            }, {
+               "date_added": "13274832143414362",
+               "guid": "d8631ded-e544-467a-869c-32219ccf1a8f",
+               "id": "125",
+               "name": "loiane.training",
+               "type": "url",
+               "url": "https://loiane.training/curso/angular"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13273874534640519",
+            "date_modified": "13274832145848216",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -581,7 +588,7 @@
                "url": "https://www.youtube.com/watch?v=aud4GaekqYk"
             } ],
             "date_added": "13272824168930447",
-            "date_modified": "13274741167464896",
+            "date_modified": "13274832143414362",
             "guid": "5ef8bdce-eb35-437c-823b-0145edd9fa14",
             "id": "64",
             "name": "gamedev",

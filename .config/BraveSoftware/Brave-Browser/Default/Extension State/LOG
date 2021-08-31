@@ -1,3 +1,9 @@
-2021/08/30-04:46:03.874 33c Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2021/08/30-04:46:03.874 33c Recovering log #133
-2021/08/30-04:46:03.878 33c Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/000133.log 
+2021/08/30-04:58:03.678 39d Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2021/08/30-04:58:03.678 39d Recovering log #133
+2021/08/30-04:58:03.697 39d Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Extension State/000133.log 
+2021/08/30-12:58:49.924 7e2c1 Level-0 table #138: started
+2021/08/30-12:58:49.936 7e2c1 Level-0 table #138: 2250237 bytes OK
+2021/08/30-12:58:49.938 7e2c1 Delete type=0 #133
+2021/08/30-17:52:57.353 c59e0 Level-0 table #140: started
+2021/08/30-17:52:57.365 c59e0 Level-0 table #140: 2082117 bytes OK
+2021/08/30-17:52:57.368 c59e0 Delete type=0 #137
