@@ -27,7 +27,7 @@
     green: #859900;
     neonblue: #44ecff;
     neonpink: #f000DA;
-
+    purple: #1d0061;
     /* Solarized Darker Theme */
     transparent-background: rgba ( 0, 0, 0, 0 % );
     foreground:                  @neonblue;
@@ -41,11 +41,11 @@
     urgent-background:           @transparent-background;
 
     selected-normal-foreground:  @neonpink;
-    selected-normal-background:  @base02;
+    selected-normal-background:  @purple;
     selected-active-foreground:  @neonpink;
-    selected-active-background:  @base02;
+    selected-active-background:  @purple;
     selected-urgent-foreground:  @neonpink;
-    selected-urgent-background:  @base02;
+    selected-urgent-background:  @purple;
 
     alternate-normal-foreground: @neonblue;
     alternate-normal-background: @transparent-background;
@@ -61,6 +61,7 @@
     spacing:                     2;
     background-color:            @transparent-background;
 }
+
 *{
   text-color: @neonblue;
 }
@@ -86,13 +87,14 @@ textbox {
 listview {
     text-color: @neonblue;
     fixed-height: 0;
-    border:       1px dash 0px 0px ;
+    border:       1px solid 0px 0px ;
     border-color: @neonblue;
     spacing:      2px ;
     scrollbar:    false;
     padding:      8px 0px 0px 0px;
 }
 element {
+    text-color:@neonblue;
     border:  0;
     padding: 1px 0px 1px 1px;
 }
