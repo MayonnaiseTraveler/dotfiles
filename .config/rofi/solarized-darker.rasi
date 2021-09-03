@@ -26,7 +26,7 @@
     cyan: #2aa198;
     green: #859900;
     neonblue: #44ecff;
-    neonpink: #D300C4;
+    neonpink: #f000DA;
 
     /* Solarized Darker Theme */
     transparent-background: rgba ( 0, 0, 0, 0 % );
@@ -35,19 +35,19 @@
 
     normal-foreground:           @neonblue;
     normal-background:           @transparent-background;
-    active-foreground:           @green;
+    active-foreground:           @neonblue;
     active-background:           @transparent-background;
-    urgent-foreground:           @red;
+    urgent-foreground:           @neonblue;
     urgent-background:           @transparent-background;
 
     selected-normal-foreground:  @neonpink;
     selected-normal-background:  @base02;
-    selected-active-foreground:  @green;
+    selected-active-foreground:  @neonpink;
     selected-active-background:  @base02;
-    selected-urgent-foreground:  @red;
+    selected-urgent-foreground:  @neonpink;
     selected-urgent-background:  @base02;
 
-    alternate-normal-foreground: @foreground;
+    alternate-normal-foreground: @neonblue;
     alternate-normal-background: @transparent-background;
     alternate-active-foreground: @active-foreground;
     alternate-active-background: @transparent-background;
@@ -61,12 +61,17 @@
     spacing:                     2;
     background-color:            @transparent-background;
 }
+*{
+  text-color: @neonblue;
+}
 window {
+    text-color:       @normal-foreground;
     background-color: @background;
     border:           1;
     padding:          20;
 }
 mainbox {
+    text-color: @normal-foreground;
     border:  0;
     padding: 0;
 }
@@ -76,12 +81,13 @@ message {
     padding:      1px ;
 }
 textbox {
-    text-color: @foreground;
+    text-color: @neonblue;
 }
 listview {
+    text-color: @neonblue;
     fixed-height: 0;
     border:       1px dash 0px 0px ;
-    border-color: @separatorcolor;
+    border-color: @neonblue;
     spacing:      2px ;
     scrollbar:    false;
     padding:      8px 0px 0px 0px;

@@ -1,5 +1,5 @@
 {
-   "checksum": "ded74ce911ec931938424f4b8ad3c753",
+   "checksum": "88120ca059eaeaf72fe7f5d9d3d9e45a",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -187,9 +187,44 @@
                "name": "Introduction",
                "type": "url",
                "url": "https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html#WHATCANWEDO"
+            }, {
+               "date_added": "13274832143414362",
+               "guid": "d8631ded-e544-467a-869c-32219ccf1a8f",
+               "id": "125",
+               "name": "loiane.training",
+               "type": "url",
+               "url": "https://loiane.training/curso/angular"
+            }, {
+               "date_added": "13274884476310814",
+               "guid": "cba54d6c-4692-4a03-afe7-56f33c37e7c0",
+               "id": "127",
+               "name": "Bootstrapping in Angular: How It Works Internally - TekTutorialsHub",
+               "type": "url",
+               "url": "https://www.tektutorialshub.com/angular/angular-bootstrapping-application/"
+            }, {
+               "date_added": "13274888563747415",
+               "guid": "f2820e48-94eb-4261-ae77-e1583901404a",
+               "id": "128",
+               "name": "CSS Grid Layout Tutorial: Holy Grail Angular 10 UI | Techiediaries",
+               "type": "url",
+               "url": "https://www.techiediaries.com/css-grid-layout-tutorial/"
+            }, {
+               "date_added": "13275002617121041",
+               "guid": "b5b9a757-81c3-49d1-a3ba-0639ae76b3d2",
+               "id": "130",
+               "name": "The Perspective and Orthographic Projection Matrix (What Are Projection Matrices and Where/Why Are They Used?)",
+               "type": "url",
+               "url": "https://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction"
+            }, {
+               "date_added": "13275039457664695",
+               "guid": "9c253b81-ca36-44fc-821d-3795141b4c81",
+               "id": "131",
+               "name": "Let’s Create a Custom Audio Player | CSS-Tricks",
+               "type": "url",
+               "url": "https://css-tricks.com/lets-create-a-custom-audio-player/"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13273874534640519",
+            "date_modified": "13275039457664695",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -581,7 +616,7 @@
                "url": "https://www.youtube.com/watch?v=aud4GaekqYk"
             } ],
             "date_added": "13272824168930447",
-            "date_modified": "13274741167464896",
+            "date_modified": "13274832143414362",
             "guid": "5ef8bdce-eb35-437c-823b-0145edd9fa14",
             "id": "64",
             "name": "gamedev",

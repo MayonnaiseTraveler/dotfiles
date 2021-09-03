@@ -1,3 +1,6 @@
 configuration {
 	theme: "~/.config/rofi/solarized-darker.rasi";
+	show-icons: true;
+	icon-theme: "oomox-Cyberpunk-Neon";
+
 }
