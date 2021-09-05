@@ -1,6 +1,139 @@
-[2021-08-31 20:18:03] [info] asio async_connect error: system:111 (Conexão recusada)
-[2021-08-31 20:18:03] [info] Error getting remote endpoint: system:107 (Ponto final de transporte não está conectado)
-[2021-08-31 20:18:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:09] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:09] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:09] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:09] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:24] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:24] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:24] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:24] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:32] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:32] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:32] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:32] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:42] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:42] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:42] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:42] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:17:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:17:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:17:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:00] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:00] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:00] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:00] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:05] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:05] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:05] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:05] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:13] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:13] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:13] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:13] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:23] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:23] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:23] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:23] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:28] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:28] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:28] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:28] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:33] [error] handle_connect error: Underlying Transport Error
 AlsaOut::AlsaOut() called
 PulseOut::PulseOut() called
 AlsaOut: destructor
@@ -8,17 +141,7 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
-[mp3float @ 0x7fba340082c0] Could not update timestamps for skipped samples.
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-PulseOut: destroy
-PulseOut: destructor
-[mp3float @ 0x7fba34008740] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f7a8c046940] Could not update timestamps for skipped samples.
 PulseOut: opening device 
 pulse_blocking_stream: CHECK_VALIDITY server
 pulse_blocking_stream: CHECK_VALIDITY dir
@@ -34,8 +157,15 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
-[mp3float @ 0x7fba18013500] Could not update timestamps for skipped samples.
-[mp3float @ 0x7fba34008740] Could not update timestamps for discarded samples.
+[mp3float @ 0x7f7a6c007c40] Could not update timestamps for skipped samples.
+[2021-09-05 14:18:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:35] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:38] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:38] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:38] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:38] [error] handle_connect error: Underlying Transport Error
 PulseOut: opening device 
 pulse_blocking_stream: CHECK_VALIDITY server
 pulse_blocking_stream: CHECK_VALIDITY dir
@@ -51,7 +181,11 @@ AlsaOut: joining...
 AlsaOut: thread finished
 AlsaOut: closing device...
 AlsaOut: destroyed.
-[mp3float @ 0x7fba0001d900] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f7a50012340] Could not update timestamps for skipped samples.
+[2021-09-05 14:18:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:41] [error] handle_connect error: Underlying Transport Error
 draining...
 drained...
 draining...
@@ -59,399 +193,171 @@ drained...
 PulseOut: destroy
 PulseOut: destructor
 PulseOut: closing device
-[mp3float @ 0x7fba18013500] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba40014680] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba0001d900] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba14014280] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba40014680] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba34037b00] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba14014280] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba18000f80] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba34037b00] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba00000d00] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba18000f80] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba400206c0] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba00000d00] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba1401f580] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba400206c0] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba34036d00] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba1401f580] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba18014ec0] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba34036d00] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba00021ac0] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba18014ec0] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba4001cf80] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-PulseOut: destroy
-PulseOut: destructor
-[mp3float @ 0x7fba18021c40] Could not update timestamps for skipped samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba1401ba00] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-PulseOut: destroy
-PulseOut: destructor
-[mp3float @ 0x7fba04013440] Could not update timestamps for skipped samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba34155f80] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-PulseOut: destroy
-PulseOut: destructor
-[mp3float @ 0x7fba18015300] Could not update timestamps for skipped samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-AlsaOut::AlsaOut() called
-PulseOut::PulseOut() called
-AlsaOut: destructor
-AlsaOut: joining...
-AlsaOut: thread finished
-AlsaOut: closing device...
-AlsaOut: destroyed.
-[mp3float @ 0x7fba4001ed80] Could not update timestamps for skipped samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-PulseOut: closing device
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-[mp3float @ 0x7fba18015300] Could not update timestamps for discarded samples.
-PulseOut: opening device 
-pulse_blocking_stream: CHECK_VALIDITY server
-pulse_blocking_stream: CHECK_VALIDITY dir
-pulse_blocking_stream: CHECK_VALIDITY device
-pulse_blocking_stream: CHECK_VALIDITY spec
-pulse_blocking_stream: CHECK_VALIDITY channel map
-pulse_blocking_stream: context is ready
-pulse_blocking_stream: stream is ready
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
-[mp3float @ 0x7fba4001ed80] Could not update timestamps for discarded samples.
-draining...
-drained...
-draining...
-drained...
-PulseOut: destroy
-PulseOut: destructor
-PulseOut: closing device
+[2021-09-05 14:18:43] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:43] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:43] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:43] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:46] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:46] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:46] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:46] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:51] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:51] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:51] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:51] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:53] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:53] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:53] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:53] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:56] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:18:58] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:18:58] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:58] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:18:58] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:01] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:01] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:01] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:01] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:09] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:09] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:09] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:09] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:24] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:24] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:24] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:24] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:31] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:31] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:31] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:31] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:42] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:42] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:42] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:42] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:19:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:19:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:19:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-05 14:20:27] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-05 14:20:27] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:27] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-05 14:20:27] [error] handle_connect error: Underlying Transport Error

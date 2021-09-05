@@ -1,1 +1,9 @@
-null
+{
+  "always_loop_forever": false,
+  "default_track_length_secs": 180.0,
+  "enable_m3u_support": true,
+  "exclude_tracks_shorter_than_minimum_length": false,
+  "ignore_embedded_track_length": true,
+  "minimum_track_length_secs": 0.0,
+  "track_fade_out_length_secs": 3.0
+}

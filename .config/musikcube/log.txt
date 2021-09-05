@@ -1,187 +1,45 @@
-20:18:03 [info] [LOG SESSION] ---------- START ----------
-20:18:03 [info] [PluginFactory] loading plugins
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-20:18:03 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-20:18:03 [info] [Indexer] indexer source -1303229654 running...
-20:18:03 [info] [Indexer] indexer source -1303229654 finished
-20:18:03 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
-20:18:03 [info] [Indexer] scan completed successfully
-20:18:03 [info] [Indexer] cleanup 1/2
-20:18:03 [info] [Indexer] cleanup 2/2
-20:18:03 [info] [Indexer] optimizing
-20:18:03 [info] [Indexer] done!
-20:18:03 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-20:18:03 [info] [Player] new instance created
-20:18:03 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-20:18:03 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-20:18:03 [info] [ffmpegdecoder] parsing data stream...
-20:18:03 [info] [ffmpegdecoder] found audio stream!
-20:18:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-20:18:03 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-23:10:10 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
-23:10:10 [info] [Player] new instance created
-23:10:10 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
-23:10:10 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
-23:10:10 [info] [ffmpegdecoder] parsing data stream...
-23:10:10 [info] [ffmpegdecoder] found audio stream!
-23:10:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:10:10 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
-23:10:10 [info] [Player] new instance created
-23:10:10 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
-23:10:10 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
-23:10:10 [info] [ffmpegdecoder] parsing data stream...
-23:10:10 [info] [ffmpegdecoder] found audio stream!
-23:10:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:10:10 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
-23:13:27 [info] [ffmpegdecoder] finished decoding.
-23:13:29 [info] [Player] new instance created
-23:13:29 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
-23:13:29 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
-23:13:29 [info] [ffmpegdecoder] parsing data stream...
-23:13:29 [info] [ffmpegdecoder] found audio stream!
-23:13:29 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:13:29 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
-23:15:53 [info] [ffmpegdecoder] finished decoding.
-23:15:54 [info] [Player] new instance created
-23:15:54 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
-23:15:54 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
-23:15:54 [info] [ffmpegdecoder] parsing data stream...
-23:15:54 [info] [ffmpegdecoder] found audio stream!
-23:15:54 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:15:54 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
-23:19:06 [info] [ffmpegdecoder] finished decoding.
-23:19:07 [info] [Player] new instance created
-23:19:07 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
-23:19:07 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
-23:19:07 [info] [ffmpegdecoder] parsing data stream...
-23:19:07 [info] [ffmpegdecoder] found audio stream!
-23:19:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:19:07 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
-23:22:04 [info] [ffmpegdecoder] finished decoding.
-23:22:05 [info] [Player] new instance created
-23:22:05 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
-23:22:05 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
-23:22:05 [info] [ffmpegdecoder] parsing data stream...
-23:22:05 [info] [ffmpegdecoder] found audio stream!
-23:22:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:22:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
-23:24:41 [info] [ffmpegdecoder] finished decoding.
-23:24:42 [info] [Player] new instance created
-23:24:42 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-23:24:42 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-23:24:42 [info] [ffmpegdecoder] parsing data stream...
-23:24:42 [info] [ffmpegdecoder] found audio stream!
-23:24:42 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:24:42 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-23:27:15 [info] [ffmpegdecoder] finished decoding.
-23:27:16 [info] [Player] new instance created
-23:27:16 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
-23:27:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
-23:27:16 [info] [ffmpegdecoder] parsing data stream...
-23:27:16 [info] [ffmpegdecoder] found audio stream!
-23:27:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:27:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
-23:29:50 [info] [ffmpegdecoder] finished decoding.
-23:29:51 [info] [Player] new instance created
-23:29:51 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
-23:29:51 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
-23:29:51 [info] [ffmpegdecoder] parsing data stream...
-23:29:51 [info] [ffmpegdecoder] found audio stream!
-23:29:51 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:29:51 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
-23:32:55 [info] [ffmpegdecoder] finished decoding.
-23:32:57 [info] [Player] new instance created
-23:32:57 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
-23:32:57 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
-23:32:57 [info] [ffmpegdecoder] parsing data stream...
-23:32:57 [info] [ffmpegdecoder] found audio stream!
-23:32:57 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:32:57 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
-23:36:15 [info] [ffmpegdecoder] finished decoding.
-23:36:16 [info] [Player] new instance created
-23:36:16 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
-23:36:16 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
-23:36:16 [info] [ffmpegdecoder] parsing data stream...
-23:36:16 [info] [ffmpegdecoder] found audio stream!
-23:36:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:36:16 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
-23:39:23 [info] [ffmpegdecoder] finished decoding.
-23:39:25 [info] [Player] new instance created
-23:39:25 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
-23:39:25 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
-23:39:25 [info] [ffmpegdecoder] parsing data stream...
-23:39:25 [info] [ffmpegdecoder] found audio stream!
-23:39:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:39:25 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
-23:41:59 [info] [ffmpegdecoder] finished decoding.
-23:42:00 [info] [Player] new instance created
-23:42:00 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
-23:42:00 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
-23:42:00 [info] [ffmpegdecoder] parsing data stream...
-23:42:00 [info] [ffmpegdecoder] found audio stream!
-23:42:00 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:42:00 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
-23:44:47 [info] [ffmpegdecoder] finished decoding.
-23:44:48 [info] [Player] new instance created
-23:44:48 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
-23:44:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
-23:44:48 [info] [ffmpegdecoder] parsing data stream...
-23:44:48 [info] [ffmpegdecoder] found audio stream!
-23:44:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:44:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
-03:28:47 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/musicas para o jogo/Cassette Tape-9lO_31BP7xY.mp3
-03:28:47 [info] [Player] new instance created
-03:28:47 [info] [Stream] opening /home/traveler/MEGA/playlist/musicas para o jogo/Cassette Tape-9lO_31BP7xY.mp3
-03:28:47 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/musicas para o jogo/Cassette Tape-9lO_31BP7xY.mp3
-03:28:47 [info] [ffmpegdecoder] parsing data stream...
-03:28:47 [info] [ffmpegdecoder] found audio stream!
-03:28:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-03:28:47 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/musicas para o jogo/Cassette Tape-9lO_31BP7xY.mp3
-03:28:48 [info] [Player] new instance created
-03:28:48 [info] [Stream] opening /home/traveler/MEGA/playlist/musicas para o jogo/🔊 SOUND EFFECT - ( Metal Debris Falling ) - by Game Sounds-fEAMmHlOJhc.mp3
-03:28:48 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/musicas para o jogo/🔊 SOUND EFFECT - ( Metal Debris Falling ) - by Game Sounds-fEAMmHlOJhc.mp3
-03:28:48 [info] [ffmpegdecoder] parsing data stream...
-03:28:48 [info] [ffmpegdecoder] found audio stream!
-03:28:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-03:28:48 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/musicas para o jogo/🔊 SOUND EFFECT - ( Metal Debris Falling ) - by Game Sounds-fEAMmHlOJhc.mp3
-14:37:06 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3
-14:37:06 [info] [Player] new instance created
-14:37:06 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3
-14:37:06 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3
-14:37:06 [info] [ffmpegdecoder] parsing data stream...
-14:37:06 [info] [ffmpegdecoder] found audio stream!
-14:37:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-14:37:06 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3
-14:37:07 [info] [Player] new instance created
-14:37:07 [info] [Stream] opening /home/traveler/MEGA/playlist/SunsetOverdrive/H-Blockx - Gazoline-t9DPk4IsTK8.mp3
-14:37:07 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/SunsetOverdrive/H-Blockx - Gazoline-t9DPk4IsTK8.mp3
-14:37:07 [info] [ffmpegdecoder] parsing data stream...
-14:37:07 [info] [ffmpegdecoder] found audio stream!
-14:37:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-14:37:07 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/SunsetOverdrive/H-Blockx - Gazoline-t9DPk4IsTK8.mp3
-10:33:41 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-10:33:41 [info] [Player] new instance created
-10:33:41 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-10:33:41 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-10:33:41 [info] [ffmpegdecoder] parsing data stream...
-10:33:41 [info] [ffmpegdecoder] found audio stream!
-10:33:41 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-10:33:41 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-10:33:42 [info] [Player] new instance created
-10:33:42 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Serial Experiments Lain Soundtrack - 01 Lain's Theme-WAhFBhCXbrg.mp3
-10:33:42 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Serial Experiments Lain Soundtrack - 01 Lain's Theme-WAhFBhCXbrg.mp3
-10:33:42 [info] [ffmpegdecoder] parsing data stream...
-10:33:42 [info] [ffmpegdecoder] found audio stream!
-10:33:42 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-10:33:42 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Serial Experiments Lain Soundtrack - 01 Lain's Theme-WAhFBhCXbrg.mp3
-10:38:28 [info] [ffmpegdecoder] finished decoding.
-10:41:37 [info] [ffmpegdecoder] finished decoding.
+14:17:09 [info] [LOG SESSION] ---------- START ----------
+14:17:09 [info] [PluginFactory] loading plugins
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+14:17:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+14:17:09 [info] [Indexer] indexer source -1303229654 running...
+14:17:09 [info] [Indexer] indexer source -1303229654 finished
+14:17:09 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+14:17:09 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
+14:17:09 [info] [Indexer] scan completed successfully
+14:17:09 [info] [Indexer] cleanup 1/2
+14:17:09 [info] [Indexer] cleanup 2/2
+14:17:09 [info] [Indexer] optimizing
+14:17:09 [info] [Indexer] done!
+14:18:34 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/100gecs/100 gecs - toothless {OFFICIAL AUDIO}-_bDZNzMqf2M.mp3
+14:18:34 [info] [Player] new instance created
+14:18:34 [info] [Stream] opening /home/traveler/MEGA/playlist/100gecs/100 gecs - toothless {OFFICIAL AUDIO}-_bDZNzMqf2M.mp3
+14:18:34 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/100gecs/100 gecs - toothless {OFFICIAL AUDIO}-_bDZNzMqf2M.mp3
+14:18:34 [info] [ffmpegdecoder] parsing data stream...
+14:18:34 [info] [ffmpegdecoder] found audio stream!
+14:18:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:18:34 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/100gecs/100 gecs - toothless {OFFICIAL AUDIO}-_bDZNzMqf2M.mp3
+14:18:35 [info] [Player] new instance created
+14:18:35 [info] [Stream] opening /home/traveler/MEGA/playlist/100gecs/100 gecs - gec 2 Ü (Official Audio Stream)-o0BpPA9E-rA.mp3
+14:18:35 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/100gecs/100 gecs - gec 2 Ü (Official Audio Stream)-o0BpPA9E-rA.mp3
+14:18:35 [info] [ffmpegdecoder] parsing data stream...
+14:18:35 [info] [ffmpegdecoder] found audio stream!
+14:18:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:18:35 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/100gecs/100 gecs - gec 2 Ü (Official Audio Stream)-o0BpPA9E-rA.mp3
+14:18:38 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/100gecs/100 gecs - gec 2 Ü (Official Audio Stream)-o0BpPA9E-rA.mp3
+14:18:38 [info] [Player] new instance created
+14:18:38 [info] [Stream] opening /home/traveler/MEGA/playlist/100gecs/100 gecs - money machine (Official Music Video)-z97qLNXeAMQ.mp3
+14:18:38 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/100gecs/100 gecs - money machine (Official Music Video)-z97qLNXeAMQ.mp3
+14:18:38 [info] [ffmpegdecoder] parsing data stream...
+14:18:38 [info] [ffmpegdecoder] found audio stream!
+14:18:38 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:18:38 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/100gecs/100 gecs - money machine (Official Music Video)-z97qLNXeAMQ.mp3
