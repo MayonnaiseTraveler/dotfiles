@@ -1,5 +1,5 @@
 {
-   "checksum": "6ddd02099e79d01950c6f10a6470fc25",
+   "checksum": "af8c2c878b3e300e39a0cf6c7a0463c7",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -278,9 +278,30 @@
                "name": "Chad's Guide to Starting Your Own Website – LandChad.net",
                "type": "url",
                "url": "https://landchad.net/"
+            }, {
+               "date_added": "13275739966617913",
+               "guid": "a52705ad-2da6-41a1-b7d0-b28c4302242d",
+               "id": "146",
+               "name": "Question: Why do people criticize node for having a big node_modules folder? : node",
+               "type": "url",
+               "url": "https://www.reddit.com/r/node/comments/8o7jm1/question_why_do_people_criticize_node_for_having/"
+            }, {
+               "date_added": "13275740224006259",
+               "guid": "a94c7d6c-e909-406b-bd05-42f59a002d29",
+               "id": "147",
+               "name": "Getting Started with CGI Programming in C",
+               "type": "url",
+               "url": "https://jkorpela.fi/forms/cgic.html"
+            }, {
+               "date_added": "13275740248246578",
+               "guid": "d3cc78e4-c1c2-4f73-8686-a1fd607d40e6",
+               "id": "148",
+               "name": "The Best Way to Learn Backend Web Development",
+               "type": "url",
+               "url": "https://www.freecodecamp.org/news/learn-backend-development/"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13275645701888469",
+            "date_modified": "13275740248246578",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",

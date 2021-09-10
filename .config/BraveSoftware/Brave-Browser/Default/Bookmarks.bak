@@ -1,5 +1,5 @@
 {
-   "checksum": "228ec9e47e652924e9b966ab4ec3aaf9",
+   "checksum": "6ddd02099e79d01950c6f10a6470fc25",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -222,9 +222,65 @@
                "name": "Let’s Create a Custom Audio Player | CSS-Tricks",
                "type": "url",
                "url": "https://css-tricks.com/lets-create-a-custom-audio-player/"
+            }, {
+               "date_added": "13275636151676507",
+               "guid": "88d57d08-5831-44ce-8cb5-b4181cbe3b50",
+               "id": "137",
+               "name": "LukeSmithxyz/lb: Blog & RSS system in less than 100 lines of shell script",
+               "type": "url",
+               "url": "https://github.com/LukeSmithxyz/lb"
+            }, {
+               "date_added": "13275637158639770",
+               "guid": "ed692452-8f59-41e1-b7ee-f1c617696642",
+               "id": "138",
+               "name": "HackerRank",
+               "type": "url",
+               "url": "https://www.hackerrank.com/"
+            }, {
+               "date_added": "13275637163897821",
+               "guid": "9292c488-20b6-4e47-9ae8-5ae0b64a640f",
+               "id": "139",
+               "name": "Home | Codewars",
+               "type": "url",
+               "url": "https://www.codewars.com/dashboard"
+            }, {
+               "date_added": "13275637215807499",
+               "guid": "91dd32da-209e-4ca6-b5a1-df2d0c90117f",
+               "id": "140",
+               "name": "Bash scripting cheatsheet",
+               "type": "url",
+               "url": "https://devhints.io/bash"
+            }, {
+               "date_added": "13275637271017890",
+               "guid": "824ad3ae-1659-470e-83cb-efcc2d0a154b",
+               "id": "141",
+               "name": "Learn X in Y Minutes: Scenic Programming Language Tours",
+               "type": "url",
+               "url": "https://learnxinyminutes.com/docs/bash/"
+            }, {
+               "date_added": "13275637959633595",
+               "guid": "d00a775b-0356-4be3-a18f-df022e78f51d",
+               "id": "142",
+               "name": "https://www.kernel.org/doc/Documentation/process/coding-style.rst",
+               "type": "url",
+               "url": "https://www.kernel.org/doc/Documentation/process/coding-style.rst"
+            }, {
+               "date_added": "13275645455973914",
+               "guid": "ddd41293-5245-4af7-840c-79d32bc5b133",
+               "id": "143",
+               "name": "The Bash Guide",
+               "type": "url",
+               "url": "https://guide.bash.academy/"
+            }, {
+               "date_added": "13275645701888469",
+               "guid": "947f60f3-d7c6-42c2-b810-506733b6622b",
+               "id": "144",
+               "name": "Chad's Guide to Starting Your Own Website – LandChad.net",
+               "type": "url",
+               "url": "https://landchad.net/"
             } ],
             "date_added": "13271936471305105",
-            "date_modified": "13275118568437213",
+            "date_modified": "13275645701888469",
             "guid": "1656c472-46fe-4aa8-806a-774bc61be47e",
             "id": "22",
             "name": "Kode",
@@ -730,7 +786,7 @@
             "url": "https://spyware.neocities.org/index.html"
          } ],
          "date_added": "13271379845321611",
-         "date_modified": "13275167080004960",
+         "date_modified": "13275636151676507",
          "guid": "00000000-0000-4000-a000-000000000002",
          "id": "1",
          "name": "Barra de favoritos",
