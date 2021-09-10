@@ -5,6 +5,10 @@
 #If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Splash Calendar and time
+now
+
+
 alias ls='ls --color=auto'
 alias mpv='devour mpv'
 alias zathura='devour zathura'

@@ -1,9 +1,24 @@
-2021/09/03-20:29:03.389 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/09/03-20:29:03.389 3 Recovering log #467
-2021/09/03-20:29:03.409 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000467.log 
-2021/09/03-20:29:07.662 3 Level-0 table #471: started
-2021/09/03-20:29:07.665 3 Level-0 table #471: 26341 bytes OK
-2021/09/03-20:29:07.667 3 Delete type=0 #467
-2021/09/04-13:33:42.784 158 Level-0 table #473: started
-2021/09/04-13:33:42.788 158 Level-0 table #473: 27154 bytes OK
-2021/09/04-13:33:42.791 158 Delete type=0 #470
+2021/09/09-05:23:12.955 3 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/09/09-05:23:12.955 3 Recovering log #480
+2021/09/09-05:23:12.956 3 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000480.log 
+2021/09/09-06:15:17.876 18 Level-0 table #484: started
+2021/09/09-06:15:17.878 18 Level-0 table #484: 28040 bytes OK
+2021/09/09-06:15:17.880 18 Delete type=0 #480
+2021/09/10-04:42:47.188 150 Level-0 table #486: started
+2021/09/10-04:42:47.190 150 Level-0 table #486: 28028 bytes OK
+2021/09/10-04:42:47.194 150 Delete type=0 #483
+2021/09/10-04:42:47.194 150 Compacting 4@0 + 1@1 files
+2021/09/10-04:42:47.214 150 Generated table #487@0: 13313 keys, 304078 bytes
+2021/09/10-04:42:47.214 150 Compacted 4@0 + 1@1 files => 304078 bytes
+2021/09/10-04:42:47.215 150 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/09/10-04:42:47.216 150 Delete type=2 #484
+2021/09/10-04:42:47.216 150 Delete type=2 #477
+2021/09/10-04:42:47.216 150 Delete type=2 #481
+2021/09/10-04:42:47.216 150 Delete type=2 #486
+2021/09/10-04:42:47.216 150 Delete type=2 #479
+2021/09/10-05:56:01.587 172 Level-0 table #489: started
+2021/09/10-05:56:01.589 172 Level-0 table #489: 16725 bytes OK
+2021/09/10-05:56:01.592 172 Delete type=0 #485
+2021/09/10-06:07:12.741 178 Level-0 table #491: started
+2021/09/10-06:07:12.743 178 Level-0 table #491: 15891 bytes OK
+2021/09/10-06:07:12.746 178 Delete type=0 #488

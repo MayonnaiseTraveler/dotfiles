@@ -1,30 +1,30 @@
-2021/09/03-20:30:58.375 1419 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/09/03-20:30:58.376 1419 Recovering log #1604
-2021/09/03-20:30:58.380 1419 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001604.log 
-2021/09/03-22:56:25.269 1fb60 Level-0 table #1609: started
-2021/09/03-22:56:25.437 1fb60 Level-0 table #1609: 1080447 bytes OK
-2021/09/03-22:56:25.647 1fb60 Delete type=0 #1604
-2021/09/03-22:56:43.822 367f4 Compacting 1@1 + 1@2 files
-2021/09/03-22:56:43.991 367f4 Generated table #1610@1: 559 keys, 39607 bytes
-2021/09/03-22:56:43.991 367f4 Compacted 1@1 + 1@2 files => 39607 bytes
-2021/09/03-22:56:44.105 367f4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/09/03-22:56:44.105 367f4 Delete type=2 #1609
-2021/09/03-22:56:44.105 367f4 Delete type=2 #1606
-2021/09/03-23:01:08.676 367f5 Level-0 table #1612: started
-2021/09/03-23:01:08.895 367f5 Level-0 table #1612: 995319 bytes OK
-2021/09/03-23:01:09.180 367f5 Delete type=0 #1608
-2021/09/03-23:01:50.209 367f4 Compacting 1@1 + 1@2 files
-2021/09/03-23:01:50.211 367f4 Generated table #1613@1: 633 keys, 34694 bytes
-2021/09/03-23:01:50.211 367f4 Compacted 1@1 + 1@2 files => 34694 bytes
-2021/09/03-23:01:50.214 367f4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/09/03-23:01:50.214 367f4 Delete type=2 #1610
-2021/09/03-23:01:50.214 367f4 Delete type=2 #1612
-2021/09/04-11:58:00.380 e2b3e Level-0 table #1615: started
-2021/09/04-11:58:00.390 e2b3e Level-0 table #1615: 1158329 bytes OK
-2021/09/04-11:58:00.396 e2b3e Delete type=0 #1611
-2021/09/04-12:37:54.548 fbe8b Compacting 1@1 + 1@2 files
-2021/09/04-12:37:54.555 fbe8b Generated table #1616@1: 802 keys, 46004 bytes
-2021/09/04-12:37:54.555 fbe8b Compacted 1@1 + 1@2 files => 46004 bytes
-2021/09/04-12:37:54.555 fbe8b compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/09/04-12:37:54.556 fbe8b Delete type=2 #1615
-2021/09/04-12:37:54.556 fbe8b Delete type=2 #1613
+2021/09/10-00:17:42.937 96734 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/09/10-00:17:42.937 96734 Recovering log #1656
+2021/09/10-00:17:44.164 96734 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001656.log 
+2021/09/10-00:17:56.237 945ef Level-0 table #1661: started
+2021/09/10-00:17:56.502 945ef Level-0 table #1661: 1026242 bytes OK
+2021/09/10-00:17:56.858 945ef Delete type=0 #1656
+2021/09/10-00:17:58.511 96741 Compacting 1@1 + 1@2 files
+2021/09/10-00:17:58.632 96741 Generated table #1662@1: 423 keys, 33353 bytes
+2021/09/10-00:17:58.632 96741 Compacted 1@1 + 1@2 files => 33353 bytes
+2021/09/10-00:17:58.923 96741 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/09/10-00:17:58.923 96741 Delete type=2 #1661
+2021/09/10-00:17:58.923 96741 Delete type=2 #1658
+2021/09/10-00:54:42.373 945ef Level-0 table #1664: started
+2021/09/10-00:54:42.721 945ef Level-0 table #1664: 1311494 bytes OK
+2021/09/10-00:54:43.042 945ef Delete type=0 #1660
+2021/09/10-00:56:34.723 9b835 Compacting 1@1 + 1@2 files
+2021/09/10-00:56:34.923 9b835 Generated table #1665@1: 440 keys, 30196 bytes
+2021/09/10-00:56:34.923 9b835 Compacted 1@1 + 1@2 files => 30196 bytes
+2021/09/10-00:56:35.173 9b835 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/09/10-00:56:35.173 9b835 Delete type=2 #1664
+2021/09/10-00:56:35.173 9b835 Delete type=2 #1662
+2021/09/10-04:55:57.221 ad9be Level-0 table #1667: started
+2021/09/10-04:55:57.237 ad9be Level-0 table #1667: 1030600 bytes OK
+2021/09/10-04:55:57.239 ad9be Delete type=0 #1663
+2021/09/10-04:56:25.439 ad9be Compacting 1@1 + 1@2 files
+2021/09/10-04:56:25.442 ad9be Generated table #1668@1: 526 keys, 25541 bytes
+2021/09/10-04:56:25.442 ad9be Compacted 1@1 + 1@2 files => 25541 bytes
+2021/09/10-04:56:25.442 ad9be compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/09/10-04:56:25.443 ad9be Delete type=2 #1665
+2021/09/10-04:56:25.443 ad9be Delete type=2 #1667
