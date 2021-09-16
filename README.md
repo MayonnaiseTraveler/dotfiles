@@ -22,7 +22,7 @@
 <hr>
 <h4> ToDo:</h4>
 <ul>
-  <li>Create shell script for installation</li>
+  <li>Create bash script for installation</li>
   <li>Remove some of my personal stuff from the repo later</li>
   <li>Change i3 keybindings to be more vim-like</li>
   <li>Add a list of browser extensions i use</li>
