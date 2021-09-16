@@ -18,7 +18,7 @@
 <br>
 <h4>How do i install it?</h4>
 <br>
-<p>If you want to install it you can just clone the repository and use your aur helper to install all the packages in PC-packages.txt, after that, just replace your .config file with the new one and everything should work.</p>
+<p>If you want to install it you can just clone the repository and use your aur helper to install all the packages in PC-packages.txt, after that, just replace the config files in your home directory with the new stuff and everything should work.</p>
 <hr>
 <h4> ToDo:</h4>
 <ul>
