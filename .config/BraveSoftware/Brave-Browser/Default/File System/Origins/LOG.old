@@ -1,3 +1,2 @@
-2021/09/09-21:40:46.181 530a0 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/File System/Origins/MANIFEST-000001
-2021/09/09-21:40:46.181 530a0 Recovering log #3
-2021/09/09-21:40:46.181 530a0 Reusing old log /home/traveler/.config/BraveSoftware/Brave-Browser/Default/File System/Origins/000003.log 
+2021/09/16-09:46:30.751 b313a Creating DB /home/traveler/.config/BraveSoftware/Brave-Browser/Default/File System/Origins__tmp_for_rebuild since it was missing.
+2021/09/16-09:46:30.774 b313a Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/File System/Origins__tmp_for_rebuild/MANIFEST-000001

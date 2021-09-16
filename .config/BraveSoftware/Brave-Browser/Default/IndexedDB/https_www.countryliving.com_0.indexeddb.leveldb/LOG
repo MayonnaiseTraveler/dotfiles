@@ -1,6 +1,0 @@
-2021/07/28-13:30:26.784 13e023 Creating DB /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.countryliving.com_0.indexeddb.leveldb since it was missing.
-2021/07/28-13:30:26.787 13e023 Reusing MANIFEST /home/traveler/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.countryliving.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/07/28-13:31:13.033 143a86 Level-0 table #5: started
-2021/07/28-13:31:13.034 143a86 Level-0 table #5: 2801 bytes OK
-2021/07/28-13:31:13.036 143a86 Delete type=0 #3
-2021/07/28-13:31:13.036 143a86 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
