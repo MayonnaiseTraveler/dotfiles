@@ -297,3 +297,11 @@
 20:36:46 [info] [ffmpegdecoder] found audio stream!
 20:36:46 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 20:36:46 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lapfox/THE FUCKDEST JAMS [LAPFOX-HALLEY NONSTOP MIX]-6Pm4vXNEaQo.mp3
+10:32:02 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lapfox/THE FUCKDEST JAMS [LAPFOX-HALLEY NONSTOP MIX]-6Pm4vXNEaQo.mp3
+10:32:02 [info] [Player] new instance created
+10:32:02 [info] [Stream] opening /home/traveler/MEGA/playlist/lapfox/Furries in a Blender - ON Trax Vol. 5 - Skugg In The Wilderness-UZxgOnW23WE.mp3
+10:32:02 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lapfox/Furries in a Blender - ON Trax Vol. 5 - Skugg In The Wilderness-UZxgOnW23WE.mp3
+10:32:02 [info] [ffmpegdecoder] parsing data stream...
+10:32:02 [info] [ffmpegdecoder] found audio stream!
+10:32:02 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:32:02 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lapfox/Furries in a Blender - ON Trax Vol. 5 - Skugg In The Wilderness-UZxgOnW23WE.mp3
