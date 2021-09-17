@@ -1,13 +1,13 @@
 AlsoSaveAsKra=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0.3870878193853739
+ArtColorSel.Light=0
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
-ArtColorSel.SelColorH=0.9455033067749831
-ArtColorSel.SelColorS=0.9308066682964296
-ArtColorSel.SelColorX=0.3870878193853739
+ArtColorSel.SelColorH=0
+ArtColorSel.SelColorS=0
+ArtColorSel.SelColorX=0
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -37,8 +37,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB r="0.733333349227905" space="sRGB-elle-V2-srgbtrc.icc" g="0.0901960805058479" b="0.447058826684952"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB r="0.733333349227905" space="sRGB-elle-V2-srgbtrc.icc" g="0.0901960805058479" b="0.447058826684952"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0.733333349227905" b="0.447058826684952" g="0.0901960805058479"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" b="0" g="0"/>\n</LastForeGroundColor>\n
 LastPreset=b)_Basic-5_Size
 LineSmoothingDelayDistance=50
 LineSmoothingDistance=50
@@ -149,7 +149,7 @@ toolbarslider_4=flow
 
 [File Dialogs]
 OpenDocument=/home/traveler/MEGA/Eu/Art 2d/Oc's/Ayo
-SaveAs=/home/traveler/MEGA/Eu/Art 2d/Oc's/Ayo
+SaveAs=/home/traveler/MEGA/Eu/Art 2d/Oc's/Traveler
 
 [GradientChooser]
 global/itemSize=medium
@@ -512,26 +512,26 @@ xPosition=0
 yPosition=19
 
 [RecentFiles]
-File1[$e]=$HOME/MEGA/Eu/Programming/Website/MayoSite/src/assets/ni-trasparent.png
-File10[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref.kra
-File2[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/Ayo-sketch-glitched_compressed.png
-File3[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/Ayo-sketch-glitched.png
-File4[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Nissin/2021 art/Kitchen.kra
-File5[$e]=$HOME/MEGA/Eu/Art 2d/Estudo/Treinos/perspectiva e forma.kra
-File6[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref_final.png
-File7[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_drip_sketch.png
-File8[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref_final_1.png
-File9[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref_final_2.png
-Name1[$e]=ni-trasparent.png
-Name10[$e]=ayo_Ref.kra
-Name2[$e]=Ayo-sketch-glitched_compressed.png
-Name3[$e]=Ayo-sketch-glitched.png
-Name4[$e]=Kitchen.kra
-Name5[$e]=perspectiva e forma.kra
-Name6[$e]=ayo_Ref_final.png
-Name7[$e]=ayo_drip_sketch.png
-Name8[$e]=ayo_Ref_final_1.png
-Name9[$e]=ayo_Ref_final_2.png
+File1[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/Ayo-sketch-glitched_compressed.png
+File10[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Traveler/Traveler.kra
+File2[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/Ayo-sketch-glitched.png
+File3[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Nissin/2021 art/Kitchen.kra
+File4[$e]=$HOME/MEGA/Eu/Art 2d/Estudo/Treinos/perspectiva e forma.kra
+File5[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref_final.png
+File6[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_drip_sketch.png
+File7[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref_final_1.png
+File8[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref_final_2.png
+File9[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Ayo/ayo_Ref.kra
+Name1[$e]=Ayo-sketch-glitched_compressed.png
+Name10[$e]=Traveler.kra
+Name2[$e]=Ayo-sketch-glitched.png
+Name3[$e]=Kitchen.kra
+Name4[$e]=perspectiva e forma.kra
+Name5[$e]=ayo_Ref_final.png
+Name6[$e]=ayo_drip_sketch.png
+Name7[$e]=ayo_Ref_final_1.png
+Name8[$e]=ayo_Ref_final_2.png
+Name9[$e]=ayo_Ref.kra
 
 [SelectedTags]
 kis_paintoppresets=All

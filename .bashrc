@@ -2,11 +2,16 @@
 # ~/.bashrc
 #
 
+if [ -f /home/traveler/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
+        source /home/traveler/.config/synth-shell/synth-shell-prompt.sh
+fi
+
+
 #If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 # Splash Calendar and time
-now
+#now
 
 
 alias ls='ls --color=auto'
