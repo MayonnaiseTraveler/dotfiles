@@ -215,14 +215,15 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 
 
-workspace $ws1 gaps inner 16  #WHY THE FUCK INS'T THIS WORKING???
-workspace $ws1 gaps outer 64
-
 
 hide_edge_borders none
 for_window [class=".*"] border pixel 1
 gaps inner 12
-gaps outer 48
+gaps outer 16
+
+workspace $ws1 gaps inner 16  #WHY THE FUCK INS'T THIS WORKING???
+workspace $ws1 gaps outer 128
+
 
 
 #smart_gaps on

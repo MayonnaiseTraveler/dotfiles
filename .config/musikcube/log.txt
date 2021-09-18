@@ -1,30 +1,30 @@
-19:52:37 [info] [LOG SESSION] ---------- START ----------
-19:52:37 [info] [PluginFactory] loading plugins
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-19:52:37 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-19:52:37 [info] [Indexer] indexer source -1303229654 running...
-19:52:37 [info] [Indexer] indexer source -1303229654 finished
-19:52:37 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
-19:52:37 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
-19:52:37 [info] [Indexer] scan completed successfully
-19:52:37 [info] [Indexer] cleanup 1/2
-19:52:37 [info] [Indexer] cleanup 2/2
-19:52:37 [info] [Indexer] optimizing
-19:52:37 [info] [Indexer] done!
-19:52:37 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
-19:52:37 [info] [Player] new instance created
-19:52:37 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
-19:52:37 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
-19:52:37 [info] [ffmpegdecoder] parsing data stream...
-19:52:37 [info] [ffmpegdecoder] found audio stream!
-19:52:37 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-19:52:37 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+08:12:23 [info] [LOG SESSION] ---------- START ----------
+08:12:23 [info] [PluginFactory] loading plugins
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+08:12:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+08:12:23 [info] [Indexer] indexer source -1303229654 running...
+08:12:23 [info] [Indexer] indexer source -1303229654 finished
+08:12:23 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+08:12:23 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
+08:12:23 [info] [Indexer] scan completed successfully
+08:12:23 [info] [Indexer] cleanup 1/2
+08:12:23 [info] [Indexer] cleanup 2/2
+08:12:23 [info] [Indexer] optimizing
+08:12:23 [info] [Indexer] done!
+08:12:23 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:12:23 [info] [Player] new instance created
+08:12:23 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:12:23 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:12:23 [info] [ffmpegdecoder] parsing data stream...
+08:12:23 [info] [ffmpegdecoder] found audio stream!
+08:12:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:12:23 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3

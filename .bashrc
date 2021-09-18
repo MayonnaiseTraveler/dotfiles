@@ -19,8 +19,9 @@ alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias php='php74'
 alias composer='php /usr/local/bin/composer'
-alias vim='nvim'
-alias vi='nvim'
+alias nvim='nvim -u .vimrc'
+alias vim='nvim -u .vimrc'
+alias vi='nvim -u .vimrc'
 alias aulas='figlet Aulas; echo "__________________________"; echo -e "\n > Segunda: Laboratório de Programação e Design de Interação \n
  > Terça: Laboratório de Programação\n
  > Quarta : Sistemas Digitais 2 \n
@@ -51,8 +52,8 @@ alias easypeasy='figlet Instructions; echo "____________________________________
  > Now all that pent up willpower is being utilised to handle lightweight stresses and strains of life.\n
  > Great, I’m free and no longer a slave!\n\n"'
 
-PS1='[\u@\h \W]\$ '
-
+#PS1='[\u@\h \W]\$ '
+PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u@\h'; fi)\[\033[01;34m\] \w \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]:(\[\033[01;34m\] \")\\$\[\033[00m\] "
 
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh
