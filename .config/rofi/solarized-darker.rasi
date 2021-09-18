@@ -25,17 +25,17 @@
     blue: #268bd2;
     cyan: #2aa198;
     green: #859900;
-    neonblue: #44ecff;
-    neonpink: #f000DA;
-    purple: #1d0061;
+    neonblue: #83f4e3;
+    neonpink: #f4678c;
+    purple: rgba(100,34,230, 25 %);
     /* Solarized Darker Theme */
     transparent-background: rgba ( 0, 0, 0, 0 % );
     foreground:                  @neonblue;
-    background:                  rgba ( 15, 0 , 60, 75 % );
+    background:                  rgba ( 15, 0 , 60, 25 % );
 
     normal-foreground:           @neonblue;
     normal-background:           @transparent-background;
-    active-foreground:           @neonblue;
+    active-foreground:           @neonpink;
     active-background:           @transparent-background;
     urgent-foreground:           @neonblue;
     urgent-background:           @transparent-background;
@@ -54,7 +54,7 @@
     alternate-urgent-foreground: @urgent-foreground;
     alternate-urgent-background: @transparent-background;
 
-    separatorcolor:              @blue;
+    separatorcolor:              @purple;
 
     /* Main element styles */
     border-color:                @blue;
@@ -82,7 +82,7 @@ message {
     padding:      1px ;
 }
 textbox {
-    text-color: @neonblue;
+    text-color: @neonpink;
 }
 listview {
     text-color: @neonblue;

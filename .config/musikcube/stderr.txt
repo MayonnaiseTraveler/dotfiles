@@ -8406,3 +8406,1563 @@ AlsaOut: destroyed.
 [2021-09-18 09:41:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
 [2021-09-18 09:41:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
 [2021-09-18 09:41:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:41:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:41:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:41:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:41:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:09] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:09] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:09] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:09] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:27] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:27] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:27] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:27] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:32] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:32] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:32] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:32] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:35] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:40] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:40] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:40] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:40] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:43] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:43] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:43] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:43] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:45] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:45] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:45] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:45] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:50] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:50] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:50] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:50] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:53] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:53] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:53] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:53] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:55] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:55] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:55] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:55] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:42:58] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:42:58] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:58] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:42:58] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:00] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:00] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:00] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:00] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:13] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:13] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:13] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:13] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:23] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:23] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:23] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:23] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:31] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:31] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:31] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:31] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:36] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:36] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:36] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:36] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:41] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:43:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:43:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:43:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:27] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:27] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:27] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:27] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:33] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:35] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:38] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:38] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:38] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:38] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:40] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:40] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:40] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:40] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:43] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:43] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:43] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:43] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:45] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:45] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:45] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:45] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:51] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:51] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:51] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:51] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:53] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:53] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:53] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:53] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:56] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:44:58] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:44:58] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:58] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:44:58] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:01] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:01] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:01] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:01] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:24] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:24] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:24] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:24] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:31] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:31] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:31] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:31] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:42] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:42] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:42] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:42] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:55] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:55] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:55] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:55] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:45:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:45:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:45:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:00] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:00] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:00] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:00] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:05] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:05] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:05] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:05] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:23] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:23] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:23] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:23] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:28] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:28] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:28] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:28] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:33] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:35] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:38] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:38] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:38] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:38] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:41] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:43] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:43] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:43] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:43] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:46] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:46] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:46] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:46] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:51] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:51] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:51] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:51] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:53] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:53] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:53] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:53] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:56] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:46:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:46:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:46:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:01] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:01] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:01] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:01] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:09] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:09] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:09] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:09] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:24] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:24] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:24] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:24] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:27] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:27] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:27] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:27] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:32] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:32] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:32] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:32] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:40] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:40] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:40] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:40] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:42] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:42] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:42] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:42] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:45] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:45] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:45] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:45] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:50] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:50] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:50] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:50] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:55] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:55] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:55] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:55] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:47:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:47:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:47:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:00] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:00] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:00] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:00] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:05] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:05] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:05] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:05] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:13] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:13] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:13] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:13] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:23] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:23] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:23] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:23] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:28] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:28] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:28] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:28] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:31] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:31] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:31] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:31] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:33] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:36] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:36] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:36] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:36] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:41] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:46] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:46] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:46] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:46] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:51] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:51] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:51] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:51] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:56] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:48:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:48:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:48:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:09] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:09] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:09] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:09] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:27] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:27] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:27] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:27] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:32] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:32] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:32] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:32] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:35] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:40] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:40] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:40] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:40] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:42] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:42] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:42] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:42] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:45] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:45] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:45] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:45] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:50] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:50] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:50] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:50] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:53] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:53] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:53] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:53] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:55] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:55] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:55] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:55] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:49:58] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:49:58] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:58] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:49:58] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:00] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:00] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:00] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:00] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:13] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:13] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:13] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:13] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:23] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:23] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:23] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:23] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:31] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:31] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:31] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:31] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:36] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:36] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:36] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:36] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:41] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:50:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:50:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:50:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:28] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:28] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:28] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:28] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:33] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:35] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:38] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:38] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:38] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:38] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:40] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:40] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:40] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:40] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:43] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:43] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:43] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:43] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:45] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:45] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:45] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:45] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:51] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:51] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:51] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:51] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:53] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:53] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:53] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:53] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:56] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:51:58] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:51:58] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:58] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:51:58] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:01] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:01] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:01] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:01] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:24] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:24] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:24] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:24] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:32] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:32] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:32] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:32] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:42] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:42] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:42] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:42] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:55] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:55] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:55] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:55] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:52:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:52:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:52:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:00] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:00] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:00] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:00] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:05] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:05] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:05] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:05] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:13] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:13] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:13] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:13] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:23] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:23] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:23] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:23] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:28] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:28] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:28] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:28] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:33] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:36] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:36] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:36] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:36] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:38] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:38] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:38] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:38] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:41] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:43] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:43] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:43] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:43] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:46] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:46] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:46] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:46] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:51] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:51] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:51] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:51] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:56] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:53:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:53:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:53:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:01] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:01] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:01] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:01] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:09] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:09] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:09] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:09] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:19] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:19] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:19] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:19] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:24] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:24] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:24] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:24] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:27] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:27] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:27] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:27] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:32] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:32] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:32] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:32] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:40] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:40] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:40] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:40] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:42] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:42] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:42] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:42] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:45] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:45] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:45] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:45] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:50] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:50] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:50] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:50] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:55] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:55] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:55] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:55] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:54:58] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:54:58] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:58] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:54:58] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:00] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:00] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:00] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:00] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:05] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:05] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:05] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:05] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:13] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:13] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:13] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:13] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:23] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:23] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:23] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:23] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:28] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:28] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:28] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:28] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:31] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:31] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:31] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:31] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:33] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:36] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:36] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:36] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:36] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:41] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:46] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:46] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:46] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:46] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:51] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:51] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:51] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:51] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:56] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:56] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:56] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:56] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:55:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:55:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:55:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:04] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:04] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:04] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:04] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:09] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:09] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:09] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:09] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:14] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:14] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:14] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:14] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:27] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:27] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:27] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:27] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:32] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:32] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:32] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:32] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:35] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:37] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:37] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:37] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:37] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:40] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:40] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:40] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:40] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:43] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:43] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:43] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:43] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:45] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:45] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:45] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:45] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:48] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:48] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:48] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:48] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:50] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:50] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:50] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:50] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:53] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:53] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:53] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:53] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:55] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:55] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:55] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:55] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:56:58] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:56:58] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:58] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:56:58] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:01] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:01] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:01] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:01] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:03] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:03] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:03] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:03] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:06] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:06] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:06] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:06] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:08] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:08] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:08] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:08] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:11] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:11] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:11] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:11] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:13] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:13] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:13] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:13] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:16] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:16] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:16] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:16] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:18] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:18] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:18] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:18] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:21] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:21] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:21] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:21] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:24] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:24] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:24] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:24] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:26] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:26] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:26] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:26] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:29] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:29] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:29] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:29] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:31] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:31] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:31] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:31] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:34] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:34] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:34] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:34] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:36] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:36] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:36] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:36] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:39] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:39] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:39] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:39] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:41] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:41] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:41] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:41] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:44] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:44] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:44] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:44] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:47] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:47] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:47] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:47] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:49] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:49] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:49] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:49] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:52] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:52] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:52] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:52] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:54] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:54] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:54] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:54] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:57] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:57] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:57] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:57] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:57:59] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:57:59] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:59] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:57:59] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:02] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:02] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:02] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:02] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:05] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:05] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:05] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:05] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:07] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:07] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:07] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:07] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:10] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:10] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:10] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:10] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:12] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:12] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:12] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:12] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:15] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:15] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:15] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:15] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:17] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:17] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:17] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:17] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:20] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:20] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:20] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:20] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:22] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:22] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:22] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:22] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:25] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:25] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:25] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:25] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:28] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:28] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:28] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:28] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:30] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:30] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:30] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:30] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:33] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:33] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:33] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:33] [error] handle_connect error: Underlying Transport Error
+[2021-09-18 09:58:35] [info] asio async_resolve error: asio.netdb:1 (Host not found (authoritative))
+[2021-09-18 09:58:35] [info] Error getting remote endpoint: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:35] [info] asio async_shutdown error: system:9 (Descritor de arquivo inválido)
+[2021-09-18 09:58:35] [error] handle_connect error: Underlying Transport Error
