@@ -650,5 +650,5 @@ let g:airline_powerline_fonts = 1
 colorscheme synthwave84
 
 hi Normal guibg=NONE ctermbg=NONE
-let g:airline_theme='synthwave84'
+let g:airline_theme='violet'
 

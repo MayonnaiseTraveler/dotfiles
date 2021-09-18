@@ -31,6 +31,8 @@ dzen2
 efibootmgr
 electron
 element-desktop
+epick
+eww-git
 exo
 fakeroot
 feh
@@ -50,11 +52,12 @@ gpart
 gparted
 groff
 grub
-i3-gaps-rounded-git
+i3-gaps
 i3blocks
 i3lock-color
 i3lock-fancy-git
 i3lock-fancy-rapid-git
+i3session-git
 i3status
 icecat-bin
 imagemagick
@@ -68,7 +71,7 @@ libiconv
 libnm
 libreoffice-fresh
 librewolf-bin
-lightcord-bin
+lightcord-git
 lightdm-gtk-greeter
 linux
 linux-firmware
@@ -81,6 +84,7 @@ lynx
 m4
 maim
 make
+manuskript
 mariadb
 megasync-bin
 minecraft-launcher
@@ -95,6 +99,7 @@ nano
 nekofetch
 neovide-bin
 neovim-airline
+neovim-plug
 nerd-fonts-source-code-pro
 net-tools
 network-manager-applet
@@ -125,6 +130,7 @@ pkgconf
 pm-utils
 polybar
 postybirb
+powerline-fonts
 proton-ge-custom-bin
 pulseaudio
 pulseaudio-alsa
@@ -219,6 +225,7 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+yambar
 youtube-dl
 yt
 zap-git
