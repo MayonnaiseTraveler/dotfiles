@@ -28,3 +28,18 @@
 08:12:23 [info] [ffmpegdecoder] found audio stream!
 08:12:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 08:12:23 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:14:02 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/NOVA - A Chill Retrowave Mix Down Memory Lane-BM4nhvIF9UE.mp3
+08:14:02 [info] [Player] new instance created
+08:14:02 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/NOVA - A Chill Retrowave Mix Down Memory Lane-BM4nhvIF9UE.mp3
+08:14:02 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/NOVA - A Chill Retrowave Mix Down Memory Lane-BM4nhvIF9UE.mp3
+08:14:02 [info] [ffmpegdecoder] parsing data stream...
+08:14:02 [info] [ffmpegdecoder] found audio stream!
+08:14:02 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:14:02 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/NOVA - A Chill Retrowave Mix Down Memory Lane-BM4nhvIF9UE.mp3
+08:14:03 [info] [Player] new instance created
+08:14:03 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:14:03 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:14:03 [info] [ffmpegdecoder] parsing data stream...
+08:14:03 [info] [ffmpegdecoder] found audio stream!
+08:14:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:14:03 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3

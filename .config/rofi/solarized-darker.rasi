@@ -27,11 +27,11 @@
     green: #859900;
     neonblue: #83f4e3;
     neonpink: #f4678c;
-    purple: rgba(100,34,230, 25 %);
+    purple: rgba(100,34,230, 50 %);
     /* Solarized Darker Theme */
     transparent-background: rgba ( 0, 0, 0, 0 % );
     foreground:                  @neonblue;
-    background:                  rgba ( 15, 0 , 60, 25 % );
+    background:                  rgba ( 15, 0 , 60, 55 % );
 
     normal-foreground:           @neonblue;
     normal-background:           @transparent-background;
