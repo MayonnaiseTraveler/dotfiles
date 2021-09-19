@@ -43,3 +43,11 @@
 08:14:03 [info] [ffmpegdecoder] found audio stream!
 08:14:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 08:14:03 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
+08:58:44 [info] [ffmpegdecoder] finished decoding.
+08:58:45 [info] [Player] new instance created
+08:58:45 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+08:58:45 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+08:58:45 [info] [ffmpegdecoder] parsing data stream...
+08:58:45 [info] [ffmpegdecoder] found audio stream!
+08:58:45 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:58:45 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
