@@ -1,4 +1,3 @@
-6cord
 accountsservice
 adobe-source-han-sans-jp-fonts
 altus-appimage
@@ -22,6 +21,7 @@ code
 copyq
 dbvis
 ddrescue
+debtap
 discord_arch_electron
 dosfstools
 drawpile
@@ -69,6 +69,7 @@ kitty
 krita
 libiconv
 libnm
+libreoffice-extension-texmaths
 libreoffice-fresh
 librewolf-bin
 lightcord-git
@@ -116,6 +117,7 @@ nvidia
 nvidia-settings
 nvm-git
 obs-studio
+okular
 owofetch-git
 pacmixer
 pandoc
@@ -123,8 +125,6 @@ papirus-icon-theme
 paru
 patch
 pavucontrol
-php74
-php74-gd
 picom-tryone-git
 pkgconf
 pm-utils
@@ -225,7 +225,6 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-yambar
 youtube-dl
 yt
 zap-git
