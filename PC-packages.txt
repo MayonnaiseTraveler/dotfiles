@@ -24,6 +24,7 @@ ddrescue
 debtap
 discord_arch_electron
 dosfstools
+dragon-drag-and-drop
 drawpile
 droidcam
 dunst
@@ -97,6 +98,7 @@ mtools
 musikcube
 mysql-workbench
 nano
+ncmpcpp
 nekofetch
 neovide-bin
 neovim-airline
@@ -125,7 +127,7 @@ papirus-icon-theme
 paru
 patch
 pavucontrol
-picom-tryone-git
+picom-jonaburg-git
 pkgconf
 pm-utils
 polybar
@@ -151,7 +153,7 @@ themix-full-git
 thunar
 thunar-volman
 timer
-todoman
+todo
 toilet
 tor
 tor-browser

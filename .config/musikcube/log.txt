@@ -1,61 +1,30 @@
-22:38:57 [info] [LOG SESSION] ---------- START ----------
-22:38:57 [info] [PluginFactory] loading plugins
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-22:38:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-22:38:57 [info] [Indexer] indexer source -1303229654 running...
-22:38:57 [info] [Indexer] indexer source -1303229654 finished
-22:38:57 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
-22:38:57 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
-22:38:57 [info] [Indexer] scan completed successfully
-22:38:57 [info] [Indexer] cleanup 1/2
-22:38:57 [info] [Indexer] cleanup 2/2
-22:38:57 [info] [Indexer] optimizing
-22:38:57 [info] [Indexer] done!
-22:38:57 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-22:38:57 [info] [Player] new instance created
-22:38:57 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-22:38:57 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-22:38:57 [info] [ffmpegdecoder] parsing data stream...
-22:38:57 [info] [ffmpegdecoder] found audio stream!
-22:38:57 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-22:38:57 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/That 2 A.M. Fresh Air-EJew8Mvgau0.mp3
-10:00:52 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Slugs Are Burning-eRVfkSOpSl4.mp3
-10:00:52 [info] [Player] new instance created
-10:00:52 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Slugs Are Burning-eRVfkSOpSl4.mp3
-10:00:52 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Slugs Are Burning-eRVfkSOpSl4.mp3
-10:00:52 [info] [ffmpegdecoder] parsing data stream...
-10:00:52 [info] [ffmpegdecoder] found audio stream!
-10:00:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-10:00:52 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Slugs Are Burning-eRVfkSOpSl4.mp3
-10:00:52 [info] [Player] new instance created
-10:00:52 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - The Day Everything Became Nothing-gbS4Caymdo4.mp3
-10:00:52 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - The Day Everything Became Nothing-gbS4Caymdo4.mp3
-10:00:52 [info] [ffmpegdecoder] parsing data stream...
-10:00:52 [info] [ffmpegdecoder] found audio stream!
-10:00:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-10:00:52 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - The Day Everything Became Nothing-gbS4Caymdo4.mp3
-10:03:50 [info] [ffmpegdecoder] finished decoding.
-10:03:52 [info] [Player] new instance created
-10:03:52 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Youth-s63nyg8kiTU.mp3
-10:03:52 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Youth-s63nyg8kiTU.mp3
-10:03:52 [info] [ffmpegdecoder] parsing data stream...
-10:03:52 [info] [ffmpegdecoder] found audio stream!
-10:03:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-10:03:52 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Youth-s63nyg8kiTU.mp3
-10:07:49 [info] [ffmpegdecoder] finished decoding.
-10:07:50 [info] [Player] new instance created
-10:07:50 [info] [Stream] opening /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Disappear-TPHZXESOZHc.mp3
-10:07:50 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Disappear-TPHZXESOZHc.mp3
-10:07:50 [info] [ffmpegdecoder] parsing data stream...
-10:07:50 [info] [ffmpegdecoder] found audio stream!
-10:07:50 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-10:07:50 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/NoMeansNo/NoMeansNo - Disappear-TPHZXESOZHc.mp3
+17:51:15 [info] [LOG SESSION] ---------- START ----------
+17:51:15 [info] [PluginFactory] loading plugins
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+17:51:15 [info] [Indexer] indexer source -1303229654 running...
+17:51:15 [info] [Indexer] indexer source -1303229654 finished
+17:51:15 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+17:51:15 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
+17:51:15 [info] [Indexer] scan completed successfully
+17:51:15 [info] [Indexer] cleanup 1/2
+17:51:15 [info] [Indexer] cleanup 2/2
+17:51:15 [info] [Indexer] optimizing
+17:51:15 [info] [Indexer] done!
+17:51:15 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
+17:51:15 [info] [Player] new instance created
+17:51:15 [info] [Stream] opening /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
+17:51:15 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
+17:51:15 [info] [ffmpegdecoder] parsing data stream...
+17:51:15 [info] [ffmpegdecoder] found audio stream!
+17:51:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:51:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
