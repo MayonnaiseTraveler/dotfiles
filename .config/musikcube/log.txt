@@ -1,30 +1,128 @@
-17:51:15 [info] [LOG SESSION] ---------- START ----------
-17:51:15 [info] [PluginFactory] loading plugins
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-17:51:15 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-17:51:15 [info] [Indexer] indexer source -1303229654 running...
-17:51:15 [info] [Indexer] indexer source -1303229654 finished
-17:51:15 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
-17:51:15 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
-17:51:15 [info] [Indexer] scan completed successfully
-17:51:15 [info] [Indexer] cleanup 1/2
-17:51:15 [info] [Indexer] cleanup 2/2
-17:51:15 [info] [Indexer] optimizing
-17:51:15 [info] [Indexer] done!
-17:51:15 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
-17:51:15 [info] [Player] new instance created
-17:51:15 [info] [Stream] opening /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
-17:51:15 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
-17:51:15 [info] [ffmpegdecoder] parsing data stream...
-17:51:15 [info] [ffmpegdecoder] found audio stream!
-17:51:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:51:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/nanahira/ななひら「Shuwa_Shuwa Parfait」Music video-CU7S_yTVLpE.mp3
+15:05:59 [info] [LOG SESSION] ---------- START ----------
+15:05:59 [info] [PluginFactory] loading plugins
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+15:05:59 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+15:05:59 [info] [Indexer] indexer source -1303229654 running...
+15:05:59 [info] [Indexer] indexer source -1303229654 finished
+15:05:59 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+15:05:59 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
+15:05:59 [info] [Indexer] scan completed successfully
+15:05:59 [info] [Indexer] cleanup 1/2
+15:05:59 [info] [Indexer] cleanup 2/2
+15:05:59 [info] [Indexer] optimizing
+15:05:59 [info] [Indexer] done!
+15:06:00 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:00 [info] [Player] new instance created
+15:06:00 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:00 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:00 [info] [ffmpegdecoder] parsing data stream...
+15:06:00 [info] [ffmpegdecoder] found audio stream!
+15:06:00 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:06:00 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:04 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:04 [info] [Player] new instance created
+15:06:04 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:04 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:04 [info] [ffmpegdecoder] parsing data stream...
+15:06:04 [info] [ffmpegdecoder] found audio stream!
+15:06:04 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:06:04 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:06:05 [info] [Player] new instance created
+15:06:05 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:06:05 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:06:05 [info] [ffmpegdecoder] parsing data stream...
+15:06:05 [info] [ffmpegdecoder] found audio stream!
+15:06:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:06:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:10:03 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:10:03 [info] [Player] new instance created
+15:10:03 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:10:03 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:10:03 [info] [ffmpegdecoder] parsing data stream...
+15:10:03 [info] [ffmpegdecoder] found audio stream!
+15:10:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:10:03 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:10:03 [info] [Player] new instance created
+15:10:03 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:10:03 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:10:03 [info] [ffmpegdecoder] parsing data stream...
+15:10:03 [info] [ffmpegdecoder] found audio stream!
+15:10:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:10:03 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:25:31 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:25:31 [info] [Player] new instance created
+15:25:31 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:25:31 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:25:31 [info] [ffmpegdecoder] parsing data stream...
+15:25:31 [info] [ffmpegdecoder] found audio stream!
+15:25:31 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:25:31 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+15:25:31 [info] [Player] new instance created
+15:25:31 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:25:31 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:25:31 [info] [ffmpegdecoder] parsing data stream...
+15:25:31 [info] [ffmpegdecoder] found audio stream!
+15:25:31 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:25:31 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+15:30:00 [info] [ffmpegdecoder] finished decoding.
+15:30:01 [info] [Player] new instance created
+15:30:01 [info] [Stream] opening /home/traveler/MEGA/playlist/musicas para o jogo/Epic Groovy Synthwave - The Drop _ Royalty Free No Copyright Music-IuqTbOnbQL0.mp3
+15:30:01 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/musicas para o jogo/Epic Groovy Synthwave - The Drop _ Royalty Free No Copyright Music-IuqTbOnbQL0.mp3
+15:30:01 [info] [ffmpegdecoder] parsing data stream...
+15:30:01 [info] [ffmpegdecoder] found audio stream!
+15:30:01 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:30:01 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/musicas para o jogo/Epic Groovy Synthwave - The Drop _ Royalty Free No Copyright Music-IuqTbOnbQL0.mp3
+16:33:14 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/Chill/OFFWORLD - A Chill Synthwave Special-7FG7nTUYowQ.mp3
+16:33:14 [info] [Player] new instance created
+16:33:14 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/OFFWORLD - A Chill Synthwave Special-7FG7nTUYowQ.mp3
+16:33:14 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/OFFWORLD - A Chill Synthwave Special-7FG7nTUYowQ.mp3
+16:33:14 [info] [ffmpegdecoder] parsing data stream...
+16:33:14 [info] [ffmpegdecoder] found audio stream!
+16:33:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:33:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/OFFWORLD - A Chill Synthwave Special-7FG7nTUYowQ.mp3
+16:33:14 [info] [Player] new instance created
+16:33:14 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/NOVA - A Chill Retrowave Mix Down Memory Lane-BM4nhvIF9UE.mp3
+16:33:14 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/NOVA - A Chill Retrowave Mix Down Memory Lane-BM4nhvIF9UE.mp3
+16:33:14 [info] [ffmpegdecoder] parsing data stream...
+16:33:14 [info] [ffmpegdecoder] found audio stream!
+16:33:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+16:33:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/NOVA - A Chill Retrowave Mix Down Memory Lane-BM4nhvIF9UE.mp3
+20:03:52 [info] [ffmpegdecoder] finished decoding.
+20:03:53 [info] [Player] new instance created
+20:03:53 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+20:03:53 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+20:03:53 [info] [ffmpegdecoder] parsing data stream...
+20:03:53 [info] [ffmpegdecoder] found audio stream!
+20:03:53 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:03:53 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+20:48:34 [info] [ffmpegdecoder] finished decoding.
+20:48:36 [info] [Player] new instance created
+20:48:36 [info] [Stream] opening /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+20:48:36 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+20:48:36 [info] [ffmpegdecoder] parsing data stream...
+20:48:36 [info] [ffmpegdecoder] found audio stream!
+20:48:36 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:48:36 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/Chill/Neon Rooftops [ A Chillwave - Synthwave - Retrowave Mix ]-rDfS8B2-Mt4.mp3
+20:53:04 [info] [ffmpegdecoder] finished decoding.
+20:53:05 [info] [Player] new instance created
+20:53:05 [info] [Stream] opening /home/traveler/MEGA/playlist/musicas para o jogo/Epic Groovy Synthwave - The Drop _ Royalty Free No Copyright Music-IuqTbOnbQL0.mp3
+20:53:05 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/musicas para o jogo/Epic Groovy Synthwave - The Drop _ Royalty Free No Copyright Music-IuqTbOnbQL0.mp3
+20:53:05 [info] [ffmpegdecoder] parsing data stream...
+20:53:05 [info] [ffmpegdecoder] found audio stream!
+20:53:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:53:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/musicas para o jogo/Epic Groovy Synthwave - The Drop _ Royalty Free No Copyright Music-IuqTbOnbQL0.mp3
+22:04:43 [info] [ffmpegdecoder] finished decoding.
+22:04:44 [info] [Player] new instance created
+22:04:44 [info] [Stream] opening /home/traveler/MEGA/playlist/musicas para o jogo/Free Dark Synthwave Music - Dredd _ No Copyright Music-jj2gHcSahKQ.mp3
+22:04:44 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/musicas para o jogo/Free Dark Synthwave Music - Dredd _ No Copyright Music-jj2gHcSahKQ.mp3
+22:04:44 [error] [LocalFileStream] open with OpenFlags::Read failed because file doesn't exist. /home/traveler/MEGA/playlist/musicas para o jogo/Free Dark Synthwave Music - Dredd _ No Copyright Music-jj2gHcSahKQ.mp3
+22:04:44 [error] [Stream] failed to open /home/traveler/MEGA/playlist/musicas para o jogo/Free Dark Synthwave Music - Dredd _ No Copyright Music-jj2gHcSahKQ.mp3
