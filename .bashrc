@@ -17,7 +17,7 @@ fi
 alias owofetch='echo -e " \n\n\n\n\n" && owofetch && echo -e "\n"'
 alias ls='ls --color=auto'
 alias mpv='devour mpv'
-alias zathura='devour zathura'
+alias zathura='devour zathura '
 alias php='php74'
 alias composer='php /usr/local/bin/composer'
 alias nvim='nvim -u .vimrc'
