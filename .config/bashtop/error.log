@@ -1,9 +1,3 @@
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
 /usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
 /usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
 /usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
@@ -500,3 +494,9 @@ New instance of bashtop version: 0.9.25 Pid: 23147
 New instance of bashtop version: 0.9.25 Pid: 4935
  
 New instance of bashtop version: 0.9.25 Pid: 4130251
+ 
+New instance of bashtop version: 0.9.25 Pid: 89028
+ 
+New instance of bashtop version: 0.9.25 Pid: 4923
+ 
+New instance of bashtop version: 0.9.25 Pid: 846884

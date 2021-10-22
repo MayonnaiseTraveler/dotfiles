@@ -1,45 +1,30 @@
-00:36:47 [info] [LOG SESSION] ---------- START ----------
-00:36:47 [info] [PluginFactory] loading plugins
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-00:36:47 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-00:36:47 [info] [Indexer] indexer source -1303229654 running...
-00:36:47 [info] [Indexer] indexer source -1303229654 finished
-00:36:47 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
-00:36:47 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
-00:36:47 [info] [Indexer] scan completed successfully
-00:36:47 [info] [Indexer] cleanup 1/2
-00:36:47 [info] [Indexer] cleanup 2/2
-00:36:47 [info] [Indexer] optimizing
-00:36:47 [info] [Indexer] done!
-00:36:47 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-00:36:47 [info] [Player] new instance created
-00:36:47 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-00:36:47 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-00:36:47 [info] [ffmpegdecoder] parsing data stream...
-00:36:47 [info] [ffmpegdecoder] found audio stream!
-00:36:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:36:47 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
-02:12:13 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/JonKaGor/Bitter and Blunt ✨-COs8ZD0j2fc.mp3
-02:12:13 [info] [Player] new instance created
-02:12:13 [info] [Stream] opening /home/traveler/MEGA/playlist/JonKaGor/Bitter and Blunt ✨-COs8ZD0j2fc.mp3
-02:12:13 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/JonKaGor/Bitter and Blunt ✨-COs8ZD0j2fc.mp3
-02:12:13 [info] [ffmpegdecoder] parsing data stream...
-02:12:13 [info] [ffmpegdecoder] found audio stream!
-02:12:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-02:12:13 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/JonKaGor/Bitter and Blunt ✨-COs8ZD0j2fc.mp3
-02:12:14 [info] [Player] new instance created
-02:12:14 [info] [Stream] opening /home/traveler/MEGA/playlist/JonKaGor/I Forgot That You Exist. ¯_(ツ)_¯-f-BvvNZwgQ0.mp3
-02:12:14 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/JonKaGor/I Forgot That You Exist. ¯_(ツ)_¯-f-BvvNZwgQ0.mp3
-02:12:14 [info] [ffmpegdecoder] parsing data stream...
-02:12:14 [info] [ffmpegdecoder] found audio stream!
-02:12:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-02:12:14 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/JonKaGor/I Forgot That You Exist. ¯_(ツ)_¯-f-BvvNZwgQ0.mp3
+18:08:27 [info] [LOG SESSION] ---------- START ----------
+18:08:27 [info] [PluginFactory] loading plugins
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+18:08:27 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+18:08:27 [info] [Indexer] indexer source -1303229654 running...
+18:08:27 [info] [Indexer] indexer source -1303229654 finished
+18:08:27 [info] [Indexer] scanning /home/traveler/MEGA/playlist/
+18:08:27 [info] [Indexer] scanning /home/traveler/MEGA/playlist/cyberia/
+18:08:27 [info] [Indexer] scan completed successfully
+18:08:27 [info] [Indexer] cleanup 1/2
+18:08:27 [info] [Indexer] cleanup 2/2
+18:08:27 [info] [Indexer] optimizing
+18:08:27 [info] [Indexer] done!
+18:08:27 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:08:27 [info] [Player] new instance created
+18:08:27 [info] [Stream] opening /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:08:27 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+18:08:27 [info] [ffmpegdecoder] parsing data stream...
+18:08:27 [info] [ffmpegdecoder] found audio stream!
+18:08:27 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+18:08:27 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
