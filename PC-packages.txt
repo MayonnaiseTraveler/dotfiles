@@ -1,13 +1,16 @@
+abiword
 accountsservice
 adobe-source-han-sans-jp-fonts
+airshipper
 altus-appimage
 arandr
-atom
 audacity
 autoconf
 automake
 base
+bash-pipes
 bashtop
+betterdiscord-installer-bin
 binutils
 bison
 brave-bin
@@ -22,7 +25,8 @@ copyq
 dbvis
 ddrescue
 debtap
-discord_arch_electron
+devour
+discord
 dosfstools
 dragon-drag-and-drop
 drawpile
@@ -43,12 +47,14 @@ freetube-bin
 fuse2
 garcon
 gcc
+gdb
 gedit
 gimp
 git
 gnome-keyring
 gnu-free-fonts
 gnu-netcat
+godot
 gpart
 gparted
 groff
@@ -62,7 +68,6 @@ i3session-git
 i3status
 icecat-bin
 imagemagick
-invidious-git
 itch
 jansson
 keepassxc
@@ -73,7 +78,6 @@ libnm
 libreoffice-extension-texmaths
 libreoffice-fresh
 librewolf-bin
-lightcord-git
 lightdm-gtk-greeter
 linux
 linux-firmware
@@ -89,9 +93,9 @@ make
 manuskript
 mariadb
 megasync-bin
+midori
 minecraft-launcher
 minecraft-technic-launcher
-minitimer
 mpc
 mpd
 mtools
@@ -100,6 +104,7 @@ mysql-workbench
 nano
 ncmpcpp
 nekofetch
+neocities-cli
 neovide-bin
 neovim-airline
 neovim-plug
@@ -119,10 +124,8 @@ nvidia
 nvidia-settings
 nvm-git
 obs-studio
-okular
 owofetch-git
 pacmixer
-pandoc
 papirus-icon-theme
 paru
 patch
@@ -130,7 +133,7 @@ pavucontrol
 picom-jonaburg-git
 pkgconf
 pm-utils
-polybar
+polybar-git
 postybirb
 powerline-fonts
 proton-ge-custom-bin
@@ -144,9 +147,11 @@ ranger
 rofi
 screenfetch
 sox
+steam
 sudo
+surf
 suru-plus-dark-git
-task
+tcc
 telegram-desktop
 texinfo
 themix-full-git
@@ -161,10 +166,12 @@ traceroute
 ttf-liberation
 ttf-nerd-fonts-symbols
 ttf-oxanium
+ttf-times-new-roman
 tty-clock
 tty-countdown-git
 tumbler
 ufw
+unzip
 v4l2loopback-dkms
 vi
 virtualbox
@@ -172,7 +179,6 @@ w3m
 which
 whois
 wine
-winetricks
 wireshark-gtk2
 xampp
 xclip
@@ -229,5 +235,4 @@ xorg-xwininfo
 xorg-xwud
 youtube-dl
 yt
-zap-git
 zathura-pdf-poppler
