@@ -144,7 +144,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 assign [class="code-oss"] $ws3
 assign [class="krita"] $ws2
 assign [class="TelegramDesktop"] $ws4
-assign [class="lightcord"] $ws4
+assign [class="discord"] $ws4
 assign [class="Element"] $ws4
 assign [class="postybirb"] $ws4
 assign [class="Firefox"] $ws5
@@ -289,7 +289,7 @@ exec_always --no-startup-id feh --bg-fill /home/traveler/Imagens/wallpaper6.jpg
 exec_always picom -f -c --experimental-backends --backend glx 
 
 #notification stuff
-exec_always --no-startup-id dunst -conf "~/.config/dunst/dunstrc"
+exec_always --no-startup-id dunst -config "~/.config/dunst/dunstrc"
 
 #keybinded programs
 
@@ -305,7 +305,7 @@ bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -t image/
 
 #Exec on startup
 exec brave
-exec lightcord
+exec discord
 exec telegram-desktop
 exec element-desktop
 exec keepassxc

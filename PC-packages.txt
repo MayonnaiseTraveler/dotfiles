@@ -1,9 +1,9 @@
-abiword
 accountsservice
 adobe-source-han-sans-jp-fonts
 airshipper
 altus-appimage
 arandr
+atom
 audacity
 autoconf
 automake
@@ -68,6 +68,7 @@ i3session-git
 i3status
 icecat-bin
 imagemagick
+invidious-git
 itch
 jansson
 keepassxc
@@ -91,11 +92,11 @@ m4
 maim
 make
 manuskript
-mariadb
 megasync-bin
 midori
 minecraft-launcher
 minecraft-technic-launcher
+minitimer
 mpc
 mpd
 mtools
@@ -120,7 +121,7 @@ noto-fonts-emoji
 npm
 nspr
 nss
-nvidia
+nvidia-dkms
 nvidia-settings
 nvm-git
 obs-studio
@@ -132,8 +133,9 @@ patch
 pavucontrol
 picom-jonaburg-git
 pkgconf
+plymouth
 pm-utils
-polybar-git
+polybar
 postybirb
 powerline-fonts
 proton-ge-custom-bin
@@ -141,6 +143,7 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-control
 pulseaudio-equalizer
+python-pip
 qbittorrent
 qutebrowser
 ranger
@@ -151,6 +154,7 @@ steam
 sudo
 surf
 suru-plus-dark-git
+task
 tcc
 telegram-desktop
 texinfo
@@ -173,12 +177,15 @@ tumbler
 ufw
 unzip
 v4l2loopback-dkms
+v4l2loopback-utils
 vi
 virtualbox
 w3m
+wget
 which
 whois
 wine
+winetricks
 wireshark-gtk2
 xampp
 xclip
@@ -186,7 +193,6 @@ xf86-input-wacom
 xf86-video-vesa
 xfce4-appfinder
 xfce4-i3-window-title-plugin-git
-xfce4-i3-workspaces-plugin-git
 xfce4-panel
 xfce4-power-manager
 xfce4-pulseaudio-plugin
@@ -235,4 +241,5 @@ xorg-xwininfo
 xorg-xwud
 youtube-dl
 yt
+zap-git
 zathura-pdf-poppler
