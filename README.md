@@ -30,5 +30,8 @@
   <li>Change i3 keybindings to be more vim-like</li>
   <li>Add a list of browser extensions i use</li>
   <li>Explain the weird commands in portuguese that are in the bashrc</li>
+  <li>clean some config files that look like frankenstein</li>
 </ul>
+
+
 
