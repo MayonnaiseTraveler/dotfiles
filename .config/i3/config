@@ -217,7 +217,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 
 hide_edge_borders none
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 0
 gaps inner 12
 gaps outer 16
 
@@ -286,7 +286,7 @@ exec_always --no-startup-id feh --bg-fill /home/traveler/Imagens/wallpaper6.jpg
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
 
-exec_always picom -f -c --experimental-backends --backend glx 
+exec_always picom -f  --experimental-backends --backend glx 
 
 #notification stuff
 exec_always --no-startup-id dunst -config "~/.config/dunst/dunstrc"
