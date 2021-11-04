@@ -50,3 +50,19 @@
 18:06:15 [info] [ffmpegdecoder] found audio stream!
 18:06:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 18:06:15 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/amenJR/Amen Jr - Nunca Me Deixe Parar-Tt-YMrYlzWM.mp3
+18:10:33 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/amenJR/AMEN JR - S E D E (LYRIC-VIDEO)-MMWqFJVN2dM.mp3
+18:10:33 [info] [Player] new instance created
+18:10:33 [info] [Stream] opening /home/traveler/MEGA/playlist/amenJR/AMEN JR - S E D E (LYRIC-VIDEO)-MMWqFJVN2dM.mp3
+18:10:33 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/amenJR/AMEN JR - S E D E (LYRIC-VIDEO)-MMWqFJVN2dM.mp3
+18:10:33 [info] [ffmpegdecoder] parsing data stream...
+18:10:33 [info] [ffmpegdecoder] found audio stream!
+18:10:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+18:10:33 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/amenJR/AMEN JR - S E D E (LYRIC-VIDEO)-MMWqFJVN2dM.mp3
+18:10:34 [info] [Player] new instance created
+18:10:34 [info] [Stream] opening /home/traveler/MEGA/playlist/amenJR/Amen Jr - Nunca Me Deixe Parar-Tt-YMrYlzWM.mp3
+18:10:34 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/amenJR/Amen Jr - Nunca Me Deixe Parar-Tt-YMrYlzWM.mp3
+18:10:34 [info] [ffmpegdecoder] parsing data stream...
+18:10:34 [info] [ffmpegdecoder] found audio stream!
+18:10:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+18:10:34 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/amenJR/Amen Jr - Nunca Me Deixe Parar-Tt-YMrYlzWM.mp3
+18:10:35 [info] [ffmpegdecoder] finished decoding.
