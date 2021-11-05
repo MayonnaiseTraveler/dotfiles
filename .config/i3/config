@@ -91,6 +91,9 @@ bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
+#align window titles
+title_align center
+
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
@@ -255,6 +258,11 @@ exec_always xfce4-panel
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
+#set default workspace for second monitor
+workspace w$0 output DP-1
+workspace w$1 output HDMI-0
+
+
 #auto run useful programs
 
 exec --no-startup-id megasync
@@ -299,10 +307,6 @@ bindsym $mod+c exec killall picom
 bindsym $mod+alt+k exec krita
 
 bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -t image/png
-
-
-
-
 
 #Exec on startup
 exec brave
