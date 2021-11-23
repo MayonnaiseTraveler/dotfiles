@@ -2250,3 +2250,12 @@
 08:40:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 08:40:52 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/FLCL/FLCL Original Sound Track & Drama CD2：King of Pirates/03. Drama Taxi.mp3
 08:40:52 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+08:42:09 [info] [ffmpegdecoder] finished decoding.
+08:42:12 [info] [Player] new instance created
+08:42:12 [info] [Stream] opening /home/traveler/MEGA/playlist/FLCL/FLCL Original Sound Track & Drama CD2：King of Pirates/04. Nightmare.mp3
+08:42:12 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/FLCL/FLCL Original Sound Track & Drama CD2：King of Pirates/04. Nightmare.mp3
+08:42:12 [info] [ffmpegdecoder] parsing data stream...
+08:42:12 [info] [ffmpegdecoder] found audio stream!
+08:42:12 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:42:12 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/FLCL/FLCL Original Sound Track & Drama CD2：King of Pirates/04. Nightmare.mp3
+08:42:12 [warning] [ffmpegdecoder] invalid packet detected, discarding.
