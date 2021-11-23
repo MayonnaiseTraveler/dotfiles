@@ -259,8 +259,8 @@ exec_always xfce4-panel
 # finds out, if available)
 
 #set default workspace for second monitor
-workspace $ws1 output DP-1
-workspace $ws10 output HDMI-0
+workspace $ws1 output HDMI-0
+workspace $ws10 output DP-1
 
 
 #auto run useful programs
@@ -277,6 +277,8 @@ bindsym $mod+shift+s exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside
 bindsym $mod+shift+n exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 2005x1058 --rotate normal --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+2005+1058
 
 bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0
+
+bindsym $mod+shift+a exec pavucontrol
 
 #set to default to one monitor
 exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0

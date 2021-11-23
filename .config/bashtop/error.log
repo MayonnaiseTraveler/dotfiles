@@ -240,102 +240,6 @@
 /usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
 /usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
 /usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
 /usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
 /usr/bin/bashtop: line 659: /dev/fd/0: Too many open files
 stty: 'standard input': Bad file descriptor
@@ -500,3 +404,99 @@ ps: error while loading shared libraries: libcap.so.2: cannot open shared object
 New instance of bashtop version: 0.9.25 Pid: 420758
  
 New instance of bashtop version: 0.9.25 Pid: 434452
+/usr/bin/bashtop: line 4356: /usr/bin/stty: No such file or directory
+ 
+New instance of bashtop version: 0.9.25 Pid: 16098
+ 
+New instance of bashtop version: 0.9.25 Pid: 20752
+ 
+New instance of bashtop version: 0.9.25 Pid: 90884
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 2040: /dev/fd/1022: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 2353: /dev/fd/1022: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: line 910: cannot create temp file for here-document: Too many open files
+/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: line 2030: printf: e-4: invalid number
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
+/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
+/usr/bin/bashtop: line 2040: <(uptime 2>/dev/null || true): ambiguous redirect
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
+stty: 'standard input': Bad file descriptor
+/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
+stty: 'standard input': Bad file descriptor
+/usr/bin/bashtop: line 910: cannot create temp file for here-document: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: line 910: cannot create temp file for here-document: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: line 910: cannot create temp file for here-document: Too many open files
+/usr/bin/bashtop: line 910: cannot create temp file for here-document: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: line 910: cannot create temp file for here-document: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: line 2201: mem[available]*100/mem[total]: division by 0 (error token is "mem[total]")
+stty: 'standard input': Bad file descriptor
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 721: /home/traveler/.config/bashtop/bashtop.cfg: Too many open files
+/usr/bin/bashtop: redirection error: cannot duplicate fd: Too many open files
+/usr/bin/bashtop: line 651: /home/traveler/.config/bashtop/error.log: Too many open files
+ 
+New instance of bashtop version: 0.9.25 Pid: 2265557
+ 
+New instance of bashtop version: 0.9.25 Pid: 169941

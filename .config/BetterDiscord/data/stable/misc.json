@@ -1,5 +1,5 @@
 {
-    "version": "1.2.4",
+    "version": "1.3.0",
     "emoteVersion": "v1.3.0",
     "addonlistControls": {
         "theme": {
@@ -13,5 +13,8 @@
             "developer": true,
             "window": true
         }
+    },
+    "favoriteEmotes": {
+        "Yummi": "https://cdn.frankerfacez.com/emoticon/171684/1"
     }
 }
