@@ -274,7 +274,7 @@ bindsym $mod+shift+x exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside
 bindsym $mod+shift+s exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside-color=$inactive-bg-color --separator-color=$bg-color --keyhl-color=$text-color --bshl-color=$text-color --wrong-color=$urgent-bg-color --verif-color=$urgent-bg-color --time-color=$text-color --date-color=$text-color --layout-color=$text-color --clock --time-str="%H:%M:%S" && sudo pm-suspend
 #monitor switch until i find a way to use the tablet without the area glitching out
 
-bindsym $mod+shift+n exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 2005x1058 --rotate normal --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+2005+1058
+bindsym $mod+shift+n exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 1987x975 --rotate normal --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+1987+975
 
 bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0
 
@@ -283,13 +283,6 @@ bindsym $mod+shift+a exec pavucontrol
 #set to default to one monitor
 exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0
 
-#exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/barrens\ boat.webp
-#exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/refuge3d.png
-#exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/glitchart.jpg
-#exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/godofhighschool.jpg
-#exec_always --no-startup-id feh --bg-fill /home/traveler/Imagens/wallpaper6.jpg
-#exec_always --no-startup-id feh --bg-fill //home/traveler/Imagens/ini-sketch-glitched.png
-#exec_always --no-startup-id feh --bg-fill /home/traveller/Imagens/Lapfox1.jpeg
 
 exec_always --no-startup-id feh --bg-fill /home/traveler/Imagens/wallpaper3.jpg
 
@@ -308,7 +301,7 @@ bindsym $mod+c exec killall picom
 
 bindsym $mod+alt+k exec krita
 
-bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -t image/png
+bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -target image/png
 
 #Exec on startup
 exec brave

@@ -1,29 +1,3 @@
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
 /usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
 /usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
 /usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
@@ -500,3 +474,29 @@ stty: 'standard input': Bad file descriptor
 New instance of bashtop version: 0.9.25 Pid: 2265557
  
 New instance of bashtop version: 0.9.25 Pid: 169941
+ 
+New instance of bashtop version: 0.9.25 Pid: 4082
+ 
+New instance of bashtop version: 0.9.25 Pid: 1366552
+ 
+New instance of bashtop version: 0.9.25 Pid: 1517955
+ 
+New instance of bashtop version: 0.9.25 Pid: 1524634
+ 
+New instance of bashtop version: 0.9.25 Pid: 4726
+ 
+New instance of bashtop version: 0.9.25 Pid: 5054
+ 
+New instance of bashtop version: 0.9.25 Pid: 5765
+ 
+New instance of bashtop version: 0.9.25 Pid: 9088
+ 
+New instance of bashtop version: 0.9.25 Pid: 4057941
+ 
+New instance of bashtop version: 0.9.25 Pid: 2260
+ 
+New instance of bashtop version: 0.9.25 Pid: 7475
+ 
+New instance of bashtop version: 0.9.25 Pid: 8330
+ 
+New instance of bashtop version: 0.9.25 Pid: 14878
