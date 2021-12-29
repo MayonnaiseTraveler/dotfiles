@@ -304,7 +304,7 @@ bindsym $mod+alt+k exec krita
 bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -target image/png
 
 #Exec on startup
-exec_always --no-startup-id /usr/lib/xfce-polkit/xfce-polkit 
+exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
 exec brave
 exec discord
 exec telegram-desktop

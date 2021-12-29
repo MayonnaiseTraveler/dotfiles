@@ -1,18 +1,3 @@
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
-/usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
-/usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
-/usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
 /usr/bin/bashtop: cannot make pipe for process substitution: Too many open files
 /usr/bin/bashtop: line 659: <(${stty} size): ambiguous redirect
 /usr/bin/bashtop: cannot make pipe for command substitution: Too many open files
@@ -500,3 +485,18 @@ New instance of bashtop version: 0.9.25 Pid: 3873
 New instance of bashtop version: 0.9.25 Pid: 5695
  
 New instance of bashtop version: 0.9.25 Pid: 154608
+ 
+New instance of bashtop version: 0.9.25 Pid: 25008
+/usr/bin/bashtop: line 3405: pid_Pid:_graph: invalid variable name
+ 
+New instance of bashtop version: 0.9.25 Pid: 40371
+/usr/bin/bashtop: line 3405: pid_Pid:_graph: invalid variable name
+ 
+New instance of bashtop version: 0.9.25 Pid: 40592
+/usr/bin/bashtop: line 3405: pid_Pid:_graph: invalid variable name
+ 
+New instance of bashtop version: 0.9.25 Pid: 41023
+ 
+New instance of bashtop version: 0.9.25 Pid: 4662
+ 
+New instance of bashtop version: 0.9.25 Pid: 49894

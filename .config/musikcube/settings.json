@@ -15,6 +15,7 @@
   "IndexerThreadCount": 4,
   "IndexerTransactionInterval": 300,
   "InheritBackgroundColor": true,
+  "LastAcknowledgedUpdateVersion": "0.96.10",
   "LastFmSessionId": "",
   "LastFmToken": "",
   "LastFmUsername": "",
