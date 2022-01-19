@@ -312,8 +312,10 @@ hide_edge_borders none
 for_window [class=".*"] border pixel 0
 
 # Set gaps
-gaps inner 12
-gaps outer 48
+gaps inner 16
+gaps outer 43
+gaps top 64
+gaps bottom 32
 #workspace $ws1 gaps inner 16  
 #workspace $ws1 gaps outer 64
 

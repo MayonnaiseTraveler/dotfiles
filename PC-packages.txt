@@ -1,5 +1,6 @@
 accountsservice
 adobe-source-han-sans-jp-fonts
+aic94xx-firmware
 airshipper
 altus-appimage
 ananicy
@@ -9,10 +10,10 @@ autoconf
 automake
 base
 bash-pipes
-bashtop
 betterdiscord-installer-bin
 binutils
 bison
+bpytop
 brave-bin
 breeze-hacked-cursor-theme
 candy-icons-git
@@ -28,6 +29,7 @@ debtap
 devour
 discord
 dosfstools
+downgrade
 dragon-drag-and-drop
 drawpile
 droidcam
@@ -77,7 +79,7 @@ kdenlive
 keepassxc
 kitty
 krita
-lib32-nvidia-vulkan-utils
+lib32-nvidia-utils
 lib32-opencl-nvidia
 libiconv
 libnm
@@ -114,6 +116,7 @@ mtools
 musikcube
 nano
 nautilus-gnome-disks
+ncmpcpp
 nekofetch
 neocities-cli
 neovim-airline
@@ -130,8 +133,10 @@ noto-fonts-emoji
 npm
 nspr
 nss
-nvidia-vulkan-dkms
+nvidia
+nvidia-utils
 nvm-git
+nvtop
 obs-qtwebkit-git
 obs-spectralizer
 obs-studio
@@ -141,6 +146,7 @@ onlyoffice-bin
 owofetch-git
 pacman-contrib
 pacmixer
+pamixer
 papirus-icon-theme
 paru
 patch
@@ -149,8 +155,11 @@ picom-jonaburg-git
 pkgconf
 plymouth
 pm-utils
+pngcrush
 polkit-dumb-agent-git
+polybar
 postybirb
+powercord-electron-git
 powerline-fonts
 proton-ge-custom-bin
 pulseaudio
@@ -162,6 +171,7 @@ python-pip
 qbittorrent
 qutebrowser
 ranger
+revolt-desktop
 rofi
 screenfetch
 scrot
@@ -170,6 +180,7 @@ steam
 sudo
 surf
 suru-plus-dark-git
+tai-bin
 task
 tcc
 telegram-desktop
@@ -183,7 +194,6 @@ timer
 todo
 toilet
 tor
-tor-browser
 traceroute
 ttf-liberation
 ttf-nerd-fonts-symbols
@@ -208,6 +218,7 @@ winetricks
 wireshark-gtk2
 xampp
 xclip
+xdotool
 xf86-input-wacom
 xf86-video-vesa
 xfce-polkit
