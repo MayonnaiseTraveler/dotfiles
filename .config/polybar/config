@@ -36,7 +36,7 @@ offset-x= 3%-10px
 width = 25%
 height = 32
 offset-y = 2%
-radius = 10
+radius = 0
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -68,7 +68,7 @@ width = 15%
 height = 32
 offset-x = 42.5%
 offset-y = 2%
-radius = 10
+radius = 0
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -76,7 +76,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 4
+border-size = 0
 border-color = #00000000
 
 padding-left = 5%
@@ -100,7 +100,7 @@ width = 25%
 height = 32
 offset-x = 72.2%
 offset-y = 2%
-radius = 10
+radius = 0
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -108,7 +108,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 4
+border-size = 0
 border-color = #00000000
 
 padding-left = 3%
@@ -119,7 +119,7 @@ module-margin-right = 1
 
 
 font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=9;1
-modules-left = pulseaudio memory date 
+modules-left = pulseaudio date 
 
 
 tray-detached = true
@@ -127,11 +127,9 @@ tray-offset-x = -1%
 
 tray-position = right
 tray-padding = 2
+tray-transparent = false
 tray-background = ${colors.background}
-
 wm-restack = i3
-
-
 
 
 ;scroll-up = i3wm-wsnext

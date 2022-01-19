@@ -289,7 +289,7 @@ bindsym $mod+r mode "resize"
 set $bg-color 	         #d12aee	
 #neonpink
 
-set $inactive-bg-color   #a3070a22	
+set $inactive-bg-color   #070a22a3
 #darkblue / tried making it transparent, looks cool but alpha is always 0
 
 set $text-color          #44ecff	
