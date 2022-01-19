@@ -10,7 +10,6 @@ fi
 #If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#PS1='[\u@\h \W]\$ '
 PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u@\h'; fi)\[\033[01;34m\] \w \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]:(\[\033[01;34m\] \")\\$\[\033[00m\] "
 
 # Set up Node Version Manager
@@ -40,4 +39,6 @@ alias aulas='figlet Aulas; echo "__________________________"; echo -e "\n > Segu
  > Sexta : Metodologia de Pesquisa Cientifica\n"'
 
 
-
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+# END_KITTY_SHELL_INTEGRATION

@@ -19,9 +19,8 @@
 */
 
 .appMount-3lHmkl {
-    background-image: url(https://wallpapercave.com/wp/wp2343910.jpg);
-    background-color: rgba(9, 24, 51, 0);
-    background-repeat: no-repeat;
+    background-image: url(https://wallpapercave.com/wp/wp2343910.jpg);    background-repeat: no-repeat;
+    background-color: black;
     background-position: center; 
     background-size: cover;
 }
@@ -54,11 +53,11 @@
     --background-tertiary: rgba(0, 11, 30, 0.267);
     --deprecated-panel-background: rgba(9, 24, 51, 0.26);
     --channeltextarea-background: rgba(19, 63, 124, 0.411);
-    --background-secondary-alt: rgba(9, 24, 51, 0.4)
+    --background-secondary-alt: rgba(9, 24, 51, 0.4);
 
 }
 .theme-dark .container-1D34oG {
-    background-color: rgba(9, 24, 51, .4)
+    background-color: rgba(9, 24, 51, .4);
 }
 .theme-dark .inset-3sAvek {
     background-color: rgba(19, 62, 124, .2);
