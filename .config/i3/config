@@ -314,8 +314,8 @@ for_window [class=".*"] border pixel 0
 # Set gaps
 gaps inner 12
 gaps outer 48
-workspace $ws1 gaps inner 16  
-workspace $ws1 gaps outer 64
+#workspace $ws1 gaps inner 16  
+#workspace $ws1 gaps outer 64
 
 
 #smart_gaps on
