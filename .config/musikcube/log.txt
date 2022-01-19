@@ -31,3 +31,63 @@
 13:08:08 [info] [ffmpegdecoder] found audio stream!
 13:08:08 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 13:08:08 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/dmca-free/DMCA Free Piano Mix-iEut-eVwzlc.mp3
+15:14:46 [info] [Player] new instance created
+15:14:46 [info] [Stream] opening /home/traveler/MEGA/playlist/dmca-free/DMCA Free Lofi Mix-lZJ9u2q8VZ4.mp3
+15:14:46 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/dmca-free/DMCA Free Lofi Mix-lZJ9u2q8VZ4.mp3
+15:14:46 [info] [ffmpegdecoder] parsing data stream...
+15:14:46 [info] [ffmpegdecoder] found audio stream!
+15:14:46 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:14:46 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/dmca-free/DMCA Free Lofi Mix-lZJ9u2q8VZ4.mp3
+15:14:51 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/demondice/[MV] wannabe- DEMONDICE-RvjKgbgY7PI.mp3
+15:14:51 [info] [Player] new instance created
+15:14:51 [info] [Stream] opening /home/traveler/MEGA/playlist/demondice/[MV] wannabe- DEMONDICE-RvjKgbgY7PI.mp3
+15:14:51 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/demondice/[MV] wannabe- DEMONDICE-RvjKgbgY7PI.mp3
+15:14:51 [info] [ffmpegdecoder] parsing data stream...
+15:14:51 [info] [ffmpegdecoder] found audio stream!
+15:14:51 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:14:51 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/demondice/[MV] wannabe- DEMONDICE-RvjKgbgY7PI.mp3
+15:14:51 [info] [Player] new instance created
+15:14:51 [info] [Stream] opening /home/traveler/MEGA/playlist/demondice/[MV] ALT-er-NATIVE!! feat. ill.bell (DEMONDICE)-4U8MvhH6GnA.mp3
+15:14:51 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/demondice/[MV] ALT-er-NATIVE!! feat. ill.bell (DEMONDICE)-4U8MvhH6GnA.mp3
+15:14:51 [info] [ffmpegdecoder] parsing data stream...
+15:14:51 [info] [ffmpegdecoder] found audio stream!
+15:14:51 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:14:51 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/demondice/[MV] ALT-er-NATIVE!! feat. ill.bell (DEMONDICE)-4U8MvhH6GnA.mp3
+15:15:02 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/demondice/Hazy Skyscraper-gRG3GG7fPEk.mp3
+15:15:02 [info] [Player] new instance created
+15:15:02 [info] [Stream] opening /home/traveler/MEGA/playlist/demondice/Hazy Skyscraper-gRG3GG7fPEk.mp3
+15:15:02 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/demondice/Hazy Skyscraper-gRG3GG7fPEk.mp3
+15:15:02 [info] [ffmpegdecoder] parsing data stream...
+15:15:02 [info] [ffmpegdecoder] found audio stream!
+15:15:02 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:15:02 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/demondice/Hazy Skyscraper-gRG3GG7fPEk.mp3
+15:15:02 [info] [Player] new instance created
+15:15:02 [info] [Stream] opening /home/traveler/MEGA/playlist/demondice/Soundless-ZFFQYY0UoFU.mp3
+15:15:02 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/demondice/Soundless-ZFFQYY0UoFU.mp3
+15:15:02 [info] [ffmpegdecoder] parsing data stream...
+15:15:02 [info] [ffmpegdecoder] found audio stream!
+15:15:02 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:15:02 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/demondice/Soundless-ZFFQYY0UoFU.mp3
+15:15:04 [info] [CrossfadeTransport] trying to play /home/traveler/MEGA/playlist/demondice/Legendary Stray-6v6-0LozpSc.mp3
+15:15:04 [info] [Player] new instance created
+15:15:04 [info] [Stream] opening /home/traveler/MEGA/playlist/demondice/Legendary Stray-6v6-0LozpSc.mp3
+15:15:04 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/demondice/Legendary Stray-6v6-0LozpSc.mp3
+15:15:04 [info] [ffmpegdecoder] parsing data stream...
+15:15:05 [info] [ffmpegdecoder] found audio stream!
+15:15:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:15:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/demondice/Legendary Stray-6v6-0LozpSc.mp3
+15:15:05 [info] [Player] new instance created
+15:15:05 [info] [Stream] opening /home/traveler/MEGA/playlist/demondice/Hazy Skyscraper-gRG3GG7fPEk.mp3
+15:15:05 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/demondice/Hazy Skyscraper-gRG3GG7fPEk.mp3
+15:15:05 [info] [ffmpegdecoder] parsing data stream...
+15:15:05 [info] [ffmpegdecoder] found audio stream!
+15:15:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:15:05 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/demondice/Hazy Skyscraper-gRG3GG7fPEk.mp3
+15:18:54 [info] [ffmpegdecoder] finished decoding.
+15:18:55 [info] [Player] new instance created
+15:18:55 [info] [Stream] opening /home/traveler/MEGA/playlist/demondice/Soundless-ZFFQYY0UoFU.mp3
+15:18:55 [info] [LocalFileStream] opening file: /home/traveler/MEGA/playlist/demondice/Soundless-ZFFQYY0UoFU.mp3
+15:18:55 [info] [ffmpegdecoder] parsing data stream...
+15:18:55 [info] [ffmpegdecoder] found audio stream!
+15:18:55 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:18:55 [info] [Streams] found a decoder for /home/traveler/MEGA/playlist/demondice/Soundless-ZFFQYY0UoFU.mp3
