@@ -111,7 +111,7 @@ line-color = #f00
 border-size = 4
 border-color = #00000000
 
-padding-left = 2%
+padding-left = 3%
 padding-right = 2%
 
 module-margin-left = 1
@@ -119,7 +119,7 @@ module-margin-right = 1
 
 
 font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=9;1
-modules-center = pulseaudio memory date 
+modules-left = pulseaudio memory date 
 
 
 tray-detached = true
@@ -234,7 +234,7 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #4bffdc
-label = | %gb_used% 
+label =|  %gb_used% 
 
 [module/wlan]
 type = internal/network
@@ -257,6 +257,25 @@ ramp-signal-2 = 
 ramp-signal-3 = 
 ramp-signal-4 = 
 ramp-signal-foreground = ${colors.foreground-alt}
+
+[module/pulseaudio]
+type = custom/script
+tail = true
+format-underline = ${colors.cyan}
+label-padding = 0
+label-foreground = ${colors.foreground}
+
+# Icons mixed from Font Awesome 5 and Material Icons
+# You can copy-paste your options for each possible action, which is more
+# trouble-free but repetitive, or apply only the relevant ones (for example
+# --sink-blacklist is only needed for next-sink).
+exec = pulseaudio-control --format '"| " $VOL_ICON ${VOL_LEVEL}%' --icons-volume " , " --icon-muted " " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" --sink-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:  Headphones" listen
+click-right = exec pavucontrol &
+click-left = pulseaudio-control togmute
+click-middle = pulseaudio-control --sink-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-sink
+scroll-up = pulseaudio-control --volume-max 130 up
+scroll-down = pulseaudio-control --volume-max 130 down
+
 
 [module/eth]
 type = internal/network
