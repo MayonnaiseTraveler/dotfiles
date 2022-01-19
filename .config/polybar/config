@@ -28,7 +28,6 @@ secondary = #e60053
 alert = #bd2c40
 
 
-
 [bar/left]
 override-redirect = true
 monitor = ${env:MONITOR:HDMI-1}
