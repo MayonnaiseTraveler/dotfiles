@@ -13,7 +13,7 @@
 </pre>
 <hr>
 <h4> What is it? </h4>
-<p> This repository contains the dotfiles for my i3-gaps arch setup, it has configs for a picom fork with dual kawase blur, kitty, i3-gaps, xfcebar (because i'm lazy), ranger, newsboat and other stuff.</p>
+<p> This repository contains the dotfiles for my i3-gaps arch setup, it has configs for a picom fork with dual kawase blur, kitty, i3-gaps, polybar, ranger, bpytop, some crazy scritps, and other stuff.</p>
 
 <h4> Images: </h4>
 <img src="screenshot1.png">
@@ -25,12 +25,14 @@
 <hr>
 <h4> ToDo:</h4>
 <ul>
+  <li><del>update readme</del></li>
   <li>Create bash script for installation</li>
-  <li>Remove some of my personal stuff from the repo later</li>
+  <li><del>Remove some of my personal stuff from the repo later</del></li>
+  <li>Finish bash script that changes volume of the active window</li>
+  <li>Create musikcube bash script for polybar with xdotools, sed and etc...</li>
   <li>Change i3 keybindings to be more vim-like</li>
   <li>Add a list of browser extensions i use</li>
-  <li>Explain the weird commands in portuguese that are in the bashrc</li>
-  <li>clean some config files that look like frankenstein</li>
+  <li>clean all config files that look like frankenstein</li>
 </ul>
 
 
