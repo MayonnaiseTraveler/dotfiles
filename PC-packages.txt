@@ -18,6 +18,7 @@ brave-bin
 breeze-hacked-cursor-theme
 candy-icons-git
 cava
+cef-minimal-obs-studio-browser-bin
 clonehero
 cmus
 code
@@ -28,6 +29,8 @@ ddrescue-gui
 debtap
 devour
 discord
+discord-overlay-git
+discover-overlay
 dosfstools
 downgrade
 dragon-drag-and-drop
@@ -37,11 +40,12 @@ dunst
 efibootmgr
 electron
 element-desktop
+enum4linux
 epick
-eww-git
 exo
 fakeroot
 feh
+ffmpeg-obs
 figlet
 flex
 freetube-bin
@@ -139,10 +143,11 @@ nvm-git
 nvtop
 obs-qtwebkit-git
 obs-spectralizer
-obs-studio
+obs-studio-tytan652
 obs-v4l2sink-git
 oneko
 onlyoffice-bin
+openvpn
 owofetch-git
 pacman-contrib
 pacmixer
@@ -183,6 +188,7 @@ suru-plus-dark-git
 tai-bin
 task
 tcc
+tcpdump
 telegram-desktop
 termite
 testdisk
