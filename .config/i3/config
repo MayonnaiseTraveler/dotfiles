@@ -8,6 +8,7 @@
 #                                                                           #
 #############################################################################
 
+#detailed full of blur and stuff theme
 
 #░ ░  ▓▓▓█████▓▓▓▓▓▓▓▓████████████████████████▓▓▓█████████████████████████████████
 #▒▓▓▓▓  ▒▓▓███▓▓▓▓▓▓▓▓██████████████████▓▓▓██▓░ ▓▓████████████████████████████████
@@ -235,11 +236,11 @@ assign [class="VirtualBox Manager"] $ws7
 for_window [class="Pavucontrol"] floating enable resize set 900 500
 for_window [class="steam_app_1182480"] floating enable
 for_window [class="xfce4-panel"] floating enable
+for_window [class="MEGAsync"] floating enable resize set 400 564
 
 #set default workspace for second monitor
 workspace $ws1 output HDMI-0
 workspace $ws10 output DP-1
-
 
 ########################################################
 #Colors and windows
@@ -337,7 +338,7 @@ exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
 
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
-exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --vsync --experimental-backends --backend glx 
+exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
 
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"
@@ -374,7 +375,7 @@ bindsym $mod+shift+a exec pavucontrol
 bindsym $mod+c exec killall picom
 
 #runs krita
-bindsym $mod+alt+k exec krita
+bindsym $mod+alt+k exec --no-startup-id krita
 
 # a script i'm currently working on, at the moment the code is trash, it will set the volume of the active window to 0.
 bindsym $mod+shift+b exec --no-startup-id ~/.config/i3/setvolumeofactivewindow.sh
@@ -391,9 +392,9 @@ bindsym $mod+shift+x exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside
 bindsym $mod+shift+s exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside-color=$inactive-bg-color --separator-color=$bg-color --keyhl-color=$text-color --bshl-color=$text-color --wrong-color=$urgent-bg-color --verif-color=$urgent-bg-color --time-color=$text-color --date-color=$text-color --layout-color=$text-color --clock --time-str="%H:%M:%S" && sudo pm-suspend
 
 #monitor switch until i find a way to use the tablet without the area glitching out
-bindsym $mod+shift+n exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 1987x975 --rotate normal --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal && sleep 0.5 && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+1987+975 && sleep 1 && restart
+bindsym $mod+shift+n exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 1987x975 --rotate normal --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal && sleep 0.5 && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+1987+975 
 #monitor switch 2 
-bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && sleep 0.5 && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0 && sleep 1 && restart
+bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && sleep 0.5 && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0 
 
 ##################################################################################
 #exec on startup
