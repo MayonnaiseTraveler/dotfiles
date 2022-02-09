@@ -54,6 +54,8 @@ set recolor-reverse-video "true"
 set recolor-keephue "true"
 
 
+map <C-i> recolor
+
 set render-loading "false"
 set scroll-step 50
 unmap f

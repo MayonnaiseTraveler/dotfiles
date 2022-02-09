@@ -50,7 +50,7 @@ xdotool key k
 sleep 0.25
 xdotool key k
 sleep 0.25
-#xdotool key Up
+xdotool key Up
 sleep 0.25
 xdotool key super+r
 
@@ -59,7 +59,6 @@ xdotool type "cava"
 xdotool key enter
 
 sleep 0.5
-
 xdotool key super+l
 xdotool key super+l
 xdotool key super+r

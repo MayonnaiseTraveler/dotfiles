@@ -1,7 +1,6 @@
 accountsservice
 adobe-source-han-sans-jp-fonts
 aic94xx-firmware
-airshipper
 altus-appimage
 ananicy
 arandr
@@ -23,6 +22,8 @@ clonehero
 cmus
 code
 copyq
+corrupter-bin
+cpick
 dbvis
 ddrescue
 ddrescue-gui
@@ -31,6 +32,7 @@ devour
 discord
 discord-overlay-git
 discover-overlay
+dmenu
 dosfstools
 downgrade
 dragon-drag-and-drop
@@ -48,9 +50,7 @@ feh
 ffmpeg-obs
 figlet
 flex
-freetube-bin
 fuse2
-gamehub-bin
 garcon
 gcc
 gdb
@@ -67,6 +67,7 @@ gparted
 groff
 grub
 guvcview
+hydra
 i3-gaps
 i3blocks
 i3lock-color
@@ -74,11 +75,11 @@ i3lock-fancy-git
 i3lock-fancy-rapid-git
 i3session-git
 i3status
-icecat-bin
 imagemagick
 itch
 jansson
 jdk
+joplin-desktop-bin
 kdenlive
 keepassxc
 kitty
@@ -107,10 +108,10 @@ maint
 make
 manuskript
 megasync-bin
+metasploit
 midori
 minecraft-launcher
 minecraft-technic-launcher
-minitimer
 mono
 mono-addins
 mono-tools
@@ -156,6 +157,7 @@ papirus-icon-theme
 paru
 patch
 pavucontrol
+php
 picom-jonaburg-git
 pkgconf
 plymouth
@@ -174,14 +176,17 @@ pulseaudio-equalizer
 pureref
 python-pip
 qbittorrent
+quickmedia-git
 qutebrowser
 ranger
+rawtherapee
 revolt-desktop
 rofi
 screenfetch
 scrot
 sox
 steam
+steam-native-runtime
 sudo
 surf
 suru-plus-dark-git
@@ -196,7 +201,6 @@ texinfo
 themix-full-git
 thunar
 thunar-volman
-timer
 todo
 toilet
 tor
@@ -208,8 +212,8 @@ ttf-times-new-roman
 tty-clock
 tty-countdown-git
 tumbler
-twitch-curses
 ufw
+unrar
 unzip
 v4l2loopback-dkms
 v4l2loopback-utils
@@ -227,9 +231,7 @@ xclip
 xdotool
 xf86-input-wacom
 xf86-video-vesa
-xfce-polkit
 xfce4-appfinder
-xfce4-i3-window-title-plugin-git
 xfce4-panel
 xfce4-power-manager
 xfce4-pulseaudio-plugin
@@ -237,9 +239,6 @@ xfce4-session
 xfce4-settings
 xfce4-terminal
 xfconf
-xfdesktop
-xfwm4
-xfwm4-themes
 xorg-bdftopcf
 xorg-docs
 xorg-font-util
@@ -277,5 +276,4 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 youtube-dl
-yt
 zathura-pdf-poppler

@@ -8,7 +8,7 @@
 #                                                                           #
 #############################################################################
 
-#detailed full of blur and stuff theme
+#lightweight minimalist theme
 
 #░ ░  ▓▓▓█████▓▓▓▓▓▓▓▓████████████████████████▓▓▓█████████████████████████████████
 #▒▓▓▓▓  ▒▓▓███▓▓▓▓▓▓▓▓██████████████████▓▓▓██▓░ ▓▓████████████████████████████████
@@ -290,7 +290,8 @@ bindsym $mod+r mode "resize"
 set $bg-color 	         #d12aee	
 #neonpink
 
-set $inactive-bg-color   #070a22a3
+set $inactive-bg-color   #1b0a36
+#070a22
 #darkblue / tried making it transparent, looks cool but alpha is always 0
 
 set $text-color          #44ecff	
@@ -309,7 +310,7 @@ client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-col
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #44fc94
 
 #remove borders
-hide_edge_borders none
+hide_edge_borders smart
 for_window [class=".*"] border pixel 0
 
 # Set gaps
@@ -317,17 +318,15 @@ gaps inner 16
 gaps outer 43
 gaps top 64
 gaps bottom 32
-#workspace $ws1 gaps inner 16  
-#workspace $ws1 gaps outer 64
 
 
 #smart_gaps on
-#smart_borders on
+smart_borders on
 #smart_borders no_gaps
 #border_radius 16
 
 #bar
-exec_always --no-startup-id ~/.config/i3/polybar.sh 
+exec_always --no-startup-id ~/.config/i3/polybar3.sh 
 #exec_always xfce4-panel
 
 exec_aways pulseaudio --start
@@ -337,8 +336,9 @@ exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
 #exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
 
 #transparency with picom
-#exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
-exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
+#exec_always picom -f -c --border-radius 0 --experimental-backend --backend glx 
+
+exec_always picom --config ~/.config/picom/picom.conf3 -e 1 -f  --glx-no-rebind-pixmap --glx-no-stencil --xrender-sync-fence --experimental-backends --backend glx 
 
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"

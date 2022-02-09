@@ -290,7 +290,8 @@ bindsym $mod+r mode "resize"
 set $bg-color 	         #d12aee	
 #neonpink
 
-set $inactive-bg-color   #070a22a3
+set $inactive-bg-color   #1b0a36
+#070a22
 #darkblue / tried making it transparent, looks cool but alpha is always 0
 
 set $text-color          #44ecff	
@@ -337,8 +338,9 @@ exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
 #exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
 
 #transparency with picom
-#exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
-exec_always picom --config ~/.config/picom/config2 -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
+#exec_always picom -f -c --border-radius 0 --experimental-backend --backend glx 
+
+exec_always picom --config ~/.config/picom/picom.conf2 -e 1 -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
 
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"

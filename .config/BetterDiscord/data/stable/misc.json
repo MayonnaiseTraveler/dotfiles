@@ -1,6 +1,6 @@
 {
-    "version": "1.3.0",
-    "emoteVersion": "v1.3.0",
+    "version": "1.5.1",
+    "emoteVersion": "v1.5.1",
     "addonlistControls": {
         "theme": {
             "view": "list"
@@ -10,8 +10,10 @@
         "settings": {
             "addons": true,
             "customcss": true,
-            "developer": true,
-            "window": true
+            "developer": false,
+            "window": true,
+            "appearance": false,
+            "general": true
         }
     },
     "favoriteEmotes": {
