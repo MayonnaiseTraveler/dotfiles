@@ -15,7 +15,6 @@ PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[0
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh
 
-
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
@@ -30,12 +29,12 @@ alias vi='nvim -u .vimrc'
 alias findheavy='du -cha --max-depth=1 ./ | grep -E "G"'
 alias newsboat='newsboat -C ~/.newsboat/.config'
 alias config='/usr/bin/git --git-dir=/home/traveler/.cfg/ --work-tree=/home/traveler'
+
 alias aulas='figlet Aulas; echo "__________________________"; echo -e "\n > Segunda: Laboratório de Programação e Design de Interação \n
  > Terça: programaçãop web\n
  > Quarta : Sistemas Digitais 2 \n
  > Quinta : Cálculo I \n
  > Sexta : Metodologia de Pesquisa Cientifica\n"'
-
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
