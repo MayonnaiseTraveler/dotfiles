@@ -340,7 +340,7 @@ exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
 #transparency with picom
 #exec_always picom -f -c --border-radius 0 --experimental-backend --backend glx 
 
-exec_always picom --config ~/.config/picom/picom.conf2 -e 1 -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
+#exec_always picom --config ~/.config/picom/picom.conf2 -e 1 -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
 
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"
