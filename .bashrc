@@ -31,7 +31,7 @@ alias findheavy='du -cha --max-depth=1 ./ | grep -E "G"'
 alias newsboat='newsboat -C ~/.newsboat/.config'
 alias config='/usr/bin/git --git-dir=/home/traveler/.cfg/ --work-tree=/home/traveler'
 alias aulas='figlet Aulas; echo "__________________________"; echo -e "\n > Segunda: Laboratório de Programação e Design de Interação \n
- > Terça: Laboratório de Programação\n
+ > Terça: programaçãop web\n
  > Quarta : Sistemas Digitais 2 \n
  > Quinta : Cálculo I \n
  > Sexta : Metodologia de Pesquisa Cientifica\n"'
