@@ -1,0 +1,431 @@
+#############################################################################
+# __  __                   _       ___ _____    ____             __ _       #
+#|  \/  | __ _ _   _  ___ ( )___  |_ _|___ /   / ___|___  _ __  / _(_) __ _ #
+#| |\/| |/ _` | | | |/ _ \|// __|  | |  |_ \  | |   / _ \| '_ \| |_| |/ _` |#
+#| |  | | (_| | |_| | (_) | \__ \  | | ___) | | |__| (_) | | | |  _| | (_| |#
+#|_|  |_|\__,_|\__, |\___/  |___/ |___|____/   \____\___/|_| |_|_| |_|\__, |#
+#              |___/                                                  |___/ #
+#                                                                           #
+#############################################################################
+
+#detailed full of blur and stuff theme
+
+#░ ░  ▓▓▓█████▓▓▓▓▓▓▓▓████████████████████████▓▓▓█████████████████████████████████
+#▒▓▓▓▓  ▒▓▓███▓▓▓▓▓▓▓▓██████████████████▓▓▓██▓░ ▓▓████████████████████████████████
+#    ░▓▓  ▓▓██▓▒▒▒▓▓▓▓▓▓███████████████▓  ▓▓▓▓ ▒ ▓▓███████████████████████████████
+#▓▓▓▓▒ ░▓▓ ▒▓▓░       ▒▓▓▓▓████████████▓ ░ ▓   ▓░░▒▓████▓▓████████████████████████
+#███▓▓▓▓░░▓░ ▓▓▒ ▒▓▓▓▒   ▒▓▓██████████▓▓ ▓  ░  ▓▓  ▒▓███▓▓████████████████████████
+#██████▓▓▓ ░▒ ▓   ▓▓▓▓▓▓▒  ░▓▓████████▓░░▓▓▒▓ ▒▓▓ ▒ ▓▓█▓▒▓▓███████████████████████
+#▓▓██████▓▓▒ ▒  ▓▓█████▓▓▓▓  ▓▓▓█████▓▓ ▓▓▓▓  ▓█▓▒▓ ▒▓▓░ ▓▓▓██████████████████████
+#▓▓▓▓▓▓▓███▓▓ ░  ▓████████▓▓▓ ░▓▓███▓▓░ ▓▓▓░ ▓▓██▓▓▒ ▓░  ▓ ▒▓█████████████████████
+#    ░▒▓▓▓▓█▓▓   ▓▓█████████▓▓▒ ▓▓▓▓▓  ▓▓▓  ▓▓███▓▓▓    ▒ ▒ ▓█████████████████████
+#▓█▓▓░   ░▓▓▓▓▓░  ▓███████████▓▓ ░▒  ░▓▓▒ ▒▓▓██████▓ ░░  ▓▓ ▓▓████████████████████
+#░  ░░░▒▓░  ░▓▓▓  ▓▓███████████▓▓  ▒▓▓▓ ▒▓▓████████▓ ▓▒▓▓▓▓░░▓▓███████████████████
+#▒▓▓▓▒▒░  ░▒▒  ▓▓ ▒▓████████████▓▓   ▓ ▓▓▓█████████▓ ▓▓▓██▓▓  ▓███████████████████
+#▓▓▓▓▓▓▓▓▓▓░  ░  ░ ▓█████████████▓▓   ▒▓▓▓█████████▓ ▓▓███▓▓  ▓▓██████████████████
+#█████████▓▓▓▓░    ▓██████████████▓▒░ ░▓ ▓█████████▓ ▓▓▓▓▓▓▓▓ ▒▓██████████████████
+#████████▓▓▓▓▒     ▓▓█████████████▓▓▓  ░ ▓█████████▓     ░▓▓▓▒ ▓▓▓████████████████
+#████████▓▓▓  ▓▓▓▓░▓▓██████████▓▓██▓▓░  ░▓█████▓▓▓▓▓ ▓▓▓▓░   ▒ ▒░▓████████████████
+#███████▓▓▓░ ▓▓▓▓  ░▓▓████████▓▒▒▓██▓▓  ▓▒▓▓███▓▒▒▓░░▓██▓▓▒ ▒▒   ▓███▓████████████
+#███████▓▓▒ ▓▓█▓▓    ░▓████▓▓▓▓▓ ▒▓▓▓   ░ ▒▓███▓░▓▒ ▓▓███▓▒░░   ▒▓▓██▓▓▓██████████
+#██████▓▓▒ ▓▓██▓ ▒░▒░░▒▓███▓░▓▓▓  ▓▓   ░   ▓██▓▓   ░▓█▓▓▓▓▓▓▓▓▓   ▒▓▓  ▓▓█████████
+#████▓▓▓  ▓▓█▓▓▒░▓▒▒▓░░▓▓██▓ ░▓░░    ▒▒ ░  ▓▓▓▓░ ▒ ▓▓▓▓▒▒▓▓███▓▓  ░▓▓░░ ▓▓████████
+#▓▓▓▓▓░ ▒▓▓▓▓▓░     ▓▒░▒▓█▓▓   ░░  ▓▓▓▒ ▒   ▒▓▓▓▒  ▒░    ▓███▓▓▓  ▓▓▓▒░░ ▓▓███████
+#▓▒   ▒▓▓▓▓▓  ▒▓▓▓▓░ ▒ ░▓█▓▒▒ ▓▒ ▒ ▓▓▒  ▓▓▓▓▒    ░  ░  ▒▓▓██▓▓░ ▒▓▓█▓▓ ▓ ░▓███████
+# ░▒▓▓▓█▓▓░ ▒▓▓▓▓▓▓▓▓   ▓▓▓▓ ▒▓▓▓  ▓▓ ▓ ▓▓▓▓▒▓▓ ▒▒   ▒▓▓████▓░ ▓▓▒░▓▓▓ ▓▓ ▓▓██████
+#  ▒▓█▓▓▒ ░▓▓███▓░      ▓▓░ ▒▓▓█▓▓▓█▓▒ ▓▓▓▓▒░  ░ ▒  ▓▓▓███▓▓▓▒ ▒▓▒ ▒░  ▓▓▓ ▓▓█████
+#░ ▓▓▓▒  ▓▓▓███▓▓ ▒ ▓░    ▒▓▒▒▓▓█████▓▓▓ ▓▒     ░    ▒▓██▓▓  ░ ▒▓▓  ▒▓ ▓▓▓ ░▓█████
+# ▓▓▒  ▓▓▓█████▓░ ▓  ░░ ▓▓░ ░  ▓██████▓▓          ░▓▓▓███▓░░ ▒ ░▓  ░░  ▓█▓▓ ░▓████
+#    ▒▓▓███████▓░░▓ ▒ ▒░▒░ ▓▓░ ▓██████▓▓ ░    ░▓  ░▓▓███▓▓ ▓  ▓  ░ ▓   ▓██▓░ ▒▓███
+# ░▓▓▓█████████▓ ░▓  ▓ ░      ▓▓▓███▓▓▒     ░     ░▓▓▓▓▓▓ ░▓▓▓▓▓▓▓ ▓░  ▓██▓▓  ▓███
+# ▒▓▓██████████▓░░░░░░▓░ ▓▓▓▓   ▒▓▓▓▓     ░▓▓▓▓▓    ▒▒░  ▒░ ▓▓█▓▓▒ ▓▒ ▓▓███▓░ ▒▓██
+#▓  ▒▓█████████▓░  ▓▓  ▓ ▓▓▓▓▓▒  ▓▓▓  ▒▓▓▓▓▓▓▓▓▓▓▒░   ░▓▓▓▓▓ ▓▓█▓▒░▓▓ ▓▓███▓▓  ▓██
+#▓▓ ▓▓█████████▓▒  ▓█▓▒ ▓▓█▓▓  ░ ▓▓ ▒▓▓▓▓▓█▓▒░▒▒▒▓▓▓▓▒ ▓▓██▓▓ ▓▓▓░░▓▓▓▓█████▓  ▓▓█
+#▓▓ ▓██████████▓▓  ▓██▓▓░▓▓▒  ▓▓▓  ▒▓██▓▒▓▓█▓▓▓░▓▓▓▓█▓▓ ▓█▓▓▒ ▒▓▓ ▒▓█▓██████▓▒ ░▓▓
+#▓▒ ▓███████████▓ ░▓██▓▒ ▓   ▓▓▓▓ ░▓██▓▒▒▓███▓▓▓▓▓▓▓▓█▓ ▓▓▓▒  ▓▓▓ ▓▓████████▓▓▒ ▓▓
+#▓▒ ▓███████████▓░ ▓██▓ ▓   ▒▓▓▓░ ▓██▓▓ ▓████████▓▓▓▓▓▓▒░▓█▓▓▒ ▓▓ ▓▓█████████▓▓   
+#▓▒ ▓███████████▓▓ ▓▓▓▓ ░  ▓ ▓  ▒▓▓█▓▓ ▓▓██████████▓▓▓▓▓ ▓█▓▓░ ▒▒ ▓███████████▓░  
+#▓  ▓████████████▓░ ▓▓▓░  ▓▓▓ ░▓▓▓█▓▓ ▒▓█████▓▓████▓▓▓▓▓ ▓▓▒ ░▓▓░░▓███████████▓▒░░
+#▓  ▓▓███████████▓▓ ▒▓▓   ▓▓ ▒▓▓█████▓▓████▓▓▓▓▓████▓█▓▓ ▓░ ▓▓▓▓ ▓▓███████████▓▓▓▒
+# ░ ▒▓████████████▓▒ ▓▓░░ ░ ▒▓█████████████▓▓▓▓███████▓▓ ▓ ▒▓█▓▓ ▓█████████████▓▓▓
+#░▓▒ ▓▓████████████▓  ▓▓▓▒  ▓▓████████████████████████▓░░░░ ▓▓▓ ▒▓█████▓▓███████▓▓
+#▓█▓ ▓▓▓███████████▓▓  ▓▓▓▒▓▓▓▓▓▓█████████████████▓▓█▓▓ ░ ▓▒▓▓ ░▓█████▓▓▓▓██████▓▓
+#██▓▒ ░▒▓██████████▓▓▓ ░▓▓▓▓▓▓▓▓▓▓▓███████████████▓▓▓▓░░▓▒  ░  ▓▓████▓▓ ░▓▓▓▓███▓▒
+#███▓ ░ ░▓▓▓██████▓▒▓▓▓ ░▓███▓▓▓▓▓▓▓██████████████▓▓▓▓ ▓█▓▓▒░▓▓▓███▓▓▓ ▒    ░▓▓█▓░
+#███▓▓ ░  ▒▓▓▓▓▓▓▓▓░   ░▒▓███▓▓▓▓▓▓▓███████▓▓▓██████▓ ▓▓██▓▓▓▓███▓▓▓▒ ▓▓▒▓▓▓  ▓▓▓ 
+#████▓ ▓▓▒  ░▓▓▓▓▒   ▒▓▓▓██████▓█▓▓▓██████▓▓▓▓█████▓▓▒ ▓▓▓▓▓████▓▓  ▒▓▓▓▓▓█▓▓░ ░▓ 
+#█████▓▓█▓▓▓░    ░▒▓▓▓▓██████████▓▓▓██████▓▓▓▓██▓▓▓▓▒░   ░▒▓▓▓▓▓▒    ░▒▓▓▓▓▓▓▓▒   
+#████████▓▓ ▓ ▓▓▓▓▓▓▓▓▓███████████▓▓█████████▓▓▓▓░   ░▒▒▒▒░  ▒░            ▒▓▓▓▓▓░
+#██████▓▓░  ░ ▓████▓░▒▓███████████▓▓█▓██████▓▓▒  ▒▓▓▓▓▓▓▓▓▓▓   ░▓▓▓▓▓▓▓▓▓▓▒   ░▓▓▓
+#▓▓▓▓▓▓▓  ▓  ▓▓████▓░▒▓████████████▓▓▓████▓▓▒  ▓▓▓▓█▓▓▓▓▓▓▒  ▒▒░▒▓▓▓▓▓▓▓▓▓▓▓▓▓░ ░▓
+#  ░░    ▓░ ▓▓█████▓▒░▓██▓█████▓███▓▓▓▓▓▓▓▓░ ▓▓▓█▓▓▓▓▒    ░▓▓▓▓▓░ ░▓▓██▓▓▒▒▓▓▓▓▓  
+#▓▒ ░░▒ ▓▓▓▓▓██████▓▓ ▓█▓▒▓███▓▓██▓▓▓▓▓░ ▒  ▓▓█▓▓▓░ ░░▒▓▓▓▓▓██▓▓▓▓▓▒▓█▓▓▓▓▒▓▓▓▓▓▓▒
+#▓▓ ▓▓ ░▓██████████▓▓ ▓▓▓ ▓██▓▒ ▓▓▒    ░▓  ▓▓▓▓▒  ▓▓▓▓▓▓██████████▓▓▓█▓▓█▓▓▓▓▓▓██▓
+#▓▓ ▓░ ▓▓███████████▓ ▒▓░ ▓▓▓░  ▓▒ ▓▓▓▓▓  ▓▓▓▒ ░▓▓▓███████████████████▓█▓▓░░░ ▒▓▓▓
+#▓▒    ▓████████████▓▓ ▓ ▓ ▓▒ ▓░░ ▓▓██▓▒ ▓▓▓ ░▓▓▓███████████████████▓▓▓▓▓▓▓▓▓▓▓▓░ 
+#   ▓ ▒▓█████████████▓ ░ ▓ ▒ ▓▓▓░▓▓██▓▓ ▓▓░ ▓▓▓▓▓█████████████████▓▓▓▒▒▓█▓▓▓▓▓▓▓▓▓
+#▒▓▓▓ ▓▓█████████████▓▓░░▓▓░▓▓█▓▓▓███▓▓ ▓ ▒▓▓▒░░▓▓▓██▓▓▓█████████▓▓░▒▓▓██████▓▓▓▓█
+#▓▓▓▓ ▓▓█████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▒▓▒ ░░▒░░▓▓▓▓░▓▓▓███████▓▒▓▓▓▓█████▓▓▒▓██
+
+
+#############################################################################
+# ____        __             _ _     ___ _____   ____  _          __  __ 
+#|  _ \  ___ / _| __ _ _   _| | |_  |_ _|___ /  / ___|| |_ _   _ / _|/ _|
+#| | | |/ _ \ |_ / _` | | | | | __|  | |  |_ \  \___ \| __| | | | |_| |_ 
+#| |_| |  __/  _| (_| | |_| | | |_   | | ___) |  ___) | |_| |_| |  _|  _|
+#|____/ \___|_|  \__,_|\__,_|_|\__| |___|____/  |____/ \__|\__,_|_| |_|  
+#                                                                        
+#############################################################################
+
+#set mod key to super/winkey
+set $mod Mod4
+
+#set font
+font pango:nerd-fonts-source-code-pro;size=6;10
+
+# The combination of xss-lock, nm-applet and pactl is a popular choice, so
+# they are included here as an example. Modify as you see fit.
+# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
+# screen before suspend. Use loginctl lock-session to lock your screen.
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# NetworkManager is the most popular way to manage wireless networks on Linux,
+# and nm-applet is a desktop environment-independent system tray GUI for it.
+exec --no-startup-id nm-applet
+
+# Use pactl to adjust volume in PulseAudio.
+#set $refresh_i3status killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% #  && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% # && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle	    # && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle # && $refresh_i3status
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+bindsym $mod+Return exec kitty
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+# Start rofi menu
+bindsym $mod+d exec rofi -show drun 
+
+bindsym $mod+shift+d exec --no-startup-id rofi  -show find -modi find:~/.local/share/rofi/finder.sh
+
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+ccedilla focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+ccedilla move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+#align window titles
+title_align center
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+
+##################################################################################
+#Workspaces and stuff
+#                    _                                                    _
+#__      _____  _ __| | _____ _ __   __ _  ___ ___  ___    __ _ _ __   __| |
+#\ \ /\ / / _ \| '__| |/ / __| '_ \ / _` |/ __/ _ \/ __|  / _` | '_ \ / _` |
+# \ V  V / (_) | |  |   <\__ \ |_) | (_| | (_|  __/\__ \ | (_| | | | | (_| |
+#  \_/\_/ \___/|_|  |_|\_\___/ .__/ \__,_|\___\___||___/  \__,_|_| |_|\__,_|
+#                            |_|                                            
+#     _          __  __ 
+# ___| |_ _   _ / _|/ _|
+#/ __| __| | | | |_| |_ 
+#\__ \ |_| |_| |  _|  _|
+#|___/\__|\__,_|_| |_|  
+#                       
+##################################################################################
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1" 
+set $ws2 "2" 
+set $ws3 "3" 
+set $ws4 "4" 
+set $ws5 "5" 
+set $ws6 "6" 
+set $ws7 "7" 
+set $ws8 "8" 
+set $ws9 "9" 
+set $ws10 "0"
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# automove apps to their respective workspace
+assign [class="code-oss"] $ws3
+assign [class="krita"] $ws2
+assign [class="TelegramDesktop"] $ws4
+assign [class="discord"] $ws4
+assign [class="Element"] $ws4
+assign [class="postybirb"] $ws4
+assign [class="Firefox"] $ws5
+assign [class="Brave-browser"] $ws5
+assign [class="KeePassXC"] $ws5
+assign [class="Steam"] $ws6
+assign [class="VirtualBox Manager"] $ws7
+
+#set default floating windows
+for_window [class="Pavucontrol"] floating enable resize set 900 500
+for_window [class="steam_app_1182480"] floating enable
+for_window [class="xfce4-panel"] floating enable
+for_window [class="MEGAsync"] floating enable resize set 400 564
+for_window [class="KeePassXC"] floating enable resize set 800 600
+
+
+#set default workspace for second monitor
+workspace $ws1 output HDMI-0
+workspace $ws10 output DP-1
+
+########################################################
+#Colors and windows
+#
+#           _                                  _ 
+#  ___ ___ | | ___  _ __ ___    __ _ _ __   __| |
+# / __/ _ \| |/ _ \| '__/ __|  / _` | '_ \ / _` |
+#| (_| (_) | | (_) | |  \__ \ | (_| | | | | (_| |
+# \___\___/|_|\___/|_|  |___/  \__,_|_| |_|\__,_|
+#                                                
+#          _           _                   
+#__      _(_)_ __   __| | _____      _____ 
+#\ \ /\ / / | '_ \ / _` |/ _ \ \ /\ / / __|
+# \ V  V /| | | | | (_| | (_) \ V  V /\__ \
+#  \_/\_/ |_|_| |_|\__,_|\___/ \_/\_/ |___/
+#                                          
+#
+########################################################
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym h resize shrink width 20 px or 10 ppt
+        bindsym j resize grow height 20 px or 10 ppt
+        bindsym k resize shrink height 20 px or 10 ppt
+        bindsym l resize grow width 20 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode  "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+set $bg-color 	         #d12aee	
+#neonpink
+
+set $inactive-bg-color   #070a22a3
+#darkblue / tried making it transparent, looks cool but alpha is always 0
+
+set $text-color          #44ecff	
+#neoncyan
+set $inactive-text-color #44ecff
+
+set $urgent-bg-color     #55eeff	
+#cyan
+
+# window colors
+
+#                       border              background         text                 indicator
+client.focused          $bg-color           $bg-color          $text-color          #44fc94
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color  #44fc94
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color  #44fc94
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #44fc94
+
+#remove borders
+hide_edge_borders none
+for_window [class=".*"] border pixel 0
+
+# Set gaps
+gaps inner 16
+gaps outer 43
+gaps top 64
+gaps bottom 32
+#workspace $ws1 gaps inner 16  
+#workspace $ws1 gaps outer 64
+
+
+#smart_gaps on
+#smart_borders on
+#smart_borders no_gaps
+#border_radius 16
+
+#bar
+exec_always --no-startup-id ~/.config/i3/polybar.sh 
+#exec_always xfce4-panel
+
+exec_aways pulseaudio --start
+
+#Set wallpaper
+exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
+#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
+
+#transparency with picom
+#exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
+#exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
+exec_always picom -o 1 -f -z  --experimental-backends --backend glx 
+
+#notification stuff
+exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"
+
+##################################################################################
+#keybinds and shortcuts
+# _              _     _           _                       _ 
+#| | _____ _   _| |__ (_)_ __   __| |___    __ _ _ __   __| |
+#| |/ / _ \ | | | '_ \| | '_ \ / _` / __|  / _` | '_ \ / _` |
+#|   <  __/ |_| | |_) | | | | | (_| \__ \ | (_| | | | | (_| |
+#|_|\_\___|\__, |_.__/|_|_| |_|\__,_|___/  \__,_|_| |_|\__,_|
+#          |___/                                             
+#     _                _             _       
+# ___| |__   ___  _ __| |_ ___ _   _| |_ ___ 
+#/ __| '_ \ / _ \| '__| __/ __| | | | __/ __|
+#\__ \ | | | (_) | |  | || (__| |_| | |_\__ \
+#|___/_| |_|\___/|_|   \__\___|\__,_|\__|___/
+#                                             of other programs and scripts
+#################################################################################
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+#pavucontrol shortcut
+bindsym $mod+shift+a exec pavucontrol
+
+#kills picom, just in case something goes wrong and i need to kill it
+bindsym $mod+c exec killall picom
+
+
+#runs krita
+bindsym $mod+alt+k exec --no-startup-id krita
+
+# a script i'm currently working on, at the moment the code is trash, it will set the volume of the active window to 0.
+bindsym $mod+shift+b exec --no-startup-id ~/.config/i3/setvolumeofactivewindow.sh
+
+#screenshot
+bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -target image/png
+
+#run xdotool script to create default workspace
+bindsym $mod+x --release exec --no-startup-id ~/.config/i3/xdotool.sh
+
+#lock screen
+bindsym $mod+shift+x exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside-color=$inactive-bg-color --separator-color=$bg-color --keyhl-color=$text-color --bshl-color=$text-color --wrong-color=$urgent-bg-color --verif-color=$urgent-bg-color --time-color=$text-color --date-color=$text-color --layout-color=$text-color --clock --time-str="%H:%M:%S"
+#lock and suspend
+bindsym $mod+shift+s exec i3lock-fancy-rapid 5 1 --ring-color=$bg-color --inside-color=$inactive-bg-color --separator-color=$bg-color --keyhl-color=$text-color --bshl-color=$text-color --wrong-color=$urgent-bg-color --verif-color=$urgent-bg-color --time-color=$text-color --date-color=$text-color --layout-color=$text-color --clock --time-str="%H:%M:%S" && sudo pm-suspend
+
+#monitor switch until i find a way to use the tablet without the area glitching out
+bindsym $mod+shift+n exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 1987x975 --rotate normal --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal && sleep 0.5 && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+1987+975 
+#monitor switch 2 
+bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && sleep 0.5 && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0 
+
+##################################################################################
+#exec on startup
+#                                        _             _               
+#  _____  _____  ___    ___  _ __    ___| |_ __ _ _ __| |_ _   _ _ __  
+# / _ \ \/ / _ \/ __|  / _ \| '_ \  / __| __/ _` | '__| __| | | | '_ \ 
+#|  __/>  <  __/ (__  | (_) | | | | \__ \ || (_| | |  | |_| |_| | |_) |
+# \___/_/\_\___|\___|  \___/|_| |_| |___/\__\__,_|_|   \__|\__,_| .__/ 
+#                                                               |_|    
+##########################################################################
+
+#megasync, cause i'm dumb
+exec --no-startup-id megasync
+
+#set to default to one monitor
+exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0
+
+#run script that auto creates terminal windows and runs cool stuff on workspace 1
+exec --no-startup-id ~/.config/i3/xdotool.sh
+
+#run xfce-polkit
+exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
+
+#autostart a few programs i use frequently
+exec brave
+exec discord
+exec telegram-desktop
+exec keepassxc
