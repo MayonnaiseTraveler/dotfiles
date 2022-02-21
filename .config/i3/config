@@ -100,6 +100,12 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle	    # && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle # && $refresh_i3status
 
+#mpd controls
+bindsym $mod+comma exec --no-startup-id mpc prev && notify-send mpc
+bindsym $mod+period exec --no-startup-id mpc next
+bindsym $mod+semicolon exec --no-startup-id mpc toggle && dunstify "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)"
+bindsym $mod+equal exec --no-startup-id mpc volume +10 && dunstify  "$(mpc volume)"
+bindsym $mod+minus exec --no-startup-id mpc volume -10 && dunstify "$(mpc volume)"
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -110,7 +116,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # Start rofi menu
-bindsym $mod+d exec rofi -show run 
+bindsym $mod+d exec rofi -show drun 
 
 # change focus
 bindsym $mod+j focus left
@@ -233,7 +239,7 @@ assign [class="Steam"] $ws6
 assign [class="VirtualBox Manager"] $ws7
 
 #set default floating windows
-for_window [class="Pavucontrol"] floating enable resize set 900 500
+for_window [class="Pavucontrol"] floating enable move up resize set 900 1000
 for_window [class="steam_app_1182480"] floating enable
 for_window [class="xfce4-panel"] floating enable
 for_window [class="MEGAsync"] floating enable resize set 400 564
@@ -333,7 +339,7 @@ exec_aways pulseaudio --start
 
 #Set wallpaper
 exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
-#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
+#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0backgroundcorrupt3.png
 
 #transparency with picom
 #exec_always picom -f -c --border-radius 0 --experimental-backend --backend glx 

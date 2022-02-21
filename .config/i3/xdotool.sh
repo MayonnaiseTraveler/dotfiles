@@ -26,7 +26,7 @@ xdotool key super+v
 xdotool key super+enter
 
 sleep 0.5
-xdotool type "musikcube"
+xdotool type "ncmpcpp"
 xdotool key enter
 
 sleep 0.25
