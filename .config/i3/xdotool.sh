@@ -88,5 +88,5 @@ xdotool key enter
 xdotool key super+Right
 
 sleep 0.5
-xdotool type "nekofetch"
+xdotool type "neofetch"
 xdotool key enter
