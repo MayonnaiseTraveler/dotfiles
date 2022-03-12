@@ -8,7 +8,7 @@
 #                                                                           #
 #############################################################################
 
-#lightweight minimalist theme
+#detailed full of blur and stuff theme
 
 #░ ░  ▓▓▓█████▓▓▓▓▓▓▓▓████████████████████████▓▓▓█████████████████████████████████
 #▒▓▓▓▓  ▒▓▓███▓▓▓▓▓▓▓▓██████████████████▓▓▓██▓░ ▓▓████████████████████████████████
@@ -81,7 +81,7 @@
 set $mod Mod4
 
 #set font
-font pango:nerd-fonts-source-code-pro.,size=6.,10
+font pango:nerd-fonts-source-code-pro;size=6;10
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -106,6 +106,7 @@ bindsym $mod+period exec --no-startup-id mpc next
 bindsym $mod+semicolon exec --no-startup-id mpc toggle && dunstify "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)"
 bindsym $mod+equal exec --no-startup-id mpc volume +10 && dunstify  "$(mpc volume)"
 bindsym $mod+minus exec --no-startup-id mpc volume -10 && dunstify "$(mpc volume)"
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -117,6 +118,8 @@ bindsym $mod+Shift+q kill
 
 # Start rofi menu
 bindsym $mod+d exec rofi -show drun 
+
+bindsym $mod+shift+d exec --no-startup-id rofi  -show find -modi find:~/.local/share/rofi/finder.sh
 
 # change focus
 bindsym $mod+j focus left
@@ -239,10 +242,12 @@ assign [class="Steam"] $ws6
 assign [class="VirtualBox Manager"] $ws7
 
 #set default floating windows
-for_window [class="Pavucontrol"] floating enable move up resize set 900 1000
+for_window [class="Pavucontrol"] floating enable resize set 900 500
 for_window [class="steam_app_1182480"] floating enable
 for_window [class="xfce4-panel"] floating enable
 for_window [class="MEGAsync"] floating enable resize set 400 564
+for_window [class="KeePassXC"] floating enable resize set 800 600
+
 
 #set default workspace for second monitor
 workspace $ws1 output HDMI-0
@@ -296,8 +301,7 @@ bindsym $mod+r mode "resize"
 set $bg-color 	         #d12aee	
 #neonpink
 
-set $inactive-bg-color   #1b0a36
-#070a22
+set $inactive-bg-color   #070a22a3
 #darkblue / tried making it transparent, looks cool but alpha is always 0
 
 set $text-color          #44ecff	
@@ -316,7 +320,7 @@ client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-col
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #44fc94
 
 #remove borders
-hide_edge_borders smart
+hide_edge_borders none
 for_window [class=".*"] border pixel 0
 
 # Set gaps
@@ -324,27 +328,32 @@ gaps inner 16
 gaps outer 43
 gaps top 64
 gaps bottom 32
+#workspace $ws1 gaps inner 16  
+#workspace $ws1 gaps outer 64
 
 
 #smart_gaps on
-smart_borders on
+#smart_borders on
 #smart_borders no_gaps
 #border_radius 16
 
 #bar
+
 exec_always --no-startup-id ~/.config/i3/polybar3.sh 
+#exec_always --no-startup-id ~/.config/i3/polybar.sh 
 #exec_always xfce4-panel
 
 exec_aways pulseaudio --start
 
 #Set wallpaper
+#exec_always --no-startup-id feh --bg-fill ~/Imagens/BunnyBlood1.png
 exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper6.jpg
-#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0backgroundcorrupt3.png
+#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
 
 #transparency with picom
-#exec_always picom -f -c --border-radius 0 --experimental-backend --backend glx 
-
-exec_always picom --config ~/.config/picom/picom.conf3 -e 1 -f  --glx-no-rebind-pixmap --glx-no-stencil --xrender-sync-fence --experimental-backends --backend glx 
+#exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
+#exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
+exec_always picom -o 1 -f -z  --experimental-backends --backend glx 
 
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"
@@ -379,6 +388,7 @@ bindsym $mod+shift+a exec pavucontrol
 
 #kills picom, just in case something goes wrong and i need to kill it
 bindsym $mod+c exec killall picom
+
 
 #runs krita
 bindsym $mod+alt+k exec --no-startup-id krita
