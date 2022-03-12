@@ -1,15 +1,16 @@
-
-execute_on_song_change = notify-send "Now Playing" "$(mpc --format ' %title% \n%artist% - %album%' current)"
+execute_on_song_change = notify-send "Now Playing" "$(mpc --format ' %title% \n%artist% - %album%' current)" && mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
 [mpd]
 mpd_music_dir = "/media/addy/Media/musik/"
 mpd_host = "localhost"
 mpd_port = "6600"
 mpd_crossfade_time = "2"
 
+
+
 [visualizer]
 visualizer_fifo_path = "/tmp/mpd.fifo"
 visualizer_in_stereo = "yes"
-visualizer_type = "spectrum"
+visualizer_type = "wave"
 visualizer_output_name = "my_fifo"
 visualizer_color = "default"
 
@@ -22,7 +23,10 @@ state_line_color = "magenta"
 state_flags_color= "cyan"
 
 [playlist]
-user-interface="classic"
+
+
+
+user-interface="alternative"
 playlist_display_mode = "classic"
 song_list_format = "{{%a - %t}|{%f}}{$R%l}"
 now_playing_prefix = "$b$5"
@@ -41,8 +45,17 @@ song_library_format = "{{%a - %t}|{%f}}{$R%l} "
 empty_tag_color = "black"
 
 [global]
+
+
 colors_enabled = "yes"
 main_window_color = "cyan"
 centered_cursor = "yes"
 enable_window_title = "yes"
 external_editor = "vim"
+visualizer_look = "  "
+startup_screen = visualizer     
+startup_slave_screen = playlist 
+startup_slave_screen_focus = yes 
+locked_screen_width_part = 30   
+
+

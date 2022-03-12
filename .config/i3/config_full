@@ -100,6 +100,13 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle	    # && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle # && $refresh_i3status
 
+#mpd controls
+bindsym $mod+comma exec --no-startup-id mpc prev && notify-send mpc
+bindsym $mod+period exec --no-startup-id mpc next
+bindsym $mod+semicolon exec --no-startup-id mpc toggle && dunstify "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)"
+bindsym $mod+equal exec --no-startup-id mpc volume +10 && dunstify  "$(mpc volume)"
+bindsym $mod+minus exec --no-startup-id mpc volume -10 && dunstify "$(mpc volume)"
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -331,13 +338,16 @@ gaps bottom 32
 #border_radius 16
 
 #bar
-exec_always --no-startup-id ~/.config/i3/polybar.sh 
+
+exec_always --no-startup-id ~/.config/i3/polybar3.sh 
+#exec_always --no-startup-id ~/.config/i3/polybar.sh 
 #exec_always xfce4-panel
 
 exec_aways pulseaudio --start
 
 #Set wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
+#exec_always --no-startup-id feh --bg-fill ~/Imagens/BunnyBlood1.png
+exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper6.jpg
 #exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
 
 #transparency with picom

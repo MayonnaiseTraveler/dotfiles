@@ -338,7 +338,7 @@ exec_always --no-startup-id ~/.config/i3/polybar3.sh
 exec_aways pulseaudio --start
 
 #Set wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper3.jpg
+exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaper6.jpg
 #exec_always --no-startup-id feh --bg-fill ~/Imagens/page0backgroundcorrupt3.png
 
 #transparency with picom

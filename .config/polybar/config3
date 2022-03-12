@@ -115,8 +115,8 @@ line-color = #f00
 border-size = 0
 border-color = #00000000
 
-padding-left = 2%
-padding-right = 1%
+padding-left = 10px
+padding-right = 15px
 
 module-margin-left = 0
 module-margin-right = 1
@@ -127,10 +127,9 @@ modules-left = pulseaudio date
 
 
 tray-detached = true
-tray-offset-x = -1%
+tray-offset-x = -30px
 tray-maxsize = 16
 tray-position = right
-tray-padding = 0
 tray-transparent = false
 tray-background = ${colors.background}
 wm-restack = i3
