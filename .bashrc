@@ -15,10 +15,17 @@ PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[0
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh
 
+#Python version manager
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
 
+alias ncmpcpp='~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug'
 alias ls='ls --color=auto'
 alias mpv='devour mpv'
 alias zathura='devour zathura '
@@ -39,3 +46,7 @@ alias aulas='figlet Aulas; echo "__________________________"; echo -e "\n > Segu
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
 # END_KITTY_SHELL_INTEGRATION
+export PATH="$PATH:/home/traveler/.local/share/gem/ruby/3.0.0/bin/"
+
+
+_trap_exit() { tmux kill-session -t $$; }
