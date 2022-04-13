@@ -1,6 +1,9 @@
 {
     "Discord+": false,
-    "Discord Cyberpunk Neon Transparent": false,
+    "Discord Cyberpunk Neon Transparent": true,
     "Discord Cyberpunk Neon / Synthwave version": true,
-    "ClearVision": true
+    "ClearVision": false,
+    "Float": true,
+    "Neutron": false,
+    "Frosted Glass": false
 }

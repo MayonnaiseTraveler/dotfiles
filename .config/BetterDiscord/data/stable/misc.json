@@ -1,9 +1,10 @@
 {
     "version": "1.5.2",
-    "emoteVersion": "v1.5.2",
+    "emoteVersion": "v1.5.3",
     "addonlistControls": {
         "theme": {
-            "view": "list"
+            "view": "list",
+            "ascending": false
         }
     },
     "drawerStates": {
@@ -13,7 +14,8 @@
             "developer": true,
             "window": true,
             "appearance": false,
-            "general": true
+            "general": true,
+            "editor": true
         }
     },
     "favoriteEmotes": {

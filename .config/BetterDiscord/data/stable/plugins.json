@@ -1,1 +1,12 @@
-{}
+{
+    "CallTimeCounter": true,
+    "ShowHiddenChannels": false,
+    "BDFDB": true,
+    "ZeresPluginLibrary": true,
+    "CreationDate": true,
+    "ReadAllNotificationsButton": true,
+    "ShowConnections": true,
+    "SplitLargeMessages": true,
+    "PluginRepo": true,
+    "ThemeRepo": true
+}
