@@ -81,8 +81,7 @@
 set $mod Mod4
 
 #set font
-font pango:nerd-fonts-source-code-pro;size=6;10
-
+font pango:SauceCodePro Nerd Font 10
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
@@ -324,10 +323,10 @@ hide_edge_borders none
 for_window [class=".*"] border pixel 0
 
 # Set gaps
-gaps inner 16
-gaps outer 43
-gaps top 64
-gaps bottom 32
+gaps inner 8
+gaps outer 49
+gaps top 40
+gaps bottom 16
 #workspace $ws1 gaps inner 16  
 #workspace $ws1 gaps outer 64
 
@@ -343,7 +342,7 @@ exec_always --no-startup-id ~/.config/i3/polybar3.sh
 #exec_always --no-startup-id ~/.config/i3/polybar.sh 
 #exec_always xfce4-panel
 
-exec_aways pulseaudio --start
+exec_always pulseaudio
 
 #Set wallpaper
 #exec_always --no-startup-id feh --bg-fill ~/Imagens/BunnyBlood1.png
@@ -381,8 +380,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-
+bindsym $mod+Shift+e exec ~/.config/rofi/applets/applets/powermenu.sh
 #pavucontrol shortcut
 bindsym $mod+shift+a exec pavucontrol
 

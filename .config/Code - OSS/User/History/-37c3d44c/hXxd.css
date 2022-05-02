@@ -1,0 +1,152 @@
+/*##################################################### */
+/*
+  __             _       
+ / _| ___  _ __ | |_ ___ 
+| |_ / _ \| '_ \| __/ __|
+|  _| (_) | | | | |_\__ \
+|_|  \___/|_| |_|\__|___/
+*/
+/*fonts */
+/*##################################################### */
+
+
+
+
+/*##################################################### */
+/*
+                 _       _     _           
+__   ____ _ _ __(_) __ _| |__ | | ___  ___ 
+\ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+ \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+  \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+                                           
+*/
+/*variables and colors*/
+/*##################################################### */
+
+
+
+
+/*##################################################### */
+/*
+ ____            _            _              _   _____         _   
+| __ )  ___   __| |_   _     / \   _ __   __| | |_   _|____  _| |_ 
+|  _ \ / _ \ / _` | | | |   / _ \ | '_ \ / _` |   | |/ _ \ \/ / __|
+| |_) | (_) | (_| | |_| |  / ___ \| | | | (_| |   | |  __/>  <| |_ 
+|____/ \___/ \__,_|\__, | /_/   \_\_| |_|\__,_|   |_|\___/_/\_\\__|
+                   |___/                                           
+*/
+/*Body and text elements*/
+/*##################################################### */
+
+body{
+    color:white;
+    /*background-color:black;*/
+    background-image:url("./media/general/background.jpg") no-repeat;
+    background-size:auto;
+    margin:3vw 10vw;
+    text-align:center;
+    align-items:center;
+}
+
+div,main,section{
+margin: 1vw 0;
+}
+
+a{
+color:#f000da;
+
+}
+
+img{
+    margin:2vw;
+}
+
+li{
+    padding:.5vw; 
+    margin:.5vw;
+    list-style:none;
+}
+
+
+.zine-cover{
+    object-fit:cover;
+    max-height:400px;
+    max-width:100%;
+}
+
+.zineimages{
+    display:flex;
+}
+
+
+.card{
+   
+    padding:2vw;
+    border-style:solid;
+    border-width:2px;
+    border-color:white;
+}
+
+.t-left{
+text-align:left;
+}
+
+.t-right{
+text-align:right;
+}
+
+.f-left{
+    float:left;
+}
+
+.navbtn {
+    color:white;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+.navbtn:hover{
+    color:black;
+    padding:auto;
+    background-color:white;
+}
+
+
+.clearfix{
+    overflow:auto;
+}
+
+#logo{
+    margin-left:2vw;
+    font-size:5em;
+    font-weight:5000;
+}
+
+#footer-items{
+    justify-content:center;
+    display:flex;
+}
+
+#navbar-main{
+    margin:0 0 0 auto;
+}
+#navbar-list{
+    
+    text-align:right;
+}
+
+
+
+#header-main{
+    align-items:center;
+    display:flex;
+}
+
+#about-img{
+
+    max-width:30vw;
+    max-height:450px;
+    
+}
+

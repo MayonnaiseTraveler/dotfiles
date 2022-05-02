@@ -1,0 +1,653 @@
+@import url("./css/base.css");
+
+
+/**/
+
+/*##############################################*/
+/*                   FONTS                      */
+/*##############################################*/
+@font-face {
+  font-family: "Good Times";
+  src: url(./fonts/good\ times\ rg.otf);
+}
+
+@font-face {
+  font-family: "Virus Killer";
+  src: url(./fonts/Virus\ Killer.ttf);
+}
+
+@font-face {
+  font-family: "Sauce Code Pro";
+  src: url(./fonts/Sauce\ Code\ Pro\ Nerd\ Font\ Complete.ttf);
+}
+
+@font-face {
+  font-family: "Guttural";
+  src: url(./fonts/Guttural_by_Meztone.ttf);
+}
+
+/*##############################################*/
+/*             BODY AND SCROLLBAR               */
+/*##############################################*/
+/* Scrollbar */
+::-webkit-scrollbar {
+  background-color: var(--main-bg-color);
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--main-bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-fg-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--alt-fg-color);
+}
+
+body {
+  /* Scrollbar for firefox */
+
+  scrollbar-color: var(--main-fg-color) var(--main-bg-color);
+
+  /*fallback color */
+  background-color: #000000;
+  background: url("/media/gifs/stars3.gif") repeat, var(--main-bg-grad);
+  background-size: 20%, cover, contain;
+  background-blend-mode: overlay;
+  font-family: "Good Times";
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  /* padding: 0;
+  margin: 0;*/
+}
+
+footer {
+  grid-area: bottomcenter;
+}
+
+div,
+section {
+  margin: 0.5vw 0 0.5vw;
+}
+.cardnew {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  height: min-content;
+  background-color: var(--main-bg-color);
+  padding: 1.5vw;
+  margin: 0.5vw 0.5vh;
+  border-style: solid;
+  box-shadow: 0 0 0.3vw var(--border-color);
+  border-width: 0.2vw;
+  border-color: var(--border-color);
+  border-radius: 0.75vw;
+}
+
+/*##############################################*/
+/*             Position Tags                    */
+/*##############################################*/
+/* It's probably a better idea to create a tag system based on card card-title card text card image etc.*/
+.clearfix-scroll {
+  padding: 1vw;
+  overflow-y: scroll;
+}
+
+.center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-rev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+}
+
+.t-left {
+  text-align: left;
+}
+.t-right {
+  text-align: right;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+
+/*##############################################*/
+/*                 Text Tags                    */
+/*##############################################*/
+
+h1 {
+  font-size: 2.75vw;
+  letter-spacing: 3px;
+}
+h2 {
+  font-size: 2.5vw;
+  letter-spacing: 2.5px;
+}
+h3 {
+  font-size: 2.25vw;
+
+  letter-spacing: 2.25px;
+}
+h4 {
+  font-size: 1.75vw;
+
+  letter-spacing: 2px;
+}
+h5 {
+  font-size: 1.5vw;
+  letter-spacing: 1.75px;
+}
+h6 {
+  font-size: 1.25vw;
+}
+small {
+  font-size: 0.75vw;
+}
+p {
+  padding: 0 1em 0;
+  font-size: 1vw;
+}
+
+li,
+ul {
+  font-size: 1vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  text-shadow: 0 0 1vw var(--main-fg-color);
+  color:  var(--alt-fg-color);
+  font-weight: lighter;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+strong {
+  font-size: 1vw;
+  color: var(--main-fg-color);
+  font-weight: lighter;
+}
+
+p,
+a,
+ul,
+li,
+small,
+footer {
+  line-height: 1em;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  text-align: center;
+  color: var(--alt-fg-color);
+  font-weight: 200;
+}
+a {
+  text-shadow: 0.1vw 0.1vw var(--main-fg-color);
+}
+a:hover {
+  text-shadow: 0 0 0.25vw var(--alt-fg-color);
+  text-decoration: underline;
+}
+
+s {
+  text-decoration-color: var(--main-fg-color);
+  text-decoration-thickness: 2px;
+}
+
+ul {
+  list-style-type: "- ";
+  text-align: left;
+  padding: 0;
+  margin: 1vw;
+  margin-block-start: 0em;
+  padding-inline-start: 0em;
+  margin-block-end: 0em;
+}
+
+pre {
+  overflow: visible;
+  font-size: 1vw;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+li {
+  font-size: 1em;
+  margin-bottom: 1vw;
+  text-align: justify;
+}
+
+i {
+  font-family: "Sauce Code Pro";
+  letter-spacing: 0.5vw;
+}
+
+hr {
+  color: var(--alt-fg-color);
+  box-shadow: 2px 2px var(--main-fg-color);
+  border-top: 1px solid;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.nomargin {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  margin: 0 1vw 0;
+}
+
+li,
+.footer,
+img,
+.navbtn,
+.gallery-image,
+.sauce {
+  transition: 0.1s ease-in-out;
+}
+.clearfix {
+  overflow: hidden;
+}
+
+.footer {
+  margin-bottom: 0.75em;
+  display: flex;
+  max-height: 0.1em;
+  min-height: 0.1em;
+  font-size: 1vw;
+  align-items: center;
+  justify-content: center;
+}
+
+/*############################################################*/
+/*                   NAVBAR AND STUFF                         */
+/*############################################################*/
+
+#title1 {
+  color: var(--main-title-color);
+}
+
+#title2 {
+  color: var(--alt-title-color);
+}
+
+#barbtn {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbtn {
+  font-size: 1vw;
+  padding: 0.2vw 0.8vw 0.2vw;
+  border-radius: 12px;
+  text-shadow: 0 0 0.25vw var(--alt-fg-color);
+}
+
+.navbtn:hover {
+  text-shadow: none;
+  text-decoration: none;
+  color: var(--main-fg-color);
+  background-color: var(--alt-fg-color);
+  box-shadow: 0 0 0.5vw var(--alt-fg-color);
+}
+
+.nav-on {
+  font-size: 1.25em;
+  text-decoration: underline;
+}
+
+.nav-on:hover {
+  color: #886685;
+  font-size: 1em;
+}
+
+.navbtn::before {
+  content: "<";
+}
+
+.navbtn::after {
+  content: ">";
+}
+
+audio {
+  margin-left: 4em;
+  margin-right: 2em;
+  height: 25px;
+  width: 70%;
+}
+
+.navbar {
+  overflow: visible;
+  margin-top: 2vh;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.logobar {
+  text-decoration: none;
+  font-family: "Guttural";
+
+  margin: 2vw;
+  image-rendering: pixelated;
+  object-fit: contain;
+  transition: ease-in-out;
+  transition-duration: 0.25s;
+  transform: rotate(0deg);
+}
+.logobar > h1 {
+  font-size: 6vw;
+  line-height: 3vw;
+}
+
+@keyframes float {
+  0% {
+    transform: rotate(3deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  100% {
+    transform: rotate(3deg);
+  }
+}
+.logobar:hover {
+  animation-duration: 0.075s;
+  text-decoration: none;
+  animation-name: float;
+  animation-iteration-count: infinite;
+}
+
+small:after {
+  white-space: pre;
+}
+
+small:before {
+  white-space: pre;
+}
+
+.round-image {
+  margin: 1em;
+  margin-left: 2em;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+}
+
+.splash-image {
+  width: auto;
+  height: 100vh;
+  margin: 0em;
+  object-fit: cover;
+}
+.cutegif,
+.pixel {
+  image-rendering: pixelated;
+}
+.image-link {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #6d30df;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+}
+
+.image-link:hover {
+  border-color: var(--main-fg-color);
+  height: 23em;
+  width: 23em;
+}
+
+/*######################################################*/
+/*                Mobile responsive                     */
+/*######################################################*/
+
+@media only screen and (max-width: 1100px) {
+  body {
+    text-align: left;
+  }
+  /* For mobile phones: */
+  h1 {
+    font-size: 7.5vw;
+  }
+  h2 {
+    font-size: 7vw;
+  }
+  h3 {
+    font-size: 6.5vw;
+  }
+  h4 {
+    font-size: 5.5vw;
+  }
+  h5 {
+    font-size: 5vw;
+  }
+  h6 {
+    font-size: 4.5vw;
+  }
+  small {
+    font-size: 3vw;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 800;
+    margin: 3vw;
+    text-shadow: 0 0 3vw var(--main-fg-color);
+  }
+  p,
+  li {
+    line-height: 4vw;
+    margin: 5vw;
+    padding: 1vw;
+    font-size: 3.5vw;
+  }
+  strong {
+    font-size: 3.5vw;
+  }
+
+  .clearfix-scroll {
+    overflow: hidden;
+  }
+
+  .cardnew {
+    /* change color for better readibility on mobile*/
+    background-color: var(--main-bg-color);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 2vw;
+    margin: 1vw;
+    box-shadow: 0 0 2vw var(--border-color);
+    border-width: 0.6vw;
+    border-color: var(--border-color);
+    border-radius: 2vw;
+  }
+  .f-left,
+  .f-right {
+    float: none;
+  }
+  .t-right,
+  .t-left {
+    text-align: center;
+  }
+
+  .cutegif {
+    height: 0px;
+    width: 0px;
+    display: none;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+    height: 100%;
+    width:auto;
+  }
+  ul{
+    margin:3vw;
+  }
+
+  ul > li {
+    text-align: none;
+  }
+  li {
+    text-align: left;
+    margin: 0em;
+    object-fit: cover;
+  }
+  div.center {
+    display: flex;
+    justify-content: center;
+    margin: 0vw;
+  }
+
+  .center {
+    padding: 0vw;
+    margin: 0em;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .card {
+    border-radius: 2vw;
+    padding: 3vw;
+    margin: 1vw;
+    min-width: 95%;
+    width: 95%;
+
+    max-width: 100%;
+  }
+  ul.center {
+    width: auto;
+  }
+
+  #barbtn {
+    font-family: "Sauce Code Pro";
+    padding: 3vw;
+    width: min-content;
+    font-size: 12vw;
+    font-weight: 0;
+    color: var(--main-fg-color);
+    display: block;
+    text-shadow: 0 0 3vw var(--main-fg-color);
+  }
+  
+  #barbtn:hover {
+    cursor: pointer;
+  }
+
+  .barBtnOn{
+    text-shadow: 0 0 3vw var(--alt-fg-color);
+
+  }
+  .barBtnOff{
+
+  }
+
+  .navbar {
+    overflow: auto;
+    list-style-type: none;
+    margin: 1vw;
+    display: none;
+  }
+  .logobar {
+    margin: 0 0 0 auto;
+    text-align: right;
+    padding: 1vw;
+  }
+  .logobar > h1 {
+    font-size: 10vw;
+    line-height: 4.5vw;
+  }
+  .navbtn {
+    font-size: 1.25em;
+    justify-content: left;
+    text-align: left;
+    max-width: 100%;
+    text-shadow: 0 0 1vw var(--alt-fg-color);
+  }
+  .navbtn:hover {
+    box-shadow: 0 0 1.5vw var(--alt-fg-color);
+  }
+
+  .splash-image {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: contain;
+    max-width: 1920px;
+  }
+  .footer {
+    max-height: 1em;
+    min-height: 3vw;
+  }
+}

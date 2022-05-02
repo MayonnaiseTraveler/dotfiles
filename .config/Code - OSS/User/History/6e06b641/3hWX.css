@@ -1,0 +1,406 @@
+@import url(carrousel.css);
+/*############################################################ */
+/*                       GRIDS                                 */
+/*############################################################ */
+
+
+.gridmain {
+  display: grid;
+  grid-template-columns: auto 22vw 48vw auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    ". navbar       navbar       .  "
+    ". title        title        .  "
+    ". left         right        .  "
+    ". btns         btns         .  "
+    ". bottomcenter bottomcenter .  ";
+}
+
+/*##############################################*/
+/*              Social Media Icons              */
+/*##############################################*/
+
+
+
+
+
+#niii {
+  z-index: 1;
+  position: absolute;
+  top: -5vw;
+  right: -1vw;
+  transition: 0.3s ease-in-out;
+  filter: hue-rotate(10deg);
+
+  animation-duration: 5s;
+  text-decoration: none;
+  animation-name: niii;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes niii {
+  0%{
+    transform: translatey(-.4vw);
+  }
+  50%{
+
+    transform: translatey(.4vw);
+  }
+  100%{
+    transform: translateY(-.4vw);
+  }
+}
+
+
+#niii:hover {
+  top: -1vw;
+}
+
+#niii {
+  object-fit: contain;
+  max-width: 15vw;
+}
+
+.btncontainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+}
+
+.btn88x31{
+  margin:0 .2vw;
+  min-height: 2vw;
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+.about-txt {
+  text-align: center;
+  margin:auto;
+  max-width: 50%;
+  min-height: auto;
+}
+.about-item{
+  display:flex;
+  min-width: 100%;
+  scroll-snap-align: center;
+}
+.carrousel{
+  position: relative;
+
+}
+#carrousel-btn-left,#carrousel-btn-right{
+  font-family: "Sauce Code Pro";
+  color: var(--alt-fg-color);
+  background-color: var(--main-fg-color);
+  border-color: transparent;
+  border-style: solid;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  padding:.001vw;
+  margin:0;
+  box-sizing: border-box;
+  min-height:40%;
+  top:30%;
+}
+
+#carrousel-btn-left:hover,#carrousel-btn-right:hover{
+  cursor:pointer;
+  color: var(--main-fg-color);
+  background-color: var(--alt-fg-color);
+  box-shadow: 0 0 1vw var(--main-fg-color);
+  
+}
+#carrousel-btn-left{
+  border-radius: 0 2vw 2vw 0;
+  left:0;
+}
+#carrousel-btn-right{
+  border-radius: 2vw 0 0 2vw;
+  right:0;
+}
+
+
+#about-div{
+  max-height:20vw;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+}
+
+
+.about-img {
+  float:left;
+  margin: auto;
+  align-self: center;
+  /*min-height:70%;
+  min-width:30%;*/
+  max-width:40%;
+  max-height: 100%;
+  min-height:50%;
+  object-fit: cover;
+}
+
+
+.sauce {
+  width: 100%;
+  list-style: none;
+  text-shadow: none;
+  image-rendering: auto;
+  font-size: 1.75vw;
+  margin: .5vw;
+  padding: 1vw;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-radius: 25%;
+  background-color: var(--sauce-bg-color);
+  font-family: "Sauce Code Pro";
+}
+
+.sauce > li {
+  margin: 0;
+}
+
+.icon {
+  filter: grayscale(100);
+  image-rendering: auto;
+}
+
+.icon.kofi {
+  margin-top: 0.3vw;
+  margin-left: 1.3vw;
+  color: var(--alt-fg-color);
+  width: 1.75em;
+  height: 1.75em;
+}
+.icon.fa {
+  margin-left: 1vw;
+  margin-top: 0.3vw;
+  color: var(--alt-fg-color);
+  width: 1.75em;
+  height: 1.75em;
+}
+.icon.ng {
+  margin-left: 1vw;
+  margin-top: 0.2vw;
+  color: var(--alt-fg-color);
+  width: 2.5em;
+  height: 2.5em;
+}
+.sauce:hover {
+  text-decoration: none;
+  background-color: var(--main-fg-color);
+  box-shadow: 0 0 0.5vw var(--main-fg-color);
+}
+.funnygif {
+  width: 47.6%;
+  object-fit: contain;
+}
+
+.niii {
+  width: 38%;
+  object-fit: contain;
+}
+
+.welcome {
+  max-height: 3vw;
+  position:absolute;
+  object-fit: contain;
+}
+
+
+.fire {
+  filter:hue-rotate(46deg);
+  width: 75%;
+  height:1vw;
+  margin: auto 0 auto auto;
+}
+
+#chat{
+  min-height:18.2vw;
+}
+
+.update-box {
+  padding: 1vw;
+  max-height:20vw;
+  overflow-y: scroll;
+}
+.update-text {
+  text-align: left;
+  font-size: 0.6vw;
+}
+h5.update-text {
+  color: var(--alt-fg-color);
+  text-shadow: 0 0 .5vw var(--main-fg-color);
+  font-weight: 2000;
+}
+
+.blog-index {
+  list-style-image: url("/media/gifs/bluebunny.gif");
+  margin: 0 .7vw;
+}
+
+.blog-index > li {
+  margin-left: 1vw;
+  font-size: 0.8vw;
+}
+
+/*######################################################*/
+/*                Mobile responsive                     */
+/*######################################################*/
+
+@media only screen and (max-width: 1100px) {
+  .gridmain {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "          navbar               "
+      "          title                "
+      "          right                "
+      "          left                 "
+      "          bottomcenter         ";
+  }
+
+  #niii {
+    display: none;
+  }
+  #find-me{
+    display:block;
+  }
+  .sauce:hover {
+    box-shadow: 0 0 1.25vw var(--main-fg-color);
+  }
+
+  .btncontainer{
+    display:block;
+  }
+
+  .blog-index > li {
+    list-style-image: url("/media/gifs/bluebunny.gif");
+    font-size: 1vw;
+    text-align: center;
+  }
+  .btn88x31{
+    display: none;
+  }
+  .welcome {
+    margin:1vw;
+    min-width: 100%;
+    max-height: 100%;
+  }
+  .about-txt{
+    max-width: 100%;
+    max-height: 100%;
+    margin:3vw;
+    box-sizing: border-box;
+  }
+
+  .about-img {
+    margin: auto;
+    max-width: 80%;
+    width:max-content;
+    max-height: 40vw;
+    min-height:auto;
+    object-fit: contain;
+  }
+  #about-div{
+    max-height:max-content;
+    overflow-y:visible;
+  }
+  .about-item{
+    display:block;
+    text-align: center;
+  }
+  .update-box {
+   min-height: auto;
+
+  }
+  .update-text {
+    margin: 0.5vw;
+    text-align: left;
+    font-size: 2.5vw;
+  }
+
+  .fire {
+    margin: 1h 0 1vh;
+    width: 100%;
+  }
+
+  a li {
+    font-size: 6vw;
+  }
+  .link.sauce {
+    max-width: 3vw;
+    min-width: 3vw;
+    list-style: none;
+    margin: 1vw;
+    padding: 4vw;
+    width: 3vw;
+    height: 3vw;
+  }
+  .icon {
+    margin: 0em;
+    object-fit: contain;
+  }
+  .icon.kofi {
+    margin-left: 0.4vw;
+    margin-top: 0.3vw;
+    color: var(--alt-fg-color);
+    width: 1.6em;
+    height: 1.6em;
+  }
+  .icon.fa {
+    margin-left: 0.3vw;
+    margin-top: 0.3vw;
+    color: var(--alt-fg-color);
+    width: 1.6em;
+    height: 1.6em;
+  }
+  .icon.ng {
+    image-rendering: pixelated;
+    margin-left: 0vw;
+    margin-top: 0vw;
+    color: var(--alt-fg-color);
+    width: 2.5em;
+    height: 2.5em;
+  }
+  .art{
+    max-height: auto;
+  }
+  .imageswitch {
+    object-position: 50% 30%;
+    border-radius: 1vw;
+    min-width: 80vw;
+    object-fit: cover;
+    min-height:80vw;
+  }
+  .imagecontainer{
+    margin:1vw;
+    object-fit: cover;
+    min-height: 80vw;
+    box-shadow: 0 0 2vw var(--main-fg-color);
+    border-width: .8vw;
+    border-radius: 1.8vw;
+  }
+
+  .imagecontainer:hover{
+
+    box-shadow: 0 0 3vw var(--main-fg-color);
+  }
+  #chat{
+    min-height:80vw;
+  }
+  .blog-index > li {
+    list-style: none;
+    list-style-image: none;
+    text-align: center;
+    font-size: 3vw;
+  }
+}

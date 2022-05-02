@@ -29,7 +29,7 @@
     endif
 
     " Required:
-    call plug#begin(expand('~/./plugged'))
+    call plug#begin(expand('~/plugged'))
 
     "*****************************************************************************
     "" Plug install packages

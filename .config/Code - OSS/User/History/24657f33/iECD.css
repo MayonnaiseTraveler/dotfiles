@@ -1,0 +1,15 @@
+:root {
+  --main-bg-color: rgb(0, 0, 0);
+  --main-fg-color: #fff;
+  --alt-fg-color: #ffffff;
+
+  --main-title-color: var(--alt-fg-color);
+  --alt-title-color: var(--main-fg-color);
+
+  --border-color: var(--main-fg-color);
+  --main-bg-grad: linear-gradient(
+     to bottom,
+    rgba(225, 11, 171, 0.624),
+    rgba(0, 0, 0, 0)
+  );
+}

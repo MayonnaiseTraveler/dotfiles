@@ -1,0 +1,90 @@
+# This is my website git repo
+## Aesthethicc
+- [ ] separate css files even more
+- [ ] Join the yesterweb webring
+- [ ] create latest projects widget in index
+- [ ] Add cool 88x31 buttons and make them move around!
+- [ ] add changing nicknames to home page bout me section
+- [ ] upgrade entrance page!
+- [ ] have fun with js and create my own vector library following that cool tutorial about verlet integration 
+- [ ] add buttons to carrousel later;
+- [ ] Music player with youtube embeded links and js that changes the iframe src tag when a button is clicked, i could even make a playlist out of this!!!
+- [ ] add listen to some music to cheer yourself up page!
+- [ ] add some cool css animations
+- [ ] add last updated and visitors count
+
+## Finish other pages
+- [ ] upgrade blog page so it shows various topics on the main page
+- [ ] upgrade projects page
+- [ ] add game projects page (finish php switch first)
+- [ ] add comic project page
+
+## Performance
+- [ ] make main page lighter 
+- [ ] Add javascript lazy loading!
+
+
+## Switch To PHP SERVER
+- [ ] reorganize Project to use the MVC framework!
+- [ ] setup mysql with php and crud 
+- [ ] create admin page
+- [ ] buy domain name
+- [ ] setup linux server with dns and nginx
+- [ ] Setup Pagination on Blog
+- [ ] setup server rsync and security with certbot
+- [ ] upload website to server
+
+## Useful scripts
+- [ ] Create makefile or bashscript to update website!
+- [ ] Update image script to convert png to jpegs cause C O M P R E S S I O N !
+- [ ] Update image script to convert images recursively!
+
+
+
+## Blog Ideas
+- [ ] blog post about the unknown parts of internet
+- [ ] add Fursona generator!
+- [ ] new art gallery pages for each year, add old art!
+
+
+## Done
+#
+
+- [x] create carrousel !
+- [x] fix webpage on mobile!
+- [x] add Chatbox
+- [x] Add Entrance page that warns about the website content!
+- [x] add cbox
+- [x] Redesign website to be black/purple/white and change the name to Lagomorph hemorrhage
+- [x] add Header Images to Projects and Art
+- [x] add latest blogs to main page
+- [x] Find ou why the navbtn is glitching the fuck out and fix it??
+- [x] reorganize code
+- [x] Finish blog ASAP
+- [x] Make the navbar look Smaller and really thin on mobile!
+- [x] update about me text!
+- [x] review LB script code and understand how it works
+- [x] update about me text!
+- [x] add blog page
+- [x] add projects page
+- [x] Asimetric grid on about page! FUCK SIMETRY!!!!!
+- [x] commission page
+- [x] divide the big css file in a master file with common stuff and other individual files used for each page!
+- [x] Fix problem where navbar and social buttons make the card bigger than the grid!
+- [x] refactor codebase
+- [x] redesign website using grids and try to fit more stuff on the width
+- [x] add 404 page
+- [x] create bash script to automatically compact a list of images, because they are too heavy!
+- [x] add favicon
+- [x] add update box
+- [x] create js script to load a small version of the image and then the full version later!
+- [x] fix splash page for mobile
+- [x] make website device responsive!
+- [x] add website card for when the link is shared around th web.
+- [x] update about page with a proper biography
+- [x] see if i find a script that translates php to html
+- [x] add art page
+- [x] upload to github
+- [x] add nerd font icons
+- [x] fix navbar
+- [x] create image switching script

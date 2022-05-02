@@ -1,0 +1,382 @@
+[2022-05-01 20:35:04.294] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:35:04.294] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 20:35:06.470] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 20:35:06.470] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 20:35:06.471] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:35:06.471] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 20:35:07.032] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 20:35:07.032] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 20:35:07.032] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:35:07.033] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 20:35:11.661] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 20:35:11.662] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 20:35:11.662] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:35:11.662] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 20:35:17.608] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 20:35:17.608] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 20:35:17.609] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:35:17.609] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 20:35:18.336] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 20:35:18.336] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 20:35:18.336] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:35:18.336] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 20:35:47.100] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 20:35:47.100] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 20:35:47.101] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:35:47.101] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 20:36:02.812] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 20:36:02.812] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 20:36:02.812] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 20:36:02.812] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 21:47:06.094] [renderer1] [info] Webgl lost context, disposing of webgl renderer
+[2022-05-01 21:50:03.908] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 21:50:03.920] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 21:50:03.921] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 21:50:03.921] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 21:50:04.220] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 25)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/css/fi.json
+[2022-05-01 21:50:04.221] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 49)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/html/fi.json
+[2022-05-01 21:50:04.221] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 76)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/fi.json
+[2022-05-01 21:50:04.221] [renderer1] [error] Error: Não é possível ler o arquivo '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json' (Error: Não é possível resolver o arquivo inexistente '/home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:33842)
+    at async p.doReadFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:610:32798)
+    at async C.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1543:6639)
+    at async Promise.all (index 78)
+    at async y.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:4827)
+    at async i.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1242:43784)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15557
+    at async m (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:690:15938)
+    at async Promise.all (index 0) file:///home/traveler/.vscode-oss/extensions/idleberg.icon-fonts-2.5.3/snippets/jsx/geomicon.json
+[2022-05-01 22:04:12.235] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory, join.closeStorage

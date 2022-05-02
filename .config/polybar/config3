@@ -19,12 +19,12 @@
 [colors]
 ;background = ${xrdb:color0:#222}
 background = #DD1b0a36
-background-alt = #11111100
+background-alt = #DD1b0a36
 ;foreground = ${xrdb:color7:#222}
 foreground = #44ecff
 foreground-alt = #111111
-primary = #ffb52a
-secondary = #e60053
+primary = #d12aee
+secondary = #ff0066
 alert = #bd2c40
 
 
@@ -35,7 +35,7 @@ fixed-center = false
 offset-x= 3%-10px
 width = 25%
 height = 32
-offset-y = 2%
+offset-y = 8
 radius = 0
 
 background = ${colors.background}
@@ -47,16 +47,17 @@ line-color = #f00
 border-size = 0
 border-color = ${colors.background}
 
-padding-left = 2%
-padding-right = 2%
+padding-left = 2
+padding-right = 2
 
-module-margin-left = 1
-module-margin-right = 1
+module-margin-left = 2px
+module-margin-right = 2px
 
 font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=9;1
+font-1 = SauceCodePro Nerd Font:style=Regular:pixelsize=8;1
 
-
-modules-center = i3
+modules-left = i3
+modules-right = mpd
 
 wm-restack = i3
 
@@ -67,7 +68,7 @@ fixed-center = false
 width = 22%
 height = 32
 offset-x = 39%
-offset-y = 2%
+offset-y = 8
 radius = 0
 
 background = ${colors.background}
@@ -88,10 +89,10 @@ module-margin-left = 2
 module-margin-right = 2
 
 
-font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=12;3
-font-1 = SauceCodePro Nerd Font:style=Regular:pixelsize=7.5;1
+font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=9;3
+font-1 = SauceCodePro Nerd Font:style=Regular:pixelsize=8;1
 
-modules-center = mpd
+modules-center = xwindow
 ;xwindow
 
 wm-restack = i3
@@ -103,7 +104,7 @@ fixed-center = true
 width = 25%
 height = 32
 offset-x = 71.95%
-offset-y = 2%
+offset-y = 8
 radius = 0
 
 background = ${colors.background}
@@ -123,7 +124,7 @@ module-margin-right = 1
 
 
 font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=9;1
-modules-left = pulseaudio date 
+modules-left = pulseaudio date power
 
 
 tray-detached = true
@@ -131,6 +132,7 @@ tray-offset-x = -30px
 tray-maxsize = 16
 tray-position = right
 tray-transparent = false
+tray-foreground = ${colors.foreground}
 tray-background = ${colors.background}
 wm-restack = i3
 
@@ -142,7 +144,7 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 
 [module/xwindow]
-format = » <label> «
+format =  <label> 
 type = internal/xwindow
 label = %title% 
 label-empty =  Empty 
@@ -191,7 +193,7 @@ interval = 2
 ;   <icon-next>
 ;   <icon-seekb>
 ;   <icon-seekf>
-format-online = %{T2}|%{T-}<bar-progress>%{T2}|%{T-}<label-time> <label-song> 
+format-online = <label-song>%{T2}├%{T-}<bar-progress>%{T2}┤%{T-}<label-time> 
 ;format-online = %{T1}<icon-prev> <toggle> <icon-next>%{T-} %{T2}|%{T-}<bar-progress>%{T2}|%{T-}<label-time> <label-song> 
 format-playing = ${self.format-online}
 format-paused = ${self.format-online}
@@ -209,7 +211,7 @@ format-offline = <label-offline>
 ;   %title%
 ; Default: %artist% - %title%
 ;label-song = 𝄞 %artist% - %title%
-label-song=%{T2} %title:0:26:...%%{T-}
+label-song=%{T2} %title:0:20:...%%{T-}
 ; Available tokens:
 ;   %elapsed%
 ;   %total%
@@ -239,7 +241,7 @@ toggle-on-foreground = #ff
 toggle-off-foreground = #55
 
 ; Only applies if <bar-progress> is used
-bar-progress-width = 20
+bar-progress-width = 15
 bar-progress-indicator = %{T2}%{T-}
 bar-progress-fill = %{T2}─%{T-}
 bar-progress-empty = %{T2}─%{T-}
@@ -259,20 +261,20 @@ label-unmounted-foreground = ${colors.foreground-alt}
 [module/i3]
 type = internal/i3
 
-ws-icon-0 = 0;0 
-ws-icon-1 = 1;1 
-ws-icon-2 = 2;2  
-ws-icon-3 = 3;3  
-ws-icon-4 = 4;4  
-ws-icon-5 = 5;5  
-ws-icon-6 = 6;6 
-ws-icon-7 = 7;7  
-ws-icon-8 = 8;8    
-ws-icon-9 = 9;9  
+ws-icon-0 = 0;
+ws-icon-1 = 1;
+ws-icon-2 = 2; 
+ws-icon-3 = 3; 
+ws-icon-4 = 4; 
+ws-icon-5 = 5; 
+ws-icon-6 = 6;
+ws-icon-7 = 7;
+ws-icon-8 = 8;  
+ws-icon-9 = 9;
 
 ws-icon-default = 
 
-format = |<label-state>|
+format = <label-state>
 
 index-sort = false
 wrapping-scroll = false
@@ -281,17 +283,17 @@ wrapping-scroll = false
 ; Only show workspaces on the same output as the bar
 pin-workspaces = false
 
-label-mode-padding = 0
+label-mode-padding = 5
 label-mode-foreground = ${color.foreground}
-label-mode-background = ${color.background}
+label-mode-background = ${color.background-alt}
 
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
-label-focused-foreground = #F000DA
+label-focused-foreground = ${colors.primary}
 label-focused-background = ${colors.background};#a31e0e3c
-label-focused-padding = 2
+label-focused-padding = 1
 
-label-unfocused-background= ${colors.background}
+label-unfocused-background= ${colors.background-alt}
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %icon%
@@ -305,11 +307,12 @@ label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %icon%
-label-urgent-underline = ${colors.foreground}
-label-urgent-padding = 2
+label-urgent-foreground = ${colors.secondary}
+label-urgent-underline = ${colors.background}
+label-urgent-padding = 1
 
 ; Separator in between workspaces
-label-separator = |
+label-separator = ""
 
 [module/memory]
 type = internal/memory
@@ -352,7 +355,7 @@ label-foreground = ${colors.foreground}
 # You can copy-paste your options for each possible action, which is more
 # trouble-free but repetitive, or apply only the relevant ones (for example
 # --sink-blacklist is only needed for next-sink).
-exec = pulseaudio-control --format '"| "$VOL_ICON ${VOL_LEVEL}%' --icons-volume " , " --icon-muted " " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" --sink-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:  Headphones" listen
+exec = pulseaudio-control --format '$VOL_ICON ${VOL_LEVEL}%' --icons-volume " , " --icon-muted " " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" --sink-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:  Headphones" listen
 click-right = exec pavucontrol &
 click-left = pulseaudio-control togmute
 click-middle = pulseaudio-control --sink-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-sink
@@ -376,12 +379,21 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
+[module/power]
+
+type = custom/script
+exec = echo "⏻"
+click-left = ~/.config/rofi/applets/applets/powermenu.sh  
+format-padding = 1
+
+[module/]
+
 [module/date]
-label = | %date% | %time% |
+label =  %date%  %time%
 type = internal/date
 interval = 5
 
-date = %d/%m/%Y%
+date = %d/%m/%y
 
 ; Optional time format
 time = %H:%M

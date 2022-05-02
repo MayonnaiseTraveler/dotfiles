@@ -1,0 +1,56 @@
+[2022-04-22 23:15:29.365] [exthost] [info] Extension host with pid 1564030 started
+[2022-04-22 23:15:29.365] [exthost] [info] Skipping acquiring lock for /home/traveler/.config/Code - OSS/User/workspaceStorage/8c85b52fd23718bfcd9bb420715a62cc.
+[2022-04-22 23:15:29.453] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-22 23:15:29.462] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-22 23:15:29.496] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-22 23:15:29.502] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-22 23:15:29.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-22 23:15:29.527] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-04-22 23:15:29.579] [exthost] [info] ExtensionService#_doActivateExtension RobbOwen.synthwave-vscode, startup: true, activationEvent: '*'
+[2022-04-22 23:15:29.598] [exthost] [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+[2022-04-22 23:15:29.656] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-04-22 23:15:29.697] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-04-22 23:15:30.551] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-22 23:15:30.625] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-22 23:15:30.689] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-22 23:15:30.698] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-22 23:15:30.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-22 23:15:30.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-04-22 23:15:39.428] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 23:15:39.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 23:15:39.440] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 23:15:39.501] [exthost] [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 23:16:27.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-04-22 23:17:34.885] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-04-22 23:23:34.366] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2022-04-22 23:23:34.377] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client, startup: false, activationEvent: 'onLanguage:php'
+[2022-04-22 23:25:32.381] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-04-22 23:34:40.633] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-22 23:34:40.642] [exthost] [error] An error occurred when deactivating the subscriptions for extension 'bmewburn.vscode-intelephense-client':
+[2022-04-22 23:34:40.643] [exthost] [error] TypeError: Cannot read private member from an object whose class did not declare it
+    at Le (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:7020)
+    at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:76:87254)
+    at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:12329)
+    at u._deactivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:11919)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:10231
+    at Array.map (<anonymous>)
+    at u.deactivateAll (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:10218)
+    at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:880)
+    at d (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:36250)
+    at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:33946)
+    at Socket.emit (node:events:402:35)
+    at Pipe.<anonymous> (node:net:687:12)
+[2022-04-22 23:34:40.951] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/traveler/.vscode-oss/extensions/vscodevim.vim-1.22.2/src/register/register.ts:350:30)
+    at Object.e.deactivate (/home/traveler/.vscode-oss/extensions/vscodevim.vim-1.22.2/extension.ts:65:18)
+    at u._deactivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:11690)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:10231
+    at Array.map (<anonymous>)
+    at u.deactivateAll (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:10218)
+    at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:880)
+    at d (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:36250)
+    at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:33946)
+    at Socket.emit (node:events:402:35)
+    at Pipe.<anonymous> (node:net:687:12)
+[2022-04-22 23:34:40.959] [exthost] [info] Eager extensions activated
+[2022-04-22 23:34:40.966] [exthost] [info] Extension host with pid 1564030 exiting with code 0

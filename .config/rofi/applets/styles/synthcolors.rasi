@@ -1,0 +1,8 @@
+* {
+  accent:           #83f4e3;
+  background:       rgba( 15, 0 , 60 , 100%);
+  background-light: rgba( 15, 0 , 60 , 50%);
+  foreground:       #f000DA;
+  on:               rgba(100,34,230,100%);
+  off:              rgba( 100, 34 , 230 , 100%);
+}
