@@ -290,7 +290,7 @@ exec_always pulseaudio
 
 #Set wallpaper
 #exec_always --no-startup-id feh --bg-fill ~/Imagens/BunnyBlood1.png
-exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaperNiii2.jpg
+exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpaperNiii3.png
 #exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
 
 #transparency with picom

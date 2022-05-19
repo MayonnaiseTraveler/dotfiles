@@ -7,5 +7,7 @@
     "Neutron": false,
     "Frosted Glass": false,
     "BasicBackground": false,
-    "dracula": true
+    "dracula": false,
+    "Cyberpunk": false,
+    "        Black Hole": true
 }
