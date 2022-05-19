@@ -1,8 +1,0 @@
-[2022-04-26 08:54:43.274] [sharedprocess] [info] Starting worker process with pid 3509805 (type: fileWatcher, window: 1).
-[2022-04-26 08:54:47.249] [sharedprocess] [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
-[2022-04-26 08:54:49.044] [sharedprocess] [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
-[2022-04-26 08:54:55.130] [sharedprocess] [info] Downloaded extension: llvm-vs-code-extensions.vscode-clangd /home/traveler/.config/Code - OSS/CachedExtensionVSIXs/llvm-vs-code-extensions.vscode-clangd-0.1.16
-[2022-04-26 08:54:55.180] [sharedprocess] [info] Extracted extension to /home/traveler/.vscode-oss/extensions/.967001dc-b66a-4747-a573-655253993200: llvm-vs-code-extensions.vscode-clangd
-[2022-04-26 08:54:55.184] [sharedprocess] [info] Renamed to /home/traveler/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16
-[2022-04-26 08:54:55.186] [sharedprocess] [info] Extracting completed. llvm-vs-code-extensions.vscode-clangd
-[2022-04-26 08:54:55.189] [sharedprocess] [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd

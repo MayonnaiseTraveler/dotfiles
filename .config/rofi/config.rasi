@@ -1,6 +1,6 @@
 configuration {
 	show-icons: true;
-	icon-theme: "oomox-Cyberpunk-Neon";
+	icon-theme: "oomox-RedSynth";
 }
 
-@theme "~/.config/rofi/applets/styles/synthdark.rasi"
+@theme "/home/traveler/.config/rofi/applets/styles/redSynth.rasi"

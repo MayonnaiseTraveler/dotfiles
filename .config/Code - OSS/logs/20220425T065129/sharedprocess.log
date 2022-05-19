@@ -1,6 +1,0 @@
-[2022-04-25 06:51:33.058] [sharedprocess] [info] Starting worker process with pid 1294531 (type: fileWatcher, window: 1).
-[2022-04-25 07:27:51.047] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 1294531 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
-[2022-04-25 07:27:51.056] [sharedprocess] [info] Starting worker process with pid 1474022 (type: fileWatcher, window: 1).
-[2022-04-25 07:34:20.830] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 1474022 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
-[2022-04-25 07:34:20.836] [sharedprocess] [info] Starting worker process with pid 1504681 (type: fileWatcher, window: 1).
-[2022-04-25 15:55:26.604] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

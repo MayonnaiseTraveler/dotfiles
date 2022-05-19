@@ -25,7 +25,7 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
 
-alias ncmpcpp='~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug'
+alias ncmpcppi='~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug'
 alias ls='ls --color=auto'
 alias mpv='devour mpv'
 alias zathura='devour zathura '
