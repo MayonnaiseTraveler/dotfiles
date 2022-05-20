@@ -5,5 +5,10 @@
     "ClearVision": false,
     "Float": true,
     "Neutron": false,
-    "Frosted Glass": false
+    "Frosted Glass": false,
+    "BasicBackground": false,
+    "        Black Hole": false,
+    "Cyberpunk": false,
+    "dracula": false,
+    "Omni": false
 }
