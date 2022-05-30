@@ -16,5 +16,6 @@
     "window.zoomLevel": -1,
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "vsicons.dontShowNewVersionMessage": true
 }

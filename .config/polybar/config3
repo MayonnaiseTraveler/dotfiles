@@ -23,10 +23,9 @@ background-alt = #180d25
 ;foreground = ${xrdb:color7:#222}
 foreground = #f9188f
 foreground-alt = #111111
-primary = #43ffb9
+primary = #3e2a47
 secondary = #33173F
 alert = #bd2c40
-
 
 [bar/left]
 override-redirect = true
@@ -195,7 +194,7 @@ interval = 2
 ;   <icon-next>
 ;   <icon-seekb>
 ;   <icon-seekf>
-format-online = <label-song>%{T2}├%{T-}<bar-progress>%{T2}┤%{T-}<label-time> 
+format-online =  %{T2}├%{T-}<bar-progress>%{T2}┤%{T-}<label-time> 
 ;format-online = %{T1}<icon-prev> <toggle> <icon-next>%{T-} %{T2}|%{T-}<bar-progress>%{T2}|%{T-}<label-time> <label-song> 
 format-playing = ${self.format-online}
 format-paused = ${self.format-online}
@@ -243,7 +242,7 @@ toggle-on-foreground = #ff
 toggle-off-foreground = #55
 
 ; Only applies if <bar-progress> is used
-bar-progress-width = 15
+bar-progress-width = 25
 bar-progress-indicator = %{T2}%{T-}
 bar-progress-fill = %{T2}─%{T-}
 bar-progress-empty = %{T2}─%{T-}
@@ -286,15 +285,16 @@ wrapping-scroll = false
 pin-workspaces = false
 
 label-mode-padding = 5
-label-mode-foreground = ${colors.secondary}
+label-mode-foreground = ${colors.sedondary}
 label-mode-background = ${colors.background-alt}
 
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
-label-focused-foreground = ${colors.primary}
+label-focused-foreground = ${colors.foreground}
 label-focused-background = ${colors.background};#a31e0e3c
 label-focused-padding = 1
 
+label-unfocused-foreground= ${colors.primary}
 label-unfocused-background= ${colors.background-alt}
 
 ; unfocused = Inactive workspace on any monitor
