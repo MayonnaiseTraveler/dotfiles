@@ -35,3 +35,4 @@ If you want to install it you can just clone the repository and use your aur hel
 - [ ] add eww config
 - [ ] remove unecessary dependencies
 - [ ] update readme further
+- [ ] update notification theme
