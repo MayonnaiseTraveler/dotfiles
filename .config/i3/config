@@ -180,6 +180,9 @@ assign [class="Element"] $ws4
 assign [class="postybirb"] $ws4
 assign [class="Firefox"] $ws5
 assign [class="Brave-browser"] $ws5
+assign [class="librewolf"] $ws5
+assign [class="buttercup"] $ws5
+assign [class="Buttercup"] $ws5
 assign [class="KeePassXC"] $ws5
 assign [class="Steam"] $ws6
 assign [class="VirtualBox Manager"] $ws7
@@ -331,7 +334,6 @@ bindsym $mod+shift+a exec pavucontrol
 #kills picom, just in case something goes wrong and i need to kill it
 bindsym $mod+c exec killall picom
 
-
 #runs krita
 bindsym $mod+alt+k exec --no-startup-id krita
 
@@ -377,7 +379,8 @@ exec --no-startup-id ~/.config/i3/xdotool.sh
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
 
 #autostart a few programs i use frequently
-exec brave
+exec librewolf
+exec mpd
 exec discord
 exec telegram-desktop
-exec keepassxc
+exec buttercup

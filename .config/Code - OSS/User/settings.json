@@ -1,11 +1,11 @@
 {
-    "workbench.colorTheme": "Synthax",
+    "workbench.colorTheme": "SynthWave '84",
     "clangd.path": "/home/traveler/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/bin/clangd",
     "terminal.explorerKind": "external",
     "terminal.external.linuxExec": "kitty",
     "glassit.step": 20,
     "glassit.alpha": 250,
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "simple-icons",
     "editor.fontFamily": "'SauceCodePro Nerd Font Mono'",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
