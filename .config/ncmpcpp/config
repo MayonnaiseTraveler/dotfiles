@@ -1,10 +1,8 @@
-execute_on_song_change = notify-send "Now Playing" "$(mpc --format ' %title% \n%artist% - %album%' current)" && mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
+execute_on_song_change = dunstify -r 45 "Now Playing" "$(mpc --format ' %title% \n%artist% - %album%' current)" && mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
 [mpd]
 mpd_host = "localhost"
 mpd_port = "6600"
 mpd_crossfade_time = "2"
-
-
 
 [visualizer]
 visualizer_fifo_path = "/tmp/mpd.fifo"

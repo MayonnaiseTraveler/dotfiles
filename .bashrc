@@ -10,7 +10,9 @@ fi
 #If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u@\h'; fi)\[\033[01;34m\] \w \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]:(\[\033[01;34m\] \")\\$\[\033[00m\] "
+#PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u@\h'; fi)\[\033[01;34m\] \w \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]:(\[\033[01;34m\] \")\\$\[\033[00m\] "
+
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && /usr/share/bash-completion/bash_completion
 
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh
@@ -35,12 +37,6 @@ alias mirror='xrandr --output HDMI-0 --output DP-1 --same-as HDMI-0'
 alias findheavy='du -cha --max-depth=1 ./ | grep -E "G"'
 alias newsboat='newsboat -C ~/.newsboat/.config'
 alias config='/usr/bin/git --git-dir=/home/traveler/.cfg/ --work-tree=/home/traveler'
-
-alias aulas='figlet Aulas; echo "__________________________"; echo -e "\n > Segunda: Laboratório de Programação e Design de Interação \n
- > Terça: programaçãop web\n
- > Quarta : Sistemas Digitais 2 \n
- > Quinta : Cálculo I \n
- > Sexta : Metodologia de Pesquisa Cientifica\n"'
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi

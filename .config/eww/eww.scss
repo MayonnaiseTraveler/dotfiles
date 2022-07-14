@@ -1,0 +1,26 @@
+
+*{
+  all:unset;
+}
+
+
+//variables
+$fg:#f9188f;
+$bg:#180d25;
+$fg-alt:#3e2a47;
+$bg-alt:#33173F;
+
+.bar{
+  background-color: $bg;
+  padding: 3rem;
+  
+}
+
+.btn{
+  color:$fg;
+  background-color: $bg;
+  padding:1rem;
+  
+}
+
+

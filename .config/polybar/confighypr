@@ -35,7 +35,7 @@ offset-x= 3%-10px
 width = 25%
 height = 32
 offset-y = 8
-radius = 0
+radius = 10
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -55,10 +55,10 @@ module-margin-right = 2px
 font-0 = SauceCodePro Nerd Font:style=Bolder:pixelsize=9;1
 font-1 = SauceCodePro Nerd Font:style=Bolder:pixelsize=8;2
 
-modules-left = i3
+modules-left = xwindow
 modules-right = mpd
 
-wm-restack = i3
+wm-restack = bspwm
 
 [bar/middle]
 override-redirect = true
@@ -68,7 +68,7 @@ width = 22%
 height = 32
 offset-x = 39%
 offset-y = 8
-radius = 0
+radius = 10
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -91,10 +91,10 @@ module-margin-right = 2
 font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=9;3
 font-1 = SauceCodePro Nerd Font:style=Regular:pixelsize=8;1
 
-modules-center = xwindow
+modules-center =  ewmh
 ;xwindow
 
-wm-restack = i3
+wm-restack = bspwm
 
 [bar/right]
 override-redirect = true
@@ -104,7 +104,7 @@ width = 25%
 height = 32
 offset-x = 71.95%
 offset-y = 8
-radius = 0
+radius = 10
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -135,7 +135,6 @@ modules-right = mega power
 ;tray-position = right
 ;tray-transparent = false
 ;tray-background = #fffff
-wm-restack = i3
 
 
 ;scroll-up = i3wm-wsnext
@@ -394,7 +393,49 @@ exec = echo "⏻"
 click-left = ~/.config/rofi/applets/applets/powermenu.sh  
 format-padding = 1
 
-[module/]
+[module/ewmh]
+type = internal/xworkspaces
+
+icon-default = 
+
+label-active = %icon% 
+label-empty = %icon%
+label-monitor = %icon%
+label-occupied = %icon%
+
+label-empty-padding = 1
+label-monitor-padding = 1
+label-occupied-padding = 1
+label-active-padding = 1
+
+label-active-foreground = ${colors.foreground}
+label-active-underline= ${colors.primary}
+label-monitor-foreground = ${colors.primary}
+label-occupied-foreground = ${colors.primary}
+label-empty-foreground = ${colors.primary}
+
+format = <label-state>
+
+; Only show workspaces defined on the same output as the bar
+;
+; Useful if you want to show monitor specific workspaces
+; on different bars
+;
+; Default: false
+pin-workspaces = false
+
+; Create click handler used to focus desktop
+; Default: true
+enable-click = true
+
+; Create scroll handlers used to cycle desktops
+; Default: true
+enable-scroll = true
+
+; Reverse the scroll direction
+; Default: false
+; New in version 3.6.0
+reverse-scroll = false
 
 [module/date]
 label =  %date%  %time%

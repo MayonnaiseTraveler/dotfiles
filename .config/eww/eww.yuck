@@ -1,0 +1,28 @@
+(defwindow example
+  :class "bar"
+  :monitor 0
+  :geometry (geometry 
+              :x "4px"
+              :y "0%"
+              :width "40px"
+              :height "90%"
+              :anchor "left center"
+            )
+  :stacking "fg"
+  :reserve (struts :distance "20px" :side "left")
+  :windowtype "dock"
+  :wm-ignore true
+  (greeter 
+    :text "Say Hello!"
+    :name "Traveler"
+  )
+)
+
+(defwidget greeter [?text name]
+  (box     
+    :orientation "v"
+    :halign "center"
+    :class "greeter"
+    (button :class "btn"
+      :onclick "notify-send 'Hello' 'Hello, ${name}'"
+    "A")))

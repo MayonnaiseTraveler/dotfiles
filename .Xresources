@@ -1,2 +1,20 @@
 Xcursor.size: 32;
-
+*background:  #180d25
+*cursorColor:  #0abdc6
+*foreground:  #f9188f
+*color0:  #00000b
+*color1:  #7244b6
+*color2:  #0086b0
+*color3:  #558659
+*color4:  #013eb6
+*color5:  #470eed
+*color6:  #0092ea
+*color7:  #9b0034
+*color8:  #00000b
+*color9:  #96155b
+*color10:  #2acd6b
+*color11:  #80666b
+*color12:  #0088ff
+*color13:  #695fff
+*color14:  #00cfff
+*color15:  #ff27b2
