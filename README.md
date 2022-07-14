@@ -13,11 +13,14 @@
 </pre>
 <hr>
 #### What is it?
-This repository contains the dotfiles for my i3-gaps arch setup, it has configs for a picom fork with dual kawase blur, kitty, i3-gaps, polybar, ranger, bpytop, some crazy scritps, and other stuff.</p>
+This repository contains the dotfiles for my arch setup, it has i3-gaps, Hypr wm, kitty, sddm, polybar, ranger, bpytop, lunarvim, ncmpcpp with images, pipewire, krita, mega, and some small rofi applications like quickmedia-git.
 
 #### Images:
+
+##### i3-gaps(old screenshot)
 <img src="screenshot1.png">
-<img src="screenshot2.png"> 
+##### Hypr
+<img src="screenshot3.png"> 
 
 #### How do i install it?
 <br>
