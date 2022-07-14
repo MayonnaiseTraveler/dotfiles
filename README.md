@@ -21,11 +21,11 @@ This repository contains the dotfiles for my arch setup, it has i3-gaps, Hypr wm
 
 #### i3-gaps(REALLY old screenshot with old theme)
 
-<img src=":/91a2ffb79b134d7e83573f00b0b3e2cb">
+<img src="screenshot1.png">
 
 #### Hypr
 
-<img src=":/a987bdea93d54e3faad38e15e0a4e835"> 
+<img src="screenshot3.png"> 
 
 #### How do i install it?
 
