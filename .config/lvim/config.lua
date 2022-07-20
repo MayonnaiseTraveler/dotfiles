@@ -11,11 +11,13 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.transparent_window = true
 lvim.colorscheme = "tokyonight"
-lvim.builtin.lualine.style = "lvim"
+lvim.builtin.lualine.style = "default"
+lvim.builtin.lualine.options.theme = "auto"
+lvim.transparent_window = true
+
 -- to disable icons and use a minimalist setup, uncomment the following
-lvim.use_icons = true
+-- lvim.use_icons = false
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
@@ -61,9 +63,9 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.notify.active = true
-lvim.builtin.terminal.active = false
+lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
-lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
+lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
@@ -147,29 +149,23 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 -- Additional Plugins
 lvim.plugins = {
-  {
-    'nvim-lualine/lualine.nvim',
-    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-  },
   { "folke/tokyonight.nvim" },
-  --     {
-  --       "folke/trouble.nvim",
-  --       cmd = "TroubleToggle",
-  --     },
   {
-    "norcalli/nvim-colorizer.lua",
-    config = function()
-      require("colorizer").setup({ "css", "scss", "html", "javascript" }, {
-        RGB = true, -- #RGB hex codes
-        RRGGBB = true, -- #RRGGBB hex codes
-        RRGGBBAA = true, -- #RRGGBBAA hex codes
-        rgb_fn = true, -- CSS rgb() and rgba() functions
-        hsl_fn = true, -- CSS hsl() and hsla() functions
-        css = true, -- Enable all CSS features: rgb_fn, hsl_fn, names, RGB, RRGGBB
-        css_fn = true, -- Enable all CSS *functions*: rgb_fn, hsl_fn
-      })
-    end,
+    "folke/trouble.nvim",
+    cmd = "TroubleToggle",
   },
+  { "yonlu/omni.vim" },
+  { "yashguptaz/calvera-dark.nvim" },
+  { "rose-pine/neovim" },
+  {
+    'rose-pine/neovim',
+    as = 'rose-pine',
+    tag = 'v1.*',
+    config = function()
+      vim.cmd('colorscheme rose-pine')
+    end
+  }
+
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
