@@ -58,7 +58,7 @@ font-1 = SauceCodePro Nerd Font:style=Bolder:pixelsize=8;2
 modules-left = xwindow
 modules-right = mpd
 
-wm-restack = bspwm
+wm-restack = generic
 
 [bar/middle]
 override-redirect = true
@@ -94,7 +94,8 @@ font-1 = SauceCodePro Nerd Font:style=Regular:pixelsize=8;1
 modules-center =  ewmh
 ;xwindow
 
-wm-restack = bspwm
+wm-restack = generic
+
 
 [bar/right]
 override-redirect = true
@@ -143,6 +144,7 @@ modules-right = mega power
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+wm-restack = generic
 [module/xwindow]
 format =  <label> 
 type = internal/xwindow
@@ -361,7 +363,7 @@ label-foreground = ${colors.foreground}
 # You can copy-paste your options for each possible action, which is more
 # trouble-free but repetitive, or apply only the relevant ones (for example
 # --sink-blacklist is only needed for next-sink).
-exec = pulseaudio-control --format '$VOL_ICON ${VOL_LEVEL}%' --icons-volume " , " --icon-muted " " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" --sink-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:  Headphones" listen
+exec = pulseaudio-control --format '$VOL_ICON ${VOL_LEVEL}%' --icons-volume " , " --icon-muted " " --node-nicknames-from "device.description" --node-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" --node-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:  Headphones" listen
 click-right = exec pavucontrol &
 click-left = pulseaudio-control togmute
 click-middle = pulseaudio-control --sink-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-sink

@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "tokyonight"
+lvim.colorscheme = "rose-pine"
 lvim.builtin.lualine.style = "default"
 lvim.builtin.lualine.options.theme = "auto"
 lvim.transparent_window = true
@@ -23,6 +23,7 @@ lvim.transparent_window = true
 lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+vim.opt.relativenumber = true
 -- unmap a default keymapping
 -- vim.keymap.del("n", "<C-Up>")
 -- override a default keymapping
@@ -89,7 +90,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- generic LSP settings
 
 -- ---@usage disable automatic installation of servers
--- lvim.lsp.automatic_servers_installation = false
+lvim.lsp.automatic_servers_installation = true
 
 -- ---configure a server manually. !!Requires `:LvimCacheReset` to take effect!!
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
@@ -146,10 +147,48 @@ lvim.builtin.treesitter.highlight.enabled = true
 --     filetypes = { "javascript", "python" },
 --   },
 -- }
+require('rose-pine').setup({
+  dark_variant = 'moon',
+  bold_vert_split = false,
+  dim_nc_background = false,
+  disable_background = false,
+  disable_float_background = false,
+  disable_italics = false,
 
+  groups = {
+    background = 'base',
+    panel = 'surface',
+    border = 'highlight_med',
+    comment = 'muted',
+    link = 'iris',
+    punctuation = 'subtle',
+
+    error = 'love',
+    hint = 'iris',
+    info = 'foam',
+    warn = 'gold',
+
+    headings = {
+      h1 = 'iris',
+      h2 = 'foam',
+      h3 = 'rose',
+      h4 = 'gold',
+      h5 = 'pine',
+      h6 = 'foam',
+    }
+    -- or set all headings at once
+    -- headings = 'subtle'
+  },
+
+  -- Change specific vim highlight groups
+  highlight_groups = {
+    ColorColumn = { bg = 'rose' }
+  }
+})
 -- Additional Plugins
 lvim.plugins = {
   { "folke/tokyonight.nvim" },
+  { "lukas-reineke/indent-blankline.nvim" },
   {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",
@@ -164,8 +203,21 @@ lvim.plugins = {
     config = function()
       vim.cmd('colorscheme rose-pine')
     end
-  }
-
+  },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin"
+  },
+  {
+    "folke/zen-mode.nvim",
+    config = function()
+      require("zen-mode").setup {
+        -- your configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      }
+    end
+  },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)

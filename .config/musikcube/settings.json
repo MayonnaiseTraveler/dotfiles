@@ -22,6 +22,7 @@
   "LibraryType": 1,
   "Locale": "en_US",
   "MinimizeToTray": false,
+  "PiggyEnabled": false,
   "PlaybackTrackQueryTimeoutMs": 5000,
   "RatingNegativeChar": "·",
   "RatingPositiveChar": "★",

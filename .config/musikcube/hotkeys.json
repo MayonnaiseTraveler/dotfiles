@@ -1,4 +1,5 @@
 {
+  "browse_category_filter": "^F",
   "browse_playlists_delete": "KEY_DC",
   "browse_playlists_new": "M-n",
   "browse_playlists_rename": "M-r",
