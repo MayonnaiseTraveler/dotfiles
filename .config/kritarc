@@ -32,7 +32,7 @@ CreateBackupFile=true
 CurrentWorkspace=Ayos fav
 ExportConfiguration-ANIMATION_EXPORT=<!DOCTYPE params>\n<params>\n <param type="string" name="basename"><![CDATA[quadro]]></param>\n <param type="string" name="custom_ffmpeg_options"><![CDATA[-f gif -loop 0 -gifflags +transdiff -palettegen palettegen=stats_mode=full:reserve_transparent=1 -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none]]></param>\n <param type="internal" name="delete_sequence">true</param>\n <param type="string" name="directory"><![CDATA[]]></param>\n <param type="internal" name="encode_video">true</param>\n <param type="string" name="ffmpeg_path"><![CDATA[/usr/bin/..//bin/ffmpeg]]></param>\n <param type="string" name="filename"><![CDATA[/home/traveler/Website-git/media/general/logo.gif]]></param>\n <param type="internal" name="first_frame">0</param>\n <param type="internal" name="frame_export/CICPCompatiblePrimaries">1</param>\n <param type="internal" name="frame_export/CICPCompatibleTransferFunction">2</param>\n <param type="string" name="frame_export/ColorDepthID"><![CDATA[U8]]></param>\n <param type="string" name="frame_export/ColorModelID"><![CDATA[RGBA]]></param>\n <param type="internal" name="frame_export/HDRSupported">false</param>\n <param type="internal" name="frame_export/ImageContainsTransparency">true</param>\n <param type="internal" name="frame_export/sRGB">true</param>\n <param type="string" name="frame_mimetype"><![CDATA[image/png]]></param>\n <param type="internal" name="framerate">24</param>\n <param type="internal" name="height">25</param>\n <param type="internal" name="include_audio">true</param>\n <param type="string" name="last_document_path"><![CDATA[/home/traveler/MEGA/Eu/Art 2d/BunnyBlood/logoanimation.kra]]></param>\n <param type="internal" name="last_frame">24</param>\n <param type="internal" name="only_unique_frames">false</param>\n <param type="internal" name="sequence_start">0</param>\n <param type="string" name="video_mimetype"><![CDATA[image/gif]]></param>\n <param type="internal" name="width">70</param>\n</params>\n
 ExportConfiguration-image/jpeg=<!DOCTYPE params>\n<params>\n <param type="internal" name="baseline">true</param>\n <param type="internal" name="exif">true</param>\n <param type="string" name="filters"><![CDATA[]]></param>\n <param type="internal" name="forceSRGB">false</param>\n <param type="internal" name="iptc">true</param>\n <param type="internal" name="optimize">false</param>\n <param type="internal" name="progressive">true</param>\n <param type="internal" name="quality">100</param>\n <param type="internal" name="saveProfile">true</param>\n <param type="internal" name="smoothing">100</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="internal" name="subsampling">3</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" space="sRGB-elle-V2-g10.icc" g="1" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="xmp">true</param>\n</params>\n
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">9</param>\n <param type="internal" name="forceSRGB">false</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">true</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" space="sRGB-elle-V2-g10.icc" g="1" r="1"/>\n</color>\n]]></param>\n</params>\n
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">9</param>\n <param type="internal" name="forceSRGB">false</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">true</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" g="1" space="sRGB-elle-V2-g10.icc" b="1"/>\n</color>\n]]></param>\n</params>\n
 ExportConfiguration-image/webp=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha_compression">1</param>\n <param type="internal" name="alpha_filtering">1</param>\n <param type="internal" name="alpha_quality">100</param>\n <param type="internal" name="autofilter">false</param>\n <param type="internal" name="dithering">true</param>\n <param type="internal" name="emulate_jpeg_size">false</param>\n <param type="internal" name="exact">false</param>\n <param type="internal" name="filter_sharpness">0</param>\n <param type="internal" name="filter_strength">60</param>\n <param type="internal" name="filter_type">1</param>\n <param type="internal" name="lossless">true</param>\n <param type="internal" name="low_memory">false</param>\n <param type="internal" name="method">6</param>\n <param type="internal" name="near_lossless">100</param>\n <param type="internal" name="partition_limit">0</param>\n <param type="internal" name="partitions">0</param>\n <param type="internal" name="pass">1</param>\n <param type="internal" name="preprocessing">0</param>\n <param type="internal" name="preset">0</param>\n <param type="internal" name="qmax">100</param>\n <param type="internal" name="qmin">0</param>\n <param type="internal" name="quality">100</param>\n <param type="internal" name="segments">4</param>\n <param type="internal" name="show_compressed">false</param>\n <param type="internal" name="sns_strength">50</param>\n <param type="internal" name="target_PSNR">0</param>\n <param type="internal" name="target_size">0</param>\n <param type="internal" name="thread_level">true</param>\n <param type="internal" name="use_sharp_yuv">false</param>\n</params>\n
 FetchNews=true
 FilterSelector/LastUsedFilter=gaussian blur
@@ -51,8 +51,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="1" r="1" b="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0.00392156885936856" r="0.00392156885936856" b="0.00392156885936856" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0.00392156885936856" r="0.00392156885936856" space="sRGB-elle-V2-srgbtrc.icc" b="0.00392156885936856"/>\n</LastForeGroundColor>\n
 LastPreset=b) Basic-5 Size
 LastPreset_-1=b) Basic-5 Size
 LineSmoothingDelayDistance=50
@@ -284,8 +284,8 @@ active-profile=MayoTraveler
 [File Dialogs]
 BackgroundImages=/home/traveler/Imagens
 DontUseNativeFileDialog=true
-OpenDocument=/home/traveler/Downloads
-SaveAs=/home/traveler/MEGA/Eu/Art 2d/Fanart/2022
+OpenDocument=/home/traveler/MEGA/Eu/Art 2d/Oc's/Nissin/2022 art
+SaveAs=/home/traveler/MEGA/Eu/Art 2d/Oc's/Nissin/2022 art
 
 [GenericGradientEditor]
 global/compactGradientPresetChooserMode=false
@@ -729,26 +729,26 @@ yPosition=16
 pinControls=true
 
 [RecentFiles]
-File1[$e]=$HOME/MEGA/Eu/Art 2d/nsfw/h.psd
-File10[$e]=$HOME/MEGA/Eu/Art 2d/Fanart/2022/lainanded.webp
-File2[$e]=$HOME/MEGA/Eu/Art 2d/nsfw/desen.psd
-File3[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Nissin/2022 art/random sketches.kra
-File4[$e]=$HOME/Downloads/goku  (20220701100607).png
-File5[$e]=$HOME/MEGA/Eu/Art 2d/BunnyBlood/logoanimation.kra
-File6[$e]=$HOME/MEGA/Eu/Art 2d/BunnyBlood/logonew.png
-File7[$e]=$HOME/MEGA/Eu/Art 2d/BunnyBlood/logonew.kra
-File8[$e]=$HOME/Downloads/lain and ed.webp
-File9[$e]=$HOME/Imagens/lainanded.webp
-Name1[$e]=h.psd
-Name10[$e]=lainanded.webp
-Name2[$e]=desen.psd
-Name3[$e]=random sketches.kra
-Name4[$e]=goku  (20220701100607).png
-Name5[$e]=logoanimation.kra
-Name6[$e]=logonew.png
-Name7[$e]=logonew.kra
-Name8[$e]=lain and ed.webp
-Name9[$e]=lainanded.webp
+File1[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Nissin/2022 art/random sketches.kra
+File10[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Nissin/2022 art/nii ref faces.png
+File2[$e]=$HOME/Downloads/goku  (20220701100607).png
+File3[$e]=$HOME/MEGA/Eu/Art 2d/BunnyBlood/logoanimation.kra
+File4[$e]=$HOME/MEGA/Eu/Art 2d/BunnyBlood/logonew.png
+File5[$e]=$HOME/MEGA/Eu/Art 2d/BunnyBlood/logonew.kra
+File6[$e]=$HOME/Downloads/lain and ed.webp
+File7[$e]=$HOME/Imagens/lainanded.webp
+File8[$e]=$HOME/MEGA/Eu/Art 2d/Fanart/2022/lainanded.webp
+File9[$e]=$HOME/MEGA/Eu/Art 2d/Oc's/Nissin/2022 art/nii ref 2022 (20220731124409).png
+Name1[$e]=random sketches.kra
+Name10[$e]=nii ref faces.png
+Name2[$e]=goku  (20220701100607).png
+Name3[$e]=logoanimation.kra
+Name4[$e]=logonew.png
+Name5[$e]=logonew.kra
+Name6[$e]=lain and ed.webp
+Name7[$e]=lainanded.webp
+Name8[$e]=lainanded.webp
+Name9[$e]=nii ref 2022 (20220731124409).png
 
 [SelectedTags]
 brushes=All
