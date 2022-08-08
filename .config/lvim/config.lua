@@ -15,6 +15,7 @@ lvim.colorscheme = "rose-pine"
 lvim.builtin.lualine.style = "default"
 lvim.builtin.lualine.options.theme = "auto"
 lvim.transparent_window = true
+vim.cmd("inoremap <kj> <Esc>")
 
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false

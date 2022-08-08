@@ -354,6 +354,7 @@ bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primar
 ##########################################################################
 
 #megasync, cause i'm dumb
+exec xset r rate 300 50
 exec --no-startup-id megasync
 
 #set to default to one monitor
