@@ -3,7 +3,7 @@
     "Discord Cyberpunk Neon Transparent": false,
     "Discord Cyberpunk Neon / Synthwave version": true,
     "ClearVision": false,
-    "Float": true,
+    "Float": false,
     "Neutron": false,
     "Frosted Glass": false,
     "BasicBackground": false,
@@ -11,5 +11,6 @@
     "Cyberpunk": false,
     "dracula": false,
     "Omni": true,
-    "Tokyo Night": false
+    "Tokyo Night": false,
+    "Black Hole": false
 }

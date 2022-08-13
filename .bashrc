@@ -34,7 +34,7 @@ alias zathura='devour zathura '
 alias cmatrix='cmatrix -bC blue -M "H E L L  Y E A H"'
 alias vim='nvim'
 alias mirror='xrandr --output HDMI-0 --output DP-1 --same-as HDMI-0'
-alias findheavy='du -cha --max-depth=1 ./ | grep -E "G"'
+alias findheavy='du -cha --max-depth=1 . | grep -E "G"'
 alias newsboat='newsboat -C ~/.newsboat/.config'
 alias config='/usr/bin/git --git-dir=/home/traveler/.cfg/ --work-tree=/home/traveler'
 
