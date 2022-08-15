@@ -1,12 +1,19 @@
 {
-    "CallTimeCounter": false,
+    "CallTimeCounter": true,
     "ShowHiddenChannels": false,
     "BDFDB": true,
-    "ZeresPluginLibrary": false,
-    "CreationDate": false,
-    "ReadAllNotificationsButton": false,
-    "ShowConnections": false,
-    "SplitLargeMessages": false,
-    "PluginRepo": false,
-    "ThemeRepo": false
+    "ZeresPluginLibrary": true,
+    "CreationDate": true,
+    "ReadAllNotificationsButton": true,
+    "ShowConnections": true,
+    "SplitLargeMessages": true,
+    "PluginRepo": true,
+    "ThemeRepo": true,
+    "AutoIdleOnAFK": true,
+    "ChannelTabs": true,
+    "DoNotTrack": true,
+    "FileViewer": true,
+    "FreeEmojis": true,
+    "OnlineFriendCount": true,
+    "ServerFolders": true
 }

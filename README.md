@@ -38,9 +38,13 @@ After that, just replace the config files in your home directory with the new st
 
 ### ToDo:
 
+
 - [ ] Create bash script for installation
 - [ ] Create Eww widgets
 - [ ] Create a bar with Eww
+- [ ] add JGMENU
+- [ ] start using wpgtk to manage themes
+- [ ] Switch to a another WM?
 - [ ] finish bash script that changes volume of the active window
 - [ ] add a list of browser extensions i use
 - [ ] clean all config files that look like frankenstein

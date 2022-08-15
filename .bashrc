@@ -7,6 +7,8 @@ if [ -f /home/traveler/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( e
 fi
 
 
+set -o vi
+
 #If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -32,7 +34,7 @@ alias ls='ls --color=auto'
 alias mpv='devour mpv'
 alias zathura='devour zathura '
 alias cmatrix='cmatrix -bC blue -M "H E L L  Y E A H"'
-alias vim='nvim'
+alias vim='lvim'
 alias mirror='xrandr --output HDMI-0 --output DP-1 --same-as HDMI-0'
 alias findheavy='du -cha --max-depth=1 . | grep -E "G"'
 alias newsboat='newsboat -C ~/.newsboat/.config'

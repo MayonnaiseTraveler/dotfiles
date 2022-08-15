@@ -23,6 +23,7 @@
   "Locale": "en_US",
   "MinimizeToTray": false,
   "PiggyEnabled": false,
+  "PiggyHostname": "localhost",
   "PlaybackTrackQueryTimeoutMs": 5000,
   "RatingNegativeChar": "·",
   "RatingPositiveChar": "★",
