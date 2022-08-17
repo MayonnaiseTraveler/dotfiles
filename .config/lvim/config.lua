@@ -49,16 +49,16 @@ vim.opt.relativenumber = true
 -- }
 
 -- Use which-key to add extra bindings with the leader-key prefix
--- lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
--- lvim.builtin.which_key.mappings["t"] = {
---   name = "+Trouble",
---   r = { "<cmd>Trouble lsp_references<cr>", "References" },
---   f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
---   d = { "<cmd>Trouble document_diagnostics<cr>", "Diagnostics" },
---   q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
---   l = { "<cmd>Trouble loclist<cr>", "LocationList" },
---   w = { "<cmd>Trouble workspace_diagnostics<cr>", "Wordspace Diagnostics" },
--- }
+lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
+lvim.builtin.which_key.mappings["t"] = {
+  name = "+Trouble",
+  r = { "<cmd>Trouble lsp_references<cr>", "References" },
+  f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
+  d = { "<cmd>Trouble document_diagnostics<cr>", "Diagnostics" },
+  q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
+  l = { "<cmd>Trouble loclist<cr>", "LocationList" },
+  w = { "<cmd>Trouble workspace_diagnostics<cr>", "Wordspace Diagnostics" },
+}
 
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
@@ -148,6 +148,43 @@ lvim.lsp.automatic_servers_installation = true
 --     filetypes = { "javascript", "python" },
 --   },
 -- }
+
+-- Additional Plugins
+lvim.plugins = {
+  { "folke/tokyonight.nvim" },
+  { "lukas-reineke/indent-blankline.nvim" },
+  {
+    "folke/trouble.nvim",
+    cmd = "TroubleToggle",
+  },
+  { "yonlu/omni.vim" },
+  { "yashguptaz/calvera-dark.nvim" },
+  { "rose-pine/neovim" },
+  {
+    'rose-pine/neovim',
+    as = 'rose-pine',
+    tag = 'v1.*',
+    config = function()
+      vim.cmd('colorscheme rose-pine')
+    end
+  },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin"
+  },
+  {
+    "folke/zen-mode.nvim",
+    config = function()
+      require("zen-mode").setup {
+        -- your configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      }
+    end
+  },
+}
+
+
 require('rose-pine').setup({
   dark_variant = 'moon',
   bold_vert_split = false,
@@ -186,41 +223,6 @@ require('rose-pine').setup({
     ColorColumn = { bg = 'rose' }
   }
 })
--- Additional Plugins
-lvim.plugins = {
-  { "folke/tokyonight.nvim" },
-  { "lukas-reineke/indent-blankline.nvim" },
-  {
-    "folke/trouble.nvim",
-    cmd = "TroubleToggle",
-  },
-  { "yonlu/omni.vim" },
-  { "yashguptaz/calvera-dark.nvim" },
-  { "rose-pine/neovim" },
-  {
-    'rose-pine/neovim',
-    as = 'rose-pine',
-    tag = 'v1.*',
-    config = function()
-      vim.cmd('colorscheme rose-pine')
-    end
-  },
-  {
-    "catppuccin/nvim",
-    as = "catppuccin"
-  },
-  {
-    "folke/zen-mode.nvim",
-    config = function()
-      require("zen-mode").setup {
-        -- your configuration comes here
-        -- or leave it empty to use the default settings
-        -- refer to the configuration section below
-      }
-    end
-  },
-}
-
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.json", "*.jsonc" },

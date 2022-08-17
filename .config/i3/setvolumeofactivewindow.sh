@@ -17,7 +17,7 @@ windowpid=$( xdotool getwindowpid $activewindow )
 set_volume() {
 
 	windowindex=$( pacmd list-sink-inputs  | grep -m 1 -B 25 $1 | grep "index" | grep -o '[0-9]*' )
-	pacmd set-sink-input-volume $windowindex 1000
+	pacmd set-sink-input-volume $windowindex 0
 }
 
 

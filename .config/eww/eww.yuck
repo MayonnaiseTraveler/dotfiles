@@ -1,22 +1,4 @@
-(defwindow example
-  :class "bar"
-  :monitor 0
-  :geometry (geometry 
-              :x "4px"
-              :y "0%"
-              :width "40px"
-              :height "90%"
-              :anchor "left center"
-            )
-  :stacking "fg"
-  :reserve (struts :distance "20px" :side "left")
-  :windowtype "dock"
-  :wm-ignore true
-  (greeter 
-    :text "Say Hello!"
-    :name "Traveler"
-  )
-)
+
 
 (defwidget greeter [?text name]
   (box     
@@ -26,3 +8,45 @@
     (button :class "btn"
       :onclick "notify-send 'Hello' 'Hello, ${name}'"
     "A")))
+
+
+(defwindow widget1 
+  :class "widget" :monitor 0 :geometry 
+  (geometry :x "0%" :y "0%" :width "160px" :height "100px"
+    :wm-ignore true )
+    (greeter  :text "Say Hello!" :name "Traveler")
+)
+(defwindow widget2 
+  :class "widget" :monitor 0 :geometry 
+  (geometry :x "0%" :y "110px" :width "160px" :height "100px"
+    :wm-ignore true )
+    (greeter  :text "Say Hello!" :name "Traveler")
+)
+
+(defwindow widget3
+  :class "widget" :monitor 0 :geometry 
+  (geometry :x "0%" :y "220px" :width "160px" :height "100px"
+    :wm-ignore true )
+    (greeter  :text "Say Hello!" :name "Traveler")
+)
+
+(defwindow widget4
+  :class "widget" :monitor 0 :geometry 
+  (geometry :x "170px" :y "0px" :width "160px" :height "100px"
+    :wm-ignore true )
+    (greeter  :text "Say Hello!" :name "Traveler")
+)
+
+(defwindow widget5
+  :class "widget" :monitor 0 :geometry 
+  (geometry :x "170px" :y "110px" :width "160px" :height "100px"
+    :wm-ignore true )
+    (greeter  :text "Say Hello!" :name "Traveler")
+)
+
+(defwindow widget6
+  :class "widget" :monitor 0 :geometry 
+  (geometry :x "170px" :y "220px" :width "160px" :height "100px"
+    :wm-ignore true )
+    (greeter  :text "Say Hello!" :name "Traveler")
+)

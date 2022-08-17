@@ -30,6 +30,8 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
 fi
 
 alias ncmpcppi='~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug'
+alias music='ncmpcppi'
+alias pytop='bpytop'
 alias ls='ls --color=auto'
 alias mpv='devour mpv'
 alias zathura='devour zathura '

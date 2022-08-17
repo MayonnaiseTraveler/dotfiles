@@ -1,8 +1,6 @@
-
 *{
   all:unset;
 }
-
 
 //variables
 $fg:#f9188f;
@@ -10,17 +8,18 @@ $bg:#180d25;
 $fg-alt:#3e2a47;
 $bg-alt:#33173F;
 
-.bar{
+window{
   background-color: $bg;
-  padding: 3rem;
-  
+  border-style:solid;
+  border-width:2px;
+  border-color: $fg;
+  border-radius:0;
+  font-family: "Sauce Code Pro";
 }
 
 .btn{
   color:$fg;
-  background-color: $bg;
-  padding:1rem;
+  margin:10px;
+  padding:10px;
   
 }
-
-
