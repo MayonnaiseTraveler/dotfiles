@@ -1,6 +1,6 @@
 {
     "CallTimeCounter": true,
-    "ShowHiddenChannels": false,
+    "ShowHiddenChannels": true,
     "BDFDB": true,
     "ZeresPluginLibrary": true,
     "CreationDate": true,
@@ -10,7 +10,7 @@
     "PluginRepo": true,
     "ThemeRepo": true,
     "AutoIdleOnAFK": true,
-    "ChannelTabs": true,
+    "ChannelTabs": false,
     "DoNotTrack": true,
     "FileViewer": true,
     "FreeEmojis": true,
