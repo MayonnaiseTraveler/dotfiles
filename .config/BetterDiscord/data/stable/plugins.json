@@ -1,6 +1,6 @@
 {
     "CallTimeCounter": true,
-    "ShowHiddenChannels": true,
+    "ShowHiddenChannels": false,
     "BDFDB": true,
     "ZeresPluginLibrary": true,
     "CreationDate": true,

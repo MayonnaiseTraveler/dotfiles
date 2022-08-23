@@ -1,6 +1,6 @@
 # vim:fileencoding=utf-8:ft=conf:foldmethod=marker
 
-#: Fonts {{{
+#: Fonts {{{{{{
 
 #: kitty has very powerful font management. You can configure#: individual font faces and even specify special fonts for particular
 #: characters.
@@ -150,9 +150,9 @@ font_size 8.5
 #: monitor DPI to arrive at a pixel value. There must be four values
 #: corresponding to thin, normal, thick, and very thick lines.
 
-#: }}}
+#: }}}}}}
 
-#: Cursor customization {{{
+#: Cursor customization {{{{{{
 
 cursor #E4CABE
 
@@ -188,9 +188,9 @@ cursor_shape underline
 #: Stop blinking cursor after the specified number of seconds of
 #: keyboard inactivity.  Set to zero to never stop blinking.
 
-#: }}}
+#: }}}}}}
 
-#: Scrollback {{{
+#: Scrollback {{{{{{
 
 # scrollback_lines 2000
 
@@ -240,9 +240,9 @@ cursor_shape underline
 #: for high precision scrolling devices on platforms such as macOS and
 #: Wayland. Use negative numbers to change scroll direction.
 
-#: }}}
+#: }}}}}}
 
-#: Mouse {{{
+#: Mouse {{{{{{
 
 # mouse_hide_wait 3.0
 
@@ -345,9 +345,9 @@ cursor_shape underline
 #: The default shape of the mouse pointer when dragging across text.
 #: Valid values are: arrow, beam and hand
 
-#: }}}
+#: }}}}}}
 
-#: Performance tuning {{{
+#: Performance tuning {{{{{{
 
 # repaint_delay 10
 
@@ -376,9 +376,9 @@ cursor_shape underline
 #: keyboard repeat rate, you may notice some slight input latency. If
 #: so, set this to no.
 
-#: }}}
+#: }}}}}}
 
-#: Terminal bell {{{
+#: Terminal bell {{{{{{
 
 # enable_audio_bell yes
 
@@ -405,9 +405,9 @@ cursor_shape underline
 
 #: Program to run when a bell occurs.
 
-#: }}}
+#: }}}}}}
 
-#: Window layout {{{
+#: Window layout {{{{{{
 
 # remember_window_size  yes
 # initial_window_width  640
@@ -540,9 +540,9 @@ window_padding_width 11
 #: confirmation. This confirmation also applies to requests to quit
 #: the entire application (all OS windows, via the quit action).
 
-#: }}}
+#: }}}}}}
 
-#: Tab bar {{{
+#: Tab bar {{{{{{
 
  tab_bar_edge bottom
 
@@ -600,20 +600,20 @@ window_padding_width 11
 #: Some text or a unicode symbol to show on the tab if a window in the
 #: tab that does not have focus has some activity.
 
-# tab_title_template "{title}"
+# tab_title_template "{{title}}"
 
 #: A template to render the tab title. The default just renders the
 #: title. If you wish to include the tab-index as well, use something
-#: like: {index}: {title}. Useful if you have shortcuts mapped for
-#: goto_tab N. In addition you can use {layout_name} for the current
-#: layout name and {num_windows} for the number of windows in the tab.
+#: like: {{index}}: {{title}}. Useful if you have shortcuts mapped for
+#: goto_tab N. In addition you can use {{layout_name}} for the current
+#: layout name and {{num_windows}} for the number of windows in the tab.
 #: Note that formatting is done by Python's string formatting
-#: machinery, so you can use, for instance, {layout_name[:2].upper()}
+#: machinery, so you can use, for instance, {{layout_name[:2].upper()}}
 #: to show only the first two letters of the layout name, upper-cased.
 #: If you want to style the text, you can use styling directives, for
-#: example: {fmt.fg.red}red{fmt.fg.default}normal{fmt.bg._00FF00}green
-#: bg{fmt.bg.normal}. Similarly, for bold and italic:
-#: {fmt.bold}bold{fmt.nobold}normal{fmt.italic}italic{fmt.noitalic}.
+#: example: {{fmt.fg.red}}red{{fmt.fg.default}}normal{{fmt.bg._00FF00}}green
+#: bg{{fmt.bg.normal}}. Similarly, for bold and italic:
+#: {{fmt.bold}}bold{{fmt.nobold}}normal{{fmt.italic}}italic{{fmt.noitalic}}.
 
 # active_tab_title_template none
 
@@ -634,9 +634,9 @@ window_padding_width 11
 #: Background color for the tab bar. Defaults to using the terminal
 #: background color.
 
-#: }}}
+#: }}}}}}
 
-#: Color scheme {{{
+#: Color scheme {{{{{{
 
 #: The foreground and background colors
 
@@ -697,7 +697,7 @@ background_tint 1
 #: The foreground for text selected with the mouse. A value of none
 #: means to leave the color unchanged.
 
-selection_background #337dc0
+selection_background {color2}
 
 #: The background for text selected with the mouse.
 
@@ -706,59 +706,59 @@ selection_background #337dc0
 #: dull and bright version, for the first 16 colors. You can set the
 #: remaining 240 colors as color16 to color255.
 
-foreground #f5f577
-background #133c70
+foreground {color1}
+background {color0}
 
 
-color0 #133c70
-color8 #ccce9c
+color0 {color0}
+color8 {color8}
 
 #: black
 
-color1 #f5f577
+color1 {color1}
 ###be225b
-color9 #f5f577
+color9 {color9}
 
 #: red
 
-color2 #337dc0
+color2 {color2}
 ##8300c7
-color10 #337dc0
+color10 {color10}
 
 #: green
 
-color3 #617eb9
+color3 {color3}
 ##7864f4
 ##c2e100
-color11 #617eb9
+color11 {color11}
 ##d7f482 
 
 #: yellow
 
-color4 #2b6ff7
+color4 {color4}
 #
 ##008f7f
-color12 #2b6ff7
+color12 {color12}
 ##7864f
 
 #: blue
 
-color5 #6dc8ce
+color5 {color5}
 ##00cdcd
-color13 #6dc8ce
+color13 {color13}
 #
 
 #: magenta
 
-color6 #43d5f7
+color6 {color6}
 
 ##4800dd
-color14 #43d5f7
+color14 {color14}
 
 #: cyan
 
-color7 #f3f3d6
-color15 #f3f3d6
+color7 {color7}
+color15 {color15}
 #: whit
 
 # mark1_foreground black
@@ -785,9 +785,9 @@ color15 #f3f3d6
 
 #: Color for marks of type 1 (violet)
 
-#: }}}
+#: }}}}}}
 
-#: Advanced {{{
+#: Advanced {{{{{{
 
 # shell .
 
@@ -834,8 +834,8 @@ color15 #f3f3d6
 #: control connections. Note that this will apply to all kitty
 #: instances. It can be overridden by the kitty --listen-on command
 #: line flag. This option accepts only UNIX sockets, such as
-#: unix:${TEMP}/mykitty or (on Linux) unix:@mykitty. Environment
-#: variables are expanded. If {kitty_pid} is present then it is
+#: unix:${{TEMP}}/mykitty or (on Linux) unix:@mykitty. Environment
+#: variables are expanded. If {{kitty_pid}} is present then it is
 #: replaced by the PID of the kitty process, otherwise the PID of the
 #: kitty process is appended to the value, with a hyphen. This option
 #: is ignored unless you also set allow_remote_control to enable
@@ -849,7 +849,7 @@ color15 #f3f3d6
 #: use::
 
 #:     env MYVAR1=a
-#:     env MYVAR2=${MYVAR1}/${HOME}/b
+#:     env MYVAR2=${{MYVAR1}}/${{HOME}}/b
 
 #: The value of MYVAR2 will be a/<path to home directory>/b.
 
@@ -902,9 +902,9 @@ color15 #f3f3d6
 #: from key-presses, to colors, to various advanced features may not
 #: work.
 
-#: }}}
+#: }}}}}}
 
-#: OS specific tweaks {{{
+#: OS specific tweaks {{{{{{
 
 # wayland_titlebar_color system
 
@@ -984,9 +984,9 @@ color15 #f3f3d6
 #: backend based on the system state is chosen automatically. Set it
 #: to x11 or wayland to force the choice.
 
-#: }}}
+#: }}}}}}
 
-#: Keyboard shortcuts {{{
+#: Keyboard shortcuts {{{{{{
 
 #: Keys are identified simply by their lowercase unicode characters.
 #: For example: ``a`` for the A key, ``[`` for the left square bracket
@@ -1065,7 +1065,7 @@ kitty_mod ctrl+shift
 #: kitty +kitten hints --hints-offset to zero for all mappings,
 #: including the builtin ones.
 
-#: Clipboard {{{
+#: Clipboard {{{{{{
 
 # map kitty_mod+c copy_to_clipboard
 
@@ -1093,9 +1093,9 @@ kitty_mod ctrl+shift
 
 #:     map kitty_mod+y new_window less @selection
 
-#: }}}
+#: }}}}}}
 
-#: Scrolling {{{
+#: Scrolling {{{{{{
 
 # map kitty_mod+up        scroll_line_up
 # map kitty_mod+k         scroll_line_up
@@ -1117,9 +1117,9 @@ kitty_mod ctrl+shift
 #: For more details on piping screen and buffer contents to external
 #: programs, see launch.
 
-#: }}}
+#: }}}}}}
 
-#: Window management {{{
+#: Window management {{{{{{
 
 # map kitty_mod+enter new_window
 
@@ -1171,9 +1171,9 @@ kitty_mod ctrl+shift
 # map kitty_mod+8 eighth_window
 # map kitty_mod+9 ninth_window
 # map kitty_mod+0 tenth_window
-#: }}}
+#: }}}}}}
 
-#: Tab management {{{
+#: Tab management {{{{{{
 
 # map kitty_mod+right next_tab
 # map kitty_mod+left  previous_tab
@@ -1196,9 +1196,9 @@ kitty_mod ctrl+shift
 #: the current tab rather than at the end of the tabs list, use::
 
 #:     map ctrl+t new_tab !neighbor [optional cmd to run]
-#: }}}
+#: }}}}}}
 
-#: Layout management {{{
+#: Layout management {{{{{{
 
 # map kitty_mod+l next_layout
 
@@ -1210,9 +1210,9 @@ kitty_mod ctrl+shift
 #: Similarly, to switch back to the previous layout::
 
 #:    map ctrl+alt+p last_used_layout
-#: }}}
+#: }}}}}}
 
-#: Font sizes {{{
+#: Font sizes {{{{{{
 
 #: You can change the font size for all top-level kitty OS windows at
 #: a time or only the current one.
@@ -1232,9 +1232,9 @@ kitty_mod ctrl+shift
 #: size::
 
 #:     map kitty_mod+f6 change_font_size current 10.0
-#: }}}
+#: }}}}}}
 
-#: Select and act on visible text {{{
+#: Select and act on visible text {{{{{{
 
 #: Use the hints kitten to select text and either pass it to an
 #: external program or insert it into the terminal or copy it to the
@@ -1283,9 +1283,9 @@ kitty_mod ctrl+shift
 
 #: The hints kitten has many more modes of operation that you can map
 #: to different shortcuts. For a full description see kittens/hints.
-#: }}}
+#: }}}}}}
 
-#: Miscellaneous {{{
+#: Miscellaneous {{{{{{
 
 # map kitty_mod+f11    toggle_fullscreen
 # map kitty_mod+f10    toggle_maximized
@@ -1346,6 +1346,6 @@ kitty_mod ctrl+shift
 #:     map ctrl+alt+a send_text normal Word\x1b[H
 #:     map ctrl+alt+a send_text application Word\x1bOH
 
-#: }}}
+#: }}}}}}
 
-# }}}
+# }}}}}}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/monogatari.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#211b2a",
+        "foreground": "#d5cddf",
+        "cursor": "#d5cddf"
+    },
+    "colors": {
+        "color0": "#211b2a",
+        "color1": "#A01FF9",
+        "color2": "#EC1DF5",
+        "color3": "#ED5BF4",
+        "color4": "#0E9DF8",
+        "color5": "#5DB3D8",
+        "color6": "#08EDEF",
+        "color7": "#d5cddf",
+        "color8": "#958f9c",
+        "color9": "#A01FF9",
+        "color10": "#EC1DF5",
+        "color11": "#ED5BF4",
+        "color12": "#0E9DF8",
+        "color13": "#5DB3D8",
+        "color14": "#08EDEF",
+        "color15": "#d5cddf"
+    }
+}

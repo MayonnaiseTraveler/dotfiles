@@ -1,0 +1,416 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[colors]
+;background = ${xrdb:color0:#222}
+background = #133c70
+background-alt = #133c70
+;foreground = ${xrdb:color7:#222}
+foreground = #f5f577
+foreground-alt = #f5f577
+primary = #f5f577
+secondary = #f5f577
+alert = #ccce9c
+
+[bar/left]
+override-redirect = true
+monitor = ${env:MONITOR:HDMI-0}
+fixed-center = false
+offset-x= 3%-10px
+width = 25%
+height = 32
+offset-y = 8
+radius = 10
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 2
+border-color = ${colors.foreground}
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2px
+module-margin-right = 2px
+
+font-0 = SauceCodePro Nerd Font:style=Bolder:pixelsize=9;1
+font-1 = SauceCodePro Nerd Font:style=Bolder:pixelsize=8;2
+
+modules-left = i3
+modules-right = mpd
+
+wm-restack = i3
+
+[bar/middle]
+override-redirect = true
+monitor = ${env:MONITOR:HDMI-0}
+fixed-center = false
+width = 22%
+height = 32
+offset-x = 39%
+offset-y = 8
+radius = 10
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 2
+border-color = ${colors.foreground}
+
+
+padding-left = 100px
+padding-right = 100px
+
+
+module-margin-left = 2
+module-margin-right = 2
+
+
+font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=9;3
+font-1 = SauceCodePro Nerd Font:style=Regular:pixelsize=8;1
+
+modules-center = xwindow
+;xwindow
+
+wm-restack = i3
+
+[bar/right]
+override-redirect = true
+monitor = ${env:MONITOR:HDMI-0}
+fixed-center = true
+width = 25%
+height = 32
+offset-x = 71.95%
+offset-y = 8
+radius = 10
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 2
+border-color = ${colors.foreground}
+
+padding-left = 10px
+padding-right = 15px
+
+module-margin-left = 0
+module-margin-right = 1
+
+
+font-0 = SauceCodePro Nerd Font:style=Regular:pixelsize=10;1
+font-1 = SauceCodePro Nerd Font:style=Regular:pixelsize=11;1
+modules-left = pulseaudio date 
+modules-center = eth 
+modules-right = mega power
+
+
+;tray-detached = true
+;tray-offset-x = -30px
+;tray-maxsize = 18
+;tray-position = right
+;tray-transparent = false
+;tray-background = #fffff
+wm-restack = i3
+
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/xwindow]
+format =  <label> 
+type = internal/xwindow
+label = %title% 
+label-empty =  Empty 
+label-maxlen = 20
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+[module/mpd]
+type = internal/mpd
+host = 127.0.0.1
+port = 6600
+password = 
+
+; Seconds to sleep between progressbar/song timer sync
+; Default: 1
+interval = 2
+
+; Available tags:
+;   <label-song> (default)
+;   <label-time>
+;   <bar-progress>
+;   <toggle> - gets replaced with <icon-(pause|play)>
+;   <toggle-stop> - gets replaced with <icon-(stop|play)>
+;   <icon-random>
+;   <icon-repeat>
+;   <icon-repeatone>
+;   <icon-consume>
+;   <icon-prev>
+;   <icon-stop>
+;   <icon-play>
+;   <icon-pause>
+;   <icon-next>
+;   <icon-seekb>
+;   <icon-seekf>
+format-online =  %{T2}├%{T-}<bar-progress>%{T2}┤%{T-}<label-time> 
+;format-online = %{T1}<icon-prev> <toggle> <icon-next>%{T-} %{T2}|%{T-}<bar-progress>%{T2}|%{T-}<label-time> <label-song> 
+format-playing = ${self.format-online}
+format-paused = ${self.format-online}
+format-stopped = ${self.format-online}
+
+; Available tags:
+;   <label-offline>
+format-offline = <label-offline>
+
+; Available tokens:
+;   %artist%
+;   %album-artist%
+;   %album%
+;   %date%
+;   %title%
+; Default: %artist% - %title%
+;label-song = 𝄞 %artist% - %title%
+label-song=%{T2} %title:0:20:...%%{T-}
+; Available tokens:
+;   %elapsed%
+;   %total%
+; Default: %elapsed% / %total%
+label-time = %{T2}%elapsed%/%total%%{T-}
+
+; Available tokens:
+;   None
+label-offline = 🎜 mpd is offline
+
+; Only applies if <icon-X> is used
+icon-play = 奈
+icon-pause = 
+icon-stop = 
+icon-prev = ﭢ
+icon-next = ﭠ
+icon-seekb = 
+icon-seekf = 
+icon-random = 
+icon-repeat = 
+icon-repeatone = 綾
+icon-consume = 
+
+; Used to display the state of random/repeat/repeatone
+; Only applies if <icon-[random|repeat|repeatone]> is used
+toggle-on-foreground = #ff
+toggle-off-foreground = #55
+
+; Only applies if <bar-progress> is used
+bar-progress-width = 25
+bar-progress-indicator = %{T2}%{T-}
+bar-progress-fill = %{T2}─%{T-}
+bar-progress-empty = %{T2}─%{T-}
+
+
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+
+[module/i3]
+type = internal/i3
+
+ws-icon-0 = 0;
+ws-icon-1 = 1;
+ws-icon-2 = 2; 
+ws-icon-3 = 3; 
+ws-icon-4 = 4; 
+ws-icon-5 = 5; 
+ws-icon-6 = 6;
+ws-icon-7 = 7;
+ws-icon-8 = 8;  
+ws-icon-9 = 9;
+
+ws-icon-default = 
+
+format = <label-state>
+
+index-sort = false
+wrapping-scroll = false
+
+
+; Only show workspaces on the same output as the bar
+pin-workspaces = false
+
+label-mode-padding = 5
+label-mode-foreground = ${colors.sedondary}
+label-mode-background = ${colors.background-alt}
+
+; focused = Active workspace on focused monitor
+label-focused = %icon%
+label-focused-foreground = ${colors.foreground}
+label-focused-background = ${colors.background};#a31e0e3c
+label-focused-padding = 1
+
+label-unfocused-foreground= ${colors.primary}
+label-unfocused-background= ${colors.background-alt}
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %icon%
+label-unfocused-padding = 1
+
+; visible = Active workspace on unfocused monitor
+label-visible = %icon%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Workspace with urgency hint set
+label-urgent = %icon%
+label-urgent-foreground = ${colors.secondary}
+label-urgent-underline = ${colors.background}
+label-urgent-padding = 1
+
+; Separator in between workspaces
+label-separator = ""
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+;format-underline = #4bffdc
+label =|  %gb_used% 
+
+[module/wlan]
+type = internal/network
+interface = net1
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #9f78e1
+label-connected = %essid%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+
+[module/mega]
+type = custom/script
+exec = echo %{T2}"מּ"%{T-}
+click-left = megasync
+
+[module/pulseaudio]
+type = custom/script
+tail = true
+format-underline = ${colors.cyan}
+label-padding = 0
+label-foreground = ${colors.foreground}
+
+# Icons mixed from Font Awesome 5 and Material Icons
+# You can copy-paste your options for each possible action, which is more
+# trouble-free but repetitive, or apply only the relevant ones (for example
+# --sink-blacklist is only needed for next-sink).
+exec = pulseaudio-control --format '$VOL_ICON ${VOL_LEVEL}%' --icons-volume " , " --icon-muted " " --node-nicknames-from "device.description" --node-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" --node-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:  Headphones" listen
+click-right = exec pavucontrol &
+click-left = pulseaudio-control togmute
+click-middle = pulseaudio-control --node-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-node
+scroll-up = pulseaudio-control --volume-max 130 up
+scroll-down = pulseaudio-control --volume-max 130 down
+
+
+[module/eth]
+type = internal/network
+interface = enp6s0
+interval = 3.0
+
+;format-connected-underline = #55aa55
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground}
+
+label-connected = %local_ip%
+
+format-disconnected-prefix = ""
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/power]
+
+type = custom/script
+exec = echo "⏻"
+click-left = ~/.config/rofi/applets/applets/powermenu.sh  
+format-padding = 1
+
+[module/]
+
+[module/date]
+label =  %date%  %time%
+type = internal/date
+interval = 5
+
+date = %d/%m/%y
+
+; Optional time format
+time = %H:%M
+
+
+[settings]
+
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over

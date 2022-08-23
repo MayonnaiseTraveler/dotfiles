@@ -205,7 +205,7 @@ workspace $ws10 output DP-1
 ########################################################
 
 # resize window (you can also use the mouse for that)
-mode "resize" {
+mode "resize" {{
         # These bindings trigger as soon as you enter the resize mode
 
         # Pressing left will shrink the window’s width.
@@ -227,22 +227,22 @@ mode "resize" {
         bindsym Return mode  "default"
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
-}
+}}
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #133c70	
+set $bg-color 	         {color0}	
 #neonpink
 
-set $fg-color #f5f577
+set $fg-color {color1}
 
-set $inactive-bg-color   #133c70
+set $inactive-bg-color   {color0}
 
-set $text-color          #f5f577	
+set $text-color          {color1}	
 
-set $inactive-text-color #f5f577
+set $inactive-text-color {color1}
 
-set $urgent-bg-color     #133c70	
+set $urgent-bg-color     {color0}	
 
 # window colors
 
