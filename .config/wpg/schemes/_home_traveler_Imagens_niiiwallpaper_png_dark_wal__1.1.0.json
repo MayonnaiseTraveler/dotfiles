@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/traveler/Imagens/niiiwallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f233e",
+        "foreground": "#eff1c8",
+        "cursor": "#eff1c8"
+    },
+    "colors": {
+        "color0": "#0f233e",
+        "color1": "#D5E370",
+        "color2": "#2F608E",
+        "color3": "#55678E",
+        "color4": "#2B5EC9",
+        "color5": "#619FA4",
+        "color6": "#40ABC4",
+        "color7": "#eff1c8",
+        "color8": "#a7a88c",
+        "color9": "#D5E370",
+        "color10": "#2F608E",
+        "color11": "#55678E",
+        "color12": "#2B5EC9",
+        "color13": "#619FA4",
+        "color14": "#40ABC4",
+        "color15": "#eff1c8"
+    }
+}
