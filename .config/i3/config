@@ -165,6 +165,7 @@ assign [class="TelegramDesktop"] $ws4
 assign [class="discord"] $ws4
 assign [class="Element"] $ws4
 assign [class="postybirb"] $ws4
+assign [class="easyeffects"] $ws4
 assign [class="Firefox"] $ws5
 assign [class="Brave-browser"] $ws5
 assign [class="librewolf"] $ws5
@@ -270,8 +271,10 @@ smart_borders no_gaps
 #border_radius 
 for_window [class=".*"] border pixel 0
 
-#bar
+#active border fix
+exec_always --no-startup-id ~/.config/i3/xborder.sh 
 
+#bar
 exec_always --no-startup-id ~/.config/i3/polybar3.sh 
 #exec_always --no-startup-id ~/.config/i3/polybar.sh 
 #exec_always xfce4-panel
@@ -362,7 +365,7 @@ exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --
 
 #run script that auto creates terminal windows and runs cool stuff on workspace 1
 exec --no-startup-id ~/.config/i3/xdotool.sh
-exec_always --no-startup-id ~/.config/i3/xborder.sh 
+exec --no-startup-id wpg -s /home/traveler/Imagens/niiiwallpaper.png #set wallpaper
 
 #run xfce-polkit
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit

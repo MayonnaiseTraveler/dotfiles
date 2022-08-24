@@ -23,7 +23,7 @@
     idle_threshold = 120
 
     ### Text ###
-    font = auto 10
+    font = Sauce Code Pro Nerd Font Complete 10
     line_height = 0
 
     markup = full

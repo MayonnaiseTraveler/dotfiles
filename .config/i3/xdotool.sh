@@ -9,7 +9,7 @@ xdotool type "bpytop"
 xdotool key enter
 
 sleep 0.5
-xdotool key super+h
+xdotool key super+ç
 xdotool key super+enter
 
 sleep 0.5
@@ -30,7 +30,7 @@ xdotool type "ncmpcpp"
 xdotool key enter
 
 sleep 0.25
-xdotool key super+h
+xdotool key super+ç
 xdotool key super+enter
 
 

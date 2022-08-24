@@ -38,9 +38,7 @@ After that, just replace the config files in your home directory with the new st
 
 ### ToDo:
 
-
-- [ ] start using wpgtk to manage themes
-- [ ] add JGMENU
+- [ ] Clear Scripts and re-organize files
 - [ ] Create bash script for installation
 - [ ] Create Eww widgets
 - [ ] Create a bar with Eww
@@ -49,6 +47,7 @@ After that, just replace the config files in your home directory with the new st
 - [ ] add a list of browser extensions i use
 - [ ] clean all config files that look like frankenstein
 - [ ] remove unecessary dependencies
+- [x] start using wpgtk to manage themes
 - [x] update readme further
 - [x] remove some of my personal stuff from the repo later
 - [x] remove unecessary files
