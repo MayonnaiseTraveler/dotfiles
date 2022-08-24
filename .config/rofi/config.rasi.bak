@@ -1,0 +1,6 @@
+configuration {
+	show-icons: true;
+	icon-theme: "oomox-RedSynth";
+}
+
+@theme "/home/traveler/.config/rofi/applets/styles/redSynth.rasi"

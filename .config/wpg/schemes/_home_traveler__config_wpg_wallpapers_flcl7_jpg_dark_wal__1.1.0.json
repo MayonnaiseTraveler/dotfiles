@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/flcl7.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010101",
+        "foreground": "#f6f2de",
+        "cursor": "#f6f2de"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#DCA55C",
+        "color2": "#F4CC74",
+        "color3": "#ADAA94",
+        "color4": "#FEED97",
+        "color5": "#DFD1A0",
+        "color6": "#FFF1AE",
+        "color7": "#f6f2de",
+        "color8": "#aca99b",
+        "color9": "#DCA55C",
+        "color10": "#F4CC74",
+        "color11": "#ADAA94",
+        "color12": "#FEED97",
+        "color13": "#DFD1A0",
+        "color14": "#FFF1AE",
+        "color15": "#f6f2de"
+    }
+}
