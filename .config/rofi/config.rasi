@@ -3,4 +3,4 @@ configuration {
 	icon-theme: "oomox-RedSynth";
 }
 
-@theme "/home/traveler/.config/rofi/applets/styles/redSynth.rasi"
+@theme "/home/traveler/.config/rofi/wpg.rasi"

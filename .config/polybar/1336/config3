@@ -18,24 +18,23 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #180d25
-background-alt = #180d25
+background = #0f233e
+background-alt = #0f233e
 ;foreground = ${xrdb:color7:#222}
-foreground = #f9188f
-foreground-alt = #111111
-primary = #3e2a47
-secondary = #33173F
-alert = #bd2c40
+foreground = #D5E370
+foreground-alt = #ffff7b
+primary = #183966
+secondary = #D5E370
+alert = #55678E
 
 [bar/left]
 override-redirect = true
-monitor = ${env:MONITOR:HDMI-0}
 fixed-center = false
-offset-x= 3%-10px
+offset-x= 4%
 width = 25%
 height = 32
 offset-y = 8
-radius = 0
+radius = 10
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -62,13 +61,12 @@ wm-restack = i3
 
 [bar/middle]
 override-redirect = true
-monitor = ${env:MONITOR:HDMI-0}
 fixed-center = false
 width = 22%
 height = 32
 offset-x = 39%
 offset-y = 8
-radius = 0
+radius = 10
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -98,13 +96,12 @@ wm-restack = i3
 
 [bar/right]
 override-redirect = true
-monitor = ${env:MONITOR:HDMI-0}
 fixed-center = true
 width = 25%
 height = 32
-offset-x = 71.95%
+offset-x = 71%
 offset-y = 8
-radius = 0
+radius = 10
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -129,12 +126,12 @@ modules-center = eth
 modules-right = mega power
 
 
-;tray-detached = true
-;tray-offset-x = -30px
-;tray-maxsize = 18
-;tray-position = right
-;tray-transparent = false
-;tray-background = #fffff
+tray-detached = true
+tray-offset-x = -60px
+tray-maxsize = 18
+tray-position = right
+tray-transparent = false
+tray-background = #fffff
 wm-restack = i3
 
 
