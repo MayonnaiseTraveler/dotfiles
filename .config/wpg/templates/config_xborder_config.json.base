@@ -1,6 +1,0 @@
-{{
-  "border-rgba": "#{color1.strip}FF",
-  "border-width": 2,
-  "border-radius": 10,
-  "border-mode": "center"
-}}

@@ -16,4 +16,5 @@
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
   <property name="last-details-view-column-widths" type="string" value="50,155,50,50,280,50,50,88,50,148"/>
   <property name="last-side-pane" type="string" value="ThunarTreePane"/>
+  <property name="misc-change-window-icon" type="bool" value="true"/>
 </channel>

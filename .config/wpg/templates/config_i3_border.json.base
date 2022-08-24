@@ -1,0 +1,6 @@
+{{
+  "border-rgba": "{color1}FF",
+  "border-width": 2,
+  "border-radius": 10,
+  "border-mode": "center"
+}}
