@@ -365,7 +365,7 @@ exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --
 
 #run script that auto creates terminal windows and runs cool stuff on workspace 1
 exec --no-startup-id ~/.config/i3/xdotool.sh
-exec --no-startup-id wpg -s /home/traveler/Imagens/niiiwallpaper.png #set wallpaper
+exec --no-startup-id feh --bg-fill  /home/traveler/Imagens/niiiwallpaper.png #set wallpaper
 
 #run xfce-polkit
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit

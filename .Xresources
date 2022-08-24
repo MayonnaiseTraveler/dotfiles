@@ -1,4 +1,5 @@
-Xcursor.size: 32;
+Xcursor.size: 24;
+Xcursor.theme: Bibata-Rainbow-Modern;
 *background:  #180d25
 *cursorColor:  #0abdc6
 *foreground:  #f9188f
