@@ -18,14 +18,14 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #0f233e
-background-alt = #0f233e
+background = #102a4f
+background-alt = #102a4f
 ;foreground = ${xrdb:color7:#222}
-foreground = #D5E370
-foreground-alt = #ffff7b
-primary = #D5E370
-secondary = #ffff7b
-alert = #183966
+foreground = #e7f86d
+foreground-alt = #ffff77
+primary = #174079
+secondary = #174079
+alert = #174079
 
 [bar/left]
 override-redirect = true

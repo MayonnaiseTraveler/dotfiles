@@ -231,18 +231,18 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #0f233e	
+set $bg-color 	         #102a4f	
 #neonpink
 
-set $fg-color #D5E370
+set $fg-color #e7f86d
 
-set $inactive-bg-color   #0f233e
+set $inactive-bg-color   #102a4f
 
-set $text-color          #D5E370	
+set $text-color          #e7f86d	
 
-set $inactive-text-color #D5E370
+set $inactive-text-color #e7f86d
 
-set $urgent-bg-color     #0f233e	
+set $urgent-bg-color     #102a4f	
 
 # window colors
 
@@ -272,7 +272,7 @@ for_window [class=".*"] border pixel 0
 
 #bar
 
-exec_always --no-startup-id ~/.config/i3/polybar4.sh 
+exec_always --no-startup-id ~/.config/i3/polybar3.sh 
 #exec_always --no-startup-id ~/.config/i3/polybar.sh 
 #exec_always xfce4-panel
 

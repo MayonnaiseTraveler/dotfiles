@@ -272,7 +272,7 @@ for_window [class=".*"] border pixel 0
 
 #bar
 
-exec_always --no-startup-id ~/.config/i3/polybar4.sh 
+exec_always --no-startup-id ~/.config/i3/polybar3.sh 
 #exec_always --no-startup-id ~/.config/i3/polybar.sh 
 #exec_always xfce4-panel
 

@@ -23,8 +23,8 @@ background-alt = {color0}
 ;foreground = ${{xrdb:color7:#222}}
 foreground = {color1}
 foreground-alt = {color9}
-primary = {color1}
-secondary = {color9}
+primary = {color8}
+secondary = {color8}
 alert = {color8}
 
 [bar/left]

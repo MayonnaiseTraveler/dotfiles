@@ -9,6 +9,6 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 #set config
 
 # Launch polybar
-polybar -c ~/.config/polybar/1920/config3 middle &
-polybar -c ~/.config/polybar/1920/config3 right &
-polybar -c ~/.config/polybar/1920/config3 left &
+polybar -c ~/.config/polybar/1920/config4 middle &
+polybar -c ~/.config/polybar/1920/config4 right &
+polybar -c ~/.config/polybar/1920/config4 left &

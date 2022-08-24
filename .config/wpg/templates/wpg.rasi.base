@@ -20,7 +20,7 @@
     active:		{active};
     inactive:	{inactive};
 
-	background:						@color0;
+    background:						@color0;
     foreground:						@color15;
 
     background-color:				@background;
@@ -53,14 +53,15 @@
 
 window {{
     background-color: @background;
-	border-color: @active;
-    border:           5;
-    padding:          0;
+    border-color: @active;
+    border:           2px solid 2px 2px;
+    border-radius:    10px;
+    padding:          10px;
 }}
 
 mainbox {{
     border:  0px;
-	border-color: @active;
+    border-color: @active;
     padding: 0;
 }}
 
@@ -71,7 +72,10 @@ message {{
 }}
 
 textbox {{
-    highlight:  @highlight;
+    border-color:@foreground;
+    border : 0px solid 0px 0px ;
+    border-radius:10px;
+    highlight:  @foreground;
     text-color: @color15;
 }}
 
@@ -80,12 +84,14 @@ listview {{
     padding:      2px 0 0;
     border-color: @separatorcolor;
     spacing:      0px;
-    scrollbar:    @scrollbar;
 }}
 
 element {{
-    border:  0;
+    border:  0px;
+    margin:2px;
+    border-radius:10px;
     padding: 3px;
+    padding-left:6px;
 }}
 
 element.normal.normal {{
