@@ -183,10 +183,3 @@ element-text, element-icon {
 	text-color: @foreground;
 	background-color: transparent;
 }
-    0;
-    text-color: @normal-foreground;
-}
-prompt {
-    spacing:    0;
-    text-color: @normal-foreground;
-}

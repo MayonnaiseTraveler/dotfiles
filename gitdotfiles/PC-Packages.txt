@@ -189,6 +189,7 @@ powerline-fonts
 pulseaudio-alsa
 pulseaudio-control
 pureref
+python-pip
 python-pyalsa
 python-virtualenv
 qbittorrent
@@ -235,6 +236,7 @@ ttf-oxanium
 ttf-times-new-roman
 tty-clock
 tty-countdown-git
+ueberzug
 ufw
 unrar
 unzip
