@@ -276,16 +276,8 @@ exec_always --no-startup-id ~/.config/i3/xborder.sh
 
 #bar
 exec_always --no-startup-id ~/.config/i3/polybar3.sh 
-#exec_always --no-startup-id ~/.config/i3/polybar.sh 
-#exec_always xfce4-panel
-
-exec_always pulseaudio
 
 #Set wallpaper
-#exec_always --no-startup-id feh --bg-fill ~/Imagens/BunnyBlood1.png
-# exec_always --no-startup-id feh --bg-fill ~/Imagens/lainanded.webp
-#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
-
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
 #exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
@@ -318,8 +310,15 @@ bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec ~/.config/rofi/applets/applets/powermenu.sh
+
 #pavucontrol shortcut
 bindsym $mod+shift+a exec pavucontrol
+
+#Ranger shortcut
+bindsym $mod+shift+f exec kitty -e ranger
+
+#Vim Shortcut
+bindsym $mod+shift+v exec kitty -e lvim
 
 #kills picom, just in case something goes wrong and i need to kill it
 bindsym $mod+c exec killall picom
@@ -328,7 +327,7 @@ bindsym $mod+c exec killall picom
 bindsym $mod+alt+k exec --no-startup-id krita
 
 # a script i'm currently working on, at the moment the code is trash, it will set the volume of the active window to 0.
-bindsym $mod+shift+b exec --no-startup-id ~/.config/i3/setvolumeofactivewindow.sh
+# bindsym $mod+shift+b exec --no-startup-id ~/.config/i3/setvolumeofactivewindow.sh
 
 #screenshot
 bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -target image/png
@@ -357,7 +356,7 @@ bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primar
 ##########################################################################
 
 #megasync, cause i'm dumb
-exec xset r rate 300 50
+exec --no-startup-id xset r rate 300 50
 exec --no-startup-id megasync
 
 #set to default to one monitor
