@@ -264,7 +264,6 @@ gaps bottom 16
 #workspace $ws1 gaps inner 16  
 #workspace $ws1 gaps outer 64
 
-
 #smart_gaps on
 #smart_borders on
 smart_borders no_gaps
@@ -276,15 +275,8 @@ exec_always --no-startup-id ~/.config/i3/xborder.sh
 
 #bar
 exec_always --no-startup-id ~/.config/i3/polybar3.sh 
-#exec_always --no-startup-id ~/.config/i3/polybar.sh 
-#exec_always xfce4-panel
 
 exec_always pulseaudio
-
-#Set wallpaper
-#exec_always --no-startup-id feh --bg-fill ~/Imagens/BunnyBlood1.png
-# exec_always --no-startup-id feh --bg-fill ~/Imagens/lainanded.webp
-#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
 
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
@@ -318,8 +310,15 @@ bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec ~/.config/rofi/applets/applets/powermenu.sh
+
 #pavucontrol shortcut
 bindsym $mod+shift+a exec pavucontrol
+
+#Ranger shortcut
+bindsym $mod+shift+f exec kitty -e ranger
+
+#Vim Shortcut
+bindsym $mod+shift+v exec kitty -e lvim
 
 #kills picom, just in case something goes wrong and i need to kill it
 bindsym $mod+c exec killall picom

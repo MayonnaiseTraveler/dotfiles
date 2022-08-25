@@ -264,7 +264,6 @@ gaps bottom 16
 #workspace $ws1 gaps inner 16  
 #workspace $ws1 gaps outer 64
 
-
 #smart_gaps on
 #smart_borders on
 smart_borders no_gaps
@@ -277,7 +276,8 @@ exec_always --no-startup-id ~/.config/i3/xborder.sh
 #bar
 exec_always --no-startup-id ~/.config/i3/polybar3.sh 
 
-#Set wallpaper
+exec_always pulseaudio
+
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
 #exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
@@ -327,7 +327,7 @@ bindsym $mod+c exec killall picom
 bindsym $mod+alt+k exec --no-startup-id krita
 
 # a script i'm currently working on, at the moment the code is trash, it will set the volume of the active window to 0.
-# bindsym $mod+shift+b exec --no-startup-id ~/.config/i3/setvolumeofactivewindow.sh
+bindsym $mod+shift+b exec --no-startup-id ~/.config/i3/setvolumeofactivewindow.sh
 
 #screenshot
 bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -target image/png
@@ -356,7 +356,7 @@ bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output HDMI-0 --primar
 ##########################################################################
 
 #megasync, cause i'm dumb
-exec --no-startup-id xset r rate 300 50
+exec xset r rate 300 50
 exec --no-startup-id megasync
 
 #set to default to one monitor
