@@ -192,7 +192,6 @@ python-pyalsa
 python-virtualenv
 qbittorrent
 qt5ct
-qtox
 quickmedia-git
 ranger
 rclone-bin
