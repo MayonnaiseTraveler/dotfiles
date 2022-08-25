@@ -46,7 +46,7 @@ After that, just replace the config files in your home directory with the new st
 - [ ] finish bash script that changes volume of the active window
 - [ ] add a list of browser extensions i use
 - [ ] clean all config files that look like frankenstein
-- [ ] remove unecessary dependencies
+- [x] remove unecessary dependencies
 - [x] start using wpgtk to manage themes
 - [x] update readme further
 - [x] remove some of my personal stuff from the repo later

@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "rose-pine"
+lvim.colorscheme = "tokyonight"
 lvim.builtin.lualine.style = "default"
 lvim.builtin.lualine.options.theme = "auto"
 lvim.transparent_window = true
@@ -67,7 +67,7 @@ lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
-lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
+lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
@@ -152,8 +152,8 @@ require('rose-pine').setup({
   dark_variant = 'moon',
   bold_vert_split = false,
   dim_nc_background = false,
-  disable_background = false,
-  disable_float_background = false,
+  disable_background = true,
+  disable_float_background = true,
   disable_italics = false,
 
   groups = {
@@ -189,11 +189,13 @@ require('rose-pine').setup({
 -- Additional Plugins
 lvim.plugins = {
   { "folke/tokyonight.nvim" },
+  { 'mhartington/oceanic-next' },
   { "lukas-reineke/indent-blankline.nvim" },
   {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",
   },
+  { 'kyazdani42/blue-moon' },
   { "yonlu/omni.vim" },
   { "yashguptaz/calvera-dark.nvim" },
   { "rose-pine/neovim" },
@@ -209,6 +211,8 @@ lvim.plugins = {
     "catppuccin/nvim",
     as = "catppuccin"
   },
+  { 'ishan9299/nvim-solarized-lua' },
+  { 'sainnhe/everforest' },
   {
     "folke/zen-mode.nvim",
     config = function()
