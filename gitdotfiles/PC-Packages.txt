@@ -139,6 +139,7 @@ mysql-workbench
 nano
 ncmpcpp
 neofetch
+neovim
 nerd-fonts-source-code-pro
 net-tools
 network-manager-applet
