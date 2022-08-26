@@ -109,6 +109,7 @@ After that, just copy everything and paste it in your home folder
 - [ ] Clear Scripts and re-organize files
 - [ ] Add theme to rofi shutdown menus
 - [ ] Fix rofi menu on 1336x728 screens
+- [ ] Create Script to help downloading musics from yt
 - [ ] Create Keybind list in Readme
 - [ ] Create bash script for installation
 - [ ] Create Eww widgets
