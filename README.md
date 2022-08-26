@@ -85,6 +85,8 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
     * Arandr (screen configs)
     * OpenRGB (configure rgb stuff)
     * BleachBit (system cleaning util)
+    * KeePassXC ( password manager)
+    * Buttercup ( password manager)
 
 #
 
