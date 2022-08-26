@@ -1,6 +1,6 @@
 configuration {
 	show-icons: true;
-	icon-theme: "ePapirus";
+  icon-theme: "flattrcolor";
 }
 
 @theme "/home/traveler/.config/rofi/wpg.rasi"

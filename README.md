@@ -104,9 +104,11 @@ After that, just copy everything and paste it in your home folder
 
 ### ToDo:
 - [ ] change polybar stuff position
+- [ ] Upgrade Dunst
 - [ ] change mpc keybinds to use keyboard media keys
 - [ ] Clear Scripts and re-organize files
 - [ ] Add theme to rofi shutdown menus
+- [ ] Fix rofi menu on 1336x728 screens
 - [ ] Create Keybind list in Readme
 - [ ] Create bash script for installation
 - [ ] Create Eww widgets
