@@ -13,6 +13,11 @@
 </pre>
 <hr>
 
+<img src="gitdotfiles/screenshot1.png">
+
+<img src="gitdotfiles/screenshot2.png">
+
+
 This repository contains the dots for my Arch Linux Setup, currently it has:
 
 * WM's : 
@@ -89,12 +94,6 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
     * Buttercup ( password manager)
 
 #
-
-#### i3-gaps
-
-<img src="gitdotfiles/screenshot1.png">
-
-<img src="gitdotfiles/screenshot2.png">
 
 ***
 #### How do i install it?
