@@ -103,7 +103,8 @@ After that, just copy everything and paste it in your home folder
 ***
 
 ### ToDo:
-
+- [ ] change polybar stuff position
+- [ ] change mpc keybinds to use keyboard media keys
 - [ ] Clear Scripts and re-organize files
 - [ ] Add theme to rofi shutdown menus
 - [ ] Create Keybind list in Readme
