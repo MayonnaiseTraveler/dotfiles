@@ -31,7 +31,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle # && $refresh_i3status
 
 #mpd controls
-bindsym $mod+comma exec --no-startup-id mpc prev 
+bindsym $mod+comma exec --no-startup-id mpc prev && notify-send mpc
 bindsym $mod+period exec --no-startup-id mpc next
 bindsym $mod+semicolon exec --no-startup-id mpc toggle && dunstify "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)"
 bindsym $mod+equal exec --no-startup-id mpc volume +10 && dunstify -r 44 "$(mpc volume)"
@@ -165,7 +165,6 @@ assign [class="TelegramDesktop"] $ws4
 assign [class="discord"] $ws4
 assign [class="Element"] $ws4
 assign [class="postybirb"] $ws4
-assign [class="easyeffects"] $ws4
 assign [class="Firefox"] $ws5
 assign [class="Brave-browser"] $ws5
 assign [class="librewolf"] $ws5
@@ -206,7 +205,7 @@ workspace $ws10 output DP-1
 ########################################################
 
 # resize window (you can also use the mouse for that)
-mode "resize" {{
+mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
         # Pressing left will shrink the window’s width.
@@ -228,22 +227,22 @@ mode "resize" {{
         bindsym Return mode  "default"
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
-}}
+}
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         {color0}	
+set $bg-color 	         #33173F	
 #neonpink
 
-set $fg-color {color1}
+set $fg-color #f9188f
 
-set $inactive-bg-color   {color0}
+set $inactive-bg-color   #180d25
 
-set $text-color          {color1}	
+set $text-color          #f9188f	
 
-set $inactive-text-color {color1}
+set $inactive-text-color #f9188f
 
-set $urgent-bg-color     {color0}	
+set $urgent-bg-color     #96155b	
 
 # window colors
 
@@ -264,27 +263,31 @@ gaps bottom 16
 #workspace $ws1 gaps inner 16  
 #workspace $ws1 gaps outer 64
 
+
 #smart_gaps on
 #smart_borders on
 smart_borders no_gaps
-# border_radius 10
+#border_radius 
 for_window [class=".*"] border pixel 0
 
-#active border fix
-exec_always --no-startup-id ~/.config/i3/xborder.sh 
-
 #bar
-exec_always --no-startup-id ~/.config/i3/polybar3.sh 
+
+exec_always --no-startup-id ~/.config/i3/polybar4.sh 
+#exec_always --no-startup-id ~/.config/i3/polybar.sh 
+#exec_always xfce4-panel
 
 exec_always pulseaudio
 
-#fix wallpaper
-exec_always --no-startup-id feh --bg-fill  /home/traveler/Imagens/niiiwallpaper.png #set wallpaper
+#Set wallpaper
+#exec_always --no-startup-id feh --bg-fill ~/Imagens/BunnyBlood1.png
+exec_always --no-startup-id feh --bg-fill ~/Imagens/lainanded.webp
+#exec_always --no-startup-id feh --bg-fill ~/Imagens/page0.png
 
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
 #exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
-exec_always picom --config ~/.config/picom/picom.conf
+exec_always picom -o 1 -f -z  --experimental-backends --backend glx 
+
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"
 
@@ -312,15 +315,8 @@ bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec ~/.config/rofi/applets/applets/powermenu.sh
-
 #pavucontrol shortcut
 bindsym $mod+shift+a exec pavucontrol
-
-#Ranger shortcut
-bindsym $mod+shift+f exec kitty -e ranger
-
-#Vim Shortcut
-bindsym $mod+shift+v exec kitty -e lvim
 
 #kills picom, just in case something goes wrong and i need to kill it
 bindsym $mod+c exec killall picom
@@ -366,6 +362,7 @@ exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --
 
 #run script that auto creates terminal windows and runs cool stuff on workspace 1
 exec --no-startup-id ~/.config/i3/xdotool.sh
+exec --no-startup-id python3 ~/.config/xborder/xborders -c ~/.config/xborder/config.json
 
 #run xfce-polkit
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit

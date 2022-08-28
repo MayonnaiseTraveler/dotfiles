@@ -267,7 +267,7 @@ gaps bottom 16
 #smart_gaps on
 #smart_borders on
 smart_borders no_gaps
-#border_radius 
+# border_radius 10
 for_window [class=".*"] border pixel 0
 
 #active border fix
@@ -278,11 +278,13 @@ exec_always --no-startup-id ~/.config/i3/polybar3.sh
 
 exec_always pulseaudio
 
+#fix wallpaper
+exec_always --no-startup-id feh --bg-fill  /home/traveler/Imagens/niiiwallpaper.png #set wallpaper
+
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
 #exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
-exec_always picom -o 1 -f -z  --experimental-backends --backend glx 
-
+exec_always picom --config ~/.config/picom/picom.conf
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"
 
@@ -364,7 +366,6 @@ exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --
 
 #run script that auto creates terminal windows and runs cool stuff on workspace 1
 exec --no-startup-id ~/.config/i3/xdotool.sh
-exec --no-startup-id feh --bg-fill  /home/traveler/Imagens/niiiwallpaper.png #set wallpaper
 
 #run xfce-polkit
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit

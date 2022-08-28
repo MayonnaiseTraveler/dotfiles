@@ -1,17 +1,14 @@
 {
-    "Discord+": false,
-    "Discord Cyberpunk Neon Transparent": false,
-    "Discord Cyberpunk Neon / Synthwave version": true,
-    "ClearVision": true,
-    "Float": false,
-    "Neutron": false,
-    "Frosted Glass": false,
     "BasicBackground": false,
-    "        Black Hole": false,
-    "Cyberpunk": false,
-    "dracula": false,
-    "Omni": false,
-    "Tokyo Night": false,
     "Black Hole": false,
-    "DiscordRecolor": true
+    "ClearVision": true,
+    "Cyberpunk": false,
+    "Discord+": false,
+    "DiscordRecolor": true,
+    "Frosted Glass": false,
+    "Discord Cyberpunk Neon Transparent": false,
+    "dracula": false,
+    "Neutron": false,
+    "Omni": false,
+    "Tokyo Night": false
 }
