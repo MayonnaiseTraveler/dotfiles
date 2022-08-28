@@ -107,6 +107,7 @@ After that, just copy everything and paste it in your home folder
 - [ ] Upgrade Dunst
 - [ ] change mpc keybinds to use keyboard media keys
 - [ ] Clear Scripts and re-organize files
+- [ ] Learn how to make rofi menus!
 - [ ] Add theme to rofi shutdown menus
 - [ ] Fix rofi menu on 1336x728 screens
 - [ ] Create Script to help downloading musics from yt
