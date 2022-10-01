@@ -328,7 +328,7 @@ GtkLabel:disabled {
 .floating-bar {
     border-width: 3px;
     border-style: none;
-    border-radius: 0px;
+    border-radius: 10px;
     background-color: @theme_bg_color;
     background-image: none;
     color: @theme_fg_color;
@@ -509,7 +509,7 @@ calendar:disabled:selected {
  ************/
 
 tooltip {
-    border-radius: 2px;
+    border-radius: 10px;
     box-shadow: none;
 }
 tooltip.background {
@@ -750,7 +750,7 @@ GtkBubbleWindow .toolbar {
 
 decoration {
     transition: box-shadow 0.3s cubic-bezier(0, 0, 0.2, 1);
-    border-radius: 2px 2px 0 0;
+    border-radius: 10px;2px 0 0;
     box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22), 0 16px 16px transparent;
     margin: 8px;
 }
@@ -768,15 +768,15 @@ decoration:backdrop {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
 }
 .csd.popup decoration {
-    border-radius: 2px;
+    border-radius: 10px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
 }
 tooltip.csd decoration {
-    border-radius: 2px;
+    border-radius: 10px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
 }
 messagedialog.csd decoration {
-    border-radius: 2px;
+    border-radius: 10px;
 }
 .solid-csd decoration {
     margin: 4px;
