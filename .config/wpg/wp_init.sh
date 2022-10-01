@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -rs 'niiiwallpaper.png' 'niiiwallpaper.png'
+wpg -rs 'cyberpunk1.jpg' 'cyberpunk1.jpg'

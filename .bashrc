@@ -47,6 +47,6 @@ alias config='/usr/bin/git --git-dir=/home/traveler/.cfg/ --work-tree=/home/trav
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
 # END_KITTY_SHELL_INTEGRATION
 export PATH="$PATH:/home/traveler/.local/share/gem/ruby/3.0.0/bin/"
-
+export PATH="$PATH:/home/traveler/.local/bin"
 
 _trap_exit() { tmux kill-session -t $$; }

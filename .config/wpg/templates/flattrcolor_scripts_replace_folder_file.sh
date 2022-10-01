@@ -1,1 +1,0 @@
-/home/traveler/.local/share/icons/flattrcolor/scripts/replace_folder_file.sh

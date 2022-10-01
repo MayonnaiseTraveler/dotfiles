@@ -33,7 +33,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 #mpd controls
 bindsym $mod+comma exec --no-startup-id mpc prev 
 bindsym $mod+period exec --no-startup-id mpc next
-bindsym $mod+semicolon exec --no-startup-id mpc toggle && dunstify "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)"
+bindsym $mod+semicolon exec --no-startup-id mpc toggle && dunstify "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
 bindsym $mod+equal exec --no-startup-id mpc volume +10 && dunstify -r 44 "$(mpc volume)"
 bindsym $mod+minus exec --no-startup-id mpc volume -10 && dunstify -r 44 "$(mpc volume)"
 
@@ -232,18 +232,18 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #042d4e	
+set $bg-color 	         #0a0a14	
 #neonpink
 
-set $fg-color #9df55a
+set $fg-color #c24373
 
-set $inactive-bg-color   #042d4e
+set $inactive-bg-color   #0a0a14
 
-set $text-color          #9df55a	
+set $text-color          #c24373	
 
-set $inactive-text-color #9df55a
+set $inactive-text-color #c24373
 
-set $urgent-bg-color     #042d4e	
+set $urgent-bg-color     #0a0a14	
 
 # window colors
 
@@ -270,16 +270,18 @@ smart_borders no_gaps
 # border_radius 10
 for_window [class=".*"] border pixel 0
 
+
 #active border fix
 exec_always --no-startup-id ~/.config/i3/xborder.sh 
+
+#Reset wallpaper if i3wm is reloaded
+exec_always --no-startup-id feh --bg-fill ~/Imagens/$(wpg -c) #set wallpaper
 
 #bar
 exec_always --no-startup-id ~/.config/i3/polybar3.sh 
 
 exec_always pulseaudio
 
-#fix wallpaper
-exec_always --no-startup-id feh --bg-fill  /home/traveler/Imagens/niiiwallpaper.png #set wallpaper
 
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
@@ -332,8 +334,7 @@ bindsym $mod+alt+k exec --no-startup-id krita
 bindsym $mod+shift+b exec --no-startup-id ~/.config/i3/setvolumeofactivewindow.sh
 
 #screenshot
-bindsym $mod+Print --release exec maim -s | xclip -selection clipboard -target image/png
-
+bindsym Print --release exec flameshot gui
 #run xdotool script to create default workspace
 bindsym $mod+x --release exec --no-startup-id ~/.config/i3/xdotool.sh
 
@@ -365,10 +366,11 @@ exec --no-startup-id megasync
 exec xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0
 
 #run script that auto creates terminal windows and runs cool stuff on workspace 1
-exec --no-startup-id ~/.config/i3/xdotool.sh
+# exec --no-startup-id ~/.config/i3/xdotool.sh
 
 #run xfce-polkit
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
+
 
 #autostart a few programs i use frequently
 exec easyeffects

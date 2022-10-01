@@ -1,4 +1,4 @@
-execute_on_song_change = dunstify -r 45 "Now Playing" "$(mpc --format ' %title% \n%artist% - %album%' current)" && mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
+execute_on_song_change = mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh && ~/.config/ncmpcpp/songinfo.sh
 [mpd]
 mpd_host = "localhost"
 mpd_port = "6600"
@@ -20,11 +20,8 @@ state_line_color = "magenta"
 state_flags_color= "cyan"
 
 [playlist]
-
-
-
 user-interface="alternative"
-playlist_display_mode = "classic"
+playlist_display_mode = "columns"
 song_list_format = "{{%a - %t}|{%f}}{$R%l}"
 now_playing_prefix = "$b$5"
 now_playing_suffix = "$/b$9"
@@ -42,13 +39,11 @@ song_library_format = "{{%a - %t}|{%f}}{$R%l} "
 empty_tag_color = "black"
 
 [global]
-
-
 colors_enabled = "yes"
 main_window_color = "cyan"
 centered_cursor = "yes"
 enable_window_title = "yes"
-external_editor = "vim"
+external_editor = "lvim"
 visualizer_look = "  "
 startup_screen = visualizer     
 startup_slave_screen = playlist 
