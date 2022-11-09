@@ -59,7 +59,9 @@ button:hover {
 #workspaces button {
     background-color:#02040C;
     color:#b9bfda;
-    padding: 5px 0px;
+    margin-left:0;
+    margin-right:0;
+    padding: 5px 10px;
 
 }
 #workspaces button * {
