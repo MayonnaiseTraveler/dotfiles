@@ -1,4 +1,3 @@
-
 lvim.format_on_save = false
 lvim.colorscheme = "rose-pine"
 lvim.builtin.lualine.style = "default"
@@ -7,10 +6,16 @@ lvim.transparent_window = true
 lvim.lsp.diagnostics.virtual_text = false
 vim.cmd("inoremap <kj> <Esc>")
 
-
 lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 vim.opt.relativenumber = true
+
+
+lvim.keys.normal_mode["<S-x>"] = ":BufferClose<CR>"
+lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
+lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
+-- lvim.builtin.which_key.mappings["e"] = { "<cmd>RnvimrToggle<CR>", "Ranger" }
+
 
 lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
 lvim.builtin.which_key.mappings["t"] = {
@@ -27,7 +32,6 @@ lvim.builtin.which_key.mappings["t"] = {
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
-lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
@@ -91,9 +95,16 @@ require('rose-pine').setup({
 })
 -- Additional Plugins
 lvim.plugins = {
-  { "folke/tokyonight.nvim" },
   { 'mhartington/oceanic-next' },
-  { "lukas-reineke/indent-blankline.nvim" },
+  {
+    "kevinhwang91/rnvimr",
+      cmd = "RnvimrToggle",
+      config = function()
+        vim.g.rnvimr_draw_border = 1
+        vim.g.rnvimr_pick_enable = 1
+        vim.g.rnvimr_bw_enable = 1
+        end,
+  },
   {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",

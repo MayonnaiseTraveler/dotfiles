@@ -29,7 +29,7 @@ alert = {color8}
 
 [bar/left]
 override-redirect = true
-monitor = ${{env:MONITOR:HDMI-0}}
+monitor = ${{env:MONITOR:DisplayPort-1}}
 fixed-center = false
 offset-x= 3%-10px
 width = 25%
@@ -62,7 +62,7 @@ wm-restack = i3
 
 [bar/middle]
 override-redirect = true
-monitor = ${{env:MONITOR:HDMI-0}}
+monitor = ${{env:MONITOR:DisplayPort-1}}
 fixed-center = false
 width = 22%
 height = 32
@@ -98,7 +98,7 @@ wm-restack = i3
 
 [bar/right]
 override-redirect = true
-monitor = ${{env:MONITOR:HDMI-0}}
+monitor = ${{env:MONITOR:DisplayPort-1}}
 fixed-center = true
 width = 25%
 height = 32
