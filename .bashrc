@@ -48,5 +48,5 @@ if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integr
 # END_KITTY_SHELL_INTEGRATION
 export PATH="$PATH:/home/traveler/.local/share/gem/ruby/3.0.0/bin/"
 export PATH="$PATH:/home/traveler/.local/bin"
-
+export qt_qpa_platform=xcb obs
 _trap_exit() { tmux kill-session -t $$; }

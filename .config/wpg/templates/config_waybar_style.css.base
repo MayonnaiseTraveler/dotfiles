@@ -6,9 +6,7 @@
 
 window#waybar {{
     background-color: transparent;
-    color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
+    color: transparent;
 }}
 
 window#waybar.hidden {{
@@ -20,18 +18,10 @@ window#waybar.empty {{
     background-color: transparent;
 }}
 window#waybar.solo {{
-    background-color: #FFFFFF;
+    background-color: transparent;
 }}
 
 
-window#waybar.termite {{
-    background-color: #3F3F3F;
-}}
-
-window#waybar.chromium {{
-    background-color: #000000;
-    border: none;
-}}
 
 #tray, button {{
     /* Use box-shadow instead of border so the text isn't offset */
@@ -57,6 +47,8 @@ button:hover {{
     color: #ffffff;
 }}
 #workspaces button {{
+    box-shadow: inherit;
+    text-shadow: inherit;
     background-color:{color0};
     color:{color7};
     margin-left:0;
@@ -98,6 +90,8 @@ button:hover {{
 #mode,
 #idle_inhibitor,
 #scratchpad,
+#custom-dunst,
+#custom-powermenu,
 #mpd {{
     background-color:{color0};
     padding: 20px 0px;
@@ -122,6 +116,7 @@ button:hover {{
 }}
 
 #clock {{
+    color: {color7};
 }}
 
 #battery {{

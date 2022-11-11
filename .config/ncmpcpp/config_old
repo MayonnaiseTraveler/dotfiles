@@ -1,3 +1,6 @@
+
+execute_on_song_change = mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh && ~/.config/ncmpcpp/songinfo.sh
+
 ##############################################################
 ## This is an example configuration file. Copy it to        ##
 ## $XDG_CONFIG_HOME/ncmpcpp/config or $HOME/.ncmpcpp/config ##
@@ -15,7 +18,6 @@
 ncmpcpp_directory = "~/.config/ncmpcpp"
 
 
-execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
 #
 ##
 ## Directory for storing downloaded lyrics. It defaults to ~/.lyrics since other

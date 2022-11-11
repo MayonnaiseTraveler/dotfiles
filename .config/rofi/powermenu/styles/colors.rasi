@@ -7,4 +7,12 @@
  *
  */
 
-@import "gotham.rasi"
+* {
+    background:                     #262134ff;
+    background-alt:                 #100e16ff;
+    foreground:                     #c3c2ebff;
+    border:                   			#9E3969ff;
+    border-alt:                 		#5F57A8ff;
+    selected:                   		#100e16ff;
+    urgent:                         #EF79D9ff;
+}

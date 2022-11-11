@@ -11,7 +11,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces" ],
     /* "modules-center": ["hyprland/window"], */
-    "modules-right": ["pulseaudio", "clock", "tray"],
+    "modules-right": ["pulseaudio", "clock", "custom/dunst", "tray","custom/powermenu"],
     // Modules configuration
      "wlr/workspaces": {
          "all-outputs": true,
@@ -91,7 +91,6 @@
         // "timezone": "Brazil/Sao_Paulo",
         "format": "{:%H\n..\n%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
         "format": "{usage}%\n ",
@@ -157,6 +156,25 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "custom/dunst":{
+        "format": "{}<span size='xx-large'>\n{icon}</span>",
+        "on-click": " $HOME/.config/waybar/show-not-history.sh",
+        "on-click-right": "dunstctl close-all",
+        "exec" : "dunstctl count history",
+        "restart-interval": 1,
+        "format-alt": "",
+        "format-icons":{
+          "default": ""
+        },
+
+    },
+    "custom/powermenu":{
+      "format": "{icon}{}",
+      "on-click": " $HOME/.config/rofi/powermenu/powermenu.sh",
+      "format-icons":{
+        "default": ""
+      },
     },
     "custom/media": {
         "format": "{icon} {}",

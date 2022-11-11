@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -nrs 't.jpg' 't.jpg'
+wpg -nrs 'synthwave9.jpg' 'synthwave9.jpg'
