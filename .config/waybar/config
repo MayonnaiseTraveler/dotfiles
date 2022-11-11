@@ -163,7 +163,6 @@
         "on-click-right": "dunstctl close-all",
         "exec" : "dunstctl count history",
         "restart-interval": 1,
-        "format-alt": "",
         "format-icons":{
           "default": ""
         },
