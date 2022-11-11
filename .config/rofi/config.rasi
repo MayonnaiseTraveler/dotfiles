@@ -1,6 +1,10 @@
 configuration {
 	show-icons: true;
   icon-theme: "flattrcolor";
+  kb-row-up : "k";
+  kb-row-down :"j";
+  kb-move-char-back : "h";
+  kb-move-char-forward: "l" ;
 }
 
-@theme "/home/traveler/.config/rofi/wpg.rasi"
+/* @theme "/home/traveler/.config/rofi/wpg.rasi" */

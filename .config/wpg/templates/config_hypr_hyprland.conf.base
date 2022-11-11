@@ -96,7 +96,7 @@ bind=SUPER,20,exec,mpc volume -10 && dunstify -r 44 "$(mpc volume)"
 
 # Program binds
 bind=SUPER,RETURN,exec,kitty
-bind=SUPER,D,exec,rofi -show drun 
+bind=SUPER,D,exec,rofi -show drun -theme ~/.config/rofi/wpg.rasi
 bind=SUPER,R,exec,kitty -e ranger
 bind=,Print,exec, grim -g "$(slurp)" - | wl-copy 
 
@@ -109,6 +109,7 @@ bind =SUPERALT,2,pass,^(veadotube mini.x86_64)$
 
 #Hyprland Binds
 bind=SUPER_SHIFT,Q,killactive,
+bind=SUPER_SHIFT,R,forcerendererreload,
 bind=SUPER_SHIFT,E,exec, ~/.config/rofi/powermenu/powermenu.sh
 bind=SUPER,V,togglesplit,
 bind=SUPER,SPACE,togglefloating
@@ -189,6 +190,6 @@ windowrulev2 = workspace 4 silent,class:^(whatsapp)$
 windowrulev2 = workspace 4 silent,class:^(com.github.wwmm.easyeffects)$
 windowrulev2 = workspace 5 silent,class:^(LibreWolf)$
 windowrulev2 = workspace 5 silent,class:^(Buttercup)$
-windowrulev2 = workspace 6 silent,class:^(steam)$
+windowrulev2 = workspace 6 silent,class:^(Steam)$
 windowrulev2 = workspace 6 silent,class:^(itch)$
 
