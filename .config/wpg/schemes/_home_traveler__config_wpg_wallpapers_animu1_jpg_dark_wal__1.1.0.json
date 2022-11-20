@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/animu1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#191109",
+        "foreground": "#ffffd9",
+        "cursor": "#ffffd9"
+    },
+    "colors": {
+        "color0": "#191109",
+        "color1": "#a44723",
+        "color2": "#7fa052",
+        "color3": "#b4976b",
+        "color4": "#7b6654",
+        "color5": "#9d7a5c",
+        "color6": "#a16934",
+        "color7": "#ecd5af",
+        "color8": "#3e2a15",
+        "color9": "#e25620",
+        "color10": "#a7df5a",
+        "color11": "#fcc878",
+        "color12": "#ad835f",
+        "color13": "#dc9d67",
+        "color14": "#df8835",
+        "color15": "#ffffd9"
+    }
+}

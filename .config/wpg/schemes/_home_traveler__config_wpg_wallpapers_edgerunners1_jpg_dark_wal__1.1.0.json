@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/edgerunners1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0F0E14",
+        "foreground": "#fdffff",
+        "cursor": "#fdffff"
+    },
+    "colors": {
+        "color0": "#0F0E14",
+        "color1": "#8D7362",
+        "color2": "#B2C3CD",
+        "color3": "#AEA56B",
+        "color4": "#526897",
+        "color5": "#9B9F9B",
+        "color6": "#6E92B8",
+        "color7": "#e1e4e4",
+        "color8": "#242231",
+        "color9": "#c6926f",
+        "color10": "#ceffff",
+        "color11": "#f4e378",
+        "color12": "#5b81d3",
+        "color13": "#b5e3b5",
+        "color14": "#7bbdff",
+        "color15": "#fdffff"
+    }
+}

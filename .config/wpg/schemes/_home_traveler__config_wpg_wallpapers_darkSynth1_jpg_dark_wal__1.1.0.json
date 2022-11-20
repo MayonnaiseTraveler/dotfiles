@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/darkSynth1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010101",
+        "foreground": "#e5bfe5",
+        "cursor": "#e5bfe5"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#d3125f",
+        "color2": "#9a0c58",
+        "color3": "#6a2d8b",
+        "color4": "#d5142c",
+        "color5": "#950d35",
+        "color6": "#524175",
+        "color7": "#c48dc0",
+        "color8": "#181515",
+        "color9": "#e20777",
+        "color10": "#d40574",
+        "color11": "#8e2fc3",
+        "color12": "#e20a30",
+        "color13": "#ce0541",
+        "color14": "#6848a7",
+        "color15": "#e5bfe5"
+    }
+}

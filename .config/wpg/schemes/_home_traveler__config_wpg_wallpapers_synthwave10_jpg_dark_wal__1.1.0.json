@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/synthwave10.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#070819",
+        "foreground": "#ffc1ff",
+        "cursor": "#ffc1ff"
+    },
+    "colors": {
+        "color0": "#070819",
+        "color1": "#D22B59",
+        "color2": "#553C62",
+        "color3": "#D04B44",
+        "color4": "#5546AF",
+        "color5": "#A81F5A",
+        "color6": "#591B9B",
+        "color7": "#ce91d8",
+        "color8": "#111341",
+        "color9": "#ff276c",
+        "color10": "#714389",
+        "color11": "#ff5146",
+        "color12": "#634bf3",
+        "color13": "#e71b73",
+        "color14": "#7317d5",
+        "color15": "#ffc1ff"
+    }
+}

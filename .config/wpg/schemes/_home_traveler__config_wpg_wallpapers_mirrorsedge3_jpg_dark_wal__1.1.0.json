@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/mirrorsedge3.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0c18",
+        "foreground": "#fffcff",
+        "cursor": "#fffcff"
+    },
+    "colors": {
+        "color0": "#0c0c18",
+        "color1": "#C6B7CA",
+        "color2": "#AEB0C9",
+        "color3": "#9F99A8",
+        "color4": "#4674C3",
+        "color5": "#A36CA8",
+        "color6": "#6C87C2",
+        "color7": "#e1dfe3",
+        "color8": "#1c1c39",
+        "color9": "#ffd4ff",
+        "color10": "#c9d0ff",
+        "color11": "#cab2ef",
+        "color12": "#4992ff",
+        "color13": "#e27aec",
+        "color14": "#78a8ff",
+        "color15": "#fffcff"
+    }
+}
