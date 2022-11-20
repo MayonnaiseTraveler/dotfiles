@@ -28,7 +28,7 @@ window#waybar.solo {
     color:white;
     border-style:solid;
     border-width:2px;
-    border-color:#262134;
+    border-color:#061039;
     border-radius:20px;
 }
 
@@ -49,8 +49,8 @@ button:hover {
 #workspaces button {
     box-shadow: inherit;
     text-shadow: inherit;
-    background-color:#100e16;
-    color:#c3c2eb;
+    background-color:#02040C;
+    color:#b9bfda;
     margin-left:0;
     margin-right:0;
     padding: 5px 10px;
@@ -61,12 +61,12 @@ button:hover {
 }
 
 #workspaces button:hover {
-  border-color:#AB4E9D;
-  background-color:#262134;
+  border-color:#0D388A;
+  background-color:#061039;
 }
 
 #workspaces button.active {
-    border-color:#9E3969;
+    border-color:#EC1360;
 }
 
 #workspaces button.urgent {
@@ -93,9 +93,9 @@ button:hover {
 #custom-dunst,
 #custom-powermenu,
 #mpd {
-    background-color:#100e16;
+    background-color:#02040C;
     padding: 20px 0px;
-    color: #c3c2eb;
+    color: #b9bfda;
 
 }
 
@@ -116,7 +116,7 @@ button:hover {
 }
 
 #clock {
-    color: #c3c2eb;
+    color: #b9bfda;
 }
 
 #battery {
@@ -191,7 +191,7 @@ label:focus {
 }
 
 #tray {
-  color:#c3c2eb;
+  color:#b9bfda;
 }
 
 #tray > .passive {
