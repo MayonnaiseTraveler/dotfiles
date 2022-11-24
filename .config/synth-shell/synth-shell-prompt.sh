@@ -475,7 +475,7 @@ shortenPath()
 ##   or search something like "bash 256 color codes" on the internet.
 ##
 ##==============================================================================
-format="USER HOST PWD GIT PYENV TF"
+format="USER HOST PWD GIT PYENV TF KUBE"
 font_color_user="white"
 background_user="blue"
 texteffect_user="bold"
@@ -491,6 +491,9 @@ texteffect_git="bold"
 font_color_pyenv="white"
 background_pyenv="blue"
 texteffect_pyenv="bold"
+font_color_kube="white"
+background_kube="purple"
+texteffect_kube="bold"
 font_color_tf="purple"
 background_tf="light-purple"
 texteffect_tf="bold"
@@ -510,21 +513,23 @@ prompt_horizontal_padding=''    #
 prompt_final_padding=''         #
 segment_padding=' '             #
 enable_vertical_padding=true    # Add extra new line over prompt
+max_pwd_char="20"
 ##==============================================================================
 ## GIT
 ##==============================================================================
 git_symbol_synced=''
 git_symbol_unpushed=' ▲'
 git_symbol_unpulled=' ▼'
-git_symbol_unpushedunpulled=' ●'
-git_symbol_dirty=' □'
-git_symbol_dirty_unpushed=' △'
-git_symbol_dirty_unpulled=' ▽'
-git_symbol_dirty_unpushedunpulled=' ○'
+git_symbol_unpushedunpulled=' ◆'
+git_symbol_dirty=' ◔'
+git_symbol_dirty_unpushed=' ◔ △'
+git_symbol_dirty_unpulled=' ◔ ▽'
+git_symbol_dirty_unpushedunpulled=' ◔ ◇'
+git_update_period_minutes=15	# Use -1 to disable automatic updates
 #!/bin/bash
 ##  +-----------------------------------+-----------------------------------+
 ##  |                                                                       |
-##  | Copyright (c) 2018-2020, Andres Gongora <mail@andresgongora.com>.     |
+##  | Copyright (c) 2018-2021, Andres Gongora <mail@andresgongora.com>.     |
 ##  |                                                                       |
 ##  | This program is free software: you can redistribute it and/or modify  |
 ##  | it under the terms of the GNU General Public License as published by  |
@@ -590,6 +595,38 @@ getGitBranch()
 		local branch=$(git branch 2> /dev/null |\
 		             sed -n '/^[^*]/d;s/*\s*\(.*\)/\1/p')
 		if [[ -n "$branch" ]]; then
+			## UPDATE LOCAL GIT BRANCH (i.e., fetch)
+			## This will talk to the remote repository to get the latest
+			## updates. Because doing so for every terminal prompt can
+			## (and will) be slow, the script will do so only if its globaly
+			## enabled and only periodically in the background.
+			if [ "$SSP_GIT_UPDATE_PERIOD_MINUTES" -ge 0 ]; then
+				## Find .git
+				local d="$PWD"
+				local max_lvls=25
+				while [ ! -e "./.git" -a $max_lvls -gt 0 ]; do
+					cd .. # Go up 1 level
+					max_lvls=$((max_lvls - 1))
+				done
+				local dot_git="${PWD}/.git"
+				cd "$d"
+				## Check if submodule
+				if [ -f "$dot_git" ]; then
+					local dot_git=$(cat $dot_git | grep 'gitdir' | sed 's/gitdir:\ //g')
+				fi
+				## Get timestamp
+				if [ -d "$dot_git" -a -e "${dot_git}/FETCH_HEAD" ]; then
+					local git_last_update=$(stat -c "%Y" "${dot_git}/FETCH_HEAD")
+				fi
+				## Update if it's time to do so
+				if [ ! -z $git_last_update ]; then
+					local current_timestamp=$(date +%s)
+					local elapsed_minutes=$(((current_timestamp-git_last_update)/60))
+					if [ "$elapsed_minutes" -ge "$SSP_GIT_UPDATE_PERIOD_MINUTES" ]; then
+						git fetch --recurse-submodules > /dev/null 2>&1 &
+					fi
+				fi
+			fi
 			## GET GIT STATUS
 			## This information contains whether the current branch is
 			## ahead, behind or diverged (ahead & behind), as well as
@@ -653,10 +690,20 @@ getPyenv()
 	if [ -n "$CONDA_DEFAULT_ENV" ]; then
 		echo "$CONDA_DEFAULT_ENV"
 	## Python virtual environment
-	elif [ -n "$VIRTUAL_ENV" ]; then
-		local pyenv=$(basename ${VIRTUAL_ENV})
+	elif [ -n "${VIRTUAL_ENV:-}" ]; then
+        local regex='PS1=\"\((.*?)\)\s\$\{PS1'
+        local pyenv=$(cat $VIRTUAL_ENV/bin/activate | perl -n -e"/$regex/ && print \$1" 2> /dev/null)
+        if [ -z "${pyenv}" ]; then
+            local pyenv=$(basename ${VIRTUAL_ENV})
+        fi
 		echo "$pyenv"
 	fi
+}
+getKube()
+{
+	type kubectl &>/dev/null && \
+	type yq &>/dev/null && \
+	echo -n "$(kubectl config view | yq '.contexts[].context.cluster |select(.contexts[].name == .current-context)' | head -n 1)"	
 }
 printSegment()
 {
@@ -681,6 +728,7 @@ get_colors_for_element()
 		"PWD")   echo "${SSP_COLORS_PWD[@]}"  ;;
 		"GIT")   echo "${SSP_COLORS_GIT[@]}"  ;;
 		"PYENV") echo "${SSP_COLORS_PYENV[@]}";;
+		"KUBE")  echo "${SSP_COLORS_KUBE[@]}";;
 		"TF")    echo "${SSP_COLORS_TF[@]}"   ;;
 		"CLOCK") echo "${SSP_COLORS_CLOCK[@]}";;
 		"INPUT") echo "${SSP_COLORS_INPUT[@]}";;
@@ -699,6 +747,7 @@ combine_elements()
 		"PWD")   local text="$path" ;;
 		"GIT")   local text="$git_branch" ;;
 		"PYENV") local text="$pyenv" ;;
+		"KUBE")  local text="$kube" ;;
 		"TF")    local text="$tf" ;;
 		"CLOCK") local text="$clock" ;;
 		"INPUT") local text="" ;;
@@ -720,9 +769,10 @@ prompt_command_hook()
 	local elements=(${SSP_ELEMENTS[@]})
 	local user=$USER
 	local host=$HOSTNAME
-	local path="$(shortenPath "$PWD" 20)"
+	local path="$(shortenPath "$PWD" $SSP_MAX_PWD_CHAR)"
 	local git_branch="$(getGitBranch)"
 	local pyenv="$(getPyenv)"
+	local kube="$(getKube)"
 	local tf="$(getTerraform)"
 	local clock="$(date +"%H:%M")"
 	## ADAPT DYNAMICALLY ELEMENTS TO BE SHOWN
@@ -737,6 +787,9 @@ prompt_command_hook()
 	fi
 	if [ -z "$tf" ]; then
 		elements=( ${elements[@]/"TF"} ) # Remove TF from elements to be shown
+	fi
+	if [ -z "$kube" ]; then
+		elements=( ${elements[@]/"KUBE"} ) # Remove KUBE from elements to be shown
 	fi
 	## WINDOW TITLE
 	## Prevent messed up terminal-window titles, must be set in the PS1 variable
@@ -798,10 +851,12 @@ prompt_command_hook()
 	SSP_COLORS_PWD=($font_color_pwd $background_pwd $texteffect_pwd)
 	SSP_COLORS_GIT=($font_color_git $background_git $texteffect_git)
 	SSP_COLORS_PYENV=($font_color_pyenv $background_pyenv $texteffect_pyenv)
+	SSP_COLORS_KUBE=($font_color_kube $background_kube $texteffect_kube)
 	SSP_COLORS_TF=($font_color_tf $background_tf $texteffect_tf)
 	SSP_COLORS_CLOCK=($font_color_clock $background_clock $texteffect_clock)
 	SSP_COLORS_INPUT=($font_color_input $background_input $texteffect_input)
 	SSP_VERTICAL_PADDING=$vertical_padding
+	SSP_MAX_PWD_CHAR=${max_pwd_char:-20}
 	SSP_GIT_SYNCED=$git_symbol_synced
 	SSP_GIT_AHEAD=$git_symbol_unpushed
 	SSP_GIT_BEHIND=$git_symbol_unpulled
@@ -810,6 +865,7 @@ prompt_command_hook()
 	SSP_GIT_DIRTY_AHEAD=$git_symbol_dirty_unpushed
 	SSP_GIT_DIRTY_BEHIND=$git_symbol_dirty_unpulled
 	SSP_GIT_DIRTY_DIVERGED=$git_symbol_dirty_unpushedunpulled
+	SSP_GIT_UPDATE_PERIOD_MINUTES=$git_update_period_minutes
 	## For terminal line coloring, leaving the rest standard
 	none="$(tput sgr0)"
 	trap 'echo -ne "${none}"' DEBUG

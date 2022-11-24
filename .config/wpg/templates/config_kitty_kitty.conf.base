@@ -638,9 +638,12 @@ window_padding_width 11
 
 #: Color scheme {{{{{{
 
+foreground {color7}
+background {color0}
+
 #: The foreground and background colors
 
-background_opacity 1
+background_opacity {opacity}
 
 #: The opacity of the background. A number between 0 and 1, where 1 is
 #: opaque and 0 is fully transparent.  This will only work if
@@ -701,13 +704,10 @@ selection_background {color2}
 
 #: The background for text selected with the mouse.
 
-
 #: The 256 terminal colors. There are 8 basic colors, each color has a
 #: dull and bright version, for the first 16 colors. You can set the
 #: remaining 240 colors as color16 to color255.
 
-foreground {color1}
-background {color0}
 
 
 color0 {color0}
@@ -759,7 +759,7 @@ color14 {color14}
 
 color7 {color7}
 color15 {color15}
-#: whit
+#: white
 
 # mark1_foreground black
 

@@ -12,7 +12,7 @@
 
     primary: {color1};
     secondary: {color9};
-    bg: {color0};
+    bg: rgba({color0.rgb},{opacity});
     bg-alt: {color8};
     
     transparent: rgba(0,0,0,0);

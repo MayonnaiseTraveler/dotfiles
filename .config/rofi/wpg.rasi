@@ -1,50 +1,49 @@
 /*-*- mode: css; -*-*/
-
 * {
-    color0:		#042d4e;
-    color1:		#9df55a;
-    color2:		#2dc2e3;
-    color3:		#264bd2;
-    color4:		#50b8c1;
-    color5:		#4664ac;
-    color6:		#2168a9;
-    color7:		#f3f3ac;
-    color8:		#02475f;
-    color9:		#bff561;
-    color10:	#2bf6f6;
-    color11:	#1071f7;
-    color12:	#55f5f5;
-    color13:	#4a7de8;
-    color14:	#1c85e4;
-    color15:	#f2f2c9;
-    active:		#7dc348;
-    inactive:	#568631;
+    color0:		rgba(25,19,34,1);
+    color1:		#c64f64;
+    color2:		#7a556d;
+    color3:		#ae5a75;
+    color4:		#7f659c;
+    color5:		#e97c9e;
+    color6:		#b9769d;
+    color7:		#e7d1d1;
+    color8:		#302442;
+    color9:		#ff5476;
+    color10:	#ac6191;
+    color11:	#f36391;
+    color12:	#a472db;
+    color13:	#ff8ac4;
+    color14:	#ff85cf;
+    color15:	#fff2f2;
+    active:		#9e3f50;
+    inactive:	#6c2b37;
 
     background:						@color0;
     foreground:						@color15;
 
     background-color:				@background;
-    border-color:					@background;
+    border-color:					  @background;
     separatorcolor:					@color8;
     scrollbar-handle:				@color9;
 
-    normal-background:				@background;
+    normal-background:				transparent;
     normal-foreground:				@foreground;
-    alternate-normal-background:	@background;
+    alternate-normal-background:	transparent;
     alternate-normal-foreground:	@foreground;
-    selected-normal-background:		@active;
+    selected-normal-background:		transparent;
     selected-normal-foreground:		@foreground;
 
-    active-background:				@inactive;
+    active-background:				@background;
     active-foreground:				@foreground;
-    alternate-active-background:	@active;
+    alternate-active-background:	transparent;
     alternate-active-foreground:	@foreground;
     selected-active-background:		@active;
     selected-active-foreground:		@foreground;
 
-    urgent-background:				@color8;
+    urgent-background:				transparent;
     urgent-foreground:				@color15;
-    alternate-urgent-background:	@color8;
+    alternate-urgent-background:  transparent;	
     alternate-urgent-foreground:	@color15;
     selected-urgent-background:		@color14;
     selected-urgent-foreground:		@foreground;
@@ -60,6 +59,7 @@ window {
 }
 
 mainbox {
+    background-color:transparent;
     border:  0px;
     border-color: @active;
     padding: 0;
@@ -72,6 +72,7 @@ message {
 }
 
 textbox {
+    background-color:transparent;
     border-color:@foreground;
     border : 0px solid 0px 0px ;
     border-radius:10px;
@@ -80,6 +81,7 @@ textbox {
 }
 
 listview {
+    background-color:transparent;
     border:       2px solid 0 0;
     padding:      2px 0 0;
     border-color: @separatorcolor;
@@ -163,6 +165,8 @@ case-indicator,
 entry,
 prompt,
 button {
+    
+    background-color:transparent;
     spacing:    0;
     text-color: @normal-foreground;
 }
