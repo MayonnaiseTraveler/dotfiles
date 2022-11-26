@@ -23,11 +23,13 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
 * WM's : 
   * i3-gaps
   * Hypr (Outdated configs)
+  * Hyprland
   
 * Bar/Menus :
   * Xborders (active window border replacement that has rounded corner)
   * Polybar
-  * rofi
+  * Waybar
+  * wofi
   * quickmedia (Quickly download stuff and check some websites ) 
 
 * Themes : 
@@ -51,14 +53,16 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
   * kitty (terminal)
   * Alacritty (extra terminal, just in case)
   * lvim ( Lunar Vim, an ide layer over vim)
-  * bpytop (haha look at my cool linux rice)
+  * btop (haha look at my cool linux rice)
   * ranger (with devicons and dragon-drop)
-  * ncmpcppi (ncmpcpp with ueberzugs scritps to display album covers)
-  * cava (Audio Visualizer)
+  * ncmpcpp (ncmpcpp)
+  * cava (Extra Audio Visualizer)
   * todo ( Simple todo list)
   * termdown (simple countdown timer)
-  * calcurses ( ncurses based calendary)
+  * calcurse ( ncurses based calendary)
   * unzip (easy unzip command)
+  * glow ( read markdown files)
+  * blesh (syntax highligting better autocomplete and nvim on bash)
   * scrcpy (screencast android screen to pc)
 
 * GUI Programs : 
@@ -81,6 +85,7 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
     * Audacity
   * General Stuff:
     * Brave Browser
+    * Librewolf Brouser
     * MegaSync 
     * DroidCam (use your phone as a webcam)
     * mpv (media player)
@@ -103,21 +108,21 @@ After that, just copy everything and paste it in your home folder
 ***
 
 ### ToDo:
-- [ ] change polybar stuff position
-- [ ] Upgrade Dunst
-- [ ] change mpc keybinds to use keyboard media keys
 - [ ] Clear Scripts and re-organize files
-- [ ] Learn how to make rofi menus!
-- [ ] Add theme to rofi shutdown menus
-- [ ] Fix rofi menu on 1336x728 screens
 - [ ] Create Script to help downloading musics from yt
 - [ ] Create Keybind list in Readme
 - [ ] Create bash script for installation
 - [ ] Create Eww widgets
 - [ ] Create a bar with Eww
-- [ ] Switch to HyprLand?
-- [ ] finish bash script that changes volume of the active window
+- [ ] finish bash script that changes volume of the active window // unused
 - [ ] add a list of browser extensions i use
+- [x] change polybar stuff position
+- [x] Upgrade Dunst
+- [x] change mpc keybinds to use keyboard media keys // didn't work well
+- [x] Switch to HyprLand?
+- [x] Learn how to make rofi menus! // still didn't learn it all the way but added a few new menus
+- [x] Add theme to rofi shutdown menus 
+- [x] Fix rofi menu on 1336x728 screens
 - [x] remove unecessary dependencies
 - [x] start using wpgtk to manage themes
 - [x] update readme further
