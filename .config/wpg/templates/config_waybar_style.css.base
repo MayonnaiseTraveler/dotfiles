@@ -96,6 +96,11 @@ button:hover {{
     background-color:rgba({color0.rgb},{opacity});
     padding: 20px 0px;
     color:{color7};
+    border-style:solid;
+    border-width:2px;
+    border-color:{color8};
+    border-radius:20px;
+
 
 }}
 
