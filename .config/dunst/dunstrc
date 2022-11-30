@@ -4,6 +4,10 @@
 
 [global]
     ### Display ###
+    
+    mouse_right_click = do_action,close_current 
+    mouse_middle_click = context,close_current 
+    mouse_left_click = close_current 
 
     monitor = 0
     follow = mouse
@@ -16,7 +20,6 @@
     horizontal_padding = 12
     corner_radius = 15
     frame_width = 2
-
     frame_color = "#b778da"
     separator_color = auto
     sort = yes
@@ -58,8 +61,8 @@
     history_length = 20
 
     ### Misc/Advanced ###
-    dmenu = /usr/bin/rofi -show run -p dunst
-    browser = /usr/bin/google-chrome-stable
+    dmenu = /usr/bin/rofi -show run -theme ~/.config/rofi/wpg.rasi -dmenu dunst: 
+    browser = /usr/bin/librewolf
     always_run_script = true
     title = Dunst
     class = Dunst
