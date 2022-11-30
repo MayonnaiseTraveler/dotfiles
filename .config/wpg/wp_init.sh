@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -nrs 'city.jpg' 'city.jpg'
+wpg -nrs 'piramid.png' 'piramid.png'

@@ -1,10 +1,10 @@
 [colors]
 	background = "{color0}"
 	foreground = "{color15}"
+  highlight = "{color1}"
 
 [global]
     ### Display ###
-    
     mouse_right_click = do_action,close_current 
     mouse_middle_click = context,close_current 
     mouse_left_click = close_current 
@@ -41,7 +41,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>%s </b>\n%b"
+    format =  "<b>%s%p</b>\n<i>%b</i>"
     alignment = left
     show_age_threshold = 60
     word_wrap = yes
@@ -50,11 +50,16 @@
     stack_duplicates = true
     hide_duplicate_count = false
     show_indicators = yes
+    
+    progress_bar = true
 
     ### Icons ###
+    enable_recursive_icon_lookup = true
+    icon_theme = "flattrcolor"
     icon_position = left
     max_icon_size = 64
-    icon_path = .icons/flattrcolor/status/24:.icons/flattrcolor/devices/48:.icons/flattrcolor/apps/scalable:.icons/flattrcolor/actions/scalable
+    #icon_path = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/:/usr/share/icons/Adwaita/16x16/legacy/
+    #icon_path = ~/.local/share/icons/flattrcolor/status/24/:~/.local/share/icons/flattrcolor/devices/48/:~/.local/share/icons/flattrcolor/apps/scalable/:~/.local/share/icons/flattrcolor/actions/scalable/
 
     ### History ###
     sticky_history = yes
@@ -71,6 +76,11 @@
 [experimental]
     per_monitor_dpi = false
 
+
+
+[urgency_*]
+  default_icon = /home/traveler/.local/share/icons/flattrcolor/status/24/indicator-messages.svg
+
 [urgency_low]
     timeout = 10
 
@@ -80,3 +90,20 @@
 [urgency_critical]
     frame_color = "{color1}"
     timeout = 0
+
+[music]
+  appname=mpc
+  default_icon = /home/traveler/.local/share/icons/flattrcolor/categories/scalable/applications-multimedia.svg
+
+[volup]
+  appname=volup
+  default_icon = /home/traveler/.local/share/icons/flattrcolor/status/24/audio-volume-high.svg 
+
+[voldown]
+  appname=voldown
+  default_icon = /home/traveler/.local/share/icons/flattrcolor/status/24/audio-volume-low.svg
+
+[voltoggle]
+  appname=voltoggle
+  default_icon = /home/traveler/.local/share/icons/flattrcolor/status/24/audio-volume-muted.svg
+
