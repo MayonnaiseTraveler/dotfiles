@@ -80,13 +80,11 @@ case $chosen in
         fi
         ;;
     $lock)
-    if [[ -f /usr/bin/swaylock ]]; then
-      ~/.config/hypr/swaylock.sh
-    elif [[ -f /usr/bin/i3lock ]]; then
+    if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 			i3lock
-		elif [[ -f /usr/bin/betterlockscreen ]]; then
-			betterlockscreen -l
-		fi
+    elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
+      ~/.config/hypr/swaylock.sh
+    fi
         ;;
     $suspend)
 		ans=$(confirm_exit &)
@@ -110,7 +108,7 @@ case $chosen in
 				bspc quit
 			elif [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3-msg exit
-      elif [[ "$DESKTOP_SESSION" == "i3" ]]; then
+      elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
 				hyprctl dispatch exit
 			fi
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
