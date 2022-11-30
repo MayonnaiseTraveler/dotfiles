@@ -232,18 +232,18 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #10042b	
+set $bg-color 	         #00001B	
 #neonpink
 
-set $fg-color #b778da
+set $fg-color #734CA0
 
-set $inactive-bg-color   #10042b
+set $inactive-bg-color   #00001B
 
-set $text-color          #b778da	
+set $text-color          #734CA0	
 
-set $inactive-text-color #b778da
+set $inactive-text-color #734CA0
 
-set $urgent-bg-color     #10042b	
+set $urgent-bg-color     #00001B	
 
 # window colors
 
