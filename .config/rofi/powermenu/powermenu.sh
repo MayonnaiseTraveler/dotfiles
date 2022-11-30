@@ -108,8 +108,8 @@ case $chosen in
 				bspc quit
 			elif [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3-msg exit
-      elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
-				hyprctl dispatch exit
+      elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
+        killall Hyprland
 			fi
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
