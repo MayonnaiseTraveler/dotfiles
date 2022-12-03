@@ -160,15 +160,18 @@ bind=SUPER,R,submap,resize
 submap=resize
 
 # sets repeatable binds for resizing the active window
+
+
+binde=SHIFT,l,resizeactive,40 0
+binde=SHIFT,h,resizeactive,-40 0
+binde=SHIFT,k,resizeactive,0 -40
+binde=SHIFT,j,resizeactive,0 40
+
 binde=,l,resizeactive,10 0
 binde=,h,resizeactive,-10 0
 binde=,k,resizeactive,0 -10
 binde=,j,resizeactive,0 10
 
-binde=SUPER,l,resizeactive, 40  0
-binde=SUPER,h,resizeactive,-40  0
-binde=SUPER,k,resizeactive, 0  -40
-binde=SUPER,j,resizeactive, 0   40
 
 # use reset to go back to the global submap
 bind=SUPER,R,submap,reset 
