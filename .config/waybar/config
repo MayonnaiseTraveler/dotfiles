@@ -11,7 +11,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces" ],
     /* "modules-center": ["hyprland/window"], */
-    "modules-right": ["pulseaudio", "clock", "custom/dunst", "tray","custom/powermenu"],
+    "modules-right": ["pulseaudio", "clock", "custom/dunst", "tray","battery","custom/powermenu"],
     // Modules configuration
      "wlr/workspaces": {
          "all-outputs": true,
@@ -119,12 +119,12 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
+        "format-charging": "",
+        "format-plugged": "",
+        "tooltip-format": "{icon}\n{capacity}%",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", ""],
     },
     "battery#bat2": {
         "bat": "BAT2"
@@ -140,12 +140,11 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}%\n <span size='xx-large'>{icon}</span>\n{format_source}",
+        "format": "{volume}\n<span size='xx-large'>{icon}</span>{format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": "off\n \n{format_source}",
-        "format-source": "{volume}%\n <span size='large'></span>",
-        "format-source-muted": "\n <span size='large'></span>",
+        "format-source-muted": "\n <span size='x-large'></span>",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -153,7 +152,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": ["", "", "墳"]
         },
         "on-click": "pavucontrol"
     },
