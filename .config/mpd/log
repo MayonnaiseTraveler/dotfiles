@@ -1686,3 +1686,7 @@ Dec 03 10:05 : exception: Failed to open /home/traveler/.config/mpd/playlists: N
 Dec 03 10:05 : exception: Failed to open /home/traveler/.config/mpd/playlists: No such file or directory
 Dec 03 10:05 : exception: Failed to open /home/traveler/.config/mpd/playlists: No such file or directory
 Dec 03 10:05 : player: played "100gecs/100 gecs - Doritos & Fritos {OFFICIAL MUSIC VIDEO}.mp3"
+Dec 03 10:09 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 12 TRUEFINAL2 -feat. HEAVYVIPER-.mp3"
+Dec 03 10:11 : player: played "lapfox/The Queenstons - Faulty Sparkle [Prismatic]-P7pLNi2w0ng.mp3"
+Dec 03 10:13 : player: played "lapfox/Kitsune² - ON Trax Vol. 5 - Joyous Day (2K12 EQ)-dlbWKvv0W7s.mp3"
+Dec 03 10:57 : player: played "lapfox/LAPFOX TRAX - ON Trax Vol. 5 - BONUS! 2012 LFT MINIMIX-tp5MkW9W-ro.mp3"
