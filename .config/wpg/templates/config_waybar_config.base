@@ -113,23 +113,13 @@
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     }},
     "battery": {{
-        "states": {{
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
-        }},
-        "format": "{{capacity}}% {{icon}}",
-        "format-charging": "",
-        "format-plugged": "",
-        "tooltip-format": "{{icon}}\n{{capacity}}%",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
+        "interval": 60,
+        "format": "{{icon}}",
         "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "{{capacity}}%",
+        "max-length": 25
     }},
-    "battery#bat2": {{
-        "bat": "BAT2"
-    }},
-    "network": {{
+        "network": {{
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{{essid}} ({{signalStrength}}%) ",
         "format-ethernet": "{{ipaddr}}/{{cidr}} ",
