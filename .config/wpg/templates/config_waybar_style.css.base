@@ -1,7 +1,7 @@
 * {{
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: SauceCodePro Nerd Font Mono, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: {f_small}px;
 }}
 
 window#waybar {{
@@ -29,7 +29,7 @@ window#waybar.solo {{
     border-style:solid;
     border-width:2px;
     border-color:{color8};
-    border-radius:20px;
+    border-radius:{b_radius};
 }}
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -53,11 +53,10 @@ button:hover {{
     color:{color7};
     margin-left:0;
     margin-right:0;
-    padding: 5px 10px;
 
 }}
 #workspaces button * {{
-    font-size:20px;
+    font-size:{f_big}px;
 }}
 
 #workspaces button:hover {{
@@ -94,12 +93,12 @@ button:hover {{
 #custom-powermenu,
 #mpd {{
     background-color:rgba({color0.rgb},{opacity});
-    padding: 20px 0px;
+    padding: {pad}px 0px;
     color:{color7};
     border-style:solid;
     border-width:2px;
     border-color:{color8};
-    border-radius:20px;
+    border-radius:{b_radius}px;
 
 
 }}

@@ -29,7 +29,7 @@ window#waybar.solo {
     border-style:solid;
     border-width:2px;
     border-color:#01014c;
-    border-radius:20px;
+    border-radius:20;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -53,7 +53,6 @@ button:hover {
     color:#d8c4ec;
     margin-left:0;
     margin-right:0;
-    padding: 5px 10px;
 
 }
 #workspaces button * {
@@ -94,7 +93,7 @@ button:hover {
 #custom-powermenu,
 #mpd {
     background-color:rgba(0,0,27,1);
-    padding: 20px 0px;
+    padding: 10px 0px;
     color:#d8c4ec;
     border-style:solid;
     border-width:2px;

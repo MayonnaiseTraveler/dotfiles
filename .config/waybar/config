@@ -84,8 +84,8 @@
     },
     "tray": {
         "show-passive-items" : true,
-         "icon-size": 21,
-        "spacing": 10
+         "icon-size": 20,
+        "spacing": 12
     },
     "clock": {
         // "timezone": "Brazil/Sao_Paulo",
