@@ -123,9 +123,6 @@ button:hover {{
     color: {color7};
 }}
 
-#battery {{
-    color: #000000;
-}}
 
 #battery.charging, #battery.plugged {{
     color: #ffffff;

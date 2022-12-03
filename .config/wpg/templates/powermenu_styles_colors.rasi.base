@@ -8,11 +8,11 @@
  */
 
 * {{
-    background:                     {color8}ff;
+    background:                     {color0}ff;
     background-alt:                 {color0}ff;
     foreground:                     {color7}ff;
     border:                   			{color1}ff;
-    border-alt:                 		{color4}ff;
-    selected:                   		{color0}ff;
+    border-alt:                 		{color8}ff;
+    selected:                   		{color8}ff;
     urgent:                         {color5}ff;
 }}
