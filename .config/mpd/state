@@ -1,85 +1,61 @@
-sw_volume: 15
+sw_volume: 0
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 18
-time: 1355.396000
-random: 1
+state: stop
+current: 0
+random: 0
 repeat: 0
 single: 0
 consume: 0
-crossfade: 2
+crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:lapfox/[ALBUM STREAM] The Quick Brown Fox - NERVE'S ENDING-V-OcM7KYHdA.mp3
-1:lapfox/Adam Freeland - ON Trax Vol. 5 - Mind Killer (Jackal Queenston RMX)-pUH35OW3xxo.mp3
-2:lapfox/Aurastys - ON Trax Vol. 5 - RED09+RED10+SATYR44-qJnyTlTJZ8Q.mp3
-3:lapfox/Darius - ON Trax Vol. 5 - Cosmohounds Heart-W9HVYd0Wbn8.mp3
-4:lapfox/Darius + Rotteen - MORE ADVENTURES ~𝑻𝒉𝒆 𝑭𝒐𝒓𝒆𝒗𝒆𝒓 𝑭𝒊𝒆𝒍𝒅𝒕𝒓𝒊𝒑~ [ALBUM STREAM].mp3
-5:lapfox/Furries in a Blender - ON Trax Vol. 5 - I Am Sinistar (2K12 EQ)-VIQl4wnBiQk.mp3
-6:lapfox/Furries in a Blender - ON Trax Vol. 5 - Last Moment On Earth (2K12 EQ)-BgrZgT9z0o8.mp3
-7:lapfox/Furries in a Blender - ON Trax Vol. 5 - Neverlasting Happiness (2K12 EQ)-cs3XKlwvd4M.mp3
-8:lapfox/Furries in a Blender - ON Trax Vol. 5 - Skugg In The Wilderness-UZxgOnW23WE.mp3
-9:lapfox/Furries in a Blender - ON Trax Vol. 5 - Sleepy Eyes (09 Style (2K12 EQ)-Xb3yoHY5_ng.mp3
-10:lapfox/Hideki Naganuma - ON Trax Vol. 5 - A New Day (Renard RMX)-djhArsxYABk.mp3
-11:lapfox/Jackal Queenston - ON Trax Vol. 5 - Train Scene-AvPQE0YO9Fk.mp3
-12:lapfox/Jackal Queenston feat. Mayhem - ON Trax Vol. 5 - Laugh At Life (FIAB's Wikked RMX (2K12 EQ))-k2lwpW4CGPw.mp3
-13:lapfox/KITCALIBER - HALCYONDAZE [album stream].mp3
-14:lapfox/Kitcaliber - ON Trax Vol. 5 - Hell Dive (TQBF Hell March RMX)-A2FaALOXfpo.mp3
-15:lapfox/Kitsune² - ON Trax Vol. 5 - Joyous Day (2K12 EQ)-dlbWKvv0W7s.mp3
-16:lapfox/Kitsune² - ON Trax Vol. 5 - Nasty Future Spacedeath-NZ0HtBIGrYM.mp3
-17:lapfox/Kitsune² - ON Trax Vol. 5 - Take Off And Land 2012-YI_1jLU-v88.mp3
-18:lapfox/LAPFOX TRAX - ON Trax Vol. 3 - RELOAD [full album]-d4XRkJplJJY.mp3
-19:lapfox/LAPFOX TRAX - ON Trax Vol. 5 - BONUS! 2012 LFT MINIMIX-tp5MkW9W-ro.mp3
-20:lapfox/LAPFOX TRAX - ON Trax Vol. 5 - RUN LAPFOX~1 EXE-RjuLiY3NYpQ.mp3
-21:lapfox/Mayhem - ON Trax Vol. 5 - Contra Overdrive-L6IC0JnjbRQ.mp3
-22:lapfox/NegaRen - ♥ Ray-O19mDJzWO08.mp3
-23:lapfox/Renard - Because Maybe [Lapfox Album]-YITP0roprFM.mp3
-24:lapfox/Renard - ON Trax Vol. 5 - BANNED FOREVER (DAYDREAM RMX)-pfqdKsUhA-Y.mp3
-25:lapfox/Renard - ON Trax Vol. 5 - RINSE OUT (2K12 EQ)-UsAnWcD4OZI.mp3
-26:lapfox/Renard - ON Trax Vol. 5 - SHOOTERHOUSE Suite-zU5IXcF9BdA.mp3
-27:lapfox/Renard - ON Trax Vol. 5 - You Can't Do This Underwater (2K12 EQ)-xNL3B1GBkjU.mp3
-28:lapfox/Renard + Darius - ON Trax Vol. 5 - The End-mFLwTU1x1eg.mp3
-29:lapfox/Renard VS Darius - ON Trax Vol. 5 - SON OF PRINTER--fWBqMtepts.mp3
-30:lapfox/Renard VS The Quick Brown Fox - ON Trax Vol. 5 - WANDERLUST Reprise-DHHfYx1Xeww.mp3
-31:lapfox/THE FUCKDEST JAMS [LAPFOX-HALLEY NONSTOP MIX]-6Pm4vXNEaQo.mp3
-32:lapfox/The Queenstons - A Little Differently-uqOTm_k2yVg.mp3
-33:lapfox/The Queenstons - Amber Starlight (Lyrics)--mCzvbcynaY.mp3
-34:lapfox/The Queenstons - Doctor Q (Lyrics)-p_yBSyfXCWI.mp3
-35:lapfox/The Queenstons - Faulty Sparkle [Prismatic]-P7pLNi2w0ng.mp3
-36:lapfox/The Queenstons - Figurehead Remastered - Full Album-8BiA9kASDxU.mp3
-37:lapfox/The Queenstons - Glossolalia-H-jvAFWTeWY.mp3
-38:lapfox/The Queenstons - Great H Returns [evereffervescent]-OI7cW0zzrHE.mp3
-39:lapfox/The Queenstons - Hot One-58OsHuQQsnY.mp3
-40:lapfox/The Queenstons - I Control-Z45Z4BS_K5g.mp3
-41:lapfox/The Queenstons - I Never Wanted [REMASTERED]-T0-uxdMuErc.mp3
-42:lapfox/The Queenstons - I Prefer The Sky (Lyrics)--6vUWLj20R0.mp3
-43:lapfox/The Queenstons - I Prefer The Sky (Remix)-YwinlxRLghc.mp3
-44:lapfox/The Queenstons - Our Special Place (Lyrics)-RJoxs41Wias.mp3
-45:lapfox/The Queenstons - Painkiller (Lyrics)-Tz0qiXqc1Q8.mp3
-46:lapfox/The Queenstons - Prismatic - Street Railway [VOCAL TRACK]-z-PI_hAHix4.mp3
-47:lapfox/The Queenstons - Quiet Man-YfpCtLxIvAc.mp3
-48:lapfox/The Queenstons - She's An Angel (Lyrics)-WnSWsJ-CSLU.mp3
-49:lapfox/The Queenstons - Spacedust (Lyrics)-KKyWrqJwTLM.mp3
-50:lapfox/The Queenstons - Terrible Ride (Lyrics)-g6QUr5ZiWdM.mp3
-51:lapfox/The Queenstons - The Grand Cross-Yt9-daw16m8.mp3
-52:lapfox/The Queenstons - The Last Rave In The Depths Of Your Eyes [evereffervescent]-FUuW8dTWLOk.mp3
-53:lapfox/The Queenstons - Woodgrain [Identity Will Not Save You]-rNP1NCvWTc4.mp3
-54:lapfox/Truxton - ON Trax Vol. 5 - 2 Old 2 Sober-3ToyUuAxXQc.mp3
-55:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 01 log4_SUNLUST.mp3
-56:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 02 SELF-COFFINIZING.mp3
-57:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 03 make a BAD CHOICE!.mp3
-58:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 04 The Museum Of Unnatural Disasters.mp3
-59:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 05 +willow rebound -feat. Rotteen-.mp3
-60:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 06 ZONE BREAKERZ Ⅱnd.mp3
-61:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 07 OOPS (THIS IS OUR FAULT) -feat. deuteronomy-.mp3
-62:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 08 nOISE gATE.mp3
-63:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 09 Grand Memory Clobber.mp3
-64:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 10 MEGAFAUNA.mp3
-65:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 11 birds@sunset.mp3
-66:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 12 TRUEFINAL2 -feat. HEAVYVIPER-.mp3
-67:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 13 SELF-COFFINZIING (prototype ver.).mp3
-68:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 14 OOPS (prototype ver.) -feat. deuteronomy-.mp3
-69:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 15 The Museum of Unnatural Disasters (prototype ver.).mp3
+0:SunsetOverdrive/Ambient Music 02 _ Sunset Overdrive Sountrack-GHlh7fBIfVw.mp3
+1:SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3
+2:SunsetOverdrive/Dan Sartain - OD Life-XM6mZRLJggk.mp3
+3:SunsetOverdrive/Different Answer (Game Version) - Boats-iVQ_we8Rv4I.mp3
+4:SunsetOverdrive/Glitter and Gold by Cheap Time (Studio Version)-YxLri0wi-SU.mp3
+5:SunsetOverdrive/H-Blockx - Gazoline-t9DPk4IsTK8.mp3
+6:SunsetOverdrive/I Don’t Know What To Think (Game Version) - Cheap Time-8Xh8lt006sE.mp3
+7:SunsetOverdrive/Lost Sleep - Dead Souls (Game Version) _ Sunset Overdrive Soundtrack-Sq3vxUcgJjE.mp3
+8:SunsetOverdrive/Pad&Retrodio#305 - Sunset Overdrive - Make Your Head Pop-4znpIEBEqNA.mp3
+9:SunsetOverdrive/Sunset Electro PREVIEW (Sunset Overdrive OST)-kBNQApk75a4.mp3
+10:SunsetOverdrive/Sunset Overdrive (The Unofficial Theme Song) - Yes.Mustache-ULcoWF_aMI4.mp3
+11:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ Game Over-jnkcLfRbtnM.mp3
+12:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ I Don't Know What To Think-FPMAuQLHobg.mp3
+13:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ The Real World's A Terrible Place-tMyCgUY3rbU.mp3
+14:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ Where Do We Go From Here-vRhLTi4ZSus.mp3
+15:SunsetOverdrive/Sunset Overdrive EP Vol  2 ~ Cesium-zuGQpdIRsYo.mp3
+16:SunsetOverdrive/Sunset Overdrive EP Vol  2 ~ Sunset Electro--Th7zaF2-vE.mp3
+17:SunsetOverdrive/Sunset Overdrive It's Me! Fizzie! (Boss Fight) Soundtrack-AzYUaYnSZNg.mp3
+18:SunsetOverdrive/Sunset Overdrive SONG 'This is Delirium' MUSIC VIDEO - TryHardNinja-imBlC_6VIRc.mp3
+19:SunsetOverdrive/The Bronx-Sunset City-Nh6J46sRm9c.mp3
+20:SunsetOverdrive/The Death Set - Too Much Fun For Regrets-a4nZcBaEYj8.mp3
+21:SunsetOverdrive/Zig Zags - The Fog (Live on KEXP)-8lFMAqg5K0M.mp3
+22:SunsetOverdrive/Melvins - (A) Senile Animal - 05 - Rat Faced-GtFvUAuDRWY.mp3
+23:SunsetOverdrive/Bass Drum of Death - I Wanna Be Forgotten-3oukrCiMNq8.mp3
+24:SunsetOverdrive/Carbonas - Journey to the End-k56wsHPgPsg.mp3
+25:SunsetOverdrive/FIDLAR - White on White (Official Audio)-LaDAl5q4llQ.mp3
+26:SunsetOverdrive/Cy Dune - Yellin' (Official Video)-amuvQauqcLU.mp3
+27:SunsetOverdrive/THE BLIND SHAKE 'I'M NOT AN ANIMAL' OFFICIAL MUSIC VIDEO-R2M6kGGVrlM.mp3
+28:SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
+29:SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
+30:SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
+31:SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+32:SunsetOverdrive/Folding Socks-D42lkd7_bNk.mp3
+33:SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
+34:SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+35:SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
+36:SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
+37:SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+38:SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
+39:SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+40:SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
+41:SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
+42:SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
+43:SunsetOverdrive/Horror Night-rc6aw3OzZoo.mp3
+44:SunsetOverdrive/I Don’t Know What To Think-ektLW_kAlQQ.mp3
+45:SunsetOverdrive/More Action--GIbcFhTfbY.mp3
+46:SunsetOverdrive/Under Control-MBxMuVhWx2A.mp3
 playlist_end

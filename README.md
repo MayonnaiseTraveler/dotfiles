@@ -109,6 +109,8 @@ After that, just copy everything and paste it in your home folder
 
 ### ToDo:
 - [ ] Clear Scripts and re-organize files
+- [ ] Create scripts for a backup system
+- [ ] Update this readme more
 - [ ] Create Script to help downloading musics from yt
 - [ ] Create Keybind list in Readme
 - [ ] Create bash script for installation
