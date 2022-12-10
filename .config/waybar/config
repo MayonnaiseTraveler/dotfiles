@@ -4,6 +4,7 @@
     //"height": , // Waybar height (to be removed for auto height)
     "width": 40, // Waybar width
     "spacing": 10, // Gaps between modules (4px)
+    "mode": "dock",
     "margin-left":8,
     "margin-right":0,
     "margin-top":19,
@@ -84,7 +85,7 @@
     },
     "tray": {
         "show-passive-items" : true,
-         "icon-size": 20,
+         "icon-size": 25,
         "spacing": 12
     },
     "clock": {

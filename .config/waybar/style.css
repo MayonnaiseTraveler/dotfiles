@@ -5,7 +5,14 @@
 }
 
 window#waybar {
-    background-color: transparent;
+    background-color:rgba(1,1,26,1);
+    padding: 0px ;
+    margin:0px;
+    color:#d5b8f3;
+    border-style:solid;
+    border-width:2px;
+    border-color:#914ae4;
+    border-radius:20px;
     color: transparent;
 }
 
@@ -23,23 +30,18 @@ window#waybar.solo {
 
 
 
-#tray, button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    color:white;
-    border-style:solid;
-    border-width:2px;
-    border-color:#221f30;
-    border-radius:20;
-}
-
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-button:hover {
-  
-}
+/* #tray, button { */
+/*     color:white; */
+/*     border-style:solid; */
+/*     border-width:0px; */
+/*     border-color:#01014c; */
+/*     border-radius:0; */
+/* } */
 
 #workspaces button:hover {
-    box-shadow: inherit;
-    text-shadow: inherit;
+  border-width:0px;
+  border-color:transparent;
+  
 }
 #workspaces button.hidden{
     padding: 0 0px;
@@ -47,32 +49,35 @@ button:hover {
     color: #ffffff;
 }
 #workspaces button {
-    box-shadow: inherit;
+    box-shadow: none;
     text-shadow: inherit;
-    background-color: rgba(13,12,18,1);
-    color:#98ebc4;
-    margin-left:0;
-    margin-right:0;
+    border-color: transparent;
+    border-width:2px;
+    background-color: rgba(1,1,26,1);
+    color:#d5b8f3;
+    padding:0px 0px;
+    margin:0px;
 
 }
 #workspaces button * {
-    font-size:20px;
+    font-size:25px;
 }
 
 #workspaces button:hover {
-  border-color:#b1ea3e;
-  background-color:rgba(34,31,48,1);
+  font-size:25px;
+  border-color:#8f29dd;
+  color:#7208e2;
 }
 
 #workspaces button.active {
-    border-color:#a01d9a;
+    color:#bc24ff;
 }
 
 #workspaces button.urgent {
 }
 
 #mode {
-    border: 3px solid #ffffff;
+    border: 0px solid #ffffff;
 }
 
 #clock,
@@ -91,36 +96,28 @@ button:hover {
 #scratchpad,
 #custom-dunst,
 #custom-powermenu,
-#mpd {
-    background-color:rgba(13,12,18,1);
-    padding: 10px 0px;
-    color:#98ebc4;
-    border-style:solid;
-    border-width:2px;
-    border-color:#221f30;
-    border-radius:20px;
+#mpd{
+    background-color:rgba(1,1,26,1);
+    padding: 0px 0px; 
+    margin: 10px;
+    color:#d5b8f3;
+    font-size:12px;
+    /* border-style:solid; */
+    /* border-width:2px; */
+    /* border-color:#01014c; */
+     border-radius:20px; 
 
 
 }
 
 
-#window,
 #workspaces {
-    margin: 0px 0px;
+    margin: 10px; 
 }
 
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-}
-
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
-}
 
 #clock {
-    color: #98ebc4;
+    color: #d5b8f3;
 }
 
 
@@ -192,7 +189,7 @@ label:focus {
 }
 
 #tray {
-  color:#98ebc4;
+  color:#d5b8f3;
 }
 
 #tray > .passive {
@@ -251,6 +248,11 @@ label:focus {
 
 #scratchpad {
     background: rgba(0, 0, 0, 0.2);
+}
+#custom-powermenu{
+  font-size:12px;
+  margin-bottom:30px;
+
 }
 
 #scratchpad.empty {

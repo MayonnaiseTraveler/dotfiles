@@ -5,7 +5,14 @@
 }}
 
 window#waybar {{
-    background-color: transparent;
+    background-color:rgba({color0.rgb},{opacity});
+    padding: 0px ;
+    margin:0px;
+    color:{color7};
+    border-style:solid;
+    border-width:2px;
+    border-color:{color9};
+    border-radius:{b_radius}px;
     color: transparent;
 }}
 
@@ -23,23 +30,18 @@ window#waybar.solo {{
 
 
 
-#tray, button {{
-    /* Use box-shadow instead of border so the text isn't offset */
-    color:white;
-    border-style:solid;
-    border-width:2px;
-    border-color:{color8};
-    border-radius:{b_radius};
-}}
-
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-button:hover {{
-  
-}}
+/* #tray, button {{ */
+/*     color:white; */
+/*     border-style:solid; */
+/*     border-width:0px; */
+/*     border-color:{color8}; */
+/*     border-radius:0; */
+/* }} */
 
 #workspaces button:hover {{
-    box-shadow: inherit;
-    text-shadow: inherit;
+  border-width:0px;
+  border-color:transparent;
+  
 }}
 #workspaces button.hidden{{
     padding: 0 0px;
@@ -47,12 +49,14 @@ button:hover {{
     color: #ffffff;
 }}
 #workspaces button {{
-    box-shadow: inherit;
+    box-shadow: none;
     text-shadow: inherit;
+    border-color: transparent;
+    border-width:2px;
     background-color: rgba({color0.rgb},{opacity});
     color:{color7};
-    margin-left:0;
-    margin-right:0;
+    padding:0px 0px;
+    margin:0px;
 
 }}
 #workspaces button * {{
@@ -60,19 +64,20 @@ button:hover {{
 }}
 
 #workspaces button:hover {{
+  font-size:{f_big}px;
   border-color:{color3};
-  background-color:rgba({color8.rgb},{opacity});
+  color:{color10};
 }}
 
 #workspaces button.active {{
-    border-color:{color1};
+    color:{color11};
 }}
 
 #workspaces button.urgent {{
 }}
 
 #mode {{
-    border: 3px solid #ffffff;
+    border: 0px solid #ffffff;
 }}
 
 #clock,
@@ -91,33 +96,25 @@ button:hover {{
 #scratchpad,
 #custom-dunst,
 #custom-powermenu,
-#mpd {{
+#mpd{{
     background-color:rgba({color0.rgb},{opacity});
-    padding: {pad}px 0px;
+    padding: 0px 0px; 
+    margin: 10px;
     color:{color7};
-    border-style:solid;
-    border-width:2px;
-    border-color:{color8};
-    border-radius:{b_radius}px;
+    font-size:{f_small}px;
+    /* border-style:solid; */
+    /* border-width:2px; */
+    /* border-color:{color8}; */
+     border-radius:{b_radius}px; 
 
 
 }}
 
 
-#window,
 #workspaces {{
-    margin: 0px 0px;
+    margin: 10px; 
 }}
 
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {{
-    margin-left: 0;
-}}
-
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {{
-    margin-right: 0;
-}}
 
 #clock {{
     color: {color7};
@@ -251,6 +248,11 @@ label:focus {{
 
 #scratchpad {{
     background: rgba(0, 0, 0, 0.2);
+}}
+#custom-powermenu{{
+  font-size:{f_small}px;
+  margin-bottom:30px;
+
 }}
 
 #scratchpad.empty {{
