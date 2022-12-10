@@ -14,4 +14,4 @@ while pgrep -x swaybg >/dev/null; do sleep 1; done
 waybar &
 dunst &
 swaybg -i ~/Imagens/$(wpg -c) -m fill &
-
+~/.config/hypr/import-gsettings.sh

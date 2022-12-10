@@ -85,7 +85,7 @@
     },
     "tray": {
         "show-passive-items" : true,
-         "icon-size": 25,
+         "icon-size": 20,
         "spacing": 12
     },
     "clock": {
