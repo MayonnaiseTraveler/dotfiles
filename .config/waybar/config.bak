@@ -11,7 +11,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces" ],
     /* "modules-center": ["hyprland/window"], */
-    "modules-right": ["pulseaudio", "clock", "custom/dunst", "tray","battery","custom/powermenu"],
+    "modules-right": ["pulseaudio", "clock", "custom/dunst", "tray","custom/powermenu"],
     // Modules configuration
      "wlr/workspaces": {
          "all-outputs": true,
@@ -84,8 +84,8 @@
     },
     "tray": {
         "show-passive-items" : true,
-         "icon-size": 20,
-        "spacing": 12
+         "icon-size": 21,
+        "spacing": 10
     },
     "clock": {
         // "timezone": "Brazil/Sao_Paulo",
@@ -113,13 +113,23 @@
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
-        "interval": 60,
-        "format": "{icon}",
-        "format-icons": ["", "", "", "", ""],
-        "tooltip-format": "{capacity}%",
-        "max-length": 25
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
     },
-        "network": {
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
         "format-ethernet": "{ipaddr}/{cidr} ",
@@ -130,11 +140,12 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}\n<span size='xx-large'>{icon}</span>{format_source}",
-        "format-bluetooth": "{volume}% {icon}{format_source}",
-        "format-bluetooth-muted": "{icon}{format_source}",
+        "format": "{volume}%\n <span size='xx-large'>{icon}</span>\n{format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": "off\n \n{format_source}",
-        "format-source-muted": "\n <span size='x-large'></span>",
+        "format-source": "{volume}%\n <span size='large'></span>",
+        "format-source-muted": "\n <span size='large'></span>",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -142,11 +153,9 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", "墳"]
+            "default": ["", "", ""]
         },
-        "on-click-right": "pavucontrol",
-        "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
-        "on-click":"pulseaudio-control togmute",
+        "on-click": "pavucontrol"
     },
     "custom/dunst":{
         "format": "{}<span size='xx-large'>\n{icon}</span>",
