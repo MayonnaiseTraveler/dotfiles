@@ -1845,3 +1845,89 @@ Dec 08 10:59 : player: played "SunsetOverdrive/More Action--GIbcFhTfbY.mp3"
 Dec 08 11:04 : player: played "SunsetOverdrive/Under Control-MBxMuVhWx2A.mp3"
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 08 14:47 : player: played "SunsetOverdrive/Ambient Music 02 _ Sunset Overdrive Sountrack-GHlh7fBIfVw.mp3"
+Dec 08 14:49 : player: played "SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3"
+Dec 08 14:52 : player: played "SunsetOverdrive/Dan Sartain - OD Life-XM6mZRLJggk.mp3"
+Dec 08 14:54 : player: played "SunsetOverdrive/Different Answer (Game Version) - Boats-iVQ_we8Rv4I.mp3"
+Dec 08 14:57 : player: played "SunsetOverdrive/Glitter and Gold by Cheap Time (Studio Version)-YxLri0wi-SU.mp3"
+Dec 08 15:00 : player: played "SunsetOverdrive/H-Blockx - Gazoline-t9DPk4IsTK8.mp3"
+Dec 08 15:04 : player: played "SunsetOverdrive/I Don’t Know What To Think (Game Version) - Cheap Time-8Xh8lt006sE.mp3"
+Dec 08 15:08 : player: played "SunsetOverdrive/Lost Sleep - Dead Souls (Game Version) _ Sunset Overdrive Soundtrack-Sq3vxUcgJjE.mp3"
+Dec 08 15:12 : player: played "SunsetOverdrive/Pad&Retrodio#305 - Sunset Overdrive - Make Your Head Pop-4znpIEBEqNA.mp3"
+Dec 08 15:13 : player: played "SunsetOverdrive/Sunset Electro PREVIEW (Sunset Overdrive OST)-kBNQApk75a4.mp3"
+Dec 08 15:18 : player: played "SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ Game Over-jnkcLfRbtnM.mp3"
+Dec 08 15:21 : player: played "SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ I Don't Know What To Think-FPMAuQLHobg.mp3"
+Dec 08 15:25 : player: played "Cyberpunk Edgerunners/Cyberpunk Edgerunners OST - (Episode 2, 3, 4) Friday Night Fire Fight by Aligns & Rubicone.mp3"
+Dec 08 15:29 : player: played "Cyberpunk Edgerunners/Cyberpunk Edgerunners OST - (Episode 3) Just Wine (P.A.F.F. remix) By Diego Cichy Don.mp3"
+Dec 08 15:32 : player: played "Cyberpunk Edgerunners/Cyberpunk Edgerunners OST - (Episode 9) Code Red Initiated By P.T. Adamczyk.mp3"
+Dec 08 15:32 : player: played "Cyberpunk Edgerunners/Cyberpunk Edgerunners OST Trailer Music - Ode To Joy (Edited⧸No Vocal).mp3"
+Dec 08 15:36 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 10 MEGAFAUNA.mp3"
+Dec 08 15:40 : player: played "lapfox/The Queenstons - The Grand Cross-Yt9-daw16m8.mp3"
+Dec 08 15:43 : output: Failed to pause "pulse audio" (pulse): failed to connect the stream: Timeout
+Dec 08 15:49 : player: played "lapfox/Renard - ON Trax Vol. 5 - BANNED FOREVER (DAYDREAM RMX)-pfqdKsUhA-Y.mp3"
+Dec 08 15:52 : player: played "lapfox/Kitsune² - ON Trax Vol. 5 - Take Off And Land 2012-YI_1jLU-v88.mp3"
+Dec 08 15:56 : player: played "lapfox/The Queenstons - Our Special Place (Lyrics)-RJoxs41Wias.mp3"
+Dec 08 15:57 : output: Failed to play on "pulse audio" (pulse): failed to connect the stream: Timeout
+Dec 08 16:03 : player: played "lapfox/The Queenstons - The Last Rave In The Depths Of Your Eyes [evereffervescent]-FUuW8dTWLOk.mp3"
+Dec 08 16:03 : output: Failed to play on "pulse audio" (pulse): failed to connect the stream: Timeout
+Dec 08 16:06 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 14 OOPS (prototype ver.) -feat. deuteronomy-.mp3"
+Dec 08 16:07 : output: Failed to play on "pulse audio" (pulse): failed to connect the stream: Timeout
+Dec 08 16:10 : player: played "lapfox/The Queenstons - Hot One-58OsHuQQsnY.mp3"
+Dec 08 16:10 : output: Failed to play on "pulse audio" (pulse): failed to connect the stream: Timeout
+Dec 08 16:25 : player: played "lapfox/Jackal Queenston feat. Mayhem - ON Trax Vol. 5 - Laugh At Life (FIAB's Wikked RMX (2K12 EQ))-k2lwpW4CGPw.mp3"
+Dec 08 16:27 : player: played "lapfox/Jackal Queenston feat. Mayhem - ON Trax Vol. 5 - Laugh At Life (FIAB's Wikked RMX (2K12 EQ))-k2lwpW4CGPw.mp3"
+Dec 08 16:28 : output: Failed to pause "pulse audio" (pulse): failed to connect the stream: Timeout
+Dec 08 16:28 : output: Failed to play on "pulse audio" (pulse): failed to connect the stream: Timeout
+Dec 08 16:31 : player: played "lapfox/Truxton - ON Trax Vol. 5 - 2 Old 2 Sober-3ToyUuAxXQc.mp3"
+Dec 08 16:34 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 08 nOISE gATE.mp3"
+Dec 08 21:36 : player: played "lapfox/Renard - ON Trax Vol. 5 - BANNED FOREVER (DAYDREAM RMX)-pfqdKsUhA-Y.mp3"
+Dec 08 21:50 : player: played "lapfox/Renard - ON Trax Vol. 5 - BANNED FOREVER (DAYDREAM RMX)-pfqdKsUhA-Y.mp3"
+Dec 08 21:53 : player: played "lapfox/The Queenstons - I Prefer The Sky (Remix)-YwinlxRLghc.mp3"
+Dec 08 21:56 : player: played "lapfox/The Queenstons - I Never Wanted [REMASTERED]-T0-uxdMuErc.mp3"
+Dec 08 21:57 : player: played "lapfox/Renard VS The Quick Brown Fox - ON Trax Vol. 5 - WANDERLUST Reprise-DHHfYx1Xeww.mp3"
+Dec 08 22:02 : player: played "lapfox/The Queenstons - Quiet Man-YfpCtLxIvAc.mp3"
+Dec 08 22:28 : player: played "lapfox/Hideki Naganuma - ON Trax Vol. 5 - A New Day (Renard RMX)-djhArsxYABk.mp3"
+Dec 08 22:32 : player: played "lapfox/Furries in a Blender - ON Trax Vol. 5 - Skugg In The Wilderness-UZxgOnW23WE.mp3"
+Dec 08 22:36 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 09 Grand Memory Clobber.mp3"
+Dec 08 22:39 : player: played "lapfox/The Queenstons - Hot One-58OsHuQQsnY.mp3"
+Dec 08 22:44 : player: played "lapfox/The Queenstons - Woodgrain [Identity Will Not Save You]-rNP1NCvWTc4.mp3"
+Dec 08 22:47 : player: played "lapfox/Mayhem - ON Trax Vol. 5 - Contra Overdrive-L6IC0JnjbRQ.mp3"
+Dec 08 22:49 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 01 log4_SUNLUST.mp3"
+Dec 08 22:52 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 13 SELF-COFFINZIING (prototype ver.).mp3"
+Dec 08 22:52 : player: played "lapfox/LAPFOX TRAX - ON Trax Vol. 5 - RUN LAPFOX~1 EXE-RjuLiY3NYpQ.mp3"
+Dec 09 14:18 : player: played "lapfox/THE FUCKDEST JAMS [LAPFOX-HALLEY NONSTOP MIX]-6Pm4vXNEaQo.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 09 18:17 : player: played "lapfox/THE FUCKDEST JAMS [LAPFOX-HALLEY NONSTOP MIX]-6Pm4vXNEaQo.mp3"
+Dec 09 18:21 : player: played "lapfox/Furries in a Blender - ON Trax Vol. 5 - I Am Sinistar (2K12 EQ)-VIQl4wnBiQk.mp3"
+Dec 09 18:24 : player: played "lapfox/The Queenstons - I Prefer The Sky (Remix)-YwinlxRLghc.mp3"
+Dec 09 18:26 : player: played "lapfox/Renard - ON Trax Vol. 5 - RINSE OUT (2K12 EQ)-UsAnWcD4OZI.mp3"
+Dec 09 18:30 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 09 Grand Memory Clobber.mp3"
+Dec 09 18:38 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 12 TRUEFINAL2 -feat. HEAVYVIPER-.mp3"
+Dec 09 18:40 : player: played "lapfox/Kitcaliber - ON Trax Vol. 5 - Hell Dive (TQBF Hell March RMX)-A2FaALOXfpo.mp3"
+Dec 09 18:41 : player: played "lapfox/Kitsune² - ON Trax Vol. 5 - Nasty Future Spacedeath-NZ0HtBIGrYM.mp3"
+Dec 09 18:50 : player: played "lapfox/The Queenstons - The Last Rave In The Depths Of Your Eyes [evereffervescent]-FUuW8dTWLOk.mp3"
+Dec 09 18:53 : player: played "lapfox/The Queenstons - The Grand Cross-Yt9-daw16m8.mp3"
+Dec 09 18:57 : player: played "anime/Nisemonogatari OST - Imitation (Kaiki Theme).mp3"
+Dec 09 19:00 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 08 nOISE gATE.mp3"
+Dec 10 00:32 : update: added lapfox/greenhouse/[ALBUM STREAM] greenhouse - _SNDWRK​⧸​gh.mp3
+Dec 10 00:33 : player: played "lapfox/KITCALIBER - HALCYONDAZE [album stream].mp3"
+Dec 10 00:35 : update: removing lapfox/greenhouse/[ALBUM STREAM] greenhouse - _SNDWRK​⧸​gh.mp3
+Dec 10 00:35 : update: added lapfox/[ALBUM STREAM] Mayhem - Washed Out.webm
+Dec 10 00:35 : update: added lapfox/[ALBUM STREAM] greenhouse - _SNDWRK​⧸​gh.mp3
+Dec 10 00:35 : update: added lapfox/[ALBUM STREAM] Mayhem - Washed Out.mp3
+Dec 10 00:35 : player: played "lapfox/greenhouse/[ALBUM STREAM] greenhouse - _SNDWRK​⧸​gh.mp3"
+Dec 10 00:35 : update: removing lapfox/[ALBUM STREAM] Mayhem - Washed Out.webm
+Dec 10 00:35 : update: updating lapfox/[ALBUM STREAM] Mayhem - Washed Out.mp3
+Dec 10 00:35 : player: played "lapfox/[ALBUM STREAM] Mayhem - Washed Out.mp3"
+Dec 10 00:35 : player: played "lapfox/[ALBUM STREAM] greenhouse - _SNDWRK​⧸​gh.mp3"
+Dec 10 00:35 : exception: Not playing
+Dec 10 00:35 : exception: Not playing
+Dec 10 00:43 : player: played "lapfox/Kitcaliber - ON Trax Vol. 5 - Hell Dive (TQBF Hell March RMX)-A2FaALOXfpo.mp3"
+Dec 10 00:46 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 02 SELF-COFFINIZING.mp3"
+Dec 10 00:48 : player: played "lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 08 nOISE gATE.mp3"
+Dec 10 01:02 : player: played "lapfox/[ALBUM STREAM] Mayhem - Washed Out.mp3"
