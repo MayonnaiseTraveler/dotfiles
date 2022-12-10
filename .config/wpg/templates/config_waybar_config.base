@@ -131,8 +131,8 @@
     "pulseaudio": {{
         // "scroll-step": 1, // %, can be a float
         "format": "{{volume}}\n<span size='xx-large'>{{icon}}</span>{{format_source}}",
-        "format-bluetooth": "{{volume}}% {{icon}} {{format_source}}",
-        "format-bluetooth-muted": " {{icon}} {{format_source}}",
+        "format-bluetooth": "{{volume}}% {{icon}}{{format_source}}",
+        "format-bluetooth-muted": "{{icon}}{{format_source}}",
         "format-muted": "off\n \n{{format_source}}",
         "format-source-muted": "\n <span size='x-large'></span>",
         "format-icons": {{
@@ -144,7 +144,9 @@
             "car": "",
             "default": ["", "", "墳"]
         }},
-        "on-click": "pavucontrol"
+        "on-click-right": "pavucontrol",
+        "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
+        "on-click":"pulseaudio-control togmute",
     }},
     "custom/dunst":{{
         "format": "{{}}<span size='xx-large'>\n{{icon}}</span>",
