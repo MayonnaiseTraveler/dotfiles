@@ -19,6 +19,7 @@ lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 vim.opt.relativenumber = true
 
+
 lvim.keys.normal_mode["<S-x>"] = ":BufferClose<CR>"
 lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
@@ -176,11 +177,7 @@ lvim.plugins = {
             })
         end
     },
-    {
-        "npxbr/glow.nvim",
-        ft = { "markdown" }
-        -- run = "yay -S glow"
-    },
+    { "npxbr/glow.nvim"},
     {
         'norcalli/nvim-colorizer.lua',
     },

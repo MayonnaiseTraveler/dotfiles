@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -nrs 'niiiwallpaper.png' 'niiiwallpaper.png'
+wpg -nrs 'commodore.jpg' 'commodore.jpg'

@@ -1,1 +1,1 @@
-swaylock 	--screenshots 	--clock 	--indicator 	--indicator-radius 100 	--indicator-thickness 7 	--effect-blur 7x5 	--effect-vignette 0.5:0.5 	--ring-color 103467 --key-hl-color 97e864	--line-color 0a1f3c --inside-color 0a1f3c --separator-color 0a1f3c --grace 1  --fade-in 0.2
+swaylock 	--screenshots 	--clock 	--indicator 	--indicator-radius 100 	--indicator-thickness 7 	--effect-blur 7x5 	--effect-vignette 0.5:0.5 	--ring-color 32112a --key-hl-color 9C1A64	--line-color 0D050B --inside-color 0D050B --separator-color 0D050B --grace 1  --fade-in 0.2

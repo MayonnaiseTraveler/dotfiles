@@ -1,7 +1,7 @@
 [colors]
-	background = "#0a1f3c"
-	foreground = "#f4f4d3"
-  highlight = "#97e864"
+	background = "#0D050B"
+	foreground = "#ffe6ff"
+  highlight = "#9C1A64"
 
 [global]
     ### Display ###
@@ -20,7 +20,7 @@
     horizontal_padding = 12
     corner_radius = 15
     frame_width = 2
-    frame_color = "#97e864"
+    frame_color = "#9C1A64"
     separator_color = auto
     sort = yes
     idle_threshold = 120
@@ -88,7 +88,7 @@
     timeout = 10
 
 [urgency_critical]
-    frame_color = "#97e864"
+    frame_color = "#9C1A64"
     timeout = 0
 
 [music]
