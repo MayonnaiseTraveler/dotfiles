@@ -1098,9 +1098,9 @@ kitty_mod ctrl+shift
 #: Scrolling {{{{{{
 
 # map kitty_mod+up        scroll_line_up
-# map kitty_mod+k         scroll_line_up
+ map kitty_mod+k         scroll_line_up
 # map kitty_mod+down      scroll_line_down
-# map kitty_mod+j         scroll_line_down
+ map kitty_mod+j         scroll_line_down
 # map kitty_mod+page_up   scroll_page_up
 # map kitty_mod+page_down scroll_page_down
 # map kitty_mod+home      scroll_home
@@ -1112,7 +1112,7 @@ kitty_mod ctrl+shift
 #: example, the following opens the scrollback buffer in less in an
 #: overlay window::
 
-     map f1 launch --stdin-source=@screen_scrollback --stdin-add-formatting --type=overlay less +G -R
+     # map f1 launch --stdin-source=@screen_scrollback --stdin-add-formatting --type=overlay less +G -R
 
 #: For more details on piping screen and buffer contents to external
 #: programs, see launch.
