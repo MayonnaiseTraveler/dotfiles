@@ -9,39 +9,41 @@ visualizer_fifo_path = "/tmp/mpd.fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "wave"
 visualizer_output_name = "my_fifo"
-visualizer_color = "default"
+visualizer_color = 2
 
 [header]
 user-interface="alternative"
 header_visibility = "yes"
-header_window_color = "cyan"
+header_window_color = "8"
 playlist_shorten_total_times = "yes"
-volume_color = "blue"
-state_line_color = "magenta"
-state_flags_color= "cyan"
+volume_color = "4"
+state_line_color = "9"
+state_flags_color= "4"
 
 [playlist]
 user-interface="alternative"
 playlist_display_mode = "columns"
 song_list_format = "{{%a - %t}|{%f}}{$R%l}"
+song_columns_list_format =  (15f)[5]{a} (50)[16]{t|f:Titler} (7f)[8]{l r}
 now_playing_prefix = "$b$5"
 now_playing_suffix = "$/b$9"
 
 [statusbar]
 progressbar_look = ▃▃▃
-progressbar_color = "black"
-progressbar_elapsed_color = "magenta"
+progressbar_color = "9"
+progressbar_elapsed_color = "4"
 statusbar_visibility = "yes"
-statusbar_color = "magenta"
+statusbar_color = "8"
 song_status_format = "{{%a{ - %t}}|{ - %f}{ - %b{ (%y)}}}"
 
 [library]
 song_library_format = "{{%a - %t}|{%f}}{$R%l} "
-empty_tag_color = "black"
+empty_tag_color = "11"
 
 [global]
+user-interface="alternative"
 colors_enabled = "yes"
-main_window_color = "cyan"
+main_window_color = "16"
 centered_cursor = "yes"
 enable_window_title = "yes"
 external_editor = "lvim"
@@ -51,4 +53,9 @@ visualizer_look = "●▮"
 #startup_slave_screen_focus = yes 
 #locked_screen_width_part = 30   
 
+
+
+color1 = 16
+
+color2 = 2
 
