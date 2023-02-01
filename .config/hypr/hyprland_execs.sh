@@ -14,5 +14,5 @@ while pgrep -x dunst >/dev/null; do sleep 1; done
 waybar &
 dunst &
 # swaybg -i ~/Imagens/$(wpg -c) -m fill &
-swww img --transition-type outer --transition-pos 0.900,0.900 --transition-step 90 ~/Imagens/$(wpg -c) &
+swww img --filter Nearest --transition-type outer --transition-pos 0.900,0.900 --transition-step 90 ~/Imagens/$(wpg -c) &
 ~/.config/hypr/import-gsettings.sh

@@ -1,4 +1,4 @@
-lvim.format_on_save = false
+lvim.format_on_save = false 
 lvim.colorscheme = "rose-pine"
 vim.opt.foldmethod = "syntax" -- folding set to "expr" for treesitter based foldingvim.builtin.lualine.style = "default"
 vim.opt.smartcase = true -- smart case
@@ -10,7 +10,7 @@ lvim.lsp.diagnostics.virtual_text = false
 vim.opt.termguicolors = false -- set term gui colors (most terminals support this)
 vim.opt.cursorline = false
 vim.opt.tabstop = 4
-vim.opt.expandtab = true -- convert tabs to spaces
+vim.opt.expandtab = false -- convert tabs to spaces
 vim.opt.shiftwidth = 4 -- the number of spaces inserted for each indentation
 -- lvim.cmd("inoremap <kj> <Esc>")
 lvim.keys.insert_mode["<M-k>"] = "<Esc>"
@@ -47,7 +47,7 @@ lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
     "bash",
-    "c",
+    -- "c",
     "javascript",
     "json",
     "lua",
@@ -58,6 +58,7 @@ lvim.builtin.treesitter.ensure_installed = {
     "rust",
     "yaml",
 }
+
 -- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" })
 
 local formatters = require "lvim.lsp.null-ls.formatters"
@@ -69,46 +70,47 @@ lvim.builtin.treesitter.ignore_install = { "haskell" }
 
 lvim.builtin.treesitter.highlight.enabled = true
 
-require('rose-pine').setup({
-    dark_variant = 'moon',
-    bold_vert_split = false,
-    dim_nc_background = false,
-    disable_background = true,
-    disable_float_background = true,
-    disable_italics = false,
+ require('rose-pine').setup({
+     dark_variant = 'moon',
+     bold_vert_split = false,
+     dim_nc_background = false,
+     disable_background = true,
+     disable_float_background = true,
+     disable_italics = false,
 
-    groups = {
-        background = 'base',
-        panel = 'surface',
-        border = 'highlight_med',
-        comment = 'muted',
-        link = 'iris',
-        punctuation = 'subtle',
+     groups = {
+         background = 'base',
+         panel = 'surface',
+         border = 'highlight_med',
+         comment = 'muted',
+         link = 'iris',
+         punctuation = 'subtle',
 
-        error = 'love',
-        hint = 'iris',
-        info = 'foam',
-        warn = 'gold',
+         error = 'love',
+         hint = 'iris',
+         info = 'foam',
+         warn = 'gold',
 
-        headings = {
-            h1 = 'iris',
-            h2 = 'foam',
-            h3 = 'rose',
-            h4 = 'gold',
-            h5 = 'pine',
-            h6 = 'foam',
-        }
-        -- or set all headings at once
-        -- headings = 'subtle'
-    },
+         headings = {
+             h1 = 'iris',
+             h2 = 'foam',
+             h3 = 'rose',
+             h4 = 'gold',
+             h5 = 'pine',
+             h6 = 'foam',
+         }
+         -- or set all headings at once
+         -- headings = 'subtle'
+     },
 
-    -- Change specific vim highlight groups
-    highlight_groups = {
-        ColorColumn = { bg = 'rose' }
-    }
-})
+     -- Change specific vim highlight groups
+     highlight_groups = {
+         ColorColumn = { bg = 'rose' }
+     }
+ })
 -- Additional Plugins
 lvim.plugins = {
+	{'deviantfero/wpgtk.vim'},
     { 'mhartington/oceanic-next' },
     {
         "kevinhwang91/rnvimr",
@@ -141,7 +143,6 @@ lvim.plugins = {
     },
     { 'ishan9299/nvim-solarized-lua' },
     { 'sainnhe/everforest' },
-    { 'deviantfero/wpgtk.vim' },
     {
         "folke/zen-mode.nvim",
         config = function()
@@ -153,30 +154,30 @@ lvim.plugins = {
         end
     },
     {
-        "echasnovski/mini.map",
-        branch = "stable",
-        config = function()
-            require('mini.map').setup()
-            local map = require('mini.map')
-            map.setup({
-                integrations = {
-                    map.gen_integration.builtin_search(),
-                    map.gen_integration.diagnostic({
-                        error = 'DiagnosticFloatingError',
-                        warn  = 'DiagnosticFloatingWarn',
-                        info  = 'DiagnosticFloatingInfo',
-                        hint  = 'DiagnosticFloatingHint',
-                    }),
-                },
-                window = {
-                    side = 'right',
-                    width = 10, -- set to 1 for a pure scrollbar :)
-                    winblend = 0,
-                    show_integration_count = false,
-                },
-            })
-        end
-    },
+       "echasnovski/mini.map",
+       branch = "stable",
+       config = function()
+           require('mini.map').setup()
+           local map = require('mini.map')
+           map.setup({
+               integrations = {
+                   map.gen_integration.builtin_search(),
+                   map.gen_integration.diagnostic({
+                       error = 'DiagnosticFloatingError',
+                       warn  = 'DiagnosticFloatingWarn',
+                       info  = 'DiagnosticFloatingInfo',
+                       hint  = 'DiagnosticFloatingHint',
+                   }),
+               },
+               window = {
+                   side = 'right',
+                   width = 10, -- set to 1 for a pure scrollbar :)
+                   winblend = 0,
+                   show_integration_count = false,
+               },
+           })
+       end
+   },
     { "npxbr/glow.nvim"},
     {
         'norcalli/nvim-colorizer.lua',
@@ -202,33 +203,33 @@ lvim.plugins = {
     },
 
 }
-lvim.autocommands = {
-    {
-        { "BufEnter", "Filetype" },
-        {
-            desc = "Open mini.map and exclude some filetypes",
-            pattern = { "*" },
-            callback = function()
-                local exclude_ft = {
-                    "qf",
-                    "NvimTree",
-                    "toggleterm",
-                    "TelescopePrompt",
-                    "alpha",
-                    "netrw",
-                }
-
-                local map = require('mini.map')
-                if vim.tbl_contains(exclude_ft, vim.o.filetype) then
-                    vim.b.minimap_disable = true
-                    map.close()
-                elseif vim.o.buftype == "" then
-                    map.open()
-                end
-            end,
-        },
-    },
-}
+ lvim.autocommands = {
+     {
+         { "BufEnter", "Filetype" },
+         {
+             desc = "Open mini.map and exclude some filetypes",
+             pattern = { "*" },
+             callback = function()
+                 local exclude_ft = {
+                     "qf",
+                     "NvimTree",
+                     "toggleterm",
+                     "TelescopePrompt",
+                     "alpha",
+                     "netrw",
+                 }
+ 
+                 local map = require('mini.map')
+                 if vim.tbl_contains(exclude_ft, vim.o.filetype) then
+                     vim.b.minimap_disable = true
+                     map.close()
+                 elseif vim.o.buftype == "" then
+                     map.open()
+                 end
+             end,
+         },
+     },
+ }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
