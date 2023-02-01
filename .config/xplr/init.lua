@@ -21,7 +21,7 @@ version = '0.20.2'
 -- )
 
 
-
+xplr.config.general.panel_ui.default.border_style.fg = "Red"
 
 xplr.config.modes.builtin.default.key_bindings.on_key.P = {
   help = "preview",

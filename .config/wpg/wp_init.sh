@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -nrs 'apo5.gif' 'apo5.gif'
+wpg -nrs 'apo9.gif' 'apo9.gif'

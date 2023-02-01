@@ -53,7 +53,7 @@ window#waybar.solo {{
     text-shadow: inherit;
     border-color: transparent;
     border-width:2px;
-    background-color: rgba({color0.rgb},{opacity});
+    background-color: rgba({color0.rgb},0);
     color:{color7};
     padding:0px 0px;
     margin:0px;
@@ -97,7 +97,7 @@ window#waybar.solo {{
 #custom-dunst,
 #custom-powermenu,
 #mpd{{
-    background-color:rgba({color0.rgb},{opacity});
+    background-color:rgba({color0.rgb},0);
     padding: 0px 0px; 
     margin: 10px;
     color:{color7};
@@ -249,6 +249,7 @@ label:focus {{
 #scratchpad {{
     background: rgba(0, 0, 0, 0.2);
 }}
+
 #custom-powermenu{{
   font-size:{f_small}px;
   margin-bottom:30px;
