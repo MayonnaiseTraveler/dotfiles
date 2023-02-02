@@ -1,30 +1,62 @@
-sw_volume: 45
+sw_volume: 20
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: play
-current: 1
-time: 55.272000
-random: 0
+state: pause
+current: 41
+time: 112.017000
+random: 1
 repeat: 0
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 2
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 01 log4_SUNLUST.mp3
-1:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 02 SELF-COFFINIZING.mp3
-2:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 03 make a BAD CHOICE!.mp3
-3:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 04 The Museum Of Unnatural Disasters.mp3
-4:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 05 +willow rebound -feat. Rotteen-.mp3
-5:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 06 ZONE BREAKERZ Ⅱnd.mp3
-6:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 07 OOPS (THIS IS OUR FAULT) -feat. deuteronomy-.mp3
-7:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 08 nOISE gATE.mp3
-8:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 09 Grand Memory Clobber.mp3
-9:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 10 MEGAFAUNA.mp3
-10:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 11 birds@sunset.mp3
-11:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 12 TRUEFINAL2 -feat. HEAVYVIPER-.mp3
-12:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 13 SELF-COFFINZIING (prototype ver.).mp3
-13:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 14 OOPS (prototype ver.) -feat. deuteronomy-.mp3
-14:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 15 The Museum of Unnatural Disasters (prototype ver.).mp3
+0:SunsetOverdrive/Ambient Music 02 _ Sunset Overdrive Sountrack-GHlh7fBIfVw.mp3
+1:SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3
+2:SunsetOverdrive/Dan Sartain - OD Life-XM6mZRLJggk.mp3
+3:SunsetOverdrive/Different Answer (Game Version) - Boats-iVQ_we8Rv4I.mp3
+4:SunsetOverdrive/Glitter and Gold by Cheap Time (Studio Version)-YxLri0wi-SU.mp3
+5:SunsetOverdrive/H-Blockx - Gazoline-t9DPk4IsTK8.mp3
+6:SunsetOverdrive/I Don’t Know What To Think (Game Version) - Cheap Time-8Xh8lt006sE.mp3
+7:SunsetOverdrive/Lost Sleep - Dead Souls (Game Version) _ Sunset Overdrive Soundtrack-Sq3vxUcgJjE.mp3
+8:SunsetOverdrive/Pad&Retrodio#305 - Sunset Overdrive - Make Your Head Pop-4znpIEBEqNA.mp3
+9:SunsetOverdrive/Sunset Electro PREVIEW (Sunset Overdrive OST)-kBNQApk75a4.mp3
+10:SunsetOverdrive/Sunset Overdrive (The Unofficial Theme Song) - Yes.Mustache-ULcoWF_aMI4.mp3
+11:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ Game Over-jnkcLfRbtnM.mp3
+12:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ I Don't Know What To Think-FPMAuQLHobg.mp3
+13:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ The Real World's A Terrible Place-tMyCgUY3rbU.mp3
+14:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ Where Do We Go From Here-vRhLTi4ZSus.mp3
+15:SunsetOverdrive/Sunset Overdrive EP Vol  2 ~ Cesium-zuGQpdIRsYo.mp3
+16:SunsetOverdrive/Sunset Overdrive EP Vol  2 ~ Sunset Electro--Th7zaF2-vE.mp3
+17:SunsetOverdrive/Sunset Overdrive It's Me! Fizzie! (Boss Fight) Soundtrack-AzYUaYnSZNg.mp3
+18:SunsetOverdrive/Sunset Overdrive SONG 'This is Delirium' MUSIC VIDEO - TryHardNinja-imBlC_6VIRc.mp3
+19:SunsetOverdrive/The Bronx-Sunset City-Nh6J46sRm9c.mp3
+20:SunsetOverdrive/The Death Set - Too Much Fun For Regrets-a4nZcBaEYj8.mp3
+21:SunsetOverdrive/Zig Zags - The Fog (Live on KEXP)-8lFMAqg5K0M.mp3
+22:SunsetOverdrive/Melvins - (A) Senile Animal - 05 - Rat Faced-GtFvUAuDRWY.mp3
+23:SunsetOverdrive/Bass Drum of Death - I Wanna Be Forgotten-3oukrCiMNq8.mp3
+24:SunsetOverdrive/Carbonas - Journey to the End-k56wsHPgPsg.mp3
+25:SunsetOverdrive/FIDLAR - White on White (Official Audio)-LaDAl5q4llQ.mp3
+26:SunsetOverdrive/Cy Dune - Yellin' (Official Video)-amuvQauqcLU.mp3
+27:SunsetOverdrive/THE BLIND SHAKE 'I'M NOT AN ANIMAL' OFFICIAL MUSIC VIDEO-R2M6kGGVrlM.mp3
+28:SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
+29:SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
+30:SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
+31:SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
+32:SunsetOverdrive/Folding Socks-D42lkd7_bNk.mp3
+33:SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
+34:SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
+35:SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
+36:SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
+37:SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
+38:SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
+39:SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
+40:SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
+41:SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
+42:SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
+43:SunsetOverdrive/Horror Night-rc6aw3OzZoo.mp3
+44:SunsetOverdrive/I Don’t Know What To Think-ektLW_kAlQQ.mp3
+45:SunsetOverdrive/More Action--GIbcFhTfbY.mp3
+46:SunsetOverdrive/Under Control-MBxMuVhWx2A.mp3
 playlist_end

@@ -235,13 +235,13 @@ bindsym $mod+r mode "resize"
 set $bg-color 	         #06102B	
 #neonpink
 
-set $fg-color #464992
+set $fg-color #F06A92
 
 set $inactive-bg-color   #06102B
 
-set $text-color          #464992	
+set $text-color          #F06A92	
 
-set $inactive-text-color #464992
+set $inactive-text-color #F06A92
 
 set $urgent-bg-color     #06102B	
 

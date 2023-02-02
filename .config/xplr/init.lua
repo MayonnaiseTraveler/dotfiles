@@ -35,7 +35,7 @@ xplr.config.modes.builtin.default.key_bindings.on_key.P = {
           rm -f -- "$FIFO_PATH"
         else
           mkfifo "$FIFO_PATH"
-          "$HOME/.local/bin/imv-open.sh" "$FIFO_PATH" "$XPLR_FOCUS_PATH" &
+          "$HOME/.config/xplr/imv-open.sh" "$FIFO_PATH" "$XPLR_FOCUS_PATH" &
           "$XPLR" -m 'StartFifo: %q' "$FIFO_PATH"
         fi
       ]===],
@@ -185,7 +185,7 @@ require("dual-pane").setup{
   inactive_pane_width = { Percentage = 30 },
 }
 
-require("zentable").setup()
+-- require("zentable").setup()
 require("context-switch").setup()
 require("nuke").setup()
 

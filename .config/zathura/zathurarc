@@ -31,15 +31,15 @@ set inputbar-bg rgba(6,16,43,1) #00 currently not used
 set inputbar-fg "#d4cedf" #02
 
 set notification-error-bg "#0b1f57" #08
-set notification-error-fg "#464992" #00
+set notification-error-fg "#F06A92" #00
 
 set notification-warning-bg "#0b1f57" #08
-set notification-warning-fg "#464992" #00
+set notification-warning-fg "#F06A92" #00
 
-set highlight-color "#585C95" #0A
-set highlight-active-color "#636ad1" #0D
+set highlight-color "#EE99B5" #0A
+set highlight-active-color "#ffade2" #0D
 
-set completion-highlight-fg "#464992" #02
+set completion-highlight-fg "#F06A92" #02
 set completion-highlight-bg "#0b1f57" #0C
 
 set completion-bg "#0b1f57" #02

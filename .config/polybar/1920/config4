@@ -21,8 +21,8 @@
 background = #06102B
 background-alt = #06102B
 ;foreground = ${xrdb:color7:#222}
-foreground = #464992
-foreground-alt = #4c51cb
+foreground = #F06A92
+foreground-alt = #ff73b4
 primary = #0b1f57
 secondary = #0b1f57
 alert = #0b1f57
