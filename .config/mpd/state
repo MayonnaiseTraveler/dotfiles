@@ -1,10 +1,10 @@
-sw_volume: 20
+sw_volume: 56
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 6
-time: 1.345000
-random: 1
+current: 80
+time: 0.502000
+random: 0
 repeat: 0
 single: 0
 consume: 0
@@ -12,51 +12,91 @@ crossfade: 2
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:SunsetOverdrive/Ambient Music 02 _ Sunset Overdrive Sountrack-GHlh7fBIfVw.mp3
-1:SunsetOverdrive/Cerebral Ballzy - Better In Leather (Official Audio)-_hEKvT3DIeU.mp3
-2:SunsetOverdrive/Dan Sartain - OD Life-XM6mZRLJggk.mp3
-3:SunsetOverdrive/Different Answer (Game Version) - Boats-iVQ_we8Rv4I.mp3
-4:SunsetOverdrive/Glitter and Gold by Cheap Time (Studio Version)-YxLri0wi-SU.mp3
-5:SunsetOverdrive/H-Blockx - Gazoline-t9DPk4IsTK8.mp3
-6:SunsetOverdrive/I Don’t Know What To Think (Game Version) - Cheap Time-8Xh8lt006sE.mp3
-7:SunsetOverdrive/Lost Sleep - Dead Souls (Game Version) _ Sunset Overdrive Soundtrack-Sq3vxUcgJjE.mp3
-8:SunsetOverdrive/Pad&Retrodio#305 - Sunset Overdrive - Make Your Head Pop-4znpIEBEqNA.mp3
-9:SunsetOverdrive/Sunset Electro PREVIEW (Sunset Overdrive OST)-kBNQApk75a4.mp3
-10:SunsetOverdrive/Sunset Overdrive (The Unofficial Theme Song) - Yes.Mustache-ULcoWF_aMI4.mp3
-11:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ Game Over-jnkcLfRbtnM.mp3
-12:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ I Don't Know What To Think-FPMAuQLHobg.mp3
-13:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ The Real World's A Terrible Place-tMyCgUY3rbU.mp3
-14:SunsetOverdrive/Sunset Overdrive EP Vol  1 ~ Where Do We Go From Here-vRhLTi4ZSus.mp3
-15:SunsetOverdrive/Sunset Overdrive EP Vol  2 ~ Cesium-zuGQpdIRsYo.mp3
-16:SunsetOverdrive/Sunset Overdrive EP Vol  2 ~ Sunset Electro--Th7zaF2-vE.mp3
-17:SunsetOverdrive/Sunset Overdrive It's Me! Fizzie! (Boss Fight) Soundtrack-AzYUaYnSZNg.mp3
-18:SunsetOverdrive/Sunset Overdrive SONG 'This is Delirium' MUSIC VIDEO - TryHardNinja-imBlC_6VIRc.mp3
-19:SunsetOverdrive/The Bronx-Sunset City-Nh6J46sRm9c.mp3
-20:SunsetOverdrive/The Death Set - Too Much Fun For Regrets-a4nZcBaEYj8.mp3
-21:SunsetOverdrive/Zig Zags - The Fog (Live on KEXP)-8lFMAqg5K0M.mp3
-22:SunsetOverdrive/Melvins - (A) Senile Animal - 05 - Rat Faced-GtFvUAuDRWY.mp3
-23:SunsetOverdrive/Bass Drum of Death - I Wanna Be Forgotten-3oukrCiMNq8.mp3
-24:SunsetOverdrive/Carbonas - Journey to the End-k56wsHPgPsg.mp3
-25:SunsetOverdrive/FIDLAR - White on White (Official Audio)-LaDAl5q4llQ.mp3
-26:SunsetOverdrive/Cy Dune - Yellin' (Official Video)-amuvQauqcLU.mp3
-27:SunsetOverdrive/THE BLIND SHAKE 'I'M NOT AN ANIMAL' OFFICIAL MUSIC VIDEO-R2M6kGGVrlM.mp3
-28:SunsetOverdrive/Alright OK-lV9rZe0qz5k.mp3
-29:SunsetOverdrive/Between The Lines-3VA44b28oRo.mp3
-30:SunsetOverdrive/Different Answer-J3vy0WaoxZA.mp3
-31:SunsetOverdrive/Feel The Hate-kN5_GrOisaM.mp3
-32:SunsetOverdrive/Folding Socks-D42lkd7_bNk.mp3
-33:SunsetOverdrive/I Don't Want Your Company-ZaI6Q_ajCno.mp3
-34:SunsetOverdrive/I'm On The Run-a3ZmcXGMwg8.mp3
-35:SunsetOverdrive/I've Got Gunz-7fCXH8H_-IU.mp3
-36:SunsetOverdrive/No One Else-Jf7GzF2LWt4.mp3
-37:SunsetOverdrive/Smell The Night-YUTx89ouZFA.mp3
-38:SunsetOverdrive/This Is The End-9mlbeVSDs8s.mp3
-39:SunsetOverdrive/Total Annihilation-Ynq429R03dE.mp3
-40:SunsetOverdrive/Unknown Town-gByAdkXwPOM.mp3
-41:SunsetOverdrive/Violence-Nf2HhYDKu8A.mp3
-42:SunsetOverdrive/We’re Gonna Have A Party-gQKqjj8fboU.mp3
-43:SunsetOverdrive/Horror Night-rc6aw3OzZoo.mp3
-44:SunsetOverdrive/I Don’t Know What To Think-ektLW_kAlQQ.mp3
-45:SunsetOverdrive/More Action--GIbcFhTfbY.mp3
-46:SunsetOverdrive/Under Control-MBxMuVhWx2A.mp3
+0:Cuco/Cuco - Bossa No Sé (Lyric Video) ft. Jean Carter-VXQ3lzLq1S0.mp3
+1:Cuco/CUCO - Lover Is a Day (Audio)-9wiEM0s4aCQ.mp3
+2:Cuco/CUCO - Summertime Hightime (feat. J-Kwe$t) (Official Music Video)-ilUCwLLdltQ.mp3
+3:Ivory_Rasmus/Living In A Dream Cover (Originally by Ivory Rasmus)-XSq_U4PYJeg.mp3
+4:Ivory_Rasmus/As They Burn-usDEJjpjeeI.mp3
+5:Ivory_Rasmus/Azethoth-2UrnUJ0aeeM.mp3
+6:Ivory_Rasmus/Blurry Streaks-_6IP1av8S1g.mp3
+7:Ivory_Rasmus/Chances (feat. Boogalu)-8ccHglxFnmQ.mp3
+8:Ivory_Rasmus/Fell Apart-Pp_0HtJbe4s.mp3
+9:Ivory_Rasmus/Friction-lzjih09spXM.mp3
+10:Ivory_Rasmus/Ira-PU1KSRx70cU.mp3
+11:Ivory_Rasmus/Is It Me-FTB_3kY_zFQ.mp3
+12:Ivory_Rasmus/Life Flows-kyWvE2rAkws.mp3
+13:Ivory_Rasmus/Not Holding Back-4XcTZNafjcQ.mp3
+14:Ivory_Rasmus/Songbird (feat. Riku)-WazLwpgrFa8.mp3
+15:Ivory_Rasmus/What I've Become-oqhH6m4vDN0.mp3
+16:Ivory_Rasmus/Young & Dumb (feat. Lonemoon)-RtLG7-Vbsmo.mp3
+17:JonKaGor/(Original Song) Artificial Abandonment-udpUpYge_O0.mp3
+18:JonKaGor/[nyattabox X JonKaGor] Baker's Dozen [Original Song]-31o5C_n5k54.mp3
+19:JonKaGor/Another Mistake-MzA77Ttl7V0.mp3
+20:JonKaGor/Bitter and Blunt ✨-COs8ZD0j2fc.mp3
+21:JonKaGor/Circus Hop [TW]-bjKLjGbL-W0.mp3
+22:JonKaGor/Dandelion 🌼 (Full Song)-VDZH-O0aA5M.mp3
+23:JonKaGor/Fish ! (Original)-tF6CKxc_2JQ.mp3
+24:JonKaGor/I Forgot That You Exist. ¯_(ツ)_¯-f-BvvNZwgQ0.mp3
+25:JonKaGor/It's Normal [TW]-cze5GFVR9O0.mp3
+26:JonKaGor/Paper Alibis (Full Song)-YZHlEBmLKWA.mp3
+27:JonKaGor/Silly Plans-fu_K4hfGRNA.mp3
+28:JonKaGor/You Made Me Fall in Love 💖-bZQlfBqNzj8.mp3
+29:JonKaGor/You'll Be Gone-IZyz9Nsaio0.mp3
+30:Ken-Ashcorp/Ken Ashcorp - 20 Percent Cooler-u6xRSafBV8o.mp3
+31:Ken-Ashcorp/Ken Ashcorp - Absolute Territory-kFZKgf5WG0g.mp3
+32:Ken-Ashcorp/Ken Ashcorp - Black Lily-Mgl1M4EunNk.mp3
+33:Ken-Ashcorp/Ken Ashcorp - Blue-wX78KhD04N8.mp3
+34:Ken-Ashcorp/Ken Ashcorp - Burgz-ioTQ7erZD1c.mp3
+35:Ken-Ashcorp/Ken Ashcorp - Crazy Chicks-QIFn0wqZx7Y.mp3
+36:Ken-Ashcorp/Ken Ashcorp - Hold My Hand-b7efMCmnRkk.mp3
+37:Ken-Ashcorp/Ken Ashcorp - Hunter-9Pe7lTIR394.mp3
+38:Ken-Ashcorp/Ken Ashcorp - I Wish There Were Still Dinosaurs-bt56yjY9qOw.mp3
+39:Ken-Ashcorp/Ken Ashcorp - I'm Your Slave-oC0A-cEY-1Q.mp3
+40:Ken-Ashcorp/Ken Ashcorp - In The Zone-a3ESTf5CyGo.mp3
+41:Ken-Ashcorp/Ken Ashcorp - Not One Less-OK2yqm-ofGA.mp3
+42:Ken-Ashcorp/Ken Ashcorp - On The Rocks-zH_RlepY3GQ.mp3
+43:Ken-Ashcorp/Ken Ashcorp - PvP (Blizzcon 2011 Song Contest WINNER 1st Place)-u5lJ7tXWz74.mp3
+44:Ken-Ashcorp/Ken Ashcorp - Rival-YEiVn63Ue34.mp3
+45:Ken-Ashcorp/Ken Ashcorp - Ryder Or Riot--F1Stpj7jWc.mp3
+46:Ken-Ashcorp/Ken Ashcorp - Shut Up And Trust This-4pGuu8QMk6E.mp3
+47:Ken-Ashcorp/Ken Ashcorp - Supernatural-rm7bTvTtXJg.mp3
+48:Ken-Ashcorp/Ken Ashcorp - Take Me Home-g-RdUOLXG8k.mp3
+49:Ken-Ashcorp/Ken Ashcorp - Touch Fluffy Tail-4nyHPIcbn88.mp3
+50:Ken-Ashcorp/Ken Ashcorp - We're Shameless-oHAwhZBnI1A.mp3
+51:Ken-Ashcorp/Ken Ashcorp - Wear-_3ux53bbVXs.mp3
+52:KennyYoung/blink-182 - Dammit (Cover).mp3
+53:KennyYoung/Foxboro Hot Tubs - Mother Mary (Cover).mp3
+54:KennyYoung/Green Day - Drama Queen (Cover).mp3
+55:KennyYoung/Green Day - Graffitia (Cover).mp3
+56:KennyYoung/Green Day - Wake Me Up When September Ends (Cover).mp3
+57:KennyYoung/Kenny & Kogey - I Won't Be Home For Christmas (blink-182 Cover).mp3
+58:KennyYoung/Kenny & Kogey - We Wish You A Merry Christmas (Relient K Cover).mp3
+59:KennyYoung/Kennyoung - Bullet In My Head.mp3
+60:KennyYoung/Kennyoung - I Used To.mp3
+61:KennyYoung/Kennyoung - Let's Go (Hoshi Opening).mp3
+62:KennyYoung/Kennyoung - Loner.mp3
+63:KennyYoung/Kennyoung - Maybe Tomorrow (Lyric Video).mp3
+64:KennyYoung/Kennyoung - Nothing.mp3
+65:KennyYoung/Kennyoung - On The Beach.mp3
+66:KennyYoung/Kennyoung - People Online.mp3
+67:KennyYoung/Kennyoung - 불빛.mp3
+68:KennyYoung/Kennyoung - 작별인사.mp3
+69:KennyYoung/Kennyoung & YonKaGor - See You!.mp3
+70:KennyYoung/Machine Gun Kelly - Concert For Aliens (Cover).mp3
+71:KennyYoung/Mason Dayot - JK LOVE (Cover).mp3
+72:KennyYoung/Owl City - Dementia (Cover ft.PrinceWhateverer).mp3
+73:KennyYoung/Portal 2 - Want You Gone (Cover).mp3
+74:KennyYoung/Sekai No Owari - Instant Radio (Cover).mp3
+75:KennyYoung/Simple Plan - I'm Just A Kid (Cover).mp3
+76:KennyYoung/The Beatles - All My Loving (Cover).mp3
+77:KennyYoung/The Lazy Tails - Ghost of Love (Official Visualizer).mp3
+78:KennyYoung/The Longshot - Devil's Kind (Cover).mp3
+79:KennyYoung/Kenny & Kogey -  Feeling This (blink-182 Cover).mp3
+80:KennyYoung/blink-182 - First Date (Cover).mp3
+81:KennyYoung/Kenny & Kogey - Happy Holidays, You Bastard (blink-182 Cover).mp3
+82:KennyYoung/Green Day - Holy Toledo! (Cover).mp3
+83:KennyYoung/Kenny & Kogey - I Miss You (blink-182 Cover).mp3
+84:KennyYoung/Acceptance - So Contagious (Cover).mp3
+85:KennyYoung/blink-182 - Please Take Me Home (Cover ft.Kogey).mp3
+86:KennyYoung/blink-182 - What's My Age Again (Cover).mp3
 playlist_end

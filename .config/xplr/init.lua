@@ -1,5 +1,4 @@
 version = '0.20.2'
--- switch to plugin manager later
 local home = os.getenv("HOME")
 local xpm_path = home .. "/.local/share/xplr/dtomvan/xpm.xplr"
 local xpm_url = "https://github.com/dtomvan/xpm.xplr"

@@ -7,7 +7,7 @@ lvim.builtin.lualine.style = "lvim" -- or "none"
 lvim.builtin.lualine.options.theme = "auto"
 lvim.transparent_window = true
 lvim.lsp.diagnostics.virtual_text = false
-vim.opt.termguicolors = false -- set term gui colors (most terminals support this)
+vim.opt.termguicolors = true-- set term gui colors (most terminals support this)
 vim.opt.cursorline = false
 vim.opt.tabstop = 4
 vim.opt.expandtab = false -- convert tabs to spaces
@@ -47,7 +47,7 @@ lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
     "bash",
-    -- "c",
+    "c",
     "javascript",
     "json",
     "lua",
@@ -65,6 +65,10 @@ local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
     { command = "astyle" },
 }
+
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.offsetEncoding = { "utf-16" }
+require("lspconfig").clangd.setup({ capabilities = capabilities})
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 
@@ -142,6 +146,7 @@ lvim.plugins = {
         as = "catppuccin"
     },
     { 'ishan9299/nvim-solarized-lua' },
+	{'rafamadriz/friendly-snippets'},
     { 'sainnhe/everforest' },
     {
         "folke/zen-mode.nvim",
