@@ -106,7 +106,7 @@ binde=SUPER,20,exec,mpc volume -5 && dunstify -a mpc "Volume:" -r 44 -h int:valu
 # Program binds
 bind=SUPER,RETURN,exec,kitty
 bind=SUPER,A,exec,kitty --class=pavucontrol -T 'pavucontrol' -e pulsemixer
-bind=SUPER,D,exec,rofi -show drun -theme ~/.config/rofi/wpg.rasi
+bind=SUPER,D,exec,rofi -show drun -normal-window -theme ~/.config/rofi/wpg.rasi
 bind=SUPERALT,R,exec,kitty -e ranger
 bind=,Print,exec, grim -g "$(slurp)" - | wl-copy 
 
@@ -250,7 +250,8 @@ exec-once= ~/.config/hypr/hyprland_execs.sh
 windowrulev2=float,class:^(pavucontrol)$
 windowrulev2=center,class:^(pavucontrol)$
 windowrulev2=forceinput,class:^(veadotube mini.x86_64)$
-
+windowrulev2=float,class:^(rofi)$
+windowrulev2=center,class:^(rofi)$
 windowrulev2=workspace 3 silent,class:^(joplin)$
 windowrulev2=workspace 4 silent,class:^(discord)$
 windowrulev2=workspace 4 silent,class:^(telegramdesktop)$

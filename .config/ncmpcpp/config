@@ -1,10 +1,11 @@
-execute_on_song_change = mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh && ~/.config/ncmpcpp/songinfo.sh
+execute_on_song_change = mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/ncmpcpp-icat.sh && ~/.config/ncmpcpp/songinfo.sh
 [mpd]
 mpd_host = "localhost"
 mpd_port = "6600"
 mpd_crossfade_time = "2"
 
 [visualizer]
+#visualizer_look = "●▮"
 visualizer_fifo_path = "/tmp/mpd.fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "wave"
@@ -45,12 +46,14 @@ main_window_color = "16"
 centered_cursor = "yes"
 enable_window_title = "yes"
 external_editor = "lvim"
-visualizer_look = "●▮"
-#startup_screen = visualizer     
-#startup_slave_screen = playlist 
-#startup_slave_screen_focus = yes 
-#locked_screen_width_part = 30   
 
+## options for image preview
+
+visualizer_look = "  "           # First we make the visualizer invisible
+startup_screen = visualizer      
+startup_slave_screen = playlist  
+startup_slave_screen_focus = yes 
+locked_screen_width_part = 35
 
 
 color1 = 16
