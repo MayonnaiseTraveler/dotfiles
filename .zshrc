@@ -151,9 +151,10 @@ alias nmap='grc nmap'
 alias wtf='wtfutil'
 alias s='systemctl'
 alias v='lvim'
+alias vg='lvim-gui'
 alias n='ncmpcpp'
 alias x='xplr'
-
+alias ssh="kitty +kitten ssh"
 # colors in less
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
@@ -162,5 +163,19 @@ export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
-export XPLR_BOOKMARK_FILE="$HOME/.config/xplr/bookmarks"
 
+## env vars
+export XDG_CONFIG_HOME=${HOME}/.config
+export XDG_CACHE_HOME=${HOME}/.cache
+export XDG_DATA_HOME=${HOME}/.local/share
+export XDG_STATE_HOME=${HOME}/.local/state
+export WINEPREFIX=${XDG_DATA_HOME}/wine
+export ANDROID_HOME=${XDG_DATA_HOME}/android
+# export HISTFILE=${XDG_STATE_HOME}/bash/history
+export CARGO_HOME=${XDG_STATE_HOME}/cargo
+# export CUDA_CACHE_PATH=${$XDG_CACHE_HOME}/nv
+export GNUPGHOME=${XDG_DATA_HOME}/gnupg
+export RUSTUP_HOME=${XDG_DATA_HOME}/rustup
+export XPLR_BOOKMARK_FILE=$HOME/.config/xplr/bookmarks
+export GOPATH=${XDG_DATA_HOME}/go
+export QT_QPA_PLATFORMTHEME=qt5ct

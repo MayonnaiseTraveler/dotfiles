@@ -6,7 +6,8 @@ vim.opt.smartcase = true -- smart case
 vim.opt.smartindent = true -- make indenting smarter again
 lvim.builtin.lualine.style = "lvim" -- or "none"
 lvim.builtin.lualine.options.theme = "auto"
-lvim.transparent_window = true
+lvim.builtin.dap.active = true -- (default: false)
+-- lvim.transparent_window = true
 lvim.lsp.diagnostics.virtual_text = false
 vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
 vim.opt.cursorline = false
@@ -60,9 +61,16 @@ lvim.builtin.treesitter.ensure_installed = {
 	"yaml",
 }
 
+if vim.g.neovide then
+	vim.g.neovide_scale_factor = 0.5
+	vim.g.neovide_refresh_rate = 144
+	vim.g.neovide_background_color = "#0f1117"
+
+    -- Put anything you want to happen only in Neovide here
+end
+
+
 -- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" })
-
-
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.offsetEncoding = { "utf-16" }
@@ -71,6 +79,27 @@ require("lspconfig").clangd.setup({ capabilities = capabilities })
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
 	{ command = "astyle" },
+}
+
+local dap = require('dap')
+
+dap.configurations.c = {
+	{
+		type = 'c';
+		request = 'launch';
+		name = 'bnnuy';
+		program = '${workspaceFolder}/package/linux/bnnuy';
+	}
+}
+
+dap.adapters.c = {
+  type = 'server',
+  port = "${port}",
+  executable = {
+    command = '/usr/bin/codelldb',
+    args = {"--port", "${port}"},
+
+  }
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -113,9 +142,15 @@ require('rose-pine').setup({
 		ColorColumn = { bg = 'rose' }
 	}
 })
+
+
+
 -- Additional Plugins
 lvim.plugins = {
-	{ 'deviantfero/wpgtk.vim' },
+	{ "ray-x/lsp_signature.nvim",
+		event = "BufRead",
+	  	config = function() require "lsp_signature".on_attach() end,
+	},
 	{ 'mhartington/oceanic-next' },
 	{
 		"kevinhwang91/rnvimr",
@@ -193,13 +228,6 @@ lvim.plugins = {
 		end
 	},
 	{ "npxbr/glow.nvim" },
-	{ "ray-x/lsp_signature.nvim",
-		event = "BufRead",
-	  	config = function() require"lsp_signature".on_attach() end,
-	},
-	{
-		'norcalli/nvim-colorizer.lua',
-	},
 	{
 		"karb94/neoscroll.nvim",
 		event = "WinScrolled",
@@ -262,3 +290,5 @@ lvim.autocommands = {
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
+--
+--

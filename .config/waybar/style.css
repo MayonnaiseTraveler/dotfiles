@@ -5,13 +5,13 @@
 }
 
 window#waybar {
-    background-color:rgba(8,22,60,1);
+    background-color:rgba(14,23,35,1);
     padding: 0px ;
     margin:0px;
-    color:#ddd7e9;
+    color:#e6c3c1;
     border-style:solid;
     border-width:2px;
-    border-color:#ff79be;
+    border-color:#ffbd88;
     border-radius:20px;
     color: transparent;
 }
@@ -34,7 +34,7 @@ window#waybar.solo {
 /*     color:white; */
 /*     border-style:solid; */
 /*     border-width:0px; */
-/*     border-color:#0d2568; */
+/*     border-color:#1b2e47; */
 /*     border-radius:0; */
 /* } */
 
@@ -53,8 +53,8 @@ window#waybar.solo {
     text-shadow: inherit;
     border-color: transparent;
     border-width:2px;
-    background-color: rgba(8,22,60,0);
-    color:#ddd7e9;
+    background-color: rgba(14,23,35,0);
+    color:#e6c3c1;
     padding:0px 0px;
     margin:0px;
 
@@ -65,12 +65,12 @@ window#waybar.solo {
 
 #workspaces button:hover {
   font-size:20px;
-  border-color:#4c4f9f;
-  color:#ffade3;
+  border-color:#566593;
+  color:#286dcc;
 }
 
 #workspaces button.active {
-    color:#5358dd;
+    color:#607bce;
 }
 
 #workspaces button.urgent {
@@ -97,14 +97,14 @@ window#waybar.solo {
 #custom-dunst,
 #custom-powermenu,
 #mpd{
-    background-color:rgba(8,22,60,0);
+    background-color:rgba(14,23,35,0);
     padding: 0px 0px; 
     margin: 10px;
-    color:#ddd7e9;
+    color:#e6c3c1;
     font-size:12px;
     /* border-style:solid; */
     /* border-width:2px; */
-    /* border-color:#0d2568; */
+    /* border-color:#1b2e47; */
      border-radius:20px; 
 
 
@@ -117,7 +117,7 @@ window#waybar.solo {
 
 
 #clock {
-    color: #ddd7e9;
+    color: #e6c3c1;
 }
 
 
@@ -189,7 +189,7 @@ label:focus {
 }
 
 #tray {
-  color:#ddd7e9;
+  color:#e6c3c1;
 }
 
 #tray > .passive {

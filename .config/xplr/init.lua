@@ -112,7 +112,7 @@ xplr.config.modes.builtin.default.key_bindings.on_key.R = {
        SELECTION=$(cat "${XPLR_PIPE_SELECTION_OUT:?}")
        NODES=${SELECTION:-$(cat "${XPLR_PIPE_DIRECTORY_NODES_OUT:?}")}
        if [ "$NODES" ]; then
-         echo -e "$NODES" | renamer
+         echo -e "$NODES" | lvim 
          "$XPLR" -m ExplorePwdAsync
        fi
      ]===],

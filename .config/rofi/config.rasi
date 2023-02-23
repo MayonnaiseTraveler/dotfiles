@@ -1,14 +1,15 @@
 configuration {
 	show-icons: true;
-  modes: "window,drun,run,ssh,combi,keys,filebrowser";
-  combi-modes: "window,drun,run,ssh,combi,keys,filebrowser";
-  icon-theme: "flattrcolor";
-  kb-mode-next: "Shift+Right,Control+Tab,alt+l";
+	modes: "window,drun,run,ssh,combi,keys,filebrowser";
+	combi-modes: "window,drun,run,ssh,combi,keys,filebrowser";
+	icon-theme: "flattrcolor";
+	kb-mode-next: "Shift+Right,Control+Tab,alt+l";
 	kb-mode-previous: "Shift+Left,Control+ISO_Left_Tab,alt+h";
-  kb-row-up : "alt+k";
-  kb-row-down :"alt+j";
-  kb-move-char-back : "ctrl+shift+h";
-  kb-move-char-forward: "ctrl+shift+l" ;
+	kb-row-up : "alt+k";
+	kb-row-down :"alt+j";
+	kb-move-char-back : "ctrl+shift+h";
+	kb-move-char-forward: "ctrl+shift+l" ;
+	
 }
 
 /* @theme "/home/traveler/.config/rofi/wpg.rasi" */

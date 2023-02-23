@@ -7,7 +7,7 @@
     "ReadAllNotificationsButton": true,
     "ShowConnections": true,
     "SplitLargeMessages": true,
-    "PluginRepo": false,
+    "PluginRepo": true,
     "ThemeRepo": false,
     "AutoIdleOnAFK": false,
     "ChannelTabs": false,
