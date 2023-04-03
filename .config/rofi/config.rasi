@@ -9,7 +9,7 @@ configuration {
 	kb-row-down :"alt+j";
 	kb-move-char-back : "ctrl+shift+h";
 	kb-move-char-forward: "ctrl+shift+l" ;
-	
+	terminal: "/usr/bin/kitty" ;
 }
 
 /* @theme "/home/traveler/.config/rofi/wpg.rasi" */

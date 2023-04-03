@@ -108,6 +108,14 @@ After that, just copy everything and paste it in your home folder
 ***
 
 ### ToDo:
+- [x] Add discord-screenaudio css file to wpgtk
+- [x] fix lock screen
+- [x] fix shutdown being slow
+- [ ] Fix window swallow for groups
+- [x] Switch to wofi
+- [x] configure sddm 
+- [ ] backup sddm config properly
+- [ ] Separate dotfiles from i3 and hyprland
 - [ ] Clear Scripts and re-organize files
 - [ ] Create scripts for a backup system
 - [ ] Update this readme more

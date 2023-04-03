@@ -555,7 +555,7 @@ def_key "ctrl-b"
 def_key "`"
   toggle_library_tag_type
 
-def_key "`"
+def_key "'"
   refetch_lyrics
 
 def_key "`"

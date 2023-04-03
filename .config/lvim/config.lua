@@ -1,4 +1,4 @@
-lvim.format_on_save = false
+lvim.format_on_save = true
 lvim.colorscheme = "rose-pine"
 vim.opt.foldmethod = "expr" -- folding set to "expr" for treesitter based folding
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()" -- set to "nvim_treesitter#foldexpr()" for treesitter based folding
@@ -7,13 +7,15 @@ vim.opt.smartindent = true -- make indenting smarter again
 lvim.builtin.lualine.style = "lvim" -- or "none"
 lvim.builtin.lualine.options.theme = "auto"
 lvim.builtin.dap.active = true -- (default: false)
--- lvim.transparent_window = true
+lvim.transparent_window = true
 lvim.lsp.diagnostics.virtual_text = false
-vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
+vim.opt.termguicolors = false -- set term gui colors (most terminals support this)
 vim.opt.cursorline = false
 vim.opt.tabstop = 4
 vim.opt.expandtab = false -- convert tabs to spaces
 vim.opt.shiftwidth = 4 -- the number of spaces inserted for each indentation
+vim.opt.scrolloff = 8 -- is one of my fav
+vim.opt.sidescrolloff = 8
 -- lvim.cmd("inoremap <kj> <Esc>")
 lvim.keys.insert_mode["<M-k>"] = "<Esc>"
 -- lvim.keys.visual_mode["<M-k>"] = "<Esc>"
@@ -66,45 +68,60 @@ if vim.g.neovide then
 	vim.g.neovide_refresh_rate = 144
 	vim.g.neovide_background_color = "#0f1117"
 
-    -- Put anything you want to happen only in Neovide here
+	-- Put anything you want to happen only in Neovide here
 end
 
 
--- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" })
+-- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "" })
 
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities.offsetEncoding = { "utf-16" }
-require("lspconfig").clangd.setup({ capabilities = capabilities })
+-- local capabilities = vim.lsp.protocol.make_client_capabilities()
+-- capabilities.offsetEncoding = { "utf-16" }
+-- require("lspconfig").clangd.setup({ capabilities = capabilities })
 
 local formatters = require "lvim.lsp.null-ls.formatters"
-formatters.setup {
-	{ command = "astyle" },
+formatters.setup = {
+	{
+		filetypes = { "c", "h" },
+		command = "clang-format",
+	},
+	{
+		filetypes = { "html", "ejs" },
+		command = "eslint"
+
+	},
+	-- {
+	-- 	command = "eslint",
+	-- 	filetypes = { "javascript", "ejs" },
+	-- },
+
+	-- args = { "--style=linux"  },
 }
+
 
 local dap = require('dap')
 
 dap.configurations.c = {
 	{
-		type = 'c';
-		request = 'launch';
-		name = 'bnnuy';
-		program = '${workspaceFolder}/package/linux/bnnuy';
+		type = 'c',
+		request = 'launch',
+		name = 'bnnuy',
+		program = '${workspaceFolder}/package/linux/bnnuy',
 	}
 }
 
 dap.adapters.c = {
-  type = 'server',
-  port = "${port}",
-  executable = {
-    command = '/usr/bin/codelldb',
-    args = {"--port", "${port}"},
+	type = 'server',
+	port = "${port}",
+	executable = {
+		command = '/usr/bin/codelldb',
+		args = { "--port", "${port}" },
 
-  }
+	}
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 
-lvim.builtin.treesitter.highlight.enabled = true
+lvim.builtin.treesitter.highlight.enabled = false
 
 require('rose-pine').setup({
 	dark_variant = 'moon',
@@ -147,11 +164,8 @@ require('rose-pine').setup({
 
 -- Additional Plugins
 lvim.plugins = {
-	{ "ray-x/lsp_signature.nvim",
-		event = "BufRead",
-	  	config = function() require "lsp_signature".on_attach() end,
-	},
-	{ 'mhartington/oceanic-next' },
+	{ "elkowar/yuck.vim" },
+	{ "ray-x/lsp_signature.nvim" },
 	{
 		"kevinhwang91/rnvimr",
 		cmd = "RnvimrToggle",
@@ -166,28 +180,19 @@ lvim.plugins = {
 		cmd = "TroubleToggle",
 	},
 	{
-	  "phaazon/hop.nvim",
-	  event = "BufRead",
-	  config = function()
-		require("hop").setup()
-		vim.api.nvim_set_keymap("n", "s", ":HopChar2<cr>", { silent = true })
-		vim.api.nvim_set_keymap("n", "S", ":HopWord<cr>", { silent = true })
-	  end,
+		"phaazon/hop.nvim",
+		event = "BufRead",
+		config = function()
+			require("hop").setup()
+			vim.api.nvim_set_keymap("n", "s", ":HopChar2<cr>", { silent = true })
+			vim.api.nvim_set_keymap("n", "S", ":HopWord<cr>", { silent = true })
+		end,
 	},
 	{ 'kyazdani42/blue-moon' },
 	{ "yonlu/omni.vim" },
 	{ "yashguptaz/calvera-dark.nvim" },
 	{ "rose-pine/neovim" },
-	{
-		'rose-pine/neovim',
-		as = 'rose-pine',
-		tag = 'v1.*',
-		config = function()
-			vim.cmd('colorscheme rose-pine')
-		end
-	},
-	{
-		"catppuccin/nvim",
+	{ "catppuccin/nvim",
 		as = "catppuccin"
 	},
 	{ 'ishan9299/nvim-solarized-lua' },
@@ -227,7 +232,10 @@ lvim.plugins = {
 			})
 		end
 	},
-	{ "npxbr/glow.nvim" },
+	{ "ellisonleao/glow.nvim",
+		config = function() require("glow").setup() end
+	},
+	{ 'psliwka/termcolors.nvim' },
 	{
 		"karb94/neoscroll.nvim",
 		event = "WinScrolled",
@@ -250,31 +258,31 @@ lvim.plugins = {
 
 }
 lvim.autocommands = {
-	{
-		{ "BufEnter", "Filetype" },
-		{
-			desc = "Open mini.map and exclude some filetypes",
-			pattern = { "*" },
-			callback = function()
-				local exclude_ft = {
-					"qf",
-					"NvimTree",
-					"toggleterm",
-					"TelescopePrompt",
-					"alpha",
-					"netrw",
-				}
+	-- {
+	-- 	{ "BufEnter", "Filetype" },
+	-- 	{
+	-- 		desc = "Open mini.map and exclude some filetypes",
+	-- 		pattern = { "*" },
+	-- 		callback = function()
+	-- 			local exclude_ft = {
+	-- 				"qf",
+	-- 				"NvimTree",
+	-- 				"toggleterm",
+	-- 				"TelescopePrompt",
+	-- 				"alpha",
+	-- 				"netrw",
+	-- 			}
 
-				local map = require('mini.map')
-				if vim.tbl_contains(exclude_ft, vim.o.filetype) then
-					vim.b.minimap_disable = true
-					map.close()
-				elseif vim.o.buftype == "" then
-					map.open()
-				end
-			end,
-		},
-	},
+	-- 			local map = require('mini.map')
+	-- 			if vim.tbl_contains(exclude_ft, vim.o.filetype) then
+	-- 				vim.b.minimap_disable = true
+	-- 				map.close()
+	-- 			elseif vim.o.buftype == "" then
+	-- 				map.open()
+	-- 			end
+	-- 		end,
+	-- 	},
+	-- },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
@@ -291,4 +299,5 @@ lvim.autocommands = {
 --   end,
 -- })
 --
---
+local cfg = {} -- add your config here
+require "lsp_signature".setup(cfg)

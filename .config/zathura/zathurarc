@@ -21,37 +21,37 @@ set guioptions ""
 
 set font "inconsolata 15"
 
-set default-bg rgba(14,23,35,1) #00
-set default-fg "#e6c3c1" #01
+set default-bg rgba(11,33,78,1) #00
+set default-fg "#efd7ef" #01
 
-set statusbar-fg "#e6c3c1" #04
-set statusbar-bg rgba(14,23,35,1) #01
+set statusbar-fg "#efd7ef" #04
+set statusbar-bg rgba(11,33,78,1) #01
 
-set inputbar-bg rgba(14,23,35,1) #00 currently not used
-set inputbar-fg "#e6c3c1" #02
+set inputbar-bg rgba(11,33,78,1) #00 currently not used
+set inputbar-fg "#efd7ef" #02
 
-set notification-error-bg "#1b2e47" #08
-set notification-error-fg "#CF9779" #00
+set notification-error-bg "#10337a" #08
+set notification-error-fg "#2f8dc7" #00
 
-set notification-warning-bg "#1b2e47" #08
-set notification-warning-fg "#CF9779" #00
+set notification-warning-bg "#10337a" #08
+set notification-warning-fg "#2f8dc7" #00
 
-set highlight-color "#295694" #0A
-set highlight-active-color "#286dcc" #0D
+set highlight-color "#6595c2" #0A
+set highlight-active-color "#70c2ff" #0D
 
-set completion-highlight-fg "#CF9779" #02
-set completion-highlight-bg "#1b2e47" #0C
+set completion-highlight-fg "#2f8dc7" #02
+set completion-highlight-bg "#10337a" #0C
 
-set completion-bg "#1b2e47" #02
-set completion-fg "#e6c3c1" #0C
+set completion-bg "#10337a" #02
+set completion-fg "#efd7ef" #0C
 
-set notification-bg "#1b2e47" #0B
-set notification-fg "#e6c3c1" #00
+set notification-bg "#10337a" #0B
+set notification-fg "#efd7ef" #00
 
 set recolor "true"
-set recolor-lightcolor rgba(14,23,35,1) #00
+set recolor-lightcolor rgba(11,33,78,1) #00
 
-set recolor-darkcolor "#e6c3c1" #06
+set recolor-darkcolor "#efd7ef" #06
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 

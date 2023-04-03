@@ -153,6 +153,7 @@ alias s='systemctl'
 alias v='lvim'
 alias vg='lvim-gui'
 alias n='ncmpcpp'
+alias ni='ncmpcpp -c ~/.config/ncmpcpp/config_alt'
 alias x='xplr'
 alias ssh="kitty +kitten ssh"
 # colors in less
@@ -163,8 +164,8 @@ export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
-
-## env vars
+# export TERM='xterm-color'; 
+# ## env vars
 export XDG_CONFIG_HOME=${HOME}/.config
 export XDG_CACHE_HOME=${HOME}/.cache
 export XDG_DATA_HOME=${HOME}/.local/share

@@ -11,10 +11,18 @@
 
 
 (defwindow widget1 
-  :class "widget" :monitor 0 :geometry 
-  (geometry :x "0%" :y "0%" :width "160px" :height "100px"
-    :wm-ignore true )
-    (greeter  :text "Say Hello!" :name "Traveler")
+  :class "widget" 
+  :monitor 0 
+  :geometry 
+  (geometry 
+    :x "0%" 
+    :y "0%" 
+    :width "160px" 
+    :height "100px")
+  :stacking "fg" 
+  :exclusive true 
+  :focusable false 
+  (greeter  :text "Say Hello!" :name "Traveler")
 )
 (defwindow widget2 
   :class "widget" :monitor 0 :geometry 
