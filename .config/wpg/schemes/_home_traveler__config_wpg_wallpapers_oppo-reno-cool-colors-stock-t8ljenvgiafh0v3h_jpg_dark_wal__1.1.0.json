@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/oppo-reno-cool-colors-stock-t8ljenvgiafh0v3h.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#01191a",
+        "foreground": "#a5ffff",
+        "cursor": "#a5ffff"
+    },
+    "colors": {
+        "color0": "#01191a",
+        "color1": "#046E8E",
+        "color2": "#055CAA",
+        "color3": "#0866CD",
+        "color4": "#08969C",
+        "color5": "#0CD8A5",
+        "color6": "#42C99D",
+        "color7": "#7bc7e0",
+        "color8": "#014448",
+        "color9": "#0191bc",
+        "color10": "#0177e2",
+        "color11": "#0184ff",
+        "color12": "#01cbd4",
+        "color13": "#01ffdd",
+        "color14": "#44ffd2",
+        "color15": "#a5ffff"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/traveler/Imagens/flcl2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#150d18",
+        "foreground": "#e5e2e3",
+        "cursor": "#e5e2e3"
+    },
+    "colors": {
+        "color0": "#150d18",
+        "color1": "#444795",
+        "color2": "#6869A6",
+        "color3": "#A772A0",
+        "color4": "#7A88BB",
+        "color5": "#A29AA6",
+        "color6": "#CAAFBB",
+        "color7": "#e5e2e3",
+        "color8": "#a09e9e",
+        "color9": "#444795",
+        "color10": "#6869A6",
+        "color11": "#A772A0",
+        "color12": "#7A88BB",
+        "color13": "#A29AA6",
+        "color14": "#CAAFBB",
+        "color15": "#e5e2e3"
+    }
+}

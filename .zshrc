@@ -70,7 +70,7 @@ export ZSH="$HOME/.config/oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z git nmap aliases vi-mode)
+plugins=(z cp git nmap aliases vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -156,6 +156,8 @@ alias n='ncmpcpp'
 alias ni='ncmpcpp -c ~/.config/ncmpcpp/config_alt'
 alias x='xplr'
 alias ssh="kitty +kitten ssh"
+alias yt-dlv="yt-dlp -x --audio-format mp3 --embed-thumbnail --add-metadata -i"
+alias ifetch="neofetch --clean && neofetch --backend kitty --source ~/Imagens/wallpaper.webp"
 # colors in less
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
@@ -180,3 +182,4 @@ export RUSTUP_HOME=${XDG_DATA_HOME}/rustup
 export XPLR_BOOKMARK_FILE=$HOME/.config/xplr/bookmarks
 export GOPATH=${XDG_DATA_HOME}/go
 export QT_QPA_PLATFORMTHEME=qt5ct
+export NOTES_DIR="${home}/notes/"

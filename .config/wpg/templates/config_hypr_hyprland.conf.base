@@ -12,6 +12,11 @@ monitor=DP-2,1920x1080@144hz,3840x2050,1
 
 #monitor=DP-2,preferred,3840x2050,1
 #monitor=DP-2,preferred,3840x2050,1
+#
+env = GDK_BACKEND=wayland,x11
+# env = QT_QPA_PLATFORM,"wayland;xcb"
+env = SDL_VIDEODRIVER=wayland
+env = QT_QPA_PLATFORMTHEME,gtk2
 
 input {{
     kb_file=
@@ -34,20 +39,16 @@ input {{
 }}
 
 
-misc {{
-	vfr = true
-	enable_swallow = true
-	swallow_regex = '^(.*)$'
-	}}
 
 general {{
     gaps_in=5
-    gaps_out=20
+    gaps_out={gaps_out}
     border_size={b_size}
-    col.active_border=rgb({color9.strip})
+    col.active_border= rgb({color9.strip}) rgb({color10.strip}) 
     col.inactive_border=rgb({color8.strip})
-    col.group_border= rgba(00000000)
-    col.group_border_active= rgb({color1.strip})
+    col.group_border= rgba({color0.strip}00)
+    col.group_border_active= rgb({color10.strip}) rgb({color9.strip}) 
+
     apply_sens_to_raw=0 # whether to apply the sensitivity to raw input (e.g. used by games where you aim using your mouse)
 
 }}
@@ -68,14 +69,19 @@ decoration {{
 }}
 
 animations {{
-    bezier=overshot,0.05,0.9,0.1,1.05
     enabled=1
-    animation=windows,1,6,overshot,slide
-    animation=windowsOut,1,6,overshot,slide
-    animation=windowsMove,1,4,overshot,slide
-    animation=border,1,3,overshot
-    animation=fade,0,5,default
-    animation=workspaces,1,6,overshot,slidevert
+    bezier=overshoot,0.05,0.9,0.1,1.1
+
+    animation=fadeIn,1,3,default
+    animation=fadeOut,1,3,default
+
+    animation=windowsIn,1,6,overshoot,slide
+    animation=windowsOut,1,6,overshoot,slide
+    animation=windowsMove,1,6,overshoot
+
+    animation=border,1,5,overshoot
+    animation=borderangle,1,5,default
+    animation=workspaces,1,6,overshoot,slidevert
 }}
 
 dwindle {{
@@ -85,6 +91,15 @@ dwindle {{
 
 gestures {{
     workspace_swipe=no
+}}
+
+
+misc {{
+	disable_hyprland_logo = true
+	disable_splash_rendering = true
+	mouse_move_enables_dpms = true
+	enable_swallow = true
+    swallow_regex = ^(.*)$
 }}
 
 # some nice mouse binds
@@ -110,11 +125,12 @@ binde=SUPER,21,exec,mpc volume +5 && dunstify -a mpc "Volume:" -r 44 -h int:valu
 binde=SUPER,20,exec,mpc volume -5 && dunstify -a mpc "Volume:" -r 44 -h int:value:"$(mpc status %volume%)"
 
 # Program binds
-bind=SUPER,RETURN,exec,kitty
-bind=SUPER,A,exec,kitty --class=pavucontrol -T 'pavucontrol' -e pulsemixer
+bind=SUPER,RETURN,exec,kitty --single-instance
+bind=SUPER,A,exec,kitty --single-instance --class=pavucontrol -T 'pavucontrol' -e pulsemixer
+bind=SUPER,C,exec, cliphist list | wofi --dmenu | cliphist decode | wl-copy
 bind=SUPER,D,exec,wofi --style ~/.config/wofi/style.css
-bind=SUPERALT,R,exec,kitty -e ranger
-bind=,Print,exec, grim -g "$(slurp)" - | wl-copy 
+bind=SUPERALT,R,exec,kitty --single-instance -e ranger
+bind=,Print,exec, grimblast copy area
 
 
 # Global binds
@@ -136,11 +152,13 @@ bind=SUPER,V,togglesplit,
 bind=SUPER_SHIFT,Q,killactive,
 bind=SUPER,SPACE,togglefloating
 
-bind=SUPER,W,togglegroup,
+bind=SUPER,w,togglegroup,
 bind=ALT,h,changegroupactive,b
 bind=ALT,l,changegroupactive,f
 bind=SUPERALT,h,moveintogroup,l
+bind=SUPERALT,j,moveintogroup,d
 bind=SUPERALT,l,moveintogroup,r
+bind=SUPERALT,k,moveintogroup,u
 # bind=ALT,g,lockgroups,unlock
 
 bind=SUPER_SHIFT,P,pin,
@@ -241,7 +259,12 @@ exec= ~/.config/hypr/hyprland_execs.sh
 
 #EXEC ONCE
 exec-once= swww init
-exec-once= sleep 2 && swww img --filter Nearest --transition-type outer --transition-pos 0.900,0.900 --transition-step 80 ~/Imagens/$(wpg -c)
+exec-once= sleep 2 && swww img --sync --filter Nearest --transition-duration 0 ~/Imagens/$(wpg -c)
+
+#clipboard
+exec-once = wl-paste --type text --watch cliphist store #Stores only text data
+exec-once = wl-paste --type image --watch cliphist store #Stores only image data
+
 exec-once= mpd
 exec-once= nm-applet --indicator
 exec-once= easyeffects
@@ -253,7 +276,9 @@ exec-once= telegram-desktop
 # WINDOW RULES
 #
 windowrulev2=float,class:^(pavucontrol)$
+windowrulev2=float,class:^(pavucontrol)$
 windowrulev2=float,title:^(wpgtk.*)$
+windowrulev2=float,class:^(feh)$
 windowrulev2=size 960 480,class:^(pavucontrol)$
 windowrulev2=center,class:^(pavucontrol)$
 windowrulev2=center,title:^(discord)$
@@ -293,4 +318,6 @@ windowrulev2=noshadow,class:^(Discover-overlay)$
 windowrulev2=float,class:^(Discover-overlay)$
 windowrulev2=pin,class:^(Discover-overlay)$
 
+
+layerrule = blur,waybar
 

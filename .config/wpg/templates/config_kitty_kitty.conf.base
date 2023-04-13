@@ -8,8 +8,7 @@
 confirm_os_window_close 0
 
 
-font_family      {font0}
-#font_family      "Monospace"
+font_family        Source Code VF Regular
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -27,6 +26,12 @@ font_family      {font0}
 #:     bold_italic_font Operator Mono Medium Italic
 
 font_size {font_size}
+
+
+# Nerd Fonts v2.2.2
+
+symbol_map U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0C8,U+E0CA,U+E0CC-U+E0D2,U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E634,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF Symbols Nerd Font Mono
+# narrow_symbols U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0C8,U+E0CA,U+E0CC-U+E0D2,U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E634,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF 2
 
 #: Font size (in pts)
 
@@ -50,8 +55,8 @@ font_size {font_size}
 #: support, because it will force kitty to always treat the text as
 #: LTR, which FriBidi expects for terminals.
 
-# adjust_line_height  0
-# adjust_column_width 0
+adjust_line_height  0
+adjust_column_width 0
 
 #: Change the size of each character cell kitty renders. You can use
 #: either numbers, which are interpreted as pixels or percentages
@@ -61,6 +66,7 @@ font_size {font_size}
 #: artifacts).
 
 # symbol_map U+E0A0-U+E0A3,U+E0C0-U+E0C7 PowerlineSymbols
+# narrow_symbols U+E0A0-U+E0A3,U+E0C0-U+E0C7 1
 
 #: Map the specified unicode codepoints to a particular font. Useful
 #: if you need special rendering for some symbols, such as for
@@ -70,7 +76,7 @@ font_size {font_size}
 #: separated by hyphens. symbol_map itself can be specified multiple
 #: times. Syntax is::
 
-#:     symbol_map codepoints Font Family Name
+# symbol_map codepoints Font Family Name
 
 # disable_ligatures never
 
@@ -638,7 +644,7 @@ window_padding_width 11
 
 #: Color scheme {{{{{{
 
-foreground {color7}
+foreground {color15}
 background {color0}
 
 #: The foreground and background colors
@@ -712,51 +718,18 @@ selection_background {color2}
 
 color0 {color0}
 color8 {color8}
-
-#: black
-
 color1 {color1}
-###be225b
 color9 {color9}
-
-#: red
-
 color2 {color2}
-##8300c7
 color10 {color10}
-
-#: green
-
 color3 {color3}
-##7864f4
-##c2e100
 color11 {color11}
-##d7f482 
-
-#: yellow
-
 color4 {color4}
-#
-##008f7f
 color12 {color12}
-##7864f
-
-#: blue
-
 color5 {color5}
-##00cdcd
 color13 {color13}
-#
-
-#: magenta
-
 color6 {color6}
-
-##4800dd
 color14 {color14}
-
-#: cyan
-
 color7 {color7}
 color15 {color15}
 #: white

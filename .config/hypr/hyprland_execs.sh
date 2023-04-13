@@ -13,4 +13,9 @@ while pgrep -x dunst >/dev/null; do sleep 1; done
 waybar &
 dunst &
 convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.webp & 
-swww img --filter Nearest --transition-type outer --transition-pos 0.900,0.900 --transition-step 80 ~/Imagens/$(wpg -c)
+swww img \
+	--filter Nearest \
+	--transition-type random \
+	--transition-duration 2 \
+	--transition-fps 60 \
+	~/Imagens/$(wpg -c)

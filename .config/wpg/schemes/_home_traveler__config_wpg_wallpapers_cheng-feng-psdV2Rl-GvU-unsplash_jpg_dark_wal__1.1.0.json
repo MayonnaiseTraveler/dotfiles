@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/cheng-feng-psdV2Rl-GvU-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E0A17",
+        "foreground": "#c0e1ff",
+        "cursor": "#c0e1ff"
+    },
+    "colors": {
+        "color0": "#0E0A17",
+        "color1": "#0B336C",
+        "color2": "#651F4A",
+        "color3": "#324673",
+        "color4": "#9B1859",
+        "color5": "#CC1F6F",
+        "color6": "#1E5493",
+        "color7": "#8fa7c8",
+        "color8": "#22183a",
+        "color9": "#064094",
+        "color10": "#8b1f62",
+        "color11": "#3656a0",
+        "color12": "#d51373",
+        "color13": "#ff188f",
+        "color14": "#1b6cca",
+        "color15": "#c0e1ff"
+    }
+}

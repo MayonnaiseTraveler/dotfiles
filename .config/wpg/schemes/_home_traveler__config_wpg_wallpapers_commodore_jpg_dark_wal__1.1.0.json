@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/commodore.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D050B",
+        "foreground": "#ffe6ff",
+        "cursor": "#ffe6ff"
+    },
+    "colors": {
+        "color0": "#0D050B",
+        "color1": "#9C1A64",
+        "color2": "#09A6F8",
+        "color3": "#B63776",
+        "color4": "#D645A8",
+        "color5": "#53AAF5",
+        "color6": "#295CB8",
+        "color7": "#e8c6f0",
+        "color8": "#32112a",
+        "color9": "#d61583",
+        "color10": "#01dbff",
+        "color11": "#fc3899",
+        "color12": "#ff47e1",
+        "color13": "#56deff",
+        "color14": "#2673fd",
+        "color15": "#ffe6ff"
+    }
+}

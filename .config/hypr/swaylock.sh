@@ -9,20 +9,20 @@ swaylock \
 --indicator-thickness 7 \
 --effect-blur 7x5 \
 --effect-vignette 0.5:0.5 \
---ring-color 183966 \
---key-hl-color D5E370 \
---line-color 0f233e \
---inside-color 0f233e \
---separator-color 0f233e \
---text-color eff1c8 \
---line-clear-color D5E370 \
---ring-clear-color eff1c8 \
---inside-clear-color 183966 \
---line-clear-color 183966 \
---text-clear-color eff1c8 \
---ring-wrong-color 55678E \
---inside-wrong-color 0f233e \
---text-wrong-color 55678E \
+--ring-color 14203a \
+--key-hl-color 853D53 \
+--line-color 080C15 \
+--inside-color 080C15 \
+--separator-color 080C15 \
+--text-color dfa8c2 \
+--line-clear-color 853D53 \
+--ring-clear-color dfa8c2 \
+--inside-clear-color 14203a \
+--line-clear-color 14203a \
+--text-clear-color dfa8c2 \
+--ring-wrong-color D45C75 \
+--inside-wrong-color 080C15 \
+--text-wrong-color D45C75 \
 --grace 0 \
 --font 'ShureTechMono Nerd Font Mono' \
 --fade-in 0.2

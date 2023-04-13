@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/GiantSkeletonCleanSpriting2_small.gif",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1a131f",
+        "foreground": "#dbffff",
+        "cursor": "#dbffff"
+    },
+    "colors": {
+        "color0": "#1a131f",
+        "color1": "#8A3368",
+        "color2": "#A4346A",
+        "color3": "#955673",
+        "color4": "#3C608D",
+        "color5": "#556990",
+        "color6": "#B16A96",
+        "color7": "#a7ccd4",
+        "color8": "#34253e",
+        "color9": "#bf3589",
+        "color10": "#e33589",
+        "color11": "#d06094",
+        "color12": "#407bc4",
+        "color13": "#5f83ca",
+        "color14": "#f877c7",
+        "color15": "#dbffff"
+    }
+}
