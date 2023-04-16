@@ -1,9 +1,9 @@
-sw_volume: 50
+sw_volume: 10
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 32
-time: 9.735000
+state: play
+current: 38
+time: 122.029000
 random: 1
 repeat: 0
 single: 0
@@ -84,4 +84,8 @@ playlist_begin
 69:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 13 SELF-COFFINZIING (prototype ver.).mp3
 70:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 14 OOPS (prototype ver.) -feat. deuteronomy-.mp3
 71:lapfox/KITCALIBER/KITCALIBER - HALCYONDAZE - 15 The Museum of Unnatural Disasters (prototype ver.).mp3
+72:lain/Duvet (cyberpunk_synthwave 80s remix)-upLNuwE2uKs.mp3
+73:lain/Serial Experiments Lain Soundtrack - 01 Lain's Theme-WAhFBhCXbrg.mp3
+74:mili/Mili - sustain++; ⧸ Ghost In The Shell： SAC_2045 Ending Theme.mp3
+75:mili/Mili - world.execute(me);.mp3
 playlist_end
