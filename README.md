@@ -29,7 +29,7 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
   * Xborders (active window border replacement that has rounded corner)
   * Polybar
   * Waybar
-  * wofi
+  * wofi and rofi
   * quickmedia (Quickly download stuff and check some websites ) 
 
 * Themes : 
@@ -37,7 +37,7 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
   * lxappearance (Theme selector)
   * FlattrColor (icon theme for gtk )
   * ePapirus (icon theme used by rofi and polybar)
-  * FlatColor (gtk theme)
+  * FlatColor2 (gtk theme)
   * bibata-rainbow-cursors (cool rainbow cursors lol)
 
 * System Utils:
@@ -70,6 +70,7 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
     * Telegram (yeeeah)
     * Whatsapp (yeah the zuck can see my system )
     * Discord (with betterdiscord )
+    * Discord-screenaudio (wayland screensharing )
     * Discover-overlay (Discord overlay everywhere)
     * Postybirb (Manage various social media )
   * Gaming : 
@@ -84,10 +85,10 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
     * Onlyoffice office sweet
     * Audacity
   * General Stuff:
-    * Brave Browser
-    * Librewolf Brouser
+  	* Firefox
+    * Librewolf 
     * MegaSync 
-    * DroidCam (use your phone as a webcam)
+    * iriun webcam (use your phone as a webcam)
     * mpv (media player)
     * zathura (view pdfs)
     * Thunar file manager
@@ -102,8 +103,10 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
 
 ***
 #### How do i install it?
-If you want to install it you can just clone the repository and use your aur helper to install all the packages in PC-packages.txt.
+If you want to install it you can just clone the repository with all it's submodules and use your aur helper to install all the packages in PC-packages.txt.
 After that, just copy everything and paste it in your home folder
+you'll also need to install p10k, lvim and the sddm config files manually.
+install script on the way
 
 ***
 
@@ -111,10 +114,11 @@ After that, just copy everything and paste it in your home folder
 - [x] Add discord-screenaudio css file to wpgtk
 - [x] fix lock screen
 - [x] fix shutdown being slow
-- [ ] Fix window swallow for groups
+- [x] Fix window swallow for groups
 - [x] Switch to wofi
 - [x] configure sddm 
-- [ ] backup sddm config properly
+- [x] backup sddm config properly
+- [ ] Create install script
 - [ ] Separate dotfiles from i3 and hyprland
 - [ ] Clear Scripts and re-organize files
 - [ ] Create scripts for a backup system
@@ -125,7 +129,8 @@ After that, just copy everything and paste it in your home folder
 - [ ] Create Eww widgets
 - [ ] Create a bar with Eww
 - [ ] finish bash script that changes volume of the active window // unused
-- [ ] add a list of browser extensions i use
+- [ ] add a list of browser extensions i use 
+- [ ] fix lvim colorscheme
 - [x] change polybar stuff position
 - [x] Upgrade Dunst
 - [x] change mpc keybinds to use keyboard media keys // didn't work well
