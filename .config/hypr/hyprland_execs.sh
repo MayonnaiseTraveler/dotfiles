@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ -f /tmp/hyprstart.lock ]; then
+	rm /tmp/hyprstart.lock
+	exit 0
+fi
+
 # Terminate already running instances
 killall -q waybar
 killall -q dunst
