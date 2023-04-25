@@ -145,6 +145,7 @@ alias mirror='xrandr --output HDMI-0 --output DP-1 --same-as HDMI-0'
 alias findheavy='grc du -cha --max-depth=1 . | grep -E "G"'
 alias newsboat='newsboat -C ~/.newsboat/.config'
 alias config='/usr/bin/git --git-dir=/home/traveler/.cfg/ --work-tree=/home/traveler'
+alias lconfig='lazygit --git-dir=/home/traveler/.cfg/ --work-tree=/home/traveler'
 alias uwu='uwufetch -i ~/pfp.png'
 alias paru='paru --color=auto'
 alias nmap='grc nmap'
@@ -183,3 +184,4 @@ export XPLR_BOOKMARK_FILE=$HOME/.config/xplr/bookmarks
 export GOPATH=${XDG_DATA_HOME}/go
 export QT_QPA_PLATFORMTHEME=qt5ct
 export NOTES_DIR="${home}/notes/"
+export PATH="$HOME/.local/bin:$PATH"
