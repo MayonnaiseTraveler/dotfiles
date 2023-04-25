@@ -1,5 +1,6 @@
-lvim.format_on_save = true
+vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
 lvim.colorscheme = "rose-pine"
+lvim.format_on_save = true
 vim.opt.foldmethod = "expr"                     -- folding set to "expr" for treesitter based folding
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()" -- set to "nvim_treesitter#foldexpr()" for treesitter based folding
 vim.opt.smartcase = true                        -- smart case
@@ -9,7 +10,6 @@ lvim.builtin.lualine.options.theme = "auto"
 lvim.builtin.dap.active = true                  -- (default: false)
 lvim.transparent_window = true
 lvim.lsp.diagnostics.virtual_text = false
-vim.opt.termguicolors = false -- set term gui colors (most terminals support this)
 vim.opt.cursorline = false
 vim.opt.tabstop = 4
 vim.opt.expandtab = false -- convert tabs to spaces
@@ -43,6 +43,7 @@ lvim.builtin.which_key.mappings["t"] = {
 	l = { "<cmd>Trouble loclist<cr>", "LocationList" },
 	w = { "<cmd>Trouble workspace_diagnostics<cr>", "Wordspace Diagnostics" },
 }
+
 
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
@@ -132,40 +133,6 @@ lvim.builtin.treesitter.ignore_install = { "haskell" }
 
 lvim.builtin.treesitter.highlight.enabled = false
 
-require('rose-pine').setup({
-	dark_variant = 'moon',
-	bold_vert_split = false,
-	dim_nc_background = false,
-	disable_background = true,
-	disable_float_background = true,
-	disable_italics = false,
-	groups = {
-		background = 'base',
-		panel = 'surface',
-		border = 'highlight_med',
-		comment = 'muted',
-		link = 'iris',
-		punctuation = 'subtle',
-		error = 'love',
-		hint = 'iris',
-		info = 'foam',
-		warn = 'gold',
-		headings = {
-			h1 = 'iris',
-			h2 = 'foam',
-			h3 = 'rose',
-			h4 = 'gold',
-			h5 = 'pine',
-			h6 = 'foam',
-		}
-		-- or set all headings at once
-		-- headings = 'subtle'
-	},
-	-- Change specific vim highlight groups
-	highlight_groups = {
-		ColorColumn = { bg = 'rose' }
-	}
-})
 
 
 
@@ -217,31 +184,6 @@ lvim.plugins = {
 	},
 	{ 'is0n/fm-nvim' },
 	{ 'deviantfero/wpgtk.vim' },
-	{
-		"echasnovski/mini.map",
-		branch = "stable",
-		config = function()
-			require('mini.map').setup()
-			local map = require('mini.map')
-			map.setup({
-				integrations = {
-					map.gen_integration.builtin_search(),
-					map.gen_integration.diagnostic({
-						error = 'DiagnosticFloatingError',
-						warn  = 'DiagnosticFloatingWarn',
-						info  = 'DiagnosticFloatingInfo',
-						hint  = 'DiagnosticFloatingHint',
-					}),
-				},
-				window = {
-					side = 'right',
-					width = 10, -- set to 1 for a pure scrollbar :)
-					winblend = 0,
-					show_integration_count = false,
-				},
-			})
-		end
-	},
 	{
 		"ellisonleao/glow.nvim",
 		config = function() require("glow").setup() end
@@ -313,50 +255,85 @@ lvim.autocommands = {
 --   end,
 -- })
 --
-require('fm-nvim').setup {
-	-- (Vim) Command used to open files
-	edit_cmd = "edit",
+-- require('fm-nvim').setup {
+-- 	-- (Vim) Command used to open files
+-- 	edit_cmd = "edit",
 
-	ui = {
-		-- Default UI (can be "split" or "float")
-		default = "float",
-		split = {
-			-- Direction of split
-			direction = "topleft",
-			-- Size of split
-			size      = 36
-		}
-	},
+-- 	ui = {
+-- 		-- Default UI (can be "split" or "float")
+-- 		default = "float",
+-- 		split = {
+-- 			-- Direction of split
+-- 			direction = "topleft",
+-- 			-- Size of split
+-- 			size      = 36
+-- 		}
+-- 	},
 
-	-- Terminal commands used w/ file manager (have to be in your $PATH)
-	cmds = {
-		lf_cmd          = "lf", -- eg: lf_cmd = "lf -command 'set hidden'"
-		fm_cmd          = "fm",
-		nnn_cmd         = "nnn",
-		fff_cmd         = "fff",
-		twf_cmd         = "twf",
-		fzf_cmd         = "fzf", -- eg: fzf_cmd = "fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
-		fzy_cmd         = "find . | fzy",
-		xplr_cmd        = "xplr",
-		vifm_cmd        = "vifm",
-		skim_cmd        = "sk",
-		broot_cmd       = "broot",
-		gitui_cmd       = "gitui",
-		ranger_cmd      = "ranger",
-		joshuto_cmd     = "joshuto",
-		lazygit_cmd     = "lazygit",
-		neomutt_cmd     = "neomutt",
-		taskwarrior_cmd = "taskwarrior-tui"
-	},
+-- 	-- Terminal commands used w/ file manager (have to be in your $PATH)
+-- 	cmds = {
+-- 		lf_cmd          = "lf", -- eg: lf_cmd = "lf -command 'set hidden'"
+-- 		fm_cmd          = "fm",
+-- 		nnn_cmd         = "nnn",
+-- 		fff_cmd         = "fff",
+-- 		twf_cmd         = "twf",
+-- 		fzf_cmd         = "fzf", -- eg: fzf_cmd = "fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
+-- 		fzy_cmd         = "find . | fzy",
+-- 		xplr_cmd        = "xplr",
+-- 		vifm_cmd        = "vifm",
+-- 		skim_cmd        = "sk",
+-- 		broot_cmd       = "broot",
+-- 		gitui_cmd       = "gitui",
+-- 		ranger_cmd      = "ranger",
+-- 		joshuto_cmd     = "joshuto",
+-- 		lazygit_cmd     = "lazygit",
+-- 		neomutt_cmd     = "neomutt",
+-- 		taskwarrior_cmd = "taskwarrior-tui"
+-- 	},
 
-	-- Mappings used with the plugin
-	mappings = {
-		vert_split = "<C-v>",
-		horz_split = "<C-h>",
-		tabedit    = "<C-t>",
-		edit       = "<C-e>",
-		ESC        = "<ESC>"
-	},
-}
+-- 	-- Mappings used with the plugin
+-- 	mappings = {
+-- 		vert_split = "<C-v>",
+-- 		horz_split = "<C-h>",
+-- 		tabedit    = "<C-t>",
+-- 		edit       = "<C-e>",
+-- 		ESC        = "<ESC>"
+-- 	},
+-- }
 local cfg = {} -- add your config here
 require "lsp_signature".setup(cfg)
+
+require('rose-pine').setup({
+	dark_variant = 'moon',
+	bold_vert_split = false,
+	dim_nc_background = false,
+	disable_background = true,
+	disable_float_background = true,
+	disable_italics = false,
+	groups = {
+		background = 'base',
+		panel = 'surface',
+		border = 'highlight_med',
+		comment = 'muted',
+		link = 'iris',
+		punctuation = 'subtle',
+		error = 'love',
+		hint = 'iris',
+		info = 'foam',
+		warn = 'gold',
+		headings = {
+			h1 = 'iris',
+			h2 = 'foam',
+			h3 = 'rose',
+			h4 = 'gold',
+			h5 = 'pine',
+			h6 = 'foam',
+		}
+		-- or set all headings at once
+		-- headings = 'subtle'
+	},
+	-- Change specific vim highlight groups
+	highlight_groups = {
+		ColorColumn = { bg = 'rose' }
+	}
+})
