@@ -2,7 +2,7 @@
     "CallTimeCounter": true,
     "ShowHiddenChannels": false,
     "BDFDB": true,
-    "ZeresPluginLibrary": true,
+    "ZeresPluginLibrary": false,
     "CreationDate": false,
     "ReadAllNotificationsButton": true,
     "ShowConnections": true,

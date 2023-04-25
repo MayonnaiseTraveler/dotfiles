@@ -5,7 +5,6 @@ normal_window=true
 allow_images=true
 term=kitty
 image_size=24
-fork=true
 display_generic=true
 prompt= manda a braba
 key_up=Alt_L-k
