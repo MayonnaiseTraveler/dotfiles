@@ -187,3 +187,7 @@ element-text, element-icon {{
 	text-color: @foreground;
 	background-color: transparent;
 }}
+
+element-icon {{
+		size:2ch;
+	}}

@@ -157,3 +157,7 @@ prompt {{
     spacing:    0;
     text-color: @normal-foreground;
 }}
+
+element-icon {{
+		size:3ch;
+	}}

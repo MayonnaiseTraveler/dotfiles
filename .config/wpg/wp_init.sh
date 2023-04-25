@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -nrs 'tokyonight.png' 'tokyonight.png'
+wpg -nrs 't.jpg' 't.jpg'
