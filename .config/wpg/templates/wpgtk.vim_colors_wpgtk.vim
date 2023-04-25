@@ -1,1 +1,0 @@
-/home/traveler/.local/share/lunarvim/site/pack/packer/start/wpgtk.vim/colors/wpgtk.vim

@@ -11,9 +11,11 @@ wl-paste --type image --watch cliphist store & #Stores only image data
 
 mpd &
 nm-applet --indicator &
-easyeffects & 
 librewolf &
+sleep 1 &
 discord-screenaudio &
-sleep 2 &
+easyeffects & 
+sleep 4 &
 whatsapp-nativefier &
+sleep 4 &
 telegram-desktop & 
