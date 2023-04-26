@@ -123,7 +123,6 @@ install script on the way
 - [ ] Clear Scripts and re-organize files
 - [ ] Create scripts for a backup system
 - [ ] Update this readme more
-- [ ] Create Script to help downloading musics from yt
 - [ ] Create Keybind list in Readme
 - [ ] Create bash script for installation
 - [ ] Create Eww widgets
@@ -131,6 +130,7 @@ install script on the way
 - [ ] finish bash script that changes volume of the active window // unused
 - [ ] add a list of browser extensions i use 
 - [ ] fix lvim colorscheme
+- [x] Create aliases to help downloading musics from yt
 - [x] change polybar stuff position
 - [x] Upgrade Dunst
 - [x] change mpc keybinds to use keyboard media keys // didn't work well
