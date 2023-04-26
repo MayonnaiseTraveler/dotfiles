@@ -10,7 +10,7 @@ amdapp-sdk
 ananicy-cpp
 ani-cli
 arandr
-aseprite-git
+asrrgb
 astyle
 audacity
 audiorelay
@@ -60,12 +60,14 @@ devour
 dex
 discord
 discord-screenaudio
+discover-overlay-git
 dmenu
 dolphin
 dooit-git
 dosbox
 dosfstools
 downgrade
+doxygen
 dragon-drag-and-drop
 dropbear
 dunst
@@ -86,6 +88,7 @@ figlet
 flex
 fm-bin
 fuse2
+fwupd
 gamemode
 gamescope
 gcc
@@ -100,6 +103,7 @@ gnu-free-fonts
 gnu-netcat
 gobuster
 godot
+gopreload-git
 gpart
 gparted
 gpick
@@ -119,6 +123,7 @@ gvim
 hacked-aio-lefty
 hacked-aio-righty
 hashcat
+hdparm
 heroic-games-launcher
 himalaya
 howdoi
@@ -161,7 +166,9 @@ lib32-libpcap
 lib32-libvpx
 lib32-libxslt
 lib32-mangohud-git
+lib32-mesa-utils
 lib32-ocl-icd
+lib32-opencl-mesa
 lib32-v4l-utils
 lib32-vkbasalt
 lib32-vulkan-radeon
@@ -193,15 +200,16 @@ lutris
 lxappearance
 lxqt-themes
 ly
+lynx
 m4
 maim
 make
 man-pages
-mangohud-git
+mangohud
+mangohud-common
 manuskript
 mariadb
 mcrcon
-megasync-bin
 mesa-vdpau
 metasploit
 minecraft-launcher
@@ -262,7 +270,8 @@ olympus
 oneko
 onlyoffice-bin
 opencl-mesa
-openrgb
+openrazer-driver-dkms
+openrgb-bin
 openssh
 openvpn
 oreo-cursors-git
@@ -299,6 +308,7 @@ postgresql
 postybirb
 posy-improved-cursors
 powerline-fonts
+preload
 proton-ge-custom-bin
 pulseaudio-control
 pulsemixer
@@ -359,6 +369,8 @@ swaybg
 swayimg
 swaylock-effects
 swww
+syncthing
+syncthing-gtk
 tai-bin
 task
 tauon-music-box
@@ -393,7 +405,9 @@ ttf-sourcecodepro-nerd
 ttf-times-new-roman
 tty-clock
 tty-countdown-git
+ttyper
 tuxpaint
+typespeed
 ufw
 unrar
 unzip
@@ -427,6 +441,7 @@ wireshark-gtk2
 wl-clipboard
 wlr-randr
 wlroots
+wmctrl
 wofi
 wpgtk-git
 wtfutil-bin
@@ -438,7 +453,7 @@ xcursor-themes
 xdelta3
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 xdg-ninja
 xdotool
 xf86-video-amdgpu
@@ -492,6 +507,7 @@ youtube-dl
 yt-dlp
 zathura-pdf-poppler
 zeitkatze
+zettlr-appimage
 zip
 zsh
 zsh-theme-powerlevel10k-git
