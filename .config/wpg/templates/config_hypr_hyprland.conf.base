@@ -97,11 +97,12 @@ gestures {{
 
 misc {{
 	disable_hyprland_logo = true
+	disable_autoreload = true
 	disable_splash_rendering = true
 	mouse_move_enables_dpms = true
 	key_press_enables_dpms = true
 	vfr = true
-	vrr = true
+	vrr = 2
 	animate_manual_resizes = true
 	animate_mouse_windowdragging = true
 	enable_swallow = true
@@ -136,8 +137,8 @@ binde=SUPER,20,exec,mpc volume -5 && dunstify -a mpc "Volume:" -r 44 -h int:valu
 bind=SUPER,RETURN,exec,kitty --single-instance
 bind=SUPER,A,exec,kitty --single-instance --class=pavucontrol -T 'pavucontrol' -e pulsemixer
 bind=SUPER,C,exec, cliphist list | wofi --dmenu --allow-images | cliphist decode | wl-copy
-# bind=SUPER,D,exec,wofi --style ~/.config/wofi/style.css
-bind=SUPER,D,exec,rofi -normal-window -show drun -theme ~/.config/rofi/wpg.rasi 
+bind=SUPER,D,exec,wofi --style ~/.config/wofi/style.css
+# bind=SUPER,D,exec,rofi -x11 -normal-window -show drun -theme ~/.config/rofi/wpg.rasi -m 1
 bind=SUPERALT,R,exec,kitty --single-instance -e ranger
 bind=SUPERSHIFT,W,exec,dolphin
 bind=,Print,exec, grimblast copy area
@@ -280,10 +281,11 @@ windowrulev2=center,class:^(pavucontrol)$
 windowrulev2=center,title:^(discord)$
 windowrulev2=float,title:^(discord)$
 windowrulev2=float,title:^(guiscrcpy)$
+windowrulev2=minsize 960 960,class:^(Rofi)$
+windowrulev2=move 960 0, class:^(rofi)$
+windowrulev2=animation overshoot,class:^(Rofi)$
 windowrulev2=float,class:^(Rofi)$
-windowrulev2=float,class:^(Bnnuy)$
-windowrulev2=center,class:^($Rofi)$
-windowrulev2=minsize 960 960,class:^($Rofi)$
+# windowrulev2=center,class:^(Rofi)$
 windowrulev2=tile,class:^(neovide)$
 windowrulev2=workspace 3 silent,class:^(.*joplin.*)$
 windowrulev2=workspace 3 silent,class:^(.*obsidian.*)$

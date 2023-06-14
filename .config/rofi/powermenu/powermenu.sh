@@ -63,7 +63,8 @@ case $chosen in
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
 			swww kill &&
-			killall Hyprland &&
+			mpd --kill &&
+			hyprctl dispatch exit &&
 			systemctl poweroff 
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
@@ -76,7 +77,8 @@ case $chosen in
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
 
 			swww kill &&
-			killall Hyprland &&
+			mpd --kill &&
+			hyprctl dispatch exit &&
 			systemctl reboot 
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
@@ -115,7 +117,8 @@ case $chosen in
 				i3-msg exit
 			elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
 				swww kill &&
-				killall Hyprland
+				mpd --kill &&
+				hyprctl dispatch exit	
 			fi
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0

@@ -57,6 +57,8 @@
 }}
 
 window {{
+	width:960px;
+	height:960px;
     text-color:       @normal-foreground;
     background-color: @bg;
     border:           0;
