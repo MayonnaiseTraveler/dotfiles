@@ -11,11 +11,12 @@ wl-paste --type image --watch cliphist store & #Stores only image data
 
 mpd &
 nm-applet --indicator &
+obsidian & 
 librewolf &
 sleep 1 &
-discord-screenaudio &
+QT_QPA_PLATFORMTHEME=kde discord-screenaudio -style breeze &
 easyeffects & 
-sleep 4 &
+sleep 1 &
 whatsapp-nativefier &
-sleep 4 &
-telegram-desktop & 
+sleep 1 &
+QT_QPA_PLATFORMTHEME=kde telegram-desktop & 

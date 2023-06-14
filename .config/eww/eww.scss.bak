@@ -3,10 +3,10 @@
 }
 
 //variables
-$fg:#ce2561;
-$bg:#010101;
-$fg-alt:#ff2079;
-$bg-alt:#1a1a1a;
+$fg:#f9188f;
+$bg:#180d25;
+$fg-alt:#3e2a47;
+$bg-alt:#33173F;
 
 window{
   background-color: $bg;

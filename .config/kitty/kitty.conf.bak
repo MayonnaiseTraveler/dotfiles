@@ -8,7 +8,8 @@
 confirm_os_window_close 0
 
 
-font_family        SauceCodePro NF
+font_family      "SauceCodePro Nerd Font"
+#font_family      "Monospace"
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -25,13 +26,7 @@ font_family        SauceCodePro NF
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-font_size 9
-
-
-# Nerd Fonts v2.2.2
-
-# symbol_map U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0C8,U+E0CA,U+E0CC-U+E0D2,U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E634,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF Symbols Nerd Font Mono
-# narrow_symbols U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0C8,U+E0CA,U+E0CC-U+E0D2,U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E634,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF 2
+font_size 8.5
 
 #: Font size (in pts)
 
@@ -55,8 +50,8 @@ font_size 9
 #: support, because it will force kitty to always treat the text as
 #: LTR, which FriBidi expects for terminals.
 
-adjust_line_height  0
-adjust_column_width 0
+# adjust_line_height  0
+# adjust_column_width 0
 
 #: Change the size of each character cell kitty renders. You can use
 #: either numbers, which are interpreted as pixels or percentages
@@ -66,7 +61,6 @@ adjust_column_width 0
 #: artifacts).
 
 # symbol_map U+E0A0-U+E0A3,U+E0C0-U+E0C7 PowerlineSymbols
-# narrow_symbols U+E0A0-U+E0A3,U+E0C0-U+E0C7 1
 
 #: Map the specified unicode codepoints to a particular font. Useful
 #: if you need special rendering for some symbols, such as for
@@ -76,7 +70,7 @@ adjust_column_width 0
 #: separated by hyphens. symbol_map itself can be specified multiple
 #: times. Syntax is::
 
-# symbol_map codepoints Font Family Name
+#:     symbol_map codepoints Font Family Name
 
 # disable_ligatures never
 
@@ -644,9 +638,6 @@ window_padding_width 11
 
 #: Color scheme {{{
 
-foreground #ffc9c9
-background #010101
-
 #: The foreground and background colors
 
 background_opacity 1
@@ -706,32 +697,67 @@ background_tint 1
 #: The foreground for text selected with the mouse. A value of none
 #: means to leave the color unchanged.
 
-selection_background #866e40
+selection_background #E4CABE
 
 #: The background for text selected with the mouse.
+
 
 #: The 256 terminal colors. There are 8 basic colors, each color has a
 #: dull and bright version, for the first 16 colors. You can set the
 #: remaining 240 colors as color16 to color255.
 
+foreground #E4CABE
+background #180d25
 
 
-color0 #010101
-color8 #1a1a1a
-color1 #ce2561
-color9 #ff2079
-color2 #866e40
-color10 #bb9346
-color3 #d3955a
-color11 #ffc161
-color4 #71323d
-color12 #9d3648
-color5 #ca5663
-color13 #ff5d72
-color6 #cb7f5c
-color14 #ff9e64
-color7 #cf9797
-color15 #ffc9c9
+color0 #ad93c9
+color8 #ad93c9
+
+#: black
+
+color1 #df9fba
+###be225b
+color9 #df9fba 
+
+#: red
+
+color2 #ec9977
+##8300c7
+color10 #ec9977
+
+#: green
+
+color3 #e2d094
+##7864f4
+##c2e100
+color11 #e2d094
+##d7f482 
+
+#: yellow
+
+color4 #ec4e85
+#
+##008f7f
+color12 #da4277
+##7864f4
+
+#: blue
+
+color5 #ff839c
+##00cdcd
+color13 #ff839c
+#
+
+#: magenta
+
+color6 #ff3f8f
+##4800dd
+color14 #ff3f8f
+
+#: cyan
+
+color7 #E4CABE
+color15 #E4CABE
 #: white
 
 # mark1_foreground black
@@ -1071,9 +1097,9 @@ kitty_mod ctrl+shift
 #: Scrolling {{{
 
 # map kitty_mod+up        scroll_line_up
- map kitty_mod+k         scroll_line_up
+# map kitty_mod+k         scroll_line_up
 # map kitty_mod+down      scroll_line_down
- map kitty_mod+j         scroll_line_down
+# map kitty_mod+j         scroll_line_down
 # map kitty_mod+page_up   scroll_page_up
 # map kitty_mod+page_down scroll_page_down
 # map kitty_mod+home      scroll_home
@@ -1085,7 +1111,7 @@ kitty_mod ctrl+shift
 #: example, the following opens the scrollback buffer in less in an
 #: overlay window::
 
-     # map f1 launch --stdin-source=@screen_scrollback --stdin-add-formatting --type=overlay less +G -R
+     map f1 launch --stdin-source=@screen_scrollback --stdin-add-formatting --type=overlay less +G -R
 
 #: For more details on piping screen and buffer contents to external
 #: programs, see launch.

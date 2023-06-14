@@ -19,7 +19,6 @@ waybar &
 dunst &
 convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.webp & 
 swww img \
-	--filter Nearest \
 	--transition-type random \
 	--transition-duration 2 \
 	--transition-fps 60 \

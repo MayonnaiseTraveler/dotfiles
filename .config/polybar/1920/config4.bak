@@ -18,18 +18,18 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #010101
-background-alt = #010101
+background = #180d25
+background-alt = #180d25
 ;foreground = ${xrdb:color7:#222}
-foreground = #ce2561
-foreground-alt = #ff2079
-primary = #1a1a1a
-secondary = #1a1a1a
-alert = #1a1a1a
+foreground = #f9188f
+foreground-alt = #111111
+primary = #3e2a47
+secondary = #33173F
+alert = #bd2c40
 
 [bar/left]
 override-redirect = true
-monitor = ${env:MONITOR:DisplayPort-1}
+monitor = ${env:MONITOR:HDMI-0}
 fixed-center = false
 offset-x= 3%-10px
 width = 25%
@@ -62,7 +62,7 @@ wm-restack = i3
 
 [bar/middle]
 override-redirect = true
-monitor = ${env:MONITOR:DisplayPort-1}
+monitor = ${env:MONITOR:HDMI-0}
 fixed-center = false
 width = 22%
 height = 32
@@ -98,7 +98,7 @@ wm-restack = i3
 
 [bar/right]
 override-redirect = true
-monitor = ${env:MONITOR:DisplayPort-1}
+monitor = ${env:MONITOR:HDMI-0}
 fixed-center = true
 width = 25%
 height = 32
