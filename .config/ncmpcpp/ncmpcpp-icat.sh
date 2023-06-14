@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 
-music_library="$HOME/MEGA/playlist"
+music_library="$HOME/SYNC/playlist"
 fallback_image="$HOME/.config/ncmpcpp/default_cover.png"
 padding_top=3
 padding_bot=2
@@ -12,7 +12,7 @@ square_alignment="bottom"
 main() {
     kill_previous_instances >/dev/null 2>&1
     get_cover>/dev/null 2>&1
-    display_cover     2>/dev/null
+    # display_cover     2>/dev/null
     # detect_window_resizes   >/dev/null 2>&1
 }
 
@@ -72,7 +72,7 @@ display_cover(){
 	cols_f=$((" "$term_cols" - "$padding_bot" "))
 	img_w=$((" "$cols_f" * $image_width" / 100 ))
 	kitty +kitten icat --clear
-	kitty +kitten icat --align left --place "$img_w"x"$img_w"@0x"$padding_top" "/tmp/mpd_cover.jpg"
+	kitty +kitten icat ---align left --place "$img_w"x"$img_w"@0x"$padding_top" "/tmp/mpd_cover.jpg"
 
 }
 
