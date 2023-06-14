@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/death.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0C0908",
+        "foreground": "#ffdfd2",
+        "cursor": "#ffdfd2"
+    },
+    "colors": {
+        "color0": "#0C0908",
+        "color1": "#694236",
+        "color2": "#5C564F",
+        "color3": "#8C4734",
+        "color4": "#994232",
+        "color5": "#B14F39",
+        "color6": "#C2523B",
+        "color7": "#cba89e",
+        "color8": "#2a1f1b",
+        "color9": "#92503b",
+        "color10": "#82705b",
+        "color11": "#c25537",
+        "color12": "#d44c33",
+        "color13": "#f55d3a",
+        "color14": "#ff5f3c",
+        "color15": "#ffdfd2"
+    }
+}

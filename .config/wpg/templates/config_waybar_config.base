@@ -8,10 +8,11 @@
     "margin-right":0,
     "margin-top":19,
     "margin-bottom":19,
+
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces" ],
-    /* "modules-center": ["hyprland/window"], */
-    "modules-right": ["pulseaudio", "clock", "custom/dunst", "tray","battery","custom/powermenu"],
+    "modules-center": [ "cava" ], 
+    "modules-right": [ "pulseaudio", "clock", "custom/dunst", "tray","battery","custom/powermenu"],
     // Modules configuration
      "wlr/workspaces": {{
          "all-outputs": true,
@@ -20,7 +21,7 @@
              "1": "",
              "2": "",
              "3": "",
-             "4": "",
+             "4": "󰍡",
              "5": "",
              "6": "",
              "7": "",
@@ -38,7 +39,7 @@
     "keyboard-state": {{
         "numlock": true,
         "capslock": true,
-        "format": "{{name}} {{icon}}",
+        "format": " {{name}} {{icon}}",
         "format-icons": {{
             "locked": "",
             "unlocked": ""
@@ -46,9 +47,10 @@
     }},
     "hyprland/window": {{
       "format": "👉 {{}}",
-      "separate-outputs": true
+      "separate-outputs": true,
     }},
     "mpd": {{
+		"rotate":90,
         "format": "{{stateIcon}} {{consumeIcon}}{{randomIcon}}{{repeatIcon}}{{singleIcon}}{{title}} ({{elapsedTime:%M:%S}}/{{totalTime:%M:%S}}) ⸨{{songPosition}}|{{queueLength}}⸩ {{volume}}% ",
         "format-disconnected": "Disconnected ",
         "format-stopped": "{{consumeIcon}}{{randomIcon}}{{repeatIcon}}{{singleIcon}}Stopped ",
@@ -88,10 +90,23 @@
         "spacing": {f_small}
     }},
     "clock": {{
-        // "timezone": "Brazil/Sao_Paulo",
+        //"timezone": "Brazil/Sao_Paulo",
+		"interval": 60,
         "format": "{{:%H\n..\n%M}}",
-        "tooltip-format": "<big>{{:%Y %B}}</big>\n<tt><small>{{calendar}}</small></tt>",
-    }},
+        "tooltip-format": "<tt><small>{{calendar}}</small></tt>",
+		    "calendar": {{
+                "mode"          : "month",
+                "on-scroll"     : 1,
+                "on-click-right": "mode",
+                "format": {{
+                        "months":     "<span color='{color7}'>{{}}</span>",
+                        "days":       "<span color='{color7}'>{{}}</span>",
+                        "weeks":      "<span color='{color5}'>W{{}}</span>",
+                        "weekdays":   "<span color='{color4}'>{{}}</span>",
+                        "today":      "<span color='{color9}'><b>{{}}</b></span>"
+                          }}
+                }}
+		}},
     "cpu": {{
         "format": "{{usage}}%\n ",
         "tooltip": false
@@ -133,7 +148,7 @@
         "format": "{{volume}}\n<span size='xx-large'>{{icon}}</span>{{format_source}}",
         "format-bluetooth": "{{volume}}% {{icon}}{{format_source}}",
         "format-bluetooth-muted": "{{icon}}{{format_source}}",
-        "format-muted": "off\n \n{{format_source}}",
+        "format-muted": "off\n<span size='xx-large'>󰝟{{format_source}}</span>",
         "format-source-muted": "\n <span size='x-large'></span>",
         "format-icons": {{
             "headphone": "",
@@ -142,41 +157,38 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", "墳"]
+            "default": ["", "", "󰕾"]
         }},
         "on-click-right": "pavucontrol",
         "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
         "on-click":"pulseaudio-control togmute",
     }},
-    "custom/dunst":{{
+    "custom/dunst": {{
         "format": "{{}}<span size='xx-large'>\n{{icon}}</span>",
         "on-click": " $HOME/.config/waybar/show-not-history.sh",
         "on-click-right": "dunstctl close-all",
         "exec" : "dunstctl count history",
         "restart-interval": 1,
         "format-icons":{{
-          "default": ""
+          "default": "󰂚"
         }},
-
     }},
-    "custom/powermenu":{{
-      "format": "{{icon}}{{}}",
+    "custom/powermenu": {{
+      "format": "<span size='xx-large'>{{icon}}</span>{{}}",
       "on-click": " $HOME/.config/rofi/powermenu/powermenu.sh",
       "format-icons":{{
-        "default": ""
+        "default": "⏻"
       }},
     }},
-    "custom/media": {{
-        "format": "{{icon}} {{}}",
-        "return-type": "json",
-        "max-length": 40,
-        "format-icons": {{
-            "spotify": "",
-            "default": "🎜"
-        }},
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    }}
+	"cava": {{
+        "cava_config": "/home/traveler/.config/cava/config",
+		"method": "pipewire",
+        "source": "auto",
+		"bars": 14,
+		"sensitivity": 100,
+		"format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "actions": {{
+                   "on-click-right": "mode"
+                   }},
+    }},
 }}
-

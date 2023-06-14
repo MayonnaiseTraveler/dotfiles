@@ -1,0 +1,10 @@
+[KDE]
+ShowDeleteCommand=false
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[Colors:View]
+BackgroundNormal=#08182d
+
+

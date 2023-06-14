@@ -1,6 +1,7 @@
 * {{
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: SauceCodePro Nerd Font Mono, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: SauceCodePro NFM, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 600;
     font-size: {f_small}px;
 }}
 
@@ -208,8 +209,8 @@ label:focus {{
 }}
 
 #mpd {{
-    background-color: #66cc99;
-    color: #2a5c45;
+    background-color: {color0};
+    color: {color7};
 }}
 
 
@@ -259,3 +260,5 @@ label:focus {{
 #scratchpad.empty {{
 	background-color: transparent;
 }}
+
+
