@@ -1,122 +1,82 @@
-sw_volume: 15
+sw_volume: 40
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 85
-time: 91.011000
+current: 53
+time: 35.381000
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 2
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:TheMidnight/The Comeback Kid (Isolation Relief Mix)-PYQdRr7ueSs.mp3
-1:TheMidnight/The Midnight  - Daytona (Official Audio)-9RXoqMus5ZU.mp3
-2:TheMidnight/The Midnight - 'Because The Night (Feat. Nikki Flores)' (Official Audio)-Oatqp_fWssY.mp3
-3:TheMidnight/The Midnight - 'Brooklyn' (Official Audio)-8Ey30-sYvuU.mp3
-4:TheMidnight/The Midnight - 'City Dreams (interlude)' (Official Audio)-IpU024V2KyE.mp3
-5:TheMidnight/The Midnight - 'Dance With Somebody' (Official Audio)-ZNAqwJ7pXmY.mp3
-6:TheMidnight/The Midnight - 'Deep Blue' (Official Audio)-b6D6iGeEl1o.mp3
-7:TheMidnight/The Midnight - 'Devil Make a Deal' (Official Audio)-VMuMm0atpMk.mp3
-8:TheMidnight/The Midnight - 'Dream Away' (Official Audio)--dB_Cei-_IY.mp3
-9:TheMidnight/The Midnight - 'Fire In The Sky' (Official Audio)-wJlziL7nSO0.mp3
-10:TheMidnight/The Midnight - 'Ghost in Your Stereo' (Official Lyric Video)-xo3yRQgggwY.mp3
-11:TheMidnight/The Midnight - 'Good in Red' (Official Audio)-EX1LnLb6mbw.mp3
-12:TheMidnight/The Midnight - 'Helvetica' (Official Audio)-ZLRKZt_Tjzo.mp3
-13:TheMidnight/The Midnight - 'Last Train' (Official Audio)-f7y8F-2lZwQ.mp3
-14:TheMidnight/The Midnight - 'Monsters (feat. Jupiter Winter)' (Official Audio)-kZXV2FNfjmw.mp3
-15:TheMidnight/The Midnight - 'Neon Medusa' (Official Audio)-cdtJyQOAkxs.mp3
-16:TheMidnight/The Midnight - 'Night Skies' (Official Audio)-ihcH0CLU-0Y.mp3
-17:TheMidnight/The Midnight - 'Prom Night' (Official Audio)-OeCPQBRpiHA.mp3
-18:TheMidnight/The Midnight - 'The Search for Ecco' (Official Audio)-yedhYL7xHtA.mp3
-19:TheMidnight/The Midnight - 'The Stranger' (music video)-cskkqSNijXk.mp3
-20:TheMidnight/The Midnight - America 2-PVAelZlPop8.mp3
-21:TheMidnight/The Midnight - Arcade Dreams _ RetroMixtape _ Original Album Audio -H7yHaQnkvkI.mp3
-22:TheMidnight/The Midnight - Bend (Official Audio)-WP7qsYn1we4.mp3
-23:TheMidnight/The Midnight - Comet (Official Audio)-edaF3oWzqcY.mp3
-24:TheMidnight/The Midnight - Days of Thunder-UiSB2Fbw9gs.mp3
-25:TheMidnight/The Midnight - Endless Summer (from The Rearview Mirror)-_iE_yc3hCFg.mp3
-26:TheMidnight/The Midnight - Kick Drums & Red Wine (Dezza Remix) [Silk Music]-8fIROX4vxmA.mp3
-27:TheMidnight/The Midnight - Lost Boy-7wvLqpWtTUU.mp3
-28:TheMidnight/The Midnight - Memories (from The Rearview Mirror)-9ypvAUtYYx4.mp3
-29:TheMidnight/The Midnight - Memories (Sundriver Remix) [Silk Music]-ZtON-fmsLmE.mp3
-30:TheMidnight/The Midnight - Nighthawks (Lifelike Extended Mix) [Silk Music]-M5KnXWjkwgc.mp3
-31:TheMidnight/The Midnight - Sometimes She Smiles (From Vehlinggo Presents - 5 Years)-sCi73VqewE0.mp3
-32:TheMidnight/The Midnight - Sunset with The Magik_Magik Orchestra-QA4wUXBILQw.mp3
-33:TheMidnight/The Midnight - Synthetic (Mango vs. We Are All Astronauts Remix) [Silk Music]-5ep8ceLnC9k.mp3
-34:TheMidnight/The Midnight - The Comeback Kid with The Magik_Magik Orchestra-398qIWN9N38.mp3
-35:TheMidnight/The Midnight - The Equaliser (Terry Da Libra Remix) [Silk Music]-daERNrY15CE.mp3
-36:TheMidnight/The Midnight - Vampires (from The Rearview Mirror)-WjTIXBal2v4.mp3
-37:TheMidnight/The Midnight - WeMoveForward [Silk Music]-krGsXqHoxUs.mp3
-38:TheMidnight/SYML - Clean Eyes (The Midnight Remix)-0osziTUQlwQ.mp3
-39:TheMidnight/The Midnight - Gloria-18-Ye2L3ej8.mp3
-40:TheMidnight/The Midnight - Los Angeles-z_b4tucWzSw.mp3
-41:TheMidnight/The Midnight - The Years (prologue)-MGNZJib6KxI.mp3
-42:TheMidnight/The Midnight - Crockett's Revenge-EGcbx4txRq8.mp3
-43:TheMidnight/The Midnight - Endless Summer (Official Audio)-xF656KUqeEo.mp3
-44:TheMidnight/The Midnight - Jason (Official Audio)-qIz-9CHVQUc.mp3
-45:TheMidnight/The Midnight - Vampires (official video)-9LD3NKlS55g.mp3
-46:TheMidnight/The Midnight - Lonely City [Music Video]-5eCI2_RLQzc.mp3
-47:TheMidnight/Saturday Mornings (Interlude)-7yCrTFEXIaM.mp3
-48:TheMidnight/The Midnight - Explorers-BzKAvLxVk3w.mp3
-49:TheMidnight/The Midnight - Kids (reprise)-mkfEh_fAgVk.mp3
-50:TheMidnight/The Midnight - Wave-VMOdzWBu8Ic.mp3
-51:TheMidnight/Youth-3NhwRQiKKM8.mp3
-52:TheMidnight/The Midnight - Kids (PROFF Dub Remix) [Silk Music]-KSEe84-58p4.mp3
-53:TheMidnight/Tyler Lyle - Lost & Found (The Midnight Remix)-ydAk4sPrIn4.mp3
-54:TheMidnight/1991 (intro)-_iMt3NQKN2c.mp3
-55:TheMidnight/The Midnight - America Online (Official Audio)-Xzex-nN2yM0.mp3
-56:TheMidnight/The Midnight - Seventeen (music video)-ZeznYDXi4Po.mp3
-57:TheMidnight/Collateral-AvaKPennSBk.mp3
-58:TheMidnight/The Midnight - Nocturnal (Official Audio)-zZ0zPbh1QHE.mp3
-59:TheMidnight/The Midnight - River of Darkness (Official Audio)-7fVkMK7r3tQ.mp3
-60:TheMidnight/The Midnight - Shadows (Official Audio)-_14cb1xCY-4.mp3
-61:TheMidnight/The Midnight - Tokyo Night Train (Official Audio)-wDKrxBOADCg.mp3
-62:TheMidnight/The Midnight - Crystalline (Official Audio)-3-II-NwKHeM.mp3
-63:TheMidnight/The Midnight - Light Years (Official Audio)-JcYVe5u1Cms.mp3
-64:TheMidnight/The Midnight - Sunset (Official Audio)-URma_gu1aNE.mp3
-65:TheMidnight/He Hopes He Hurt You-jJ_tNTGJHkk.mp3
-66:TheMidnight/He Said He Loves Me-0eC9RX_Y-q8.mp3
-67:TheMidnight/I Am The One-nJVkyiHVYr4.mp3
-68:TheMidnight/I Hope She's In Love-DtrAHqgIp9I.mp3
-69:TheMidnight/I Love I'm A Dreamer-LkcR9ijOH2w.mp3
-70:TheMidnight/I Rock All Night Long-qqD7MPD_IRs.mp3
-71:TheMidnight/I Think She's Paranoid-k2vnfb6ywME.mp3
-72:TheMidnight/She Hopes I'm Rocking Every Day-RUxCzM4Z9x0.mp3
-73:TheMidnight/She Said He's In Love--ecQjbueB58.mp3
-74:TheMidnight/The Midnight - Arcade Dreams (Timecop1983 Remix) [Silk Music]-BatjiXFoLuk.mp3
-75:TheMidnight/The Midnight - Collateral (Kobana Remix) [Silk Music]-6ys9R0jNp6w.mp3
-76:TheMidnight/The Midnight - Crystalline (Dan Sieg Remix) [Silk Music]-vNyROEwhcn4.mp3
-77:TheMidnight/The Midnight - Lonely City (ERKKA Remix) [Silk Music]-fIlHHYd1HAM.mp3
-78:TheMidnight/The Midnight - Nocturnal (Nox Vahn Remix) [Silk Music]-ZHVONuOiDfE.mp3
-79:TheMidnight/The Midnight - Shadows (Uppermost Remix) [Silk Music]-D5A8KSmRJ1U.mp3
-80:TheMidnight/The Midnight - Tokyo Night Train (Claes Rosen Remix) [Silk Music]-N4Q8hlZnjLk.mp3
-81:tim_maya/Tim Maia - Do Your Thing, Behave Yourself-nL-N3tnPAOY.mp3
-82:tim_maya/TIM MAIA - GOSTAVA TANTO DE VOCÊ-kH4fRzQvQyc.mp3
-83:tim_maya/Tim Maia - I Don't Know what to do with myself-Plfuv81J8g4.mp3
-84:tim_maya/Tim Maia - Não Quero Dinheiro (Só Quero Amar)-_HLsxDQ_98s.mp3
-85:tim_maya/Tim Maia - Over Again-Iz8HHM1wRWM.mp3
-86:tim_maya/Tim Maia - Rational Culture-eIwssvdm2qE.mp3
-87:tim_maya/Tim Maia - Réu Confesso-_0s7qVLDiB4.mp3
-88:tim_maya/Tim Maia - To Fall In Love [1978]-zrI8Gld9t0w.mp3
-89:tim_maya/Tim Maia - Um Dia Eu Chego Lá-V_uZ7zWPK00.mp3
-90:tim_maya/Tim Maia - Você e Eu, Eu e Você-iXyOtUoGFh4.mp3
-91:tim_maya/Tim Maia - You Don't Know What I Know (Raridade)-5QCxMIhNglc.mp3
-92:tim_maya/Tim Maia – Brother, Father, Sister, Mother (Official Audio)-SSk_LiXuAOo.mp3
-93:tim_maya/Tim Maia – I Don't Care (Official Audio)-Rlyi13quM90.mp3
-94:tim_maya/Tim Maia – Where Is My Other Half (Official Audio)-joPlzVJe2Cg.mp3
-95:tim_maya/Tim Maia- Não Vou Ficar-7cbuxQNwLhc.mp3
-96:tim_maya/Você - Tim Maia-tYfNX3iyw2s.mp3
-97:tim_maya/O Descobridor Dos Sete Mares-PAUlCK8kuGU.mp3
-98:tim_maya/Tim Maia – Que Beleza (Official Audio)-Nq_AOktdhts.mp3
-99:tim_maya/Tim Maia - Sossego-g2j2JXiuNhk.mp3
-100:tim_maya/Tim Maia – Bom Senso (Official Audio)-NdqM_oFRbz4.mp3
-101:tim_maya/Tim Maia – Do Leme Ao Pontal (Official Audio)-W6XHpvqHV2Q.mp3
-102:tim_maya/Tim Maia – Ela Partiu (Official Audio)-syqJAgTQdlU.mp3
-103:tim_maya/Tim Maia – Let's Have a Ball Tonight (Official Audio)-o4Y0iwz2Y9U.mp3
-104:tim_maya/Tim Maia – Nobody Can Live Forever (Official Audio)-8p9DsQHC5mI.mp3
-105:tim_maya/Tim Maia – O Caminho Do Bem (Official Audio)-hwUGJXm02ZQ.mp3
-106:tim_maya/Tim Maia – Quer Queira, Quer Não Queira (Official Audio)-i1GGYR3qjek.mp3
+0:gaming/1-800-SMD.mp3
+1:gaming/Absolute Unit! (Prod. Twiist) [MUSIC VIDEO IN DESCRIPTION].mp3
+2:gaming/All Night ft. Young Nut (Prod. Deakon)(SPOTIFY_APPLE MUSIC LINK IN DESCRIPTION).mp3
+3:gaming/bad piggies drip-dkM9GxaCow4.mp3
+4:gaming/bandits rmx w_ yun head (insta - wondsr).mp3
+5:gaming/Bikini Bottom (Prod. BYOU$) (YT LINK IN DESCRIPTION).mp3
+6:gaming/Billy Marchiafava & MC Virgins - Good Feelin'.mp3
+7:gaming/BOOTY BANDITS - SPAZ x XANAKIN SKYWOK.mp3
+8:gaming/Breakfast in Heaven.mp3
+9:gaming/Captain Save a Hoe.mp3
+10:gaming/Cheat Codes For Hoes (Remix) feat. Shotgun Willy.mp3
+11:gaming/Chugga Chugga (ft. TRAQULA).mp3
+12:gaming/Classic Crispy Chicken Sandwich.mp3
+13:gaming/CyberThot (Prod. Nonbruh) (SPOTIFY_APPLE MUSIC LINK IN DESCRIPTION).mp3
+14:gaming/Danny Devito (Prod. By Amazing Prophet).mp3
+15:gaming/do you get it yet.mp3
+16:gaming/Down Bad.mp3
+17:gaming/Fat Cocks & Drugs 2.mp3
+18:gaming/Fat Cocks & Drugs.mp3
+19:gaming/Fax Machine (With TRAQULA).mp3
+20:gaming/Flexatron9000 (Prod. UKNXWN) (YT LINK IN DESCRIPTION).mp3
+21:gaming/Freshman Frenzy (feat. MC Virgins).mp3
+22:gaming/Fuck Joe.mp3
+23:gaming/Fuego (feat. TRAQULA).mp3
+24:gaming/GO BESTIE! (ft.Traqula) [Prod. Fumiharo].mp3
+25:gaming/God's Favorite Rappers.mp3
+26:gaming/Hash Slinging Slasher Remix (feat. $cxttybrvh) (Prod. Hoolign x RevX).mp3
+27:gaming/Just Got Sued.mp3
+28:gaming/Keyboard Cat! - Uglee X MaxiPad.mp3
+29:gaming/Last Chance (Prod. CoridaArtist).mp3
+30:gaming/Legend (Prod. 88VLEXX) (SPOTIFY_APPLE MUSIC LINK IN DESCRIPTION).mp3
+31:gaming/Leveled up (Prod. Deluxxe) (YT LINK IN DESCRIPTION).mp3
+32:gaming/Leveled up 2 (Prod. SpliffCurryBeats).mp3
+33:gaming/Master Sword.mp3
+34:gaming/monkey in my bathroom🐒 (feat.Yung Clutz) (prod. chibi).mp3
+35:gaming/Mr. Money Bags.mp3
+36:gaming/NECO ARC TYPE BEAT-5pCUDdUQspc.mp3
+37:gaming/NeverNeverLand w_ Shotgun Willy {prod corida}.mp3
+38:gaming/Nintendhoes (feat. Yung Craka) (prod. @JAZY).mp3
+39:gaming/No Vacations (Prod. Nonbruh) (YT LINK IN DESCRIPTION).mp3
+40:gaming/Real Milf Hours (Prod. MaxoKoolin) (YT LINK IN DESCRIPTION).mp3
+41:gaming/Respected Man (ft. Yung Craka).mp3
+42:gaming/Rings (Prod. Robb2B x RayAyy) (YT LINK IN DESCRIPTION).mp3
+43:gaming/Rio.mp3
+44:gaming/Run It Up-project ryxn.mp3
+45:gaming/Shotgun Willy - Never Go Full Retard.mp3
+46:gaming/Shotgun Willy x Yung Craka - Betty Crocker.mp3
+47:gaming/SHOTS FIRED feat. Mike Sosa.mp3
+48:gaming/Silly (feat. Shotgun Willy) (prod. timothy bright).mp3
+49:gaming/Smash Mouth (Prod. Sauron) (YT LINK IN DESCRIPTION).mp3
+50:gaming/Spare Coochie (Feat. Lil Barnacle) (Prod. Imprint).mp3
+51:gaming/Stay Clean (Prod. Robb2B) (YT LINK IN DESCRIPTION).mp3
+52:gaming/Summertime Flex (Prod.8ROKEBOY) (SPOTIFY_APPLE MUSIC LINK IN DESCRIPTION).mp3
+53:gaming/Super Mario Chodes (Prod. By RayAyy).mp3
+54:gaming/The Imposter.mp3
+55:gaming/ThunderSnail ft. Shotgun Willy.mp3
+56:gaming/TRAQULA- Boyz On The TRAQ(ft. Shotgun Willy).mp3
+57:gaming/TRAQULA, Ramsteez - Kangaroo Jack.mp3
+58:gaming/TRAQULA, Shotgun Willy - Splat.mp3
+59:gaming/TURBOSAUCE (Prod. Killian) (SPOTIFY_APPLE MUSIC LINK IN DESCRIPTION).mp3
+60:gaming/VIRAL!.mp3
+61:gaming/Wombo Combo (ft. Lil Kapow).mp3
+62:gaming/Yikes! (Prod. OVJ)(SPOTIFY_APPLE MUSIC LINK IN DESCRIPTION).mp3
+63:gaming/Yoshi's Trap.mp3
+64:gaming/Yung Craka x Shotgun Willy - Blues Clues (prod. Lucian & ANH).mp3
+65:gaming/Yung Nugget x Shotgun Willy x Yung Craka - She Took the Kids.mp3
+66:gaming/lemme get uhhh (tre_cj remix).mp3
 playlist_end

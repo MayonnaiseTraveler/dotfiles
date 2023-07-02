@@ -106,9 +106,10 @@ misc {{
 	animate_manual_resizes = true
 	animate_mouse_windowdragging = true
 	enable_swallow = true
-    # swallow_regex = ".*"
-	groupbar_gradients = true 
+    swallow_regex = .*
+	groupbar_titles_font_size = 10
 	groupbar_text_color = rgb({color15.strip})
+	groupbar_gradients = false
 }}
 
 # some nice mouse binds
@@ -116,29 +117,29 @@ bindm=SUPER,mouse:272,movewindow
 bindm=SUPER,mouse:273,resizewindow
 
 #audio bindss
-binde=, XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && dunstify -r 45 "Volume:" -a volup -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g )"
+binde=, XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && notify-send -r 45 "Audio Volume:" "$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/^.0//g')%" -a volup -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/ //g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-high.svg"
+binde=, XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && notify-send -r 45 "Audio Volume:" "$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/^.0//g')%" -a voldown -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/ //g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-low.svg"
+binde=, XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && notify-send -r 45 "Audio Muted:" -a voltoggle -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/ //g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-muted.svg"
 
-# Example volume button that will activate even while an input inhibitor is active
-binde=, XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && dunstify -r 45 "Volume:" -a voldown -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g )"
-binde=, XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && dunstify -r 45 "Volume:" -a voltoggle -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g )"
 
 
 # MPC Binds
 bind=,173,exec, mpc prev
 bind=,171,exec, mpc next
-bind=,172,exec, mpc toggle && dunstify "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
+bind=,172,exec, mpc toggle && notify-send -a mpd -r 45 "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
+bind=SUPER,61,exec, mpc toggle && notify-send -a mpd -r 45  "    Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
 bind=SUPER,59,exec, mpc prev && ~/.config/ncmpcpp/ncmpcpp-icat.sh && ~/.config/ncmpcpp/songinfo.sh
 bind=SUPER,60,exec, mpc next && ~/.config/ncmpcpp/ncmpcpp-icat.sh && ~/.config/ncmpcpp/songinfo.sh
-bind=SUPER,61,exec, mpc toggle && dunstify -a mpc  "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
-binde=SUPER,21,exec,mpc volume +5 && dunstify -a mpc "Volume:" -r 44 -h int:value:"$(mpc status %volume%)"
-binde=SUPER,20,exec,mpc volume -5 && dunstify -a mpc "Volume:" -r 44 -h int:value:"$(mpc status %volume%)"
+binde=SUPER,21,exec,mpc volume +5 && notify-send -a mpd "Music Volume:" "$(mpc status %volume%)" -r 44 -h int:value:"$(mpc status %volume% | sed 's/ //g' | sed 's/%//g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-high.svg"
+binde=SUPER,20,exec,mpc volume -5 &&  notify-send -a mpd "Music Volume:" "$(mpc status %volume%)" -r 44 -h int:value:"$(mpc status %volume% | sed 's/ //g' | sed 's/%//g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-low.svg"
 
 # Program binds
 bind=SUPER,RETURN,exec,kitty --single-instance
 bind=SUPER,A,exec,kitty --single-instance --class=pavucontrol -T 'pavucontrol' -e pulsemixer
+bind=SUPER,Q,exec,swaync-client -t
 bind=SUPER,C,exec, cliphist list | wofi --dmenu --allow-images | cliphist decode | wl-copy
-bind=SUPER,D,exec,wofi --style ~/.config/wofi/style.css
-# bind=SUPER,D,exec,rofi -x11 -normal-window -show drun -theme ~/.config/rofi/wpg.rasi -m 1
+# bind=SUPER,D,exec,wofi --style ~/.config/wofi/style.css
+bind=SUPER,D,exec,rofi -show drun -theme ~/.config/rofi/wpg.rasi -m 1
 bind=SUPERALT,R,exec,kitty --single-instance -e ranger
 bind=SUPERSHIFT,W,exec,dolphin
 bind=,Print,exec, grimblast copy area
@@ -275,7 +276,9 @@ windowrulev2=float,class:^(pavucontrol)$
 windowrulev2=float,class:^(.*dolphin)$
 windowrulev2=float,class:^(pavucontrol)$
 windowrulev2=float,title:^(wpgtk.*)$
+windowrulev2=float,title:^(LibreWolf — Indicador de compartilhamento)$
 windowrulev2=float,class:^(feh)$
+windowrulev2=float,class:^(mpv)$
 windowrulev2=size 960 480,class:^(pavucontrol)$
 windowrulev2=center,class:^(pavucontrol)$
 windowrulev2=center,title:^(discord)$
@@ -290,8 +293,6 @@ windowrulev2=tile,class:^(neovide)$
 windowrulev2=workspace 3 silent,class:^(.*joplin.*)$
 windowrulev2=workspace 3 silent,class:^(.*obsidian.*)$
 windowrulev2=workspace 4 silent,class:^(.*discord.*)$
-windowrulev2=workspace 4 silent,class:^(org.telegram.desktop)$
-windowrulev2=workspace 4 silent,class:^(whatsapp.*)$
 windowrulev2=workspace 4 silent,class:^(.*easyeffects)$
 windowrulev2=workspace 5 silent,class:^(LibreWolf)$
 windowrulev2=workspace 5 silent,class:^(Buttercup)$

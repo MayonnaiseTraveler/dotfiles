@@ -1,7 +1,7 @@
 #!/bin/bash
 touch /tmp/hyprstart.lock & 
 waybar &
-dunst &
+swaync -c .config/swaync/config.json -s .config/swaync/style.css &
 swww init &
 sleep 2 && swww img --sync --filter Nearest --transition-duration 0 ~/Imagens/wallpaper.webp &
 
@@ -16,7 +16,3 @@ librewolf &
 sleep 1 &
 QT_QPA_PLATFORMTHEME=kde discord-screenaudio -style breeze &
 easyeffects & 
-sleep 1 &
-whatsapp-nativefier &
-sleep 1 &
-QT_QPA_PLATFORMTHEME=kde telegram-desktop & 
