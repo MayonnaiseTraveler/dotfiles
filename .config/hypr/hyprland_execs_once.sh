@@ -2,8 +2,9 @@
 touch /tmp/hyprstart.lock & 
 waybar &
 swaync -c .config/swaync/config.json -s .config/swaync/style.css &
+mpDris2 & 
 swww init &
-sleep 2 && swww img --sync --filter Nearest --transition-duration 0 ~/Imagens/wallpaper.webp &
+swww img --sync --filter Nearest --transition-duration 0 ~/Imagens/wallpaper.webp &
 
 #clipboard
 wl-paste --type text --watch cliphist store & #Stores only text data

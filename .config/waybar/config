@@ -12,7 +12,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces" ],
     "modules-center": [ "cava" ], 
-    "modules-right": [ "pulseaudio", "clock", "custom/notification", "tray","battery","custom/powermenu"],
+    "modules-right": [ "pulseaudio", "custom/notification", "clock", "tray","battery","custom/powermenu"],
     // Modules configuration
      "wlr/workspaces": {
          "all-outputs": true,
@@ -193,22 +193,23 @@
     },
   "custom/notification": {
     "tooltip": false,
-    "format": "{icon}",
+    "format": "<span color='#e8c6f0'>{}</span><span size='xx-large' color='#e8c6f0'>\n{icon}</span>",
     "format-icons": {
-      "notification": "<span size='xx-large' color='#e8c6f0'><sup></sup></span>",
-      "none": "<span size='xx-large' color='#e8c6f0'></span>",
-      "dnd-notification": "<span size='xx-large' color='#e8c6f0'><sup></sup></span>",
-      "dnd-none": "<span size='xx-large' color='#e8c6f0'></span>",
-      "inhibited-notification": "<span size='xx-large' color='#e8c6f0'><sup></sup></span>",
-      "inhibited-none": "<span size='xx-large' color='#e8c6f0'></span>",
-      "dnd-inhibited-notification": "<span size='xx-large' color='#e8c6f0'><sup></sup></span>",
-      "dnd-inhibited-none": "<span size='xx-large' color='#e8c6f0'></span>"
+      "notification": "󱅫",
+      "none": "󰂚",
+      "default": "󰂚",
+      "dnd-notification": "󰂛<sup></sup>",
+      "dnd-none": "󰂛",
+      "inhibited-notification": "󱅫",
+      "inhibited-none": "󰂚",
+      "dnd-inhibited-notification":"󰂛<sup></sup>",
+      "dnd-inhibited-none": "󰂛"
     },
     "return-type": "json",
     "exec-if": "which swaync-client",
     "exec": "swaync-client -swb",
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
-    "escape": true
+    "escape": false,
   },
 }

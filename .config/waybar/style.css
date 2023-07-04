@@ -261,4 +261,7 @@ label:focus {
 	background-color: transparent;
 }
 
-
+#custom-notification > * {
+    font-size:20px;
+	color:#d61583;
+}

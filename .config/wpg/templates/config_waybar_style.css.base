@@ -261,4 +261,7 @@ label:focus {{
 	background-color: transparent;
 }}
 
-
+#custom-notification > * {{
+    font-size:{f_big}px;
+	color:{color9};
+}}

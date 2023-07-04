@@ -126,12 +126,12 @@ binde=, XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && notif
 # MPC Binds
 bind=,173,exec, mpc prev
 bind=,171,exec, mpc next
-bind=,172,exec, mpc toggle && notify-send -a mpd -r 45 "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
-bind=SUPER,61,exec, mpc toggle && notify-send -a mpd -r 45  "    Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
+bind=,172,exec, mpc toggle && notify-send -r 45 "   Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
+bind=SUPER,61,exec, mpc toggle && notify-send -r 45  "    Toggle"  "$(mpc --format '%title% \n%artist% ' current)" -i "/tmp/mpd_preview.jpg"
 bind=SUPER,59,exec, mpc prev && ~/.config/ncmpcpp/ncmpcpp-icat.sh && ~/.config/ncmpcpp/songinfo.sh
 bind=SUPER,60,exec, mpc next && ~/.config/ncmpcpp/ncmpcpp-icat.sh && ~/.config/ncmpcpp/songinfo.sh
-binde=SUPER,21,exec,mpc volume +5 && notify-send -a mpd "Music Volume:" "$(mpc status %volume%)" -r 44 -h int:value:"$(mpc status %volume% | sed 's/ //g' | sed 's/%//g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-high.svg"
-binde=SUPER,20,exec,mpc volume -5 &&  notify-send -a mpd "Music Volume:" "$(mpc status %volume%)" -r 44 -h int:value:"$(mpc status %volume% | sed 's/ //g' | sed 's/%//g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-low.svg"
+binde=SUPER,21,exec,mpc volume +5 && notify-send -r 44 "Music Volume:" "$(mpc status %volume%)" -h int:value:"$(mpc status %volume% | sed 's/ //g' | sed 's/%//g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-high.svg"
+binde=SUPER,20,exec,mpc volume -5 &&  notify-send -r 44 "Music Volume:" "$(mpc status %volume%)" -h int:value:"$(mpc status %volume% | sed 's/ //g' | sed 's/%//g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-low.svg"
 
 # Program binds
 bind=SUPER,RETURN,exec,kitty --single-instance
@@ -325,4 +325,5 @@ windowrulev2=pin,class:^(Discover-overlay)$
 
 
 layerrule = blur,waybar
+layerrule = blur,swaync-control-center
 
