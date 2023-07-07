@@ -218,7 +218,7 @@
 /* Window behind control center and on all other monitors */
 .blank-window {{
   min-width:1920px;
-  background: alpha(black, 0.5);
+  background: alpha(black, 0);
 }}
 
 /*** Widgets ***/

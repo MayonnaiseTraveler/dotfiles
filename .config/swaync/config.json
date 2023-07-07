@@ -12,7 +12,7 @@
 	"control-center-margin-left": 20,
 	"notification-2fa-action": false,
 	"notification-inline-replies": true,
-	"notification-icon-size": 64,
+	"notification-icon-size": 48,
 	"notification-body-image-height": 200,
 	"notification-body-image-width": 200,
 	"timeout": 10,

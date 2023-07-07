@@ -2,20 +2,20 @@
  * vim: ft=less
  */
 
-@define-color cc-bg rgb(12,10,15);
+@define-color cc-bg rgb(18,18,19);
 
-@define-color noti-border-color rgb(148,84,123);
-@define-color noti-bg rgb(12,10,15);
+@define-color noti-border-color rgb(101,136,209);
+@define-color noti-bg rgb(18,18,19);
 @define-color noti-bg-darker rgb(38, 38, 38);
-@define-color noti-bg-hover rgb(35,29,45);
-@define-color noti-bg-focus rgb(12,10,15);
+@define-color noti-bg-hover rgb(42,42,44);
+@define-color noti-bg-focus rgb(18,18,19);
 @define-color noti-close-bg rgba(255, 255, 255, 0.1);
-@define-color noti-close-bg-hover rgba(105,74,93, 0.15);
+@define-color noti-close-bg-hover rgba(90,109,149, 0.15);
 
-@define-color text-color rgb(255,241,248);
-@define-color text-color-disabled rgb(35,29,45);
+@define-color text-color rgb(245,255,255);
+@define-color text-color-disabled rgb(42,42,44);
 
-@define-color bg-selected rgb(35,29,45);
+@define-color bg-selected rgb(42,42,44);
 
 *{
   font-family:"Mononoki Nerd Font Mono:style=Bold";
@@ -218,7 +218,7 @@
 /* Window behind control center and on all other monitors */
 .blank-window {
   min-width:1920px;
-  background: alpha(black, 0.5);
+  background: alpha(black, 0);
 }
 
 /*** Widgets ***/
@@ -226,7 +226,7 @@
 /* Title widget */
 .widget-title {
   padding:0 10px;
-  margin:16px 0;
+  margin:20px 0;
   font-size: 1.6rem;
 }
 .widget-title > button {
@@ -248,7 +248,7 @@
 .widget-dnd {
 		padding:0 10px;
 	margin:0;
-  margin-bottom: 16px ;
+  margin-bottom: 20px ;
   font-size: 1.2rem;
 }
 .widget-dnd > switch {
@@ -275,7 +275,7 @@
 /* Label widget */
 .widget-label {
 		padding:0 10px;
-  margin: 0 16px;
+  margin: 0 20px;
 }
 
 .widget-label > label {
@@ -339,8 +339,8 @@
 	border-radius:8px;
 	padding:0 10px ;
 	margin:0;
-	background-color:#0C0A0F;
-	border-color:#0C0A0F
+	background-color:#121213;
+	border-color:#121213
 }
 .widget-mpris > box > button:disabled {
   /* Change player side buttions insensitive */

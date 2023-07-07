@@ -99,11 +99,11 @@
                 "on-scroll"     : 1,
                 "on-click-right": "mode",
                 "format": {
-                        "months":     "<span color='#d8c3c8'>{}</span>",
-                        "days":       "<span color='#d8c3c8'>{}</span>",
-                        "weeks":      "<span color='#A66D8D'>W{}</span>",
-                        "weekdays":   "<span color='#725B8A'>{}</span>",
-                        "today":      "<span color='#94547b'><b>{}</b></span>"
+                        "months":     "<span color='#d2dce3'>{}</span>",
+                        "days":       "<span color='#d2dce3'>{}</span>",
+                        "weeks":      "<span color='#949BAB'>W{}</span>",
+                        "weekdays":   "<span color='#6195D6'>{}</span>",
+                        "today":      "<span color='#6588d1'><b>{}</b></span>"
                           }
                 }
 		},
@@ -193,7 +193,7 @@
     },
   "custom/notification": {
     "tooltip": false,
-    "format": "<span color='#d8c3c8'>{}</span><span size='xx-large' color='#d8c3c8'>\n{icon}</span>",
+    "format": "<span color='#d2dce3'>{}</span><span size='xx-large' color='#d2dce3'>\n{icon}</span>",
     "format-icons": {
       "notification": "󱅫",
       "none": "󰂚",
