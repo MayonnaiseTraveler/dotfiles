@@ -1,9 +1,9 @@
-sw_volume: 10
+sw_volume: 30
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 50
-time: 36.247000
+current: 8
+time: 526.682000
 random: 1
 repeat: 1
 single: 0
@@ -12,85 +12,17 @@ crossfade: 2
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:TheMidnight/The Comeback Kid (Isolation Relief Mix)-PYQdRr7ueSs.mp3
-1:TheMidnight/The Midnight  - Daytona (Official Audio)-9RXoqMus5ZU.mp3
-2:TheMidnight/The Midnight - 'Because The Night (Feat. Nikki Flores)' (Official Audio)-Oatqp_fWssY.mp3
-3:TheMidnight/The Midnight - 'Brooklyn' (Official Audio)-8Ey30-sYvuU.mp3
-4:TheMidnight/The Midnight - 'City Dreams (interlude)' (Official Audio)-IpU024V2KyE.mp3
-5:TheMidnight/The Midnight - 'Dance With Somebody' (Official Audio)-ZNAqwJ7pXmY.mp3
-6:TheMidnight/The Midnight - 'Deep Blue' (Official Audio)-b6D6iGeEl1o.mp3
-7:TheMidnight/The Midnight - 'Devil Make a Deal' (Official Audio)-VMuMm0atpMk.mp3
-8:TheMidnight/The Midnight - 'Dream Away' (Official Audio)--dB_Cei-_IY.mp3
-9:TheMidnight/The Midnight - 'Fire In The Sky' (Official Audio)-wJlziL7nSO0.mp3
-10:TheMidnight/The Midnight - 'Ghost in Your Stereo' (Official Lyric Video)-xo3yRQgggwY.mp3
-11:TheMidnight/The Midnight - 'Good in Red' (Official Audio)-EX1LnLb6mbw.mp3
-12:TheMidnight/The Midnight - 'Helvetica' (Official Audio)-ZLRKZt_Tjzo.mp3
-13:TheMidnight/The Midnight - 'Last Train' (Official Audio)-f7y8F-2lZwQ.mp3
-14:TheMidnight/The Midnight - 'Monsters (feat. Jupiter Winter)' (Official Audio)-kZXV2FNfjmw.mp3
-15:TheMidnight/The Midnight - 'Neon Medusa' (Official Audio)-cdtJyQOAkxs.mp3
-16:TheMidnight/The Midnight - 'Night Skies' (Official Audio)-ihcH0CLU-0Y.mp3
-17:TheMidnight/The Midnight - 'Prom Night' (Official Audio)-OeCPQBRpiHA.mp3
-18:TheMidnight/The Midnight - 'The Search for Ecco' (Official Audio)-yedhYL7xHtA.mp3
-19:TheMidnight/The Midnight - 'The Stranger' (music video)-cskkqSNijXk.mp3
-20:TheMidnight/The Midnight - America 2-PVAelZlPop8.mp3
-21:TheMidnight/The Midnight - Arcade Dreams _ RetroMixtape _ Original Album Audio -H7yHaQnkvkI.mp3
-22:TheMidnight/The Midnight - Bend (Official Audio)-WP7qsYn1we4.mp3
-23:TheMidnight/The Midnight - Comet (Official Audio)-edaF3oWzqcY.mp3
-24:TheMidnight/The Midnight - Days of Thunder-UiSB2Fbw9gs.mp3
-25:TheMidnight/The Midnight - Endless Summer (from The Rearview Mirror)-_iE_yc3hCFg.mp3
-26:TheMidnight/The Midnight - Kick Drums & Red Wine (Dezza Remix) [Silk Music]-8fIROX4vxmA.mp3
-27:TheMidnight/The Midnight - Lost Boy-7wvLqpWtTUU.mp3
-28:TheMidnight/The Midnight - Memories (from The Rearview Mirror)-9ypvAUtYYx4.mp3
-29:TheMidnight/The Midnight - Memories (Sundriver Remix) [Silk Music]-ZtON-fmsLmE.mp3
-30:TheMidnight/The Midnight - Nighthawks (Lifelike Extended Mix) [Silk Music]-M5KnXWjkwgc.mp3
-31:TheMidnight/The Midnight - Sometimes She Smiles (From Vehlinggo Presents - 5 Years)-sCi73VqewE0.mp3
-32:TheMidnight/The Midnight - Sunset with The Magik_Magik Orchestra-QA4wUXBILQw.mp3
-33:TheMidnight/The Midnight - Synthetic (Mango vs. We Are All Astronauts Remix) [Silk Music]-5ep8ceLnC9k.mp3
-34:TheMidnight/The Midnight - The Comeback Kid with The Magik_Magik Orchestra-398qIWN9N38.mp3
-35:TheMidnight/The Midnight - The Equaliser (Terry Da Libra Remix) [Silk Music]-daERNrY15CE.mp3
-36:TheMidnight/The Midnight - Vampires (from The Rearview Mirror)-WjTIXBal2v4.mp3
-37:TheMidnight/The Midnight - WeMoveForward [Silk Music]-krGsXqHoxUs.mp3
-38:TheMidnight/SYML - Clean Eyes (The Midnight Remix)-0osziTUQlwQ.mp3
-39:TheMidnight/The Midnight - Gloria-18-Ye2L3ej8.mp3
-40:TheMidnight/The Midnight - Los Angeles-z_b4tucWzSw.mp3
-41:TheMidnight/The Midnight - The Years (prologue)-MGNZJib6KxI.mp3
-42:TheMidnight/The Midnight - Crockett's Revenge-EGcbx4txRq8.mp3
-43:TheMidnight/The Midnight - Endless Summer (Official Audio)-xF656KUqeEo.mp3
-44:TheMidnight/The Midnight - Jason (Official Audio)-qIz-9CHVQUc.mp3
-45:TheMidnight/The Midnight - Vampires (official video)-9LD3NKlS55g.mp3
-46:TheMidnight/The Midnight - Lonely City [Music Video]-5eCI2_RLQzc.mp3
-47:TheMidnight/Saturday Mornings (Interlude)-7yCrTFEXIaM.mp3
-48:TheMidnight/The Midnight - Explorers-BzKAvLxVk3w.mp3
-49:TheMidnight/The Midnight - Kids (reprise)-mkfEh_fAgVk.mp3
-50:TheMidnight/The Midnight - Wave-VMOdzWBu8Ic.mp3
-51:TheMidnight/Youth-3NhwRQiKKM8.mp3
-52:TheMidnight/The Midnight - Kids (PROFF Dub Remix) [Silk Music]-KSEe84-58p4.mp3
-53:TheMidnight/Tyler Lyle - Lost & Found (The Midnight Remix)-ydAk4sPrIn4.mp3
-54:TheMidnight/1991 (intro)-_iMt3NQKN2c.mp3
-55:TheMidnight/The Midnight - America Online (Official Audio)-Xzex-nN2yM0.mp3
-56:TheMidnight/The Midnight - Seventeen (music video)-ZeznYDXi4Po.mp3
-57:TheMidnight/Collateral-AvaKPennSBk.mp3
-58:TheMidnight/The Midnight - Nocturnal (Official Audio)-zZ0zPbh1QHE.mp3
-59:TheMidnight/The Midnight - River of Darkness (Official Audio)-7fVkMK7r3tQ.mp3
-60:TheMidnight/The Midnight - Shadows (Official Audio)-_14cb1xCY-4.mp3
-61:TheMidnight/The Midnight - Tokyo Night Train (Official Audio)-wDKrxBOADCg.mp3
-62:TheMidnight/The Midnight - Crystalline (Official Audio)-3-II-NwKHeM.mp3
-63:TheMidnight/The Midnight - Light Years (Official Audio)-JcYVe5u1Cms.mp3
-64:TheMidnight/The Midnight - Sunset (Official Audio)-URma_gu1aNE.mp3
-65:TheMidnight/He Hopes He Hurt You-jJ_tNTGJHkk.mp3
-66:TheMidnight/He Said He Loves Me-0eC9RX_Y-q8.mp3
-67:TheMidnight/I Am The One-nJVkyiHVYr4.mp3
-68:TheMidnight/I Hope She's In Love-DtrAHqgIp9I.mp3
-69:TheMidnight/I Love I'm A Dreamer-LkcR9ijOH2w.mp3
-70:TheMidnight/I Rock All Night Long-qqD7MPD_IRs.mp3
-71:TheMidnight/I Think She's Paranoid-k2vnfb6ywME.mp3
-72:TheMidnight/She Hopes I'm Rocking Every Day-RUxCzM4Z9x0.mp3
-73:TheMidnight/She Said He's In Love--ecQjbueB58.mp3
-74:TheMidnight/The Midnight - Arcade Dreams (Timecop1983 Remix) [Silk Music]-BatjiXFoLuk.mp3
-75:TheMidnight/The Midnight - Collateral (Kobana Remix) [Silk Music]-6ys9R0jNp6w.mp3
-76:TheMidnight/The Midnight - Crystalline (Dan Sieg Remix) [Silk Music]-vNyROEwhcn4.mp3
-77:TheMidnight/The Midnight - Lonely City (ERKKA Remix) [Silk Music]-fIlHHYd1HAM.mp3
-78:TheMidnight/The Midnight - Nocturnal (Nox Vahn Remix) [Silk Music]-ZHVONuOiDfE.mp3
-79:TheMidnight/The Midnight - Shadows (Uppermost Remix) [Silk Music]-D5A8KSmRJ1U.mp3
-80:TheMidnight/The Midnight - Tokyo Night Train (Claes Rosen Remix) [Silk Music]-N4Q8hlZnjLk.mp3
+0:glass beach/glass beach - (forever？？？？？？？？？).mp3
+1:glass beach/glass beach - (rat castle).mp3
+2:glass beach/glass beach - bedroom community.mp3
+3:glass beach/glass beach - bone skull.mp3
+4:glass beach/glass beach - calico.mp3
+5:glass beach/glass beach - classic j dies and goes to hell part 1.mp3
+6:glass beach/glass beach - cold weather.mp3
+7:glass beach/glass beach - dallas.mp3
+8:glass beach/glass beach - glass beach & blood rivers.mp3
+9:glass beach/glass beach - neon glow.mp3
+10:glass beach/glass beach - orchids.mp3
+11:glass beach/glass beach - soft!!!!!!.mp3
+12:glass beach/glass beach - yoshi's island.mp3
 playlist_end

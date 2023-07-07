@@ -2,27 +2,26 @@
  * vim: ft=less
  */
 
-@define-color cc-bg rgb(13,5,11);
+@define-color cc-bg rgb(12,10,15);
 
-@define-color noti-border-color rgb(214,21,131);
-@define-color noti-bg rgb(13,5,11);
+@define-color noti-border-color rgb(148,84,123);
+@define-color noti-bg rgb(12,10,15);
 @define-color noti-bg-darker rgb(38, 38, 38);
-@define-color noti-bg-hover rgb(50,17,42);
-@define-color noti-bg-focus rgb(13,5,11);
+@define-color noti-bg-hover rgb(35,29,45);
+@define-color noti-bg-focus rgb(12,10,15);
 @define-color noti-close-bg rgba(255, 255, 255, 0.1);
-@define-color noti-close-bg-hover rgba(156,26,100, 0.15);
+@define-color noti-close-bg-hover rgba(105,74,93, 0.15);
 
-@define-color text-color rgb(255,230,255);
-@define-color text-color-disabled rgb(50,17,42);
+@define-color text-color rgb(255,241,248);
+@define-color text-color-disabled rgb(35,29,45);
 
-@define-color bg-selected rgb(50,17,42);
+@define-color bg-selected rgb(35,29,45);
 
 *{
   font-family:"Mononoki Nerd Font Mono:style=Bold";
 }
 
 .notification-row {
-
   transition: all 200ms ease;
   outline: none;
 }
@@ -36,8 +35,8 @@
   transition: all 200ms ease;
   border-radius: 10px;
   box-shadow: none;
-  margin: 8px 20px;
-  margin-bottom:0px;
+  margin:0px;
+  margin-top: 10px;
   padding: 0px;
 }
 
@@ -96,8 +95,7 @@
   background: @noti-bg;
   border: 2px solid @noti-border-color;
   color: @text-color;
-  transition: all 0.15s ease-in-out;
-}
+  transition: all 0.15s ease-in-out; }
 
 .notification-default-action:hover,
 .notification-action:hover {
@@ -196,6 +194,7 @@
 
 .control-center {
   transition: all 200ms ease;
+  padding: 10px;
   border-radius: 10px;
   border: 2px solid @noti-border-color;
   background: @cc-bg;
@@ -209,12 +208,16 @@
   opacity: 0.5;
 }
 
-.floating-notifications {
+.floating-notifications > * {
+	margin-top:10px;
+	margin-left:10px;
+	padding-left:10px;
   background: transparent;
 }
 
 /* Window behind control center and on all other monitors */
 .blank-window {
+  min-width:1920px;
   background: alpha(black, 0.5);
 }
 
@@ -222,11 +225,13 @@
 
 /* Title widget */
 .widget-title {
-  margin: 20px;
+  padding:0 10px;
+  margin:16px 0;
   font-size: 1.6rem;
 }
 .widget-title > button {
   font-size: initial;
+  margin:0;
   padding:6px;
   color: @text-color;
   text-shadow: none;
@@ -241,7 +246,9 @@
 
 /* DND widget */
 .widget-dnd {
-  margin: 20px;
+		padding:0 10px;
+	margin:0;
+  margin-bottom: 16px ;
   font-size: 1.2rem;
 }
 .widget-dnd > switch {
@@ -267,7 +274,8 @@
 
 /* Label widget */
 .widget-label {
-  margin: 8px;
+		padding:0 10px;
+  margin: 0 16px;
 }
 
 .widget-label > label {
@@ -276,22 +284,36 @@
 
 /* Mpris widget */
 .widget-mpris {
-		margin:20px;
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+
+
   /* The parent to all players */
 }
+
+.widget-mpris > box 
+{
+	border-radius:10px;
+	border: 2px solid @noti-border-color;
+}
 .widget-mpris-player {
-  padding: 8px;	
+		padding-bottom:0;
+		margin-top:0;
+		margin-bottom:0;
 }
 
 .widget-mpris-player > box > image{
-		margin-bottom:16px;
+		margin-bottom:10px;
+		margin-top:10px;
 	}
 .widget-mpris-player > box > button {
-	padding: 6px;
+	padding: 4px;
+	margin:0 ;
 	background-color:@noti-bg;
     border-radius:10px;
   	border: 2px solid @noti-border-color;
-
+	margin-bottom:10px;
 }
 
 .widget-mpris-player > box > button:hover{
@@ -312,18 +334,13 @@
   font-size: 0.8rem;
 }
 
-.widget-mpris > box{
-    border-radius:10px;
-  	border: 2px solid @noti-border-color;
-}
-
 .widget-mpris > box > button {
   /* Change player side buttions */
-    
 	border-radius:8px;
 	padding:0 10px ;
-	background-color:#0D050B;
-	border-color:#0D050B
+	margin:0;
+	background-color:#0C0A0F;
+	border-color:#0C0A0F
 }
 .widget-mpris > box > button:disabled {
   /* Change player side buttions insensitive */
@@ -381,41 +398,6 @@
   background: transparent;
 }
 
-/* Volume widget */
-
-.widget-volume{
-
-    margin: 200px;
-	padding:16px;
-}
-.widget-volume>box {
-  margin-left: 20px;
-  background: @noti-bg-hover;
-  background-color: @noti-bg;
-  border-radius: 12px;
-}
-
-.widget-volume>box>button {
-	padding:4px 8px;
-  background: transparent;
-  border: none;
-}
-
-.per-app-volume {
-  background-color: @noti-bg-alt;
-  padding: 4px 8px 8px 8px;
-  margin: 0px 8px 8px 8px;
-  border-radius: 12px
-}
-
-/* Backlight widget */
-.widget-backlight {
-  background-color: @noti-bg;
-  padding: 8px;
-  margin: 8px;
-  border-radius: 12px;
-}
-
 /* Title widget */
 .widget-inhibitors {
   margin: 20px;
@@ -436,15 +418,17 @@
 
 /* Volume widget */
 
-.widget-volume {
+.widget-volume, .widget-backlight {
+	margin:0px;
+	margin-top:10px;
+	border-radius:10px;
+	border: 2px solid @noti-border-color;
     background-color: @noti-bg;
-    padding: 8px;
-    margin: 10px;
-    border-radius: 12px;
     font-size: x-large;
 }
 
 .widget-volume>box>button {
+		padding:0 10px;
     background: transparent;
     border: none;
 }
@@ -452,15 +436,6 @@
 .per-app-volume {
     background-color: @noti-bg-alt;
     padding: 4px 8px 8px 8px;
-    margin: 0px 8px 8px 8px;
+    margin: 8px ;
     border-radius: 12px
-}
-
-/* Backlight widget */
-.widget-backlight {
-    background-color: @noti-bg;
-    padding: 8px;
-    margin: 10px;
-    border-radius: 12px;
-    font-size: x-large;
 }
