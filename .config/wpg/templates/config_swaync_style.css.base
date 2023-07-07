@@ -71,9 +71,10 @@
   color: @text-color;
   text-shadow: none;
   padding: 0;
+  margin:{pad}px;
   border-radius: 100%;
   margin-top: 20px;
-  margin-right: 30px;
+  
   box-shadow: none;
   border: none;
   min-width: 24px;
