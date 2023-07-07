@@ -22,7 +22,6 @@
 }}
 
 .notification-row {{
-
   transition: all 200ms ease;
   outline: none;
 }}
@@ -36,8 +35,8 @@
   transition: all 200ms ease;
   border-radius: {b_radius}px;
   box-shadow: none;
-  margin: 8px 20px;
-  margin-bottom:0px;
+  margin:0px;
+  margin-top: {pad}px;
   padding: 0px;
 }}
 
@@ -96,8 +95,7 @@
   background: @noti-bg;
   border: {b_size}px solid @noti-border-color;
   color: @text-color;
-  transition: all 0.15s ease-in-out;
-}}
+  transition: all 0.15s ease-in-out; }}
 
 .notification-default-action:hover,
 .notification-action:hover {{
@@ -196,6 +194,7 @@
 
 .control-center {{
   transition: all 200ms ease;
+  padding: {pad}px;
   border-radius: {b_radius}px;
   border: {b_size}px solid @noti-border-color;
   background: @cc-bg;
@@ -209,12 +208,16 @@
   opacity: 0.5;
 }}
 
-.floating-notifications {{
+.floating-notifications > * {{
+	margin-top:{pad}px;
+	margin-left:{pad}px;
+	padding-left:{pad}px;
   background: transparent;
 }}
 
 /* Window behind control center and on all other monitors */
 .blank-window {{
+  min-width:1920px;
   background: alpha(black, 0.5);
 }}
 
@@ -222,11 +225,13 @@
 
 /* Title widget */
 .widget-title {{
-  margin: 20px;
+  padding:0 {pad}px;
+  margin:{gaps_out}px 0;
   font-size: 1.6rem;
 }}
 .widget-title > button {{
   font-size: initial;
+  margin:0;
   padding:6px;
   color: @text-color;
   text-shadow: none;
@@ -241,7 +246,9 @@
 
 /* DND widget */
 .widget-dnd {{
-  margin: 20px;
+		padding:0 {pad}px;
+	margin:0;
+  margin-bottom: {gaps_out}px ;
   font-size: 1.2rem;
 }}
 .widget-dnd > switch {{
@@ -267,7 +274,8 @@
 
 /* Label widget */
 .widget-label {{
-  margin: 8px;
+		padding:0 {pad}px;
+  margin: 0 {gaps_out}px;
 }}
 
 .widget-label > label {{
@@ -276,22 +284,36 @@
 
 /* Mpris widget */
 .widget-mpris {{
-		margin:20px;
+	margin:0px;
+	margin-top:{pad}px;
+	padding:0px;
+
+
   /* The parent to all players */
 }}
+
+.widget-mpris > box 
+{{
+	border-radius:{b_radius}px;
+	border: {b_size}px solid @noti-border-color;
+}}
 .widget-mpris-player {{
-  padding: 8px;	
+		padding-bottom:0;
+		margin-top:0;
+		margin-bottom:0;
 }}
 
 .widget-mpris-player > box > image{{
-		margin-bottom:16px;
+		margin-bottom:{pad}px;
+		margin-top:{pad}px;
 	}}
 .widget-mpris-player > box > button {{
-	padding: 6px;
+	padding: 4px;
+	margin:0 ;
 	background-color:@noti-bg;
     border-radius:{b_radius}px;
   	border: {b_size}px solid @noti-border-color;
-
+	margin-bottom:{pad}px;
 }}
 
 .widget-mpris-player > box > button:hover{{
@@ -312,16 +334,11 @@
   font-size: 0.8rem;
 }}
 
-.widget-mpris > box{{
-    border-radius:{b_radius}px;
-  	border: {b_size}px solid @noti-border-color;
-}}
-
 .widget-mpris > box > button {{
   /* Change player side buttions */
-    
 	border-radius:8px;
 	padding:0 10px ;
+	margin:0;
 	background-color:{color0};
 	border-color:{color0}
 }}
@@ -381,41 +398,6 @@
   background: transparent;
 }}
 
-/* Volume widget */
-
-.widget-volume{{
-
-    margin: 200px;
-	padding:16px;
-}}
-.widget-volume>box {{
-  margin-left: 20px;
-  background: @noti-bg-hover;
-  background-color: @noti-bg;
-  border-radius: 12px;
-}}
-
-.widget-volume>box>button {{
-	padding:4px 8px;
-  background: transparent;
-  border: none;
-}}
-
-.per-app-volume {{
-  background-color: @noti-bg-alt;
-  padding: 4px 8px 8px 8px;
-  margin: 0px 8px 8px 8px;
-  border-radius: 12px
-}}
-
-/* Backlight widget */
-.widget-backlight {{
-  background-color: @noti-bg;
-  padding: 8px;
-  margin: 8px;
-  border-radius: 12px;
-}}
-
 /* Title widget */
 .widget-inhibitors {{
   margin: 20px;
@@ -436,15 +418,17 @@
 
 /* Volume widget */
 
-.widget-volume {{
+.widget-volume, .widget-backlight {{
+	margin:0px;
+	margin-top:{pad}px;
+	border-radius:{b_radius}px;
+	border: {b_size}px solid @noti-border-color;
     background-color: @noti-bg;
-    padding: 8px;
-    margin: 10px;
-    border-radius: 12px;
     font-size: x-large;
 }}
 
 .widget-volume>box>button {{
+		padding:0 {pad}px;
     background: transparent;
     border: none;
 }}
@@ -452,15 +436,6 @@
 .per-app-volume {{
     background-color: @noti-bg-alt;
     padding: 4px 8px 8px 8px;
-    margin: 0px 8px 8px 8px;
+    margin: 8px ;
     border-radius: 12px
-}}
-
-/* Backlight widget */
-.widget-backlight {{
-    background-color: @noti-bg;
-    padding: 8px;
-    margin: 10px;
-    border-radius: 12px;
-    font-size: x-large;
 }}
