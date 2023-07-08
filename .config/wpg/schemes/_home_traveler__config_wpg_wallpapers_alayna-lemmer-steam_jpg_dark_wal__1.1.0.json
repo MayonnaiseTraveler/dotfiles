@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/alayna-lemmer-steam.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121219",
+        "foreground": "#fff9ec",
+        "cursor": "#fff9ec"
+    },
+    "colors": {
+        "color0": "#121219",
+        "color1": "#bd9574",
+        "color2": "#306a9d",
+        "color3": "#6a7c9b",
+        "color4": "#8f7f96",
+        "color5": "#788dae",
+        "color6": "#9f9bb6",
+        "color7": "#f1dcd0",
+        "color8": "#262636",
+        "color9": "#ffbf83",
+        "color10": "#318ad9",
+        "color11": "#789cda",
+        "color12": "#c093d4",
+        "color13": "#88b3f5",
+        "color14": "#bfb3ff",
+        "color15": "#fff9ec"
+    }
+}

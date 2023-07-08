@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/darwin-vegher-dYXkL__ryl0-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E1010",
+        "foreground": "#ffffd2",
+        "cursor": "#ffffd2"
+    },
+    "colors": {
+        "color0": "#0E1010",
+        "color1": "#704B26",
+        "color2": "#534E43",
+        "color3": "#8D5327",
+        "color4": "#A46830",
+        "color5": "#AA6C3A",
+        "color6": "#C08747",
+        "color7": "#e2c5a1",
+        "color8": "#252a2a",
+        "color9": "#9b6127",
+        "color10": "#75694d",
+        "color11": "#c36a26",
+        "color12": "#e38630",
+        "color13": "#eb8a3c",
+        "color14": "#ffb04b",
+        "color15": "#ffffd2"
+    }
+}
