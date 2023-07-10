@@ -1,0 +1,15 @@
+{
+    "BDFDB": true,
+    "ZeresPluginLibrary": false,
+    "AutoIdleOnAFK": false,
+    "CallTimeCounter": false,
+    "ChannelTabs": false,
+    "CreationDate": false,
+    "DoNotTrack": false,
+    "FileViewer": false,
+    "OnlineFriendCount": false,
+    "ReadAllNotificationsButton": false,
+    "ServerFolders": false,
+    "ShowConnections": false,
+    "SplitLargeMessages": false
+}

@@ -1,0 +1,88 @@
+{
+	"all": {
+		"folders": {
+			"2145590770": {
+				"autoRead": true,
+				"color1": null,
+				"color2": [
+					"255",
+					"255",
+					"255"
+				],
+				"color3": null,
+				"color4": null,
+				"copyTooltipColor": false,
+				"iconID": "-1",
+				"muteFolder": false,
+				"swapColors": false,
+				"useCloseIcon": true
+			},
+			"2224125063": {
+				"autoRead": true,
+				"color1": [
+					155,
+					89,
+					182
+				],
+				"color2": [
+					"255",
+					"255",
+					"255"
+				],
+				"color3": null,
+				"color4": null,
+				"copyTooltipColor": false,
+				"iconID": "-1",
+				"muteFolder": false,
+				"swapColors": false,
+				"useCloseIcon": true
+			},
+			"3099432627": {
+				"autoRead": true,
+				"color1": null,
+				"color2": [
+					"255",
+					"255",
+					"255"
+				],
+				"color3": null,
+				"color4": null,
+				"copyTooltipColor": false,
+				"iconID": "-1",
+				"muteFolder": false,
+				"swapColors": false,
+				"useCloseIcon": true
+			},
+			"3647204534": {
+				"autoRead": true,
+				"color1": [
+					31,
+					139,
+					76
+				],
+				"color2": [
+					"255",
+					"255",
+					"255"
+				],
+				"color3": null,
+				"color4": null,
+				"copyTooltipColor": false,
+				"iconID": "-1",
+				"muteFolder": false,
+				"swapColors": false,
+				"useCloseIcon": true
+			}
+		},
+		"general": {
+			"closeOtherFolders": false,
+			"closeTheFolder": false,
+			"closeAllFolders": false,
+			"forceOpenFolder": false,
+			"showCountBadge": true,
+			"extraColumn": true,
+			"addSeparators": true,
+			"addFolderIcon": false
+		}
+	}
+}
