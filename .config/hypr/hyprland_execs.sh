@@ -13,12 +13,10 @@ swaync-client -rs
 
 # Wait until the processes have been shut down
 while pgrep -x waybar >/dev/null; do sleep 1; done
-while pgrep -x dunst >/dev/null; do sleep 1; done
  
 
 ~/.config/hypr/import-gsettings.sh &
 waybar &
-dunst &
 convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.webp & 
 swww img \
 	--transition-type random \

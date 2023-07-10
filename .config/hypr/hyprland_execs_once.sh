@@ -16,6 +16,8 @@ mpDris2 &
 bubblemaild &
 nm-applet --indicator &
 obsidian & 
+syncthing-gtk --minimized & 
 librewolf &
+keepassxc &
 QT_QPA_PLATFORMTHEME=kde discord-screenaudio -style breeze &
 easyeffects & 
