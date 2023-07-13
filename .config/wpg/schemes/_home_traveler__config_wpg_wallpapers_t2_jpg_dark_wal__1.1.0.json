@@ -1,28 +1,28 @@
 {
     "wallpaper": "/home/traveler/.config/wpg/wallpapers/t2.jpg",
-    "alpha": "100",
+    "alpha": "90",
 
     "special": {
-        "background": "#010C1C",
-        "foreground": "#ffa0ff",
-        "cursor": "#ffa0ff"
+        "background": "#010c1a",
+        "foreground": "#ffb6fd",
+        "cursor": "#ffb6fd"
     },
     "colors": {
-        "color0": "#010C1C",
-        "color1": "#F70179",
-        "color2": "#CF0371",
-        "color3": "#C44472",
-        "color4": "#336190",
-        "color5": "#FC0189",
-        "color6": "#AB288E",
-        "color7": "#e978c3",
-        "color8": "#01204e",
-        "color9": "#ff019d",
-        "color10": "#ff0193",
-        "color11": "#ff478f",
-        "color12": "#357dc7",
-        "color13": "#ff01b2",
-        "color14": "#ec26c0",
-        "color15": "#ffa0ff"
+        "color0": "#010c1a",
+        "color1": "#c30d6f",
+        "color2": "#e90d79",
+        "color3": "#b65074",
+        "color4": "#3b6086",
+        "color5": "#9f3288",
+        "color6": "#ee0d87",
+        "color7": "#d788bd",
+        "color8": "#01214c",
+        "color9": "#ff0391",
+        "color10": "#ff019d",
+        "color11": "#fd5691",
+        "color12": "#407cba",
+        "color13": "#dc33b8",
+        "color14": "#ff01b0",
+        "color15": "#ffb6fd"
     }
 }

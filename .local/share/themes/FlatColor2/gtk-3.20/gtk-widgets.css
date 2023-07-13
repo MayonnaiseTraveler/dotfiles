@@ -13,7 +13,7 @@
     -GtkTextView-error-underline-color: @error_color;
     -GtkToolButton-icon-spacing: 6;
     -GtkToolItemGroup-expander-size: 10;
-    -GtkTreeView-expander-size: 10;
+    -GtkTreeView-expander-size: 5;
     -GtkWindow-resize-grip-height: 0;
     -GtkWindow-resize-grip-width: 0;
     -WnckTasklist-fade-overlay-rect: 0;
@@ -22,7 +22,7 @@
     -GtkWidget-vertical-separator: 0;
     outline-color: transparent;
     outline-style: none;
-    outline-offset: 2px;
+    outline-offset: 0px;
 }
 
 /***************
@@ -213,7 +213,7 @@ placessidebar row:drop(active):not(:disabled) {
 }
 
 GdMainIconView.content-view {
-    -GdMainIconView-icon-size: 40;
+    -GdMainIconView-icon-size: 24;
 }
 
 GtkIconView.content-view.check {
@@ -288,7 +288,7 @@ frame.border-ridge border {
     border-radius: 3px;
     border-width: 3px;
     border-style: solid;
-    border-color: shade(@theme_bg_color, 0.9);
+    border-color: shade(@theme_bg_color, 1);
 }
 
 /*******************

@@ -1,4 +1,4 @@
- .theme-dark, :root{{
+  .theme-dark, :root{{
     --color-scheme: dark;
 	--titlebar-background-focused:{color0} !important;
 	--accent: {color8} ;
@@ -28,7 +28,7 @@
     --color-base-20: {color0};
     --color-base-25: transparent;
     --color-base-30: {color1};
-    --color-base-35: rgba({color1.rgb,1});
+    --color-base-35: rgba({color1.rgb},1);
     --color-base-40: transparent;
     --color-base-50: {color9};
     --color-base-60: transparent;

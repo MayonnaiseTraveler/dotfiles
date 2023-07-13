@@ -17,9 +17,8 @@ while pgrep -x waybar >/dev/null; do sleep 1; done
 
 ~/.config/hypr/import-gsettings.sh &
 waybar &
-convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.webp & 
+convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.webp &
 swww img \
 	--transition-type random \
 	--transition-duration 2 \
-	--transition-fps 60 \
 	~/Imagens/$(wpg -c)

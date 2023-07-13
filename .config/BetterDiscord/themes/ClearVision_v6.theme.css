@@ -16,10 +16,10 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #5A6D95; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #6588d1; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-  --success-color: #6F8BA9; /* success accent color (hex, rgb or hsl) [default: #43b581] */
-  --danger-color: #A1B2CB; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  --main-color: #853D53; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #b94266; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #D45C75; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #A55A8D; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
@@ -32,14 +32,14 @@
   /* GENERAL */
   --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-  --text-normal: rgb(245,255,255); /* color of default discord text */
+  --text-normal: rgb(255,219,253); /* color of default discord text */
   --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
   --members-width: 240px; /* member list width [default: 240px] */
 
   /* APP BACKGROUND */
   --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 100%] */
-  --background-overlay: rgba(18,18,19,1.0); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
+  --background-overlay: rgba(8,12,21,1.0); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
   --background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */

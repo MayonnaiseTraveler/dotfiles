@@ -2,20 +2,20 @@
  * vim: ft=less
  */
 
-@define-color cc-bg rgb({color0.rgb});
+@define-color cc-bg rgba({color0.rgb},{opacity});
 
 @define-color noti-border-color rgb({color9.rgb});
-@define-color noti-bg rgb({color0.rgb});
+@define-color noti-bg rgba({color0.rgb},{opacity});
 @define-color noti-bg-darker rgb(38, 38, 38);
-@define-color noti-bg-hover rgb({color8.rgb});
-@define-color noti-bg-focus rgb({color0.rgb});
+@define-color noti-bg-hover rgba({color8.rgb},{opacity});
+@define-color noti-bg-focus rgba({color0.rgb},{opacity});
 @define-color noti-close-bg rgba(255, 255, 255, 0.1);
 @define-color noti-close-bg-hover rgba({color1.rgb}, 0.15);
 
 @define-color text-color rgb({color15.rgb});
 @define-color text-color-disabled rgb({color8.rgb});
 
-@define-color bg-selected rgb({color8.rgb});
+@define-color bg-selected rgba({color8.rgb},{opacity});
 
 *{{
   font-family:"{font0}";
@@ -340,8 +340,8 @@
 	border-radius:8px;
 	padding:0 10px ;
 	margin:0;
-	background-color:{color0};
-	border-color:{color0}
+	background-color:rgba(0,0,0,0);
+	border-color:rgba(0,0,0,0);
 }}
 .widget-mpris > box > button:disabled {{
   /* Change player side buttions insensitive */

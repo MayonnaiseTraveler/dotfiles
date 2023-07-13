@@ -11,9 +11,9 @@ cursor_theme="$(grep 'gtk-cursor-theme-name' "$config" | sed 's/.*\s*=\s*//')"
 font_name="$(grep 'gtk-font-name' "$config" | sed 's/.*\s*=\s*//')"
 
 hyprctl setcursor "$cursor_theme" 24
-
-gsettings set "$gnome_schema" gtk-theme "$gtk_theme"
+gsettings set "$gnome_schema" color-scheme 'prefer-dark'
 gsettings set "$gnome_schema" icon-theme "$icon_theme"
-gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set "$gnome_schema" cursor-theme "$cursor_theme"
 gsettings set "$gnome_schema" font-name "$font_name"
+gsettings set "$gnome_schema" gtk-theme "$gtk_theme1"
+gsettings set "$gnome_schema" gtk-theme "$gtk_theme"

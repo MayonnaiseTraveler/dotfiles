@@ -687,7 +687,7 @@ background_image none
 #: keyboard shortcuts (increase_background_opacity and
 #: decrease_background_opacity) or the remote control facility.
 
-background_tint 0
+background_tint 0.8
 
 #: How much to tint the background image by the background color. The
 #: tint is applied only under the text area, not margin/borders. Makes
@@ -788,7 +788,7 @@ color15 {color15}
 #: to yes means that any background processes still using the terminal
 #: can fail silently because their stdout/stderr/stdin no longer work.
 
-# allow_remote_control no
+allow_remote_control no
 
 #: Allow other programs to control kitty. If you turn this on other
 #: programs can control all aspects of kitty, including sending text
@@ -801,7 +801,7 @@ color15 {color15}
 #: you want to prevent programs running on a remote computer over ssh
 #: from controlling kitty.
 
-# listen_on none
+listen_on unix:/tmp/mykitty
 
 #: Tell kitty to listen to the specified unix/tcp socket for remote
 #: control connections. Note that this will apply to all kitty
