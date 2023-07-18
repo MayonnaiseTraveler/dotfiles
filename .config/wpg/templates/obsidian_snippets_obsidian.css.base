@@ -22,16 +22,17 @@
     --color-purple: #a882ff;
     --color-pink-rgb: 250, 153, 205;
     --color-pink: #fa99cd;
-    --color-base-00: transparent;
-    --color-base-05: transparent;
-    --color-base-10: transparent;
+	--almost-black: {color0}
+    --color-base-00: {color0};
+    --color-base-05: {color0};
+    --color-base-10: {color0};
     --color-base-20: {color0};
-    --color-base-25: transparent;
+    --color-base-25: {color0};
     --color-base-30: {color1};
     --color-base-35: rgba({color1.rgb},1);
-    --color-base-40: transparent;
+    --color-base-40: {color0};
     --color-base-50: {color9};
-    --color-base-60: transparent;
+    --color-base-60: {color0};
     --color-base-70: {color7};
     --color-base-100:{color15};
     --color-accent-hsl: var(--accent);
@@ -77,3 +78,22 @@ body > div.app-container > div.horizontal-main-container > div > div.workspace-s
 	.kanban-plugin__new-item-button:hover{{
 			background-color:{color1};
 		}}
+
+
+@media print {{
+	body, :root {{
+		--color-scheme: light;
+		--p-color : var(--almost-black) !important;
+		--h1-color: var(--almost-black) !important;
+		--h2-color: var(--almost-black) !important;
+		--h3-color: var(--almost-black) !important;
+		--h4-color: var(--almost-black) !important;
+		--h5-color: var(--almost-black) !important;
+		--h6-color: var(--almost-black) !important;
+
+		--color-base-100:{color15} !important;
+	}}
+	p,h1,h2,h3,h4,h5,h6 {{
+			color: var(--almost-black);
+	}}
+}}

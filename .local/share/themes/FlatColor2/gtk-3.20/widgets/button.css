@@ -2,12 +2,12 @@
  * button *
  **********/
 button {
-    padding: 4px 4px;
+    padding: 12px;
     margin: 2px;
     border-width: 2px;
     border-style: solid;
     border-color: @button_normal_color;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: @button_normal_color;
     color: @text_color;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ button.toggle:checked:hover {
 }
 
 button:disabled {
-    background-color: mix(@color8, @color0, 0.40);
+    background-color: mix(@color8, @color0, 0.1);
     background-image: none;
     color: mix(@text_color, @color0, 0.40);
 }

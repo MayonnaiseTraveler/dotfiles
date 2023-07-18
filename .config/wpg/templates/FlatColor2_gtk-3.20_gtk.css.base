@@ -54,13 +54,13 @@
 
 /* widget colors*/
 @define-color border_color shade(@theme_selected_bg_color, 0);
-@define-color button_normal_color mix(@theme_bg_color, @color15, 0.07);
+@define-color button_normal_color mix(@theme_bg_color, @color15, 0.00);
 @define-color button_info_color @theme_selected_bg_color;
 @define-color button_default_active_color @theme_selected_bg_color;
-@define-color entry_border_color shade(@theme_base_color, 0.9);
+@define-color entry_border_color shade(@theme_base_color, 0.7);
 @define-color frame_border_bottom_color shade(@bg_color, 0);
-@define-color sel_color shade(@theme_selected_bg_color, 0.857);
-@define-color switch_bg_color shade(@bg_color, 0.8);
+@define-color sel_color shade(@theme_selected_bg_color, 1);
+@define-color switch_bg_color shade(@bg_color, 1);
 @define-color panel_bg_color @bg_color;
 @define-color panel_fg_color @fg_color;
 @define-color borders shade(@theme_selected_bg_color, 0);

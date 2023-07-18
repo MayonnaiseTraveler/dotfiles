@@ -14,6 +14,7 @@ mpd &
 calcurse --daemon & 
 mpDris2 & 
 bubblemaild &
+./xdg-portal.sh &
 nm-applet --indicator &
 obsidian & 
 syncthing-gtk --minimized & 

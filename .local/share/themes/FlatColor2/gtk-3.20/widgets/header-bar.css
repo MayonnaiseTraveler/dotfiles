@@ -19,6 +19,7 @@ headerbar subtitle {
 
 headerbar > stackswitcher > button {
     margin-right: 1px;
+	padding:8px;
     border-radius: 0;
 }
 

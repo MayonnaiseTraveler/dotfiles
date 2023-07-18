@@ -171,7 +171,7 @@ button.sidebar-button {
     min-width: 24px;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0;
+    padding: 6px;
     border-radius: 0%;
     -gtk-outline-radius: 0%;
 }
