@@ -1,6 +1,8 @@
 vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
 lvim.colorscheme = "rose-pine"
-lvim.format_on_save = true
+lvim.format_on_save.enabled = true
+lvim.format_on_save.pattern = { "*.lua", "*.py", "*.c", "*.json", "*.js", "*.css", "*.ts", "*.md", "*.html", "*.sh",
+	"*.make", "*.cmake" }
 vim.opt.foldmethod = "expr"                     -- folding set to "expr" for treesitter based folding
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()" -- set to "nvim_treesitter#foldexpr()" for treesitter based folding
 vim.opt.smartcase = true                        -- smart case
@@ -23,8 +25,6 @@ lvim.keys.insert_mode["<M-k>"] = "<Esc>"
 lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 vim.opt.relativenumber = true
-
-
 
 lvim.keys.normal_mode["<S-x>"] = ":BufferClose<CR>"
 lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
@@ -63,6 +63,7 @@ lvim.builtin.treesitter.ensure_installed = {
 	"python",
 	"typescript",
 	"tsx",
+	"cmake",
 	"css",
 	"rust",
 	"yaml",
@@ -130,7 +131,7 @@ dap.adapters.c = {
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
-
+lvim.builtin.treesitter.auto_install = false
 lvim.builtin.treesitter.highlight.enabled = false
 
 
@@ -214,31 +215,6 @@ lvim.plugins = {
 
 
 lvim.autocommands = {
-	-- {
-	-- 	{ "BufEnter", "Filetype" },
-	-- 	{
-	-- 		desc = "Open mini.map and exclude some filetypes",
-	-- 		pattern = { "*" },
-	-- 		callback = function()
-	-- 			local exclude_ft = {
-	-- 				"qf",
-	-- 				"NvimTree",
-	-- 				"toggleterm",
-	-- 				"TelescopePrompt",
-	-- 				"alpha",
-	-- 				"netrw",
-	-- 			}
-
-	-- 			local map = require('mini.map')
-	-- 			if vim.tbl_contains(exclude_ft, vim.o.filetype) then
-	-- 				vim.b.minimap_disable = true
-	-- 				map.close()
-	-- 			elseif vim.o.buftype == "" then
-	-- 				map.open()
-	-- 			end
-	-- 		end,
-	-- 	},
-	-- },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
