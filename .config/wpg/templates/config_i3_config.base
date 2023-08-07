@@ -12,7 +12,7 @@
 set $mod Mod4
 
 #set font
-font pango:SauceCodePro Nerd Font 10
+font {font0}
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
@@ -40,14 +40,16 @@ bindsym $mod+minus exec --no-startup-id mpc volume -10 && dunstify -r 44 "$(mpc 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+
+
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec kitty --single-instance
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # Start rofi menu
-bindsym $mod+d exec rofi -show drun 
+bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/wpg.rasi -m 1
 
 bindsym $mod+shift+d exec --no-startup-id rofi  -show find -modi find:~/.local/share/rofi/finder.sh
 
@@ -168,7 +170,7 @@ assign [class="postybirb"] $ws4
 assign [class="easyeffects"] $ws4
 assign [class="Firefox"] $ws5
 assign [class="Brave-browser"] $ws5
-assign [class="librewolf"] $ws5
+assign [class="LibreWolf"] $ws5
 assign [class="buttercup"] $ws5
 assign [class="Buttercup"] $ws5
 assign [class="KeePassXC"] $ws5
@@ -184,8 +186,8 @@ for_window [class="KeePassXC"] floating enable resize set 800 600
 
 
 #set default workspace for second monitor
-workspace $ws1 output HDMI-0
-workspace $ws10 output DP-1
+# workspace $ws1 output 
+# workspace $ws10 output DP-1
 
 ########################################################
 #Colors and windows
@@ -267,7 +269,7 @@ gaps bottom 16
 #smart_gaps on
 #smart_borders on
 smart_borders no_gaps
-# border_radius 10
+border_radius {b_radius}
 for_window [class=".*"] border pixel 0
 
 
@@ -286,7 +288,7 @@ exec_always pulseaudio
 #transparency with picom
 #exec_always picom -f -c --experimental-backend --backend glx --blur-method dual_kawase --blur-strength 2
 #exec_always picom -f -z --paint-on-overlay  --xrender-sync-fence --experimental-backends --backend glx 
-exec_always picom --config ~/.config/picom/picom.conf
+exec_always picom --config ~/.config/picom/picom.conf --animations
 #notification stuff
 exec_always --no-startup-id dunst -config "/home/traveler/.config/dunst/dunstrc"
 
@@ -313,7 +315,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec ~/.config/rofi/applets/applets/powermenu.sh
+bindsym $mod+Shift+e exec ~/.config/rofi/powermenu/powermenu.sh
 
 #pavucontrol shortcut
 bindsym $mod+shift+a exec pavucontrol
@@ -358,12 +360,11 @@ bindsym $mod+shift+m exec xrandr --output DVI-D-0 --off --output DisplayPort-1 -
 #                                                               |_|    
 ##########################################################################
 
-#megasync, cause i'm dumb
 exec xset r rate 300 50
-exec --no-startup-id megasync
-
+exec syncthing-gtk --minimized 
 #set to default to one monitor
-exec xrandr --output DVI-D-0 --off --output DisplayPort-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0
+# exec xrandr --output DVI-D-0 --off --output DisplayPort-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --off --output DP-1 --off && xsetwacom set 'Wacom Intuos S Pen stylus' MapToOutput 1920x1080+0+0
+exec_always xrandr --output HDMI-A-0 --off
 
 #run script that auto creates terminal windows and runs cool stuff on workspace 1
 # exec --no-startup-id ~/.config/i3/xdotool.sh
@@ -374,8 +375,7 @@ exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
 
 #autostart a few programs i use frequently
 exec easyeffects
-exec brave
+exec librewolf
 exec mpd
 exec discord
-exec telegram-desktop
-exec buttercup
+exec keepassxc
