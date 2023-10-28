@@ -2,23 +2,23 @@
  * vim: ft=less
  */
 
-@define-color cc-bg rgba(8,12,21,1);
+@define-color cc-bg rgba(12,10,15,1);
 
-@define-color noti-border-color rgb(185,66,102);
-@define-color noti-bg rgba(8,12,21,1);
+@define-color noti-border-color rgb(240,76,110);
+@define-color noti-bg rgba(12,10,15,1);
 @define-color noti-bg-darker rgb(38, 38, 38);
-@define-color noti-bg-hover rgba(20,32,58,1);
-@define-color noti-bg-focus rgba(8,12,21,1);
+@define-color noti-bg-hover rgba(35,29,45,1);
+@define-color noti-bg-focus rgba(12,10,15,1);
 @define-color noti-close-bg rgba(255, 255, 255, 0.1);
-@define-color noti-close-bg-hover rgba(133,61,83, 0.15);
+@define-color noti-close-bg-hover rgba(173,71,92, 0.15);
 
-@define-color text-color rgb(255,219,253);
-@define-color text-color-disabled rgb(20,32,58);
+@define-color text-color rgb(255,241,248);
+@define-color text-color-disabled rgb(35,29,45);
 
-@define-color bg-selected rgba(20,32,58,1);
+@define-color bg-selected rgba(35,29,45,1);
 
 *{
-  font-family:"Mononoki Nerd Font Mono:style=Bold";
+  font-family:"Mononoki Nerd Font";
 }
 
 .notification-row {

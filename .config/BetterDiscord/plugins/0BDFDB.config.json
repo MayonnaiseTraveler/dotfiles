@@ -1,14 +1,14 @@
 {
 	"all": {
 		"changeLogs": {
-			"BDFDB": "3.3.0",
+			"BDFDB": "3.4.4",
 			"CreationDate": "9.9.9",
-			"PluginRepo": "2.5.1",
+			"PluginRepo": "2.5.3",
 			"ReadAllNotificationsButton": "1.7.5",
 			"ServerFolders": "7.0.2",
-			"ShowConnections": "1.1.7",
+			"ShowConnections": "1.1.9",
 			"ShowHiddenChannels": "9.9.9",
-			"SplitLargeMessages": "1.8.0",
+			"SplitLargeMessages": "1.8.1",
 			"ThemeRepo": "2.3.9"
 		},
 		"choices": {
@@ -21,7 +21,7 @@
 			"shareData": true
 		},
 		"hashes": {
-			"0BDFDB.data.json": "f31bdb21cf42c1707098b1cbbd0c26a9a9e22abc",
+			"0BDFDB.data.json": "5448c5f7e20d91792ce3fa7859fd5433f6e5ad63",
 			"0BDFDB.raw.css": "d467bdb12b274f0285b99eeca293b6a9349d66d6"
 		}
 	}

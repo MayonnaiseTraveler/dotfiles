@@ -3,13 +3,13 @@ local home = os.getenv("HOME")
 local xpm_path = home .. "/.local/share/xplr/dtomvan/xpm.xplr"
 local xpm_url = "https://github.com/dtomvan/xpm.xplr"
 
-xplr.config.general.default_ui.prefix = " "
-xplr.config.general.focus_ui.prefix = "[ "
-xplr.config.general.focus_ui.suffix = " ]"
-xplr.config.general.selection_ui.prefix = "{ "
-xplr.config.general.focus_ui.prefix = "[ "
+-- xplr.config.general.default_ui.prefix = " "
+-- xplr.config.general.focus_ui.prefix = "[ "
+-- xplr.config.general.focus_ui.suffix = " ]"
+-- xplr.config.general.selection_ui.prefix = "{ "
+-- xplr.config.general.focus_ui.prefix = "[ "
 
-xplr.config.general.initial_layout = "no_help_no_selection" -- Load the example layout
+-- xplr.config.general.initial_layout = "no_help_no_selection" -- Load the example layout
 
 package.path = package.path
 	.. ";"
@@ -40,8 +40,16 @@ require("xpm").setup({
 			})
 		end
 	},
+	'prncss-xyz/icons.xplr',
+	{
+		'dtomvan/extra-icons.xplr',
+		after = function()
+			xplr.config.general.table.row.cols[2] = { format = "custom.icons_dtomvan_col_1" }
+		end
+	},
+	'gitlab:hartan/web-devicons.xplr',
 	'igorepst/context-switch.xplr',
-	-- 'sayanarijit/command-mode.xplr',
+	'sayanarijit/command-mode.xplr',
 	{
 		'sayanarijit/wl-clipboard.xplr',
 		setup = function()
@@ -91,14 +99,7 @@ require("xpm").setup({
 			})
 		end
 	},
-	'prncss-xyz/icons.xplr',
-	{
-		'dtomvan/extra-icons.xplr',
-		after = function()
-			xplr.config.general.table.row.cols[2] = { format = "custom.icons_dtomvan_col_1" }
-		end
-	},
-	-- 'sayanarijit/zentable.xplr',
+	'sayanarijit/zentable.xplr',
 
 
 

@@ -9,7 +9,7 @@
         "editAction": "detached"
     },
     "customcss": {
-        "customcss": false,
+        "customcss": true,
         "liveUpdate": false,
         "openAction": "settings"
     },

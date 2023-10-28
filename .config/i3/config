@@ -12,7 +12,7 @@
 set $mod Mod4
 
 #set font
-font Mononoki Nerd Font Mono:style=Bold
+font Mononoki Nerd Font
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
@@ -234,18 +234,18 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #080C15	
+set $bg-color 	         #0C0A0F	
 #neonpink
 
-set $fg-color #853D53
+set $fg-color #AD475C
 
-set $inactive-bg-color   #080C15
+set $inactive-bg-color   #0C0A0F
 
-set $text-color          #853D53	
+set $text-color          #AD475C	
 
-set $inactive-text-color #853D53
+set $inactive-text-color #AD475C
 
-set $urgent-bg-color     #080C15	
+set $urgent-bg-color     #0C0A0F	
 
 # window colors
 

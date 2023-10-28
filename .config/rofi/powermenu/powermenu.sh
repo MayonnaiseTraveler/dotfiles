@@ -62,9 +62,9 @@ case $chosen in
     $shutdown)
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-			swww kill &
-			mpd --kill &
-			hyprctl dispatch exit &
+			swww kill
+			mpd --kill
+			hyprctl dispatch exit
 			systemctl poweroff 
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
@@ -75,9 +75,8 @@ case $chosen in
     $reboot)
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-
-			swww kill &
-			mpd --kill &
+			swww kill
+			mpd --kill
 			systemctl reboot 
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
@@ -95,10 +94,14 @@ case $chosen in
     $suspend)
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-			mpc -q pause &
-			amixer set Master mute &
-			~/.config/hypr/swaylock.sh &
-			systemctl suspend
+			mpc -q pause
+			amixer set Master mute
+		if [[ "$DESKTOP_SESSION" == "i3" ]]; then
+				i3lock
+		elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
+		  ~/.config/hypr/swaylock.sh
+		fi
+		systemctl suspend
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
         else
@@ -115,9 +118,9 @@ case $chosen in
 			elif [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3-msg exit
 			elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
-				swww kill &
-				mpd --kill &
-				loginctl kill-user $(whoami)
+				swww kill
+				mpd --kill
+				killall Hyprland
 			fi
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
