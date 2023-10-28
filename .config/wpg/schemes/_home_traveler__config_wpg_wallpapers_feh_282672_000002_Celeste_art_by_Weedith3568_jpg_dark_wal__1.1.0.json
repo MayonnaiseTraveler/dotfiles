@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/feh_282672_000002_Celeste_art_by_Weedith3568.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0A061E",
+        "foreground": "#c385c6",
+        "cursor": "#c385c6"
+    },
+    "colors": {
+        "color0": "#0A061E",
+        "color1": "#9E1476",
+        "color2": "#331997",
+        "color3": "#50128A",
+        "color4": "#681C9A",
+        "color5": "#4C2FCB",
+        "color6": "#5F34CB",
+        "color7": "#c385c6",
+        "color8": "#885d8a",
+        "color9": "#9E1476",
+        "color10": "#331997",
+        "color11": "#50128A",
+        "color12": "#681C9A",
+        "color13": "#4C2FCB",
+        "color14": "#5F34CB",
+        "color15": "#c385c6"
+    }
+}

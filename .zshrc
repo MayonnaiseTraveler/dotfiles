@@ -160,6 +160,7 @@ alias ssh="kitty +kitten ssh"
 alias yt-dlv="yt-dlp -x --audio-format mp3 --embed-thumbnail --add-metadata -i"
 alias idavis="davis cover & davis current"
 alias ifetch="neofetch --clean && neofetch --backend kitty --source ~/Imagens/wallpaper.webp"
+alias xcd='cd "$(xplr --print-pwd-as-result)"'
 # colors in less
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
@@ -186,3 +187,4 @@ export GOPATH=${XDG_DATA_HOME}/go
 export QT_QPA_PLATFORMTHEME=qt5ct
 export NOTES_DIR="${home}/notes/"
 export PATH="$HOME/.local/bin:$PATH"
+source /usr/share/nvm/init-nvm.sh

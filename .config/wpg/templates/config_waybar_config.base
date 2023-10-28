@@ -10,11 +10,11 @@
     "margin-bottom":19,
 
     // Choose the order of the modules
-    "modules-left": ["wlr/workspaces" ],
+    "modules-left": ["hyprland/workspaces" ],
     "modules-center": [ "cava" ], 
     "modules-right": [ "pulseaudio", "custom/notification", "clock", "tray","battery","custom/powermenu"],
     // Modules configuration
-     "wlr/workspaces": {{
+     "hyprland/workspaces": {{
          "all-outputs": true,
          "format": "{{icon}}",
          "format-icons": {{

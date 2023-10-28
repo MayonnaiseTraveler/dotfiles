@@ -1,28 +1,28 @@
 {
     "wallpaper": "/home/traveler/.config/wpg/wallpapers/tokyonight.png",
-    "alpha": "90",
+    "alpha": "100",
 
     "special": {
-        "background": "#080C15",
-        "foreground": "#ffdbfd",
-        "cursor": "#ffdbfd"
+        "background": "#060a14",
+        "foreground": "#f4cdf4",
+        "cursor": "#f4cdf4"
     },
     "colors": {
-        "color0": "#080C15",
-        "color1": "#853D53",
-        "color2": "#A14D6B",
-        "color3": "#D45C75",
-        "color4": "#D66179",
-        "color5": "#526F94",
-        "color6": "#A55A8D",
-        "color7": "#dfa8c2",
-        "color8": "#14203a",
-        "color9": "#b94266",
-        "color10": "#e05486",
-        "color11": "#ff638c",
-        "color12": "#ff6991",
-        "color13": "#5b8ecf",
-        "color14": "#e764bd",
-        "color15": "#ffdbfd"
+        "color0": "#060a14",
+        "color1": "#da536f",
+        "color2": "#4b6d98",
+        "color3": "#a54668",
+        "color4": "#dc5873",
+        "color5": "#aa528e",
+        "color6": "#883750",
+        "color7": "#e79dc0",
+        "color8": "#111e3a",
+        "color9": "#f05985",
+        "color10": "#528cd5",
+        "color11": "#e64b82",
+        "color12": "#f05f8a",
+        "color13": "#ee5abe",
+        "color14": "#be3a62",
+        "color15": "#f4cdf4"
     }
 }

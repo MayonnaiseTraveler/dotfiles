@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/redmoon.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#08121B",
+        "foreground": "#ffcbd9",
+        "cursor": "#ffcbd9"
+    },
+    "colors": {
+        "color0": "#08121B",
+        "color1": "#5B3A4B",
+        "color2": "#374250",
+        "color3": "#634656",
+        "color4": "#9A3C59",
+        "color5": "#DF3D63",
+        "color6": "#955364",
+        "color7": "#f09faa",
+        "color8": "#122b42",
+        "color9": "#7f4161",
+        "color10": "#3e5470",
+        "color11": "#8b5070",
+        "color12": "#d6406e",
+        "color13": "#ff3c76",
+        "color14": "#d05c7a",
+        "color15": "#ffcbd9"
+    }
+}

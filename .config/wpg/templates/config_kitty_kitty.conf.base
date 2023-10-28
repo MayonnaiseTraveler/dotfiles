@@ -8,10 +8,10 @@
 confirm_os_window_close 0
 
 
-font_family        SauceCodePro NF
-# bold_font        auto
-# italic_font      auto
-# bold_italic_font auto
+font_family        {font0}
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
 
 #: You can specify different fonts for the bold/italic/bold-italic
 #: variants. To get a full list of supported fonts use the `kitty
@@ -26,7 +26,6 @@ font_family        SauceCodePro NF
 #:     bold_italic_font Operator Mono Medium Italic
 
 font_size {font_size}
-
 
 # Nerd Fonts v2.2.2
 
@@ -55,8 +54,8 @@ font_size {font_size}
 #: support, because it will force kitty to always treat the text as
 #: LTR, which FriBidi expects for terminals.
 
-adjust_line_height  0
-adjust_column_width 0
+# adjust_line_height  0
+# adjust_column_width 0
 
 #: Change the size of each character cell kitty renders. You can use
 #: either numbers, which are interpreted as pixels or percentages
@@ -65,8 +64,8 @@ adjust_column_width 0
 #: than 100% to reduce sizes (but this might cause rendering
 #: artifacts).
 
-# symbol_map U+E0A0-U+E0A3,U+E0C0-U+E0C7 PowerlineSymbols
-# narrow_symbols U+E0A0-U+E0A3,U+E0C0-U+E0C7 1
+symbol_map U+E0A0-U+E0A3,U+E0C0-U+E0C7 PowerlineSymbols
+narrow_symbols U+E0A0-U+E0A3,U+E0C0-U+E0C7 1
 
 #: Map the specified unicode codepoints to a particular font. Useful
 #: if you need special rendering for some symbols, such as for
@@ -76,9 +75,9 @@ adjust_column_width 0
 #: separated by hyphens. symbol_map itself can be specified multiple
 #: times. Syntax is::
 
-# symbol_map codepoints Font Family Name
+# symbol_map codepoints {font0}
 
-# disable_ligatures never
+disable_ligatures never
 
 #: Choose how you want to handle multi-character ligatures. The
 #: default is to always render them.  You can tell kitty to not render
@@ -96,7 +95,7 @@ adjust_column_width 0
 #: implemented using the calt OpenType feature. For disabling general
 #: ligatures, use the font_features setting.
 
-# font_features none
+font_features all
 
 #: Choose exactly which OpenType features to enable or disable. This
 #: is useful as some fonts might have features worthwhile in a
@@ -373,7 +372,7 @@ cursor_shape underline
 #: in full screen programs that redraw the entire screen on each loop,
 #: because kitty is so fast that partial screen updates will be drawn.
 
-# sync_to_monitor yes
+sync_to_monitor yes
 
 #: Sync screen updates to the refresh rate of the monitor. This
 #: prevents tearing (https://en.wikipedia.org/wiki/Screen_tearing)
@@ -386,7 +385,7 @@ cursor_shape underline
 
 #: Terminal bell {{{{{{
 
-# enable_audio_bell yes
+enable_audio_bell no
 
 #: Enable/disable the audio bell. Useful in environments that require
 #: silence.

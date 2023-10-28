@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/Wav_Slave.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#050405",
+        "foreground": "#fffbf8",
+        "cursor": "#fffbf8"
+    },
+    "colors": {
+        "color0": "#050405",
+        "color1": "#3143A7",
+        "color2": "#0471FA",
+        "color3": "#DC3BC7",
+        "color4": "#21AFED",
+        "color5": "#08F5F9",
+        "color6": "#DFABAB",
+        "color7": "#efe6e3",
+        "color8": "#211921",
+        "color9": "#314de7",
+        "color10": "#0192ff",
+        "color11": "#ff3aff",
+        "color12": "#19eaff",
+        "color13": "#01ffff",
+        "color14": "#ffc3c3",
+        "color15": "#fffbf8"
+    }
+}

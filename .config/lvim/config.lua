@@ -1,29 +1,30 @@
 vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
 lvim.colorscheme = "rose-pine"
 lvim.format_on_save.enabled = true
-lvim.format_on_save.pattern = { "*.lua", "*.py", "*.c", "*.json", "*.js", "*.css", "*.ts", "*.md", "*.html", "*.sh",
+lvim.format_on_save.pattern = { "*.ejs", "*.lua", "*.py", "*.c", "*.json", "*.js", "*.css", "*.ts", "*.md", "*.html",
+	"*.sh",
 	"*.make", "*.cmake" }
-vim.opt.foldmethod = "expr"                     -- folding set to "expr" for treesitter based folding
-vim.opt.foldexpr = "nvim_treesitter#foldexpr()" -- set to "nvim_treesitter#foldexpr()" for treesitter based folding
-vim.opt.smartcase = true                        -- smart case
-vim.opt.smartindent = true                      -- make indenting smarter again
-lvim.builtin.lualine.style = "lvim"             -- or "none"
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.smartcase = true
+vim.opt.smartindent = true
+lvim.builtin.lualine.style = "lvim"
 lvim.builtin.lualine.options.theme = "auto"
-lvim.builtin.dap.active = true                  -- (default: false)
+lvim.builtin.dap.active = true
 lvim.transparent_window = true
-lvim.lsp.diagnostics.virtual_text = false
+lvim.lsp.diagnostics.virtual_text = true
 vim.opt.cursorline = false
 vim.opt.tabstop = 4
-vim.opt.expandtab = false -- convert tabs to spaces
-vim.opt.shiftwidth = 4    -- the number of spaces inserted for each indentation
-vim.opt.scrolloff = 8     -- is one of my fav
+vim.opt.expandtab = false
+vim.opt.shiftwidth = 4
+vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 -- lvim.cmd("inoremap <kj> <Esc>")
 -- vim.cmd("au ColorScheme * hi Normal ctermbg=0 guibg=0")
 lvim.keys.insert_mode["<M-k>"] = "<Esc>"
 -- lvim.keys.visual_mode["<M-k>"] = "<Esc>"
-lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+lvim.leader = "space"
 vim.opt.relativenumber = true
 
 lvim.keys.normal_mode["<S-x>"] = ":BufferClose<CR>"
@@ -31,6 +32,7 @@ lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 -- - lvim.builtin.which_key.mappings["e"] = { "<cmd>RnvimrToggle<CR>", "Ranger" }
 
+lvim.builtin.which_key.mappings["C"] = { "<cmd>colorscheme colorscheme<CR>", "Reset colors" }
 lvim.builtin.which_key.mappings['e'] = {}
 -- lvim.builtin.which_key.mappings["e"] = { "<cmd>Ranger<CR>", "explorer" }
 lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
@@ -56,15 +58,15 @@ lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
 	"bash",
-	"c",
-	"javascript",
-	"json",
+	"html",
+	"c", "javascript", "json",
 	"lua",
 	"python",
 	"typescript",
 	"tsx",
 	"cmake",
 	"css",
+	"scss",
 	"rust",
 	"yaml",
 }
@@ -75,7 +77,7 @@ if vim.g.neovide then
 	-- vim.g.neovide_transparency_point = 0.0
 
 	local alpha = function()
-		return string.format("%x", math.floor(255 * vim.g.neovide_transparency_point or 0.8))
+		return string.format("%x", math.floor((255 * vim.g.neovide_transparency_point) or 0.8))
 	end
 
 	vim.g.neovide_refresh_rate = 144
@@ -90,17 +92,21 @@ end
 -- local capabilities = vim.lsp.protocol.make_client_capabilities()
 -- capabilities.offsetEncoding = { "utf-16" }
 -- require("lspconfig").clangd.setup({ capabilities = capabilities })
+-- require("lspconfig").prettier.setup({});
 
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup = {
 	{
+		name = "clang",
 		filetypes = { "c", "h" },
 		command = "clang-format",
 	},
 	{
-		filetypes = { "html", "ejs" },
-		command = "eslint"
+		name = "prettier",
+		filetypes = { "html", "ejs", "scss", "css", "js" },
+		command = "prettier --bracket-same-line ",
 	},
+
 	-- {
 	-- 	command = "eslint",
 	-- 	filetypes = { "javascript", "ejs" },
@@ -110,14 +116,30 @@ formatters.setup = {
 }
 
 
+local linters = require "lvim.lsp.null-ls.linters"
+linters.setup {
+
+	{
+		name = "stylelint",
+
+		filetypes = { "html", "*.ejs", "*.scss", "*.css", "*.js" },
+	},
+	{
+		name = "shellcheck",
+		args = { "--severity", "warning" },
+	},
+}
+
+
 local dap = require('dap')
 
 dap.configurations.c = {
 	{
 		type = 'c',
 		request = 'launch',
-		name = 'bnnuy',
-		program = '${workspaceFolder}/package/linux/bnnuy',
+		name = 'darray',
+		-- program = '${workspaceFolder}/package/linux/bnnuy',
+		program = '${workspaceFolder}/dArray',
 	}
 }
 
@@ -132,13 +154,13 @@ dap.adapters.c = {
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.auto_install = false
-lvim.builtin.treesitter.highlight.enabled = false
-
+lvim.builtin.treesitter.highlight.enabled = true
 
 
 
 -- Additional Plugins
 lvim.plugins = {
+	{ 'rrethy/nvim-base16' },
 	{ "elkowar/yuck.vim" },
 	{ "ray-x/lsp_signature.nvim" },
 	{
@@ -182,13 +204,13 @@ lvim.plugins = {
 				-- or leave it empty to use the default settings
 			}
 		end
-	},
-	{ 'is0n/fm-nvim' },
+	}, { 'is0n/fm-nvim' },
 	{ 'deviantfero/wpgtk.vim' },
 	{
 		"ellisonleao/glow.nvim",
 		config = function() require("glow").setup() end
 	},
+
 	{ 'EdenEast/nightfox.nvim' },
 	{ 'psliwka/termcolors.nvim' },
 	{
@@ -215,6 +237,28 @@ lvim.plugins = {
 
 
 lvim.autocommands = {
+	{
+		"BufEnter", {
+		pattern = { "*.ejs" },
+		callback = function()
+			-- DYI editorconfig
+			require("nvim-treesitter.highlight").attach(0, "html")
+		end
+	},
+		{
+			"BufWritePre", {
+			pattern = { "*.ejs" },
+			callback = function()
+				-- DYI editorconfig
+				require("nvim-treesitter.highlight").attach(0, "html")
+			end
+		},
+
+		}
+
+
+	}
+
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
@@ -223,13 +267,8 @@ lvim.autocommands = {
 --   -- enable wrap mode for json files only
 --   command = "setlocal wrap",
 -- })
--- vim.api.nvim_create_autocmd("FileType", {
---   pattern = "zsh",
---   callback = function()
---     -- let treesitter use bash highlight for zsh files as well
---     require("nvim-treesitter.highlight").attach(0, "bash")
---   end,
--- })
+
+
 --
 -- require('fm-nvim').setup {
 -- 	-- (Vim) Command used to open files

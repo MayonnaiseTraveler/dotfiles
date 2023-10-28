@@ -42,6 +42,8 @@ alias s='systemctl'
 alias config='/usr/bin/git --git-dir=/home/traveler/.cfg/ --work-tree=/home/traveler'
 alias uwu='uwufetch -i ~/pfp.png'
 alias paru='paru --color=auto'
+alias xcd='cd "$(xplr --print-pwd-as-result)"'
+
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
