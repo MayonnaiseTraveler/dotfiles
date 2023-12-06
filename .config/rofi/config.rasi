@@ -1,22 +1,32 @@
 configuration {
+	cache-dir:"~/.config/rofi/cache/";
 	show-icons: true;
 	modes: "window,drun,run,ssh,combi,keys,filebrowser";
 	display-combi: "Manda Bala";
-	auto-select: true;
+	/* auto-select: true; */
 	combi-modes: "drun,run,filebrowser";
 	icon-theme: "flattrcolor";
-	kb-mode-next: "Control+Tab,Control+Shift+l";
-	kb-mode-previous: "Control+ISO_Left_Tab,Control+Shift+h";
+	
 	kb-mode-complete:"";
 	kb-remove-word-back:"";
 	kb-remove-to-eol:"";
+
+	kb-mode-next: "Control+Tab,Alt+n";
+	kb-mode-previous: "Control+ISO_Left_Tab,Alt+m";
+
 	kb-accept-entry:"Control+l";
 	kb-row-up : "Control+k";
 	kb-row-down :"Control+j";
-	kb-move-char-back : "Alt+Control+h";
-	kb-move-char-forward: "Alt+Control+l" ;
+	kb-move-char-back : "Shift+Control+h";
+	/* kb-move-char-forward: "Shift+Control+l"; */
 	terminal: "/usr/bin/kitty" ;
 	combi-display-format: "{text}";
+	filebrowser {
+	  directory:"/home/traveler/";
+      directories-first: true;
+      sorting-method:    "name";
+  }
+
 }
 
 @theme "/home/traveler/.config/rofi/wpg.rasi"
