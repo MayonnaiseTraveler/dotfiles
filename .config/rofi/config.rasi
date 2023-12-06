@@ -1,12 +1,15 @@
 configuration {
 	cache-dir:"~/.config/rofi/cache/";
+	threads:3;
 	show-icons: true;
-	modes: "window,drun,run,ssh,combi,keys,filebrowser";
+	modes: "run,ssh,combi,keys";
 	display-combi: "Manda Bala";
-	/* auto-select: true; */
-	combi-modes: "drun,run,filebrowser";
+	auto-select: true;
+	combi-modes: "drun,filebrowser";
 	icon-theme: "flattrcolor";
-	
+	sort:true;
+    sorting-method:"fzf";
+
 	kb-mode-complete:"";
 	kb-remove-word-back:"";
 	kb-remove-to-eol:"";
@@ -24,8 +27,15 @@ configuration {
 	filebrowser {
 	  directory:"/home/traveler/";
       directories-first: true;
-      sorting-method:    "name";
   }
+  drun {
+      /** Scan the current users desktop for desktop files. */
+      scan-desktop: true;
+      /** Parse user desktop files. */
+      parse-user:   true;
+      /** Parse system desktop files. */
+      parse-system: false;
+   }
 
 }
 
