@@ -1,15 +1,22 @@
 configuration {
 	show-icons: true;
 	modes: "window,drun,run,ssh,combi,keys,filebrowser";
-	combi-modes: "window,drun,run,ssh,combi,keys,filebrowser";
+	display-combi: "Manda Bala";
+	auto-select: true;
+	combi-modes: "drun,run,filebrowser";
 	icon-theme: "flattrcolor";
-	kb-mode-next: "Shift+Right,Control+Tab,alt+l";
-	kb-mode-previous: "Shift+Left,Control+ISO_Left_Tab,alt+h";
-	kb-row-up : "alt+k";
-	kb-row-down :"alt+j";
-	kb-move-char-back : "ctrl+shift+h";
-	kb-move-char-forward: "ctrl+shift+l" ;
+	kb-mode-next: "Control+Tab,Control+Shift+l";
+	kb-mode-previous: "Control+ISO_Left_Tab,Control+Shift+h";
+	kb-mode-complete:"";
+	kb-remove-word-back:"";
+	kb-remove-to-eol:"";
+	kb-accept-entry:"Control+l";
+	kb-row-up : "Control+k";
+	kb-row-down :"Control+j";
+	kb-move-char-back : "Alt+Control+h";
+	kb-move-char-forward: "Alt+Control+l" ;
 	terminal: "/usr/bin/kitty" ;
+	combi-display-format: "{text}";
 }
 
-/* @theme "/home/traveler/.config/rofi/wpg.rasi" */
+@theme "/home/traveler/.config/rofi/wpg.rasi"

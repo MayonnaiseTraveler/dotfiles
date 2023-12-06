@@ -23345,3 +23345,6 @@ Oct 28 04:54 : player: played "gaming/NECO ARC TYPE BEAT-5pCUDdUQspc.mp3"
 Oct 28 04:57 : player: played "FrankieAndTheWitchFingers/BrainTelephone/Sinister Position.mp3"
 Oct 28 05:01 : player: played "internet_ghetto/arael - TEARSFALL.-1CU-s4cRXmk.mp3"
 Oct 28 05:04 : player: played "gaming/Respected Man (ft. Yung Craka).mp3"
+Dec 06 16:43 : output: Failed to play on "pulse audio" (pulse): failed to connect the stream: Input/Output error
+Dec 06 16:46 : player: played "internet_ghetto/Monomi - Hazel & Hollow-Z-y-F6OqU0c.mp3"
+Dec 06 17:45 : player: played "internet_ghetto/NOIR Collective _ NOIR02 Compilation Mix-06aLUvu-0kU.mp3"
