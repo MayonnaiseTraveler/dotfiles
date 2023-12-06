@@ -1,4 +1,5 @@
 configuration {
+
 	cache-dir:"~/.config/rofi/cache/";
 	threads:3;
 	show-icons: true;
@@ -34,7 +35,7 @@ configuration {
       /** Parse user desktop files. */
       parse-user:   true;
       /** Parse system desktop files. */
-      parse-system: false;
+      parse-system: true;
    }
 
 }

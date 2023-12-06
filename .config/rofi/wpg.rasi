@@ -47,6 +47,7 @@
     alternate-urgent-foreground:	@color15;
     selected-urgent-background:		@color14;
     selected-urgent-foreground:		@foreground;
+	text-color:  @color15;
 }
 
 
@@ -83,17 +84,16 @@ textbox {
 listview {
     background-color:transparent;
     border:       2px solid 0 0;
-    padding:      2px 0 0;
+    padding:      16px 10px ;
     border-color: @separatorcolor;
     spacing:      0px;
 }
 
 element {
     border:  0px;
-    margin:2px;
     border-radius:10px;
-    padding: 3px;
-    padding-left:6px;
+    padding: 6px;
+    /* padding-left:6px; */
 }
 
 element.normal.normal {
@@ -146,11 +146,11 @@ scrollbar {
     border:       0;
     handle-color: @scrollbar-handle;
     handle-width: 8px;
-    padding:      0;
+    padding:      4px;
 }
 
 sidebar {
-    border:       2px 0 0;
+    border:       2px;
     border-color: @separatorcolor;
 }
 
@@ -159,15 +159,22 @@ inputbar {
     text-color: @normal-foreground;
     padding:    5px;
     children:   [ prompt, textbox-prompt-sep, entry, case-indicator ];
+
 }
+
+entry,prompt{
+	font: "Mononoki Nerd Font 14";
+}
+
 
 case-indicator,
 entry,
 prompt,
 button {
-    
-    background-color:transparent;
+    background-color:@background;
     spacing:    0;
+	margin:0;
+	padding:0;
     text-color: @normal-foreground;
 }
 
@@ -184,10 +191,14 @@ textbox-prompt-sep {
 }
 
 element-text, element-icon {
+
+	font: "Mononoki Nerd Font 12";
 	text-color: @foreground;
 	background-color: transparent;
 }
 
 element-icon {
-		size:2ch;
+		margin:0px 8px 0px 8px;
+		border-radius:4px;
+		size:24px;
 	}
