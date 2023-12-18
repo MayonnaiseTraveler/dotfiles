@@ -1,36 +1,36 @@
 #!/bin/bash
 
 touch /tmp/hyprstart.lock;
-waybar & 
-swww init;
-swww img ~/Imagens/$(wpg -c);
 
-killall -q dunst
-while pgrep -x dunst >/dev/null; do sleep 1; done
-swaync -c .config/swaync/config.json -s .config/swaync/style.css &
+## Waybar , notifications and wallpaper
+swww init && swww img ~/Imagens/$(wpg -c)
+waybar &  
+swaync -c .config/swaync/config.json -s .config/swaync/style.css & 
 
-#clipboard
-wl-paste --type text --watch cliphist store & #Stores only text data
-wl-paste --type image --watch cliphist store & #Stores only image data
+kitty --class=todo --single-instance -e lvim ~/TODO & 
+keepassxc & 
+easyeffects & 
+vencord-desktop & 
+calcurse --daemon & 
+syncthing-gtk --minimized & 
+sleep 1 && obsidian & 
+sleep 2 && librewolf & 
 
-playerctld daemon &
+## clipboard
+wl-paste --type text --watch cliphist store &  #Stores only text data
+wl-paste --type image --watch cliphist store &  #Stores only image data
+
+## Music
+playerctld daemon & 
 spotify & 
-mpd &
+mpd & 
 mpDris2 & 
 mpc random on
 mpc play || mpc insert Chill/Somewhere\ Nowhere\ 🌸Deep\ Lofi\ Beats.mp3 && mpc next 
 mpc toggle 
 mpc toggle
-./xdg-portal.sh
-nm-applet --indicator &
-obsidian & 
-librewolf &
-keepassxc &
-vencord-desktop &
-easyeffects & 
-kitty --class=todo --single-instance -e lvim ~/TODO & 
-calcurse --daemon & 
-# bubblemaild &
-syncthing-gtk --minimized & 
+
+./xdg-portal.sh & 
+nm-applet --indicator & 
 
 
