@@ -1,19 +1,13 @@
-#
-# Please note not all available settings / options are set here.
-# For a full list, see the wiki (basic and advanced configuring)
-#
+# Vivi's Hyprland config
 
+source=~/.config/hypr/env.conf
+source=~/.config/hypr/binds.conf
+source=~/.config/hypr/rules.conf
+source=~/.config/hypr/execs.conf
 
-# monitor=HDMI-A-1,1920x1080@60, -1920x-940, 1
-# workspace=HDMI-A-1,9
-# monitor=DP-2,1920x1080@144hz,0x0,1
+## Setup monitors
+monitor=HDMI-A-1,1920x1080@60hz,0x0,1
 monitor=HDMI-A-2,disabled
-
-# env = GDK_BACKEND=wayland,x11
-# env = LIBVA_DRIVER_NAME,noveau
-# env = QT_QPA_PLATFORM,"wayland;xcb"
-# env = DRI_PRIME,0 
-env = QT_QPA_PLATFORMTHEME,qt5ct
 
 input {{
     kb_file=
@@ -39,7 +33,6 @@ input {{
 }}
 
 
-
 general {{
     gaps_in=5
     gaps_out={gaps_out}
@@ -62,7 +55,6 @@ decoration {{
 	}}
 
     rounding={b_radius2}
-    
     drop_shadow=true
     shadow_range=10
     col.shadow=rgb({color1.strip})
@@ -71,14 +63,14 @@ decoration {{
 
 
 animations {{
+
     enabled=1
     bezier=overshoot,0.05,0.9,0.1,1.1
+    # animation=fadeIn,1,3,default
+    # animation=fadeOut,1,3,default
 
-    animation=fadeIn,1,3,default
-    animation=fadeOut,1,3,default
-
-    animation=windowsIn,1,6,overshoot,slide
-    animation=windowsOut,1,6,overshoot,slide
+    # animation=windowsIn,1,6,overshoot,slide
+    # animation=windowsOut,1,6,overshoot,slide
     animation=windowsMove,1,6,overshoot
 
     animation=border,1,5,overshoot
@@ -92,7 +84,7 @@ dwindle {{
 }}
 
 gestures {{
-    workspace_swipe= true
+    workspace_swipe=true
 }}
 
 group {{
@@ -109,14 +101,15 @@ group {{
 	}}
 
 misc {{
+
 	hide_cursor_on_touch = false
 	disable_hyprland_logo = true
 	disable_autoreload = false 
 	disable_splash_rendering = true
-	mouse_move_enables_dpms = true
+	mouse_move_enables_dpms = false
 	key_press_enables_dpms = true
-	vfr = true
-	vrr = 1
+	vfr = true 
+	vrr = false
 	animate_manual_resizes = true
 	animate_mouse_windowdragging = true
 	enable_swallow = true
@@ -124,218 +117,3 @@ misc {{
 }}
 
 
-# some nice mouse binds
-bindm=SUPER,mouse:272,movewindow
-bindm=SUPER,mouse:273,resizewindow
-
-#audio bindss
-binde=, XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && notify-send -r 45 "Audio Volume:" "$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/^.0//g')%" -a volup -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/ //g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-high.svg"
-binde=, XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && notify-send -r 45 "Audio Volume:" "$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/^.0//g')%" -a voldown -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/ //g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-low.svg"
-binde=, XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && notify-send -r 45 "Audio Muted:" -a voltoggle -h int:value:"$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g | sed 's/ //g')" -i "/home/traveler/.local/share/icons/flattrcolor/status/22/audio-volume-muted.svg"
-
-# Playerctl Binds
-bind=,173,exec, playerctl previous
-bind=,171,exec, playerctl next
-bind=,172,exec, playerctl play-pause && notify-send -r 45 "   Toggled Puase" "$(playerctl metadata --format '{{{{title}}}}' )" -i "$(playerctl metadata --format '{{{{ playerName }}}}')" 
-
-bind=SUPER,61,exec, playerctl play-pause && notify-send -r 45 "   Toggled Puase" "$(playerctl metadata --format '{{{{title}}}}' )" -i "$(playerctl metadata --format '{{{{ playerName }}}}')" 
-
-bind=SUPERALT,59,exec, playerctld unshift && notify-send -r 45 "Current Player:" "$(playerctl metadata --format '{{{{ playerName }}}}')" -i "$(playerctl metadata --format '{{{{ playerName }}}}')"
-bind=SUPERALT,60,exec, playerctld shift && notify-send -r 45 "Current Player:" "$(playerctl metadata --format '{{{{ playerName }}}}')" -i "$(playerctl metadata --format '{{{{ playerName }}}}')"
-
-bind=SUPER,59,exec, playerctl previous #&& ~/.config/ncmpcpp/ncmpcpp-icat.sh && ~/.config/ncmpcpp/songinfo.sh
-bind=SUPER,60,exec, playerctl next #&& ~/.config/ncmpcpp/ncmpcpp-icat.sh && ~/.config/ncmpcpp/songinfo.sh
-
-bind=SUPER,97,exec, playerctl shuffle Toggle && notify-send -r 45 "Music Shuffle Toggled $(playerctl shuffle)!" "$(playerctl metadata --format '{{{{ playerName }}}}')" -i "/home/traveler/.local/share/icons/flattrcolor/actions/22/media-playlist-shuffle.svg" 
-
-binde=SUPER,21,exec, playerctl volume 0.05+ && notify-send -r 44 "Music Volume: $(printf "%d%%\n" $(playerctl metadata --format '{{{{ volume*100+.1 }}}}'))" "$(playerctl metadata --format '{{{{title}}}}' )" -a volup -h int:value:"$(printf "%d%%\n" $(playerctl metadata --format '{{{{ volume*100 }}}}'))" -i "$(playerctl metadata --format '{{{{ playerName }}}}')"
-
-binde=SUPER,20,exec, playerctl volume 0.05- && notify-send -r 44 "Music Volume: $(printf "%d%%\n" $(playerctl metadata --format '{{{{ volume*100+.1 }}}}'))" "$(playerctl metadata --format '{{{{title}}}}' )" -a voldown -h int:value:"$(printf "%d%%\n" $(playerctl metadata --format '{{{{ volume*100 }}}}'))" -i "$(playerctl metadata --format '{{{{ playerName }}}}')"
-
-# Program binds
-bind=SUPER,RETURN,exec,kitty --single-instance
-bind=SUPER,A,exec,kitty --single-instance --class=pavucontrol -T 'pavucontrol' -e pulsemixer
-bind=SUPER,Q,exec,swaync-client -t
-bind=SUPER,C,exec, cliphist list | wofi --dmenu --allow-images | cliphist decode | wl-copy
-# bind=SUPER,D,exec,wofi --style ~/.config/wofi/style.css
-bind=SUPER,D,exec,rofi -show combi -m 1
-bind=SUPERALT,R,exec,kitty --single-instance -e ranger
-bind=CTRLALT,T,exec,kitty --class=todo --single-instance -e lvim ~/TODO
-bind=SUPERSHIFT,W,exec,nemo
-bind=,Print,exec, grimblast copy area
-
-
-# Global binds
-bind=,67,pass,title:^(veadotube mini)$
-bind=,68,pass,title:^(veadotube mini)$
-
-
-# bind=SUPER,P,exec,alacritty
-
-#Hyprland Binds
-
-bind=SUPER_SHIFT,X,exec, ~/.config/hypr/scripts/swaylock.sh
-bind=SUPER_SHIFT,M,exec,hyprctl keyword monitor HDMI-A-1,preferred,0x0,1
-bind=SUPER_SHIFT,N,exec,hyprctl keyword monitor HDMI-A-1,disabled && hyprctl keyword monitor 1920x1080@144hz,0x0,1
-bind=SUPER_SHIFT,R,exec, hyprctl reload
-bind=SUPER_SHIFT,E,exec, ~/.config/rofi/powermenu/powermenu.sh
-
-bind=SUPER,V,togglesplit,
-bind=SUPER_SHIFT,Q,killactive,
-bind=SUPER,SPACE,togglefloating
-
-bind=SUPER,w,togglegroup,
-bind=ALT,h,changegroupactive,b
-bind=ALT,l,changegroupactive,f
-bind=SUPERALT,h,moveintogroup,l
-bind=SUPERALT,j,moveintogroup,d
-bind=SUPERALT,l,moveintogroup,r
-bind=SUPERALT,k,moveintogroup,u
-# bind=ALT,g,lockgroups,unlock
-
-bind=SUPER_SHIFT,P,pin,
-
-bind=SUPER,P,pseudo,
-bind=SUPER,f,fullscreen,1
-bind=SUPER_SHIFT,f,fullscreen,0
-
-bind=SUPER,h,movefocus,l
-bind=SUPER,l,movefocus,r
-bind=SUPER,j,movefocus,d
-bind=SUPER,k,movefocus,u
-
-binde=SUPER_SHIFT,h,moveactive,-25 0
-binde=SUPER_SHIFT,l,moveactive,25 0
-binde=SUPER_SHIFT,j,moveactive,0 25
-binde=SUPER_SHIFT,k,moveactive,0 -25
-
-binde=SUPER_CTRL,h,moveactive,-350 0
-binde=SUPER_CTRL,l,moveactive,350 0
-binde=SUPER_CTRL,j,moveactive,0 150
-binde=SUPER_CTRL,k,moveactive,0 -150
-
-
-# Resize Submap
-bind=SUPER,R,submap,resize
-
-submap=resize
-
-# sets repeatable binds for resizing the active window
-
-
-binde=SHIFT,l,resizeactive,40 0
-binde=SHIFT,h,resizeactive,-40 0
-binde=SHIFT,k,resizeactive,0 -40
-binde=SHIFT,j,resizeactive,0 40
-
-binde=,l,resizeactive,10 0
-binde=,h,resizeactive,-10 0
-binde=,k,resizeactive,0 -10
-binde=,j,resizeactive,0 10
-
-
-# use reset to go back to the global submap
-bind=SUPER,R,submap,reset 
-
-# will reset the submap, meaning end the current one and return to the global one
-submap=reset
-
-## Workspace binds
-bind=SUPER,1,workspace,1
-bind=SUPER,2,workspace,2
-bind=SUPER,3,workspace,3
-bind=SUPER,4,workspace,4
-bind=SUPER,5,workspace,5
-bind=SUPER,6,workspace,6
-bind=SUPER,7,workspace,7
-bind=SUPER,8,workspace,8
-bind=SUPER,9,workspace,9
-bind=SUPER,0,workspace,10
-bind=SUPER,S,togglespecialworkspace
-
-
-bind=SUPER_SHIFT,1,movetoworkspace,1
-bind=SUPER_SHIFT,2,movetoworkspace,2
-bind=SUPER_SHIFT,3,movetoworkspace,3
-bind=SUPER_SHIFT,4,movetoworkspace,4
-bind=SUPER_SHIFT,5,movetoworkspace,5
-bind=SUPER_SHIFT,6,movetoworkspace,6
-bind=SUPER_SHIFT,7,movetoworkspace,7 bind=SUPER_SHIFT,8,movetoworkspace,8
-bind=SUPER_SHIFT,9,movetoworkspace,9
-bind=SUPER_SHIFT,0,movetoworkspace,10
-bind=SUPER_SHIFT,S,movetoworkspacesilent,special
-
-bind=SUPER,mouse_down,workspace,e+1
-bind=SUPER,mouse_up,workspace,e-1
-
-# workspace=1, monitor:DP-2, default:true
-# workspace=2, monitor:DP-2
-# workspace=3, monitor:DP-2
-# workspace=4, monitor:DP-2
-# workspace=5, monitor:DP-2
-# workspace=6, monitor:DP-2
-# workspace=7, monitor:DP-2
-# workspace=8, monitor:DP-2
-# workspace=9, monitor:HDMI-A-1,default:true,
-# workspace=10,monitor:HDMI-A-1
-
-#EXECS
-exec= ~/.config/hypr/scripts/hyprland_execs.sh
-#EXEC ONCE
-exec-once= ~/.config/hypr/scripts/hyprland_execs_once.sh
-
-# WINDOW RULES
-#
-windowrulev2=float,class:^(pavucontrol)$
-windowrulev2=float,class:^(discord-screenaudio)$
-windowrulev2=float,class:^(.*nemo)$
-windowrulev2=float,class:^(pavucontrol)$
-windowrulev2=float,title:^(wpgtk.*)$
-windowrulev2=float,title:^(LibreWolf — Indicador de compartilhamento)$
-windowrulev2=float,class:^(feh)$
-windowrulev2=float,class:^(mpv)$
-windowrulev2=size 960 480,class:^(pavucontrol)$
-windowrulev2=center,class:^(pavucontrol)$
-windowrulev2=center,title:^(discord)$
-windowrulev2=float,title:^(discord)$
-windowrulev2=float,title:^(guiscrcpy)$
-windowrulev2=minsize 960 960,class:^(Rofi)$
-windowrulev2=move 960 0, class:^(rofi)$
-windowrulev2=animation overshoot,class:^(Rofi)$
-windowrulev2=float,class:^(Rofi)$
-# windowrulev2=center,class:^(Rofi)$
-windowrulev2=tile,class:^(neovide)$
-windowrulev2=workspace 3 silent,class:^(.*obsidian.*)$
-windowrulev2=workspace 4 silent,class:^(.*Spotify.*)$
-windowrulev2=workspace 4 silent,class:^(.*discord.*)$
-windowrulev2=workspace 4 silent,class:^(.*easyeffects)$
-windowrulev2=workspace 5 silent,class:^(LibreWolf)$
-windowrulev2=workspace 5 silent,class:^(Buttercup)$
-windowrulev2=workspace 5 silent,class:^(org.keepassxc.KeePassXC)$
-windowrulev2=workspace 6 silent,class:^(Steam)$
-windowrulev2=workspace 6 silent,class:^(gamescope)$
-windowrulev2=workspace 6 silent,class:^(steam)$
-windowrulev2=workspace 6 silent,class:^(itch)$
-windowrulev2=monitor 0,class:^(battle.net.exe)$
-
-windowrulev2=center,class:^(battle.net.exe)$
-windowrulev2=center,class:^(cyberpunk)$
-
-
-windowrulev2=float,class:^(todo)$
-windowrulev2=move 1520 32, class:^(todo)$
-windowrulev2=size 360 270,class:^(todo)$
-windowrulev2=pin,class:^(todo)$
-
-windowrulev2=noblur,class:^(Discover-overlay)$
-windowrulev2=noborder,class:^(Discover-overlay)$
-windowrulev2=nofocus,class:^(Discover-overlay$
-windowrulev2=rounding 0,class:^(Discover-overlay)$
-windowrulev2=noshadow,class:^(Discover-overlay)$
-windowrulev2=float,class:^(Discover-overlay)$
-windowrulev2=pin,class:^(Discover-overlay)$
-
-
-layerrule = blur,waybar
-layerrule = blur,swaync-control-center
-# layerrule = blur,swaync-notification-window

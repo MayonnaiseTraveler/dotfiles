@@ -1,6 +1,6 @@
 configuration {
 
-	cache-dir:"~/.config/rofi/cache/";
+	cache-dir:"/home/traveler/.config/rofi/cache/";
 	threads:3;
 	show-icons: true;
 	modes: "run,ssh,combi,keys";

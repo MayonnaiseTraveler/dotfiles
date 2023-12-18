@@ -2,20 +2,21 @@
     "layer": "top", // Waybar at top layer
     "position": "left", // Waybar position (top|bottom|left|right)
     //"height": , // Waybar height (to be removed for auto height)
-    "width": 40, // Waybar width
-    "spacing": 10, // Gaps between modules (4px)
-    "margin-left":8,
+    "spacing": 8, // Gaps between modules (4px)
+    "margin-left":0,
     "margin-right":0,
-    "margin-top":19,
-    "margin-bottom":19,
-
+    //"margin-top":{gaps_out},
+    //"margin-bottom":{gaps_out},
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces" ],
-    "modules-center": [ "cava" ], 
-    "modules-right": [ "pulseaudio", "custom/notification", "clock", "tray","battery","custom/powermenu"],
+    "modules-center": [ "cava", "clock","pulseaudio", "custom/notification",], 
+    "modules-right": [   "tray","battery","custom/powermenu"],
     // Modules configuration
      "hyprland/workspaces": {{
          "all-outputs": true,
+		 "persistent-workspaces": {{
+             "*": 10, // 5 workspaces by default on every monitor
+		}},
          "format": "{{icon}}",
          "format-icons": {{
              "1": "",
@@ -92,7 +93,7 @@
     "clock": {{
         //"timezone": "Brazil/Sao_Paulo",
 		"interval": 60,
-        "format": "{{:%H\n..\n%M}}",
+        "format": "{{:%H\n%M}}",
         "tooltip-format": "<tt><small>{{calendar}}</small></tt>",
 		    "calendar": {{
                 "mode"          : "month",
@@ -145,7 +146,7 @@
     }},
     "pulseaudio": {{
         // "scroll-step": 1, // %, can be a float
-        "format": "{{volume}}\n<span size='xx-large'>{{icon}}</span>{{format_source}}",
+        "format": "{{volume}}\n<span size='x-large'>{{icon}}</span>{{format_source}}",
         "format-bluetooth": "{{volume}}% {{icon}}{{format_source}}",
         "format-bluetooth-muted": "{{icon}}{{format_source}}",
         "format-muted": "off\n<span size='xx-large'>󰝟{{format_source}}</span>",
@@ -174,7 +175,7 @@
         }},
     }},
     "custom/powermenu": {{
-      "format": "<span size='xx-large'>{{icon}}</span>{{}}",
+      "format": "<span size='x-large'>{{icon}}</span>{{}}",
       "on-click": " $HOME/.config/rofi/powermenu/powermenu.sh",
       "format-icons":{{
         "default": "⏻"
@@ -193,7 +194,7 @@
     }},
   "custom/notification": {{
     "tooltip": false,
-    "format": "<span color='{color7}'>{{}}</span><span size='xx-large' color='{color7}'>\n{{icon}}</span>",
+    "format": "<span size='x-small' color='{color7}'>{{}}</span><span size='large' color='{color7}'>\n{{icon}}</span>",
     "format-icons": {{
       "notification": "󱅫",
       "none": "󰂚",
@@ -210,6 +211,6 @@
     "exec": "swaync-client -swb",
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
-    "escape": false,
+    "escape": true,
   }},
 }}
