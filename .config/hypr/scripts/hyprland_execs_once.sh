@@ -25,10 +25,7 @@ playerctld daemon &
 spotify & 
 mpd & 
 mpDris2 & 
-mpc random on
-mpc play || mpc insert Chill/Somewhere\ Nowhere\ 🌸Deep\ Lofi\ Beats.mp3 && mpc next 
-mpc toggle 
-mpc toggle
+mpc random on && mpc play || mpc insert Chill/Somewhere\ Nowhere\ 🌸Deep\ Lofi\ Beats.mp3 && mpc next && mpc toggle && mpc toggle
 
 ./xdg-portal.sh & 
 nm-applet --indicator & 

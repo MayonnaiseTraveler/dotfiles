@@ -12,7 +12,6 @@ swaync-client -rs &
 
 # Wait until the processes have been shut down
 while pgrep -x waybar >/dev/null; do sleep 1; done
- 
 
 ## Relaunch Waybar
 waybar 
@@ -21,7 +20,8 @@ waybar
 ~/.config/hypr/import-gsettings.sh &
 
 ## Update Wallpaper
-convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.webp && 
+convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.webp 
+
 swww img \
 	--transition-type random \
 	--transition-duration 2 \

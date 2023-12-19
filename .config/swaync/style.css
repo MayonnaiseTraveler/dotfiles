@@ -2,23 +2,32 @@
  * vim: ft=less
  */
 
-@define-color cc-bg rgba(12,10,15,1);
+@define-color cc-bg rgba(12,7,25,1);
+@define-color cc-bg-alt rgba(30,17,65,1);
 
-@define-color noti-border-color rgb(240,76,110);
-@define-color noti-bg rgba(12,10,15,1);
+@define-color noti-border-color rgb(131,90,255);
+@define-color border-color mix( rgb(110,84,210), rgb(30,17,65),0.75);
+@define-color noti-bg rgba(30,17,65,1);
 @define-color noti-bg-darker rgb(38, 38, 38);
-@define-color noti-bg-hover rgba(35,29,45,1);
-@define-color noti-bg-focus rgba(12,10,15,1);
+@define-color noti-bg-hover rgba(30,17,65,1);
+@define-color noti-bg-focus rgba(12,7,25,1);
 @define-color noti-close-bg rgba(255, 255, 255, 0.1);
-@define-color noti-close-bg-hover rgba(173,71,92, 0.15);
+@define-color noti-close-bg-hover rgba(110,84,210, 0.15);
 
-@define-color text-color rgb(255,241,248);
-@define-color text-color-disabled rgb(35,29,45);
+@define-color text-color rgb(255,238,255);
+@define-color text-color-disabled rgb(30,17,65);
 
-@define-color bg-selected rgba(35,29,45,1);
+@define-color bg-selected rgba(30,17,65,1);
 
 *{
   font-family:"Mononoki Nerd Font";
+}
+
+window > box{
+  border-radius: 10px;
+  border: solid 1px @noti-border-color;
+  box-shadow: 0px 0px 4px 1px rgb(131,90,255);
+
 }
 
 .notification-row {
@@ -94,7 +103,7 @@
   margin: 0;
   box-shadow: none;
   background: @noti-bg;
-  border: 2px solid @noti-border-color;
+  border: 1px solid @noti-border-color;
   color: @text-color;
   transition: all 0.15s ease-in-out; }
 
@@ -143,28 +152,28 @@
 .inline-reply-button {
   margin-left: 4px;
   background: @noti-bg;
-  border: 2px solid @noti-border-color;
+  border: 1px solid @noti-border-color;
   border-radius: 10px;
   color: @text-color;
 }
 .inline-reply-button:disabled {
   background: initial;
   color: @text-color-disabled;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
 .inline-reply-button:hover {
   background: @noti-bg-hover;
 }
 
 .image {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 10px;
 }
 
 .body-image {
   margin-top: 6px;
   background-color: white;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 10px;
 }
 
@@ -186,7 +195,7 @@
 }
 
 .body {
-  font-size: 15px;
+    font-size: 15px;
   font-weight: normal;
   background: transparent;
   color: @text-color;
@@ -196,8 +205,9 @@
 .control-center {
   transition: all 200ms ease;
   padding: 10px;
-  border-radius: 10px;
-  border: 2px solid @noti-border-color;
+  border: 1px solid @border-color;
+  border-top:0;
+  border-bottom:0;
   background: @cc-bg;
 }
 
@@ -237,7 +247,7 @@
   color: @text-color;
   text-shadow: none;
   background: @noti-bg;
-  border: 2px solid @noti-border-color;
+  border: 1px solid @border-color;
   box-shadow: none;
   border-radius: 10px;
 }
@@ -255,22 +265,23 @@
 .widget-dnd > switch {
   font-size: initial;
   border-radius: 8px;
-  background: @noti-bg;
-  border: 2px solid @noti-border-color;
+  background: @cc-bg;
+  border: 1px solid @border-color;
   box-shadow: none;
 }
 .widget-dnd > switch:checked {
-  background: @bg-selected;
+  background: @cc-bg;
 }
 .widget-dnd > switch slider {
   background: @noti-bg;
   padding:2px;
-  border: 2px solid @noti-border-color;
+  border: 1px solid @border-color;
   border-radius: 12px;
 }
 
 .widget-dnd > switch:checked slider {
   background: @noti-bg-hover;
+  border-color: @noti-border-color;
 	}
 
 /* Label widget */
@@ -295,8 +306,10 @@
 
 .widget-mpris > box 
 {
+
+	background-color:@cc-bg-alt;
 	border-radius:10px;
-	border: 2px solid @noti-border-color;
+	border: 1px solid @border-color;
 }
 .widget-mpris-player {
 		padding-bottom:0;
@@ -311,13 +324,14 @@
 .widget-mpris-player > box > button {
 	padding: 4px;
 	margin:0 ;
-	background-color:@noti-bg;
+	background-color:@cc-bg;
     border-radius:10px;
-  	border: 2px solid @noti-border-color;
+  	border: 1px solid @border-color;
 	margin-bottom:10px;
 }
 
 .widget-mpris-player > box > button:hover{
+		border:solid 1px  @noti-border-color;
 	color:@noti-border-color;
 }
 
@@ -340,7 +354,9 @@
 	border-radius:8px;
 	padding:0 10px ;
 	margin:0;
+
 	background-color:rgba(0,0,0,0);
+	color:@text-color-disabled;
 	border-color:rgba(0,0,0,0);
 }
 .widget-mpris > box > button:disabled {
@@ -360,7 +376,7 @@
 	margin:8px;
 	background: @noti-bg;
 	border-radius: 10px;
-	border: 2px solid @noti-border-color;
+	border: 1px solid @border-color;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
@@ -375,7 +391,7 @@
   font-size: 1.2rem;
   border-radius:10px;
   padding:16px;
-  border: 2px solid @noti-border-color;
+  border: 1px solid @border-color;
   background: @noti-bg-hover;
 }
 
@@ -409,7 +425,7 @@
   color: @text-color;
   text-shadow: none;
   background: @noti-bg;
-  border: 1px solid @noti-border-color;
+  border: 1px solid @border-color;
   box-shadow: none;
   border-radius: 12px;
 }
@@ -423,7 +439,7 @@
 	margin:0px;
 	margin-top:10px;
 	border-radius:10px;
-	border: 2px solid @noti-border-color;
+	border: 1px solid @border-color;
     background-color: @noti-bg;
     font-size: x-large;
 }

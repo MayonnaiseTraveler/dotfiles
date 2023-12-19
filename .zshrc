@@ -160,7 +160,11 @@ alias ssh="kitty +kitten ssh"
 alias yt-dlv="yt-dlp -x --audio-format mp3 --embed-thumbnail --add-metadata -i"
 alias idavis="davis cover & davis current"
 alias ifetch="neofetch --clean && neofetch --backend kitty --source ~/Imagens/wallpaper.webp"
+alias peaclock="peaclock --config-dir ~/.config/peaclock --colour=on"
 alias xcd='cd "$(xplr --print-pwd-as-result)"'
+alias drawtimer='./scripts/drawtimer.sh'
+alias studytimer='./scripts/drawtimer.sh'
+alias ricetimer='./scripts/drawtimer.sh'
 # colors in less
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'

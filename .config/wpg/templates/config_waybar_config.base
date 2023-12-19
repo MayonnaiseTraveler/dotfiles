@@ -2,20 +2,25 @@
     "layer": "top", // Waybar at top layer
     "position": "left", // Waybar position (top|bottom|left|right)
     //"height": , // Waybar height (to be removed for auto height)
-    "spacing": 8, // Gaps between modules (4px)
+    "spacing": 0, // Gaps between modules (4px)
     "margin-left":0,
     "margin-right":0,
     //"margin-top":{gaps_out},
     //"margin-bottom":{gaps_out},
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces" ],
-    "modules-center": [ "cava", "clock","pulseaudio", "custom/notification",], 
-    "modules-right": [   "tray","battery","custom/powermenu"],
+    "modules-center": [ "clock","cava","pulseaudio#sound", "group/pulse", "custom/notification#count","custom/notification#icon"], 
+    "modules-right": [   "group/traybox","battery","custom/powermenu"],
     // Modules configuration
+	"custom/jgmenu":{{
+		"tooltip":false,
+		"format":"󰮫",
+		"on-click":"jgmenu --at-pointer ",
+		}},
      "hyprland/workspaces": {{
          "all-outputs": true,
 		 "persistent-workspaces": {{
-             "*": 10, // 5 workspaces by default on every monitor
+             "*": 6, // 5 workspaces by default on every monitor
 		}},
          "format": "{{icon}}",
          "format-icons": {{
@@ -50,6 +55,21 @@
       "format": "👉 {{}}",
       "separate-outputs": true,
     }},
+	"custom/trayicon":{{
+		"format": "",
+        "tooltip": false,
+		}},
+	"group/traybox":{{
+        "tooltip": false,
+		"orientation": "vertical",
+        "children-class": "traycontainer",
+		"drawer":{{
+			}},
+
+		"modules":["custom/trayicon","tray",]
+		}},
+
+	
     "mpd": {{
 		"rotate":90,
         "format": "{{stateIcon}} {{consumeIcon}}{{randomIcon}}{{repeatIcon}}{{singleIcon}}{{title}} ({{elapsedTime:%M:%S}}/{{totalTime:%M:%S}}) ⸨{{songPosition}}|{{queueLength}}⸩ {{volume}}% ",
@@ -86,9 +106,9 @@
         }}
     }},
     "tray": {{
-        "show-passive-items" : true,
+         "show-passive-items" : true,
          "icon-size": {f_big},
-        "spacing": {f_small}
+         "spacing": 0
     }},
     "clock": {{
         //"timezone": "Brazil/Sao_Paulo",
@@ -144,13 +164,47 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{{ifname}}: {{ipaddr}}/{{cidr}}"
     }},
-    "pulseaudio": {{
-        // "scroll-step": 1, // %, can be a float
-        "format": "{{volume}}\n<span size='x-large'>{{icon}}</span>{{format_source}}",
-        "format-bluetooth": "{{volume}}% {{icon}}{{format_source}}",
-        "format-bluetooth-muted": "{{icon}}{{format_source}}",
-        "format-muted": "off\n<span size='xx-large'>󰝟{{format_source}}</span>",
-        "format-source-muted": "\n <span size='x-large'></span>",
+	"group/pulse":{{
+        "tooltip": false,
+		"orientation": "inherit",
+
+		"drawer":{{
+			"children-class":"pulsecontainer",
+			"transition-left-to-right":true
+			}},
+
+		"modules":["pulseaudio#icon","pulseaudio/slider"]
+		}},
+	"pulseaudio/slider": {{
+		"min": 0,
+		"max": 100,
+		"orientation": "vertical"
+	}},
+    "pulseaudio#sound": {{
+        "format": "{{volume}}",
+        "format-bluetooth": "{{volume}}% {{format_source}}",
+        "format-bluetooth-muted": "off{{format_source}}",
+        "format-muted": "off{{format_source}}",
+        "format-source-muted": "!mic",
+        "format-icons": {{
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", "󰕾"]
+        }},
+        "on-click-right": "pavucontrol",
+        "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
+        "on-click":"pulseaudio-control togmute",
+    }},
+	"pulseaudio#icon": {{
+        "format": "{{icon}}",
+        "format-bluetooth": "{{icon}}",
+        "format-bluetooth-muted": "{{icon}}",
+        "format-muted": "󰝟{{format_source}}",
+        "format-source-muted": "",
         "format-icons": {{
             "headphone": "",
             "hands-free": "",
@@ -175,42 +229,71 @@
         }},
     }},
     "custom/powermenu": {{
-      "format": "<span size='x-large'>{{icon}}</span>{{}}",
-      "on-click": " $HOME/.config/rofi/powermenu/powermenu.sh",
+	"tooltip": false,
+      "format": "{{icon}}",
+      "on-click": "sleep 0.1 && $HOME/.config/rofi/powermenu/powermenu.sh",
       "format-icons":{{
         "default": "⏻"
       }},
     }},
 	"cava": {{
+		"hide_on_silence":true,
         "cava_config": "/home/traveler/.config/cava/config",
-		"method": "pipewire",
-        "source": "auto",
-		"bars": 14,
-		"sensitivity": 100,
-		"format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-        "actions": {{
-                   "on-click-right": "mode"
-                   }},
+		"framerate":60,
+		"sleep_timer":5,
+		"source":"auto",
+		"method":"pipewire",
+		"rotate": 270,
+        "bars": 20,
+        "stereo": true,
+        "bar_delimiter": 0,
+        "input_delay": 0,
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
     }},
-  "custom/notification": {{
-    "tooltip": false,
-    "format": "<span size='x-small' color='{color7}'>{{}}</span><span size='large' color='{color7}'>\n{{icon}}</span>",
-    "format-icons": {{
-      "notification": "󱅫",
-      "none": "󰂚",
-      "default": "󰂚",
-      "dnd-notification": "󰂛<sup></sup>",
-      "dnd-none": "󰂛",
-      "inhibited-notification": "󱅫",
-      "inhibited-none": "󰂚",
-      "dnd-inhibited-notification":"󰂛<sup></sup>",
-      "dnd-inhibited-none": "󰂛"
-    }},
-    "return-type": "json",
-    "exec-if": "which swaync-client",
-    "exec": "swaync-client -swb",
-    "on-click": "swaync-client -t -sw",
-    "on-click-right": "swaync-client -d -sw",
-    "escape": true,
-  }},
+
+	"custom/notification#count": {{
+		"max-length": 2,
+		"tooltip": false,
+		"format": "{{}}",
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "sleep 0.1 && swaync-client -t -sw",
+		"on-click-right": "sleep 0.1 && swaync-client -d -sw",
+	}},
+	"custom/notification#icon": {{
+		"tooltip": false,
+		"format": "{{icon}}",
+		"format-icons": {{
+			"notification": "󱅫",
+			"none": "󰂚",
+			"default": "󰂚",
+			"dnd-notification": "󰂛<sup></sup>",
+			"dnd-none": "󰂛",
+			"inhibited-notification": "󱅫",
+			"inhibited-none": "󰂚",
+			"dnd-inhibited-notification":"󰂛<sup></sup>",
+			"dnd-inhibited-none": "󰂛"
+		}},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "sleep 0.1 && swaync-client -t -sw",
+		"on-click-right": "sleep 0.1 && swaync-client -d -sw",
+		"escape": true,
+	}},
+	"mpris": {{
+        "rotate": 270,
+		"format": "{{player_icon}} {{dynamic}}",
+		"format-paused": "{{status_icon}} <i>{{dynamic}}</i>",
+			"player-icons": {{
+				"default": "▶",
+				"mpv": "🎵",
+				"spotify": "",
+			}},
+			"status-icons": {{
+				"paused": "⏸"
+			}},
+		"ignored-players": ["firefox"]
+	}}
 }}

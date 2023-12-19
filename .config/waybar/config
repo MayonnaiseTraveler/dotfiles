@@ -2,20 +2,26 @@
     "layer": "top", // Waybar at top layer
     "position": "left", // Waybar position (top|bottom|left|right)
     //"height": , // Waybar height (to be removed for auto height)
-    "width": 40, // Waybar width
-    "spacing": 10, // Gaps between modules (4px)
-    "margin-left":8,
+    "spacing": 0, // Gaps between modules (4px)
+    "margin-left":0,
     "margin-right":0,
-    "margin-top":19,
-    "margin-bottom":19,
-
+    //"margin-top":20,
+    //"margin-bottom":20,
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces" ],
-    "modules-center": [ "cava" ], 
-    "modules-right": [ "pulseaudio", "custom/notification", "clock", "tray","battery","custom/powermenu"],
+    "modules-center": [ "clock","cava","pulseaudio#sound", "group/pulse", "custom/notification#count","custom/notification#icon"], 
+    "modules-right": [   "group/traybox","battery","custom/powermenu"],
     // Modules configuration
+	"custom/jgmenu":{
+		"tooltip":false,
+		"format":"󰮫",
+		"on-click":"jgmenu --at-pointer ",
+		},
      "hyprland/workspaces": {
          "all-outputs": true,
+		 "persistent-workspaces": {
+             "*": 6, // 5 workspaces by default on every monitor
+		},
          "format": "{icon}",
          "format-icons": {
              "1": "",
@@ -49,6 +55,21 @@
       "format": "👉 {}",
       "separate-outputs": true,
     },
+	"custom/trayicon":{
+		"format": "",
+        "tooltip": false,
+		},
+	"group/traybox":{
+        "tooltip": false,
+		"orientation": "vertical",
+        "children-class": "traycontainer",
+		"drawer":{
+			},
+
+		"modules":["custom/trayicon","tray",]
+		},
+
+	
     "mpd": {
 		"rotate":90,
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
@@ -85,25 +106,25 @@
         }
     },
     "tray": {
-        "show-passive-items" : true,
+         "show-passive-items" : true,
          "icon-size": 20,
-        "spacing": 12
+         "spacing": 0
     },
     "clock": {
         //"timezone": "Brazil/Sao_Paulo",
 		"interval": 60,
-        "format": "{:%H\n..\n%M}",
+        "format": "{:%H\n%M}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
 		    "calendar": {
                 "mode"          : "month",
                 "on-scroll"     : 1,
                 "on-click-right": "mode",
                 "format": {
-                        "months":     "<span color='#d8c3c8'>{}</span>",
-                        "days":       "<span color='#d8c3c8'>{}</span>",
-                        "weeks":      "<span color='#D37290'>W{}</span>",
-                        "weekdays":   "<span color='#725B8A'>{}</span>",
-                        "today":      "<span color='#f04c6e'><b>{}</b></span>"
+                        "months":     "<span color='#e2cbe7'>{}</span>",
+                        "days":       "<span color='#e2cbe7'>{}</span>",
+                        "weeks":      "<span color='#4CBCE3'>W{}</span>",
+                        "weekdays":   "<span color='#9763E5'>{}</span>",
+                        "today":      "<span color='#835aff'><b>{}</b></span>"
                           }
                 }
 		},
@@ -143,13 +164,47 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}\n<span size='xx-large'>{icon}</span>{format_source}",
-        "format-bluetooth": "{volume}% {icon}{format_source}",
-        "format-bluetooth-muted": "{icon}{format_source}",
-        "format-muted": "off\n<span size='xx-large'>󰝟{format_source}</span>",
-        "format-source-muted": "\n <span size='x-large'></span>",
+	"group/pulse":{
+        "tooltip": false,
+		"orientation": "inherit",
+
+		"drawer":{
+			"children-class":"pulsecontainer",
+			"transition-left-to-right":true
+			},
+
+		"modules":["pulseaudio#icon","pulseaudio/slider"]
+		},
+	"pulseaudio/slider": {
+		"min": 0,
+		"max": 100,
+		"orientation": "vertical"
+	},
+    "pulseaudio#sound": {
+        "format": "{volume}",
+        "format-bluetooth": "{volume}% {format_source}",
+        "format-bluetooth-muted": "off{format_source}",
+        "format-muted": "off{format_source}",
+        "format-source-muted": "!mic",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", "󰕾"]
+        },
+        "on-click-right": "pavucontrol",
+        "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
+        "on-click":"pulseaudio-control togmute",
+    },
+	"pulseaudio#icon": {
+        "format": "{icon}",
+        "format-bluetooth": "{icon}",
+        "format-bluetooth-muted": "{icon}",
+        "format-muted": "󰝟{format_source}",
+        "format-source-muted": "",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -174,42 +229,71 @@
         },
     },
     "custom/powermenu": {
-      "format": "<span size='xx-large'>{icon}</span>{}",
-      "on-click": " $HOME/.config/rofi/powermenu/powermenu.sh",
+	"tooltip": false,
+      "format": "{icon}",
+      "on-click": "sleep 0.1 && $HOME/.config/rofi/powermenu/powermenu.sh",
       "format-icons":{
         "default": "⏻"
       },
     },
 	"cava": {
+		"hide_on_silence":true,
         "cava_config": "/home/traveler/.config/cava/config",
-		"method": "pipewire",
-        "source": "auto",
-		"bars": 14,
-		"sensitivity": 100,
-		"format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-        "actions": {
-                   "on-click-right": "mode"
-                   },
+		"framerate":60,
+		"sleep_timer":5,
+		"source":"auto",
+		"method":"pipewire",
+		"rotate": 270,
+        "bars": 20,
+        "stereo": true,
+        "bar_delimiter": 0,
+        "input_delay": 0,
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
     },
-  "custom/notification": {
-    "tooltip": false,
-    "format": "<span color='#d8c3c8'>{}</span><span size='xx-large' color='#d8c3c8'>\n{icon}</span>",
-    "format-icons": {
-      "notification": "󱅫",
-      "none": "󰂚",
-      "default": "󰂚",
-      "dnd-notification": "󰂛<sup></sup>",
-      "dnd-none": "󰂛",
-      "inhibited-notification": "󱅫",
-      "inhibited-none": "󰂚",
-      "dnd-inhibited-notification":"󰂛<sup></sup>",
-      "dnd-inhibited-none": "󰂛"
-    },
-    "return-type": "json",
-    "exec-if": "which swaync-client",
-    "exec": "swaync-client -swb",
-    "on-click": "swaync-client -t -sw",
-    "on-click-right": "swaync-client -d -sw",
-    "escape": false,
-  },
+
+	"custom/notification#count": {
+		"max-length": 2,
+		"tooltip": false,
+		"format": "{}",
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "sleep 0.1 && swaync-client -t -sw",
+		"on-click-right": "sleep 0.1 && swaync-client -d -sw",
+	},
+	"custom/notification#icon": {
+		"tooltip": false,
+		"format": "{icon}",
+		"format-icons": {
+			"notification": "󱅫",
+			"none": "󰂚",
+			"default": "󰂚",
+			"dnd-notification": "󰂛<sup></sup>",
+			"dnd-none": "󰂛",
+			"inhibited-notification": "󱅫",
+			"inhibited-none": "󰂚",
+			"dnd-inhibited-notification":"󰂛<sup></sup>",
+			"dnd-inhibited-none": "󰂛"
+		},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "sleep 0.1 && swaync-client -t -sw",
+		"on-click-right": "sleep 0.1 && swaync-client -d -sw",
+		"escape": true,
+	},
+	"mpris": {
+        "rotate": 270,
+		"format": "{player_icon} {dynamic}",
+		"format-paused": "{status_icon} <i>{dynamic}</i>",
+			"player-icons": {
+				"default": "▶",
+				"mpv": "🎵",
+				"spotify": "",
+			},
+			"status-icons": {
+				"paused": "⏸"
+			},
+		"ignored-players": ["firefox"]
+	}
 }
