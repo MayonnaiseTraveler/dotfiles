@@ -1,4 +1,4 @@
-execute_on_song_change = mpc --format ' 喇 Now Playing 喇\n  %title%  \n ﴁ %artist% ﴁ ' current > ~/playing.txt && ~/.config/ncmpcpp/songinfo.sh
+execute_on_song_change = ~/.config/ncmpcpp/songinfo.sh
 [mpd]
 mpd_host = "localhost"
 mpd_port = "6600"

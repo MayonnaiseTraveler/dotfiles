@@ -68,8 +68,6 @@
 
 		"modules":["custom/trayicon","tray",]
 		}},
-
-	
     "mpd": {{
 		"rotate":90,
         "format": "{{stateIcon}} {{consumeIcon}}{{randomIcon}}{{repeatIcon}}{{singleIcon}}{{title}} ({{elapsedTime:%M:%S}}/{{totalTime:%M:%S}}) ⸨{{songPosition}}|{{queueLength}}⸩ {{volume}}% ",
@@ -237,7 +235,7 @@
       }},
     }},
 	"cava": {{
-		"hide_on_silence":true,
+		"hide_on_silence":false,
         "cava_config": "/home/traveler/.config/cava/config",
 		"framerate":60,
 		"sleep_timer":5,

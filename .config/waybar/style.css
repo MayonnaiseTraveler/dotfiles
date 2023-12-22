@@ -18,16 +18,16 @@ window#waybar{
 	}
 
 window#waybar > box {
-    background-color:rgba(12,7,25,1);
+    background-color:rgba(11,25,45,1);
 	margin-right:8px;
-    color:#ffeeff;
+    color:#ffffe6;
     border-style:solid;
     border-width:1px;
 	border-left:0;
 	border-bottom:0;
 	border-top:0;
-    border-color:#835aff;
-    box-shadow: 0px 0px 4px 0px rgb(131,90,255);
+    border-color:#ffff73;
+    box-shadow: 0px 0px 4px 0px rgb(255,255,115);
     color: transparent;
 }
 
@@ -49,8 +49,8 @@ window#waybar.solo {
 		border-width:1px;
 		border-style: solid; 
 		margin:8px;
-		border-color:mix(rgb(110,84,210), rgb(30,17,65),0.75);
-		background-color: mix(rgb(30,17,65), rgb(12,7,25),0.35);
+		border-color:mix(rgb(200,213,105), rgb(20,47,85),0.75);
+		background-color: mix(rgb(20,47,85), rgb(11,25,45),0.35);
 	}
 
 #workspaces {
@@ -63,7 +63,7 @@ window#waybar.solo {
 #workspaces button {
 	margin-bottom:4px;
 	background-color:transparent;
-        color:#ffeeff;
+        color:#ffffe6;
 
 }
 
@@ -79,15 +79,15 @@ window#waybar.solo {
 
 #workspaces button:hover {
   border-color:transparent;
-  text-shadow: 0px 0px 5px rgb(110,84,210);
+  text-shadow: 0px 0px 5px rgb(200,213,105);
 
   border:none;
-  color:#dc0fe2;
+  color:#246afd;
 }
 
 #workspaces button.active {
-    color:#835aff;
-    text-shadow: 0px 0px 5px rgb(131,90,255);
+    color:#ffff73;
+    text-shadow: 0px 0px 5px rgb(255,255,115);
 }
 
 #workspaces button.urgent {
@@ -106,7 +106,7 @@ window#waybar.solo {
 #custom-powermenu{
     padding: 0px 0px; 
 	margin:0px;
-    color:#ffeeff;
+    color:#ffffe6;
      border-radius:10px; 
 }
 
@@ -139,13 +139,13 @@ window#waybar.solo {
     min-width: 8px;
     min-height: 80px;
     border-radius: 5px;
-    background-color:rgba(12,7,25,1);
+    background-color:rgba(11,25,45,1);
 }
 #pulseaudio-slider highlight {
 	color:white;
     min-width: 8px;
     border-radius: 5px;
-    background-color:rgb(131,90,255);
+    background-color:rgb(255,255,115);
 
 }
 
@@ -167,24 +167,24 @@ window#waybar.solo {
 #custom-dunst,
 #mpd, 
 #mpris{
-    background-color:rgba(12,7,25,0);
+    background-color:rgba(11,25,45,0);
     padding: 0px 0px; 
     margin: 10px;
-    color:#ffeeff;
+    color:#ffffe6;
     /* border-style:solid; */
     /* border-width:2px; */
-    /* border-color:#1e1141; */
+    /* border-color:#142f55; */
      border-radius:10px; 
 
 }
 
 #cava{
-	color:#835aff;
+	color:#ffff73;
 	font-size:calc(12px * 1.2);
 }
 
 #clock {
-    color: #ffeeff;
+    color: #ffffe6;
 }
 
 
@@ -256,7 +256,7 @@ label:focus {
 }
 
 #tray > * {
-  color:#ffeeff;
+  color:#ffffe6;
 }
 
 #tray > .passive {
@@ -275,8 +275,8 @@ label:focus {
 }
 
 #mpd {
-    background-color: #0c0719;
-    color: #ffeeff;
+    background-color: #0b192d;
+    color: #ffffe6;
 }
 
 
@@ -322,12 +322,12 @@ label:focus {
 }
 
 #custom-notification > * {
-	color:#ffeeff;
+	color:#ffffe6;
 }
 
 tooltip, menu, #tray menu {
-	background:rgba(12,7,25,1);
-	border: 1px solid rgb(110,84,210);
+	background:rgba(11,25,45,1);
+	border: 1px solid rgb(200,213,105);
 	border-radius:10px;
 	}
 

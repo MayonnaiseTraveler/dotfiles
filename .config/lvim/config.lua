@@ -1,5 +1,5 @@
 vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
-lvim.colorscheme = "rose-pine"
+lvim.colorscheme = "tokyonight-storm"
 lvim.format_on_save.enabled = true
 lvim.format_on_save.pattern = { "*.ejs", "*.lua", "*.py", "*.c", "*.json", "*.js", "*.css", "*.ts", "*.md", "*.html",
 	"*.sh",
@@ -80,7 +80,7 @@ if vim.g.neovide then
 		return string.format("%x", math.floor((255 * vim.g.neovide_transparency_point) or 0.8))
 	end
 
-	vim.g.neovide_refresh_rate = 144
+	vim.g.neovide_refresh_rate = 60
 	-- vim.g.neovide_background_color = "#0f1117" .. alpha()
 
 	-- Put anything you want to happen only in Neovide here

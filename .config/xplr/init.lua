@@ -11,6 +11,7 @@ local xpm_url = "https://github.com/dtomvan/xpm.xplr"
 
 -- xplr.config.general.initial_layout = "no_help_no_selection" -- Load the example layout
 
+
 package.path = package.path
 	.. ";"
 	.. xpm_path
@@ -113,6 +114,7 @@ require("xpm").setup({
 
 xplr.config.general.panel_ui.default.border_style.fg = "Red"
 
+-- Preview
 xplr.config.modes.builtin.default.key_bindings.on_key.P = {
 	help = "preview",
 	messages = {
@@ -231,8 +233,34 @@ key.v = {
 	help = "nuke",
 	messages = { "PopMode", { SwitchModeCustom = "nuke" } }
 }
+
 key["f3"] = xplr.config.modes.custom.nuke.key_bindings.on_key.v
 key["enter"] = xplr.config.modes.custom.nuke.key_bindings.on_key.o
+
+-- Allow movements while on filter/search:
+xplr.config.modes.builtin.search.key_bindings.on_key = {
+	["ctrl-l"] = {
+		help = "Enter",
+		messages = { "Enter" }
+	},
+	["ctrl-h"] = {
+		help = "Back",
+		messages = { "Back" }
+	},
+	["ctrl-j"] = {
+		help = "Down",
+		messages = { "FocusNext" }
+	},
+	["ctrl-k"] = {
+		help = "Up",
+		messages = { "FocusPrevious" }
+	},
+}
+
+--- Todo, upgrade enter option to open file correctly according to mime-type
+---key["ctrl-l"] = {
+--- Enter directory if it's a directory, open with feh if it's image, mpv if video, zathura with pdf, lvim for most texts, obsidian for mk, ncmpcpp for audio, if none ask user what to do
+---}
 
 xplr.config.modes.builtin.default.key_bindings.on_key["X"] = {
 	help = "open",

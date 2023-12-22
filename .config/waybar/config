@@ -68,8 +68,6 @@
 
 		"modules":["custom/trayicon","tray",]
 		},
-
-	
     "mpd": {
 		"rotate":90,
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
@@ -120,11 +118,11 @@
                 "on-scroll"     : 1,
                 "on-click-right": "mode",
                 "format": {
-                        "months":     "<span color='#e2cbe7'>{}</span>",
-                        "days":       "<span color='#e2cbe7'>{}</span>",
-                        "weeks":      "<span color='#4CBCE3'>W{}</span>",
-                        "weekdays":   "<span color='#9763E5'>{}</span>",
-                        "today":      "<span color='#835aff'><b>{}</b></span>"
+                        "months":     "<span color='#e4e6be'>{}</span>",
+                        "days":       "<span color='#e4e6be'>{}</span>",
+                        "weeks":      "<span color='#4d5d81'>W{}</span>",
+                        "weekdays":   "<span color='#3b9db4'>{}</span>",
+                        "today":      "<span color='#ffff73'><b>{}</b></span>"
                           }
                 }
 		},
@@ -237,7 +235,7 @@
       },
     },
 	"cava": {
-		"hide_on_silence":true,
+		"hide_on_silence":false,
         "cava_config": "/home/traveler/.config/cava/config",
 		"framerate":60,
 		"sleep_timer":5,

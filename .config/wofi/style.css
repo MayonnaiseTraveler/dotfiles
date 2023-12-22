@@ -1,13 +1,13 @@
 window {
     margin: 0px;
-    background-color: #0c0719;
+    background-color: #0b192d;
 }
 
 #input {
     margin: 5px;
     border: none;
-    color: #835aff;
-    background-color: #0c0719;
+    color: #ffff73;
+    background-color: #0b192d;
     border-radius: 10;
 }
 
@@ -18,14 +18,14 @@ window {
 #inner-box {
     margin: 5px;
     border: none;
-    background-color: #0c0719;
+    background-color: #0b192d;
     border-radius: 10;
 }
 
 #outer-box {
     margin: 15px;
     border: none;
-    background-color: #0c0719;
+    background-color: #0b192d;
 }
 
 #scroll {
@@ -36,17 +36,17 @@ window {
 #text {
     margin: 5px;
     border: none;
-    color: #e2cbe7;
+    color: #e4e6be;
 } 
 
 #entry:selected {
-    background-color: #6E54D2;
+    background-color: #c8d569;
     border-radius: 7;
     outline: none;
 }
 
 #entry:selected * {
-    background-color: #6E54D2;
+    background-color: #c8d569;
     border-radius: 7;
     outline: none;
 }
