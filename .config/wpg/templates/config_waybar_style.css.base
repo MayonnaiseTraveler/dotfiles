@@ -43,7 +43,7 @@ window#waybar.solo {{
     background-color: transparent;
 }}
 
-.modules-left,.modules-center,.modules-right{{
+#workspaces,#custom-menu,.modules-center,.modules-right{{
 		padding:8px 0;
 		border-radius:{b_radius}px;
 		border-width:{b_size}px;
@@ -53,11 +53,9 @@ window#waybar.solo {{
 		background-color: mix(rgb({color8.rgb}), rgb({color0.rgb}),0.35);
 	}}
 
-#workspaces {{
-	border-style:solid;
-	border-color:transparent;
-	border-radius:8px;
 
+#custom-menu{{
+	color:{color15};
 }}
 
 #workspaces button {{
@@ -71,16 +69,17 @@ window#waybar.solo {{
 	background-color: transparent;
 }}
 
+#custom-menu,
 #workspaces button * {{
 
 	font-size: calc({f_small}px * 2);
 }}
 
 
+#custom-menu:hover,
 #workspaces button:hover {{
   border-color:transparent;
   text-shadow: 0px 0px 5px rgb({color1.rgb});
-
   border:none;
   color:{color10};
 }}
@@ -98,6 +97,8 @@ window#waybar.solo {{
 }}
 
 
+
+#image-icon,
 #traybox,
 #pulseaudio.sound,
 #pulseaudio.icon,
@@ -148,9 +149,9 @@ window#waybar.solo {{
     background-color:rgb({color9.rgb});
 
 }}
-
+#image-icon,
+#privacy,
 #group-pulse,
-#custom-jgmenu,
 #clock,
 #cava,
 #battery,
@@ -346,3 +347,8 @@ tooltip * , label *, menu *, #tray menu * {{
 		font-size:calc({f_small}px * 1.4);
 	}}
 
+#user,#image,#image *, #image * *{{
+	border-style: solid;
+	border-width:0;
+	border-radius:20px;
+}}

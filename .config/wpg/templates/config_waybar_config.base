@@ -8,29 +8,30 @@
     //"margin-top":{gaps_out},
     //"margin-bottom":{gaps_out},
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces" ],
-    "modules-center": [ "clock","cava","pulseaudio#sound", "group/pulse", "custom/notification#count","custom/notification#icon"], 
-    "modules-right": [   "group/traybox","battery","custom/powermenu"],
+    "modules-left": ["custom/menu","hyprland/workspaces" ],
+    "modules-center": [ "clock","battery","cava","pulseaudio#sound", "group/pulse", "custom/notification#count","custom/notification#icon"], 
+    "modules-right": [   "group/traybox","custom/powermenu"],
     // Modules configuration
-	"custom/jgmenu":{{
+	"custom/menu":{{
 		"tooltip":false,
-		"format":"󰮫",
-		"on-click":"jgmenu --at-pointer ",
+		"format":"󱗼",
+		//"on-click":"nwg-menu -va top -mt 8 -term='kitty' -slen 40",
+		"on-click":"nwg-drawer -wm hyprland -ovl ",
 		}},
      "hyprland/workspaces": {{
          "all-outputs": true,
 		 "persistent-workspaces": {{
-             "*": 6, // 5 workspaces by default on every monitor
+             "*": 7, // 5 workspaces by default on every monitor
 		}},
          "format": "{{icon}}",
          "format-icons": {{
-             "1": "",
+             "1": "",
              "2": "",
-             "3": "",
-             "4": "󰍡",
+             "3": "󰠮",
+             "4": "󰙯",
              "5": "",
-             "6": "",
-             "7": "",
+             "6": "󰓓",
+             "7": "󰎆",
              "8": "",
              "9": "",
              "0": "",
@@ -65,8 +66,7 @@
         "children-class": "traycontainer",
 		"drawer":{{
 			}},
-
-		"modules":["custom/trayicon","tray",]
+			"modules":["custom/trayicon","tray"]
 		}},
     "mpd": {{
 		"rotate":90,
@@ -280,6 +280,29 @@
 		"on-click-right": "sleep 0.1 && swaync-client -d -sw",
 		"escape": true,
 	}},
+	"privacy": {{
+		"orientation": "vertical",
+		"icon-spacing": 4,
+		"icon-size": 18,
+		"transition-duration": 250,
+		"modules": [
+			{{
+				"type": "screenshare",
+				"tooltip": true,
+				"tooltip-icon-size": 24
+			}},
+			{{
+				"type": "audio-out",
+				"tooltip": true,
+				"tooltip-icon-size": 24
+			}},
+			{{
+				"type": "audio-in",
+				"tooltip": true,
+				"tooltip-icon-size": 24
+			}}
+		]
+	}},
 	"mpris": {{
         "rotate": 270,
 		"format": "{{player_icon}} {{dynamic}}",
@@ -293,5 +316,9 @@
 				"paused": "⏸"
 			}},
 		"ignored-players": ["firefox"]
-	}}
+	}},
+	"image#icon":{{
+		"path": "/home/traveler/.face.icon",
+		"size": 42,
+		}},
 }}

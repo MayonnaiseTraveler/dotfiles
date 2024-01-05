@@ -1,0 +1,48 @@
+window {{
+    background-color: rgba ({color0.rgb}, {opacity});
+    color:{color15};
+    border-style:solid;
+    border-width:{b_size}px;
+    border-color:{color9};
+	border-radius:{b_radius}px;
+}}
+
+list {{
+    border-radius: 15px;
+	background:none;
+}}
+
+
+list box{{
+	background:none;
+	}}
+
+label:hover * {{
+    background-color: rgba ({color9.rgb},1);
+}}
+
+label{{
+	color:{color15};
+	}}
+
+entry {{
+	padding:6px;
+	color:{color15};
+    background-color: rgba ({color8.rgb},1);
+}}
+
+entry:hover{{
+    background-color: rgba ({color8.rgb}, 1);
+    color: rgba ({color8.rgb}, 1);
+	}}
+
+button {{
+	padding:8px;
+	background: none;
+    border: none
+}}
+
+button:hover{{
+    background-color: rgba ({color8.rgb}, 0.5);
+    color: rgba ({color8.rgb}, 1);
+}}

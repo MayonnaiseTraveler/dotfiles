@@ -1,0 +1,64 @@
+# Dynamic Hyprland Style settings, modified by wpgtk
+
+general {{
+
+    gaps_in=5
+    gaps_out={gaps_out}
+    border_size={b_size}
+    col.active_border= rgb({color9.strip}) rgb({color10.strip}) 
+    col.inactive_border=rgb({color8.strip})
+
+}}
+
+decoration {{
+
+	blur {{
+		enabled= {blur}
+		size={blur_size} # minimum 1
+		passes=1 # minimum 1
+		new_optimizations=1
+	}}
+
+    rounding={b_radius2}
+    drop_shadow=true
+    shadow_range=10
+    col.shadow=rgb({color1.strip})
+    col.shadow_inactive = rgb({color0.strip})
+
+}}
+
+group {{
+	
+	col.border_inactive= rgba({color0.strip}00)
+    col.border_active= rgb({color10.strip}) rgb({color9.strip}) 
+		groupbar {{
+			col.inactive=rgba({color0.strip}00)
+			col.active= rgb({color10.strip}) rgb({color9.strip}) 
+			font_size = {f_small}
+			text_color = rgb({color15.strip})
+			gradients = true 
+			render_titles= true
+		}}
+
+	}}
+plugin {{
+    hyprbars {{
+        # example config
+		bar_precedence_over_border=true
+        bar_height = 24
+		bar_title_enabled = true
+		bar_color= rgb({color0.strip})
+		col.text = rgb({color9.strip})
+		bar_text_font={font1}
+		bar_part_of_window = true
+		bar_button_padding=12
+        # example buttons (R -> L)
+        # hyprbars-button = color, size, on-click
+        hyprbars-button = rgb({color9.strip}),14,, hyprctl dispatch killactive
+        hyprbars-button = rgb({color9.strip}),14,󰊓, hyprctl dispatch fullscreen 1
+        hyprbars-button = rgb({color9.strip}),14,󰐃, hyprctl dispatch pin
+
+
+
+    }}
+}}

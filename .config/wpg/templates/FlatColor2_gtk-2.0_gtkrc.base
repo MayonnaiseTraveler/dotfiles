@@ -1,16 +1,16 @@
 #modded Numix gtkrc
 
 gtk-color-scheme = "bg_color:{color0}
-color0: {color0}
-color1: {color1}
-color2: {color2}
-color3: {color3}
-color4: {color4}
-color5: {color5}
-color6: {color6}
-color7: {color7}
-color8: {color8}
-color9: {color9}
+color0:{color0}
+color1:{color1}
+color2:{color2}
+color3:{color3}
+color4:{color4}
+color5:{color5}
+color6:{color6}
+color7:{color7}
+color8:{color8}
+color9:{color9}
 color10:{color10}
 color11:{color11}
 color12:{color12}
@@ -18,15 +18,15 @@ color13:{color13}
 color14:{color14}
 color15:{color15}
 text_color:{color15}
-selected_bg_color:{color9}
-selected_fg_color:{color0}
+selected_bg_color:{active}
+selected_fg_color:{color15}
 tooltip_bg_color:{color0}
-tooltip_fg_color:{color9}
+tooltip_fg_color:{color15}
 titlebar_bg_color:{color0}
 titlebar_fg_color:{color15}
-menu_bg_color:#131971
-menu_fg_color:#fff2ff
-link_color:#7e6ccb"
+menu_bg_color:{color0}
+menu_fg_color:{color15}
+link_color:{active}"
 gtk-auto-mnemonics	= 1
 
 # Default Style
@@ -40,7 +40,7 @@ style "murrine-default" {{
 	GtkButton::child-displacement-x = 0
 	GtkButton::child-displacement-y = 0
 
-	GtkButton::default-border = {{ 10, 10, 10, 10 }}
+	GtkButton::default-border = {{ 0, 0, 0, 0 }}
 
 	GtkButtonBox::child-min-height = 26
 

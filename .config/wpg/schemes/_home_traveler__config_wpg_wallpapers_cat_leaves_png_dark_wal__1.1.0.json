@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/cat_leaves.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0c13",
+        "foreground": "#d1daed",
+        "cursor": "#d1daed"
+    },
+    "colors": {
+        "color0": "#0c0c13",
+        "color1": "#3D4E64",
+        "color2": "#43425E",
+        "color3": "#404060",
+        "color4": "#424867",
+        "color5": "#45506B",
+        "color6": "#43506D",
+        "color7": "#99a0ae",
+        "color8": "#1e1e32",
+        "color9": "#44648c",
+        "color10": "#4d4b84",
+        "color11": "#484887",
+        "color12": "#4a5690",
+        "color13": "#4e6396",
+        "color14": "#4b6399",
+        "color15": "#d1daed"
+    }
+}
