@@ -20,9 +20,9 @@ swaylock \
 --inside-clear-color 142f55 \
 --line-clear-color 142f55 \
 --text-clear-color e4e6be \
---ring-wrong-color 2a557e \
+--ring-wrong-color 2756b8 \
 --inside-wrong-color 0b192d \
---text-wrong-color 2a557e \
+--text-wrong-color 2756b8 \
 --grace 0 \
 --font 'ShureTechMono Nerd Font Mono' \
 --fade-in 0.2
