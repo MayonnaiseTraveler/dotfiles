@@ -1,5 +1,6 @@
 vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
-lvim.colorscheme = "tokyonight-storm"
+lvim.colorscheme = "colorscheme_bnnuy"
+-- lvim.colorscheme = "tokyonight-storm"
 lvim.format_on_save.enabled = true
 lvim.format_on_save.pattern = { "*.ejs", "*.lua", "*.py", "*.c", "*.json", "*.js", "*.css", "*.ts", "*.md", "*.html",
 	"*.sh",
@@ -73,7 +74,7 @@ lvim.builtin.treesitter.ensure_installed = {
 
 if vim.g.neovide then
 	vim.g.neovide_scale_factor = 0.5
-	-- vim.g.neovide_transparency = 1.0
+	vim.g.neovide_transparency = 1.0
 	-- vim.g.neovide_transparency_point = 0.0
 
 	local alpha = function()
@@ -171,6 +172,10 @@ lvim.plugins = {
 			vim.g.rnvimr_pick_enable = 1
 			vim.g.rnvimr_bw_enable = 1
 		end,
+	},
+	{
+		"luckasRanarison/tree-sitter-hyprlang",
+		requires = { "nvim-treesitter/nvim-treesitter" },
 	},
 	{
 		"folke/trouble.nvim",
