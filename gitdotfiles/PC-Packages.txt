@@ -77,7 +77,6 @@ glad
 glew-wayland
 glow
 gnome-keyring
-gnome-network-displays
 gnome-remote-desktop
 gnu-free-fonts
 gnu-netcat
@@ -208,6 +207,7 @@ nlohmann-json
 nmap
 nohang
 notify-send.sh
+noto-fonts-emoji
 npm
 nspr
 nss
@@ -352,6 +352,7 @@ unzip
 v4l2loopback-dkms
 v4l2loopback-utils
 valgrind
+vencord-desktop-bin
 vi
 viu
 vkbasalt
