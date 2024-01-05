@@ -32,10 +32,10 @@ waybar &
 ## Update theme
 ~/.config/hypr/scripts/import-gsettings.sh 
 
+pywalfox update
 
 ## Update Wallpaper
 # convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.png
-
 swww img \
 	--transition-type random \
 	--transition-duration 2 \
