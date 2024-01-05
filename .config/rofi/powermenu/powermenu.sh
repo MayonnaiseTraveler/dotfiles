@@ -88,18 +88,17 @@ case $chosen in
     if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 			i3lock
     elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
-      ~/.config/hypr/swaylock.sh
+      ~/.config/hypr/scripts/swaylock.sh
     fi
         ;;
     $suspend)
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-			mpc -q pause
-			amixer set Master mute
+			playerctl -a pause	
 		if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3lock
-		elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
-		  ~/.config/hypr/swaylock.sh
+		elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
+		  ~/.config/hypr/scripts/swaylock.sh
 		fi
 		systemctl suspend
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
