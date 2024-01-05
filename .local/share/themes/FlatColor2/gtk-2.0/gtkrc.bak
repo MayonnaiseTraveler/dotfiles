@@ -1,29 +1,29 @@
 #modded Numix gtkrc
 
-gtk-color-scheme = "bg_color:#131971
-color0:#131971
-color1:#9E9BDE
-color2:#8F91D6
-color3:#AEB0EA
-color4:#5E6EDD
-color5:#8579C5
-color6:#7A84DF
-color7:#d8cadf
-color8:#19229c
-color9:#b7b1ff
-color10:#a2a6ff
-color11:#c0c4ff
-color12:#657fff
-color13:#9e88ff
-color14:#8899ff
-color15:#fff2ff
-text_color:#fff2ff
-selected_bg_color:#7e6ccb
-selected_fg_color:#fff2ff
-tooltip_bg_color:#131971
-tooltip_fg_color:#fff2ff
-titlebar_bg_color:#131971
-titlebar_fg_color:#fff2ff
+gtk-color-scheme = "bg_color:#0C0A0F
+color0: #0C0A0F
+color1: #694A5D
+color2: #AD475C
+color3: #995369
+color4: #725B8A
+color5: #A66D8D
+color6: #D37290
+color7: #d8c3c8
+color8: #231d2d
+color9: #94547b
+color10:#f04c6e
+color11:#d65c82
+color12:#9367c2
+color13:#e97bb9
+color14:#ff7fb3
+color15:#fff1f8
+text_color:#fff1f8
+selected_bg_color:#94547b
+selected_fg_color:#0C0A0F
+tooltip_bg_color:#0C0A0F
+tooltip_fg_color:#94547b
+titlebar_bg_color:#0C0A0F
+titlebar_fg_color:#fff1f8
 menu_bg_color:#131971
 menu_fg_color:#fff2ff
 link_color:#7e6ccb"
@@ -40,7 +40,7 @@ style "murrine-default" {
 	GtkButton::child-displacement-x = 0
 	GtkButton::child-displacement-y = 0
 
-	GtkButton::default-border = { 0, 0, 0, 0 }
+	GtkButton::default-border = { 10, 10, 10, 10 }
 
 	GtkButtonBox::child-min-height = 26
 

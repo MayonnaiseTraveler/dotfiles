@@ -36,7 +36,7 @@ UnityDecoration.top {
 	border: 0px solid shade (@theme_bg_color, 0.5);
 	border-bottom-width: 0;
 	border-radius: 4px 4px 0 0; /* Corner radius, only the top ones should be */
-	padding: 1px 8px 0 8px; /* This padding will be applied to the content of the top layout */
+	padding: 1px 4px 0 4px; /* This padding will be applied to the content of the top layout */
 	background-color: @theme_bg_color; /* Decoration background */
 	color: @theme_fg_color; /* The foreground color will be used to paint the text */
 	text-shadow: none;

@@ -11,7 +11,7 @@ entry {
     background-color: @base_color;
     background-image: none;
     color: @text_color;
-    box-shadow: 0 2.5px 4.5px @shadow;
+    /* box-shadow: 0 2.5px 4.5px @shadow; */
 }
 
 entry:active,
