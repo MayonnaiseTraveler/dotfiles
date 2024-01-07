@@ -45,25 +45,16 @@ require("xpm").setup({
 		'dy-sh/dysh-style.xplr',
 		'dy-sh/get-rid-of-index.xplr',
 		'gitlab:hartan/web-devicons.xplr',
-		-- 'prncss-xyz/icons.xplr',
-		-- {
-		-- 	'dtomvan/extra-icons.xplr',
-		-- 	after = function()
-		-- 		xplr.config.general.table.row.cols[2] = { format = "custom.icons_dtomvan_col_1" }
-		-- 	end
-		-- },
-		'igorepst/context-switch.xplr',
-		'sayanarijit/command-mode.xplr',
-		{
-			'sayanarijit/wl-clipboard.xplr',
-			setup = function()
-				require("wl-clipboard").setup({
-					copy_command = "wl-copy -t text/uri-list",
-					paste_command = "wl-paste",
-					keep_selection = false,
-				})
-			end
-		},
+		'igorepst/context-switch.xplr', 'sayanarijit/command-mode.xplr', {
+		'sayanarijit/wl-clipboard.xplr',
+		setup = function()
+			require("wl-clipboard").setup({
+				copy_command = "wl-copy -t text/uri-list",
+				paste_command = "wl-paste",
+				keep_selection = false,
+			})
+		end
+	},
 		{
 			'sayanarijit/tri-pane.xplr',
 			setup = function()
@@ -85,7 +76,7 @@ require("xpm").setup({
 					drag_args = "",
 					drop_args = "",
 					keep_selection = false,
-					bin = "dragon",
+					bin = "dragon-drop",
 				})
 			end
 			-- Select files and type `:sD` to drag
@@ -103,7 +94,7 @@ require("xpm").setup({
 				})
 			end
 		},
-		-- 'sayanarijit/zentable.xplr',
+		'sayanarijit/zentable.xplr',
 
 	},
 	auto_install = true,
@@ -115,25 +106,25 @@ require("xpm").setup({
 xplr.config.general.panel_ui.default.border_style.fg = "Red"
 
 -- Preview
-xplr.config.modes.builtin.default.key_bindings.on_key.P = {
-	help = "preview",
-	messages = {
-		{
-			BashExecSilently0 = [===[
-        FIFO_PATH="/tmp/xplr.fifo"
+-- xplr.config.modes.builtin.default.key_bindings.on_key.P = {
+-- 	help = "preview",
+-- 	messages = {
+-- 		{
+-- 			BashExecSilently0 = [===[
+--         FIFO_PATH="/tmp/xplr.fifo"
 
-        if [ -e "$FIFO_PATH" ]; then
-          "$XPLR" -m StopFifo
-          rm -f -- "$FIFO_PATH"
-        else
-          mkfifo "$FIFO_PATH"
-          "$HOME/.config/xplr/imv-open.sh" "$FIFO_PATH" "$XPLR_FOCUS_PATH" &
-          "$XPLR" -m 'StartFifo: %q' "$FIFO_PATH"
-        fi
-      ]===],
-		},
-	},
-}
+--         if [ -e "$FIFO_PATH" ]; then
+--           "$XPLR" -m StopFifo
+--           rm -f -- "$FIFO_PATH"
+--         else
+--           mkfifo "$FIFO_PATH"
+--           "$HOME/.config/xplr/imv-open.sh" "$FIFO_PATH" "$XPLR_FOCUS_PATH" &
+--           "$XPLR" -m 'StartFifo: %q' "$FIFO_PATH"
+--         fi
+--       ]===],
+-- 		},
+-- 	},
+-- }
 -- batch rename
 xplr.config.modes.builtin.default.key_bindings.on_key.R = {
 	help = "batch rename",
@@ -241,7 +232,7 @@ key["enter"] = xplr.config.modes.custom.nuke.key_bindings.on_key.o
 xplr.config.modes.builtin.search.key_bindings.on_key = {
 	["ctrl-l"] = {
 		help = "Enter",
-		messages = { "Enter" }
+		messages = { "Enter", "ResetInputBuffer", Search = "" }
 	},
 	["ctrl-h"] = {
 		help = "Back",
@@ -257,18 +248,58 @@ xplr.config.modes.builtin.search.key_bindings.on_key = {
 	},
 }
 
+
 --- Todo, upgrade enter option to open file correctly according to mime-type
 ---key["ctrl-l"] = {
 --- Enter directory if it's a directory, open with feh if it's image, mpv if video, zathura with pdf, lvim for most texts, obsidian for mk, ncmpcpp for audio, if none ask user what to do
 ---}
 
-xplr.config.modes.builtin.default.key_bindings.on_key["X"] = {
+
+
+
+xplr.config.modes.builtin.default.key_bindings.on_key["o"] = {
 	help = "open",
 	messages = {
 		{
-			BashExecSilently0 = [===[
-        xdg-open "${XPLR_FOCUS_PATH:?}"
-      ]===],
+			BashExec =
+			[===[
+				$XDG_CONFIG_HOME/xplr/rifle.py -c $XDG_CONFIG_HOME/xplr/rifle.conf "${XPLR_FOCUS_PATH}"
+			]===]
+		},
+		"Enter",
+	},
+}
+
+
+xplr.config.modes.custom.yankS = {
+	name = "yankS",
+	key_bindings = {
+		on_key = {
+			y = {
+				help = "yank focused",
+				messages = {
+					{ Call = { command = "zsh", args = { '-c', 'wl-copy < "${XPLR_FOCUS_PATH}"' } } },
+					{ SwitchMode = "default" }
+				},
+			},
+			s = {
+				help = "yank Selected",
+				messages = {
+					{
+						Call = {
+							command = "zsh",
+							args = { '-c', 'cat $XPLR_PIPE_SELECTION_OUT | while read line; do wl-copy < "$line"; done' }
+						}
+
+					},
+					{ SwitchMode = "default" }
+				},
+			}
 		},
 	},
+}
+
+xplr.config.modes.builtin.default.key_bindings.on_key["Y"] = {
+	help = "Yank 2 System",
+	messages = { { SwitchModeCustom = "yankS" } }
 }
