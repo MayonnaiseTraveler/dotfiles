@@ -15,8 +15,8 @@
 	"custom/menu":{{
 		"tooltip":false,
 		"format":"󱗼",
-		//"on-click":"nwg-menu -va top -mt 8 -term='kitty' -slen 40",
-		"on-click":"nwg-drawer -wm hyprland -ovl ",
+		"on-click":"nwg-menu -va top -mt 8 -term='kitty' -slen 40 -cmd-lock '.config/hypr/scripts/swaylock.sh' ",
+		"on-click-right":"nwg-drawer -wm hyprland -ovl ",
 		}},
      "hyprland/workspaces": {{
          "all-outputs": true,

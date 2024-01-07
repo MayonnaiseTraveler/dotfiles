@@ -33,7 +33,7 @@
   --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   --text-normal: rgb({color15.rgb}); /* color of default discord text */
-  --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
+  --text-muted: rgb({color7.rgb}); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
   --members-width: 240px; /* member list width [default: 240px] */
 
@@ -60,9 +60,9 @@
 
   /* CHANNEL COLORS */
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
-  --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
-  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+  --channel-color: rgba({color15.rgb}, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  --channel-text-selected: {color9}; /* Selected channel text color, CV default is #fff */
+  --muted-color: rgba({color15.rgb},1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
