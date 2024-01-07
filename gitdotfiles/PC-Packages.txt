@@ -40,6 +40,7 @@ ddrescue
 debtap
 devour
 dnsmasq
+dos2unix
 dosfstools
 downgrade
 doxygen
@@ -59,7 +60,6 @@ ffmpegthumbnailer
 fhs-manpages
 figlet
 firefox
-flameshot
 flex
 fuse2
 fwupd
@@ -79,6 +79,7 @@ gobuster
 godot
 grc
 grim
+grimblast-git
 groff
 grub
 gsettings-qt
@@ -96,6 +97,7 @@ htop
 hyprland-git
 hyprpicker
 imagemagick
+imv
 inotify-tools
 iriunwebcam-bin
 iw
@@ -170,6 +172,7 @@ mono
 mono-msbuild
 most
 mpc
+mpd
 mpd-mpris-bin
 mpdris2
 mtools
@@ -272,6 +275,7 @@ realtime-privileges
 rlwrap
 rmlint
 rofi-lbonn-wayland
+rofimoji
 rsync
 ruffle-nightly-bin
 rust
@@ -313,6 +317,7 @@ texlive-latex
 thunar
 tinyssh
 tmux
+tomlplusplus
 tor
 tor-browser
 traceroute
@@ -343,6 +348,7 @@ vulkan-tools
 wacom-utility
 waybar-git
 wayland-utils
+waypaper-git
 weston
 wev
 wget
@@ -354,6 +360,8 @@ wine-staging
 winetricks
 wireplumber
 wl-clipboard
+wl-clipboard-x11
+wl-screenrec
 wlr-randr
 wlrctl
 wlroots
@@ -364,7 +372,6 @@ wpgtk-git
 wtfutil-bin
 wtype
 x86-manpages-git
-xclip
 xdelta3
 xdg-desktop-portal
 xdg-desktop-portal-gtk
