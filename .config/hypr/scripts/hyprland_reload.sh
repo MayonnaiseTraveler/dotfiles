@@ -20,6 +20,7 @@ sudo cp -f /home/traveler/.config/sddm/theme2.conf /usr/share/sddm/themes/corner
 
 # Terminate already running instances
 killall -q waybar
+# spicetify apply 
 swaync-client -R & 
 swaync-client -rs & 
 
@@ -41,4 +42,4 @@ swww img \
 	--transition-duration 2 \
 	$wall
 
-
+# spotify & 
