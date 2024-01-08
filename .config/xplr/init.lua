@@ -83,7 +83,6 @@ require("xpm").setup({
 			-- Type `:sD` without selecting anything to drop
 		},
 		'Junker/nuke.xplr',
-
 		-- tool to decompress / compress stuffs
 		{
 			'dtomvan/ouch.xplr',
@@ -105,26 +104,6 @@ require("xpm").setup({
 
 xplr.config.general.panel_ui.default.border_style.fg = "Red"
 
--- Preview
--- xplr.config.modes.builtin.default.key_bindings.on_key.P = {
--- 	help = "preview",
--- 	messages = {
--- 		{
--- 			BashExecSilently0 = [===[
---         FIFO_PATH="/tmp/xplr.fifo"
-
---         if [ -e "$FIFO_PATH" ]; then
---           "$XPLR" -m StopFifo
---           rm -f -- "$FIFO_PATH"
---         else
---           mkfifo "$FIFO_PATH"
---           "$HOME/.config/xplr/imv-open.sh" "$FIFO_PATH" "$XPLR_FOCUS_PATH" &
---           "$XPLR" -m 'StartFifo: %q' "$FIFO_PATH"
---         fi
---       ]===],
--- 		},
--- 	},
--- }
 -- batch rename
 xplr.config.modes.builtin.default.key_bindings.on_key.R = {
 	help = "batch rename",
@@ -141,8 +120,6 @@ xplr.config.modes.builtin.default.key_bindings.on_key.R = {
 		},
 	},
 }
-
-
 
 -- With `export XPLR_BOOKMARK_FILE="$HOME/bookmarks"`
 -- Bookmark: mode binding
@@ -270,6 +247,11 @@ xplr.config.modes.builtin.default.key_bindings.on_key["o"] = {
 	},
 }
 
+--- systemwide yank mode
+xplr.config.modes.builtin.default.key_bindings.on_key["Y"] = {
+	help = "Yank 2 System",
+	messages = { { SwitchModeCustom = "yankS" } }
+}
 
 xplr.config.modes.custom.yankS = {
 	name = "yankS",
@@ -299,7 +281,34 @@ xplr.config.modes.custom.yankS = {
 	},
 }
 
-xplr.config.modes.builtin.default.key_bindings.on_key["Y"] = {
-	help = "Yank 2 System",
-	messages = { { SwitchModeCustom = "yankS" } }
+-- Quit Mode
+xplr.config.modes.builtin.default.key_bindings.on_key["q"] = {
+	help = "Quit",
+	messages = { { SwitchModeCustom = "quit" } }
+}
+
+xplr.config.modes.custom.quit = {
+	name = "quit",
+	key_bindings = {
+		on_key = {
+			Q = {
+				help = "Cd & quit",
+				messages = {
+					"PrintPwdAndQuit"
+				},
+			},
+			q = {
+				help = "quit",
+				messages = {
+					"Quit"
+				},
+			},
+			v = {
+				help = "Quit to Vim",
+				messages = {
+					"PrintResultAndQuit"
+				},
+			},
+		},
+	},
 }
