@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/hyprboard.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#02040f",
+        "foreground": "#e5e5ff",
+        "cursor": "#e5e5ff"
+    },
+    "colors": {
+        "color0": "#02040f",
+        "color1": "#363f4c",
+        "color2": "#44495e",
+        "color3": "#50566a",
+        "color4": "#595e75",
+        "color5": "#6f6f8e",
+        "color6": "#8f8faf",
+        "color7": "#c0c0eb",
+        "color8": "#050e3d",
+        "color9": "#3d506b",
+        "color10": "#4d5884",
+        "color11": "#5b6995",
+        "color12": "#6671a5",
+        "color13": "#7f7fc8",
+        "color14": "#a5a5f8",
+        "color15": "#e5e5ff"
+    }
+}

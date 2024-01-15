@@ -38,6 +38,7 @@ entry:hover{{
 
 button {{
 	padding:8px;
+	margin:0px;
 	background: none;
     border: none
 }}

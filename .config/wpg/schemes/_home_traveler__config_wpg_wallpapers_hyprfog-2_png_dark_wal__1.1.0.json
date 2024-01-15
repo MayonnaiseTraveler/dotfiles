@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/hyprfog-2.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0A121B",
+        "foreground": "#a0ffff",
+        "cursor": "#a0ffff"
+    },
+    "colors": {
+        "color0": "#0A121B",
+        "color1": "#066769",
+        "color2": "#05827D",
+        "color3": "#056D93",
+        "color4": "#03A1A7",
+        "color5": "#02A2D3",
+        "color6": "#00AFED",
+        "color7": "#77e0e0",
+        "color8": "#162a40",
+        "color9": "#018c8f",
+        "color10": "#01aea7",
+        "color11": "#0190c4",
+        "color12": "#01d3dc",
+        "color13": "#01d3ff",
+        "color14": "#01e3ff",
+        "color15": "#a0ffff"
+    }
+}

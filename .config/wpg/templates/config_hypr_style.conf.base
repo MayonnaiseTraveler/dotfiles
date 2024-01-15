@@ -20,8 +20,8 @@ decoration {{
 	}}
 
     rounding={b_radius2}
-    drop_shadow=true
-    shadow_range=10
+    drop_shadow={shadow}
+    shadow_range={shadow_range}
     col.shadow=rgb({color1.strip})
     col.shadow_inactive = rgb({color0.strip})
 

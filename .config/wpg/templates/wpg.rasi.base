@@ -157,7 +157,10 @@ sidebar {{
 inputbar {{
     spacing:    1;
     text-color: @normal-foreground;
-    padding:    5px;
+    padding:    8px;
+	border:  0px;
+    border-radius:10px;
+
     children:   [ prompt, textbox-prompt-sep, entry, case-indicator ];
 
 }}
@@ -191,7 +194,6 @@ textbox-prompt-sep {{
 }}
 
 element-text, element-icon {{
-
 	font: "{font0} {f_small}";
 	text-color: @foreground;
 	background-color: transparent;
