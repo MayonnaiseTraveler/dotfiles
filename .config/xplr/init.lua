@@ -60,7 +60,7 @@ require("xpm").setup({
 			setup = function()
 				require('tri-pane').setup({
 					layout_key = "T", -- In switch_layout mode
-					as_default_layout = false,
+					as_default_layout = true,
 					left_pane_width = { Percentage = 20 },
 					middle_pane_width = { Percentage = 40 },
 					right_pane_width = { Percentage = 40 },
@@ -82,7 +82,6 @@ require("xpm").setup({
 			-- Select files and type `:sD` to drag
 			-- Type `:sD` without selecting anything to drop
 		},
-		'Junker/nuke.xplr',
 		-- tool to decompress / compress stuffs
 		{
 			'dtomvan/ouch.xplr',
@@ -197,14 +196,6 @@ xplr.config.modes.custom.bookmark = {
 
 local key = xplr.config.modes.builtin.default.key_bindings.on_key
 
-key.v = {
-	help = "nuke",
-	messages = { "PopMode", { SwitchModeCustom = "nuke" } }
-}
-
-key["f3"] = xplr.config.modes.custom.nuke.key_bindings.on_key.v
-key["enter"] = xplr.config.modes.custom.nuke.key_bindings.on_key.o
-
 -- Allow movements while on filter/search:
 xplr.config.modes.builtin.search.key_bindings.on_key = {
 	["ctrl-l"] = {
@@ -226,29 +217,23 @@ xplr.config.modes.builtin.search.key_bindings.on_key = {
 }
 
 
---- Todo, upgrade enter option to open file correctly according to mime-type
----key["ctrl-l"] = {
---- Enter directory if it's a directory, open with feh if it's image, mpv if video, zathura with pdf, lvim for most texts, obsidian for mk, ncmpcpp for audio, if none ask user what to do
----}
-
-
-
-
-xplr.config.modes.builtin.default.key_bindings.on_key["o"] = {
+key.o = {
 	help = "open",
 	messages = {
 		{
-			BashExec =
-			[===[
-				$XDG_CONFIG_HOME/xplr/rifle.py -c $XDG_CONFIG_HOME/xplr/rifle.conf "${XPLR_FOCUS_PATH}"
-			]===]
+			Call = {
+				command = "zsh",
+				args = { '-c',
+					'$XDG_CONFIG_HOME/xplr/rifle.py -c $XDG_CONFIG_HOME/xplr/rifle.conf "${XPLR_FOCUS_PATH}"'
+				}
+			}
 		},
 		"Enter",
 	},
 }
 
 --- systemwide yank mode
-xplr.config.modes.builtin.default.key_bindings.on_key["Y"] = {
+key.Y = {
 	help = "Yank 2 System",
 	messages = { { SwitchModeCustom = "yankS" } }
 }
@@ -281,34 +266,17 @@ xplr.config.modes.custom.yankS = {
 	},
 }
 
--- Quit Mode
-xplr.config.modes.builtin.default.key_bindings.on_key["q"] = {
-	help = "Quit",
-	messages = { { SwitchModeCustom = "quit" } }
+
+key.Q = {
+	help = "Cd & quit",
+	messages = {
+		"PrintPwdAndQuit"
+	}
 }
 
-xplr.config.modes.custom.quit = {
-	name = "quit",
-	key_bindings = {
-		on_key = {
-			Q = {
-				help = "Cd & quit",
-				messages = {
-					"PrintPwdAndQuit"
-				},
-			},
-			q = {
-				help = "quit",
-				messages = {
-					"Quit"
-				},
-			},
-			v = {
-				help = "Quit to Vim",
-				messages = {
-					"PrintResultAndQuit"
-				},
-			},
-		},
-	},
+key.v = {
+	help = "Quit to Vim",
+	messages = {
+		"PrintResultAndQuit"
+	}
 }

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/pypy 
 # This file is part of ranger, the console file manager.
 # License: GNU GPL version 3, see the file "AUTHORS" for details.
 
@@ -25,7 +25,7 @@ __version__ = 'rifle 1.9.3'
 
 # Options and constants that a user might want to change:
 DEFAULT_PAGER = 'less'
-DEFAULT_EDITOR = 'vim'
+DEFAULT_EDITOR = 'lvim'
 ASK_COMMAND = 'ask'
 ENCODING = 'utf-8'
 
