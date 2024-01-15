@@ -70,7 +70,7 @@ export ZSH="$HOME/.config/oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z cp git nmap aliases vi-mode)
+plugins=(z cp git aliases vi-mode colorize zsh-256color)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -132,9 +132,10 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 
 # Set aliases
-alias ls='ls --color=auto'
-alias la='ls --color=auto -alh'
-alias ll='ls --color=auto -lh'
+alias ls='exa --icons=always '
+alias la='exa --icons=always -ah'
+alias lla='exa --icons=always -alh'
+alias ll='exa --icons=always -lh'
 alias mpv='devour mpv'
 alias zathura='devour zathura '
 alias cmatrix='cmatrix -bC blue -M "H E L L  Y E A H"'
@@ -159,7 +160,8 @@ alias ni='ncmpcpp -c ~/.config/ncmpcpp/config_alt'
 alias ssh="kitty +kitten ssh"
 alias yt-dlv="yt-dlp -x --audio-format mp3 --embed-thumbnail --add-metadata -i"
 alias idavis="davis cover & davis current"
-alias ifetch="neofetch --clean && neofetch --backend kitty --source ~/Imagens/wallpaper.webp"
+alias neofetch'clear && neofetch'
+# alias ifetch="neofetch --clean && neofetch --backend kitty --source ~/Imagens/wallpaper.webp"
 alias peaclock="peaclock --config-dir ~/.config/peaclock --colour=on"
 alias x='cd "$(xplr --print-pwd-as-result)"'
 alias drawtimer='./scripts/drawtimer.sh'
