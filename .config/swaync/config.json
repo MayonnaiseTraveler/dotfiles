@@ -2,8 +2,8 @@
 	"$schema": "/etc/xdg/swaync/configSchema.json",
 	"positionX": "left",
 	"positionY": "top",
-	"layer": "top",
-	"control-center-layer": "top",
+	"layer": "overlay",
+	"control-center-layer": "overlay",
 	"layer-shell": true,
 	"cssPriority": "application",
 	"control-center-margin-top": 20,
@@ -29,12 +29,21 @@
 	"hide-on-action": true,
 	"script-fail-notify": true,
 	"scripts": {
-		"example-script": {
+		"ignore_spotify": {
+		    "exec": "",
 			"urgency": "Normal"
 		},
-		"example-action-script": {
-			"urgency": "Normal",
-			"run-on": "action"
+		"ignore_spotify": {
+		    "exec": "",
+			"urgency": "Normal"
+		},
+		"ignore_mpd": {
+		    "exec": "",
+			"urgency": "Normal"
+		},
+		"sfx": {
+		    "exec": "",
+			"urgency": "Normal"
 		}
 	},
 	"notification-visibility": {
@@ -83,7 +92,6 @@
 		},
 		"menubar": {
 			"label": "amogus",
-			"position": "left",
 			"actions": [
 				{
 					"label": "   Reboot",
