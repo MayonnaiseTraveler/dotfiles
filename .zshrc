@@ -160,7 +160,8 @@ alias ni='ncmpcpp -c ~/.config/ncmpcpp/config_alt'
 alias ssh="kitty +kitten ssh"
 alias yt-dlv="yt-dlp -x --audio-format mp3 --embed-thumbnail --add-metadata -i"
 alias idavis="davis cover & davis current"
-alias neofetch'clear && neofetch'
+alias bgfetch='clear && neofetch'
+alias fetch='clear && neofetch --ascii'
 # alias ifetch="neofetch --clean && neofetch --backend kitty --source ~/Imagens/wallpaper.webp"
 alias peaclock="peaclock --config-dir ~/.config/peaclock --colour=on"
 alias x='cd "$(xplr --print-pwd-as-result)"'
