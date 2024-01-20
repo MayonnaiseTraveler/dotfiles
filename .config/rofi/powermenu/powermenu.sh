@@ -87,7 +87,7 @@ case $chosen in
     $lock)
     if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 			i3lock
-    elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
+    elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
       ~/.config/hypr/scripts/swaylock.sh
     fi
         ;;
