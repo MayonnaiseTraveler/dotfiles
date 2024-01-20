@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/HYPRCHAN.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#060511",
+        "foreground": "#f6f2ff",
+        "cursor": "#f6f2ff"
+    },
+    "colors": {
+        "color0": "#060511",
+        "color1": "#2E519F",
+        "color2": "#5660A0",
+        "color3": "#436CCE",
+        "color4": "#A46F8F",
+        "color5": "#609CE9",
+        "color6": "#57BEF3",
+        "color7": "#d7d4e9",
+        "color8": "#120f39",
+        "color9": "#2e64dc",
+        "color10": "#5f71df",
+        "color11": "#4585ff",
+        "color12": "#e77ebd",
+        "color13": "#67c8ff",
+        "color14": "#5bfdff",
+        "color15": "#f6f2ff"
+    }
+}
