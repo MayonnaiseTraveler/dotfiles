@@ -1,0 +1,148 @@
+{{
+	"$schema": "/etc/xdg/swaync/configSchema.json",
+	"positionX": "left",
+	"positionY": "top",
+	"layer": "overlay",
+	"control-center-layer": "overlay",
+	"layer-shell": true,
+	"cssPriority": "application",
+	"control-center-margin-top": {gaps_out},
+	"control-center-margin-bottom": {gaps_out},
+	"control-center-margin-right": 0,
+	"control-center-margin-left": {gaps_out},
+	"notification-2fa-action": false,
+	"notification-inline-replies": true,
+	"notification-icon-size": 64,
+	"notification-body-image-height": 200,
+	"notification-body-image-width": 200,
+	"timeout": 10,
+	"timeout-low": 5,
+	"timeout-critical": 0,
+	"fit-to-screen": true,
+	"control-center-width": {swaync_w},
+	"control-center-height": {swaync_h},
+	"notification-window-width": 400,
+	"keyboard-shortcuts": true,
+	"image-visibility": "when-available",
+	"transition-time": 200,
+	"hide-on-clear": false,
+	"hide-on-action": true,
+	"script-fail-notify": true,
+	"scripts": {{
+		"ignore_spotify": {{
+		    "exec": "",
+			"urgency": "Normal"
+		}},
+		"ignore_spotify": {{
+		    "exec": "",
+			"urgency": "Normal"
+		}},
+		"ignore_mpd": {{
+		    "exec": "",
+			"urgency": "Normal"
+		}},
+		"sfx": {{
+		    "exec": "",
+			"urgency": "Normal"
+		}}
+	}},
+	"notification-visibility": {{
+		"notification-name": {{}}
+	}},
+	"widgets": [
+		"buttons-grid",
+		"mpris",
+		"volume",
+		"backlight",	
+		"title",
+		"dnd",
+		"notifications"
+	],
+	"widget-config": {{
+		"inhibitors": {{
+			"text": "Inhibitors",
+			"button-text": "Clear All",
+			"clear-all-button": true
+		}},
+		"title": {{
+			"text": "Notifs",
+			"clear-all-button": true,
+			"button-text": "Clear"
+		}},
+		"dnd": {{
+			"text": "DND"
+		}},
+		"label": {{
+			"max-lines": 5,
+			"text": "Label Text"
+		}},
+		"mpris": {{
+			"image-size": 96,
+			"image-radius": 12
+		}},
+		"volume": {{
+			"label": "󰕾",
+			"expand-button-label": "",
+			"collapse-button-label": "",
+			"show-per-app": true
+		}},
+		"backlight": {{
+			"label": "󰃟 ",
+			"subsystem": "leds",
+			"device": "input19::compose"
+		}},
+		"menubar": {{
+			"menu#power":{{
+				"label": "power",
+				"actions": [
+					{{
+						"label": "   Shut down",
+						"command": "systemctl poweroff"
+					}},
+					{{
+						"label": "   Reboot",
+						"command": "systemctl reboot"
+					}},
+					{{
+						"label": "󰌾   Lock",
+						"command": "swaylock.sh"
+					}},
+					{{
+						"label": "   Sleep",
+						"command": "loginctl terminate-session ${{XDG_SESSION_ID-}}"
+					}},
+					{{
+						"label": "   Logout",
+						"command": "loginctl terminate-session ${{XDG_SESSION_ID-}}"
+					}}
+				]
+			}}
+			
+		}},
+		"buttons-grid": {{
+			"actions": [
+				{{
+					"label": "",
+					"command": "systemctl poweroff"
+				}},
+				{{
+					"label": "",
+					"command": "systemctl reboot"
+				}},
+				{{
+					"label": "󰌾",
+					"command": "swaylock.sh"
+				}},
+				{{
+					"label": "",
+					"command": "loginctl terminate-session ${{XDG_SESSION_ID-}}"
+				}},
+				{{
+					"label": "",
+					"command": "loginctl terminate-session ${{XDG_SESSION_ID-}}"
+				}}
+
+			]
+		}}
+	}}
+}}

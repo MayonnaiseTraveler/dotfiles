@@ -1,23 +1,43 @@
 {{
     "layer": "top", // Waybar at top layer
     "position": "left", // Waybar position (top|bottom|left|right)
+
     //"height": , // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
     "margin-left":0,
     "margin-right":0,
     //"margin-top":{gaps_out},
     //"margin-bottom":{gaps_out},
+
     // Choose the order of the modules
-    "modules-left": ["custom/menu","hyprland/workspaces" ],
-    "modules-center": [ "clock","battery","cava","pulseaudio#sound", "group/pulse", "custom/notification#count","custom/notification#icon"], 
-    "modules-right": [   "group/traybox","custom/powermenu"],
+    "modules-left": [
+		"custom/menu",
+		"hyprland/workspaces" 
+			],
+    "modules-center": [ 
+		"custom/weather#icon",
+		"custom/weather#temp",
+		"cava",
+		"clock",
+	], 
+
+    "modules-right": [   
+		"group/traybox",
+		"group/pulse",
+		"battery",
+		//"custom/notification#count",
+		"custom/notification#icon",
+		"custom/powermenu"
+	],
+
     // Modules configuration
 	"custom/menu":{{
 		"tooltip":false,
-		"format":"󱗼",
-		"on-click":"nwg-menu -va top -mt 8 -term='kitty' -slen 40 -cmd-lock '.config/hypr/scripts/swaylock.sh' ",
+		"format":"󰣇",
+		"on-click":"nwg-menu -va top -mt {gaps_out} -ml {gaps_out} -term='kitty' -slen 40 -cmd-lock '.config/hypr/scripts/swaylock.sh' ",
 		"on-click-right":"nwg-drawer -wm hyprland -ovl ",
 		}},
+
      "hyprland/workspaces": {{
          "all-outputs": true,
 		 "persistent-workspaces": {{
@@ -43,6 +63,7 @@
        "on-scroll-down": "hyprctl dispatch workspace e-1",
        "on-click": "activate",
        }},
+
     "keyboard-state": {{
         "numlock": true,
         "capslock": true,
@@ -56,8 +77,23 @@
       "format": "👉 {{}}",
       "separate-outputs": true,
     }},
+	"custom/weather#temp": {{
+		"format": "{{}}",
+		"tooltip": true,
+		"interval": 3600,
+		"exec": "wttrbar --custom-indicator '{{temp_C}}'",
+		"return-type": "json"
+	}},
+	"custom/weather#icon": {{
+		"format": "<big>{{}}</big>",
+		"tooltip": true,
+		"interval": 3600,
+		"exec": "wttrbar --vertical-view --custom-indicator '{{ICON}}'",
+		"return-type": "json"
+	}},
+
 	"custom/trayicon":{{
-		"format": "",
+		"format": "",
         "tooltip": false,
 		}},
 	"group/traybox":{{
@@ -104,7 +140,7 @@
         }}
     }},
     "tray": {{
-         "show-passive-items" : true,
+         "show-passive-items" : false,
          "icon-size": {f_big},
          "spacing": 0
     }},
@@ -171,7 +207,7 @@
 			"transition-left-to-right":true
 			}},
 
-		"modules":["pulseaudio#icon","pulseaudio/slider"]
+		"modules":["pulseaudio#icon","pulseaudio#sound","pulseaudio/slider"]
 		}},
 	"pulseaudio/slider": {{
 		"min": 0,
@@ -193,9 +229,9 @@
             "car": "",
             "default": ["", "", "󰕾"]
         }},
-        "on-click-right": "pavucontrol",
+        "on-click": "pavucontrol",
         "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
-        "on-click":"pulseaudio-control togmute",
+        "on-click-right":"pulseaudio-control togmute",
     }},
 	"pulseaudio#icon": {{
         "format": "{{icon}}",
@@ -212,9 +248,9 @@
             "car": "",
             "default": ["", "", "󰕾"]
         }},
-        "on-click-right": "pavucontrol",
+        "on-click": "pavucontrol",
         "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
-        "on-click":"pulseaudio-control togmute",
+        "on-click-right":"pulseaudio-control togmute",
     }},
     "custom/dunst": {{
         "format": "{{}}<span size='xx-large'>\n{{icon}}</span>",
@@ -242,7 +278,7 @@
 		"source":"auto",
 		"method":"pipewire",
 		"rotate": 270,
-        "bars": 20,
+        "bars": 16,
         "stereo": true,
         "bar_delimiter": 0,
         "input_delay": 0,
@@ -252,7 +288,7 @@
 	"custom/notification#count": {{
 		"max-length": 2,
 		"tooltip": false,
-		"format": "{{}}",
+		"format": " <small><sup>{{}}</sup></small>",
 		"return-type": "json",
 		"exec-if": "which swaync-client",
 		"exec": "swaync-client -swb",
@@ -263,15 +299,15 @@
 		"tooltip": false,
 		"format": "{{icon}}",
 		"format-icons": {{
-			"notification": "󱅫",
-			"none": "󰂚",
-			"default": "󰂚",
-			"dnd-notification": "󰂛<sup></sup>",
-			"dnd-none": "󰂛",
-			"inhibited-notification": "󱅫",
-			"inhibited-none": "󰂚",
-			"dnd-inhibited-notification":"󰂛<sup></sup>",
-			"dnd-inhibited-none": "󰂛"
+			"notification": "󱥁",
+			"none": "󰍡",
+			"default": "󰍡",
+			"dnd-notification": "󱙍",
+			"dnd-none": "󱙍",
+			"inhibited-notification": "󱙍",
+			"inhibited-none": "󱙍",
+			"dnd-inhibited-notification":"󱙍<sup></sup>",
+			"dnd-inhibited-none": "󱙍"
 		}},
 		"return-type": "json",
 		"exec-if": "which swaync-client",

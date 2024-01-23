@@ -14,20 +14,21 @@
 
 
 window#waybar{{
-		background-color:transparent;
-	}}
+	background-color:transparent;
+}}
 
 window#waybar > box {{
+	background-color:transparent;
     background-color:rgba({color0.rgb},{opacity});
-	margin-right:8px;
+	margin: 0 0;
     color:{color15};
     border-style:solid;
-    border-width:1px;
+    border-width:{b_size};
 	border-left:0;
-	border-bottom:0;
 	border-top:0;
+	border-bottom:0;
+	border-radius:0 ;
     border-color:{color9};
-    box-shadow: 0px 0px 4px 0px rgb({color9.rgb});
     color: transparent;
 }}
 
@@ -43,35 +44,57 @@ window#waybar.solo {{
     background-color: transparent;
 }}
 
-#workspaces,#custom-menu,.modules-center,.modules-right{{
-		padding:8px 0;
-		border-radius:{b_radius}px;
-		border-width:{b_size}px;
-		border-style: solid; 
-		margin:8px;
-		border-color:mix(rgb({color1.rgb}), rgb({color8.rgb}),0.75);
-		background-color: mix(rgb({color8.rgb}), rgb({color0.rgb}),0.35);
-	}}
+.modules-center,.modules-right,.modules-left{{
+	margin:{gaps_out}px 0px;
+	border-radius:0 {b_radius}px {b_radius}px 0;
+	border-width:2;
+	border-style:solid; 
+	border-left:0;
+	border-right:0;
+	border-color:mix(rgb({color1.rgb}), rgb({color8.rgb}),0.75);
+	background-color: mix(rgb({color8.rgb}), rgb({color0.rgb}),0.35);
+}}
 
+.modules-left{{
+	border-top:0; 
+	border-top-width:0; 
+	border-left:0;
+	padding-bottom: 8px;
+}}
 
-#custom-menu{{
-	color:{color15};
+.modules-center,.modules-right {{
+	border-radius:0 {b_radius}px {b_radius}px 0;
+	border-left:0;
+	padding: 8px 0px;
+}}
+
+#custom-menu {{
+	border-color:{color10};
+	border-width:1;
+	border-radius:0 {b_radius}px 0 0;
+	background-color:{color10};
+	padding:0px;
+	margin-bottom:8px;
+	color:{color0};
+	font-size:calc({f_big}px * 1.6);
 }}
 
 #workspaces button {{
-	margin-bottom:4px;
+	border-left:0;
 	background-color:transparent;
-        color:{color15};
-
+	border-radius:0;
+	border-width:0px;
+	border-right:0;
+	border-top:0;
+	border-bottom:0;
+	color:{color7};
 }}
 
 #workspaces button.hidden{{
 	background-color: transparent;
 }}
 
-#custom-menu,
 #workspaces button * {{
-
 	font-size: calc({f_small}px * 2);
 }}
 
@@ -79,14 +102,15 @@ window#waybar.solo {{
 #custom-menu:hover,
 #workspaces button:hover {{
   border-color:transparent;
-  text-shadow: 0px 0px 5px rgb({color1.rgb});
   border:none;
   color:{color10};
 }}
 
 #workspaces button.active {{
     color:{color9};
-    text-shadow: 0px 0px 5px rgb({color9.rgb});
+	border-width:2px;
+	border-left:solid 2px;
+	border-color:{color10};
 }}
 
 #workspaces button.urgent {{
@@ -96,8 +120,6 @@ window#waybar.solo {{
     border: 0px solid #ffffff;
 }}
 
-
-
 #image-icon,
 #traybox,
 #pulseaudio.sound,
@@ -106,14 +128,32 @@ window#waybar.solo {{
 #custom-notification.count,
 #custom-powermenu{{
     padding: 0px 0px; 
-	margin:0px;
-    color:{color15};
-     border-radius:{b_radius}px; 
+	margin: 0px;
+    color:{color7};
+    border-radius:{b_radius}px; 
+}}
+
+#custom-notification.count{{
+	margin:0;
+	padding:0;
+	font-size:calc({f_big}px * 1.2);
+}}
+
+#traybox .traycontainer{{
+	background-color:{color0};
+	border-radius:0;
+}}
+
+#custom-powermenu{{
+	color:{color13}
+}}
+
+#pulseaudio.icon{{
+    color:{color7};
 }}
 
 #custom-notification.count,
 #pulseaudio.sound{{
-	margin-top:10px;
 }}
 
 #custom-notification.icon,
@@ -122,11 +162,20 @@ window#waybar.solo {{
 	font-size:calc({f_big}px * 1.4);
 }}
 
+#custom-notification.icon{{
+	margin-top:0;
+	padding-top:0;
+	color:{color7};
+}}
+
+#custom-trayicon{{
+	color:{color7};
+	transition:100ms;
+}}
 
 #tray *{{
 	margin:8px;
 }}
-
 #pulseaudio-slider slider {{
 	color:white;
     min-height: 0px;
@@ -161,6 +210,7 @@ window#waybar.solo {{
 #temperature,
 #backlight,
 #network,
+#custom-weather,
 #custom-media,
 #mode,
 #idle_inhibitor,
@@ -170,13 +220,24 @@ window#waybar.solo {{
 #mpris{{
     background-color:rgba({color0.rgb},0);
     padding: 0px 0px; 
-    margin: 10px;
+    margin: 8px 0;
     color:{color15};
     /* border-style:solid; */
     /* border-width:2px; */
     /* border-color:{color8}; */
      border-radius:{b_radius}px; 
 
+}}
+
+
+#custom-weather.icon{{
+	padding-bottom:0;
+	margin-bottom:0;
+}}
+
+#custom-weather.temp{{
+	padding-top:0;
+	margin-top:0;
 }}
 
 #cava{{
@@ -212,10 +273,6 @@ window#waybar.solo {{
 label:focus {{
 }}
 
-#cpu {{
-    color: #000000;
-}}
-
 #memory {{
 }}
 
@@ -236,7 +293,7 @@ label:focus {{
 }}
 
 #pulseaudio.muted {{
-    color: #2a5c45;
+	color: mix(rgb({color0.rgb}),rgb({color9.rgb}),0.8);
 }}
 
 #custom-media {{

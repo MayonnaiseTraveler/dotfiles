@@ -36,7 +36,7 @@ group {{
 			col.active= rgb({color10.strip}) rgb({color9.strip}) 
 			font_size = {f_small}
 			text_color = rgb({color15.strip})
-			gradients = true 
+			gradients =false 
 			render_titles= true
 		}}
 
