@@ -272,7 +272,7 @@
     }},
 	"cava": {{
 		"hide_on_silence":false,
-        "cava_config": "/home/traveler/.config/cava/config",
+        "cava_config": "$HOME/.config/cava/config",
 		"framerate":60,
 		"sleep_timer":5,
 		"source":"auto",
@@ -354,7 +354,7 @@
 		"ignored-players": ["firefox"]
 	}},
 	"image#icon":{{
-		"path": "/home/traveler/.face.icon",
+		"path": "$HOME/.face.icon",
 		"size": 42,
 		}},
 }}
