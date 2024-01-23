@@ -318,8 +318,6 @@ thunar
 tinyssh
 tmux
 tomlplusplus
-tor
-tor-browser
 traceroute
 trash-d
 tree

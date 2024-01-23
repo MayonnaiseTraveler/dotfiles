@@ -1,25 +1,25 @@
-157 wpgtk.desktop
-30 qt5ct.desktop
-29 qt6ct.desktop
-23 vencord-desktop.desktop
-17 librewolf.desktop
-15 steam.desktop
-15 nwg-look.desktop
-14 spotify.desktop
-12 guiscrcpy.desktop
-10 Overwatch 2.desktop
-9 com.obsproject.Studio.desktop
+230 wpgtk.desktop
+36 librewolf.desktop
+31 virt-manager.desktop
+31 vencord-desktop.desktop
+25 qt5ct.desktop
+24 qt6ct.desktop
+21 steam.desktop
+19 guiscrcpy.desktop
+17 com.obsproject.Studio.desktop
+16 spotify.desktop
+10 modrinth-app.desktop
+9 nwg-look.desktop
 8 com.github.wwmm.easyeffects.desktop
-7 neovide-lunarvim.desktop
+7 Overwatch 2.desktop
 6 org.keepassxc.KeePassXC.desktop
-2 org.gnome.NetworkDisplays.desktop
-2 input-remapper-gtk.desktop
+2 neovide-lunarvim.desktop
+2 ldtk.desktop
+2 floorp.desktop
+2 firefox.desktop
 2 QuickMedia.desktop
-1 org.kde.krita.desktop
-1 org.bleachbit.BleachBit.desktop
-1 org.flameshot.Flameshot.desktop
-0 firefox.desktop
-0 de.shorsh.discord-screenaudio.desktop
-0 io.itch.itch.desktop
+2 iriunwebcam.desktop
+1 nm-connection-editor.desktop
+1 iwgtk.desktop
+1 Cyberpunk 2077.desktop
 0 obsidian.desktop
-0 iwgtk.desktop

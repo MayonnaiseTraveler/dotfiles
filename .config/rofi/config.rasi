@@ -2,6 +2,8 @@ configuration {
 
 	cache-dir:"/home/traveler/.config/rofi/cache/";
 	threads:3;
+	x-offset: 50;
+	y-offset: 50;
 	show-icons: true;
 	modes: "run,ssh,combi,keys";
 	display-combi: "Manda Bala";
