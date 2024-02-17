@@ -1,13 +1,13 @@
 window {
-    background-color:#0b192d ;
-    color:#ffffe6 
+    background-color:#070f19 ;
+    color:#92ffff 
 }
 
 /* search entry */
 entry {
 	padding:8px;
 	border-radius:16px;
-    background-color: #142f55;
+    background-color: #112641;
 }
 
 button, image {
@@ -16,7 +16,7 @@ button, image {
 }
 
 button:hover {
-    background-color: rgba (255,255,115, 0.2)
+    background-color: rgba (1,134,136, 0.2)
 }
 
 /* in case you wanted to give category buttons a different look */

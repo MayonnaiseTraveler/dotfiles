@@ -34,7 +34,7 @@
 	"custom/menu":{{
 		"tooltip":false,
 		"format":"󰣇",
-		"on-click":"nwg-menu -va top -mt {gaps_out} -ml {gaps_out} -term='kitty' -slen 40 -cmd-lock '.config/hypr/scripts/swaylock.sh' ",
+		"on-click":"~/.config/hypr/scripts/nwg-menu.sh",
 		"on-click-right":"nwg-drawer -wm hyprland -ovl ",
 		}},
 
@@ -272,7 +272,6 @@
     }},
 	"cava": {{
 		"hide_on_silence":false,
-        "cava_config": "$HOME/.config/cava/config",
 		"framerate":60,
 		"sleep_timer":5,
 		"source":"auto",

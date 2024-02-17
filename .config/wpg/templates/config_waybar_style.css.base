@@ -19,16 +19,16 @@ window#waybar{{
 
 window#waybar > box {{
 	background-color:transparent;
-    background-color:rgba({color0.rgb},{opacity});
+    /*background-color:rgba({color0.rgb},{opacity});*/
 	margin: 0 0;
     color:{color15};
-    border-style:solid;
+    /*border-style:solid;
     border-width:{b_size};
 	border-left:0;
 	border-top:0;
 	border-bottom:0;
 	border-radius:0 ;
-    border-color:{color9};
+    border-color:{color9};*/
     color: transparent;
 }}
 
@@ -45,19 +45,20 @@ window#waybar.solo {{
 }}
 
 .modules-center,.modules-right,.modules-left{{
-	margin:{gaps_out}px 0px;
+	margin:0px 0px;
 	border-radius:0 {b_radius}px {b_radius}px 0;
-	border-width:2;
+	border-width:{b_size};
 	border-style:solid; 
 	border-left:0;
-	border-right:0;
-	border-color:mix(rgb({color1.rgb}), rgb({color8.rgb}),0.75);
+	/*border-color:mix(rgb({color1.rgb}), rgb({color8.rgb}),0.75);*/
+	border-color:{color9};
 	background-color: mix(rgb({color8.rgb}), rgb({color0.rgb}),0.35);
 }}
 
 .modules-left{{
 	border-top:0; 
 	border-top-width:0; 
+	border-radius:0 0 {b_radius}px 0;
 	border-left:0;
 	padding-bottom: 8px;
 }}
@@ -68,10 +69,16 @@ window#waybar.solo {{
 	padding: 8px 0px;
 }}
 
+
+.modules-right{{
+	border-bottom:0;
+	border-radius:0 {b_radius}px 0 0;
+}}
+
 #custom-menu {{
 	border-color:{color10};
 	border-width:1;
-	border-radius:0 {b_radius}px 0 0;
+	/* border-radius:0 {b_radius}px 0 0; */
 	background-color:{color10};
 	padding:0px;
 	margin-bottom:8px;

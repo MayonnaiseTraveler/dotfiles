@@ -6,6 +6,31 @@ fi
 
 wall="$HOME/Imagens/"$(wpg -c)
 
+## Update Wallpaper
+#convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.png
+swww img \
+	--transition-type random \
+	--transition-duration 2 \
+	$wall
+
+## Update theme
+~/.config/hypr/scripts/import-gsettings.sh 
+pywalfox update
+
+# update swaync and spotify 
+swaync-client -R & 
+swaync-client -rs & 
+# spicetify apply 
+
+# update waybar
+killall -q waybar
+
+# Wait until the processes have been shut down
+while pgrep -x waybar >/dev/null; do sleep 0.5; done
+
+## Relaunch Waybar
+waybar & disown
+
 #update sddm
 filename=$(basename -- "$wall")
 extension="${filename##*.}"
@@ -18,28 +43,4 @@ cp -f /home/traveler/.config/sddm/theme.conf /home/traveler/.config/sddm/theme2.
 echo BgSource=\"backgrounds/$finalname\" >> /home/traveler/.config/sddm/theme2.conf
 sudo cp -f /home/traveler/.config/sddm/theme2.conf /usr/share/sddm/themes/corners/theme.conf
 
-# Terminate already running instances
-killall -q waybar
-# spicetify apply 
-swaync-client -R & 
-swaync-client -rs & 
 
-# Wait until the processes have been shut down
-while pgrep -x waybar >/dev/null; do sleep 1; done
-
-## Relaunch Waybar
-waybar & 
-
-## Update theme
-~/.config/hypr/scripts/import-gsettings.sh 
-
-pywalfox update
-
-## Update Wallpaper
-# convert --quality 90 ~/Imagens/$(wpg -c)[0] ~/Imagens/wallpaper.png
-swww img \
-	--transition-type random \
-	--transition-duration 2 \
-	$wall
-
-# spotify & 

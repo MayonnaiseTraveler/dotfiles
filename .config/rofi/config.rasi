@@ -1,6 +1,6 @@
 configuration {
 
-	cache-dir:"/home/traveler/.config/rofi/cache/";
+	cache-dir:"~/.config/rofi/cache/";
 	threads:3;
 	x-offset: 50;
 	y-offset: 50;
@@ -42,4 +42,4 @@ configuration {
 
 }
 
-@theme "/home/traveler/.config/rofi/wpg.rasi"
+@theme "~/.config/rofi/wpg.rasi"

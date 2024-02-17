@@ -75,9 +75,7 @@ case $chosen in
     $reboot)
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-			swww kill
-			mpd --kill
-			systemctl reboot 
+			~/.config/hypr/scripts/power.sh reboot
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
         else
@@ -88,7 +86,7 @@ case $chosen in
     if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 			i3lock
     elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
-      ~/.config/hypr/scripts/swaylock.sh
+		~/.config/hypr/scripts/power.sh lock
     fi
         ;;
     $suspend)
@@ -98,9 +96,8 @@ case $chosen in
 		if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3lock
 		elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
-		  ~/.config/hypr/scripts/swaylock.sh
+			~/.config/hypr/scripts/power.sh suspend
 		fi
-		systemctl suspend
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
         else
@@ -110,14 +107,10 @@ case $chosen in
     $logout)
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-			if [[ "$DESKTOP_SESSION" == "Openbox" ]]; then
-				openbox --exit
-			elif [[ "$DESKTOP_SESSION" == "bspwm" ]]; then
-				bspc quit
-			elif [[ "$DESKTOP_SESSION" == "i3" ]]; then
+			if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3-msg exit
 			elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
-				killall waybar && swww kill && mpd --kill && killall Hyprland
+				~/.config/hypr/scripts/power.sh logout 
 			fi
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0

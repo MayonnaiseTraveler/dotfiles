@@ -13,10 +13,10 @@ cursor_theme="$(grep 'gtk-cursor-theme-name' "$config" | sed 's/.*\s*=\s*//')"
 font_name="$(grep 'gtk-font-name' "$config" | sed 's/.*\s*=\s*//')"
 
 # this forces the theme to update in all apps
-gsettings set "$gnome_schema" gtk-theme "" && gsettings set "$gnome_schema" gtk-theme "$gtk_theme"
+hyprctl setcursor "$cursor_theme" 24 &
 
-hyprctl setcursor "$cursor_theme" 24
-
+gsettings set "$gnome_schema" gtk-theme ""
+gsettings set "$gnome_schema" gtk-theme "$gtk_theme"
 gsettings set "$gnome_schema" color-scheme 'prefer-dark'
 gsettings set "$gnome_schema" icon-theme "$icon_theme"
 gsettings set "$gnome_schema" cursor-theme "$cursor_theme"

@@ -4,7 +4,14 @@ window {{
     border-style:solid;
     border-width:{b_size}px;
     border-color:{color9};
+	border-left:0;
+	border-top:0;
 	border-radius:{b_radius}px;
+	border-top-right-radius:0;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	margin:0;
+	padding:0;
 }}
 
 list {{
