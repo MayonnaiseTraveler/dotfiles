@@ -16,8 +16,8 @@
 @define-color color14 {color14};
 @define-color color15 {color15};
 @define-color selected_bg_color {active};
-@define-color bg_color mix(@color0, @color15, 0.12);
-@define-color tooltip_bg_color mix(@color0, @color15, 0.04);
+@define-color bg_color mix(@color0, @color15, 0.0);
+@define-color tooltip_bg_color mix(@color0, @color15, 0.00);
 @define-color base_color mix(@color0, @color15, 0);
 @define-color fg_color @color15;
 @define-color text_color @color15;
@@ -36,7 +36,7 @@
 @define-color theme_tooltip_fg_color @tooltip_fg_color;
 
 /* shadow effects */
-@define-color shadow alpha(@theme_fg_color, 0.1);
+@define-color shadow alpha(@theme_fg_color, 0);
 
 /* misc colors used by gtk+ */
 @define-color info_fg_color @text_color;
@@ -54,10 +54,10 @@
 
 /* widget colors*/
 @define-color border_color shade(@theme_selected_bg_color, 0.2);
-@define-color button_normal_color shade(@theme_bg_color, 1.20);
+@define-color button_normal_color mix(@bg_color, @color15,0.045);
 @define-color button_info_color @theme_selected_bg_color;
 @define-color button_default_active_color @theme_selected_bg_color;
-@define-color entry_border_color shade(@theme_base_color, 0.9);
+@define-color entry_border_color shade(@theme_base_color, 1);
 @define-color frame_border_bottom_color shade(@bg_color, 0.8);
 @define-color sel_color shade(@theme_selected_bg_color, 0.857);
 @define-color switch_bg_color shade(@bg_color, 0.8);

@@ -1,5 +1,5 @@
 [Added Associations]
-application/pdf=zathura.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;zathura.desktop;
 application/kra=krita.desktop;
 application/mp3=mpv.desktop;
 application/gif=mpv.desktop;
@@ -12,7 +12,7 @@ application/x-extension-xht=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 image/jpeg=feh.desktop;userapp-dragon-drop-W7KDG2.desktop;
-image/png=feh.desktop;
+image/png=feh.desktop;krita_png.desktop;
 inode/directory=ranger.desktop;thunar.desktop;
 text/html=librewolf.desktop;firefox.desktop;
 text/plain=gvim.desktop;lvim.desktop;
@@ -89,3 +89,4 @@ image/x-portable-bitmap=org.kde.krita.desktop
 image/x-portable-graymap=org.kde.krita.desktop
 image/vnd.adobe.photoshop=org.kde.krita.desktop
 image/x-sigma-x3f=org.kde.krita.desktop
+x-scheme-handler/ror2mm=r2modman.desktop

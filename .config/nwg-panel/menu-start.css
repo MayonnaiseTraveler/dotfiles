@@ -1,16 +1,10 @@
 window {
-    background-color: rgba (7,15,25, 1);
-    color:#92ffff;
+    background-color: rgba (6,5,17, 1);
+    color:#f6f2ff;
     border-style:solid;
-    border-width:2px;
-    border-color:#018688;
-	border-left:0;
-	border-top:0;
+    border-width:1px;
+    border-color:#4585ff;
 	border-radius:16px;
-	border-top-right-radius:0;
-	border-top-left-radius:0;
-	border-bottom-left-radius:0;
-	margin:0;
 	padding:0;
 }
 
@@ -19,38 +13,37 @@ list {
 	background:none;
 }
 
-
 list box{
 	background:none;
-	}
+}
 
 label:hover * {
-    background-color: rgba (1,134,136,1);
+    background-color: rgba(69,133,255,1);
 }
 
 label{
-	color:#92ffff;
-	}
+	color:#f6f2ff;
+}
 
 entry {
 	padding:6px;
-	color:#92ffff;
-    background-color: rgba (17,38,65,1);
+	color:#f6f2ff;
+    background-color: rgba(18,15,57,1);
 }
 
 entry:hover{
-    background-color: rgba (17,38,65, 1);
-    color: rgba (17,38,65, 1);
+    background-color: rgba(18,15,57, 1);
+    color: rgba(18,15,57, 1);
 	}
 
 button {
 	padding:8px;
 	margin:0px;
 	background: none;
-    border: none
+    border: none;
 }
 
-button:hover{
-    background-color: rgba (17,38,65, 0.5);
-    color: rgba (17,38,65, 1);
+button:hover {
+    background-color: rgba (18,15,57, 0.5);
+    color: rgba(18,15,57, 1);
 }

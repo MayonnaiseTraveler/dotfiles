@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/wallhaven-y8g69d_3840x2160.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#11111d",
+        "foreground": "#fff2db",
+        "cursor": "#fff2db"
+    },
+    "colors": {
+        "color0": "#11111d",
+        "color1": "#b36c73",
+        "color2": "#608d9a",
+        "color3": "#51668d",
+        "color4": "#457b9b",
+        "color5": "#9c858b",
+        "color6": "#5994b9",
+        "color7": "#e5bfad",
+        "color8": "#23233c",
+        "color9": "#fb7986",
+        "color10": "#6cc0d8",
+        "color11": "#5a80c5",
+        "color12": "#4ba3d8",
+        "color13": "#dd9aab",
+        "color14": "#61c4ff",
+        "color15": "#fff2db"
+    }
+}

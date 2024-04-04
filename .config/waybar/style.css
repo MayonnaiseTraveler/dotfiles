@@ -19,16 +19,15 @@ window#waybar{
 
 window#waybar > box {
 	background-color:transparent;
-    /*background-color:rgba(7,15,25,1);*/
-	margin: 0 0;
-    color:#92ffff;
-    /*border-style:solid;
-    border-width:2;
-	border-left:0;
-	border-top:0;
-	border-bottom:0;
-	border-radius:0 ;
-    border-color:#018688;*/
+    background-color:rgba(6,5,17,1);
+	background-clip:border-box;
+	margin: 16px 8px;
+	margin-right:0;
+    color:#f6f2ff;
+    border-style:solid;
+    border-width:1;
+	border-radius:16 ;
+    border-color:#436CCE;
     color: transparent;
 }
 
@@ -46,25 +45,26 @@ window#waybar.solo {
 
 .modules-center,.modules-right,.modules-left{
 	margin:0px 0px;
-	border-radius:0 16px 16px 0;
-	border-width:2;
+	/*border-radius:0 16px 16px 0;*/
+	/*border-width:1;*/
 	border-style:solid; 
 	border-left:0;
-	/*border-color:mix(rgb(1,103,105), rgb(17,38,65),0.75);*/
-	border-color:#018688;
-	background-color: mix(rgb(17,38,65), rgb(7,15,25),0.35);
+	/*border-color:mix(rgb(67,108,206), rgb(18,15,57),0.75);*/
+	border-color:#4585ff;
+	background-color: transparent; 
+	background-clip: border-box;
 }
 
 .modules-left{
 	border-top:0; 
 	border-top-width:0; 
-	border-radius:0 0 16px 0;
+	/*border-radius:0 0 16px 0;*/
 	border-left:0;
 	padding-bottom: 8px;
 }
 
 .modules-center,.modules-right {
-	border-radius:0 16px 16px 0;
+	/*border-radius:0 16px 16px 0;*/
 	border-left:0;
 	padding: 8px 0px;
 }
@@ -72,17 +72,18 @@ window#waybar.solo {
 
 .modules-right{
 	border-bottom:0;
-	border-radius:0 16px 0 0;
+	/*border-radius:0 16px 0 0;*/
 }
 
 #custom-menu {
-	border-color:#01aba2;
-	border-width:1;
-	/* border-radius:0 16px 0 0; */
-	background-color:#01aba2;
-	padding:0px;
+	border-color:#5f71df;
+	border-width:0px;
+	border-radius:10px; 
+	background-color:#5f71df;
+	padding:0px 8px;
+	margin:4px;
 	margin-bottom:8px;
-	color:#070f19;
+	color:#060511;
 	font-size:calc(20px * 1.6);
 }
 
@@ -94,7 +95,7 @@ window#waybar.solo {
 	border-right:0;
 	border-top:0;
 	border-bottom:0;
-	color:#6ce6e6;
+	color:#d7d4e9;
 }
 
 #workspaces button.hidden{
@@ -110,14 +111,14 @@ window#waybar.solo {
 #workspaces button:hover {
   border-color:transparent;
   border:none;
-  color:#01aba2;
+  color:#5f71df;
 }
 
 #workspaces button.active {
-    color:#018688;
+    color:#4585ff;
 	border-width:2px;
 	border-left:solid 2px;
-	border-color:#01aba2;
+	border-color:#5f71df;
 }
 
 #workspaces button.urgent {
@@ -136,7 +137,7 @@ window#waybar.solo {
 #custom-powermenu{
     padding: 0px 0px; 
 	margin: 0px;
-    color:#6ce6e6;
+    color:#d7d4e9;
     border-radius:16px; 
 }
 
@@ -147,16 +148,16 @@ window#waybar.solo {
 }
 
 #traybox .traycontainer{
-	background-color:#070f19;
+	background-color: mix(rgb(18,15,57), rgb(6,5,17),1);
 	border-radius:0;
 }
 
 #custom-powermenu{
-	color:#01d0ff
+	color:#e77ebd
 }
 
 #pulseaudio.icon{
-    color:#6ce6e6;
+    color:#d7d4e9;
 }
 
 #custom-notification.count,
@@ -172,11 +173,11 @@ window#waybar.solo {
 #custom-notification.icon{
 	margin-top:0;
 	padding-top:0;
-	color:#6ce6e6;
+	color:#d7d4e9;
 }
 
 #custom-trayicon{
-	color:#6ce6e6;
+	color:#d7d4e9;
 	transition:100ms;
 }
 
@@ -196,13 +197,13 @@ window#waybar.solo {
     min-width: 8px;
     min-height: 80px;
     border-radius: 5px;
-    background-color:rgba(7,15,25,1);
+    background-color:rgba(6,5,17,1);
 }
 #pulseaudio-slider highlight {
 	color:white;
     min-width: 8px;
     border-radius: 5px;
-    background-color:rgb(1,134,136);
+    background-color:rgb(69,133,255);
 
 }
 #image-icon,
@@ -225,13 +226,13 @@ window#waybar.solo {
 #custom-dunst,
 #mpd, 
 #mpris{
-    background-color:rgba(7,15,25,0);
+    background-color:rgba(6,5,17,0);
     padding: 0px 0px; 
     margin: 8px 0;
-    color:#92ffff;
+    color:#f6f2ff;
     /* border-style:solid; */
     /* border-width:2px; */
-    /* border-color:#112641; */
+    /* border-color:#120f39; */
      border-radius:16px; 
 
 }
@@ -248,12 +249,12 @@ window#waybar.solo {
 }
 
 #cava{
-	color:#018688;
+	color:#4585ff;
 	font-size:calc(12px * 1.2);
 }
 
 #clock {
-    color: #92ffff;
+    color: #f6f2ff;
 }
 
 
@@ -300,7 +301,7 @@ label:focus {
 }
 
 #pulseaudio.muted {
-	color: mix(rgb(7,15,25),rgb(1,134,136),0.8);
+	color: mix(rgb(6,5,17),rgb(69,133,255),0.8);
 }
 
 #custom-media {
@@ -321,7 +322,7 @@ label:focus {
 }
 
 #tray > * {
-  color:#92ffff;
+  color:#f6f2ff;
 }
 
 #tray > .passive {
@@ -340,8 +341,8 @@ label:focus {
 }
 
 #mpd {
-    background-color: #070f19;
-    color: #92ffff;
+    background-color: #060511;
+    color: #f6f2ff;
 }
 
 
@@ -387,12 +388,12 @@ label:focus {
 }
 
 #custom-notification > * {
-	color:#92ffff;
+	color:#f6f2ff;
 }
 
 tooltip, menu, #tray menu {
-	background:rgba(7,15,25,1);
-	border: 2px solid rgb(1,103,105);
+	background:rgba(6,5,17,1);
+	border: 1px solid rgb(67,108,206);
 	border-radius:16px;
 	}
 

@@ -33,15 +33,15 @@ require("xpm").setup({
 		-- package manager
 		'dtomvan/xpm.xplr',
 		'gitlab:hartan/web-devicons.xplr',
-		{
-			'sayanarijit/dual-pane.xplr',
-			setup = function()
-				require("dual-pane").setup({
-					active_pane_width = { Percentage = 70 },
-					inactive_pane_width = { Percentage = 30 },
-				})
-			end
-		},
+		-- {
+		-- 	'sayanarijit/dual-pane.xplr',
+		-- 	setup = function()
+		-- 		require("dual-pane").setup({
+		-- 			active_pane_width = { Percentage = 70 },
+		-- 			inactive_pane_width = { Percentage = 30 },
+		-- 		})
+		-- 	end
+		-- },
 		'dy-sh/dysh-style.xplr',
 		'dy-sh/get-rid-of-index.xplr',
 		'gitlab:hartan/web-devicons.xplr',

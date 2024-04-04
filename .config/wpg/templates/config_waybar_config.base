@@ -41,7 +41,7 @@
      "hyprland/workspaces": {{
          "all-outputs": true,
 		 "persistent-workspaces": {{
-             "*": 7, // 5 workspaces by default on every monitor
+             "*": [1,2,3,4,5,6], // 5 workspaces by default on every monitor
 		}},
          "format": "{{icon}}",
          "format-icons": {{
@@ -99,11 +99,12 @@
 	"group/traybox":{{
         "tooltip": false,
 		"orientation": "vertical",
-        "children-class": "traycontainer",
 		"drawer":{{
-			}},
-			"modules":["custom/trayicon","tray"]
+			"transition-left-to-right":false,
+			"children-class": "traycontainer",
 		}},
+		"modules":["custom/trayicon","tray"]
+	}},
     "mpd": {{
 		"rotate":90,
         "format": "{{stateIcon}} {{consumeIcon}}{{randomIcon}}{{repeatIcon}}{{singleIcon}}{{title}} ({{elapsedTime:%M:%S}}/{{totalTime:%M:%S}}) ⸨{{songPosition}}|{{queueLength}}⸩ {{volume}}% ",
@@ -204,9 +205,8 @@
 
 		"drawer":{{
 			"children-class":"pulsecontainer",
-			"transition-left-to-right":true
+			"transition-left-to-right":false,
 			}},
-
 		"modules":["pulseaudio#icon","pulseaudio#sound","pulseaudio/slider"]
 		}},
 	"pulseaudio/slider": {{

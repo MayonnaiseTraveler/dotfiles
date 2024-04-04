@@ -56,7 +56,8 @@ window {{
     border-color: @active;
     border:           2px solid 2px 2px;
     border-radius:    10px;
-    padding:          10px;
+    padding:          {pad}px;
+	margin:0;
 }}
 
 mainbox {{
@@ -64,6 +65,7 @@ mainbox {{
     border:  0px;
     border-color: @active;
     padding: 0;
+	margin:0;
 }}
 
 message {{

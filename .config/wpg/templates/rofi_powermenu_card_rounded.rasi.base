@@ -1,0 +1,147 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ *
+ */
+
+configuration {{
+	font:							"FantasqueSansMono Nerd Font 12";
+    show-icons:                     false;
+	icon-theme: 					"Flattrcolor";
+    drun-display-format:            "{{name}}";
+    disable-history:                false;
+	sidebar-mode: 					false;
+}}
+
+@import "styles/colors.rasi"
+
+window {{
+
+    transparency:                   "real";
+	padding:0;
+	margin:0;
+    background-color:               @background;
+    text-color:                     @foreground;
+    height:                         28.5%;
+    width:                          50%;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+    border-color:                   @border;
+    border:                  		{b_size}px;
+    border-radius:                  {b_radius}px;
+
+
+}}
+
+prompt {{
+    enabled: 			           	true;
+    padding:                        0.5% 0.5% 0.5% 0%;
+	background-color: 			   	@background-alt;
+	text-color: 				   	@foreground;
+    border-color:                   @color;
+    border:                  	    {b_size}px;
+    border-radius:                  {b_radius2}px;
+
+}}
+
+textbox-prompt-colon {{
+	expand: 					    false;
+	str: 	              			"System |";
+	background-color: 		      	@background-alt;
+	text-color:            			@foreground;
+	padding:                        0.5% 0.5% 0.5% 0%;
+	border-color:                   @color;
+	border:                  	    {b_size}px;
+	border-radius:                  {b_radius}px;
+
+}}
+
+inputbar {{
+
+	border-color:                   @color;
+	children: 						[ textbox-prompt-colon, prompt ];
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    expand:                         false;
+    border:                  		    2px;
+    border-radius:                  {b_radius2}px;
+    border-color:                  	@border;
+    margin:                         1% 21.3% 0% 0%;
+    padding:                        0.5%;
+    position:                       center;
+}}
+
+listview {{
+    background-color:               @background;
+    margin:                         0% 0% 0% 0%;
+    spacing:                        2.8%;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         horizontal;
+}}
+
+mainbox {{
+    background-color:               @background;
+    children:                       [ inputbar, listview ];
+    spacing:                        4%;
+    padding:                        2% 0% 0% 2%;
+    border-color:                   @color;
+    border:                  		    2px;
+    border-radius:                  {b_radius}px;
+
+}}
+
+element {{
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    orientation:                    horizontal;
+    border:                  		2px;
+    border-radius:                  {b_radius}px;
+    border-color:                  	@border-alt;
+
+}}
+
+element-text {{
+    background-color: 				#00000000;
+    text-color:       				inherit;
+    font:							"Sauce Code Pro Nerd Font 22";
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         calc({gaps_out}px * 3);
+}}
+
+element normal.urgent,
+element alternate.urgent {{
+    background-color:               @urgent;
+    text-color:                     @foreground;
+    border-radius:                  2px;
+}}
+
+element normal.active,
+element alternate.active {{
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+}}
+
+element selected {{
+    background-color:               @selected;
+    text-color:                     @foreground;
+    border:                  		    2px;
+    border-radius:                  {b_radius}px;
+    border-color:                  	@border;
+}}
+
+element selected.urgent {{
+    background-color:               @urgent;
+    text-color:                     @foreground;
+}}
+
+element selected.active {{
+    background-color:               @background-alt;
+    color:                          @foreground;
+}}

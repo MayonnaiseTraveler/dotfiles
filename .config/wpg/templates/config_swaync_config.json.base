@@ -27,7 +27,7 @@
 	"transition-time": 200,
 	"hide-on-clear": false,
 	"hide-on-action": true,
-	"script-fail-notify": true,
+	"script-fail-notify": false,
 	"scripts": {{
 		"ignore_spotify": {{
 		    "exec": "",
@@ -123,23 +123,23 @@
 			"actions": [
 				{{
 					"label": "",
-					"command": "bash ~/.config/hypr/scripts/power.sh shutdown"
+					"command": "home/traveler/.config/hypr/scripts/power.sh shutdown"
 				}},
 				{{
 					"label": "",
-					"command": "bash ~/.config/hypr/scripts/power.sh reboot"
+					"command": "home/traveler/.config/hypr/scripts/power.sh reboot"
 				}},
 				{{
 					"label": "󰌾",
-					"command": "bash ~/.config/hypr/scripts/power.sh lock"
+					"command": "home/traveler/.config/hypr/scripts/power.sh lock"
 				}},
 				{{
 					"label": "",
-					"command": "bash ~/.config/hypr/scripts/power.sh suspend"
+					"command": "home/traveler/.config/hypr/scripts/power.sh suspend"
 				}},
 				{{
 					"label": "",
-					"command": "bash ~/.config/hypr/scripts/power.sh logout"
+					"command": "home/traveler/.config/hypr/scripts/power.sh logout"
 				}}
 
 			]

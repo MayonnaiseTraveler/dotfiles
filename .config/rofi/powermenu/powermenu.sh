@@ -22,6 +22,8 @@ dir="$HOME/.config/rofi/powermenu"
 styles=($(ls -p --hide="colors.rasi" $dir/styles))
 color="${styles[$(( $RANDOM % 8 ))]}"
 
+DESKTOP_SESSION="$XDG_CURRENT_DESKTOP"
+
 # comment this line to disable random colors
 # sed -i -e "s/@import .*/@import \"$color\"/g" $dir/styles/colors.rasi
 
@@ -83,11 +85,11 @@ case $chosen in
         fi
         ;;
     $lock)
-    if [[ "$DESKTOP_SESSION" == "i3" ]]; then
-			i3lock
-    elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
-		~/.config/hypr/scripts/power.sh lock
-    fi
+		if [[ "$DESKTOP_SESSION" == "i3" ]]; then
+				i3lock
+		elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
+			~/.config/hypr/scripts/power.sh lock
+		fi
         ;;
     $suspend)
 		ans=$(confirm_exit &)
@@ -95,7 +97,7 @@ case $chosen in
 			playerctl -a pause	
 		if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3lock
-		elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
+		elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
 			~/.config/hypr/scripts/power.sh suspend
 		fi
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
@@ -109,7 +111,7 @@ case $chosen in
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
 			if [[ "$DESKTOP_SESSION" == "i3" ]]; then
 				i3-msg exit
-			elif [[ "$DESKTOP_SESSION" == "hyprland" ]]; then
+			elif [[ "$DESKTOP_SESSION" == "Hyprland" ]]; then
 				~/.config/hypr/scripts/power.sh logout 
 			fi
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then

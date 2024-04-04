@@ -4,13 +4,7 @@ window {{
     border-style:solid;
     border-width:{b_size}px;
     border-color:{color9};
-	border-left:0;
-	border-top:0;
 	border-radius:{b_radius}px;
-	border-top-right-radius:0;
-	border-top-left-radius:0;
-	border-bottom-left-radius:0;
-	margin:0;
 	padding:0;
 }}
 
@@ -19,38 +13,37 @@ list {{
 	background:none;
 }}
 
-
 list box{{
 	background:none;
-	}}
+}}
 
 label:hover * {{
-    background-color: rgba ({color9.rgb},1);
+    background-color: rgba({color9.rgb},1);
 }}
 
 label{{
 	color:{color15};
-	}}
+}}
 
 entry {{
 	padding:6px;
 	color:{color15};
-    background-color: rgba ({color8.rgb},1);
+    background-color: rgba({color8.rgb},1);
 }}
 
 entry:hover{{
-    background-color: rgba ({color8.rgb}, 1);
-    color: rgba ({color8.rgb}, 1);
+    background-color: rgba({color8.rgb}, 1);
+    color: rgba({color8.rgb}, 1);
 	}}
 
 button {{
 	padding:8px;
 	margin:0px;
 	background: none;
-    border: none
+    border: none;
 }}
 
-button:hover{{
+button:hover {{
     background-color: rgba ({color8.rgb}, 0.5);
-    color: rgba ({color8.rgb}, 1);
+    color: rgba({color8.rgb}, 1);
 }}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/tokyonight_wallhaven-9mjoy1.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a0a10",
+        "foreground": "#fffeff",
+        "cursor": "#fffeff"
+    },
+    "colors": {
+        "color0": "#0a0a10",
+        "color1": "#abb5c7",
+        "color2": "#768769",
+        "color3": "#b99e70",
+        "color4": "#697089",
+        "color5": "#b97e9c",
+        "color6": "#70acb7",
+        "color7": "#dbdadb",
+        "color8": "#1c1c2f",
+        "color9": "#c6e4ff",
+        "color10": "#97bf78",
+        "color11": "#ffd27e",
+        "color12": "#7888c1",
+        "color13": "#ff8fcb",
+        "color14": "#7eecff",
+        "color15": "#fffeff"
+    }
+}

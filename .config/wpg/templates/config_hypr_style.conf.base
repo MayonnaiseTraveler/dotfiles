@@ -2,8 +2,8 @@
 
 general {{
 
-    gaps_in=5
-    gaps_out={gaps_out}
+    gaps_in={gaps_in}
+    gaps_out={gaps_out},{gaps_out},{gaps_out},{gaps_out}
     border_size={b_size}
     col.active_border= rgb({color9.strip}) rgb({color10.strip}) 
     col.inactive_border=rgb({color8.strip})

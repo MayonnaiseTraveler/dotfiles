@@ -5,8 +5,8 @@ ShowDeleteCommand=false
 MaximumRemoteSize=0
 
 [Colors:View]
-BackgroundNormal=7,15,25
-ForegroundNormal=7,15,25
+BackgroundNormal=6,5,17
+ForegroundNormal=6,5,17
 
 [Icons]
 Theme=FlattrColor
