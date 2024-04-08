@@ -10,10 +10,11 @@ finalwall="$wall"
 filter="Nearest"
 
 if [[ "$wall" != *"gif" ]]; then
-	convert -resize 1920x1080 $wall $wall
-	$finalwall="~/Imagens/wallpaper.png"
-	$filter="Lanczos3"
+	# convert -resize 1920x1080 $wall $wall
+	filter="Lanczos3"
 else
+	# finalwall="~/Imagens/wallpaper.png"
+	# convert -resize 1920x1080 $wall $finalwall
 	swww clear-cache
 fi
 
@@ -31,7 +32,7 @@ pywalfox update
 # update swaync and spotify 
 swaync-client -R & 
 swaync-client -rs & 
-#spicetify apply 
+# spicetify apply 
 
 # update waybar
 killall -q waybar
@@ -45,11 +46,11 @@ waybar & disown
 #update sddm
 filename=$(basename -- "$wall")
 extension="${filename##*.}"
-echo $extension
+# echo $extension
 finalname=wallpaper."$extension"
 
 #update the sddm theme in the dumbest way cause syslinks stopped working for whatever reason
-sudo cp -f $(echo $finalwall) /usr/share/sddm/themes/corners/backgrounds/$finalname
+sudo cp -f $finalwall /usr/share/sddm/themes/corners/backgrounds/$finalname
 cp -f /home/traveler/.config/sddm/theme.conf /home/traveler/.config/sddm/theme2.conf
 echo BgSource=\"backgrounds/$finalname\" >> /home/traveler/.config/sddm/theme2.conf
 sudo cp -f /home/traveler/.config/sddm/theme2.conf /usr/share/sddm/themes/corners/theme.conf
