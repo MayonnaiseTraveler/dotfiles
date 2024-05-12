@@ -28,7 +28,7 @@ label {{
     font_size = 25
     font_family = {font1} 
 
-    position = -{gaps_out}, -230
+    position = -{gaps_out}, 64
     halign = right 
     valign = bottom 
 }}
@@ -46,7 +46,7 @@ input-field {{
     fade_on_empty = false 
     placeholder_text = <span foreground='##{color15.strip}'><i>Input Password...</i></span> #Text rendered in the input box when it's empty.
     hide_input = false
-    position = -{gaps_out}, -20
+    position = -{gaps_out}, 20
     halign = right 
     valign = bottom 
 }}

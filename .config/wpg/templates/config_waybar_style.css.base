@@ -1,5 +1,4 @@
 * {{
-    /* `otf-font-awesome` is required to be installed for icons */
     font-family: {font1};
 	border-width:0px;
 	box-shadow:none;
@@ -83,7 +82,7 @@ window#waybar.solo {{
 	margin:4px;
 	margin-bottom:8px;
 	color:{color0};
-	font-size:calc({f_big}px * 1.6);
+	font-size:calc({f_small}px * 2.4);
 }}
 
 #workspaces button {{
@@ -122,6 +121,7 @@ window#waybar.solo {{
 }}
 
 #workspaces button.urgent {{
+	background-color:{color8};
 }}
 
 #mode {{
@@ -137,7 +137,7 @@ window#waybar.solo {{
 #custom-powermenu{{
     padding: 0px 0px; 
 	margin: 0px;
-    color:{color15};
+    color:{color7};
     border-radius:{b_radius}px; 
 }}
 
@@ -154,10 +154,6 @@ window#waybar.solo {{
 
 #custom-powermenu{{
 	color:{color13}
-}}
-
-#pulseaudio.icon{{
-    color:{color15};
 }}
 
 #custom-notification.count,
@@ -241,6 +237,7 @@ window#waybar.solo {{
 
 
 #custom-weather.icon{{
+	font-family: Blobmoji;
 	padding-bottom:0;
 	margin-bottom:0;
 }}

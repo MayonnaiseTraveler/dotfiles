@@ -168,6 +168,7 @@ alias x='cd "$(xplr --print-pwd-as-result)"'
 alias drawtimer='./scripts/drawtimer.sh'
 alias studytimer='./scripts/drawtimer.sh'
 alias ricetimer='./scripts/drawtimer.sh'
+alias tabletstream='scrcpy -ne  --no-audio --max-size=1920 --max-fps=30 --video-codec=h265 --video-encoder='OMX.qcom.video.encoder.hevc.cq''
 # colors in less
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'

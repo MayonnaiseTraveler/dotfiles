@@ -50,6 +50,7 @@ window > box {{
 
 
 .notification {{
+  background: {color9};
   transition: all 200ms ease;
   border-radius: {b_radius2}px;
   box-shadow: none;
@@ -467,7 +468,8 @@ window > box {{
 
 .AnyName>button:hover {{
   background-color: @noti-bg-hover;
-}} */
+}}
+*/
 
 .topbar-buttons>button {{ /* Name defined in config after # */
   border: none;
@@ -506,7 +508,7 @@ window > box {{
 }}
 .widget-volume>box>button {{
 
-	padding:0 {pad}px;
+	padding:0;
     background: transparent; 
 	box-shadow:none;
     border: none;
