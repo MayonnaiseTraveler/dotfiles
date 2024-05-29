@@ -19,7 +19,7 @@ window#waybar{{
 window#waybar > box {{
     background-color:rgba({color0.rgb},{opacity});
 	background-clip:border-box;
-	margin: 16px 8px;
+	margin: {gaps_out}px {gaps_in}px;
 	margin-right:0;
     color:{color15};
     border-style:solid;
