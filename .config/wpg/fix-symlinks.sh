@@ -17,7 +17,7 @@ ln -vfs $HOME/.config/spicetify/Themes/Comfy/color.ini  $XDG_CONFIG_HOME/wpg/tem
 ln -vfs $HOME/.config/kdeglobals  $XDG_CONFIG_HOME/wpg/templates/vvn_config_kdeglobals 
 ln -vfs $HOME/.config/rofi/wpg.rasi  $XDG_CONFIG_HOME/wpg/templates/wpg.rasi 
 ln -vfs $HOME/.config/BetterDiscord/themes/ClearVision_v6.theme.css $XDG_CONFIG_HOME/wpg/templates/BetterDiscord_themes_ClearVision_v6.theme.css
-ln -vfs $HOME/.librewolf/twd7ox0x.default-default/chrome/includes/cascade-colours.css $XDG_CONFIG_HOME/wpg/templates/chrome_includes_cascade-colours.css
+ln -vfs $HOME/.librewolf/*/chrome/includes/cascade-colours.css $XDG_CONFIG_HOME/wpg/templates/chrome_includes_cascade-colours.css
 
 ln -vfs $HOME/.config/nwg-drawer/drawer.css $XDG_CONFIG_HOME/wpg/templates/config_nwg-drawer_drawer.css
 ln -vfs $HOME/.config/nwg-panel/menu-start.css $XDG_CONFIG_HOME/wpg/templates/config_nwg-panel_menu-start.css
