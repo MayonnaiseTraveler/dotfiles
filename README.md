@@ -101,7 +101,7 @@ make sure you enable sddm and have files with correct permissions, then reboot.
 
 ### ToDo:
 - [ ] Remove unecessary files (rofi has a bunch of unused configs)
-- [ ] Clear Scripts and re-organize files (horrible notify-send execs in hypr/execs.conf that should be bash scripts instead)
+- [ ] Clear Scripts and re-organize files
 - [ ] Create scripts for a backup system
 - [ ] Separate Personal configuration files in another repo (example, yt-dlp downloaded list, vim config , etc).
 - [ ] Create Package list with only the needed packages for this to run.
