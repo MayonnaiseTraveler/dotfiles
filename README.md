@@ -92,7 +92,7 @@ paru -S --needed $(echo ~/gitdotfiles/PC-Packages.txt)
 # Update WPGTK Symlinks, add WPGTK wallpapers, and generate a colorscheme
 $XDG_CONFIG_HOME/wpg/fix-symlinks.sh
 wpg -a $XDG_CONFIG_HOME/Wallpapers/*
-wpg -A $XDG_CONFIG_HOME/Wallpapers/*
+wpg -A $(wpg -l)
 
 ```
 make sure you enable sddm and have files with correct permissions, then reboot.
