@@ -1,6 +1,5 @@
 # Vivianne's Hyprland Dotfiles
-
-(and pkglist)
+A Hyprland wpgtk based config, it's colour pallete will adapt to the wallpaper.
 
 <hr>
 
@@ -18,6 +17,7 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
   * Waybar
   * wofi and rofi
   * quickmedia (Quickly download stuff and check some websites ) 
+  * Swaync
 
 * Themes : 
   * wpgtk (generates color palette from selected wallpaper and updates all configurations accordingly)
@@ -43,7 +43,6 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
 	* xplr (Faster file explorer, aliased to x)
 	* ncmpcpp (music player, aliased to n)
 	* cava (Audio Visualizer)
-	* todo (Simple todo list)
 	* termdown (simple countdown timer)
 	* calcurse ( ncurses based calendary)
 	* blesh (syntax highligting better autocomplete and nvim on bash)
@@ -51,11 +50,7 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
 
 * GUI Programs : 
 	* Social stuff:
-		* Telegram (yeeeah)
-		* Whatsapp (yeah the zuck can see my system )
-		* Discord (with betterdiscord )
-		* Discord-screenaudio (wayland screensharing )
-		* Discover-overlay (Discord overlay everywhere)
+		* vencord (discord client)
 		* Postybirb (Manage various social media )
 	* Gaming : 
 		* steam-runtime
@@ -66,18 +61,18 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
 		* Krita (art software)
 		* Onlyoffice 
 		* Audacity
-* General Stuff:
-  	* Firefox
-    * Librewolf 
-	* Syncthing
-    * iriun webcam (use your phone as a webcam)
-    * mpv (media player)
-    * zathura (view pdfs)
-    * Thunar file manager
-    * qbittorrent
-    * Arandr (screen configs)
-    * BleachBit (system cleaning util)
-    * KeePassXC ( password manager)
+		* Blender
+	* General Stuff:
+		* Firefox
+		* Librewolf 
+		* Syncthing
+		* iriun webcam (use your phone as a webcam)
+		* mpv (media player)
+		* zathura (view pdfs)
+		* Thunar file manager
+		* qbittorrent
+		* BleachBit (system cleaning util)
+		* KeePassXC ( password manager)
 
 ***
 
