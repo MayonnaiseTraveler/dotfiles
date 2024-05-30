@@ -1,16 +1,17 @@
 <hr>
-<pre> __  __                                     _            ____   ____ 
-|  \/  | __ _ _   _  ___  _ __  _ __   __ _(_)___  ___  |  _ \ / ___|
-| |\/| |/ _` | | | |/ _ \| '_ \| '_ \ / _` | / __|/ _ \ | |_) | |    
-| |  | | (_| | |_| | (_) | | | | | | | (_| | \__ \  __/ |  __/| |___ 
-|_|  |_|\__,_|\__, |\___/|_| |_|_| |_|\__,_|_|___/\___| |_|    \____|
-              |___/                                                   
-                      
-                     
+
+<pre> _    ___       _                       _      
+| |  / (_)   __(_)___ _____  ____  ___ ( )_____
+| | / / / | / / / __ `/ __ \/ __ \/ _ \|// ___/
+| |/ / /| |/ / / /_/ / / / / / / /  __/ (__  ) 
+|___/_/ |___/_/\__,_/_/ /_/_/ /_/\___/ /____/  
+                                               
 </pre>
+
 <pre>
  D O T F I L E S
 </pre>
+
 <hr>
 
 <img src="gitdotfiles/screenshot1.png">
@@ -21,105 +22,100 @@
 This repository contains the dots for my Arch Linux Setup, currently it has:
 
 * WM's : 
-  * i3-gaps
-  * Hypr (Outdated configs)
   * Hyprland
   
 * Bar/Menus :
-  * Xborders (active window border replacement that has rounded corner)
-  * Polybar
   * Waybar
   * wofi and rofi
   * quickmedia (Quickly download stuff and check some websites ) 
 
 * Themes : 
-  * wpg (generates color palette from selected wallpaper and updates all configurations accordingly)
-  * lxappearance (Theme selector)
+  * wpgtk (generates color palette from selected wallpaper and updates all configurations accordingly)
   * FlattrColor (icon theme for gtk )
   * ePapirus (icon theme used by rofi and polybar)
   * FlatColor2 (gtk theme)
-  * bibata-rainbow-cursors (cool rainbow cursors lol)
+  * bibata-cursor-theme-bin (cool rainbow cursors lol)
 
 * System Utils:
-  * pipewire (Sound Software)
-  * pavucontrol (gui to change audio stuff)
-  * EasyEffects (Filters to improve your mic audio)
-  * nohang (kills processes that aren't responding)
-  * ananicy (auto nice deamon that automatically set's processes priorities )
-  * nm-applet (network management tray icon)
-  * sddm (display manager)
+	* pipewire (Sound Software)
+	* pavucontrol (gui to change audio stuff)
+	* EasyEffects (Filters to improve your mic audio)
+	* nohang (kills processes that aren't responding)
+	* ananicy (auto nice deamon that automatically set's processes priorities )
+	* nm-applet (network management tray icon)
+	* sddm (display manager)
   
 * CLI Programs :
-  * kitty (terminal)
-  * Alacritty (extra terminal, just in case)
-  * lvim ( Lunar Vim, an ide layer over vim)
-  * btop (haha look at my cool linux rice)
-  * ranger (with devicons and dragon-drop)
-  * ncmpcpp (ncmpcpp)
-  * cava (Extra Audio Visualizer)
-  * todo ( Simple todo list)
-  * termdown (simple countdown timer)
-  * calcurse ( ncurses based calendary)
-  * unzip (easy unzip command)
-  * glow ( read markdown files)
-  * blesh (syntax highligting better autocomplete and nvim on bash)
-  * scrcpy (screencast android screen to pc)
+	* kitty (terminal)
+	* lvim ( Lunar Vim, an ide layer over vim)
+	* btop (Haha look at my cool linux rice)
+	* ranger (File explorer, aliased to r)
+	* xplr (Faster file explorer, aliased to x)
+	* ncmpcpp (music player, aliased to n)
+	* cava (Audio Visualizer)
+	* todo (Simple todo list)
+	* termdown (simple countdown timer)
+	* calcurse ( ncurses based calendary)
+	* blesh (syntax highligting better autocomplete and nvim on bash)
+	* scrcpy (can be used to screencast android to pc)
 
 * GUI Programs : 
-  * Social stuff:
-    * Telegram (yeeeah)
-    * Whatsapp (yeah the zuck can see my system )
-    * Discord (with betterdiscord )
-    * Discord-screenaudio (wayland screensharing )
-    * Discover-overlay (Discord overlay everywhere)
-    * Postybirb (Manage various social media )
-  * Gaming : 
-    * steam-runtime
-    * minecraft (both original and technic launcher)
-    * Lutris
-  * Creative Tools : 
-    * ManusKript (Novel writing software)
-    * Joplin (markdown note taking and todo list)
-    * Krita (art software)
-    * Shotcut (video editor)
-    * Onlyoffice office sweet
-    * Audacity
-  * General Stuff:
+	* Social stuff:
+		* Telegram (yeeeah)
+		* Whatsapp (yeah the zuck can see my system )
+		* Discord (with betterdiscord )
+		* Discord-screenaudio (wayland screensharing )
+		* Discover-overlay (Discord overlay everywhere)
+		* Postybirb (Manage various social media )
+	* Gaming : 
+		* steam-runtime
+		* minecraft (both original and prism launcher)
+	* Creative Tools : 
+		* ManusKript (Novel writing software)
+		* Obsidian (markdown notetaking)
+		* Krita (art software)
+		* Onlyoffice 
+		* Audacity
+* General Stuff:
   	* Firefox
     * Librewolf 
-    * MegaSync 
+	* Syncthing
     * iriun webcam (use your phone as a webcam)
     * mpv (media player)
     * zathura (view pdfs)
     * Thunar file manager
     * qbittorrent
     * Arandr (screen configs)
-    * OpenRGB (configure rgb stuff)
     * BleachBit (system cleaning util)
     * KeePassXC ( password manager)
-    * Buttercup ( password manager)
-
-#
 
 ***
-#### How do i install it?
-If you want to install it you can just clone the repository with all it's submodules and use your aur helper to install all the packages in PC-packages.txt.
-After that, just copy everything and paste it in your home folder
-you'll also need to install p10k, lvim and the sddm config files manually.
-install script on the way
+
+### Installation
+if you use something else than just change it in the following command.
+
+```bash
+# Cloning the repo, will overwrite you local configs
+git clone --bare <git-repo-url> $HOME/.cfg
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.cfg/" --work-tree="$HOME"'
+dotfiles checkout -f
+dotfiles config --local status.showUntrackedFiles no
+
+# Downloading the needed packages (+ some extra stuff you might not use)
+paru -S --needed $(echo ~/gitdotfiles/PC-Packages.txt)
+
+# Update WPGTK Symlinks, add WPGTK wallpapers, and generate a colorscheme
+$XDG_CONFIG_HOME/wpg/fix-symlinks.sh
+wpg -a $XDG_CONFIG_HOME/Wallpapers/*
+wpg -A $XDG_CONFIG_HOME/Wallpapers/*
+
+```
+make sure you enable sddm and have files with correct permissions, then reboot.
 
 ***
 
 ### ToDo:
-- [x] Add discord-screenaudio css file to wpgtk
-- [x] fix lock screen
-- [x] fix shutdown being slow
-- [x] Fix window swallow for groups
-- [x] Switch to wofi
-- [x] configure sddm 
-- [x] backup sddm config properly
-- [ ] Create install script
-- [ ] Separate dotfiles from i3 and hyprland
+- [ ] Remove unecessary files 
 - [ ] Clear Scripts and re-organize files
 - [ ] Create scripts for a backup system
 - [ ] Update this readme more
@@ -130,19 +126,4 @@ install script on the way
 - [ ] finish bash script that changes volume of the active window // unused
 - [ ] add a list of browser extensions i use 
 - [ ] fix lvim colorscheme
-- [x] Create aliases to help downloading musics from yt
-- [x] change polybar stuff position
-- [x] Upgrade Dunst
-- [x] change mpc keybinds to use keyboard media keys // didn't work well
-- [x] Switch to HyprLand?
-- [x] Learn how to make rofi menus! // still didn't learn it all the way but added a few new menus
-- [x] Add theme to rofi shutdown menus 
-- [x] Fix rofi menu on 1336x728 screens
-- [x] remove unecessary dependencies
-- [x] start using wpgtk to manage themes
-- [x] update readme further
-- [x] remove some of my personal stuff from the repo later
-- [x] remove unecessary files
-- [x] add eww config
-- [x] update notification theme
 
