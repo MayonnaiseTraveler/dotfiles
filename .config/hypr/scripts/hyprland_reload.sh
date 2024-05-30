@@ -1,36 +1,34 @@
-
 if [ -f /tmp/hyprstart.lock ]; then
 	rm /tmp/hyprstart.lock
 	exit 0
 fi
 
-## get wallpaper path
-wall="$XDG_CONFIG_HOME/Wallpapers/"$(wpg -c)
+# get wallpaper path
+
+wall="$HOME/.config/Wallpapers/"$(wpg -c)
+
 finalwall="$wall"
+
 filter="Nearest"
 
 if [[ "$wall" != *"gif" ]]; then
-	# convert -resize 1920x1080 $wall $wall
+	
 	filter="Lanczos3"
 else
-	# convert -resize 1920x1080 $wall $finalwall
 	swww clear-cache
 fi
 
-# using screenshot instead
-# generate wallpaper png for hyprlock, currently needed since it does not allow to use with commands or anything other than png files
+# Update Wallpaper
+swww img -f $filter --transition-type random --transition-duration 2 "$finalwall"
 
-## Update Wallpaper
-swww img -f $filter --transition-type random --transition-duration 2 $finalwall
+# Update theme
 
-## Update theme
 ~/.config/hypr/scripts/import-gsettings.sh 
 pywalfox update
 
 # update swaync and spotify 
 swaync-client -R & 
 swaync-client -rs & 
-# spicetify apply 
 
 # update waybar
 killall -q waybar
@@ -44,6 +42,7 @@ waybar & disown
 #update sddm
 filename=$(basename -- "$wall")
 extension="${filename##*.}"
+
 # echo $extension
 finalname=wallpaper."$extension"
 
