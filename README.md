@@ -103,12 +103,12 @@ make sure you enable sddm and have files with correct permissions, then reboot.
 - [ ] Remove unecessary files 
 - [ ] Clear Scripts and re-organize files
 - [ ] Create scripts for a backup system
+- [ ] Separate Personal configuration files in another repo (example, yt-dlp downloaded list).
+- [ ] Create Package list with only the needed packages for this to run.
 - [ ] Update this readme more
 - [ ] Create Keybind list in Readme
-- [ ] Create bash script for installation
 - [ ] Create Eww widgets
 - [ ] Create a bar with Eww
 - [ ] finish bash script that changes volume of the active window // unused
-- [ ] add a list of browser extensions i use 
-- [ ] fix lvim colorscheme
+- [x] fix lvim colorscheme -> done i think?
 
