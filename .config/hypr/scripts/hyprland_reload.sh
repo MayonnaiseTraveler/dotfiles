@@ -5,7 +5,7 @@ if [ -f /tmp/hyprstart.lock ]; then
 fi
 
 ## get wallpaper path
-wall="$HOME/Imagens/"$(wpg -c)
+wall="$XDG_CONFIG_HOME/Wallpapers/"$(wpg -c)
 finalwall="$wall"
 filter="Nearest"
 
@@ -13,14 +13,12 @@ if [[ "$wall" != *"gif" ]]; then
 	# convert -resize 1920x1080 $wall $wall
 	filter="Lanczos3"
 else
-	# finalwall="~/Imagens/wallpaper.png"
 	# convert -resize 1920x1080 $wall $finalwall
 	swww clear-cache
 fi
 
 # using screenshot instead
 # generate wallpaper png for hyprlock, currently needed since it does not allow to use with commands or anything other than png files
-# convert --quality 80 $wall ~/Imagens/wallpaper.png
 
 ## Update Wallpaper
 swww img -f $filter --transition-type random --transition-duration 2 $finalwall

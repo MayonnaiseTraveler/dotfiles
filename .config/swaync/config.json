@@ -88,8 +88,8 @@
 		},
 		"backlight": {
 			"label": "󰃟 ",
-			"subsystem": "leds",
-			"device": "input19::compose"
+			"subsystem": "backlight",
+			"device": "intel_backlight"
 		},
 		"menubar": {
 			"menu#power":{
@@ -97,23 +97,23 @@
 				"actions": [
 					{
 						"label": "   Shut down",
-						"command": "bash ~/.config/hypr/scripts/power.sh shutdown"
+						"command": "bash /home/traveler/.config/hypr/scripts/power.sh shutdown"
 					},
 					{
 						"label": "   Reboot",
-						"command": "bash ~/.config/hypr/scripts/power.sh reboot"
+						"command": "bash /home/traveler/.config/hypr/scripts/power.sh reboot"
 					},
 					{
 						"label": "󰌾   Lock",
-						"command": "bash ~/.config/hypr/scripts/power.sh lock"
+						"command": "bash /home/traveler/.config/hypr/scripts/power.sh lock"
 					},
 					{
 						"label": "   Sleep",
-						"command": "bash ~/.config/hypr/scripts/power.sh suspend"
+						"command": "bash /home/traveler/.config/hypr/scripts/power.sh suspend"
 					},
 					{
 						"label": "   Logout",
-						"command": "bash ~/.config/hypr/scripts/power.sh logout"
+						"command": "bash /home/traveler/.config/hypr/scripts/power.sh logout"
 					}
 				]
 			}
@@ -123,23 +123,23 @@
 			"actions": [
 				{
 					"label": "",
-					"command": "home/traveler/.config/hypr/scripts/power.sh shutdown"
+					"command": "/home/traveler/.config/hypr/scripts/power.sh shutdown"
 				},
 				{
 					"label": "",
-					"command": "home/traveler/.config/hypr/scripts/power.sh reboot"
+					"command": "/home/traveler/.config/hypr/scripts/power.sh reboot"
 				},
 				{
 					"label": "󰌾",
-					"command": "home/traveler/.config/hypr/scripts/power.sh lock"
+					"command": "/home/traveler/.config/hypr/scripts/power.sh lock"
 				},
 				{
 					"label": "",
-					"command": "home/traveler/.config/hypr/scripts/power.sh suspend"
+					"command": "/home/traveler/.config/hypr/scripts/power.sh suspend"
 				},
 				{
 					"label": "",
-					"command": "home/traveler/.config/hypr/scripts/power.sh logout"
+					"command": "/home/traveler/.config/hypr/scripts/power.sh logout"
 				}
 
 			]

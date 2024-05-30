@@ -7,7 +7,7 @@ general {{
 
 background {{
     #monitor =
-    #path = /home/traveler/Imagens/wallpaper.png # only png supported for now
+    #path = /home/traveler/.config/Wallpapers/wallpaper.png # only png supported for now
     path = screenshot
     color = rgba({color0.rgb},{opacity})
 
