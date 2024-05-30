@@ -1,7 +1,7 @@
 #!/bin/bash
 
 logout (){
-	killall waybar && swww kill && mpd --kill && hyprctl dispatch exit 
+	killall waybar && swww kill && killall mpd && killall hyprland 
 }
 
 lock (){
@@ -16,15 +16,15 @@ suspend (){
 
 shutdown (){
 	swww kill
-	mpd --kill
-	hyprctl dispatch exit
+	killall mpd
+	killall hyprland
 	systemctl poweroff 
 }
 
 reboot (){
 	swww kill
-	mpd --kill
-	hyprctl dispatch exit
+	killall mpd
+	killall hyprland
 	systemctl reboot 
 }
 
