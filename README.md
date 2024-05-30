@@ -100,15 +100,16 @@ make sure you enable sddm and have files with correct permissions, then reboot.
 ***
 
 ### ToDo:
-- [ ] Remove unecessary files 
-- [ ] Clear Scripts and re-organize files
+- [ ] Remove unecessary files (rofi has a bunch of unused configs)
+- [ ] Clear Scripts and re-organize files (horrible notify-send execs in hypr/execs.conf that should be bash scripts instead)
 - [ ] Create scripts for a backup system
-- [ ] Separate Personal configuration files in another repo (example, yt-dlp downloaded list).
+- [ ] Separate Personal configuration files in another repo (example, yt-dlp downloaded list, vim config , etc).
 - [ ] Create Package list with only the needed packages for this to run.
 - [ ] Update this readme more
 - [ ] Create Keybind list in Readme
 - [ ] Create Eww widgets
 - [ ] Create a bar with Eww
 - [ ] finish bash script that changes volume of the active window // unused
+- [x] Remove deprecated x11 config files 
 - [x] fix lvim colorscheme -> done i think?
 
