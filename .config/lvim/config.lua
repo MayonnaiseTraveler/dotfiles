@@ -1,6 +1,5 @@
 vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
-lvim.colorscheme = "colorscheme_bnnuy"
--- lvim.colorscheme = "tokyonight-storm"
+lvim.colorscheme = "colorscheme"
 lvim.format_on_save.enabled = true
 lvim.format_on_save.pattern = { "*.ejs", "*.lua", "*.py", "*.c", "*.json", "*.js", "*.css", "*.ts", "*.md", "*.html",
 	"*.sh",
