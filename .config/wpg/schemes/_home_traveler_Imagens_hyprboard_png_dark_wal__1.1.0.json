@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/hyprboard.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#04050A",
+        "foreground": "#fefeff",
+        "cursor": "#fefeff"
+    },
+    "colors": {
+        "color0": "#04050A",
+        "color1": "#6F7073",
+        "color2": "#5C5D62",
+        "color3": "#7D7E81",
+        "color4": "#484950",
+        "color5": "#8F9092",
+        "color6": "#9E9FA0",
+        "color7": "#cfcfd0",
+        "color8": "#10152f",
+        "color9": "#818aa4",
+        "color10": "#6b708b",
+        "color11": "#929bb8",
+        "color12": "#535771",
+        "color13": "#a7b4d0",
+        "color14": "#b8cee4",
+        "color15": "#fefeff"
+    }
+}

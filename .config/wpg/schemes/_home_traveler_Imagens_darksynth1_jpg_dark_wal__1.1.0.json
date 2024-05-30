@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/darksynth1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0C0911",
+        "foreground": "#ffb9da",
+        "cursor": "#ffb9da"
+    },
+    "colors": {
+        "color0": "#0C0911",
+        "color1": "#99293C",
+        "color2": "#5A4E69",
+        "color3": "#5E294F",
+        "color4": "#2F485C",
+        "color5": "#6F194B",
+        "color6": "#302F4B",
+        "color7": "#c088a0",
+        "color8": "#221932",
+        "color9": "#d32845",
+        "color10": "#735994",
+        "color11": "#822c6a",
+        "color12": "#345e80",
+        "color13": "#991762",
+        "color14": "#373569",
+        "color15": "#ffb9da"
+    }
+}

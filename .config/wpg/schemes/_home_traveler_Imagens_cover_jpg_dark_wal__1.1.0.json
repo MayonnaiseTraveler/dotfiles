@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/cover.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#09040a",
+        "foreground": "#f9ffff",
+        "cursor": "#f9ffff"
+    },
+    "colors": {
+        "color0": "#09040a",
+        "color1": "#C5AADF",
+        "color2": "#565FDD",
+        "color3": "#ECA062",
+        "color4": "#425FC1",
+        "color5": "#B33FCD",
+        "color6": "#4F98E6",
+        "color7": "#e5edef",
+        "color8": "#2a102f",
+        "color9": "#ffc3ff",
+        "color10": "#5b6aff",
+        "color11": "#ffcd69",
+        "color12": "#4472ff",
+        "color13": "#f340ff",
+        "color14": "#52c4ff",
+        "color15": "#f9ffff"
+    }
+}

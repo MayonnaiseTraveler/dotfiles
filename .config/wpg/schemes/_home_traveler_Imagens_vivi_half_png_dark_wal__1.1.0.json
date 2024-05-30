@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/vivi_half.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1e0319",
+        "foreground": "#fffff4",
+        "cursor": "#fffff4"
+    },
+    "colors": {
+        "color0": "#1e0319",
+        "color1": "#ECD0D4",
+        "color2": "#A9DECE",
+        "color3": "#DFCEB2",
+        "color4": "#D4D5CF",
+        "color5": "#DDB0C8",
+        "color6": "#96E3D2",
+        "color7": "#f5f0e1",
+        "color8": "#4c063f",
+        "color9": "#ffd5e1",
+        "color10": "#c2ffff",
+        "color11": "#ffffc8",
+        "color12": "#ffffe1",
+        "color13": "#ffc8ff",
+        "color14": "#aaffff",
+        "color15": "#fffff4"
+    }
+}

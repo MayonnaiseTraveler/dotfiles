@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/redmoon.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#08121B",
+        "foreground": "#ffcbd9",
+        "cursor": "#ffcbd9"
+    },
+    "colors": {
+        "color0": "#08121B",
+        "color1": "#DF3D63",
+        "color2": "#634656",
+        "color3": "#955364",
+        "color4": "#374250",
+        "color5": "#9A3C59",
+        "color6": "#5B3A4B",
+        "color7": "#f09faa",
+        "color8": "#122b42",
+        "color9": "#ff3c76",
+        "color10": "#8b5070",
+        "color11": "#d05c7a",
+        "color12": "#3e5470",
+        "color13": "#d6406e",
+        "color14": "#7f4161",
+        "color15": "#ffcbd9"
+    }
+}

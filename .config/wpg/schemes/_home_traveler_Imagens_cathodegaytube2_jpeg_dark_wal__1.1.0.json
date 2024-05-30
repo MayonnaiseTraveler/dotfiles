@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/cathodegaytube2.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#020202",
+        "foreground": "#fffeff",
+        "cursor": "#fffeff"
+    },
+    "colors": {
+        "color0": "#020202",
+        "color1": "#D1C6BD",
+        "color2": "#FFF6CF",
+        "color3": "#E6A5A9",
+        "color4": "#E7D6DA",
+        "color5": "#EF89AE",
+        "color6": "#3CC0FF",
+        "color7": "#f6f5f6",
+        "color8": "#1b1b1b",
+        "color9": "#fffbd8",
+        "color10": "#ffffcb",
+        "color11": "#ffbbc3",
+        "color12": "#ffdbec",
+        "color13": "#ff99db",
+        "color14": "#39ffff",
+        "color15": "#fffeff"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/hyprdots.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#08111F",
+        "foreground": "#e8ffff",
+        "cursor": "#e8ffff"
+    },
+    "colors": {
+        "color0": "#08111F",
+        "color1": "#6C7D82",
+        "color2": "#58676D",
+        "color3": "#4DD1CB",
+        "color4": "#096F90",
+        "color5": "#B1B6B8",
+        "color6": "#20E1CC",
+        "color7": "#c8eeea",
+        "color8": "#112647",
+        "color9": "#7daab8",
+        "color10": "#658b9a",
+        "color11": "#51ffff",
+        "color12": "#0195c5",
+        "color13": "#cef6ff",
+        "color14": "#18ffff",
+        "color15": "#e8ffff"
+    }
+}

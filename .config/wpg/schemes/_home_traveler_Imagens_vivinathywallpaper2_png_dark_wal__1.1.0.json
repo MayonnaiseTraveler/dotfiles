@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/vivinathywallpaper2.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#15121e",
+        "foreground": "#f5ffff",
+        "cursor": "#f5ffff"
+    },
+    "colors": {
+        "color0": "#15121e",
+        "color1": "#E7D2E6",
+        "color2": "#CED3EA",
+        "color3": "#D1CFD3",
+        "color4": "#B2B3E0",
+        "color5": "#D6B4D3",
+        "color6": "#BAC9E8",
+        "color7": "#e3f0f4",
+        "color8": "#2a243d",
+        "color9": "#ffd9ff",
+        "color10": "#d5e4ff",
+        "color11": "#fee3ff",
+        "color12": "#c8caff",
+        "color13": "#ffcfff",
+        "color14": "#c9ecff",
+        "color15": "#f5ffff"
+    }
+}

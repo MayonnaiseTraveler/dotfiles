@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/flower.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#2a091c",
+        "foreground": "#fff5ff",
+        "cursor": "#fff5ff"
+    },
+    "colors": {
+        "color0": "#2a091c",
+        "color1": "#AF98E3",
+        "color2": "#DDC5EC",
+        "color3": "#D8B0E5",
+        "color4": "#A38ADD",
+        "color5": "#D79FDB",
+        "color6": "#A790E3",
+        "color7": "#eddeef",
+        "color8": "#531137",
+        "color9": "#d9adff",
+        "color10": "#ffceff",
+        "color11": "#ffc4ff",
+        "color12": "#ca9cff",
+        "color13": "#ffb6ff",
+        "color14": "#cea3ff",
+        "color15": "#fff5ff"
+    }
+}

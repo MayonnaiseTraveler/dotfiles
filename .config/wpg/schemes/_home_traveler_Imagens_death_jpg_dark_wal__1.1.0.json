@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/death.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0C0908",
+        "foreground": "#ffdfd2",
+        "cursor": "#ffdfd2"
+    },
+    "colors": {
+        "color0": "#0C0908",
+        "color1": "#C2523B",
+        "color2": "#5C564F",
+        "color3": "#B14F39",
+        "color4": "#694236",
+        "color5": "#994232",
+        "color6": "#8C4734",
+        "color7": "#cba89e",
+        "color8": "#2a1f1b",
+        "color9": "#ff5f3c",
+        "color10": "#82705b",
+        "color11": "#f55d3a",
+        "color12": "#92503b",
+        "color13": "#d44c33",
+        "color14": "#c25537",
+        "color15": "#ffdfd2"
+    }
+}

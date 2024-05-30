@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/Imagens/neon-street_00_2880x1800.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0e1a",
+        "foreground": "#ffedff",
+        "cursor": "#ffedff"
+    },
+    "colors": {
+        "color0": "#0c0e1a",
+        "color1": "#3EAFE8",
+        "color2": "#58609D",
+        "color3": "#A7ADD5",
+        "color4": "#2A61DE",
+        "color5": "#CD57D4",
+        "color6": "#5AE8F9",
+        "color7": "#e6ccea",
+        "color8": "#1b203c",
+        "color9": "#3de9ff",
+        "color10": "#6270dc",
+        "color11": "#c0ceff",
+        "color12": "#2577ff",
+        "color13": "#ff5dff",
+        "color14": "#5effff",
+        "color15": "#ffedff"
+    }
+}
