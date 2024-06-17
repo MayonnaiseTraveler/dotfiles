@@ -2,23 +2,23 @@
  * vim: ft=less
  */
 
-@define-color cc-bg rgba(6,5,17,1);
-@define-color cc-bg-alt mix(rgb(18,15,57), rgb(6,5,17),0.35);
+@define-color cc-bg rgba(10,18,27,1);
+@define-color cc-bg-alt mix(rgb(22,42,64), rgb(10,18,27),0.35);
 
-@define-color noti-border-color mix(rgb(67,108,206), rgb(18,15,57),0.75);
-@define-color border-color  mix(rgb(67,108,206), rgb(18,15,57),0.75);
-@define-color fg-color #4585ff;
-@define-color noti-bg rgba(18,15,57,1);
+@define-color noti-border-color mix(rgb(6,110,113), rgb(22,42,64),0.75);
+@define-color border-color  mix(rgb(6,110,113), rgb(22,42,64),0.75);
+@define-color fg-color #019599;
+@define-color noti-bg rgba(22,42,64,1);
 @define-color noti-bg-darker rgb(38, 38, 38);
-@define-color noti-bg-hover rgba(18,15,57,1);
-@define-color noti-bg-focus rgba(6,5,17,1);
+@define-color noti-bg-hover rgba(22,42,64,1);
+@define-color noti-bg-focus rgba(10,18,27,1);
 @define-color noti-close-bg rgba(255, 255, 255, 0.1);
-@define-color noti-close-bg-hover rgba(67,108,206, 0.15);
+@define-color noti-close-bg-hover rgba(6,110,113, 0.15);
 
-@define-color text-color rgb(246,242,255);
-@define-color text-color-disabled rgb(18,15,57);
+@define-color text-color rgb(159,255,255);
+@define-color text-color-disabled rgb(22,42,64);
 
-@define-color bg-selected rgba(18,15,57,1);
+@define-color bg-selected rgba(22,42,64,1);
 
 *{
   font-family:"ShureTechMono Nerd Font Mono";
@@ -50,8 +50,9 @@ window > box {
 
 
 .notification {
+  background: #019599;
   transition: all 200ms ease;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: none;
   margin:0 10px;
   margin-left:0px;
@@ -61,8 +62,8 @@ window > box {
 
 
 .notification-group.collapsed *{
-  background: #060511;
-  border-width:1px;
+  background: #0A121B;
+  border-width:2px;
   box-shadow: none;
 }
 
@@ -117,7 +118,7 @@ window > box {
   padding: 4px;
   box-shadow: none;
   background: @cc-bg;
-  border: 1px solid @noti-border-color;
+  border: 2px solid @noti-border-color;
   color: @text-color;
   transition: all 0.15s ease-in-out; }
 
@@ -129,7 +130,7 @@ window > box {
 }
 
 .notification-default-action {
-  border-radius:10px;
+  border-radius:8px;
 }
 
 /* When alternative actions are visible */
@@ -168,14 +169,14 @@ window > box {
 .inline-reply-button {
   margin-left: 4px;
   background: @noti-bg;
-  border: 1px solid @noti-border-color;
+  border: 2px solid @noti-border-color;
   border-radius: 16px;
   color: @text-color;
 }
 .inline-reply-button:disabled {
   background: initial;
   color: @text-color-disabled;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 .inline-reply-button:hover {
   background: @noti-bg-hover;
@@ -183,7 +184,7 @@ window > box {
 
 .image {
   border: solid transparent;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: calc(10px * 0.2);
 
 }
@@ -191,7 +192,7 @@ window > box {
 .body-image {
   margin-top: 6px;
   background-color: white;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 16px;
 }
 
@@ -223,7 +224,7 @@ window > box {
 .control-center {
   transition: all 200ms ease;
   padding: 0px;
-  border: 1px solid @fg-color;
+  border: 2px solid @fg-color;
   border-radius: 16px;
   background: @cc-bg;
 }
@@ -257,9 +258,9 @@ window > box {
   color: @text-color;
   text-shadow: none;
   background: @cc-bg;
-  border: 1px solid @noti-border-color;
+  border: 2px solid @noti-border-color;
   box-shadow: none;
-  border-radius:10px;
+  border-radius:8px;
 }
 .widget-title > button:hover {
 	background-color:@noti-border-color;
@@ -272,9 +273,9 @@ window > box {
 	padding:10px calc(16px * 1.6);
 	padding-top:0; 
 	margin:0;
-	border: 1px solid @noti-border-color;
+	border: 2px solid @noti-border-color;
 	border-radius:0 0 16px  16px ;
-	border-width: 0 0 1px 0;
+	border-width: 0 0 2px 0;
 
 	font-size: 1.2rem;
 }
@@ -283,7 +284,7 @@ window > box {
   font-size: initial;
   border-radius: 8px;
   background: @cc-bg;
-	border: 1px solid @noti-border-color;
+	border: 2px solid @noti-border-color;
     box-shadow: none;
 }
 .widget-dnd > switch:checked {
@@ -293,7 +294,7 @@ window > box {
 .widget-dnd > switch slider {
   background: @noti-bg;
   padding:2px;
-  border: 1px solid @noti-border-color;
+  border: 2px solid @noti-border-color;
   border-radius: 12px;
 }
 
@@ -317,7 +318,7 @@ window > box {
 	margin:0;
 	padding:10px 0;
 	border: solid @border-color;
-	border-width: 0 0 1px 0;
+	border-width: 0 0 2px 0;
 	border-radius:0 ;
 
   /* The parent to all players */
@@ -355,8 +356,8 @@ window > box {
 	margin:0 ;
 	color: @fg-color;
 	background-color:@cc-bg;
-    border-radius:10px;
-  	border: 1px solid @border-color;
+    border-radius:8px;
+  	border: 2px solid @border-color;
 	margin-bottom:0px;
 }
 
@@ -385,8 +386,8 @@ window > box {
 
 .widget-mpris > box > button {
   /* Change player side buttions */
-	border-radius: 10px; 
-	border-width:0 1px;
+	border-radius: 8px; 
+	border-width:0 2px;
 	padding:0 10px ;
 	margin:0px;
 	box-shadow:none;
@@ -417,8 +418,8 @@ window > box {
 	padding:10px;
 	padding-right:0;
 	background-color: @cc-bg;
-	border: 1px solid @border-color;
-	border-width: 0 0 1px 0;
+	border: 2px solid @border-color;
+	border-width: 0 0 2px 0;
 	border-radius: 16px;
 }
 
@@ -427,8 +428,8 @@ window > box {
 	padding: calc(10px * 1) calc(10px * 3);
 	margin:4px;
 	background-color:@cc-bg;
-	border-radius: 10px;
-	border: 1px solid @border-color;
+	border-radius: 8px;
+	border: 2px solid @border-color;
 	font-size:1.5rem;
 }
 
@@ -450,7 +451,7 @@ window > box {
   font-size: 1.2rem;
   border-radius:16px;
   padding:16px;
-  border: 1px solid @border-color;
+  border: 2px solid @border-color;
   background: @noti-bg-hover;
 }
 
@@ -467,7 +468,8 @@ window > box {
 
 .AnyName>button:hover {
   background-color: @noti-bg-hover;
-} */
+}
+*/
 
 .topbar-buttons>button { /* Name defined in config after # */
   border: none;
@@ -499,14 +501,14 @@ window > box {
 	margin:0px;
 	padding:10px calc(16px * 1.6);
 	border-radius:0px;
-	border: 1px solid @border-color;
+	border: 2px solid @border-color;
     background-color: @cc-bg;
     font-size: 1.8em;
 	border-width: 0 0 0;
 }
 .widget-volume>box>button {
 
-	padding:0 10px;
+	padding:0;
     background: transparent; 
 	box-shadow:none;
     border: none;

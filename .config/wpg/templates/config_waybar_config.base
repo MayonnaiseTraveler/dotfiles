@@ -81,14 +81,14 @@
 		"format": "{{}}",
 		"tooltip": true,
 		"interval": 3600,
-		"exec": "wttrbar --custom-indicator '{{temp_C}}'",
+		"exec": "wttrbar --location araranguá --hide-conditions --custom-indicator  '{{temp_C}}'",
 		"return-type": "json"
 	}},
 	"custom/weather#icon": {{
 		"format": "<big>{{}}</big>",
 		"tooltip": true,
 		"interval": 3600,
-		"exec": "wttrbar --vertical-view --custom-indicator '{{ICON}}'",
+		"exec": "wttrbar --location araranguá  --hide-conditions --custom-indicator '{{ICON}}'",
 		"return-type": "json"
 	}},
 
@@ -265,7 +265,7 @@
         }},
     }},
     "custom/powermenu": {{
-	"tooltip": false,
+	  "tooltip": false,
       "format": "{{icon}}",
       "on-click": "sleep 0.1 && $HOME/.config/rofi/powermenu/powermenu.sh",
       "format-icons":{{
@@ -355,7 +355,8 @@
 		"ignored-players": ["firefox"]
 	}},
 	"image#icon":{{
-		"path": "$HOME/.face.icon",
-		"size": 42,
+		"path": "/home/{USER}/icon.png",
+		"size": 32,
 		}},
 }}
+

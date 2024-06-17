@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/traveler/.config/wpg/wallpapers/vivinathywallpaper_sketch_dark.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f0d0d",
+        "foreground": "#dcffff",
+        "cursor": "#dcffff"
+    },
+    "colors": {
+        "color0": "#0f0d0d",
+        "color1": "#f0ae89",
+        "color2": "#bad2f2",
+        "color3": "#ffd689",
+        "color4": "#97b9d7",
+        "color5": "#96a8c8",
+        "color6": "#9de0e8",
+        "color7": "#cbf9ff",
+        "color8": "#2a2424",
+        "color9": "#ffe79d",
+        "color10": "#c5ffff",
+        "color11": "#ffff98",
+        "color12": "#afffff",
+        "color13": "#acd9ff",
+        "color14": "#b4ffff",
+        "color15": "#dcffff"
+    }
+}

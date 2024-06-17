@@ -37,6 +37,8 @@ require("xpm").setup({
 		-- 	'sayanarijit/dual-pane.xplr',
 		-- 	setup = function()
 		-- 		require("dual-pane").setup({
+
+		-- 			as_default_layout = true,
 		-- 			active_pane_width = { Percentage = 70 },
 		-- 			inactive_pane_width = { Percentage = 30 },
 		-- 		})
@@ -60,7 +62,7 @@ require("xpm").setup({
 			setup = function()
 				require('tri-pane').setup({
 					layout_key = "T", -- In switch_layout mode
-					as_default_layout = true,
+					as_default_layout = false,
 					left_pane_width = { Percentage = 20 },
 					middle_pane_width = { Percentage = 40 },
 					right_pane_width = { Percentage = 40 },
@@ -92,7 +94,7 @@ require("xpm").setup({
 				})
 			end
 		},
-		'sayanarijit/zentable.xplr',
+		-- 'sayanarijit/zentable.xplr',
 
 	},
 	auto_install = true,
@@ -279,4 +281,33 @@ key.v = {
 	messages = {
 		"PrintResultAndQuit"
 	}
+}
+
+
+
+xplr.config.modes.builtin.default.key_bindings.on_key.P = {
+	help = "preview",
+	messages = {
+		{
+			BashExecSilently0 = [===[
+        FIFO_PATH="/tmp/xplr.fifo"
+
+        if [ -e "$FIFO_PATH" ]; then
+          "$XPLR" -m StopFifo
+          rm -f -- "$FIFO_PATH"
+        else
+          mkfifo "$FIFO_PATH"
+          "$HOME/.config/xplr/imv-open.sh" "$FIFO_PATH" "$XPLR_FOCUS_PATH" &
+          "$XPLR" -m 'StartFifo: %q' "$FIFO_PATH"
+        fi
+      ]===],
+		},
+	},
+}
+
+xplr.config.general.table.col_widths = {
+	{ Percentage = 50 },
+	{ Percentage = 10 },
+	{ Percentage = 10 },
+	{ Percentage = 30 },
 }
