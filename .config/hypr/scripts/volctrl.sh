@@ -4,6 +4,56 @@ volup_icon="$HOME/.local/share/icons/flattrcolor/status/22/audio-volume-high.svg
 volmute_icon="$HOME/.local/share/icons/flattrcolor/status/22/audio-volume-muted.svg"
 shuffle_icon="$HOME/.local/share/icons/flattrcolor/actions/22/media-playlist-shuffle.svg"
 
+music_library="$HOME/SYNC/playlist"
+fallback_image="$HOME/.local/share/.icons/flattrcolor-dark/categories/scalable/applications-multimedia.svg"
+
+notify_playing() {
+
+    get_cover >/dev/null 2>&1
+
+	if playerctl metadata | grep -m 1 -o spotify; then
+	exit 1
+	fi
+	notify-send -a "mpd" -i "$cover_path" -r 43 "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)" 
+}
+
+get_cover() {
+
+    # First we check if the audio file has an embedded album art
+    ext="$(mpc --format %file% current | sed 's/^.*\.//')"
+    if [ "$ext" = "flac" ]; then
+        # since FFMPEG cannot export embedded FLAC art we use metaflac
+        metaflac --export-picture-to=/tmp/mpd_cover.jpg \
+            "$(mpc --format "$music_library"/%file% current)" &&
+            cover_path="/tmp/mpd_cover.jpg" &&
+			convert "$cover_path" -resize 512x512^ -gravity Center -extent 512x512 "$cover_path" > /dev/null 2>&1 &&
+			return
+    else
+        ffmpeg -y -i "$(mpc --format "$music_library"/%file% | head -n 1)" \
+            /tmp/mpd_cover.jpg &&
+            cover_path="/tmp/mpd_cover.jpg"&&
+			convert "$cover_path" -resize 512x512^ -gravity Center -extent 512x512 "$cover_path" > /dev/null 2>&1 &&
+			return
+    fi
+
+    # If no embedded art was found we look inside the music file's directory
+    album="$(mpc --format %album% current)"
+    file="$(mpc --format %file% current)"
+    album_dir="${file%/*}"
+    album_dir="$music_library/$album_dir"
+    found_covers="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f \
+    -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\\(jpe?g\|png\|gif\|bmp\)" \; )"
+    cover_path="$(echo "$found_covers" | head -n1)"
+    if [ -n "$cover_path" ]; then
+        return
+    fi
+
+    # If we still failed to find a cover image, we use the fallback
+    if [ -z "$cover_path" ]; then
+        cover_path=$fallback_image
+    fi
+}
+
 vol()
 {
 	case $1 in
@@ -30,7 +80,6 @@ vol()
 			;;
 	esac
 }
-
 
 audio()
 {
@@ -59,14 +108,12 @@ music ()
 		down) vol music 0.05-
 		;;
 		next)
-			playerctl next &
-			~/.config/ncmpcpp/ncmpcpp-icat.sh &
-			~/.config/ncmpcpp/songinfo.sh &
+			playerctl next
+			notify_playing & 
 		;;
 		prev) 
 			playerctl previous &
-			~/.config/ncmpcpp/ncmpcpp-icat.sh &
-			~/.config/ncmpcpp/songinfo.sh &
+			notify_playing &
 		;;
 		pause) 
 			playerctl play-pause &
@@ -111,6 +158,5 @@ case $1 in
 	music) music $2 
 	;;
 esac
-
 
 
