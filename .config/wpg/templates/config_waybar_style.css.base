@@ -20,12 +20,13 @@ window#waybar > box {{
     background-color:rgba({color0.rgb},{opacity});
 	background-clip:border-box;
 	margin: {gaps_out}px {gaps_in}px;
+	padding: 1px;
 	margin-right:0;
     color:{color15};
-    border-style:solid;
-    border-width:{b_size};
-	border-radius:{b_radius} ;
-    border-color:{color9};
+   border-style:solid;
+/*    border-width:{b_size}; */
+	border-radius:calc({b_radius2}px * 1.4);
+/*    border-color:{color9}; */
     color: transparent;
 }}
 
