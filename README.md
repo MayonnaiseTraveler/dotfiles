@@ -80,13 +80,14 @@ This repository contains the dots for my Arch Linux Setup, currently it has:
 if you use something else than just change it in the following command.
 
 ```bash
-# Cloning the repo, will overwrite you local configs
+
+# Will overwrite your local configs, make sure to back them up first!
 git clone --bare <git-repo-url> $HOME/.cfg
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.cfg/" --work-tree="$HOME"'
 dotfiles checkout -f
 dotfiles config --local status.showUntrackedFiles no
 
-# Downloading the needed packages (+ some extra stuff you might not use)
+# Downloading the needed packages (+ some extra stuff you might not use), might take a while
 paru -S --needed $(echo ~/gitdotfiles/PC-Packages.txt)
 
 # Update WPGTK Symlinks, add WPGTK wallpapers, and generate a colorscheme
@@ -95,21 +96,23 @@ wpg -a $XDG_CONFIG_HOME/Wallpapers/*
 wpg -A $(wpg -l)
 
 ```
+
 make sure you enable sddm and have files with correct permissions, then reboot.
+
+```bash
+chmod +x ~/gitdotfiles/scripts/update.sh
+~/gitdotfiles/scripts/update.sh
+
+```
 
 ***
 
 ### ToDo:
-- [ ] Remove unecessary files (rofi has a bunch of unused configs)
+- [ ] Create lists of needed packages, tools, and extra stuff
+- [ ] Update readme, list only necessary software and mention the tools and extra stuff list
 - [ ] Clear Scripts and re-organize files
-- [ ] Create scripts for a backup system
 - [ ] Separate Personal configuration files in another repo (example, yt-dlp downloaded list, vim config , etc).
-- [ ] Create Package list with only the needed packages for this to run.
-- [ ] Update this readme more
 - [ ] Create Keybind list in Readme
 - [ ] Create Eww widgets
 - [ ] Create a bar with Eww
-- [ ] finish bash script that changes volume of the active window // unused
-- [x] Remove deprecated x11 config files 
-- [x] fix lvim colorscheme -> done i think?
-
+- [ ] Create scripts for a backup system
