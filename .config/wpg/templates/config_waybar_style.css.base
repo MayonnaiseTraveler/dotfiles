@@ -23,10 +23,10 @@ window#waybar > box {{
 	padding: 1px;
 	margin-right:0;
     color:{color15};
-   border-style:solid;
-/*    border-width:{b_size}; */
+	border-style:solid;
+	border-width:{b_size};
 	border-radius:calc({b_radius2}px * 1.4);
-/*    border-color:{color9}; */
+	border-color:{color9}; 
     color: transparent;
 }}
 
@@ -111,10 +111,11 @@ window#waybar.solo {{
 
 #custom-menu:hover{{
 	background-color:{color11};
-	color:{color15};
+	color:{color0};
 }}
 
 #workspaces button:hover {{
+  background-color:{color8};
   color:{color10};
 }}
 

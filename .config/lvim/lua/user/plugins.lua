@@ -51,6 +51,7 @@ M.setup = function()
 		},
 
 		{ 'EdenEast/nightfox.nvim' },
+		{ 'akinsho/toggleterm.nvim', version = "*", config = true },
 		{ 'psliwka/termcolors.nvim' },
 		{
 			"karb94/neoscroll.nvim",

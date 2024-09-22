@@ -24,9 +24,6 @@ vim.opt.sidescrolloff = 8
 -- lvim.keys.visual_mode["<M-k>"] = "<Esc>"
 vim.opt.relativenumber = true
 
-
-
-
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
@@ -49,19 +46,8 @@ lvim.builtin.treesitter.ensure_installed = {
 	"scss",
 	"rust",
 	"yaml",
+	"hyprlang"
 }
-
-if vim.g.neovide then
-	vim.g.neovide_scale_factor = 0.5
-	vim.g.neovide_transparency = 1.0
-	-- vim.g.neovide_transparency_point = 0.0
-
-	vim.g.neovide_refresh_rate = 60
-	-- vim.g.neovide_background_color = "#0f1117" .. alpha()
-
-	-- Put anything you want to happen only in Neovide here
-end
-
 
 require("user.plugins").setup()
 
@@ -117,7 +103,7 @@ dap.configurations.c = {
 		type = 'c',
 		request = 'launch',
 		name = 'Bnnuy',
-		program = '${workspaceFolder}/package/linux/bnnuy',
+		program = '${workspaceFolder}/bin/linux/bnnuy',
 		-- program = '${workspaceFolder}/dArray',
 	}
 }
@@ -132,7 +118,7 @@ dap.adapters.c = {
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
-lvim.builtin.treesitter.auto_install = false
+lvim.builtin.treesitter.auto_install = true
 lvim.builtin.treesitter.highlight.enabled = true
 
 lvim.autocommands = {

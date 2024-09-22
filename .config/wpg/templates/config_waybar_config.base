@@ -17,7 +17,6 @@
     "modules-center": [ 
 		"custom/weather#icon",
 		"custom/weather#temp",
-		"cava",
 		"clock",
 	], 
 
@@ -146,7 +145,7 @@
          "spacing": 0
     }},
     "clock": {{
-        //"timezone": "Brazil/Sao_Paulo",
+        "timezone": "America/Sao_Paulo",
 		"interval": 60,
         "format": "{{:%H\n%M}}",
         "tooltip-format": "<tt><small>{{calendar}}</small></tt>",
@@ -231,7 +230,7 @@
             "car": "",
             "default": ["", "", "󰕾"]
         }},
-        "on-click": "hyprctl dispatch 'exec [float;noanim;move 3% 58%;size 40% 40%] pavucontrol'",
+        "on-click": "hyprctl dispatch 'exec [float;noanim;move 3% 58%;size 40% 40%] GTK_THEME=FlatColor2 pavucontrol'",
         "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
         "on-click-right":"pulseaudio-control togmute",
     }},
@@ -250,7 +249,7 @@
             "car": "",
             "default": ["", "", "󰕾"]
         }},
-        "on-click": "hyprctl dispatch 'exec [float;noanim;move 3% 58%;size 40% 40%] pavucontrol'",
+        "on-click": "hyprctl dispatch 'exec [float;noanim;move 3% 58%;size 40% 40%] GTK_THEME=FlatColor2 pavucontrol'",
         "on-click-middle" : "pulseaudio-control --node-blacklist 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2' next-node",
         "on-click-right":"pulseaudio-control togmute",
     }},

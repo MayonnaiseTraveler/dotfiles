@@ -70,7 +70,7 @@ zstyle ':omz:update' frequency 7
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z cp git aliases vi-mode colorize)
+plugins=(cp git aliases vi-mode colorize)
 
 source $ZSH/oh-my-zsh.sh
 

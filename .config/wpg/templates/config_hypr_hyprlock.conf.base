@@ -28,7 +28,7 @@ label {{
     font_size = 25
     font_family = {font1} 
 
-    position = -{gaps_out}, 64
+    position = -{gaps_out}, 96 
     halign = right 
     valign = bottom 
 }}

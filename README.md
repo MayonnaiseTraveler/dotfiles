@@ -96,8 +96,10 @@ wpg -a $XDG_CONFIG_HOME/Wallpapers/*
 wpg -A $(wpg -l)
 
 ```
-
 make sure you enable sddm and have files with correct permissions, then reboot.
+
+### Updating:
+Just run the update script 
 
 ```bash
 chmod +x ~/gitdotfiles/scripts/update.sh
