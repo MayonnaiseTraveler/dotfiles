@@ -1,30 +1,32 @@
 #!/bin/bash
 
 logout (){
-	killall waybar && swww kill && killall mpd && killall hyprland 
+	killall waybar
+	swww kill
+	killall mpd
+	killall Hyprland 
 }
 
 lock (){
-
 	hyprlock
 	}
 
 suspend (){
-	sleep 2 && sudo systemctl suspend
-	lock
+	lock &
+	sleep 1 && sudo systemctl suspend 
 }
 
 shutdown (){
 	swww kill
 	killall mpd
-	killall hyprland
-	systemctl poweroff 
+	killall Hyprland
+	sleep 2 && systemctl poweroff 
 }
 
 reboot (){
 	swww kill
 	killall mpd
-	killall hyprland
+	killall Hyprland
 	systemctl reboot 
 }
 

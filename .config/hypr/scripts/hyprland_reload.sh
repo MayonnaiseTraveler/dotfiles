@@ -48,8 +48,8 @@ finalname=wallpaper."$extension"
 
 #update the sddm theme in the dumbest way cause syslinks stopped working for whatever reason
 sudo cp -f $finalwall /usr/share/sddm/themes/corners/backgrounds/$finalname
-cp -f /home/traveler/.config/sddm/theme.conf /home/traveler/.config/sddm/theme2.conf
-echo BgSource=\"backgrounds/$finalname\" >> /home/traveler/.config/sddm/theme2.conf
-sudo cp -f /home/traveler/.config/sddm/theme2.conf /usr/share/sddm/themes/corners/theme.conf
+cp -f $HOME/.config/sddm/theme.conf $HOME/.config/sddm/theme2.conf
+echo BgSource=\"backgrounds/$finalname\" >> $HOME/.config/sddm/theme2.conf
+sudo cp -f $HOME/.config/sddm/theme2.conf /usr/share/sddm/themes/corners/theme.conf
 
-
+~/.config/hypr/scripts/xdg-portal-reset.sh

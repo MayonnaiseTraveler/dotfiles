@@ -1,26 +1,74 @@
 (defwindow example
   :monitor 0
   :geometry (geometry 
-              :x "4px"
+              :x "4px" 
               :y "0%"
-              :width "40px"
-              :height "90%"
+              :width "420px"
+              :height "220px"
               :anchor "left center"
             )
-  :stacking "fg"
-  :reserve (struts :distance "40px" :side "top")
+  :stacking "bg"
+  :reserve (struts :distance "40px" :side "bottom")
   :windowtype "dock"
   :wm-ignore true
   (greeter 
     :text "Say Hello!"
     :name "Traveler"
   )
+
 )
 
 (defwidget greeter [?text name]
-  (box 
-    :orientation "h"
-    :halign "center"
-    (button 
+    (box 
+    :orientation "v"
+    :space-evenly true
+    (box :class "first" :spacing 8  
+      (button :hexpand true :width "200px" :class "amogus"
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")
+      (button :width "200px" :class "amogus"
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")
+      (button :width "100px" :class "amogus"
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")    
+      (button :class "sussy" 
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")
+      )
+    (box :class "second" :spacing 8 
+      (button :width "100px" :class "amogus"
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")
+      (button :width "100px" :class "amogus"
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")    (button :width "100px" :class "amogus"
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")    (button :width "100px" :class "amogus"
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")    
+      (button :class "sussy" 
+        :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")
+      ))
+    )
+
+(defwidget greeter2 [?text name]
+(box 
+    :space-evenly true
+    :spacing 8
+    (button :width "100px" :class "amogus"
+      :onclick "notify-send 'Hello' 'Hello, ${name}'"
+    "Greet")
+    (button :width "100px" :class "amogus"
+      :onclick "notify-send 'Hello' 'Hello, ${name}'"
+    "Greet")    
+    (button :width "100px" :class "amogus"
+      :onclick "notify-send 'Hello' 'Hello, ${name}'"
+    "Greet")    
+    (button :width "100px" :class "amogus"
+      :onclick "notify-send 'Hello' 'Hello, ${name}'"
+    "Greet")    
+    (button :class "sussy" 
       :onclick "notify-send 'Hello' 'Hello, ${name}'"
     "Greet")))
