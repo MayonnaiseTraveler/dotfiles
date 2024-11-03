@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # usage: import-gsettings
-# config="$HOME/.local/share/themes/FlatColor2/gtk-3.20/settings.ini"
 config="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-3.0/settings.ini"
 # config2="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-3.0/settings.ini"
 if [ ! -f "$config" ]; then exit 1; fi

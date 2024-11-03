@@ -23,7 +23,7 @@ swww img -f $filter --transition-type random --transition-duration 2 "$finalwall
 
 # Update theme
 
-~/.config/hypr/scripts/import-gsettings.sh 
+$HOME/.config/hypr/scripts/import-gsettings.sh 
 pywalfox update
 
 # update swaync and spotify 
