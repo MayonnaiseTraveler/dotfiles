@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Usage:
+# volctrl.sh source [option]
+# -------------------------------
+# volctrl.sh audio [up|down|mute]
+# volctrl.sh music [up|down|prev|next|pause|shuffle|prev_player|next_player]
+
 volup_icon="$HOME/.local/share/icons/flattrcolor/status/22/audio-volume-high.svg"
 volmute_icon="$HOME/.local/share/icons/flattrcolor/status/22/audio-volume-muted.svg"
 shuffle_icon="$HOME/.local/share/icons/flattrcolor/actions/22/media-playlist-shuffle.svg"
@@ -58,10 +64,9 @@ vol()
 {
 	case $1 in
 		audio)
-			wpctl set-volume @DEFAULT_AUDIO_SINK@ $2 &
-			volstr="$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g)"
-			volume="$(echo "$volstr" | sed 's/^.0//g')%"
-			volume_int="$(echo "$volstr" | sed 's/ //g')"
+			pamixer $2 5
+			volume_int="$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed 's/[^0-9]//g')"
+			volume="$(echo "$volume_int" | sed 's/^0//g')%"
 
 			notify-send -r 45 "Audio Volume:" "$volume" -a volup -h int:value:"$volume_int" -i "$volup_icon" &
 		;;
@@ -84,15 +89,14 @@ vol()
 audio()
 {
 	case $1 in
-		up) vol audio 5%+
+		up) vol audio -i
 		;;
-		down) vol audio 5%-
+		down) vol audio -d 
 		;;
 		mute) 
 			wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle &
 
-			volstr="$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed s/'Volume:'/''/g | sed s/'\.'/''/g)"
-			volume_int="$(echo "$volstr" | sed 's/ //g')"
+			volume_int="$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed 's/[^0-9]//g')"
 
 			notify-send -r 45 "Audio Muted:" -a voltoggle -h int:value:$volume_int -i $volmute_icon
 
