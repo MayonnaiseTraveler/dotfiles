@@ -238,7 +238,7 @@
         "format": "{{icon}}",
         "format-bluetooth": "{{icon}}",
         "format-bluetooth-muted": "{{icon}}",
-        "format-muted": "󰝟{{format_source}}",
+        "format-muted": "󰝟",
         "format-source-muted": "",
         "format-icons": {{
             "headphone": "",
