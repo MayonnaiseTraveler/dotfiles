@@ -36,5 +36,5 @@ ln -vfs $HOME/.config/vesktop/themes/ClearVision_v6.theme.css $XDG_CONFIG_HOME/w
 ln -vfs $HOME/.config/hypr/hyprlock.conf $XDG_CONFIG_HOME/wpg/templates/config_hypr_hyprlock.conf
 ln -vfs $HOME/.config/hypr/scripts/nwg-menu.sh $XDG_CONFIG_HOME/wpg/templates/hypr_scripts_nwg-menu.sh
 
-chmod +x $HOME/.local/share/icons/flattrcolor/scripts/replace_script.sh
+chmod +x $HOME/.local/share/icons/flattrcolor/scripts/*.sh
 chmod +x $HOME/.config/hypr/scripts/*.sh
