@@ -18,14 +18,16 @@ decoration {{
 		passes=1 # minimum 1
 		new_optimizations=1
 	}}
-
+	shadow {{
+		enabled= {shadow}
+		range={shadow_range}
+		offset={shadow_offset}
+		sharp={shadow_sharp}
+		render_power={shadow_power}
+		color=rgb({color9.strip})
+		color_inactive= rgb({color8.strip})
+		}}
     rounding={b_radius2}
-    drop_shadow={shadow}
-	shadow_offset={shadow_offset}
-    shadow_range={shadow_range}
-    col.shadow=rgb({color9.strip})
-	shadow_render_power={shadow_power}
-    col.shadow_inactive = rgb({color8.strip})
 
 }}
 
