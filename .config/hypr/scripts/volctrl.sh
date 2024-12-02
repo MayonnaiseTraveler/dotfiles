@@ -127,15 +127,17 @@ music ()
 
 			notify-send -r 45 "   Toggled Puase" "$title" -i "$player_icon" &
 		;;
-		next_player) next_player 
+		next_player) 
+			#next_player 
 			playerctld shift &
 
 			player="$(playerctl metadata --format '{{ playerName }}')"
 			player_icon="$(playerctl metadata --format '{{ playerName }}')"
 
 			notify-send -r 45 "Current Player:" "$player" -i "$player_icon" &
-			;;
-		prev_player) prev_player
+		;;
+		prev_player) 
+			#prev_player
 			playerctld unshift &
 
 			player="$(playerctl metadata --format '{{ playerName }}')"
