@@ -12,6 +12,7 @@ general {{
 
 decoration {{
 
+    rounding={b_radius2}
 	blur {{
 		enabled= {blur}
 		size={blur_size} # minimum 1
@@ -27,7 +28,6 @@ decoration {{
 		color=rgb({color9.strip})
 		color_inactive= rgb({color8.strip})
 		}}
-    rounding={b_radius2}
 
 }}
 

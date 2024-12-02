@@ -139,6 +139,7 @@ window#waybar.solo {{
 #traybox,
 #pulseaudio.sound,
 #pulseaudio.icon,
+#custom-hyprsunset,
 #custom-notification.icon,
 #custom-notification.count,
 #custom-powermenu{{
@@ -183,6 +184,7 @@ window#waybar.solo {{
 
 #custom-notification.icon,
 #custom-trayicon,
+#custom-hyprsunset,
 #pulseaudio.icon,#custom-powermenu{{
 	font-size: calc({f_small}px * 2.2);
 }}
@@ -193,6 +195,7 @@ window#waybar.solo {{
 	color:{color7};
 }}
 
+#custom-hyprsunset,
 #custom-trayicon{{
 	font-weight:700;
 	color:{color7};

@@ -26,6 +26,7 @@
 		"battery",
 		//"custom/notification#count",
 		"custom/notification#icon",
+		"custom/hyprsunset",
 		"custom/powermenu"
 	],
 
@@ -315,6 +316,18 @@
 		"on-click": "sleep 0.1 && swaync-client -t -sw",
 		"on-click-right": "sleep 0.1 && swaync-client -d -sw",
 		"escape": true,
+	}},
+	"custom/hyprsunset": {{
+		"tooltip": false,
+		"format": "{{icon}}",
+		"format-icons": {{
+			"default": "󰖙",
+			"off": "󰖙",
+			"on": "󰖚"
+		}},
+		"return-type": "json",
+		"exec": "while true; do enabled=$(pgrep hyprsunset || echo 0); if [ $enabled -eq 0 ]; then echo '{{\"alt\": \"off\"}}'; else echo '{{\"alt\" :\"on\"}}'; fi; sleep 0.1; done;",
+		"on-click": "pgrep hyprsunset && killall hyprsunset || hyprsunset -t 4400",
 	}},
 	"privacy": {{
 		"orientation": "vertical",
