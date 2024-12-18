@@ -1,0 +1,1 @@
+/home/traveler/.config/hypr/scripts/swaylock.sh
