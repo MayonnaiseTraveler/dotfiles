@@ -52,4 +52,4 @@ cp -f $HOME/.config/sddm/theme.conf $HOME/.config/sddm/theme2.conf
 echo BgSource=\"backgrounds/$finalname\" >> $HOME/.config/sddm/theme2.conf
 sudo cp -f $HOME/.config/sddm/theme2.conf /usr/share/sddm/themes/corners/theme.conf
 
-~/.config/hypr/scripts/xdg-portal-reset.sh
+# ~/.config/hypr/scripts/xdg-portal-reset.sh
