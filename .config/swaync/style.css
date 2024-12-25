@@ -2,23 +2,23 @@
  * vim: ft=less
  */
 
-@define-color cc-bg rgba(10,18,27,1);
-@define-color cc-bg-alt mix(rgb(22,42,64), rgb(10,18,27),0.35);
+@define-color cc-bg rgba(6,16,43,1);
+@define-color cc-bg-alt mix(rgb(11,31,87), rgb(6,16,43),0.35);
 
-@define-color noti-border-color mix(rgb(6,110,113), rgb(22,42,64),0.75);
-@define-color border-color  mix(rgb(6,110,113), rgb(22,42,64),0.75);
-@define-color fg-color #019599;
-@define-color noti-bg rgba(22,42,64,1);
+@define-color noti-border-color mix(rgb(172,104,160), rgb(11,31,87),0.75);
+@define-color border-color  mix(rgb(172,104,160), rgb(11,31,87),0.75);
+@define-color fg-color #f175db;
+@define-color noti-bg rgba(11,31,87,1);
 @define-color noti-bg-darker rgb(38, 38, 38);
-@define-color noti-bg-hover rgba(22,42,64,1);
-@define-color noti-bg-focus rgba(10,18,27,1);
+@define-color noti-bg-hover rgba(11,31,87,1);
+@define-color noti-bg-focus rgba(6,16,43,1);
 @define-color noti-close-bg rgba(255, 255, 255, 0.1);
-@define-color noti-close-bg-hover rgba(6,110,113, 0.15);
+@define-color noti-close-bg-hover rgba(172,104,160, 0.15);
 
-@define-color text-color rgb(159,255,255);
-@define-color text-color-disabled rgb(22,42,64);
+@define-color text-color rgb(252,244,255);
+@define-color text-color-disabled rgb(11,31,87);
 
-@define-color bg-selected rgba(22,42,64,1);
+@define-color bg-selected rgba(11,31,87,1);
 
 *{
   font-family:"ShureTechMono Nerd Font Mono";
@@ -26,7 +26,7 @@
 }
 
 window > box {
-  margin: 16px;
+  margin: 8px;
   margin-left:4px;
   padding:0;
   border-radius: 0px;
@@ -50,19 +50,19 @@ window > box {
 
 
 .notification {
-  background: #019599;
+  background: #f175db;
   transition: all 200ms ease;
   border-radius: 8px;
   box-shadow: none;
-  margin:0 10px;
+  margin:0 8px;
   margin-left:0px;
-  margin-top: 10px;
+  margin-top: 8px;
   padding: 0px;
 }
 
 
 .notification-group.collapsed *{
-  background: #0A121B;
+  background: #06102B;
   border-width:2px;
   box-shadow: none;
 }
@@ -90,7 +90,7 @@ window > box {
 
 .notification-content {
   background: transparent;
-  padding: 10px;
+  padding: 8px;
 }
 
 .close-button {
@@ -98,7 +98,7 @@ window > box {
   color: @text-color;
   text-shadow: none;
   padding: 0;
-  margin:calc(10px *1.8);
+  margin:calc(8px *1.8);
   border-radius: 100%;
   box-shadow: none;
   border: none;
@@ -170,7 +170,7 @@ window > box {
   margin-left: 4px;
   background: @noti-bg;
   border: 2px solid @noti-border-color;
-  border-radius: 16px;
+  border-radius: 12px;
   color: @text-color;
 }
 .inline-reply-button:disabled {
@@ -185,7 +185,7 @@ window > box {
 .image {
   border: solid transparent;
   border-radius: 8px;
-  padding: calc(10px * 0.2);
+  padding: calc(8px * 0.2);
 
 }
 
@@ -193,7 +193,7 @@ window > box {
   margin-top: 6px;
   background-color: white;
   border: 2px solid transparent;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 .summary {
@@ -225,7 +225,7 @@ window > box {
   transition: all 200ms ease;
   padding: 0px;
   border: 2px solid @fg-color;
-  border-radius: 16px;
+  border-radius: 12px;
   background: @cc-bg;
 }
 
@@ -247,7 +247,7 @@ window > box {
 
 /* Title widget */
 .widget-title {
-	padding:10px calc(16px * 1.6);
+	padding:8px calc(8px * 1.6);
 	margin:0;
   font-size: 1.6rem;
 }
@@ -270,11 +270,11 @@ window > box {
 
 /* DND widget */
 .widget-dnd {
-	padding:10px calc(16px * 1.6);
+	padding:8px calc(8px * 1.6);
 	padding-top:0; 
 	margin:0;
 	border: 2px solid @noti-border-color;
-	border-radius:0 0 16px  16px ;
+	border-radius:0 0 12px  12px ;
 	border-width: 0 0 2px 0;
 
 	font-size: 1.2rem;
@@ -305,8 +305,8 @@ window > box {
 
 /* Label widget */
 .widget-label {
-		padding:0 10px;
-  margin: 0 16px;
+		padding:0 8px;
+  margin: 0 8px;
 }
 
 .widget-label > label {
@@ -316,7 +316,7 @@ window > box {
 /* Mpris widget */
 .widget-mpris {
 	margin:0;
-	padding:10px 0;
+	padding:8px 0;
 	border: solid @border-color;
 	border-width: 0 0 2px 0;
 	border-radius:0 ;
@@ -333,7 +333,7 @@ window > box {
 .widget-mpris-player {
 		padding:0;
 		margin:0;
-		padding-bottom:10px;
+		padding-bottom:8px;
 		margin-top:0;
 		margin-bottom:0;
 }
@@ -346,8 +346,8 @@ window > box {
 .widget-mpris-player > box > image{
 		padding:0;
 	border-radius:0 ;
-		margin:10px;
-		margin-left:16px;
+		margin:8px;
+		margin-left:8px;
 		margin-right:0px;
 }
 
@@ -420,12 +420,12 @@ window > box {
 	background-color: @cc-bg;
 	border: 2px solid @border-color;
 	border-width: 0 0 2px 0;
-	border-radius: 16px;
+	border-radius: 12px;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button{
   	font-family:"ShureTechMono Nerd Font Mono";
-	padding: calc(10px * 1) calc(10px * 3);
+	padding: calc(8px * 1) calc(8px * 3);
 	margin:4px;
 	background-color:@cc-bg;
 	border-radius: 8px;
@@ -449,7 +449,7 @@ window > box {
 
 .widget-menubar>box>.menu-button-bar>button {
   font-size: 1.2rem;
-  border-radius:16px;
+  border-radius:12px;
   padding:16px;
   border: 2px solid @border-color;
   background: @noti-bg-hover;
@@ -499,7 +499,7 @@ window > box {
 
 .widget-volume, .widget-backlight {
 	margin:0px;
-	padding:10px calc(16px * 1.6);
+	padding:8px calc(8px * 1.6);
 	border-radius:0px;
 	border: 2px solid @border-color;
     background-color: @cc-bg;

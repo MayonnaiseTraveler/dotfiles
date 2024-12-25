@@ -7,7 +7,7 @@
 	min-width:0;
 	padding:0;
 	border-color:transparent;
-	font-size:calc(12px * 1.6);
+	font-size:calc(10px * 1.6);
 	font-weight: 600;
 }
 
@@ -17,15 +17,16 @@ window#waybar{
 }
 
 window#waybar > box {
-    background-color:rgba(10,18,27,1);
+    background-color:rgba(6,16,43,1);
 	background-clip:border-box;
-	margin: 16px 4px;
+	margin: 8px 4px;
+	padding: 1px;
 	margin-right:0;
-    color:#9fffff;
-    border-style:solid;
-    border-width:2;
-	border-radius:16 ;
-    border-color:#019599;
+    color:#fcf4ff;
+	border-style:solid;
+	border-width:2;
+	border-radius:calc(8px * 1.4);
+	border-color:#f175db; 
     color: transparent;
 }
 
@@ -43,12 +44,12 @@ window#waybar.solo {
 
 .modules-center,.modules-right,.modules-left{
 	margin:0px 0px;
-	/*border-radius:0 16px 16px 0;*/
+	/*border-radius:0 12px 12px 0;*/
 	/*border-width:2;*/
 	border-style:solid; 
 	border-left:0;
-	/*border-color:mix(rgb(6,110,113), rgb(22,42,64),0.75);*/
-	border-color:#019599;
+	/*border-color:mix(rgb(172,104,160), rgb(11,31,87),0.75);*/
+	border-color:#f175db;
 	background-color: transparent; 
 	background-clip: border-box;
 }
@@ -56,13 +57,13 @@ window#waybar.solo {
 .modules-left{
 	border-top:0; 
 	border-top-width:0; 
-	/*border-radius:0 0 16px 0;*/
+	/*border-radius:0 0 12px 0;*/
 	border-left:0;
 	padding-bottom: 8px;
 }
 
 .modules-center,.modules-right {
-	/*border-radius:0 16px 16px 0;*/
+	/*border-radius:0 12px 12px 0;*/
 	border-left:0;
 	padding: 8px 0px;
 }
@@ -70,20 +71,20 @@ window#waybar.solo {
 
 .modules-right{
 	border-bottom:0;
-	/*border-radius:0 16px 0 0;*/
+	/*border-radius:0 12px 0 0;*/
 }
 
 #custom-menu {
 	transition: 0.25s ease-in-out;
-	border-color:#01ada4;
+	border-color:#636ad1;
 	border-width:0px;
 	border-radius:8px; 
-	background-color:#01ada4;
+	background-color:#636ad1;
 	padding:0px 8px;
 	margin:4px;
 	margin-bottom:8px;
-	color:#0A121B;
-	font-size:calc(12px * 2.4);
+	color:#06102B;
+	font-size:calc(10px * 2.4);
 }
 
 #workspaces button {
@@ -96,7 +97,7 @@ window#waybar.solo {
 	border-right:0;
 	border-top:0;
 	border-bottom:0;
-	color:#77ceed;
+	color:#d4cedf;
 }
 
 #workspaces button.hidden{
@@ -104,29 +105,30 @@ window#waybar.solo {
 }
 
 #workspaces button * {
-	font-size: calc(12px * 2.2);
+	font-size: calc(10px * 2.2);
 }
 
 
 #custom-menu:hover{
-	background-color:#01cad6;
-	color:#9fffff;
+	background-color:#ffade2;
+	color:#06102B;
 }
 
 #workspaces button:hover {
-  color:#01ada4;
+  background-color:#0b1f57;
+  color:#636ad1;
 }
 
 #workspaces button.active {
-    color:#0A121B;
-	background-color:#019599;
+    color:#06102B;
+	background-color:#f175db;
 	/* border-width:2px; */
 	/* border-left:solid 2px; */
-	/* border-color:#01ada4; */
+	/* border-color:#636ad1; */
 }
 
 #workspaces button.urgent {
-	background-color:#162a40;
+	background-color:#0b1f57;
 }
 
 #mode {
@@ -137,14 +139,15 @@ window#waybar.solo {
 #traybox,
 #pulseaudio.sound,
 #pulseaudio.icon,
+#custom-hyprsunset,
 #custom-notification.icon,
 #custom-notification.count,
 #custom-powermenu{
 	transition: 0.25s ease-in-out;
     padding: 0px 0px; 
 	margin: 0px;
-    color:#77ceed;
-    border-radius:16px; 
+    color:#d4cedf;
+    border-radius:12px; 
 }
 
 #image-icon:hover,
@@ -153,26 +156,26 @@ window#waybar.solo {
 #pulseaudio.icon:hover,
 #custom-notification.icon:hover,
 #custom-notification.count:hover{
-    color:#01cad6;
+    color:#ffade2;
 }
 
 #custom-powermenu:hover{
-    color:#01cad6;
+    color:#ffade2;
 }
 
 #custom-notification.count{
 	margin:0;
 	padding:0;
-	font-size:calc(20px * 1.2);
+	font-size:calc(16px * 1.2);
 }
 
 #traybox .traycontainer{
-	background-color: mix(rgb(22,42,64), rgb(10,18,27),1);
+	background-color: mix(rgb(11,31,87), rgb(6,16,43),1);
 	border-radius:0;
 }
 
 #custom-powermenu{
-	color:#01d3ff
+	color:#ff73b4
 }
 
 #custom-notification.count,
@@ -181,19 +184,21 @@ window#waybar.solo {
 
 #custom-notification.icon,
 #custom-trayicon,
+#custom-hyprsunset,
 #pulseaudio.icon,#custom-powermenu{
-	font-size: calc(12px * 2.2);
+	font-size: calc(10px * 2.2);
 }
 
 #custom-notification.icon{
 	margin-top:0;
 	padding-top:0;
-	color:#77ceed;
+	color:#d4cedf;
 }
 
+#custom-hyprsunset,
 #custom-trayicon{
 	font-weight:700;
-	color:#77ceed;
+	color:#d4cedf;
 	transition:100ms;
 }
 
@@ -213,13 +218,13 @@ window#waybar.solo {
     min-width: 16px;
     min-height: 80px;
     border-radius: 5px;
-    background-color:rgba(10,18,27,1);
+    background-color:rgba(6,16,43,1);
 }
 #pulseaudio-slider highlight {
 	color:white;
     min-width: 16px;
     border-radius: 5px;
-    background-color:rgb(1,149,153);
+    background-color:rgb(241,117,219);
 
 }
 #image-icon,
@@ -242,14 +247,14 @@ window#waybar.solo {
 #custom-dunst,
 #mpd, 
 #mpris{
-    background-color:rgba(10,18,27,0);
+    background-color:rgba(6,16,43,0);
     padding: 0px 0px; 
     margin: 8px 0;
-    color:#9fffff;
+    color:#fcf4ff;
     /* border-style:solid; */
     /* border-width:2px; */
-    /* border-color:#162a40; */
-     border-radius:16px; 
+    /* border-color:#0b1f57; */
+     border-radius:12px; 
 
 }
 
@@ -268,17 +273,17 @@ window#waybar.solo {
 }
 
 #cava{
-	color:#019599;
-	font-size:calc(12px * 1.2);
+	color:#f175db;
+	font-size:calc(10px * 1.2);
 }
 
 #clock {
-	/* background-color:#019599; */
+	/* background-color:#f175db; */
 	font-weight:700;
 	margin:0 4px;
 	padding:4px 0;
 	border-radius:8px;
-    color: #9fffff;
+    color: #fcf4ff;
 }
 
 
@@ -325,7 +330,7 @@ label:focus {
 }
 
 #pulseaudio.muted {
-	color: mix(rgb(10,18,27),rgb(1,149,153),0.8);
+	color: mix(rgb(6,16,43),rgb(241,117,219),0.8);
 }
 
 #custom-media {
@@ -346,7 +351,7 @@ label:focus {
 }
 
 #tray > * {
-  color:#9fffff;
+  color:#fcf4ff;
 }
 
 #tray > .passive {
@@ -365,8 +370,8 @@ label:focus {
 }
 
 #mpd {
-    background-color: #0A121B;
-    color: #9fffff;
+    background-color: #06102B;
+    color: #fcf4ff;
 }
 
 
@@ -412,13 +417,13 @@ label:focus {
 }
 
 #custom-notification > * {
-	color:#9fffff;
+	color:#fcf4ff;
 }
 
 tooltip, menu, #tray menu {
-	background:rgba(10,18,27,1);
-	border: 2px solid rgb(6,110,113);
-	border-radius:16px;
+	background:rgba(6,16,43,1);
+	border: 2px solid rgb(172,104,160);
+	border-radius:12px;
 	}
 
 tooltip > box, menu, #tray menu{
@@ -433,6 +438,6 @@ tooltip * , label *, menu *, #tray menu * {
 		border-style: solid;
 		padding:2px;
 		border-radius:4px;
-		font-size:calc(12px * 1.4);
+		font-size:calc(10px * 1.4);
 	}
 

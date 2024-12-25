@@ -1,10 +1,10 @@
 window {
-    background-color: rgba (10,18,27, 1);
-    color:#9fffff;
+    background-color: rgba (6,16,43, 1);
+    color:#fcf4ff;
     border-style:solid;
     border-width:2px;
-    border-color:#019599;
-	border-radius:16px;
+    border-color:#f175db;
+	border-radius:12px;
 	padding:0;
 }
 
@@ -18,22 +18,22 @@ list box{
 }
 
 label:hover * {
-    background-color: rgba(1,149,153,1);
+    background-color: rgba(241,117,219,1);
 }
 
 label{
-	color:#9fffff;
+	color:#fcf4ff;
 }
 
 entry {
 	padding:6px;
-	color:#9fffff;
-    background-color: rgba(22,42,64,1);
+	color:#fcf4ff;
+    background-color: rgba(11,31,87,1);
 }
 
 entry:hover{
-    background-color: rgba(22,42,64, 1);
-    color: rgba(22,42,64, 1);
+    background-color: rgba(11,31,87, 1);
+    color: rgba(11,31,87, 1);
 	}
 
 button {
@@ -44,6 +44,6 @@ button {
 }
 
 button:hover {
-    background-color: rgba (22,42,64, 0.5);
-    color: rgba(22,42,64, 1);
+    background-color: rgba (11,31,87, 0.5);
+    color: rgba(11,31,87, 1);
 }

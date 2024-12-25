@@ -1,23 +1,23 @@
 /*-*- mode: css; -*-*/
 * {
-    color0:		rgba(10,18,27,1);
-    color1:		#066E71;
-    color2:		#05817B;
-    color3:		#039AA3;
-    color4:		#056D93;
-    color5:		#02A2D3;
-    color6:		#02C5B9;
-    color7:		#77ceed;
-    color8:		#162a40;
-    color9:		#019599;
-    color10:	#01ada4;
-    color11:	#01cad6;
-    color12:	#0190c4;
-    color13:	#01d3ff;
-    color14:	#01fff1;
-    color15:	#9fffff;
-    active:		#04575a;
-    inactive:	#033c3d;
+    color0:		rgba(6,16,43,1);
+    color1:		#AC68A0;
+    color2:		#585C95;
+    color3:		#EE99B5;
+    color4:		#464992;
+    color5:		#F06A92;
+    color6:		#59B1B9;
+    color7:		#d4cedf;
+    color8:		#0b1f57;
+    color9:		#f175db;
+    color10:	#636ad1;
+    color11:	#ffade2;
+    color12:	#4c51cb;
+    color13:	#ff73b4;
+    color14:	#61f4ff;
+    color15:	#fcf4ff;
+    active:		#89537f;
+    inactive:	#5e3957;
 
     background:						@color0;
     foreground:						@color15;
@@ -56,7 +56,7 @@ window {
     border-color: @active;
     border:           2px solid 2px 2px;
     border-radius:    10px;
-    padding:          10px;
+    padding:          8px;
 	margin:0;
 }
 
@@ -196,7 +196,7 @@ textbox-prompt-sep {
 }
 
 element-text, element-icon {
-	font: "Mononoki Nerd Font 12";
+	font: "Mononoki Nerd Font 10";
 	text-color: @foreground;
 	background-color: transparent;
 }

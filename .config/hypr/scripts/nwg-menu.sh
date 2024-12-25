@@ -5,7 +5,7 @@ nwg-menu \
 -term='kitty' \
 -slen 40 \
 -ml 4 \
--mt 16 \
+-mt 8 \
 -cmd-lock "$HOME/.config/hypr/scripts/power.sh lock" \
 -cmd-logout "$HOME/.config/hypr/scripts/power.sh logout" \
 -cmd-restart "$HOME/.config/hypr/scripts/power.sh reboot" \
