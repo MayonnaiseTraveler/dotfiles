@@ -218,9 +218,9 @@
 	}},
     "pulseaudio#sound": {{
         "format": "{{volume}}",
-        "format-bluetooth": "{{volume}}% {{format_source}}",
-        "format-bluetooth-muted": "off{{format_source}}",
-        "format-muted": "off{{format_source}}",
+        "format-bluetooth": "{{volume}}%",
+        "format-bluetooth-muted": "off",
+        "format-muted": "off",
         "format-source-muted": "!mic",
         "format-icons": {{
             "headphone": "",
@@ -238,7 +238,7 @@
 	"pulseaudio#icon": {{
         "format": "{{icon}}",
         "format-bluetooth": "{{icon}}",
-        "format-bluetooth-muted": "{{icon}}",
+        "format-bluetooth-muted": "{{icon}}",
         "format-muted": "󰝟",
         "format-source-muted": "",
         "format-icons": {{
