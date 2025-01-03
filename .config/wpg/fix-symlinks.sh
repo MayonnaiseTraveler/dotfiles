@@ -10,12 +10,12 @@ ln -vfs $HOME/.config/waybar/config  $XDG_CONFIG_HOME/wpg/templates/config_wayba
 ln -vfs $HOME/.config/zathura/zathurarc  $XDG_CONFIG_HOME/wpg/templates/config_zathura_zathurarc 
 ln -vfs $HOME/.local/share/themes/FlatColor2/gtk-2.0/gtkrc  $XDG_CONFIG_HOME/wpg/templates/FlatColor2_gtk-2.0_gtkrc 
 ln -vfs $HOME/.config/hypr/scripts/swaylock.sh  $XDG_CONFIG_HOME/wpg/templates/hypr_scripts_swaylock.sh 
-ln -vfs $HOME/.config/rofi/powermenu/styles/colors.rasi  $XDG_CONFIG_HOME/wpg/templates/powermenu_styles_colors.rasi 
+ln -vfs $HOME/.config/rofi/powermenu/powermenu.rasi  $XDG_CONFIG_HOME/wpg/templates/powermenu.rasi 
 ln -vfs $HOME/.config/qt5ct/colors/wpgtk.conf  $XDG_CONFIG_HOME/wpg/templates/qt5ct_colors_wpgtk.conf 
 ln -vfs $HOME/.config/qt6ct/colors/wpgtk.conf  $XDG_CONFIG_HOME/wpg/templates/qt6ct_colors_wpgtk.conf 
 ln -vfs $HOME/.config/spicetify/Themes/Comfy/color.ini  $XDG_CONFIG_HOME/wpg/templates/Themes_Comfy_color.ini 
 ln -vfs $HOME/.config/kdeglobals  $XDG_CONFIG_HOME/wpg/templates/vvn_config_kdeglobals 
-ln -vfs $HOME/.config/rofi/wpg.rasi  $XDG_CONFIG_HOME/wpg/templates/wpg.rasi 
+ln -vfs $HOME/.config/rofi/style-1.rasi  $XDG_CONFIG_HOME/wpg/templates/style-1.rasi 
 ln -vfs $HOME/.config/BetterDiscord/themes/ClearVision_v6.theme.css $XDG_CONFIG_HOME/wpg/templates/BetterDiscord_themes_ClearVision_v6.theme.css
 ln -vfs $HOME/.librewolf/*/chrome/includes/cascade-colours.css $XDG_CONFIG_HOME/wpg/templates/chrome_includes_cascade-colours.css
 
@@ -31,7 +31,6 @@ ln -vfs $HOME/.config/lvim/colors/colorscheme.lua $XDG_CONFIG_HOME/wpg/templates
 ln -vfs $HOME/SYNC/obsidian/obsidian/.obsidian/snippets/obsidian.css $XDG_CONFIG_HOME/wpg/templates/obsidian_snippets_obsidian.css
 ln -vfs $HOME/.config/kdeglobals $XDG_CONFIG_HOME/wpg/templates/traveler_config_kdeglobals
 ln -vfs $HOME/.config/vesktop/themes/ClearVision_v6.theme.css $XDG_CONFIG_HOME/wpg/templates/VencordDesktop_themes_ClearVision_v6.theme.css
-ln -vfs $HOME/.config/rofi/powermenu/card_rounded.rasi $XDG_CONFIG_HOME/wpg/templates/rofi_powermenu_card_rounded.rasi
 ln -vfs $HOME/.config/vesktop/themes/ClearVision_v6.theme.css $XDG_CONFIG_HOME/wpg/templates/vesktop_themes_ClearVision_v6.theme.css
 ln -vfs $HOME/.config/hypr/hyprlock.conf $XDG_CONFIG_HOME/wpg/templates/config_hypr_hyprlock.conf
 ln -vfs $HOME/.config/hypr/scripts/nwg-menu.sh $XDG_CONFIG_HOME/wpg/templates/hypr_scripts_nwg-menu.sh
