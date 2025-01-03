@@ -3,11 +3,15 @@ if [ -f /tmp/hyprstart.lock ]; then
 	exit 0
 fi
 
+sleep 1
+
 # get wallpaper path
 
 wall="$HOME/.config/Wallpapers/"$(wpg -c)
 
 finalwall="$wall"
+
+magick $wall[0] -quality 40 -scale 1920x1080 -gravity center -crop 1366x1080+128+0 +repage $HOME/.config/rofi/bg.png
 
 filter="Nearest"
 

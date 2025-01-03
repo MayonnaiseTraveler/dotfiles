@@ -11,6 +11,11 @@ lock (){
 	hyprlock
 	}
 
+
+hibernate (){
+	suspend
+}
+
 suspend (){
 	lock &
 	sleep 1 && sudo systemctl suspend 
@@ -20,7 +25,7 @@ shutdown (){
 	swww kill
 	killall mpd
 	killall Hyprland
-	sleep 2 && systemctl poweroff 
+	sleep 1 && systemctl poweroff 
 }
 
 reboot (){
@@ -40,5 +45,7 @@ case $1 in
 	shutdown) shutdown
 		;;
 	reboot) reboot
+		;;
+	hibernate) hibernate
 		;;
 esac
