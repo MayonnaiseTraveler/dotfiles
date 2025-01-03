@@ -1,15 +1,10 @@
 configuration {
 
 	cache-dir:"~/.config/rofi/cache/";
-	threads:3;
-	x-offset: 50;
-	y-offset: 50;
+	threads:0;
 	show-icons: true;
-	modes: "run,ssh,combi,keys";
-	display-combi: "Manda Bala";
 	auto-select: true;
-	combi-modes: "drun,filebrowser";
-	icon-theme: "flattrcolor";
+	icon-theme: "Papirus-Dark";
 	sort:true;
     sorting-method:"fzf";
 
@@ -20,15 +15,15 @@ configuration {
 	kb-mode-next: "Control+Tab,Alt+n";
 	kb-mode-previous: "Control+ISO_Left_Tab,Alt+m";
 
+	modes : "drun,run,filebrowser,window";
 	kb-accept-entry:"Control+l";
 	kb-row-up : "Control+k";
 	kb-row-down :"Control+j";
 	kb-move-char-back : "Shift+Control+h";
 	/* kb-move-char-forward: "Shift+Control+l"; */
 	terminal: "/usr/bin/kitty" ;
-	combi-display-format: "{text}";
 	filebrowser {
-	  directory:"/home/traveler/";
+	  directory:"~";
       directories-first: true;
   }
   drun {
@@ -42,4 +37,4 @@ configuration {
 
 }
 
-@theme "~/.config/rofi/wpg.rasi"
+@theme "~/.config/rofi/style-1.rasi"
