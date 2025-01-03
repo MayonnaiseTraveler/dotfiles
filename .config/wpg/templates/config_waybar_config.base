@@ -237,14 +237,14 @@
     }},
 	"pulseaudio#icon": {{
         "format": "{{icon}}",
-        "format-bluetooth": "{{icon}}",
-        "format-bluetooth-muted": "{{icon}}",
+        "format-bluetooth": "{{icon}}<sub></sub>",
+        "format-bluetooth-muted": "󰝟<sub></sub>",
         "format-muted": "󰝟",
         "format-source-muted": "",
         "format-icons": {{
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": "󱡏",
+            "headset": "󰋎",
             "phone": "",
             "portable": "",
             "car": "",

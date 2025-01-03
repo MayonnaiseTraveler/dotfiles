@@ -1,1 +1,1 @@
-/home/traveler/.config/lvim/colors/colorscheme.lua
+/home/vvn/.config/lvim/colors/colorscheme.lua
